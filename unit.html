@@ -12,6 +12,8 @@
 </head>
 <body>
 
+<div id="normalView">
+
 <div class="wrap">
   <header class="site-header">
     <div class="brand">
@@ -162,7 +164,9 @@
 
 </div>
 
-<!-- FLASHCARD OVERLAY -->
+</div><!-- /normalView -->
+
+<!-- FLASHCARD VIEW (trang riêng, url ?mode=flashcard) -->
 <div class="fc-overlay hidden" id="fcOverlay">
   <div class="fc-page">
 
@@ -177,7 +181,7 @@
         </label>
       </div>
       <button class="fc-textbtn" id="fcRestart" type="button">↺ Chơi lại</button>
-      <button class="fc-textbtn" id="fcExit" type="button">Thoát</button>
+      <a class="fc-textbtn" id="fcExit" href="#">Thoát</a>
     </div>
 
     <div class="fc-track"><div class="fc-fill" id="fcFill"></div></div>
@@ -210,7 +214,7 @@
       <div class="big">🎉</div>
       <h3>Hoàn thành!</h3>
       <p id="fcDoneText">Bạn đã ôn xong bộ thẻ này.</p>
-      <button class="fc-done-btn" id="fcDoneClose" type="button">Đóng</button>
+      <a class="fc-done-btn" id="fcDoneClose" href="#">Đóng</a>
     </div>
 
   </div>

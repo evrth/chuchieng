@@ -7,6 +7,7 @@
   const ALL_WORDS = unit.words; // nguồn dữ liệu gốc, không đổi thứ tự
 
   const STORAGE_KEY = "chuchieng:unit:" + unit.id + ":learned";
+  const EXIT_URL = "unit.html?unit=" + unit.id;
 
   // ---------- learned state ----------
   function loadLearned(){
@@ -223,12 +224,13 @@
   function startFlashcards(){
     session = getWorkingSet();
     if(session.length === 0){
-      showToast("Không có từ nào phù hợp với bộ lọc hiện tại");
+      // không có từ phù hợp bộ lọc — quay lại trang Unit và báo cho người dùng
+      sessionStorage.setItem("chuchieng:fc:empty", "1");
+      window.location.href = EXIT_URL;
       return;
     }
     sessionIndex = 0;
     flipped = false;
-    overlay.classList.remove("hidden");
     fcBody.style.display = "";
     fcDone.style.display = "none";
     fcCoin.textContent = getCoins();
@@ -236,9 +238,9 @@
     renderCard();
   }
 
-  function closeFlashcards(){
-    overlay.classList.add("hidden");
-    document.removeEventListener("keydown", onFcKeydown);
+  function closeFlashcards(e){
+    if(e) e.preventDefault();
+    window.location.href = EXIT_URL;
   }
 
   function renderCard(){
@@ -347,7 +349,6 @@
   });
 
   function onFcKeydown(e){
-    if(overlay.classList.contains("hidden")) return;
     if(e.code === "Space"){ e.preventDefault(); flipCard(); }
     else if(e.code === "ArrowLeft"){ goPrev(); }
     else if(e.code === "ArrowRight"){ goNext(); }
@@ -364,7 +365,9 @@
     fcDoneText.textContent = "Bạn đã ôn " + session.length + " từ, thuộc " + learnedCount + " từ.";
   }
 
+  document.getElementById("fcExit").href = EXIT_URL;
   document.getElementById("fcExit").addEventListener("click", closeFlashcards);
+  document.getElementById("fcDoneClose").href = EXIT_URL;
   document.getElementById("fcDoneClose").addEventListener("click", closeFlashcards);
 
   // ---------- các chế độ khác: sắp ra mắt ----------
@@ -376,11 +379,25 @@
     showToast._t = setTimeout(function(){ toast.classList.remove("show"); }, 2200);
   }
 
+  function buildFlashcardUrl(){
+    const p = new URLSearchParams();
+    p.set("unit", unit.id);
+    p.set("mode", "flashcard");
+    p.set("status", statusSelect.value);
+    p.set("qty", quantitySelect.value);
+    p.set("order", orderSelect.value);
+    return "unit.html?" + p.toString();
+  }
+
   document.querySelectorAll(".mode-card").forEach(function(card){
     card.addEventListener("click", function(){
       const mode = card.dataset.mode;
       if(mode === "flashcard"){
-        startFlashcards();
+        if(getWorkingSet().length === 0){
+          showToast("Không có từ nào phù hợp với bộ lọc hiện tại");
+          return;
+        }
+        window.location.href = buildFlashcardUrl();
       }else{
         showToast("Chế độ này sẽ được cập nhật ở giai đoạn sau 🌿");
       }
@@ -392,5 +409,23 @@
   renderHero();
   renderTable();
   updateSelectedBadge();
+
+  // ---------- chọn view: trang thường hay trang flashcard ----------
+  const initialMode = params.get("mode");
+  if(initialMode === "flashcard"){
+    if(params.has("status")) statusSelect.value = params.get("status");
+    if(params.has("qty")) quantitySelect.value = params.get("qty");
+    if(params.has("order")) orderSelect.value = params.get("order");
+    updateSelectedBadge();
+
+    document.getElementById("normalView").style.display = "none";
+    overlay.classList.remove("hidden");
+    startFlashcards();
+  }else{
+    if(sessionStorage.getItem("chuchieng:fc:empty")){
+      sessionStorage.removeItem("chuchieng:fc:empty");
+      showToast("Không có từ nào phù hợp với bộ lọc hiện tại");
+    }
+  }
 
 })();

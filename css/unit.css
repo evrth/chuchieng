@@ -347,18 +347,15 @@ table.vocab-table{
    Flashcard — trải nghiệm toàn màn hình
    ============================================ */
 .fc-overlay{
-  position:fixed;
-  inset:0;
   background:var(--cream);
-  z-index:100;
-  overflow-y:auto;
+  min-height:100vh;
 }
 .fc-overlay.hidden{ display:none; }
 .fc-page{
   max-width:640px;
   margin:0 auto;
   padding:22px 20px 40px;
-  min-height:100%;
+  min-height:100vh;
   display:flex;
   flex-direction:column;
 }
@@ -626,6 +623,8 @@ table.vocab-table{
   font-weight:800;
   cursor:pointer;
   font-size:14px;
+  display:inline-block;
+  text-decoration:none;
 }
 
 /* ---------- toast ---------- */
