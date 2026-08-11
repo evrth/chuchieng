@@ -785,6 +785,196 @@
   document.getElementById("listenDoneClose").href = EXIT_URL;
   document.getElementById("listenDoneClose").addEventListener("click", closeListening);
 
+  // ---------- chế độ học: Gõ từ (Type) ----------
+  const typeOverlay = document.getElementById("typeOverlay");
+  const typeProgressNum = document.getElementById("typeProgressNum");
+  const typeFill = document.getElementById("typeFill");
+  const typeCoin = document.getElementById("typeCoin");
+  const typeTimerText = document.getElementById("typeTimerText");
+  const typeTimerFill = document.getElementById("typeTimerFill");
+  const typeBody = document.getElementById("typeBody");
+  const typeMeaning = document.getElementById("typeMeaning");
+  const typeTypeTag = document.getElementById("typeTypeTag");
+  const typeHintArea = document.getElementById("typeHintArea");
+  const typeInput = document.getElementById("typeInput");
+  const typeActions = document.getElementById("typeActions");
+  const typeShowExample = document.getElementById("typeShowExample");
+  const typeHintBtn = document.getElementById("typeHintBtn");
+  const typeCheckBtn = document.getElementById("typeCheckBtn");
+  const typeFeedback = document.getElementById("typeFeedback");
+  const typeDone = document.getElementById("typeDone");
+  const typeDoneText = document.getElementById("typeDoneText");
+
+  const TYPE_TIME = 30;
+  const TYPE_MAX_HINTS = 3;
+  let typeSession = [];
+  let typeIndex = 0;
+  let typeCorrectCount = 0;
+  let typeTimerInterval = null;
+  let typeAnswered = false;
+  let typeHintsUsed = 0;
+  let typeExampleShown = false;
+
+  function startTypeMode(){
+    typeSession = getWorkingSet();
+    if(typeSession.length === 0){
+      sessionStorage.setItem("chuchieng:fc:empty", "1");
+      window.location.href = EXIT_URL;
+      return;
+    }
+    typeIndex = 0;
+    typeCorrectCount = 0;
+    typeBody.style.display = "";
+    typeDone.style.display = "none";
+    typeCoin.textContent = getCoins();
+    document.addEventListener("keydown", onTypeKeydown);
+    renderTypeQuestion();
+  }
+
+  function closeTypeMode(e){
+    if(e) e.preventDefault();
+    clearInterval(typeTimerInterval);
+    window.location.href = EXIT_URL;
+  }
+
+  function renderTypeQuestion(){
+    typeAnswered = false;
+    typeHintsUsed = 0;
+    typeExampleShown = false;
+
+    const w = typeSession[typeIndex];
+    typeProgressNum.textContent = "Câu " + (typeIndex + 1) + " / " + typeSession.length;
+    typeFill.style.width = Math.round((typeIndex / typeSession.length) * 100) + "%";
+
+    typeMeaning.textContent = w.meaning;
+    typeTypeTag.textContent = typeVi(w.type);
+    typeHintArea.textContent = "Chưa có gợi ý";
+    typeInput.value = "";
+    typeInput.className = "listen-input";
+    typeInput.disabled = false;
+    typeActions.style.display = "";
+    typeHintBtn.textContent = "🎯 Gợi ý (" + TYPE_MAX_HINTS + ")";
+    typeHintBtn.disabled = false;
+    typeShowExample.disabled = false;
+    typeFeedback.style.display = "none";
+
+    startTypeTimer();
+    typeInput.focus();
+  }
+
+  function startTypeTimer(){
+    clearInterval(typeTimerInterval);
+    let remaining = TYPE_TIME;
+    typeTimerText.textContent = remaining + "s";
+    typeTimerFill.style.width = "100%";
+    typeTimerFill.classList.remove("low");
+
+    typeTimerInterval = setInterval(function(){
+      remaining--;
+      typeTimerText.textContent = Math.max(remaining, 0) + "s";
+      typeTimerFill.style.width = Math.max((remaining / TYPE_TIME) * 100, 0) + "%";
+      if(remaining <= 8) typeTimerFill.classList.add("low");
+      if(remaining <= 0){
+        clearInterval(typeTimerInterval);
+        if(!typeAnswered) checkTypeAnswer();
+      }
+    }, 1000);
+  }
+
+  typeShowExample.addEventListener("click", function(){
+    if(typeExampleShown) return;
+    typeExampleShown = true;
+    const w = typeSession[typeIndex];
+    typeHintArea.innerHTML = blankExample(w);
+    typeShowExample.disabled = true;
+  });
+
+  typeHintBtn.addEventListener("click", function(){
+    if(typeHintsUsed >= TYPE_MAX_HINTS) return;
+    typeHintsUsed++;
+    const w = typeSession[typeIndex];
+    const letters = w.word.split("");
+    const revealCount = Math.min(typeHintsUsed, letters.length - 1);
+    const revealed = letters.map(function(ch, i){ return i < revealCount ? ch : "_"; }).join(" ");
+    typeHintArea.textContent = revealed;
+    const left = TYPE_MAX_HINTS - typeHintsUsed;
+    typeHintBtn.textContent = "🎯 Gợi ý (" + left + ")";
+    if(left <= 0) typeHintBtn.disabled = true;
+  });
+
+  function checkTypeAnswer(){
+    if(typeAnswered) return;
+    typeAnswered = true;
+    clearInterval(typeTimerInterval);
+
+    const w = typeSession[typeIndex];
+    const isCorrect = normalizeText(typeInput.value) === normalizeText(w.word);
+
+    setLearned(w.word, isCorrect);
+    renderTable();
+    updateSelectedBadge();
+
+    typeInput.disabled = true;
+    typeActions.style.display = "none";
+    typeFeedback.style.display = "block";
+
+    if(isCorrect){
+      typeCorrectCount++;
+      typeInput.className = "listen-input correct";
+      typeFeedback.className = "listen-feedback correct";
+      typeFeedback.textContent = "✅ Chính xác!";
+      typeCoin.textContent = addCoins(1);
+    }else{
+      typeInput.className = "listen-input wrong";
+      typeFeedback.className = "listen-feedback wrong";
+      typeFeedback.innerHTML = "❌ Chưa đúng<span class=\"correct-answer\">Đáp án: " + w.word + "</span>";
+    }
+
+    setTimeout(function(){
+      if(typeIndex < typeSession.length - 1){
+        typeIndex++;
+        renderTypeQuestion();
+      }else{
+        finishTypeMode();
+      }
+    }, 1300);
+  }
+
+  typeCheckBtn.addEventListener("click", checkTypeAnswer);
+  typeInput.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){
+      e.preventDefault();
+      checkTypeAnswer();
+    }
+  });
+
+  function onTypeKeydown(e){
+    if(e.ctrlKey && (e.key === "e" || e.key === "E")){
+      e.preventDefault();
+      typeShowExample.click();
+    }else if(e.ctrlKey && e.code === "Space"){
+      e.preventDefault();
+      typeHintBtn.click();
+    }
+  }
+
+  function finishTypeMode(){
+    typeFill.style.width = "100%";
+    typeBody.style.display = "none";
+    typeDone.style.display = "block";
+    typeDoneText.textContent = "Bạn đã gõ đúng " + typeCorrectCount + "/" + typeSession.length + " từ.";
+  }
+
+  document.getElementById("typeRestart").addEventListener("click", function(){
+    typeIndex = 0;
+    typeCorrectCount = 0;
+    renderTypeQuestion();
+  });
+  document.getElementById("typeExit").href = EXIT_URL;
+  document.getElementById("typeExit").addEventListener("click", closeTypeMode);
+  document.getElementById("typeDoneClose").href = EXIT_URL;
+  document.getElementById("typeDoneClose").addEventListener("click", closeTypeMode);
+
   // ---------- các chế độ khác: sắp ra mắt ----------
   function showToast(msg){
     const toast = document.getElementById("toast");
@@ -807,7 +997,7 @@
   document.querySelectorAll(".mode-card").forEach(function(card){
     card.addEventListener("click", function(){
       const mode = card.dataset.mode;
-      if(mode === "flashcard" || mode === "quiz" || mode === "listening"){
+      if(mode === "flashcard" || mode === "quiz" || mode === "listening" || mode === "type"){
         if(getWorkingSet().length === 0){
           showToast("Không có từ nào phù hợp với bộ lọc hiện tại");
           return;
@@ -827,7 +1017,7 @@
 
   // ---------- chọn view: trang thường, flashcard hay quiz ----------
   const initialMode = params.get("mode");
-  if(initialMode === "flashcard" || initialMode === "quiz" || initialMode === "listening"){
+  if(initialMode === "flashcard" || initialMode === "quiz" || initialMode === "listening" || initialMode === "type"){
     if(params.has("status")) statusSelect.value = params.get("status");
     if(params.has("qty")) quantitySelect.value = params.get("qty");
     if(params.has("order")) orderSelect.value = params.get("order");
@@ -840,9 +1030,12 @@
     }else if(initialMode === "quiz"){
       quizOverlay.classList.remove("hidden");
       startQuiz();
-    }else{
+    }else if(initialMode === "listening"){
       listenOverlay.classList.remove("hidden");
       startListening();
+    }else{
+      typeOverlay.classList.remove("hidden");
+      startTypeMode();
     }
   }else{
     if(sessionStorage.getItem("chuchieng:fc:empty")){

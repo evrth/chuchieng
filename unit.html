@@ -313,6 +313,55 @@
   </div>
 </div>
 
+<!-- TYPE VIEW (trang riêng, url ?mode=type) -->
+<div class="fc-overlay hidden" id="typeOverlay">
+  <div class="fc-page">
+
+    <div class="fc-topbar">
+      <div class="fc-progress-num" id="typeProgressNum">Câu 1 / 10</div>
+      <div class="fc-toggle-wrap">
+        <button class="fc-textbtn" id="typeRestart" type="button">↺ Chơi lại</button>
+        <a class="fc-textbtn" id="typeExit" href="#">Thoát</a>
+      </div>
+    </div>
+
+    <div class="fc-track"><div class="fc-fill" id="typeFill"></div></div>
+
+    <div class="quiz-timerrow">
+      <div class="fc-coin">🪙 <span id="typeCoin">0</span></div>
+      <div class="quiz-timer-text" id="typeTimerText">30s</div>
+      <div class="quiz-timer-track"><div class="quiz-timer-fill" id="typeTimerFill"></div></div>
+    </div>
+
+    <div id="typeBody">
+      <div class="listen-card">
+        <h3 class="listen-title type-meaning" id="typeMeaning">Nghĩa</h3>
+        <span class="type-tag" id="typeTypeTag"></span>
+
+        <div class="listen-hint-area" id="typeHintArea">Chưa có gợi ý</div>
+
+        <input type="text" class="listen-input" id="typeInput" placeholder="Gõ từ tiếng Anh..." autocomplete="off" autocapitalize="off" spellcheck="false">
+
+        <div class="listen-actions" id="typeActions">
+          <button class="listen-action-btn" id="typeShowExample" type="button">📝 Xem ví dụ<small>Ctrl+E</small></button>
+          <button class="listen-action-btn" id="typeHintBtn" type="button">🎯 Gợi ý (3)<small>Ctrl+Space</small></button>
+          <button class="listen-check-btn" id="typeCheckBtn" type="button">Kiểm tra<small>Enter</small></button>
+        </div>
+
+        <div class="listen-feedback" id="typeFeedback" style="display:none;"></div>
+      </div>
+    </div>
+
+    <div class="fc-done" id="typeDone" style="display:none;">
+      <div class="big">⌨️</div>
+      <h3>Hoàn thành Gõ từ!</h3>
+      <p id="typeDoneText">Bạn đã gõ đúng ... từ.</p>
+      <a class="fc-done-btn" id="typeDoneClose" href="#">Đóng</a>
+    </div>
+
+  </div>
+</div>
+
 <script src="js/vocab-data.js"></script>
 <script src="js/unit.js"></script>
 </body>
