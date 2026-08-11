@@ -164,27 +164,55 @@
 
 <!-- FLASHCARD OVERLAY -->
 <div class="fc-overlay hidden" id="fcOverlay">
-  <div class="fc-modal">
-    <div class="fc-top">
-      <span class="fc-progress-text" id="fcProgressText">1/10</span>
-      <button class="fc-close" id="fcClose" type="button" aria-label="Đóng">✕</button>
+  <div class="fc-page">
+
+    <div class="fc-topbar">
+      <div class="fc-coin">🪙 <span id="fcCoin">0</span></div>
+      <div class="fc-progress-num" id="fcProgressNum">1 / 10</div>
+      <div class="fc-toggle-wrap">
+        <span>Từ → Nghĩa</span>
+        <label class="toggle-switch small">
+          <input type="checkbox" id="fcDirectionToggle">
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+      <button class="fc-textbtn" id="fcRestart" type="button">↺ Chơi lại</button>
+      <button class="fc-textbtn" id="fcExit" type="button">Thoát</button>
     </div>
+
     <div class="fc-track"><div class="fc-fill" id="fcFill"></div></div>
 
     <div id="fcBody">
-      <div class="fc-card" id="fcCard"></div>
-      <div class="fc-actions" id="fcActions">
-        <button class="fc-btn no" type="button">❌ Chưa thuộc</button>
-        <button class="fc-btn yes" type="button">✅ Đã thuộc</button>
+      <div class="fc-card-wrap">
+        <div class="fc-card" id="fcCard"></div>
+      </div>
+
+      <div class="fc-controls">
+        <button class="fc-ctrl-btn" id="fcPrev" type="button">
+          <span class="ico">‹</span><label>Trước</label><small>Phím ←</small>
+        </button>
+        <button class="fc-speak-circle" id="fcSpeak" type="button" aria-label="Phát âm">
+          🔊<small>Phím S</small>
+        </button>
+        <button class="fc-mark-pill forget" id="fcForget" type="button">
+          ✕ Quên<small>Phím 1/X</small>
+        </button>
+        <button class="fc-mark-pill known" id="fcKnown" type="button">
+          ✓ Thuộc<small>Phím 2/C</small>
+        </button>
+        <button class="fc-ctrl-btn" id="fcNext" type="button">
+          <span class="ico">›</span><label>Tiếp</label><small>Phím →</small>
+        </button>
       </div>
     </div>
 
     <div class="fc-done" id="fcDone" style="display:none;">
       <div class="big">🎉</div>
       <h3>Hoàn thành!</h3>
-      <p>Bạn đã ôn xong bộ thẻ này.</p>
+      <p id="fcDoneText">Bạn đã ôn xong bộ thẻ này.</p>
       <button class="fc-done-btn" id="fcDoneClose" type="button">Đóng</button>
     </div>
+
   </div>
 </div>
 

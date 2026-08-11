@@ -343,52 +343,82 @@ table.vocab-table{
   font-weight:700;
 }
 
-/* ---------- flashcard overlay ---------- */
+/* ============================================
+   Flashcard — trải nghiệm toàn màn hình
+   ============================================ */
 .fc-overlay{
   position:fixed;
   inset:0;
-  background:rgba(51,69,47,0.55);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:20px;
+  background:var(--cream);
   z-index:100;
+  overflow-y:auto;
 }
 .fc-overlay.hidden{ display:none; }
-.fc-modal{
-  background:var(--cream);
-  border-radius:var(--radius-lg);
-  padding:26px;
-  max-width:460px;
-  width:100%;
-  box-shadow:0 30px 60px -20px rgba(0,0,0,0.4);
+.fc-page{
+  max-width:640px;
+  margin:0 auto;
+  padding:22px 20px 40px;
+  min-height:100%;
+  display:flex;
+  flex-direction:column;
 }
-.fc-top{
+
+/* ---------- top bar ---------- */
+.fc-topbar{
   display:flex;
   align-items:center;
-  justify-content:space-between;
-  margin-bottom:16px;
+  gap:14px;
+  flex-wrap:wrap;
+  margin-bottom:14px;
 }
-.fc-progress-text{
+.fc-coin{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  background:var(--card);
+  padding:8px 14px;
+  border-radius:999px;
+  font-weight:900;
+  font-size:13.5px;
+  color:var(--forest);
+  box-shadow:var(--shadow-tiny);
+}
+.fc-progress-num{
+  font-weight:800;
+  font-size:13.5px;
+  color:var(--ink-soft);
+}
+.fc-toggle-wrap{
+  display:flex;
+  align-items:center;
+  gap:8px;
   font-size:12.5px;
   font-weight:800;
   color:var(--ink-soft);
+  margin-left:auto;
 }
-.fc-close{
-  width:30px;height:30px;
-  border-radius:50%;
+.toggle-switch.small{ width:36px; height:20px; }
+.toggle-switch.small .toggle-slider::before{ width:14px; height:14px; left:3px; top:3px; }
+.toggle-switch.small input:checked + .toggle-slider::before{ transform:translateX(16px); }
+
+.fc-textbtn{
   border:none;
-  background:var(--card);
+  background:none;
+  font-family:'Nunito',sans-serif;
+  font-weight:800;
+  font-size:13px;
   color:var(--forest);
-  font-size:15px;
   cursor:pointer;
+  padding:6px 4px;
 }
+.fc-textbtn:hover{ text-decoration:underline; }
+
 .fc-track{
-  height:6px;
+  height:8px;
   background:var(--sage-light);
   border-radius:999px;
   overflow:hidden;
-  margin-bottom:20px;
+  margin-bottom:26px;
 }
 .fc-fill{
   height:100%;
@@ -396,100 +426,198 @@ table.vocab-table{
   border-radius:999px;
   transition:width .3s ease;
 }
+
+/* ---------- card ---------- */
+.fc-card-wrap{
+  flex:1;
+  display:flex;
+  align-items:center;
+  margin-bottom:28px;
+}
 .fc-card{
-  background:var(--card);
-  border-radius:20px;
-  min-height:220px;
+  width:100%;
+  min-height:300px;
+  border-radius:28px;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  gap:12px;
-  padding:26px;
+  gap:16px;
+  padding:36px 28px;
   text-align:center;
   cursor:pointer;
-  box-shadow:var(--shadow-tiny);
-  margin-bottom:18px;
-}
-.fc-card .fc-type{
-  font-size:10.5px;
-  font-weight:800;
-  padding:4px 10px;
-  border-radius:999px;
-  background:var(--sage-light);
-  color:var(--forest);
-}
-.fc-card .fc-word{
-  font-size:26px;
-  font-weight:900;
-  color:var(--forest);
-}
-.fc-card .fc-ipa{
-  font-size:13px;
-  color:var(--ink-soft);
-  font-weight:700;
-}
-.fc-card .fc-meaning{
-  font-size:19px;
-  font-weight:800;
-  color:var(--forest);
-}
-.fc-card .fc-example{
-  font-size:13px;
-  color:var(--ink-soft);
-  font-weight:600;
-  max-width:340px;
-}
-.fc-hint{
-  font-size:11.5px;
-  color:var(--ink-soft);
-  opacity:.7;
-  font-weight:700;
-}
-.fc-actions{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:12px;
-}
-.fc-btn{
-  padding:13px;
-  border-radius:14px;
-  border:none;
-  font-family:'Nunito',sans-serif;
-  font-weight:800;
-  font-size:14px;
-  cursor:pointer;
+  color:#fff;
+  position:relative;
+  box-shadow:0 20px 40px -18px rgba(51,69,47,0.35);
+  background:linear-gradient(150deg,var(--sage) 0%,#6E8C56 100%);
   transition:transform .15s ease;
 }
-.fc-btn:active{ transform:scale(0.97); }
-.fc-btn.no{
-  background:#F5D9D3;
-  color:#B04A38;
+.fc-card:active{ transform:scale(0.99); }
+.fc-card.back{
+  background:linear-gradient(150deg,var(--mint) 0%,#4E9A82 100%);
 }
-.fc-btn.yes{
-  background:var(--sage);
+.fc-type-pill{
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.4px;
+  padding:6px 14px;
+  border-radius:999px;
+  background:rgba(255,255,255,0.25);
+}
+.fc-word-big{
+  font-size:34px;
+  font-weight:900;
+  line-height:1.2;
+  word-break:break-word;
+}
+.fc-ipa-big{
+  font-size:15px;
+  font-weight:700;
+  opacity:.9;
+}
+.fc-card-speak{
+  width:38px;height:38px;
+  border-radius:50%;
+  border:none;
+  background:rgba(255,255,255,0.25);
   color:#fff;
+  font-size:16px;
+  cursor:pointer;
 }
+.fc-card-speak:hover{ background:rgba(255,255,255,0.4); }
+.fc-hint-bottom{
+  position:absolute;
+  bottom:18px;
+  left:0; right:0;
+  font-size:11.5px;
+  font-weight:700;
+  opacity:.85;
+}
+
+.fc-answer-label{
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.5px;
+  opacity:.85;
+}
+.fc-meaning-box{
+  background:rgba(255,255,255,0.22);
+  border-radius:16px;
+  padding:16px 20px;
+  font-size:22px;
+  font-weight:900;
+  width:100%;
+}
+.fc-example-box{
+  background:rgba(255,255,255,0.16);
+  border-radius:16px;
+  padding:14px 18px;
+  width:100%;
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  font-size:13.5px;
+  font-weight:600;
+  text-align:left;
+  line-height:1.5;
+}
+.fc-example-box .example-speak{
+  flex-shrink:0;
+  background:none;
+  border:none;
+  color:#fff;
+  font-size:14px;
+  cursor:pointer;
+  margin-top:1px;
+}
+.fc-example-vi{
+  opacity:.85;
+  font-size:12.5px;
+  margin-top:4px;
+}
+
+/* ---------- bottom controls ---------- */
+.fc-controls{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+}
+.fc-ctrl-btn{
+  background:none;
+  border:none;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:2px;
+  cursor:pointer;
+  color:var(--forest);
+  font-family:'Nunito',sans-serif;
+  padding:6px 10px;
+}
+.fc-ctrl-btn .ico{ font-size:20px; }
+.fc-ctrl-btn label{ font-size:12.5px; font-weight:800; cursor:pointer; }
+.fc-ctrl-btn small{ font-size:10px; color:var(--ink-soft); opacity:.7; font-weight:700; }
+.fc-ctrl-btn:disabled{ opacity:.35; cursor:default; }
+
+.fc-speak-circle{
+  width:52px;height:52px;
+  border-radius:50%;
+  border:none;
+  background:var(--sage-light);
+  color:var(--forest);
+  font-size:19px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:1px;
+}
+.fc-speak-circle small{ font-size:8px; font-weight:800; opacity:.7; }
+
+.fc-mark-pill{
+  border:none;
+  border-radius:999px;
+  padding:12px 20px;
+  font-family:'Nunito',sans-serif;
+  font-weight:900;
+  font-size:13.5px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:2px;
+  color:#fff;
+  transition:transform .15s ease;
+}
+.fc-mark-pill:active{ transform:scale(0.96); }
+.fc-mark-pill small{ font-size:9.5px; font-weight:700; opacity:.85; }
+.fc-mark-pill.forget{ background:#D9776A; }
+.fc-mark-pill.known{ background:var(--sage); }
+
+/* ---------- done screen ---------- */
 .fc-done{
   text-align:center;
-  padding:10px 4px 4px;
+  padding:60px 10px 10px;
 }
 .fc-done .big{
-  font-size:36px;
-  margin-bottom:8px;
+  font-size:44px;
+  margin-bottom:10px;
 }
 .fc-done h3{
   color:var(--forest);
   margin:0 0 6px;
+  font-size:20px;
 }
 .fc-done p{
   color:var(--ink-soft);
   font-weight:600;
-  font-size:13.5px;
-  margin:0 0 18px;
+  font-size:14px;
+  margin:0 0 22px;
 }
 .fc-done-btn{
-  padding:12px 24px;
+  padding:13px 28px;
   border-radius:999px;
   border:none;
   background:var(--forest);
@@ -497,6 +625,7 @@ table.vocab-table{
   font-family:'Nunito',sans-serif;
   font-weight:800;
   cursor:pointer;
+  font-size:14px;
 }
 
 /* ---------- toast ---------- */

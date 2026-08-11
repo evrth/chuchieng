@@ -58,7 +58,7 @@
     allOpt.value = "all";
     allOpt.textContent = "Tất cả (" + total + " từ)";
     quantitySelect.appendChild(allOpt);
-    quantitySelect.value = opts.length ? opts[opts.length - 1] : "all";
+    quantitySelect.value = "all";
   }
 
   function getWorkingSet(){
@@ -184,14 +184,37 @@
   searchInput.addEventListener("input", renderTable);
   tableFilter.addEventListener("change", renderTable);
 
+  // ---------- nhãn loại từ tiếng Việt ----------
+  const TYPE_VI = {
+    "Noun": "Danh từ", "Verb": "Động từ", "Adjective": "Tính từ", "Adverb": "Trạng từ",
+    "Preposition": "Giới từ", "Conjunction": "Liên từ", "Pronoun": "Đại từ",
+    "Phrasal verb": "Cụm động từ", "Determiner": "Từ hạn định", "Interjection": "Thán từ"
+  };
+  function typeVi(t){ return TYPE_VI[t] || t; }
+
+  // ---------- xu (coin) ----------
+  const COIN_KEY = "chuchieng:coins";
+  function getCoins(){
+    try{ return parseInt(localStorage.getItem(COIN_KEY), 10) || 0; }catch(e){ return 0; }
+  }
+  function addCoins(n){
+    const total = getCoins() + n;
+    try{ localStorage.setItem(COIN_KEY, String(total)); }catch(e){}
+    return total;
+  }
+
   // ---------- chế độ học: Flashcard ----------
   const overlay = document.getElementById("fcOverlay");
   const fcCard = document.getElementById("fcCard");
-  const fcProgressText = document.getElementById("fcProgressText");
+  const fcProgressNum = document.getElementById("fcProgressNum");
   const fcFill = document.getElementById("fcFill");
-  const fcActions = document.getElementById("fcActions");
+  const fcCoin = document.getElementById("fcCoin");
   const fcDone = document.getElementById("fcDone");
+  const fcDoneText = document.getElementById("fcDoneText");
   const fcBody = document.getElementById("fcBody");
+  const fcDirectionToggle = document.getElementById("fcDirectionToggle");
+  const fcPrevBtn = document.getElementById("fcPrev");
+  const fcNextBtn = document.getElementById("fcNext");
 
   let session = [];
   let sessionIndex = 0;
@@ -208,65 +231,141 @@
     overlay.classList.remove("hidden");
     fcBody.style.display = "";
     fcDone.style.display = "none";
+    fcCoin.textContent = getCoins();
+    document.addEventListener("keydown", onFcKeydown);
     renderCard();
+  }
+
+  function closeFlashcards(){
+    overlay.classList.add("hidden");
+    document.removeEventListener("keydown", onFcKeydown);
   }
 
   function renderCard(){
     const w = session[sessionIndex];
-    fcProgressText.textContent = (sessionIndex + 1) + "/" + session.length;
-    fcFill.style.width = Math.round(((sessionIndex) / session.length) * 100) + "%";
+    fcProgressNum.textContent = (sessionIndex + 1) + " / " + session.length;
+    fcFill.style.width = Math.round((sessionIndex / session.length) * 100) + "%";
+    fcPrevBtn.disabled = sessionIndex === 0;
     flipped = false;
     renderCardFace(w);
   }
 
+  // showWordFirst: true = mặt trước hiện Từ, mặt sau hiện Nghĩa (mặc định)
+  //                false = đảo ngược (khi bật toggle "Từ → Nghĩa")
+  function frontIsWord(){ return !fcDirectionToggle.checked; }
+
   function renderCardFace(w){
-    if(!flipped){
+    const wordFirst = frontIsWord();
+    const showingWord = flipped ? !wordFirst : wordFirst;
+
+    if(showingWord){
+      fcCard.className = "fc-card";
       fcCard.innerHTML =
-        '<span class="fc-type">' + w.type + '</span>' +
-        '<div class="fc-word">' + w.word + '</div>' +
-        '<div class="fc-ipa">' + w.ipa + '</div>' +
-        '<div class="fc-hint">Chạm để xem nghĩa</div>';
+        '<span class="fc-type-pill">' + typeVi(w.type).toUpperCase() + '</span>' +
+        '<div class="fc-word-big">' + w.word + '</div>' +
+        '<div class="fc-ipa-big">' + w.ipa + '</div>' +
+        '<button class="fc-card-speak" id="fcCardSpeak" type="button" aria-label="Phát âm">🔊</button>' +
+        '<div class="fc-hint-bottom">Nhấn Space hoặc click để lật</div>';
     }else{
+      fcCard.className = "fc-card back";
       fcCard.innerHTML =
-        '<div class="fc-meaning">' + w.meaning + '</div>' +
-        '<div class="fc-example">' + w.example + '<br>' + w.exampleVi + '</div>' +
-        '<div class="fc-hint">Chạm để xem lại từ</div>';
+        '<div class="fc-answer-label">ĐÁP ÁN ĐẦY ĐỦ</div>' +
+        '<div class="fc-meaning-box">' + w.meaning + '</div>' +
+        '<div class="fc-example-box">' +
+          '<button class="example-speak" id="fcExampleSpeak" type="button" aria-label="Nghe ví dụ">🔊</button>' +
+          '<div><div>Ví dụ: ' + w.example + '</div><div class="fc-example-vi">' + w.exampleVi + '</div></div>' +
+        '</div>' +
+        '<div class="fc-hint-bottom">Nhấn Space hoặc click để lật lại</div>';
+
+      const exSpeakBtn = document.getElementById("fcExampleSpeak");
+      if(exSpeakBtn) exSpeakBtn.addEventListener("click", function(e){
+        e.stopPropagation();
+        speak(w.example);
+      });
     }
+
+    const cardSpeakBtn = document.getElementById("fcCardSpeak");
+    if(cardSpeakBtn) cardSpeakBtn.addEventListener("click", function(e){
+      e.stopPropagation();
+      speak(w.word);
+    });
+
+    // tự động phát âm mỗi khi lật thẻ
+    speak(w.word);
   }
 
-  fcCard.addEventListener("click", function(){
+  function flipCard(){
     flipped = !flipped;
     renderCardFace(session[sessionIndex]);
-  });
+  }
 
-  fcActions.addEventListener("click", function(e){
-    const btn = e.target.closest(".fc-btn");
-    if(!btn) return;
-    const w = session[sessionIndex];
-    setLearned(w.word, btn.classList.contains("yes"));
-    renderTable();
-    updateSelectedBadge();
+  fcCard.addEventListener("click", flipCard);
 
+  function goPrev(){
+    if(sessionIndex > 0){
+      sessionIndex--;
+      renderCard();
+    }
+  }
+  function goNext(){
     if(sessionIndex < session.length - 1){
       sessionIndex++;
       renderCard();
     }else{
       finishSession();
     }
+  }
+
+  fcPrevBtn.addEventListener("click", goPrev);
+  fcNextBtn.addEventListener("click", goNext);
+
+  fcDirectionToggle.addEventListener("change", function(){
+    if(session.length) renderCard();
   });
+
+  function markCard(known){
+    const w = session[sessionIndex];
+    setLearned(w.word, known);
+    renderTable();
+    updateSelectedBadge();
+    if(known){
+      fcCoin.textContent = addCoins(1);
+    }
+  }
+
+  document.getElementById("fcForget").addEventListener("click", function(){ markCard(false); });
+  document.getElementById("fcKnown").addEventListener("click", function(){ markCard(true); });
+
+  document.getElementById("fcSpeak").addEventListener("click", function(){
+    speak(session[sessionIndex].word);
+  });
+
+  document.getElementById("fcRestart").addEventListener("click", function(){
+    sessionIndex = 0;
+    flipped = false;
+    renderCard();
+  });
+
+  function onFcKeydown(e){
+    if(overlay.classList.contains("hidden")) return;
+    if(e.code === "Space"){ e.preventDefault(); flipCard(); }
+    else if(e.code === "ArrowLeft"){ goPrev(); }
+    else if(e.code === "ArrowRight"){ goNext(); }
+    else if(e.key === "s" || e.key === "S"){ speak(session[sessionIndex].word); }
+    else if(e.key === "1" || e.key === "x" || e.key === "X"){ markCard(false); }
+    else if(e.key === "2" || e.key === "c" || e.key === "C"){ markCard(true); }
+  }
 
   function finishSession(){
     fcFill.style.width = "100%";
     fcBody.style.display = "none";
     fcDone.style.display = "block";
+    const learnedCount = session.filter(function(w){ return isLearned(w.word); }).length;
+    fcDoneText.textContent = "Bạn đã ôn " + session.length + " từ, thuộc " + learnedCount + " từ.";
   }
 
-  document.getElementById("fcClose").addEventListener("click", function(){
-    overlay.classList.add("hidden");
-  });
-  document.getElementById("fcDoneClose").addEventListener("click", function(){
-    overlay.classList.add("hidden");
-  });
+  document.getElementById("fcExit").addEventListener("click", closeFlashcards);
+  document.getElementById("fcDoneClose").addEventListener("click", closeFlashcards);
 
   // ---------- các chế độ khác: sắp ra mắt ----------
   function showToast(msg){
