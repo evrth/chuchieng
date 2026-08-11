@@ -975,6 +975,285 @@
   document.getElementById("typeDoneClose").href = EXIT_URL;
   document.getElementById("typeDoneClose").addEventListener("click", closeTypeMode);
 
+  // ---------- chế độ học: Ghép cặp (Match) ----------
+  const matchOverlay = document.getElementById("matchOverlay");
+  const matchProgressNum = document.getElementById("matchProgressNum");
+  const matchFill = document.getElementById("matchFill");
+  const matchCoin = document.getElementById("matchCoin");
+  const matchTimerText = document.getElementById("matchTimerText");
+  const matchTimerFill = document.getElementById("matchTimerFill");
+  const matchBody = document.getElementById("matchBody");
+  const matchHearts = document.getElementById("matchHearts");
+  const matchTimerBadge = document.getElementById("matchTimerBadge");
+  const matchLeftCol = document.getElementById("matchLeftCol");
+  const matchRightCol = document.getElementById("matchRightCol");
+  const matchFooterCount = document.getElementById("matchFooterCount");
+  const matchDone = document.getElementById("matchDone");
+  const matchDoneText = document.getElementById("matchDoneText");
+  const matchDetailBanner = document.getElementById("matchDetailBanner");
+
+  const MATCH_ROUND_SIZE = 8;
+  const MATCH_TIME = 30;
+  const MATCH_MAX_HEARTS = 5;
+
+  let matchWords = [];
+  let matchLeftItems = [];
+  let matchRightItems = [];
+  let matchMatchedCount = 0;
+  let matchHeartsLeft = MATCH_MAX_HEARTS;
+  let matchTimerInterval = null;
+  let matchTimeRemaining = MATCH_TIME;
+  let matchSelectedLeft = null;
+  let matchSelectedRight = null;
+  let matchLocked = false; // khóa thao tác trong lúc xử lý kết quả / banner
+
+  function shuffleArr(arr){
+    const a = arr.slice();
+    for(let i = a.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      const tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+    }
+    return a;
+  }
+
+  function startMatch(){
+    const words = getWorkingSet();
+    if(words.length < 2){
+      sessionStorage.setItem("chuchieng:fc:empty", "1");
+      window.location.href = EXIT_URL;
+      return;
+    }
+    matchWords = words.slice(0, MATCH_ROUND_SIZE);
+    matchCoin.textContent = getCoins();
+    matchBody.style.display = "";
+    matchDone.style.display = "none";
+    setupMatchRound();
+  }
+
+  function closeMatch(e){
+    if(e) e.preventDefault();
+    clearInterval(matchTimerInterval);
+    window.location.href = EXIT_URL;
+  }
+
+  function setupMatchRound(){
+    matchMatchedCount = 0;
+    matchHeartsLeft = MATCH_MAX_HEARTS;
+    matchSelectedLeft = null;
+    matchSelectedRight = null;
+    matchLocked = false;
+    matchDetailBanner.classList.add("hidden");
+
+    matchLeftItems = shuffleArr(matchWords);
+    matchRightItems = shuffleArr(matchWords);
+
+    renderMatchHearts();
+    renderMatchColumns();
+    updateMatchProgress();
+    startMatchTimer();
+  }
+
+  function renderMatchHearts(){
+    let html = "";
+    for(let i = 0; i < MATCH_MAX_HEARTS; i++){
+      html += i < matchHeartsLeft ? "❤️" : '<span class="heart-empty">🤍</span>';
+    }
+    matchHearts.innerHTML = html;
+  }
+
+  function updateMatchProgress(){
+    matchProgressNum.textContent = "Đã ghép " + matchMatchedCount + " / " + matchWords.length;
+    matchFooterCount.textContent = "Đã ghép: " + matchMatchedCount + "/" + matchWords.length;
+    matchFill.style.width = Math.round((matchMatchedCount / matchWords.length) * 100) + "%";
+  }
+
+  function renderMatchColumns(){
+    matchLeftCol.innerHTML = "";
+    matchRightCol.innerHTML = "";
+
+    matchLeftItems.forEach(function(w){
+      const el = document.createElement("div");
+      el.className = "match-item";
+      el.dataset.word = w.word;
+      el.textContent = w.word;
+      el.addEventListener("click", function(){ selectMatchItem("left", w, el); });
+      matchLeftCol.appendChild(el);
+    });
+
+    matchRightItems.forEach(function(w){
+      const el = document.createElement("div");
+      el.className = "match-item";
+      el.dataset.word = w.word;
+      el.textContent = w.meaning;
+      el.addEventListener("click", function(){ selectMatchItem("right", w, el); });
+      matchRightCol.appendChild(el);
+    });
+  }
+
+  function selectMatchItem(side, w, el){
+    if(matchLocked || el.classList.contains("matched")) return;
+
+    if(side === "left"){
+      if(matchSelectedLeft && matchSelectedLeft.el === el){
+        matchSelectedLeft.el.classList.remove("selected");
+        matchSelectedLeft = null;
+        return;
+      }
+      if(matchSelectedLeft) matchSelectedLeft.el.classList.remove("selected");
+      matchSelectedLeft = { word: w, el: el };
+      el.classList.add("selected");
+    }else{
+      if(matchSelectedRight && matchSelectedRight.el === el){
+        matchSelectedRight.el.classList.remove("selected");
+        matchSelectedRight = null;
+        return;
+      }
+      if(matchSelectedRight) matchSelectedRight.el.classList.remove("selected");
+      matchSelectedRight = { word: w, el: el };
+      el.classList.add("selected");
+    }
+
+    if(matchSelectedLeft && matchSelectedRight){
+      evaluateMatchPair();
+    }
+  }
+
+  function evaluateMatchPair(){
+    matchLocked = true;
+    const left = matchSelectedLeft;
+    const right = matchSelectedRight;
+    const isCorrect = left.word.word === right.word.word;
+
+    if(isCorrect){
+      setLearned(left.word.word, true);
+      renderTable();
+      updateSelectedBadge();
+
+      left.el.classList.add("matched");
+      right.el.classList.add("matched");
+      matchMatchedCount++;
+      updateMatchProgress();
+      matchCoin.textContent = addCoins(1);
+
+      matchSelectedLeft = null;
+      matchSelectedRight = null;
+
+      resetMatchTimer();
+      showMatchDetailBanner(left.word, function(){
+        matchLocked = false;
+        if(matchMatchedCount >= matchWords.length){
+          finishMatch();
+        }
+      });
+    }else{
+      left.el.classList.add("wrong-flash");
+      right.el.classList.add("wrong-flash");
+      showToast("Chưa đúng, thử lại!");
+
+      setTimeout(function(){
+        left.el.classList.remove("selected", "wrong-flash");
+        right.el.classList.remove("selected", "wrong-flash");
+        matchSelectedLeft = null;
+        matchSelectedRight = null;
+        matchLocked = false;
+      }, 550);
+
+      loseMatchHeart();
+    }
+  }
+
+  function loseMatchHeart(){
+    matchHeartsLeft--;
+    renderMatchHearts();
+    if(matchHeartsLeft <= 0){
+      clearInterval(matchTimerInterval);
+      showToast("Hết lượt! Chơi lại từ đầu 🔁");
+      setTimeout(function(){ setupMatchRound(); }, 900);
+    }
+  }
+
+  function startMatchTimer(){
+    clearInterval(matchTimerInterval);
+    matchTimeRemaining = MATCH_TIME;
+    updateMatchTimerDisplay();
+    matchTimerInterval = setInterval(function(){
+      matchTimeRemaining--;
+      updateMatchTimerDisplay();
+      if(matchTimeRemaining <= 0){
+        clearInterval(matchTimerInterval);
+        showToast("Hết giờ!");
+        loseMatchHeart();
+        if(matchHeartsLeft > 0) startMatchTimer();
+      }
+    }, 1000);
+  }
+
+  function resetMatchTimer(){
+    clearInterval(matchTimerInterval);
+    startMatchTimer();
+  }
+
+  function updateMatchTimerDisplay(){
+    const t = Math.max(matchTimeRemaining, 0);
+    matchTimerText.textContent = t + "s";
+    matchTimerFill.style.width = Math.max((t / MATCH_TIME) * 100, 0) + "%";
+    matchTimerBadge.textContent = "⏱ " + t + "S";
+    const low = t <= 8;
+    matchTimerFill.classList.toggle("low", low);
+    matchTimerBadge.classList.toggle("low", low);
+  }
+
+  function showMatchDetailBanner(w, onDone){
+    document.getElementById("matchDetailWord").textContent = w.word;
+    document.getElementById("matchDetailType").textContent = "(" + typeVi(w.type).toLowerCase() + ")";
+    document.getElementById("matchDetailIpa").textContent = w.ipa;
+    document.getElementById("matchDetailMeaning").textContent = w.meaning;
+    document.getElementById("matchDetailExample").textContent = w.example;
+    matchDetailBanner.classList.remove("hidden");
+    speak(w.word);
+
+    const countdownEl = document.getElementById("matchDetailCountdown");
+    let secs = 2;
+    countdownEl.textContent = secs;
+    const tick = setInterval(function(){
+      secs--;
+      if(secs <= 0){
+        clearInterval(tick);
+        hideMatchDetailBanner();
+        if(onDone) onDone();
+      }else{
+        countdownEl.textContent = secs;
+      }
+    }, 1000);
+
+    document.getElementById("matchDetailSpeak").onclick = function(){ speak(w.word); };
+    document.getElementById("matchDetailExampleSpeak").onclick = function(){ speak(w.example); };
+    document.getElementById("matchDetailContinue").onclick = function(){
+      clearInterval(tick);
+      hideMatchDetailBanner();
+      if(onDone) onDone();
+    };
+  }
+
+  function hideMatchDetailBanner(){
+    matchDetailBanner.classList.add("hidden");
+  }
+
+  function finishMatch(){
+    clearInterval(matchTimerInterval);
+    matchBody.style.display = "none";
+    matchDone.style.display = "block";
+    matchDoneText.textContent = "Bạn đã ghép đúng tất cả " + matchWords.length + " cặp từ.";
+  }
+
+  document.getElementById("matchRestart").addEventListener("click", function(){
+    setupMatchRound();
+  });
+  document.getElementById("matchExit").href = EXIT_URL;
+  document.getElementById("matchExit").addEventListener("click", closeMatch);
+  document.getElementById("matchDoneClose").href = EXIT_URL;
+  document.getElementById("matchDoneClose").addEventListener("click", closeMatch);
+
   // ---------- các chế độ khác: sắp ra mắt ----------
   function showToast(msg){
     const toast = document.getElementById("toast");
@@ -997,7 +1276,7 @@
   document.querySelectorAll(".mode-card").forEach(function(card){
     card.addEventListener("click", function(){
       const mode = card.dataset.mode;
-      if(mode === "flashcard" || mode === "quiz" || mode === "listening" || mode === "type"){
+      if(mode === "flashcard" || mode === "quiz" || mode === "listening" || mode === "type" || mode === "match"){
         if(getWorkingSet().length === 0){
           showToast("Không có từ nào phù hợp với bộ lọc hiện tại");
           return;
@@ -1017,7 +1296,7 @@
 
   // ---------- chọn view: trang thường, flashcard hay quiz ----------
   const initialMode = params.get("mode");
-  if(initialMode === "flashcard" || initialMode === "quiz" || initialMode === "listening" || initialMode === "type"){
+  if(initialMode === "flashcard" || initialMode === "quiz" || initialMode === "listening" || initialMode === "type" || initialMode === "match"){
     if(params.has("status")) statusSelect.value = params.get("status");
     if(params.has("qty")) quantitySelect.value = params.get("qty");
     if(params.has("order")) orderSelect.value = params.get("order");
@@ -1033,9 +1312,12 @@
     }else if(initialMode === "listening"){
       listenOverlay.classList.remove("hidden");
       startListening();
-    }else{
+    }else if(initialMode === "type"){
       typeOverlay.classList.remove("hidden");
       startTypeMode();
+    }else{
+      matchOverlay.classList.remove("hidden");
+      startMatch();
     }
   }else{
     if(sessionStorage.getItem("chuchieng:fc:empty")){

@@ -362,6 +362,74 @@
   </div>
 </div>
 
+<!-- MATCH VIEW (trang riêng, url ?mode=match) -->
+<div class="fc-overlay hidden" id="matchOverlay">
+  <div class="fc-page">
+
+    <div class="fc-topbar">
+      <div class="fc-progress-num" id="matchProgressNum">Đã ghép 0 / 8</div>
+      <div class="fc-toggle-wrap">
+        <button class="fc-textbtn" id="matchRestart" type="button">↺ Chơi lại</button>
+        <a class="fc-textbtn" id="matchExit" href="#">Thoát</a>
+      </div>
+    </div>
+
+    <div class="fc-track"><div class="fc-fill" id="matchFill"></div></div>
+
+    <div class="quiz-timerrow">
+      <div class="fc-coin">🪙 <span id="matchCoin">0</span></div>
+      <div class="quiz-timer-text" id="matchTimerText">30s</div>
+      <div class="quiz-timer-track"><div class="quiz-timer-fill" id="matchTimerFill"></div></div>
+    </div>
+
+    <div id="matchBody">
+      <div class="match-card">
+        <div class="match-top-row">
+          <div class="match-hearts" id="matchHearts"></div>
+          <div class="match-timer-badge" id="matchTimerBadge">⏱ 30S</div>
+        </div>
+
+        <div class="match-grid">
+          <div class="match-col">
+            <div class="match-col-title">Tiếng Anh</div>
+            <div class="match-col-items" id="matchLeftCol"></div>
+          </div>
+          <div class="match-col">
+            <div class="match-col-title">Tiếng Việt</div>
+            <div class="match-col-items" id="matchRightCol"></div>
+          </div>
+        </div>
+
+        <div class="match-footer" id="matchFooterCount">Đã ghép: 0/8</div>
+      </div>
+    </div>
+
+    <div class="fc-done" id="matchDone" style="display:none;">
+      <div class="big">🔗</div>
+      <h3>Hoàn thành Ghép cặp!</h3>
+      <p id="matchDoneText">Bạn đã ghép đúng tất cả các cặp từ.</p>
+      <a class="fc-done-btn" id="matchDoneClose" href="#">Đóng</a>
+    </div>
+
+  </div>
+
+  <div class="match-detail-banner hidden" id="matchDetailBanner">
+    <div class="match-detail-inner">
+      <button class="match-detail-speak" id="matchDetailSpeak" type="button" aria-label="Nghe từ">🔊</button>
+      <div class="match-detail-text">
+        <div class="match-detail-word-row">Từ <strong id="matchDetailWord"></strong> <span id="matchDetailType"></span></div>
+        <div class="match-detail-ipa" id="matchDetailIpa"></div>
+        <div class="match-detail-meaning">Nghĩa: <strong id="matchDetailMeaning"></strong></div>
+        <div class="match-detail-example">
+          <button class="match-detail-speak small" id="matchDetailExampleSpeak" type="button" aria-label="Nghe ví dụ">🔊</button>
+          <span>Ví dụ: <span id="matchDetailExample"></span></span>
+        </div>
+      </div>
+      <button class="match-detail-continue" id="matchDetailContinue" type="button">Tiếp tục (<span id="matchDetailCountdown">2</span>s)</button>
+    </div>
+  </div>
+</div>
+
 <script src="js/vocab-data.js"></script>
 <script src="js/unit.js"></script>
 </body>
