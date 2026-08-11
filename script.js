@@ -1,0 +1,79 @@
+(function(){
+  const dowLabels = ['T2','T3','T4','T5','T6','T7','CN'];
+  const monthNames = ['Tháng 1','Tháng 2','Tháng 3','Tháng 4','Tháng 5','Tháng 6','Tháng 7','Tháng 8','Tháng 9','Tháng 10','Tháng 11','Tháng 12'];
+
+  const today = new Date();
+  let viewYear = today.getFullYear();
+  let viewMonth = today.getMonth(); // 0-indexed
+
+  const grid = document.getElementById('calGrid');
+  const label = document.getElementById('calMonthLabel');
+
+  function isoMondayIndex(jsDay){
+    // JS: Sun=0..Sat=6  ->  Mon=0..Sun=6
+    return (jsDay + 6) % 7;
+  }
+
+  function render(){
+    grid.innerHTML = '';
+    label.textContent = monthNames[viewMonth] + ' ' + viewYear;
+
+    dowLabels.forEach(function(d){
+      const el = document.createElement('div');
+      el.className = 'cal-dow';
+      el.textContent = d;
+      grid.appendChild(el);
+    });
+
+    const firstOfMonth = new Date(viewYear, viewMonth, 1);
+    const startOffset = isoMondayIndex(firstOfMonth.getDay());
+    const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
+    const daysInPrevMonth = new Date(viewYear, viewMonth, 0).getDate();
+
+    const totalCells = Math.ceil((startOffset + daysInMonth) / 7) * 7;
+
+    for(let i = 0; i < totalCells; i++){
+      const dayNum = i - startOffset + 1;
+      const cell = document.createElement('button');
+      cell.className = 'cal-day';
+      cell.type = 'button';
+
+      let cellDate, muted = false;
+      if(dayNum < 1){
+        cellDate = daysInPrevMonth + dayNum;
+        muted = true;
+      } else if(dayNum > daysInMonth){
+        cellDate = dayNum - daysInMonth;
+        muted = true;
+      } else {
+        cellDate = dayNum;
+      }
+
+      cell.textContent = cellDate;
+      if(muted){
+        cell.classList.add('muted');
+      } else {
+        const isToday = (viewYear === today.getFullYear() && viewMonth === today.getMonth() && cellDate === today.getDate());
+        if(isToday) cell.classList.add('today');
+        cell.addEventListener('click', function(){
+          document.querySelectorAll('.cal-day.selected').forEach(function(n){ n.classList.remove('selected'); });
+          if(!isToday) cell.classList.add('selected');
+        });
+      }
+      grid.appendChild(cell);
+    }
+  }
+
+  document.getElementById('prevMonth').addEventListener('click', function(){
+    viewMonth--;
+    if(viewMonth < 0){ viewMonth = 11; viewYear--; }
+    render();
+  });
+  document.getElementById('nextMonth').addEventListener('click', function(){
+    viewMonth++;
+    if(viewMonth > 11){ viewMonth = 0; viewYear++; }
+    render();
+  });
+
+  render();
+})();

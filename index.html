@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChuchiEng — Trang chủ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.png" alt="ChuchiEng logo">
+      <div class="brand-name">Chuchi<span>Eng</span></div>
+    </div>
+
+    <nav class="top-nav">
+      <a href="#" class="active">Trang chủ</a>
+      <a href="#">Từ vựng</a>
+      <a href="#">Luyện tập</a>
+      <a href="#">Xếp hạng</a>
+      <a href="#">Cộng đồng</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="greet">
+        <div class="hi">Chào buổi sáng 👋</div>
+        <div class="name">Bạn học ChuchiEng</div>
+      </div>
+      <div class="avatar">CE</div>
+    </div>
+  </header>
+
+  <!-- HERO ROW -->
+  <section class="hero-row">
+
+    <div class="panel hero-img-card">
+      <div class="img-frame">
+        <img src="images/bear.jpg" alt="Gấu học tiếng Anh cùng ChuchiEng">
+      </div>
+      <div class="hero-caption">
+        <div>
+          <div class="t1">Góc học mỗi ngày</div>
+          <div class="t2">Một chút mỗi ngày, tiếng Anh sẽ tự nhiên hơn</div>
+        </div>
+        <span class="badge-leaf">🍃 Elementary</span>
+      </div>
+    </div>
+
+    <div class="panel stats-card">
+      <div class="stat-tile c1">
+        <div class="num">0</div>
+        <div class="label">Tổng từ</div>
+      </div>
+      <div class="stat-tile c2">
+        <div class="num">0</div>
+        <div class="label">Đã thuộc</div>
+      </div>
+      <div class="stat-tile c3">
+        <div class="num">0%</div>
+        <div class="label">Tiến độ</div>
+      </div>
+      <div class="stat-tile c4">
+        <div class="num">0</div>
+        <div class="label">Cần ôn tập</div>
+      </div>
+    </div>
+
+    <div class="panel cal-card">
+      <div class="cal-head">
+        <div class="cal-title"><span class="dot"></span>Lịch học</div>
+        <div class="cal-nav">
+          <button id="prevMonth" aria-label="Tháng trước">‹</button>
+          <button id="nextMonth" aria-label="Tháng sau">›</button>
+        </div>
+      </div>
+      <div class="cal-month" id="calMonthLabel"></div>
+      <div class="cal-grid" id="calGrid"></div>
+      <div class="cal-foot">📅 Nhấn vào một ngày để xem chi tiết (sắp ra mắt)</div>
+    </div>
+
+  </section>
+
+  <!-- ROADMAP -->
+  <section>
+    <div class="section-head">
+      <h2><span class="leafmark">🌿</span> Lộ trình học</h2>
+      <div class="sub">3 giáo trình đang chờ bạn</div>
+    </div>
+
+    <div class="roadmap-grid">
+
+      <div class="book-card" style="--accent:#7C9A5E; --accent-soft:#DAE3BB;">
+        <div class="book-top">
+          <div class="book-icon">📗</div>
+          <span class="level-tag">Elementary</span>
+        </div>
+        <div>
+          <div class="book-title">English Vocabulary in Use</div>
+          <div class="book-sub">Xây nền từ vựng theo chủ đề, học nhanh nhớ lâu</div>
+        </div>
+        <div class="book-progress">
+          <div class="progress-row"><span>Tiến độ</span><span>0%</span></div>
+          <div class="progress-track"><div class="progress-fill"></div></div>
+        </div>
+        <a class="book-cta" href="#">Bắt đầu học →</a>
+      </div>
+
+      <div class="book-card" style="--accent:#4E8C7D; --accent-soft:#ADDCCA;">
+        <div class="book-top">
+          <div class="book-icon">📘</div>
+          <span class="level-tag">Elementary</span>
+        </div>
+        <div>
+          <div class="book-title">Oxford Word Skills</div>
+          <div class="book-sub">Rèn kỹ năng dùng từ vựng đúng ngữ cảnh</div>
+        </div>
+        <div class="book-progress">
+          <div class="progress-row"><span>Tiến độ</span><span>0%</span></div>
+          <div class="progress-track"><div class="progress-fill"></div></div>
+        </div>
+        <a class="book-cta" href="#">Bắt đầu học →</a>
+      </div>
+
+      <div class="book-card" style="--accent:#C79A3B; --accent-soft:#F2E4C2;">
+        <div class="book-top">
+          <div class="book-icon">📙</div>
+          <span class="level-tag">Ngữ pháp</span>
+        </div>
+        <div>
+          <div class="book-title">Essential Grammar in Use</div>
+          <div class="book-sub">Ngữ pháp căn bản, giải thích rõ ràng, dễ áp dụng</div>
+        </div>
+        <div class="book-progress">
+          <div class="progress-row"><span>Tiến độ</span><span>0%</span></div>
+          <div class="progress-track"><div class="progress-fill"></div></div>
+        </div>
+        <a class="book-cta" href="#">Bắt đầu học →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="foot-note">🌿 <span class="brand-name">ChuchiEng</span> — học tiếng Anh mỗi ngày, thật nhẹ nhàng</div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
