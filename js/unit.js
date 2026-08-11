@@ -370,6 +370,185 @@
   document.getElementById("fcDoneClose").href = EXIT_URL;
   document.getElementById("fcDoneClose").addEventListener("click", closeFlashcards);
 
+  // ---------- chế độ học: Quiz ----------
+  const quizOverlay = document.getElementById("quizOverlay");
+  const quizProgressNum = document.getElementById("quizProgressNum");
+  const quizFill = document.getElementById("quizFill");
+  const quizCoin = document.getElementById("quizCoin");
+  const quizTimerText = document.getElementById("quizTimerText");
+  const quizTimerFill = document.getElementById("quizTimerFill");
+  const quizBody = document.getElementById("quizBody");
+  const quizSentence = document.getElementById("quizSentence");
+  const quizTypeTag = document.getElementById("quizTypeTag");
+  const quizOptionsEl = document.getElementById("quizOptions");
+  const quizDone = document.getElementById("quizDone");
+  const quizDoneText = document.getElementById("quizDoneText");
+
+  const QUIZ_TIME = 30;
+  let quizQuestions = [];
+  let quizIndex = 0;
+  let quizCorrectCount = 0;
+  let quizTimerInterval = null;
+  let quizAnswered = false;
+
+  function escapeRegExp(s){
+    return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function blankExample(w){
+    const re = new RegExp("\\b" + escapeRegExp(w.word) + "\\b", "i");
+    if(re.test(w.example)){
+      return w.example.replace(re, '<span class="blank">_____</span>');
+    }
+    const re2 = new RegExp(escapeRegExp(w.word), "i");
+    return w.example.replace(re2, '<span class="blank">_____</span>');
+  }
+
+  function pickDistractors(target, count){
+    const pool = ALL_WORDS.filter(function(w){ return w.word !== target.word; }).slice();
+    for(let i = pool.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      const tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp;
+    }
+    return pool.slice(0, count);
+  }
+
+  function buildQuizQuestions(words){
+    return words.map(function(w){
+      const distractors = pickDistractors(w, 3);
+      const options = distractors.concat([w]);
+      for(let i = options.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i + 1));
+        const tmp = options[i]; options[i] = options[j]; options[j] = tmp;
+      }
+      return { target: w, options: options };
+    });
+  }
+
+  function startQuiz(){
+    const words = getWorkingSet();
+    if(words.length === 0){
+      sessionStorage.setItem("chuchieng:fc:empty", "1");
+      window.location.href = EXIT_URL;
+      return;
+    }
+    quizQuestions = buildQuizQuestions(words);
+    quizIndex = 0;
+    quizCorrectCount = 0;
+    quizBody.style.display = "";
+    quizDone.style.display = "none";
+    quizCoin.textContent = getCoins();
+    document.addEventListener("keydown", onQuizKeydown);
+    renderQuizQuestion();
+  }
+
+  function closeQuiz(e){
+    if(e) e.preventDefault();
+    clearInterval(quizTimerInterval);
+    window.location.href = EXIT_URL;
+  }
+
+  function renderQuizQuestion(){
+    quizAnswered = false;
+    const q = quizQuestions[quizIndex];
+    quizProgressNum.textContent = "Câu " + (quizIndex + 1) + " / " + quizQuestions.length;
+    quizFill.style.width = Math.round((quizIndex / quizQuestions.length) * 100) + "%";
+
+    quizSentence.innerHTML = blankExample(q.target);
+    quizTypeTag.textContent = typeVi(q.target.type);
+
+    quizOptionsEl.innerHTML = "";
+    q.options.forEach(function(opt, i){
+      const btn = document.createElement("button");
+      btn.className = "quiz-option";
+      btn.type = "button";
+      btn.innerHTML = '<span class="num">' + (i + 1) + '</span><span class="word">' + opt.word + '</span>';
+      btn.addEventListener("click", function(){ answerQuiz(opt, btn); });
+      quizOptionsEl.appendChild(btn);
+    });
+
+    startQuizTimer();
+  }
+
+  function startQuizTimer(){
+    clearInterval(quizTimerInterval);
+    let remaining = QUIZ_TIME;
+    quizTimerText.textContent = remaining + "s";
+    quizTimerFill.style.width = "100%";
+    quizTimerFill.classList.remove("low");
+
+    quizTimerInterval = setInterval(function(){
+      remaining--;
+      quizTimerText.textContent = Math.max(remaining, 0) + "s";
+      quizTimerFill.style.width = Math.max((remaining / QUIZ_TIME) * 100, 0) + "%";
+      if(remaining <= 8) quizTimerFill.classList.add("low");
+      if(remaining <= 0){
+        clearInterval(quizTimerInterval);
+        if(!quizAnswered) answerQuiz(null, null);
+      }
+    }, 1000);
+  }
+
+  function answerQuiz(chosen, btnEl){
+    if(quizAnswered) return;
+    quizAnswered = true;
+    clearInterval(quizTimerInterval);
+
+    const q = quizQuestions[quizIndex];
+    const isCorrect = chosen && chosen.word === q.target.word;
+
+    setLearned(q.target.word, isCorrect);
+    renderTable();
+    updateSelectedBadge();
+
+    Array.from(quizOptionsEl.children).forEach(function(el, i){
+      el.disabled = true;
+      const opt = q.options[i];
+      if(opt.word === q.target.word) el.classList.add("correct");
+      else if(el === btnEl) el.classList.add("wrong");
+    });
+
+    if(isCorrect){
+      quizCorrectCount++;
+      quizCoin.textContent = addCoins(1);
+    }
+
+    setTimeout(function(){
+      if(quizIndex < quizQuestions.length - 1){
+        quizIndex++;
+        renderQuizQuestion();
+      }else{
+        finishQuiz();
+      }
+    }, 1100);
+  }
+
+  function onQuizKeydown(e){
+    if(quizAnswered) return;
+    if(["1","2","3","4"].includes(e.key)){
+      const i = parseInt(e.key, 10) - 1;
+      const btn = quizOptionsEl.children[i];
+      if(btn) btn.click();
+    }
+  }
+
+  function finishQuiz(){
+    quizFill.style.width = "100%";
+    quizBody.style.display = "none";
+    quizDone.style.display = "block";
+    quizDoneText.textContent = "Bạn trả lời đúng " + quizCorrectCount + "/" + quizQuestions.length + " câu.";
+  }
+
+  document.getElementById("quizRestart").addEventListener("click", function(){
+    quizIndex = 0;
+    quizCorrectCount = 0;
+    renderQuizQuestion();
+  });
+  document.getElementById("quizExit").href = EXIT_URL;
+  document.getElementById("quizExit").addEventListener("click", closeQuiz);
+  document.getElementById("quizDoneClose").href = EXIT_URL;
+  document.getElementById("quizDoneClose").addEventListener("click", closeQuiz);
+
   // ---------- các chế độ khác: sắp ra mắt ----------
   function showToast(msg){
     const toast = document.getElementById("toast");
@@ -379,10 +558,10 @@
     showToast._t = setTimeout(function(){ toast.classList.remove("show"); }, 2200);
   }
 
-  function buildFlashcardUrl(){
+  function buildModeUrl(mode){
     const p = new URLSearchParams();
     p.set("unit", unit.id);
-    p.set("mode", "flashcard");
+    p.set("mode", mode);
     p.set("status", statusSelect.value);
     p.set("qty", quantitySelect.value);
     p.set("order", orderSelect.value);
@@ -392,12 +571,12 @@
   document.querySelectorAll(".mode-card").forEach(function(card){
     card.addEventListener("click", function(){
       const mode = card.dataset.mode;
-      if(mode === "flashcard"){
+      if(mode === "flashcard" || mode === "quiz"){
         if(getWorkingSet().length === 0){
           showToast("Không có từ nào phù hợp với bộ lọc hiện tại");
           return;
         }
-        window.location.href = buildFlashcardUrl();
+        window.location.href = buildModeUrl(mode);
       }else{
         showToast("Chế độ này sẽ được cập nhật ở giai đoạn sau 🌿");
       }
@@ -410,17 +589,22 @@
   renderTable();
   updateSelectedBadge();
 
-  // ---------- chọn view: trang thường hay trang flashcard ----------
+  // ---------- chọn view: trang thường, flashcard hay quiz ----------
   const initialMode = params.get("mode");
-  if(initialMode === "flashcard"){
+  if(initialMode === "flashcard" || initialMode === "quiz"){
     if(params.has("status")) statusSelect.value = params.get("status");
     if(params.has("qty")) quantitySelect.value = params.get("qty");
     if(params.has("order")) orderSelect.value = params.get("order");
     updateSelectedBadge();
-
     document.getElementById("normalView").style.display = "none";
-    overlay.classList.remove("hidden");
-    startFlashcards();
+
+    if(initialMode === "flashcard"){
+      overlay.classList.remove("hidden");
+      startFlashcards();
+    }else{
+      quizOverlay.classList.remove("hidden");
+      startQuiz();
+    }
   }else{
     if(sessionStorage.getItem("chuchieng:fc:empty")){
       sessionStorage.removeItem("chuchieng:fc:empty");

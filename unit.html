@@ -222,6 +222,47 @@
 
 <div class="toast" id="toast"></div>
 
+<!-- QUIZ VIEW (trang riêng, url ?mode=quiz) -->
+<div class="fc-overlay hidden" id="quizOverlay">
+  <div class="fc-page">
+
+    <div class="fc-topbar">
+      <div class="fc-progress-num" id="quizProgressNum">Câu 1 / 10</div>
+      <div class="fc-toggle-wrap">
+        <button class="fc-textbtn" id="quizRestart" type="button">↺ Chơi lại</button>
+        <a class="fc-textbtn" id="quizExit" href="#">Thoát</a>
+      </div>
+    </div>
+
+    <div class="fc-track"><div class="fc-fill" id="quizFill"></div></div>
+
+    <div class="quiz-timerrow">
+      <div class="fc-coin">🪙 <span id="quizCoin">0</span></div>
+      <div class="quiz-timer-text" id="quizTimerText">30s</div>
+      <div class="quiz-timer-track"><div class="quiz-timer-fill" id="quizTimerFill"></div></div>
+    </div>
+
+    <div id="quizBody">
+      <div class="quiz-card">
+        <span class="quiz-eyebrow">NGỮ CẢNH</span>
+        <h3 class="quiz-heading">Chọn từ phù hợp để điền vào chỗ trống</h3>
+        <div class="quiz-sentence" id="quizSentence"></div>
+        <span class="type-tag quiz-type-tag" id="quizTypeTag"></span>
+        <div class="quiz-options" id="quizOptions"></div>
+        <div class="quiz-hint">Sử dụng phím số 1-4 để chọn nhanh đáp án</div>
+      </div>
+    </div>
+
+    <div class="fc-done" id="quizDone" style="display:none;">
+      <div class="big">🏆</div>
+      <h3>Hoàn thành Quiz!</h3>
+      <p id="quizDoneText">Bạn đã trả lời đúng ...</p>
+      <a class="fc-done-btn" id="quizDoneClose" href="#">Đóng</a>
+    </div>
+
+  </div>
+</div>
+
 <script src="js/vocab-data.js"></script>
 <script src="js/unit.js"></script>
 </body>
