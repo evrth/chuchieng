@@ -105,7 +105,7 @@
       <button class="mode-card mode-listening" data-mode="listening" type="button">
         <div class="mode-icon">🎧</div>
         <div class="mode-title">Listening</div>
-        <div class="mode-sub">Nghe từ và gõ lại (30s)</div>
+        <div class="mode-sub">Nghe câu và gõ lại</div>
         <span class="mode-points">+15 🪙</span>
       </button>
       <button class="mode-card mode-type" data-mode="type" type="button">
@@ -259,6 +259,55 @@
       <h3>Hoàn thành Quiz!</h3>
       <p id="quizDoneText">Bạn đã trả lời đúng ...</p>
       <a class="fc-done-btn" id="quizDoneClose" href="#">Đóng</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- LISTENING VIEW (trang riêng, url ?mode=listening) -->
+<div class="fc-overlay hidden" id="listenOverlay">
+  <div class="fc-page">
+
+    <div class="fc-topbar">
+      <div class="fc-coin">🪙 <span id="listenCoin">0</span></div>
+      <div class="fc-progress-num" id="listenProgressNum">Câu 1 / 10</div>
+      <div class="fc-toggle-wrap">
+        <button class="fc-textbtn" id="listenRestart" type="button">↺ Chơi lại</button>
+        <a class="fc-textbtn" id="listenExit" href="#">Thoát</a>
+      </div>
+    </div>
+
+    <div class="fc-track"><div class="fc-fill" id="listenFill"></div></div>
+
+    <div id="listenBody">
+      <div class="listen-card">
+        <div class="listen-playcount" id="listenPlayCount">Nghe: 1x | Ctrl+X</div>
+
+        <button class="listen-play-btn" id="listenPlayBtn" type="button" aria-label="Nghe câu">🎧</button>
+        <div class="listen-play-hint">CTRL + X</div>
+
+        <h3 class="listen-title">Nghe và gõ lại câu bạn nghe được</h3>
+
+        <div class="listen-hint-area" id="listenHintArea">Chưa có gợi ý</div>
+
+        <input type="text" class="listen-input" id="listenInput" placeholder="Gõ lại câu bạn nghe được..." autocomplete="off" autocapitalize="off" spellcheck="false">
+
+        <div class="listen-actions" id="listenActions">
+          <button class="listen-action-btn" id="listenShowExample" type="button">📝 Xem nghĩa<small>Ctrl+E</small></button>
+          <button class="listen-action-btn" id="listenHintBtn" type="button">🎯 Gợi ý (3)<small>Ctrl+Space</small></button>
+          <button class="listen-check-btn" id="listenCheckBtn" type="button">Kiểm tra<small>Enter</small></button>
+        </div>
+
+        <div class="listen-feedback" id="listenFeedback" style="display:none;"></div>
+        <button class="listen-next-btn" id="listenNextBtn" type="button" style="display:none;">Tiếp →</button>
+      </div>
+    </div>
+
+    <div class="fc-done" id="listenDone" style="display:none;">
+      <div class="big">🎧</div>
+      <h3>Hoàn thành Listening!</h3>
+      <p id="listenDoneText">Bạn đã nghe đúng ... câu.</p>
+      <a class="fc-done-btn" id="listenDoneClose" href="#">Đóng</a>
     </div>
 
   </div>

@@ -113,6 +113,48 @@
     }catch(e){}
   }
 
+  // ---------- phát âm câu (Listening) — giọng Anh-Mỹ, chậm rãi, dễ nghe cho A1-A2 ----------
+  let cachedVoice = null;
+  function pickVoice(){
+    if(!("speechSynthesis" in window)) return null;
+    const voices = window.speechSynthesis.getVoices();
+    if(!voices.length) return null;
+    // ưu tiên các giọng tự nhiên, rõ ràng thường có sẵn trên Chrome/Edge/macOS
+    const preferredNames = [
+      "Google US English",
+      "Microsoft Aria Online (Natural) - English (United States)",
+      "Microsoft Jenny Online (Natural) - English (United States)",
+      "Samantha",
+      "Alex"
+    ];
+    for(let i = 0; i < preferredNames.length; i++){
+      const v = voices.find(function(v){ return v.name === preferredNames[i]; });
+      if(v) return v;
+    }
+    const usFemale = voices.find(function(v){ return v.lang === "en-US"; });
+    if(usFemale) return usFemale;
+    const anyEn = voices.find(function(v){ return v.lang && v.lang.indexOf("en") === 0; });
+    return anyEn || voices[0] || null;
+  }
+  if("speechSynthesis" in window){
+    cachedVoice = pickVoice();
+    window.speechSynthesis.onvoiceschanged = function(){ cachedVoice = pickVoice(); };
+  }
+
+  function speakSentence(text){
+    try{
+      if(!("speechSynthesis" in window)) return;
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "en-US";
+      u.rate = 0.82;   // chậm hơn bình thường một chút, dễ nghe cho người mới học
+      u.pitch = 1.05;  // giọng tươi, tự nhiên hơn, gần với phong cách Duolingo
+      const v = cachedVoice || pickVoice();
+      if(v) u.voice = v;
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(u);
+    }catch(e){}
+  }
+
   // ---------- bảng từ vựng ----------
   const searchInput = document.getElementById("vocabSearch");
   const tableFilter = document.getElementById("tableFilterSelect");
@@ -550,6 +592,199 @@
   document.getElementById("quizDoneClose").href = EXIT_URL;
   document.getElementById("quizDoneClose").addEventListener("click", closeQuiz);
 
+  // ---------- chế độ học: Listening ----------
+  const listenOverlay = document.getElementById("listenOverlay");
+  const listenProgressNum = document.getElementById("listenProgressNum");
+  const listenFill = document.getElementById("listenFill");
+  const listenBody = document.getElementById("listenBody");
+  const listenPlayCount = document.getElementById("listenPlayCount");
+  const listenPlayBtn = document.getElementById("listenPlayBtn");
+  const listenHintArea = document.getElementById("listenHintArea");
+  const listenInput = document.getElementById("listenInput");
+  const listenActions = document.getElementById("listenActions");
+  const listenShowExample = document.getElementById("listenShowExample");
+  const listenHintBtn = document.getElementById("listenHintBtn");
+  const listenCheckBtn = document.getElementById("listenCheckBtn");
+  const listenFeedback = document.getElementById("listenFeedback");
+  const listenNextBtn = document.getElementById("listenNextBtn");
+  const listenDone = document.getElementById("listenDone");
+  const listenDoneText = document.getElementById("listenDoneText");
+  const listenCoin = document.getElementById("listenCoin");
+
+  const LISTEN_MAX_HINTS = 3;
+  let listenSession = [];
+  let listenIndex = 0;
+  let listenCorrectCount = 0;
+  let listenPlayCountNum = 0;
+  let listenHintsUsed = 0;
+  let listenExampleShown = false;
+  let listenAnswered = false;
+
+  function normalizeText(s){
+    return s.toLowerCase().trim().replace(/[.,!?;:'"()]/g, "").replace(/\s+/g, " ");
+  }
+
+  function startListening(){
+    listenSession = getWorkingSet();
+    if(listenSession.length === 0){
+      sessionStorage.setItem("chuchieng:fc:empty", "1");
+      window.location.href = EXIT_URL;
+      return;
+    }
+    listenIndex = 0;
+    listenCorrectCount = 0;
+    listenBody.style.display = "";
+    listenDone.style.display = "none";
+    listenCoin.textContent = getCoins();
+    document.addEventListener("keydown", onListenKeydown);
+    renderListenQuestion();
+  }
+
+  function closeListening(e){
+    if(e) e.preventDefault();
+    window.location.href = EXIT_URL;
+  }
+
+  function renderListenQuestion(){
+    listenAnswered = false;
+    listenPlayCountNum = 0;
+    listenHintsUsed = 0;
+    listenExampleShown = false;
+
+    const w = listenSession[listenIndex];
+    listenProgressNum.textContent = "Câu " + (listenIndex + 1) + " / " + listenSession.length;
+    listenFill.style.width = Math.round((listenIndex / listenSession.length) * 100) + "%";
+
+    listenHintArea.textContent = "Chưa có gợi ý";
+    listenInput.value = "";
+    listenInput.className = "listen-input";
+    listenInput.disabled = false;
+    listenActions.style.display = "";
+    listenHintBtn.textContent = "🎯 Gợi ý (" + LISTEN_MAX_HINTS + ")";
+    listenHintBtn.disabled = false;
+    listenShowExample.disabled = false;
+    listenFeedback.style.display = "none";
+    listenNextBtn.style.display = "none";
+
+    playListenAudio();
+    listenInput.focus();
+  }
+
+  function playListenAudio(){
+    const w = listenSession[listenIndex];
+    speakSentence(w.example);
+    listenPlayCountNum++;
+    listenPlayCount.textContent = "Nghe: " + listenPlayCountNum + "x | Ctrl+X";
+  }
+
+  listenPlayBtn.addEventListener("click", playListenAudio);
+
+  listenShowExample.addEventListener("click", function(){
+    if(listenExampleShown) return;
+    listenExampleShown = true;
+    const w = listenSession[listenIndex];
+    listenHintArea.innerHTML = w.exampleVi;
+    listenShowExample.disabled = true;
+  });
+
+  listenHintBtn.addEventListener("click", function(){
+    if(listenHintsUsed >= LISTEN_MAX_HINTS) return;
+    listenHintsUsed++;
+    const w = listenSession[listenIndex];
+    const words = w.example.split(" ");
+    const revealCount = Math.min(listenHintsUsed, words.length);
+    const revealed = words.slice(0, revealCount).join(" ");
+    const remaining = words.length - revealCount;
+    listenHintArea.textContent = revealed + (remaining > 0 ? " " + "_____ ".repeat(remaining).trim() : "");
+    const left = LISTEN_MAX_HINTS - listenHintsUsed;
+    listenHintBtn.textContent = "🎯 Gợi ý (" + left + ")";
+    if(left <= 0) listenHintBtn.disabled = true;
+  });
+
+  function checkListenAnswer(){
+    if(listenAnswered) return;
+    if(!listenInput.value.trim()) return;
+    listenAnswered = true;
+
+    const w = listenSession[listenIndex];
+    const isCorrect = normalizeText(listenInput.value) === normalizeText(w.example);
+
+    setLearned(w.word, isCorrect);
+    renderTable();
+    updateSelectedBadge();
+
+    listenInput.disabled = true;
+    listenActions.style.display = "none";
+    listenFeedback.style.display = "block";
+
+    if(isCorrect){
+      listenCorrectCount++;
+      listenInput.className = "listen-input correct";
+      listenFeedback.className = "listen-feedback correct";
+      listenFeedback.textContent = "✅ Chính xác!";
+      listenCoinBump();
+    }else{
+      listenInput.className = "listen-input wrong";
+      listenFeedback.className = "listen-feedback wrong";
+      listenFeedback.innerHTML = "❌ Chưa đúng<span class=\"correct-answer\">Đáp án: " + w.example + "</span>";
+    }
+
+    listenNextBtn.style.display = "inline-block";
+  }
+
+  function listenCoinBump(){
+    listenCoin.textContent = addCoins(1);
+  }
+
+  listenCheckBtn.addEventListener("click", checkListenAnswer);
+  listenInput.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){
+      e.preventDefault();
+      if(!listenAnswered) checkListenAnswer();
+      else goNextListen();
+    }
+  });
+
+  function goNextListen(){
+    if(listenIndex < listenSession.length - 1){
+      listenIndex++;
+      renderListenQuestion();
+    }else{
+      finishListening();
+    }
+  }
+  listenNextBtn.addEventListener("click", goNextListen);
+
+  function onListenKeydown(e){
+    if(e.ctrlKey && (e.key === "x" || e.key === "X")){
+      e.preventDefault();
+      playListenAudio();
+    }else if(e.ctrlKey && (e.key === "e" || e.key === "E")){
+      e.preventDefault();
+      listenShowExample.click();
+    }else if(e.ctrlKey && e.code === "Space"){
+      e.preventDefault();
+      listenHintBtn.click();
+    }
+  }
+
+  function finishListening(){
+    listenFill.style.width = "100%";
+    listenBody.style.display = "none";
+    listenDone.style.display = "block";
+    listenDoneText.textContent = "Bạn đã nghe đúng " + listenCorrectCount + "/" + listenSession.length + " câu.";
+  }
+
+  document.getElementById("listenRestart").addEventListener("click", function(){
+    listenIndex = 0;
+    listenCorrectCount = 0;
+    renderListenQuestion();
+  });
+  document.getElementById("listenExit").href = EXIT_URL;
+  document.getElementById("listenExit").addEventListener("click", closeListening);
+  document.getElementById("listenDoneClose").href = EXIT_URL;
+  document.getElementById("listenDoneClose").addEventListener("click", closeListening);
+
   // ---------- các chế độ khác: sắp ra mắt ----------
   function showToast(msg){
     const toast = document.getElementById("toast");
@@ -572,7 +807,7 @@
   document.querySelectorAll(".mode-card").forEach(function(card){
     card.addEventListener("click", function(){
       const mode = card.dataset.mode;
-      if(mode === "flashcard" || mode === "quiz"){
+      if(mode === "flashcard" || mode === "quiz" || mode === "listening"){
         if(getWorkingSet().length === 0){
           showToast("Không có từ nào phù hợp với bộ lọc hiện tại");
           return;
@@ -592,7 +827,7 @@
 
   // ---------- chọn view: trang thường, flashcard hay quiz ----------
   const initialMode = params.get("mode");
-  if(initialMode === "flashcard" || initialMode === "quiz"){
+  if(initialMode === "flashcard" || initialMode === "quiz" || initialMode === "listening"){
     if(params.has("status")) statusSelect.value = params.get("status");
     if(params.has("qty")) quantitySelect.value = params.get("qty");
     if(params.has("order")) orderSelect.value = params.get("order");
@@ -602,9 +837,12 @@
     if(initialMode === "flashcard"){
       overlay.classList.remove("hidden");
       startFlashcards();
-    }else{
+    }else if(initialMode === "quiz"){
       quizOverlay.classList.remove("hidden");
       startQuiz();
+    }else{
+      listenOverlay.classList.remove("hidden");
+      startListening();
     }
   }else{
     if(sessionStorage.getItem("chuchieng:fc:empty")){
