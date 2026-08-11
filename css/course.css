@@ -1,0 +1,233 @@
+/* ============================================
+   Course detail page — kế thừa biến màu & font
+   từ css/style.css (khai báo :root ở đó)
+   ============================================ */
+
+.course-wrap{
+  max-width:1180px;
+  margin:0 auto;
+  padding:20px 28px 80px;
+}
+
+.back-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:13px;
+  font-weight:800;
+  color:var(--ink-soft);
+  margin-bottom:14px;
+  padding:8px 14px;
+  background:var(--card);
+  border-radius:999px;
+  box-shadow:var(--shadow-tiny);
+  transition:background .2s, color .2s;
+}
+.back-link:hover{
+  background:var(--forest);
+  color:var(--cream);
+}
+
+/* ---------- course header card ---------- */
+.course-header{
+  background:var(--card);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-soft);
+  padding:26px 28px 24px;
+  margin-bottom:26px;
+}
+.course-header-top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap:wrap;
+}
+.course-title-row{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.course-icon{
+  width:52px;height:52px;
+  border-radius:16px;
+  background:var(--sage-light);
+  display:flex;align-items:center;justify-content:center;
+  font-size:26px;
+  flex-shrink:0;
+}
+.course-title-block h1{
+  font-size:21px;
+  font-weight:900;
+  color:var(--forest);
+  margin:0 0 8px;
+  line-height:1.3;
+}
+.course-badges{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+.course-badge{
+  font-size:12px;
+  font-weight:800;
+  padding:6px 13px;
+  border-radius:999px;
+  background:var(--cream);
+  color:var(--ink-soft);
+}
+.course-badge.words{
+  background:var(--mint);
+  color:var(--forest);
+}
+.course-badge.percent{
+  background:var(--sage-light);
+  color:var(--forest);
+}
+
+.course-divider{
+  height:1px;
+  background:rgba(174,190,137,0.35);
+  margin:20px 0 16px;
+}
+
+.course-progress-label{
+  display:flex;
+  justify-content:space-between;
+  font-size:13px;
+  font-weight:700;
+  color:var(--ink-soft);
+  margin-bottom:8px;
+}
+.course-progress-track{
+  height:10px;
+  background:var(--cream);
+  border-radius:999px;
+  overflow:hidden;
+}
+.course-progress-fill{
+  height:100%;
+  width:0%;
+  background:linear-gradient(90deg,var(--sage),var(--mint));
+  border-radius:999px;
+  transition:width .4s ease;
+}
+
+/* ---------- units section ---------- */
+.units-section-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  margin:0 4px 16px;
+}
+.units-section-head h2{
+  font-size:18px;
+  font-weight:900;
+  color:var(--forest);
+  margin:0;
+}
+
+.units-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+@media(max-width:960px){
+  .units-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:600px){
+  .units-grid{grid-template-columns:1fr;}
+}
+
+.unit-card{
+  background:var(--card);
+  border-radius:var(--radius-md);
+  box-shadow:var(--shadow-tiny);
+  padding:16px 16px 14px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.unit-card:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow-soft);
+}
+.unit-top{
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
+}
+.unit-icon{
+  width:38px;height:38px;
+  border-radius:11px;
+  background:var(--sage-light);
+  display:flex;align-items:center;justify-content:center;
+  font-size:17px;
+  flex-shrink:0;
+}
+.unit-info{
+  flex:1;
+  min-width:0;
+}
+.unit-title{
+  font-size:13.5px;
+  font-weight:800;
+  color:var(--forest);
+  line-height:1.4;
+}
+.unit-index{
+  font-size:10.5px;
+  font-weight:800;
+  color:var(--ink-soft);
+  opacity:.55;
+}
+.unit-words-row{
+  display:flex;
+  justify-content:space-between;
+  font-size:11.5px;
+  font-weight:700;
+  color:var(--ink-soft);
+}
+.unit-track{
+  height:6px;
+  background:var(--cream);
+  border-radius:999px;
+  overflow:hidden;
+}
+.unit-fill{
+  height:100%;
+  width:0%;
+  background:var(--sage);
+  border-radius:999px;
+  transition:width .4s ease;
+}
+.unit-pending{
+  font-size:11.5px;
+  font-weight:700;
+  color:var(--ink-soft);
+  opacity:.6;
+  display:flex;
+  align-items:center;
+  gap:5px;
+}
+.unit-bottom{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.unit-play{
+  width:30px;height:30px;
+  border-radius:50%;
+  background:var(--cream);
+  border:none;
+  display:flex;align-items:center;justify-content:center;
+  color:var(--forest);
+  font-size:12px;
+  cursor:pointer;
+  transition:background .2s;
+}
+.unit-card:hover .unit-play{
+  background:var(--sage);
+  color:var(--cream);
+}
