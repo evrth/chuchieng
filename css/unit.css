@@ -698,6 +698,13 @@ table.vocab-table{
   min-width:70px;
   border-bottom:3px solid var(--sage);
 }
+.quiz-sentence-vi{
+  font-size:14px;
+  font-style:italic;
+  color:var(--ink-soft);
+  font-weight:600;
+  margin-top:-8px;
+}
 .quiz-type-tag{
   margin-top:-6px;
 }

@@ -455,6 +455,7 @@
     quizFill.style.width = Math.round((quizIndex / quizQuestions.length) * 100) + "%";
 
     quizSentence.innerHTML = blankExample(q.target);
+    document.getElementById("quizSentenceVi").textContent = q.target.exampleVi;
     quizTypeTag.textContent = typeVi(q.target.type);
 
     quizOptionsEl.innerHTML = "";
