@@ -1487,6 +1487,8 @@
         window.location.href = buildModeUrl("translate");
       }else if(kind === "quick"){
         window.location.href = "exercises.html?unit=" + unit.id;
+      }else if(kind === "detail"){
+        window.location.href = "detailed-exercises.html?unit=" + unit.id;
       }else{
         closeSpecialModal();
         showToast("Chế độ này sẽ được cập nhật ở giai đoạn sau 🌿");
