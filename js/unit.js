@@ -370,6 +370,7 @@
   function markCard(known){
     const w = session[sessionIndex];
     setLearned(w.word, known);
+    if(window.ChuchiSRS) ChuchiSRS.recordResult("flashcard", unit.id, w.word, known);
     renderTable();
     updateSelectedBadge();
     if(known){
@@ -541,6 +542,7 @@
     const isCorrect = chosen && chosen.word === q.target.word;
 
     setLearned(q.target.word, isCorrect);
+    if(window.ChuchiSRS) ChuchiSRS.recordResult("quiz", unit.id, q.target.word, isCorrect);
     renderTable();
     updateSelectedBadge();
 
@@ -710,6 +712,7 @@
     const isCorrect = normalizeText(listenInput.value) === normalizeText(w.example);
 
     setLearned(w.word, isCorrect);
+    if(window.ChuchiSRS) ChuchiSRS.recordResult("listening", unit.id, w.word, isCorrect);
     renderTable();
     updateSelectedBadge();
 
@@ -911,6 +914,7 @@
     const isCorrect = normalizeText(typeInput.value) === normalizeText(w.word);
 
     setLearned(w.word, isCorrect);
+    if(window.ChuchiSRS) ChuchiSRS.recordResult("type", unit.id, w.word, isCorrect);
     renderTable();
     updateSelectedBadge();
 
@@ -1125,6 +1129,7 @@
 
     if(isCorrect){
       setLearned(left.word.word, true);
+      if(window.ChuchiSRS) ChuchiSRS.recordResult("match", unit.id, left.word.word, true);
       renderTable();
       updateSelectedBadge();
 
@@ -1391,6 +1396,7 @@
     const isCorrect = assembled === translateTargetWords.join(" ");
 
     setLearned(w.word, isCorrect);
+    if(window.ChuchiSRS) ChuchiSRS.recordResult("translate", unit.id, w.word, isCorrect);
     renderTable();
     updateSelectedBadge();
 

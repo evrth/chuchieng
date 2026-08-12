@@ -53,19 +53,19 @@
 
     <div class="panel stats-card">
       <div class="stat-tile c1">
-        <div class="num">0</div>
+        <div class="num" id="statTotalWords">0</div>
         <div class="label">Tổng từ</div>
       </div>
       <div class="stat-tile c2">
-        <div class="num">0</div>
+        <div class="num" id="statLearned">0</div>
         <div class="label">Đã thuộc</div>
       </div>
       <div class="stat-tile c3">
-        <div class="num">0%</div>
+        <div class="num" id="statProgress">0%</div>
         <div class="label">Tiến độ</div>
       </div>
       <div class="stat-tile c4">
-        <div class="num">0</div>
+        <div class="num" id="statDueToday">0</div>
         <div class="label">Cần ôn tập</div>
       </div>
     </div>
@@ -80,7 +80,8 @@
       </div>
       <div class="cal-month" id="calMonthLabel"></div>
       <div class="cal-grid" id="calGrid"></div>
-      <div class="cal-foot">📅 Nhấn vào một ngày để xem chi tiết (sắp ra mắt)</div>
+      <div class="cal-foot" id="calFoot">📅 Nhấn vào một ngày để xem từ cần ôn</div>
+      <div class="cal-review-panel hidden" id="calReviewPanel"></div>
     </div>
 
   </section>
@@ -149,6 +150,8 @@
 
 </div>
 
+<script src="js/vocab-data.js"></script>
+<script src="js/srs.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

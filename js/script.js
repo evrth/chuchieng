@@ -8,15 +8,25 @@
 
   const grid = document.getElementById('calGrid');
   const label = document.getElementById('calMonthLabel');
+  const calFoot = document.getElementById('calFoot');
+  const reviewPanel = document.getElementById('calReviewPanel');
 
   function isoMondayIndex(jsDay){
     // JS: Sun=0..Sat=6  ->  Mon=0..Sun=6
     return (jsDay + 6) % 7;
   }
 
+  function dateToStr(y, m, d){
+    const mm = String(m + 1).padStart(2, '0');
+    const dd = String(d).padStart(2, '0');
+    return y + '-' + mm + '-' + dd;
+  }
+
   function render(){
     grid.innerHTML = '';
     label.textContent = monthNames[viewMonth] + ' ' + viewYear;
+
+    const dueMap = (window.ChuchiSRS ? ChuchiSRS.dueCountByDate() : {});
 
     dowLabels.forEach(function(d){
       const el = document.createElement('div');
@@ -55,13 +65,50 @@
       } else {
         const isToday = (viewYear === today.getFullYear() && viewMonth === today.getMonth() && cellDate === today.getDate());
         if(isToday) cell.classList.add('today');
+
+        const dStr = dateToStr(viewYear, viewMonth, cellDate);
+        if(dueMap[dStr]){
+          const dot = document.createElement('span');
+          dot.className = 'cal-due-dot';
+          cell.appendChild(dot);
+        }
+
         cell.addEventListener('click', function(){
           document.querySelectorAll('.cal-day.selected').forEach(function(n){ n.classList.remove('selected'); });
           if(!isToday) cell.classList.add('selected');
+          showReviewPanel(dStr, cellDate);
         });
       }
       grid.appendChild(cell);
     }
+  }
+
+  function showReviewPanel(dateStr, dayNum){
+    if(!window.ChuchiSRS){
+      reviewPanel.classList.add('hidden');
+      return;
+    }
+    const items = ChuchiSRS.dueItemsForDate(dateStr);
+    calFoot.style.display = 'none';
+    reviewPanel.classList.remove('hidden');
+
+    let html = '<div class="cal-review-date">📅 Ngày ' + dayNum + ' — ' + items.length + ' từ cần ôn</div>';
+
+    if(items.length === 0){
+      html += '<div class="cal-review-empty">Không có từ nào cần ôn vào ngày này.</div>';
+    }else{
+      items.slice(0, 12).forEach(function(it){
+        html += '<div class="cal-review-item">' +
+          '<div><span class="cal-review-word">' + it.word + '</span><br>' +
+          '<span class="cal-review-meta">' + it.unitTitle + ' · ' + it.modeLabel + '</span></div>' +
+          '<a class="cal-review-link" href="unit.html?unit=' + it.unitId + '&mode=' + it.mode + '&status=all&qty=all&order=random">Ôn ngay →</a>' +
+        '</div>';
+      });
+      if(items.length > 12){
+        html += '<div class="cal-review-empty">…và ' + (items.length - 12) + ' từ khác.</div>';
+      }
+    }
+    reviewPanel.innerHTML = html;
   }
 
   document.getElementById('prevMonth').addEventListener('click', function(){
@@ -76,4 +123,27 @@
   });
 
   render();
+
+  // ---------- số liệu trang chủ ----------
+  function renderStats(){
+    if(!window.ChuchiSRS || typeof VOCAB_UNITS === 'undefined') return;
+
+    const totalWords = VOCAB_UNITS.reduce(function(sum, u){ return sum + u.words.length; }, 0);
+    const learned = ChuchiSRS.uniqueLearnedCount();
+    const progress = ChuchiSRS.overallProgress();
+    const dueMap = ChuchiSRS.dueCountByDate();
+    const todayStr = ChuchiSRS.todayStr();
+
+    // "Cần ôn tập" = số từ đến hạn hôm nay hoặc đã quá hạn (chưa ôn)
+    let dueCount = 0;
+    Object.keys(dueMap).forEach(function(dateStr){
+      if(dateStr <= todayStr) dueCount += dueMap[dateStr];
+    });
+
+    document.getElementById('statTotalWords').textContent = totalWords;
+    document.getElementById('statLearned').textContent = learned;
+    document.getElementById('statProgress').textContent = progress + '%';
+    document.getElementById('statDueToday').textContent = dueCount;
+  }
+  renderStats();
 })();
