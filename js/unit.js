@@ -9,6 +9,60 @@
   const STORAGE_KEY = "chuchieng:unit:" + unit.id + ":learned";
   const EXIT_URL = "unit.html?unit=" + unit.id;
 
+  // ---------- lưu / khôi phục tiến trình đang làm dở, theo từng chế độ ----------
+  function progressKey(mode){ return "chuchieng:progress:" + unit.id + ":" + mode; }
+
+  function saveModeProgress(mode, words, index, extra){
+    try{
+      localStorage.setItem(progressKey(mode), JSON.stringify({
+        words: words.map(function(w){ return w.word; }),
+        index: index,
+        extra: extra || null,
+        ts: Date.now()
+      }));
+    }catch(e){}
+  }
+
+  function loadModeProgress(mode){
+    try{
+      const raw = localStorage.getItem(progressKey(mode));
+      return raw ? JSON.parse(raw) : null;
+    }catch(e){ return null; }
+  }
+
+  function clearModeProgress(mode){
+    try{ localStorage.removeItem(progressKey(mode)); }catch(e){}
+  }
+
+  function resolveWords(wordKeys){
+    return wordKeys
+      .map(function(k){ return ALL_WORDS.find(function(w){ return w.word === k; }); })
+      .filter(Boolean);
+  }
+
+  // hiện màn hình chọn "Làm tiếp" / "Làm lại từ đầu"
+  function showResumeUI(promptEl, bodyEl, doneEl, saved, current, total, onResume, onRestart){
+    bodyEl.style.display = "none";
+    if(doneEl) doneEl.style.display = "none";
+    promptEl.classList.remove("hidden");
+    promptEl.innerHTML =
+      '<div class="resume-icon">⏸️</div>' +
+      '<h3>Bạn có phiên đang dang dở</h3>' +
+      '<p>Đang ở câu ' + (current + 1) + '/' + total + '. Bạn muốn tiếp tục hay làm lại từ đầu?</p>' +
+      '<div class="resume-actions">' +
+        '<button class="resume-btn secondary" id="resumeRestartBtn" type="button">↺ Làm lại từ đầu</button>' +
+        '<button class="resume-btn primary" id="resumeContinueBtn" type="button">▶ Làm tiếp</button>' +
+      '</div>';
+    document.getElementById("resumeContinueBtn").addEventListener("click", function(){
+      promptEl.classList.add("hidden");
+      onResume();
+    });
+    document.getElementById("resumeRestartBtn").addEventListener("click", function(){
+      promptEl.classList.add("hidden");
+      onRestart();
+    });
+  }
+
   // ---------- learned state ----------
   function loadLearned(){
     try{
@@ -255,6 +309,7 @@
   const fcDone = document.getElementById("fcDone");
   const fcDoneText = document.getElementById("fcDoneText");
   const fcBody = document.getElementById("fcBody");
+  const fcResumePrompt = document.getElementById("fcResumePrompt");
   const fcDirectionToggle = document.getElementById("fcDirectionToggle");
   const fcPrevBtn = document.getElementById("fcPrev");
   const fcNextBtn = document.getElementById("fcNext");
@@ -264,15 +319,42 @@
   let flipped = false;
 
   function startFlashcards(){
-    session = getWorkingSet();
-    if(session.length === 0){
-      // không có từ phù hợp bộ lọc — quay lại trang Unit và báo cho người dùng
+    const workingSet = getWorkingSet();
+    if(workingSet.length === 0){
       sessionStorage.setItem("chuchieng:fc:empty", "1");
       window.location.href = EXIT_URL;
       return;
     }
+
+    const saved = loadModeProgress("flashcard");
+    if(saved && saved.index < saved.words.length){
+      const resolved = resolveWords(saved.words);
+      if(resolved.length === saved.words.length){
+        showResumeUI(fcResumePrompt, fcBody, fcDone, saved, saved.index, saved.words.length,
+          function(){
+            session = resolved;
+            sessionIndex = saved.index;
+            beginFlashcardSession();
+          },
+          function(){
+            clearModeProgress("flashcard");
+            session = workingSet;
+            sessionIndex = 0;
+            beginFlashcardSession();
+          }
+        );
+        return;
+      }
+    }
+
+    session = workingSet;
     sessionIndex = 0;
+    beginFlashcardSession();
+  }
+
+  function beginFlashcardSession(){
     flipped = false;
+    fcResumePrompt.classList.add("hidden");
     fcBody.style.display = "";
     fcDone.style.display = "none";
     fcCoin.textContent = getCoins();
@@ -292,6 +374,7 @@
     fcPrevBtn.disabled = sessionIndex === 0;
     flipped = false;
     renderCardFace(w);
+    saveModeProgress("flashcard", session, sessionIndex);
   }
 
   // showWordFirst: true = mặt trước hiện Từ, mặt sau hiện Nghĩa (mặc định)
@@ -404,6 +487,7 @@
     fcFill.style.width = "100%";
     fcBody.style.display = "none";
     fcDone.style.display = "block";
+    clearModeProgress("flashcard");
     const learnedCount = session.filter(function(w){ return isLearned(w.word); }).length;
     fcDoneText.textContent = "Bạn đã ôn " + session.length + " từ, thuộc " + learnedCount + " từ.";
   }
@@ -426,6 +510,7 @@
   const quizOptionsEl = document.getElementById("quizOptions");
   const quizDone = document.getElementById("quizDone");
   const quizDoneText = document.getElementById("quizDoneText");
+  const quizResumePrompt = document.getElementById("quizResumePrompt");
 
   const QUIZ_TIME = 30;
   let quizQuestions = [];
@@ -475,9 +560,38 @@
       window.location.href = EXIT_URL;
       return;
     }
+
+    const saved = loadModeProgress("quiz");
+    if(saved && saved.index < saved.words.length){
+      const resolved = resolveWords(saved.words);
+      if(resolved.length === saved.words.length){
+        showResumeUI(quizResumePrompt, quizBody, quizDone, saved, saved.index, saved.words.length,
+          function(){
+            quizQuestions = buildQuizQuestions(resolved);
+            quizIndex = saved.index;
+            quizCorrectCount = 0;
+            beginQuizSession();
+          },
+          function(){
+            clearModeProgress("quiz");
+            quizQuestions = buildQuizQuestions(words);
+            quizIndex = 0;
+            quizCorrectCount = 0;
+            beginQuizSession();
+          }
+        );
+        return;
+      }
+    }
+
     quizQuestions = buildQuizQuestions(words);
     quizIndex = 0;
     quizCorrectCount = 0;
+    beginQuizSession();
+  }
+
+  function beginQuizSession(){
+    quizResumePrompt.classList.add("hidden");
     quizBody.style.display = "";
     quizDone.style.display = "none";
     quizCoin.textContent = getCoins();
@@ -512,6 +626,7 @@
     });
 
     startQuizTimer();
+    saveModeProgress("quiz", quizQuestions.map(function(q){ return q.target; }), quizIndex);
   }
 
   function startQuizTimer(){
@@ -581,6 +696,7 @@
     quizFill.style.width = "100%";
     quizBody.style.display = "none";
     quizDone.style.display = "block";
+    clearModeProgress("quiz");
     quizDoneText.textContent = "Bạn trả lời đúng " + quizCorrectCount + "/" + quizQuestions.length + " câu.";
   }
 
@@ -612,6 +728,7 @@
   const listenDone = document.getElementById("listenDone");
   const listenDoneText = document.getElementById("listenDoneText");
   const listenCoin = document.getElementById("listenCoin");
+  const listenResumePrompt = document.getElementById("listenResumePrompt");
 
   const LISTEN_MAX_HINTS = 3;
   let listenSession = [];
@@ -627,14 +744,44 @@
   }
 
   function startListening(){
-    listenSession = getWorkingSet();
-    if(listenSession.length === 0){
+    const workingSet = getWorkingSet();
+    if(workingSet.length === 0){
       sessionStorage.setItem("chuchieng:fc:empty", "1");
       window.location.href = EXIT_URL;
       return;
     }
+
+    const saved = loadModeProgress("listening");
+    if(saved && saved.index < saved.words.length){
+      const resolved = resolveWords(saved.words);
+      if(resolved.length === saved.words.length){
+        showResumeUI(listenResumePrompt, listenBody, listenDone, saved, saved.index, saved.words.length,
+          function(){
+            listenSession = resolved;
+            listenIndex = saved.index;
+            listenCorrectCount = 0;
+            beginListenSession();
+          },
+          function(){
+            clearModeProgress("listening");
+            listenSession = workingSet;
+            listenIndex = 0;
+            listenCorrectCount = 0;
+            beginListenSession();
+          }
+        );
+        return;
+      }
+    }
+
+    listenSession = workingSet;
     listenIndex = 0;
     listenCorrectCount = 0;
+    beginListenSession();
+  }
+
+  function beginListenSession(){
+    listenResumePrompt.classList.add("hidden");
     listenBody.style.display = "";
     listenDone.style.display = "none";
     listenCoin.textContent = getCoins();
@@ -670,6 +817,7 @@
 
     playListenAudio();
     listenInput.focus();
+    saveModeProgress("listening", listenSession, listenIndex);
   }
 
   function playListenAudio(){
@@ -775,6 +923,7 @@
     listenFill.style.width = "100%";
     listenBody.style.display = "none";
     listenDone.style.display = "block";
+    clearModeProgress("listening");
     listenDoneText.textContent = "Bạn đã nghe đúng " + listenCorrectCount + "/" + listenSession.length + " câu.";
   }
 
@@ -807,6 +956,7 @@
   const typeFeedback = document.getElementById("typeFeedback");
   const typeDone = document.getElementById("typeDone");
   const typeDoneText = document.getElementById("typeDoneText");
+  const typeResumePrompt = document.getElementById("typeResumePrompt");
 
   const TYPE_TIME = 30;
   const TYPE_MAX_HINTS = 3;
@@ -819,14 +969,44 @@
   let typeExampleShown = false;
 
   function startTypeMode(){
-    typeSession = getWorkingSet();
-    if(typeSession.length === 0){
+    const workingSet = getWorkingSet();
+    if(workingSet.length === 0){
       sessionStorage.setItem("chuchieng:fc:empty", "1");
       window.location.href = EXIT_URL;
       return;
     }
+
+    const saved = loadModeProgress("type");
+    if(saved && saved.index < saved.words.length){
+      const resolved = resolveWords(saved.words);
+      if(resolved.length === saved.words.length){
+        showResumeUI(typeResumePrompt, typeBody, typeDone, saved, saved.index, saved.words.length,
+          function(){
+            typeSession = resolved;
+            typeIndex = saved.index;
+            typeCorrectCount = 0;
+            beginTypeSession();
+          },
+          function(){
+            clearModeProgress("type");
+            typeSession = workingSet;
+            typeIndex = 0;
+            typeCorrectCount = 0;
+            beginTypeSession();
+          }
+        );
+        return;
+      }
+    }
+
+    typeSession = workingSet;
     typeIndex = 0;
     typeCorrectCount = 0;
+    beginTypeSession();
+  }
+
+  function beginTypeSession(){
+    typeResumePrompt.classList.add("hidden");
     typeBody.style.display = "";
     typeDone.style.display = "none";
     typeCoin.textContent = getCoins();
@@ -863,6 +1043,7 @@
 
     startTypeTimer();
     typeInput.focus();
+    saveModeProgress("type", typeSession, typeIndex);
   }
 
   function startTypeTimer(){
@@ -966,6 +1147,7 @@
     typeFill.style.width = "100%";
     typeBody.style.display = "none";
     typeDone.style.display = "block";
+    clearModeProgress("type");
     typeDoneText.textContent = "Bạn đã gõ đúng " + typeCorrectCount + "/" + typeSession.length + " từ.";
   }
 
@@ -995,6 +1177,7 @@
   const matchDone = document.getElementById("matchDone");
   const matchDoneText = document.getElementById("matchDoneText");
   const matchDetailBanner = document.getElementById("matchDetailBanner");
+  const matchResumePrompt = document.getElementById("matchResumePrompt");
 
   const MATCH_TIME = 30;
   const MATCH_MAX_HEARTS = 5;
@@ -1003,6 +1186,7 @@
   let matchLeftItems = [];
   let matchRightItems = [];
   let matchMatchedCount = 0;
+  let matchMatchedWords = []; // danh sách từ (key) đã ghép đúng, để lưu/khôi phục
   let matchHeartsLeft = MATCH_MAX_HEARTS;
   let matchTimerInterval = null;
   let matchTimeRemaining = MATCH_TIME;
@@ -1019,18 +1203,47 @@
     return a;
   }
 
+  function saveMatchProgress(){
+    saveModeProgress("match", matchWords, 0, { matchedWords: matchMatchedWords, hearts: matchHeartsLeft });
+  }
+
   function startMatch(){
-    const words = getWorkingSet();
-    if(words.length < 2){
+    const workingSet = getWorkingSet();
+    if(workingSet.length < 2){
       sessionStorage.setItem("chuchieng:fc:empty", "1");
       window.location.href = EXIT_URL;
       return;
     }
-    matchWords = words;
+
+    const saved = loadModeProgress("match");
+    if(saved && saved.extra && saved.extra.matchedWords && saved.extra.matchedWords.length < saved.words.length){
+      const resolved = resolveWords(saved.words);
+      if(resolved.length === saved.words.length){
+        showResumeUI(matchResumePrompt, matchBody, matchDone, saved, saved.extra.matchedWords.length, saved.words.length,
+          function(){
+            matchWords = resolved;
+            beginMatchSession(saved.extra.matchedWords, saved.extra.hearts);
+          },
+          function(){
+            clearModeProgress("match");
+            matchWords = workingSet;
+            beginMatchSession([], MATCH_MAX_HEARTS);
+          }
+        );
+        return;
+      }
+    }
+
+    matchWords = workingSet;
+    beginMatchSession([], MATCH_MAX_HEARTS);
+  }
+
+  function beginMatchSession(preMatchedWords, hearts){
+    matchResumePrompt.classList.add("hidden");
     matchCoin.textContent = getCoins();
     matchBody.style.display = "";
     matchDone.style.display = "none";
-    setupMatchRound();
+    setupMatchRound(preMatchedWords, hearts);
   }
 
   function closeMatch(e){
@@ -1039,9 +1252,10 @@
     window.location.href = EXIT_URL;
   }
 
-  function setupMatchRound(){
-    matchMatchedCount = 0;
-    matchHeartsLeft = MATCH_MAX_HEARTS;
+  function setupMatchRound(preMatchedWords, hearts){
+    matchMatchedWords = (preMatchedWords || []).slice();
+    matchMatchedCount = matchMatchedWords.length;
+    matchHeartsLeft = (typeof hearts === "number") ? hearts : MATCH_MAX_HEARTS;
     matchSelectedLeft = null;
     matchSelectedRight = null;
     matchLocked = false;
@@ -1054,6 +1268,7 @@
     renderMatchColumns();
     updateMatchProgress();
     startMatchTimer();
+    saveMatchProgress();
   }
 
   function renderMatchHearts(){
@@ -1079,6 +1294,7 @@
       el.className = "match-item";
       el.dataset.word = w.word;
       el.textContent = w.word;
+      if(matchMatchedWords.indexOf(w.word) !== -1) el.classList.add("matched");
       el.addEventListener("click", function(){ selectMatchItem("left", w, el); });
       matchLeftCol.appendChild(el);
     });
@@ -1088,6 +1304,7 @@
       el.className = "match-item";
       el.dataset.word = w.word;
       el.textContent = w.meaning;
+      if(matchMatchedWords.indexOf(w.word) !== -1) el.classList.add("matched");
       el.addEventListener("click", function(){ selectMatchItem("right", w, el); });
       matchRightCol.appendChild(el);
     });
@@ -1136,8 +1353,10 @@
       left.el.classList.add("matched");
       right.el.classList.add("matched");
       matchMatchedCount++;
+      matchMatchedWords.push(left.word.word);
       updateMatchProgress();
       matchCoin.textContent = addCoins(1);
+      saveMatchProgress();
 
       matchSelectedLeft = null;
       matchSelectedRight = null;
@@ -1169,6 +1388,7 @@
   function loseMatchHeart(){
     matchHeartsLeft--;
     renderMatchHearts();
+    saveMatchProgress();
     if(matchHeartsLeft <= 0){
       clearInterval(matchTimerInterval);
       showToast("Hết lượt! Chơi lại từ đầu 🔁");
@@ -1247,6 +1467,7 @@
     clearInterval(matchTimerInterval);
     matchBody.style.display = "none";
     matchDone.style.display = "block";
+    clearModeProgress("match");
     matchDoneText.textContent = "Bạn đã ghép đúng tất cả " + matchWords.length + " cặp từ.";
   }
 
@@ -1273,6 +1494,7 @@
   const translateFeedback = document.getElementById("translateFeedback");
   const translateDone = document.getElementById("translateDone");
   const translateDoneText = document.getElementById("translateDoneText");
+  const translateResumePrompt = document.getElementById("translateResumePrompt");
 
   const TRANSLATE_TIME = 30;
   let translateSession = [];
@@ -1285,14 +1507,44 @@
   let translateSelected = []; // id theo thứ tự đã chọn
 
   function startTranslate(){
-    translateSession = getWorkingSet();
-    if(translateSession.length === 0){
+    const workingSet = getWorkingSet();
+    if(workingSet.length === 0){
       sessionStorage.setItem("chuchieng:fc:empty", "1");
       window.location.href = EXIT_URL;
       return;
     }
+
+    const saved = loadModeProgress("translate");
+    if(saved && saved.index < saved.words.length){
+      const resolved = resolveWords(saved.words);
+      if(resolved.length === saved.words.length){
+        showResumeUI(translateResumePrompt, translateBody, translateDone, saved, saved.index, saved.words.length,
+          function(){
+            translateSession = resolved;
+            translateIndex = saved.index;
+            translateCorrectCount = 0;
+            beginTranslateSession();
+          },
+          function(){
+            clearModeProgress("translate");
+            translateSession = workingSet;
+            translateIndex = 0;
+            translateCorrectCount = 0;
+            beginTranslateSession();
+          }
+        );
+        return;
+      }
+    }
+
+    translateSession = workingSet;
     translateIndex = 0;
     translateCorrectCount = 0;
+    beginTranslateSession();
+  }
+
+  function beginTranslateSession(){
+    translateResumePrompt.classList.add("hidden");
     translateBody.style.display = "";
     translateDone.style.display = "none";
     translateCoin.textContent = getCoins();
@@ -1327,6 +1579,7 @@
     translateFeedback.style.display = "none";
     renderTranslateTiles();
     startTranslateTimer();
+    saveModeProgress("translate", translateSession, translateIndex);
   }
 
   function renderTranslateTiles(){
@@ -1436,6 +1689,7 @@
     clearInterval(translateTimerInterval);
     translateBody.style.display = "none";
     translateDone.style.display = "block";
+    clearModeProgress("translate");
     translateDoneText.textContent = "Bạn đã dịch đúng " + translateCorrectCount + "/" + translateSession.length + " câu.";
   }
 
