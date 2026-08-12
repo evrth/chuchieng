@@ -1253,6 +1253,196 @@
   document.getElementById("matchDoneClose").href = EXIT_URL;
   document.getElementById("matchDoneClose").addEventListener("click", closeMatch);
 
+  // ---------- chế độ học: Dịch câu (Translate) ----------
+  const translateOverlay = document.getElementById("translateOverlay");
+  const translateProgressNum = document.getElementById("translateProgressNum");
+  const translateFill = document.getElementById("translateFill");
+  const translateCoin = document.getElementById("translateCoin");
+  const translateTimerText = document.getElementById("translateTimerText");
+  const translateTimerFill = document.getElementById("translateTimerFill");
+  const translateBody = document.getElementById("translateBody");
+  const translateSource = document.getElementById("translateSource");
+  const translateAnswer = document.getElementById("translateAnswer");
+  const translateBank = document.getElementById("translateBank");
+  const translateCheckBtn = document.getElementById("translateCheckBtn");
+  const translateFeedback = document.getElementById("translateFeedback");
+  const translateDone = document.getElementById("translateDone");
+  const translateDoneText = document.getElementById("translateDoneText");
+
+  const TRANSLATE_TIME = 30;
+  let translateSession = [];
+  let translateIndex = 0;
+  let translateCorrectCount = 0;
+  let translateTimerInterval = null;
+  let translateAnswered = false;
+  let translateTargetWords = [];
+  let translateTiles = []; // { word, id, used }
+  let translateSelected = []; // id theo thứ tự đã chọn
+
+  function startTranslate(){
+    translateSession = getWorkingSet();
+    if(translateSession.length === 0){
+      sessionStorage.setItem("chuchieng:fc:empty", "1");
+      window.location.href = EXIT_URL;
+      return;
+    }
+    translateIndex = 0;
+    translateCorrectCount = 0;
+    translateBody.style.display = "";
+    translateDone.style.display = "none";
+    translateCoin.textContent = getCoins();
+    document.addEventListener("keydown", onTranslateKeydown);
+    renderTranslateQuestion();
+  }
+
+  function closeTranslate(e){
+    if(e) e.preventDefault();
+    clearInterval(translateTimerInterval);
+    window.location.href = EXIT_URL;
+  }
+
+  function renderTranslateQuestion(){
+    translateAnswered = false;
+    const w = translateSession[translateIndex];
+    translateProgressNum.textContent = "Câu " + (translateIndex + 1) + " / " + translateSession.length;
+    translateFill.style.width = Math.round((translateIndex / translateSession.length) * 100) + "%";
+
+    translateSource.textContent = w.example;
+    translateTargetWords = w.exampleVi.split(" ");
+
+    translateTiles = shuffleArr(translateTargetWords.map(function(word, i){
+      return { word: word, id: i, used: false };
+    }));
+    // đảm bảo thứ tự xáo trộn khác thứ tự gốc nếu có thể
+    if(translateTiles.length > 1 && translateTiles.every(function(t, i){ return t.id === i; })){
+      const tmp = translateTiles[0]; translateTiles[0] = translateTiles[1]; translateTiles[1] = tmp;
+    }
+    translateSelected = [];
+
+    translateFeedback.style.display = "none";
+    renderTranslateTiles();
+    startTranslateTimer();
+  }
+
+  function renderTranslateTiles(){
+    translateAnswer.innerHTML = "";
+    translateSelected.forEach(function(id){
+      const t = translateTiles.find(function(t){ return t.id === id; });
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "translate-tile";
+      btn.textContent = t.word;
+      btn.addEventListener("click", function(){
+        if(translateAnswered) return;
+        translateSelected = translateSelected.filter(function(sid){ return sid !== id; });
+        t.used = false;
+        renderTranslateTiles();
+      });
+      translateAnswer.appendChild(btn);
+    });
+
+    translateBank.innerHTML = "";
+    translateTiles.forEach(function(t){
+      if(t.used) return;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "translate-tile";
+      btn.textContent = t.word;
+      btn.addEventListener("click", function(){
+        if(translateAnswered) return;
+        t.used = true;
+        translateSelected.push(t.id);
+        renderTranslateTiles();
+      });
+      translateBank.appendChild(btn);
+    });
+
+    translateCheckBtn.disabled = translateSelected.length !== translateTargetWords.length;
+  }
+
+  function startTranslateTimer(){
+    clearInterval(translateTimerInterval);
+    let remaining = TRANSLATE_TIME;
+    translateTimerText.textContent = remaining + "s";
+    translateTimerFill.style.width = "100%";
+    translateTimerFill.classList.remove("low");
+
+    translateTimerInterval = setInterval(function(){
+      remaining--;
+      translateTimerText.textContent = Math.max(remaining, 0) + "s";
+      translateTimerFill.style.width = Math.max((remaining / TRANSLATE_TIME) * 100, 0) + "%";
+      if(remaining <= 8) translateTimerFill.classList.add("low");
+      if(remaining <= 0){
+        clearInterval(translateTimerInterval);
+        if(!translateAnswered) checkTranslateAnswer();
+      }
+    }, 1000);
+  }
+
+  function checkTranslateAnswer(){
+    if(translateAnswered) return;
+    translateAnswered = true;
+    clearInterval(translateTimerInterval);
+
+    const w = translateSession[translateIndex];
+    const assembled = translateSelected.map(function(id){
+      return translateTiles.find(function(t){ return t.id === id; }).word;
+    }).join(" ");
+    const isCorrect = assembled === translateTargetWords.join(" ");
+
+    setLearned(w.word, isCorrect);
+    renderTable();
+    updateSelectedBadge();
+
+    translateCheckBtn.disabled = true;
+    translateFeedback.style.display = "block";
+
+    if(isCorrect){
+      translateCorrectCount++;
+      translateFeedback.className = "translate-feedback correct";
+      translateFeedback.textContent = "✅ Chính xác!";
+      translateCoin.textContent = addCoins(1);
+    }else{
+      translateFeedback.className = "translate-feedback wrong";
+      translateFeedback.innerHTML = "❌ Chưa đúng<span class=\"correct-answer\">Đáp án: " + translateTargetWords.join(" ") + "</span>";
+    }
+
+    setTimeout(function(){
+      if(translateIndex < translateSession.length - 1){
+        translateIndex++;
+        renderTranslateQuestion();
+      }else{
+        finishTranslate();
+      }
+    }, 1300);
+  }
+
+  translateCheckBtn.addEventListener("click", checkTranslateAnswer);
+
+  function onTranslateKeydown(e){
+    if(e.key === "Enter" && !translateCheckBtn.disabled){
+      e.preventDefault();
+      checkTranslateAnswer();
+    }
+  }
+
+  function finishTranslate(){
+    clearInterval(translateTimerInterval);
+    translateBody.style.display = "none";
+    translateDone.style.display = "block";
+    translateDoneText.textContent = "Bạn đã dịch đúng " + translateCorrectCount + "/" + translateSession.length + " câu.";
+  }
+
+  document.getElementById("translateRestart").addEventListener("click", function(){
+    translateIndex = 0;
+    translateCorrectCount = 0;
+    renderTranslateQuestion();
+  });
+  document.getElementById("translateExit").href = EXIT_URL;
+  document.getElementById("translateExit").addEventListener("click", closeTranslate);
+  document.getElementById("translateDoneClose").href = EXIT_URL;
+  document.getElementById("translateDoneClose").addEventListener("click", closeTranslate);
+
   // ---------- các chế độ khác: sắp ra mắt ----------
   function showToast(msg){
     const toast = document.getElementById("toast");
@@ -1287,8 +1477,18 @@
   });
   document.querySelectorAll(".special-option").forEach(function(opt){
     opt.addEventListener("click", function(){
-      closeSpecialModal();
-      showToast("Chế độ này sẽ được cập nhật ở giai đoạn sau 🌿");
+      const kind = opt.dataset.special;
+      if(kind === "translate"){
+        if(getWorkingSet().length === 0){
+          closeSpecialModal();
+          showToast("Không có từ nào phù hợp với bộ lọc hiện tại");
+          return;
+        }
+        window.location.href = buildModeUrl("translate");
+      }else{
+        closeSpecialModal();
+        showToast("Chế độ này sẽ được cập nhật ở giai đoạn sau 🌿");
+      }
     });
   });
 
@@ -1317,7 +1517,7 @@
 
   // ---------- chọn view: trang thường, flashcard hay quiz ----------
   const initialMode = params.get("mode");
-  if(initialMode === "flashcard" || initialMode === "quiz" || initialMode === "listening" || initialMode === "type" || initialMode === "match"){
+  if(initialMode === "flashcard" || initialMode === "quiz" || initialMode === "listening" || initialMode === "type" || initialMode === "match" || initialMode === "translate"){
     if(params.has("status")) statusSelect.value = params.get("status");
     if(params.has("qty")) quantitySelect.value = params.get("qty");
     if(params.has("order")) orderSelect.value = params.get("order");
@@ -1336,9 +1536,12 @@
     }else if(initialMode === "type"){
       typeOverlay.classList.remove("hidden");
       startTypeMode();
-    }else{
+    }else if(initialMode === "match"){
       matchOverlay.classList.remove("hidden");
       startMatch();
+    }else{
+      translateOverlay.classList.remove("hidden");
+      startTranslate();
     }
   }else{
     if(sessionStorage.getItem("chuchieng:fc:empty")){

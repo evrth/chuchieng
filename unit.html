@@ -462,6 +462,50 @@
   </div>
 </div>
 
+<!-- TRANSLATE VIEW (trang riêng, url ?mode=translate) -->
+<div class="fc-overlay hidden" id="translateOverlay">
+  <div class="fc-page">
+
+    <div class="fc-topbar">
+      <div class="fc-progress-num" id="translateProgressNum">Câu 1 / 10</div>
+      <div class="fc-toggle-wrap">
+        <button class="fc-textbtn" id="translateRestart" type="button">↺ Chơi lại</button>
+        <a class="fc-textbtn" id="translateExit" href="#">Thoát</a>
+      </div>
+    </div>
+
+    <div class="fc-track"><div class="fc-fill" id="translateFill"></div></div>
+
+    <div class="quiz-timerrow">
+      <div class="fc-coin">🪙 <span id="translateCoin">0</span></div>
+      <div class="quiz-timer-text" id="translateTimerText">30s</div>
+      <div class="quiz-timer-track"><div class="quiz-timer-fill" id="translateTimerFill"></div></div>
+    </div>
+
+    <div id="translateBody">
+      <div class="translate-card">
+        <div class="translate-label">Dịch câu tiếng Anh sang tiếng Việt:</div>
+        <div class="translate-source" id="translateSource"></div>
+
+        <div class="translate-answer" id="translateAnswer"></div>
+        <div class="translate-bank" id="translateBank"></div>
+
+        <div class="translate-feedback" id="translateFeedback" style="display:none;"></div>
+
+        <button class="translate-check-btn" id="translateCheckBtn" type="button" disabled>Kiểm tra (Enter)</button>
+      </div>
+    </div>
+
+    <div class="fc-done" id="translateDone" style="display:none;">
+      <div class="big">🌐</div>
+      <h3>Hoàn thành Dịch câu!</h3>
+      <p id="translateDoneText">Bạn đã dịch đúng ... câu.</p>
+      <a class="fc-done-btn" id="translateDoneClose" href="#">Đóng</a>
+    </div>
+
+  </div>
+</div>
+
 <script src="js/vocab-data.js"></script>
 <script src="js/unit.js"></script>
 </body>

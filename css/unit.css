@@ -1222,3 +1222,103 @@ table.vocab-table{
   font-weight:600;
   line-height:1.4;
 }
+
+/* ============================================
+   Dịch câu (Translate)
+   ============================================ */
+.translate-card{
+  background:var(--card);
+  border-radius:28px;
+  padding:30px 28px;
+  box-shadow:var(--shadow-soft);
+}
+.translate-label{
+  font-size:11.5px;
+  font-weight:900;
+  letter-spacing:.4px;
+  text-transform:uppercase;
+  color:var(--ink-soft);
+  margin-bottom:10px;
+}
+.translate-source{
+  font-size:24px;
+  font-weight:900;
+  color:var(--forest);
+  line-height:1.4;
+  margin-bottom:24px;
+}
+
+.translate-answer{
+  min-height:64px;
+  border-radius:16px;
+  border:1.5px dashed rgba(174,190,137,0.6);
+  background:var(--cream);
+  padding:12px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  align-content:flex-start;
+  margin-bottom:18px;
+}
+.translate-bank{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:22px;
+  min-height:44px;
+}
+.translate-tile{
+  padding:10px 16px;
+  border-radius:12px;
+  border:1.5px solid var(--sage-light);
+  background:var(--card);
+  color:var(--forest);
+  font-family:'Nunito',sans-serif;
+  font-weight:800;
+  font-size:14.5px;
+  cursor:pointer;
+  transition:all .15s ease;
+}
+.translate-tile:hover{ border-color:var(--sage); background:var(--sage-light); }
+.translate-answer .translate-tile{
+  background:var(--sage);
+  border-color:var(--sage);
+  color:#fff;
+}
+.translate-answer .translate-tile:hover{ background:#7C9A5E; }
+
+.translate-check-btn{
+  width:100%;
+  padding:16px;
+  border-radius:16px;
+  border:none;
+  background:var(--sage);
+  color:#fff;
+  font-family:'Nunito',sans-serif;
+  font-weight:900;
+  font-size:15px;
+  cursor:pointer;
+  transition:background .2s;
+}
+.translate-check-btn:hover:not(:disabled){ background:#7C9A5E; }
+.translate-check-btn:disabled{
+  opacity:.4;
+  cursor:default;
+}
+
+.translate-feedback{
+  font-size:14px;
+  font-weight:800;
+  padding:12px 18px;
+  border-radius:14px;
+  margin-bottom:16px;
+}
+.translate-feedback.correct{ background:#EAF3E0; color:#4C7A32; }
+.translate-feedback.wrong{ background:#FBE9E6; color:#B0503B; }
+.translate-feedback .correct-answer{
+  display:block;
+  margin-top:4px;
+  font-weight:700;
+  font-size:13px;
+  opacity:.9;
+}
