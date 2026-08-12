@@ -1,0 +1,104 @@
+/* ============================================
+   Trang Ôn tập theo ngày
+   ============================================ */
+.review-hero{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  background:var(--card);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-soft);
+  padding:24px 26px;
+  margin-bottom:24px;
+}
+.review-hero-icon{
+  width:52px;height:52px;
+  border-radius:16px;
+  background:var(--sage-light);
+  display:flex;align-items:center;justify-content:center;
+  font-size:24px;
+  flex-shrink:0;
+}
+.review-hero h1{
+  font-size:20px;
+  font-weight:900;
+  color:var(--forest);
+  margin:0 0 4px;
+}
+.review-hero p{
+  font-size:13px;
+  color:var(--ink-soft);
+  font-weight:600;
+  margin:0;
+}
+
+.review-section-title{
+  font-size:14px;
+  font-weight:900;
+  color:var(--forest);
+  margin:0 4px 12px;
+}
+
+.review-list{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  margin-bottom:28px;
+}
+
+.review-item-card{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  background:var(--card);
+  border-radius:var(--radius-md);
+  box-shadow:var(--shadow-tiny);
+  padding:16px 18px;
+}
+.review-item-icon{
+  width:42px;height:42px;
+  border-radius:12px;
+  background:var(--sage-light);
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;
+  flex-shrink:0;
+}
+.review-item-body{ flex:1; min-width:0; }
+.review-item-title{
+  font-size:14.5px;
+  font-weight:800;
+  color:var(--forest);
+  margin-bottom:2px;
+}
+.review-item-meta{
+  font-size:12px;
+  color:var(--ink-soft);
+  font-weight:600;
+}
+.review-item-link{
+  flex-shrink:0;
+  padding:9px 16px;
+  border-radius:999px;
+  background:var(--sage);
+  color:#fff;
+  font-weight:800;
+  font-size:12.5px;
+  text-decoration:none;
+  white-space:nowrap;
+}
+.review-item-link:hover{ background:#7C9A5E; }
+
+.review-empty{
+  text-align:center;
+  background:var(--card);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-soft);
+  padding:60px 30px;
+}
+.review-empty .big{ font-size:44px; margin-bottom:12px; }
+.review-empty p{
+  color:var(--ink-soft);
+  font-weight:700;
+  font-size:14px;
+  margin:0;
+}

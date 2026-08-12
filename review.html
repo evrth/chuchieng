@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ôn tập — ChuchiEng</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/course.css">
+<link rel="stylesheet" href="css/review.css">
+</head>
+<body>
+
+<div class="wrap">
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.png" alt="ChuchiEng logo">
+      <div class="brand-name">Chuchi<span>Eng</span></div>
+    </div>
+
+    <nav class="top-nav">
+      <a href="index.html" class="active">Trang chủ</a>
+      <a href="english-vocabulary-in-use.html">Từ vựng</a>
+      <a href="#">Luyện tập</a>
+      <a href="#">Xếp hạng</a>
+      <a href="#">Cộng đồng</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="greet">
+        <div class="hi">Chào buổi sáng 👋</div>
+        <div class="name">Bạn học ChuchiEng</div>
+      </div>
+      <div class="avatar">CE</div>
+    </div>
+  </header>
+</div>
+
+<div class="course-wrap">
+
+  <a class="back-link" href="index.html">← Quay lại Trang chủ</a>
+
+  <div class="review-hero">
+    <div class="review-hero-icon">📅</div>
+    <div>
+      <h1 id="reviewTitle">Ôn tập</h1>
+      <p id="reviewSub">Danh sách các bài/từ cần ôn vào ngày này.</p>
+    </div>
+  </div>
+
+  <div id="reviewEmpty" class="review-empty" style="display:none;">
+    <div class="big">🎉</div>
+    <p>Không có gì cần ôn vào ngày này.</p>
+  </div>
+
+  <div id="reviewFlashcardSection" style="display:none;">
+    <div class="review-section-title">📇 Flashcard — ôn theo bài</div>
+    <div class="review-list" id="reviewFlashcardList"></div>
+  </div>
+
+  <div id="reviewOtherSection" style="display:none;">
+    <div class="review-section-title">✍️ Các câu đã làm sai — ôn từng câu</div>
+    <div class="review-list" id="reviewOtherList"></div>
+  </div>
+
+</div>
+
+<script src="js/vocab-data.js"></script>
+<script src="js/srs.js"></script>
+<script src="js/review.js"></script>
+</body>
+</html>
