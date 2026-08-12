@@ -1272,6 +1272,26 @@
     return "unit.html?" + p.toString();
   }
 
+  // ---------- modal: Chọn loại bài tập (Game đặc biệt) ----------
+  const specialModalBackdrop = document.getElementById("specialModalBackdrop");
+
+  function openSpecialModal(){
+    specialModalBackdrop.classList.remove("hidden");
+  }
+  function closeSpecialModal(){
+    specialModalBackdrop.classList.add("hidden");
+  }
+  document.getElementById("specialModalClose").addEventListener("click", closeSpecialModal);
+  specialModalBackdrop.addEventListener("click", function(e){
+    if(e.target === specialModalBackdrop) closeSpecialModal();
+  });
+  document.querySelectorAll(".special-option").forEach(function(opt){
+    opt.addEventListener("click", function(){
+      closeSpecialModal();
+      showToast("Chế độ này sẽ được cập nhật ở giai đoạn sau 🌿");
+    });
+  });
+
   document.querySelectorAll(".mode-card").forEach(function(card){
     card.addEventListener("click", function(){
       const mode = card.dataset.mode;
@@ -1281,6 +1301,8 @@
           return;
         }
         window.location.href = buildModeUrl(mode);
+      }else if(mode === "special"){
+        openSpecialModal();
       }else{
         showToast("Chế độ này sẽ được cập nhật ở giai đoạn sau 🌿");
       }
