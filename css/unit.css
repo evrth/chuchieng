@@ -1025,6 +1025,9 @@ table.vocab-table{
   flex-direction:column;
   gap:10px;
   min-height:40px;
+  max-height:60vh;
+  overflow-y:auto;
+  padding-right:4px;
 }
 .match-item{
   border:1.5px solid rgba(174,190,137,0.5);

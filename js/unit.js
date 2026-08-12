@@ -992,7 +992,6 @@
   const matchDoneText = document.getElementById("matchDoneText");
   const matchDetailBanner = document.getElementById("matchDetailBanner");
 
-  const MATCH_ROUND_SIZE = 8;
   const MATCH_TIME = 30;
   const MATCH_MAX_HEARTS = 5;
 
@@ -1023,7 +1022,7 @@
       window.location.href = EXIT_URL;
       return;
     }
-    matchWords = words.slice(0, MATCH_ROUND_SIZE);
+    matchWords = words;
     matchCoin.textContent = getCoins();
     matchBody.style.display = "";
     matchDone.style.display = "none";
