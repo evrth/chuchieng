@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bài tập nhanh — ChuchiEng</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/course.css">
+<link rel="stylesheet" href="css/exercises.css">
+</head>
+<body>
+
+<div class="wrap">
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.png" alt="ChuchiEng logo">
+      <div class="brand-name">Chuchi<span>Eng</span></div>
+    </div>
+
+    <nav class="top-nav">
+      <a href="index.html">Trang chủ</a>
+      <a href="english-vocabulary-in-use.html" class="active">Từ vựng</a>
+      <a href="#">Luyện tập</a>
+      <a href="#">Xếp hạng</a>
+      <a href="#">Cộng đồng</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="greet">
+        <div class="hi">Chào buổi sáng 👋</div>
+        <div class="name">Bạn học ChuchiEng</div>
+      </div>
+      <div class="avatar">CE</div>
+    </div>
+  </header>
+</div>
+
+<div class="course-wrap">
+
+  <a class="back-link" id="backLink" href="unit.html">← Quay lại Unit</a>
+
+  <!-- DANH SÁCH BÀI TẬP -->
+  <div id="exListView">
+    <div class="ex-hero">
+      <div class="ex-hero-icon">⚡</div>
+      <div>
+        <h1 id="exUnitTitle">Bài tập nhanh</h1>
+        <p id="exUnitSub">Chọn một bài để bắt đầu — làm theo thứ tự bất kỳ bạn muốn.</p>
+      </div>
+    </div>
+
+    <div class="ex-list" id="exList"></div>
+  </div>
+
+  <!-- LÀM BÀI TẬP -->
+  <div id="exActiveView" style="display:none;">
+    <div class="ex-active-card">
+      <div class="ex-active-head">
+        <span class="ex-type-badge" id="exActiveTypeBadge"></span>
+        <h2 id="exActiveTitle"></h2>
+        <p id="exActiveInstructions"></p>
+      </div>
+
+      <div id="exActiveBody"></div>
+
+      <div class="ex-active-footer">
+        <button class="ex-submit-btn" id="exSubmitBtn" type="button">Nộp bài</button>
+        <div class="ex-result" id="exResult" style="display:none;"></div>
+        <div class="ex-nav-buttons" id="exNavButtons" style="display:none;">
+          <a class="ex-list-btn" id="exBackToList" href="#">Danh sách bài tập</a>
+          <button class="ex-next-btn" id="exNextBtn" type="button">Bài tiếp theo →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="exAllDoneView" style="display:none;">
+    <div class="ex-done-card">
+      <div class="big">🎉</div>
+      <h2>Bạn đã hoàn thành tất cả bài tập!</h2>
+      <p>Xem lại danh sách để làm lại bất kỳ bài nào bạn muốn.</p>
+      <a class="ex-list-btn primary" id="exAllDoneBackToList" href="#">Danh sách bài tập</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/exercises-data.js"></script>
+<script src="js/exercises.js"></script>
+</body>
+</html>

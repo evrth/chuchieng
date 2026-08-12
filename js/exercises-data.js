@@ -1,0 +1,409 @@
+const EXERCISES_DATA = {
+  1: {
+  "unit": {
+    "id": "unit-1-family",
+    "title": "Unit 1: The Family",
+    "level": "A1-A2",
+    "language_pair": {
+      "target": "en",
+      "native": "vi"
+    }
+  },
+  "exercises": [
+    {
+      "id": "ex1-matching",
+      "type": "matching",
+      "title": "Nối từ với nghĩa",
+      "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+      "pairs": [
+        {
+          "left": "father",
+          "right": "bố, cha"
+        },
+        {
+          "left": "mother",
+          "right": "mẹ"
+        },
+        {
+          "left": "brother",
+          "right": "anh/em trai"
+        },
+        {
+          "left": "sister",
+          "right": "chị/em gái"
+        },
+        {
+          "left": "grandfather",
+          "right": "ông"
+        },
+        {
+          "left": "grandmother",
+          "right": "bà"
+        },
+        {
+          "left": "uncle",
+          "right": "chú, bác, cậu, dượng"
+        },
+        {
+          "left": "aunt",
+          "right": "cô, dì, bác gái, thím, mợ"
+        },
+        {
+          "left": "son",
+          "right": "con trai"
+        },
+        {
+          "left": "daughter",
+          "right": "con gái"
+        }
+      ]
+    },
+    {
+      "id": "ex2-fill-blank",
+      "type": "fill_in_the_blank",
+      "title": "Điền từ vào chỗ trống",
+      "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+      "word_bank": [
+        "father",
+        "husband",
+        "children",
+        "mother",
+        "brother",
+        "daughter",
+        "grandfather",
+        "aunt",
+        "cousins",
+        "nephew"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "sentence": "My ______ works in a bank.",
+          "hint_vi": "bố tôi",
+          "answer": "father"
+        },
+        {
+          "id": "q2",
+          "sentence": "Her ______ is very friendly.",
+          "hint_vi": "chồng của cô ấy",
+          "answer": "husband"
+        },
+        {
+          "id": "q3",
+          "sentence": "They have three ______.",
+          "hint_vi": "các con",
+          "answer": "children"
+        },
+        {
+          "id": "q4",
+          "sentence": "My ______ cooks dinner every day.",
+          "hint_vi": "mẹ tôi",
+          "answer": "mother"
+        },
+        {
+          "id": "q5",
+          "sentence": "I have one older ______.",
+          "hint_vi": "anh trai",
+          "answer": "brother"
+        },
+        {
+          "id": "q6",
+          "sentence": "Their ______ is five years old.",
+          "hint_vi": "con gái",
+          "answer": "daughter"
+        },
+        {
+          "id": "q7",
+          "sentence": "My ______ is 75 years old.",
+          "hint_vi": "ông tôi",
+          "answer": "grandfather"
+        },
+        {
+          "id": "q8",
+          "sentence": "My ______ visits us every Sunday.",
+          "hint_vi": "cô/dì",
+          "answer": "aunt"
+        },
+        {
+          "id": "q9",
+          "sentence": "I often play with my ______.",
+          "hint_vi": "anh chị em họ",
+          "answer": "cousins"
+        },
+        {
+          "id": "q10",
+          "sentence": "My ______ likes toy cars.",
+          "hint_vi": "cháu trai",
+          "answer": "nephew"
+        }
+      ]
+    },
+    {
+      "id": "ex3-multiple-choice",
+      "type": "multiple_choice",
+      "title": "Trắc nghiệm",
+      "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Your mother's mother is your...",
+          "options": [
+            "grandmother",
+            "aunt",
+            "sister",
+            "niece"
+          ],
+          "answer": "grandmother"
+        },
+        {
+          "id": "q2",
+          "question": "Your father's brother is your...",
+          "options": [
+            "cousin",
+            "uncle",
+            "nephew",
+            "son"
+          ],
+          "answer": "uncle"
+        },
+        {
+          "id": "q3",
+          "question": "A woman's son and daughter are her...",
+          "options": [
+            "parents",
+            "relatives",
+            "children",
+            "grandparents"
+          ],
+          "answer": "children"
+        },
+        {
+          "id": "q4",
+          "question": "Your sister's daughter is your...",
+          "options": [
+            "niece",
+            "nephew",
+            "granddaughter",
+            "cousin"
+          ],
+          "answer": "niece"
+        },
+        {
+          "id": "q5",
+          "question": "A man married to your sister is your...",
+          "options": [
+            "father",
+            "husband",
+            "brother-in-law",
+            "grandfather"
+          ],
+          "answer": "brother-in-law"
+        },
+        {
+          "id": "q6",
+          "question": "Your uncle's son is your...",
+          "options": [
+            "brother",
+            "cousin",
+            "nephew",
+            "grandson"
+          ],
+          "answer": "cousin"
+        },
+        {
+          "id": "q7",
+          "question": "Your mother and father are your...",
+          "options": [
+            "cousins",
+            "parents",
+            "children",
+            "relatives"
+          ],
+          "answer": "parents"
+        },
+        {
+          "id": "q8",
+          "question": "Your son's daughter is your...",
+          "options": [
+            "niece",
+            "daughter",
+            "granddaughter",
+            "sister"
+          ],
+          "answer": "granddaughter"
+        }
+      ]
+    },
+    {
+      "id": "ex4-true-false",
+      "type": "true_false",
+      "title": "Đúng hay Sai",
+      "instructions_vi": "Xác định câu sau đúng hay sai.",
+      "questions": [
+        {
+          "id": "q1",
+          "statement": "A grandson is the son of your son or daughter.",
+          "answer": true
+        },
+        {
+          "id": "q2",
+          "statement": "Your aunt is your father's or mother's sister.",
+          "answer": true
+        },
+        {
+          "id": "q3",
+          "statement": "A niece is a boy.",
+          "answer": false
+        },
+        {
+          "id": "q4",
+          "statement": "Your parents are your children.",
+          "answer": false
+        },
+        {
+          "id": "q5",
+          "statement": "A cousin is the child of your aunt or uncle.",
+          "answer": true
+        },
+        {
+          "id": "q6",
+          "statement": "Your grandparents are your grandmother and grandfather.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": "ex5-unscramble",
+      "type": "unscramble",
+      "title": "Sắp xếp lại chữ cái",
+      "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+      "questions": [
+        {
+          "id": "q1",
+          "scrambled": "TREHOM",
+          "answer": "MOTHER"
+        },
+        {
+          "id": "q2",
+          "scrambled": "TAFREH",
+          "answer": "FATHER"
+        },
+        {
+          "id": "q3",
+          "scrambled": "TRESIS",
+          "answer": "SISTER"
+        },
+        {
+          "id": "q4",
+          "scrambled": "ROTBHER",
+          "answer": "BROTHER"
+        },
+        {
+          "id": "q5",
+          "scrambled": "LECNU",
+          "answer": "UNCLE"
+        },
+        {
+          "id": "q6",
+          "scrambled": "TNUA",
+          "answer": "AUNT"
+        },
+        {
+          "id": "q7",
+          "scrambled": "SUOCIN",
+          "answer": "COUSIN"
+        },
+        {
+          "id": "q8",
+          "scrambled": "DAGRTHUEGRAN",
+          "answer": "GRANDDAUGHTER"
+        }
+      ]
+    },
+    {
+      "id": "ex6-family-tree",
+      "type": "labeling",
+      "title": "Điền vào sơ đồ gia đình",
+      "instructions_vi": "Điền từ đúng vào chỗ trống dựa vào mối quan hệ trong gia đình của Linh.",
+      "questions": [
+        {
+          "id": "q1",
+          "clue_vi": "Ông và bà của Linh (bố mẹ của bố Linh)",
+          "answer": "grandparents"
+        },
+        {
+          "id": "q2",
+          "clue_vi": "Bố của Linh",
+          "answer": "father"
+        },
+        {
+          "id": "q3",
+          "clue_vi": "Mẹ của Linh",
+          "answer": "mother"
+        },
+        {
+          "id": "q4",
+          "clue_vi": "Anh trai của Linh",
+          "answer": "brother"
+        },
+        {
+          "id": "q5",
+          "clue_vi": "Em gái của Linh",
+          "answer": "sister"
+        },
+        {
+          "id": "q6",
+          "clue_vi": "Em họ của Linh (con của cô/chú)",
+          "answer": "cousin"
+        },
+        {
+          "id": "q7",
+          "clue_vi": "Con gái của anh trai Linh",
+          "answer": "niece"
+        }
+      ]
+    },
+    {
+      "id": "ex7-reading-cloze",
+      "type": "cloze_reading",
+      "title": "Đọc và điền từ",
+      "instructions_vi": "Điền từ thích hợp vào chỗ trống dựa vào ngữ cảnh.",
+      "passage": "Hello! My name is Mai. I live with my {1} in a small house. My {2} is a doctor and my mother is a teacher. I have one {3} called Tom — he is ten years old, and one {4} called Anna — she is seven. On Sundays, we visit my {5} and {6}. They live near a lake. My {7}, Peter, often comes with his two {8}, Jack and Kate. We all have lunch together and it is a lot of fun!",
+      "blanks": [
+        {
+          "id": "1",
+          "answer": "family"
+        },
+        {
+          "id": "2",
+          "answer": "father"
+        },
+        {
+          "id": "3",
+          "answer": "brother"
+        },
+        {
+          "id": "4",
+          "answer": "sister"
+        },
+        {
+          "id": "5",
+          "answer": "grandmother"
+        },
+        {
+          "id": "6",
+          "answer": "grandfather"
+        },
+        {
+          "id": "7",
+          "answer": "uncle"
+        },
+        {
+          "id": "8",
+          "answer": "children"
+        }
+      ]
+    }
+  ]
+}
+};
