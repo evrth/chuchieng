@@ -1513,5 +1513,1385 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  6: {
+    "unit": {
+      "id": "unit-6-health",
+      "title": "Unit 6: Health & Illness",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u6-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "health",
+            "right": "sức khỏe"
+          },
+          {
+            "left": "fine",
+            "right": "khỏe, ổn, tốt"
+          },
+          {
+            "left": "doctor",
+            "right": "bác sĩ"
+          },
+          {
+            "left": "sick",
+            "right": "ốm, bệnh; buồn nôn"
+          },
+          {
+            "left": "headache",
+            "right": "đau đầu"
+          },
+          {
+            "left": "dentist",
+            "right": "nha sĩ"
+          },
+          {
+            "left": "cold",
+            "right": "cảm lạnh"
+          },
+          {
+            "left": "asthma",
+            "right": "bệnh hen suyễn"
+          },
+          {
+            "left": "hospital",
+            "right": "bệnh viện"
+          },
+          {
+            "left": "relax",
+            "right": "thư giãn"
+          }
+        ]
+      },
+      {
+        "id": "u6-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "rest",
+          "headache",
+          "dentist",
+          "cold",
+          "asthma",
+          "relax",
+          "panic",
+          "hospital"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "You should ______ today.",
+            "hint_vi": "nghỉ ngơi",
+            "answer": "rest"
+          },
+          {
+            "id": "q2",
+            "sentence": "I have a ______.",
+            "hint_vi": "đau đầu",
+            "answer": "headache"
+          },
+          {
+            "id": "q3",
+            "sentence": "I have an appointment with the ______.",
+            "hint_vi": "nha sĩ",
+            "answer": "dentist"
+          },
+          {
+            "id": "q4",
+            "sentence": "I have a ______.",
+            "hint_vi": "cảm lạnh",
+            "answer": "cold"
+          },
+          {
+            "id": "q5",
+            "sentence": "He has ______.",
+            "hint_vi": "hen suyễn",
+            "answer": "asthma"
+          },
+          {
+            "id": "q6",
+            "sentence": "Try to ______ before bed.",
+            "hint_vi": "thư giãn",
+            "answer": "relax"
+          },
+          {
+            "id": "q7",
+            "sentence": "Don't ______. Everything is OK.",
+            "hint_vi": "hoảng sợ",
+            "answer": "panic"
+          },
+          {
+            "id": "q8",
+            "sentence": "He is in ______.",
+            "hint_vi": "bệnh viện",
+            "answer": "hospital"
+          }
+        ]
+      },
+      {
+        "id": "u6-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which illness is spread by mosquitoes?",
+            "options": [
+              "malaria",
+              "asthma",
+              "cold",
+              "toothache"
+            ],
+            "answer": "malaria"
+          },
+          {
+            "id": "q2",
+            "question": "What do you take for a headache?",
+            "options": [
+              "aspirin",
+              "dentist",
+              "doctor",
+              "exercise"
+            ],
+            "answer": "aspirin"
+          },
+          {
+            "id": "q3",
+            "question": "Who treats your teeth?",
+            "options": [
+              "doctor",
+              "dentist",
+              "nurse",
+              "patient"
+            ],
+            "answer": "dentist"
+          },
+          {
+            "id": "q4",
+            "question": "What does 'feel ill' mean?",
+            "options": [
+              "cảm thấy khỏe",
+              "cảm thấy không khỏe",
+              "cảm thấy vui",
+              "cảm thấy đói"
+            ],
+            "answer": "cảm thấy không khỏe"
+          },
+          {
+            "id": "q5",
+            "question": "Which word means 'nghỉ ngơi'?",
+            "options": [
+              "rest",
+              "panic",
+              "breathe",
+              "sneeze"
+            ],
+            "answer": "rest"
+          },
+          {
+            "id": "q6",
+            "question": "Which serious illness can be connected to smoking?",
+            "options": [
+              "cold",
+              "cancer",
+              "headache",
+              "hay fever"
+            ],
+            "answer": "cancer"
+          }
+        ]
+      },
+      {
+        "id": "u6-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "Aspirin can help a headache.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A dentist treats broken bones.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "Malaria is spread by mosquitoes.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "Hay fever can be caused by grass and flowers.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Panic\" means to stay calm.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "Asthma makes it difficult to breathe.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u6-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "HTLAEH",
+            "answer": "HEALTH"
+          },
+          {
+            "id": "q2",
+            "scrambled": "COTRDO",
+            "answer": "DOCTOR"
+          },
+          {
+            "id": "q3",
+            "scrambled": "PSNIRAI",
+            "answer": "ASPIRIN"
+          },
+          {
+            "id": "q4",
+            "scrambled": "ISTNEDT",
+            "answer": "DENTIST"
+          },
+          {
+            "id": "q5",
+            "scrambled": "MALARAI",
+            "answer": "MALARIA"
+          },
+          {
+            "id": "q6",
+            "scrambled": "XALER",
+            "answer": "RELAX"
+          }
+        ]
+      }
+    ]
+  },
+  7: {
+    "unit": {
+      "id": "unit-7-feelings",
+      "title": "Unit 7: Feelings",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u7-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "happy",
+            "right": "vui, hạnh phúc"
+          },
+          {
+            "left": "sad",
+            "right": "buồn"
+          },
+          {
+            "left": "tired",
+            "right": "mệt mỏi"
+          },
+          {
+            "left": "angry",
+            "right": "tức giận"
+          },
+          {
+            "left": "upset",
+            "right": "buồn bực, khó chịu"
+          },
+          {
+            "left": "thirsty",
+            "right": "khát nước"
+          },
+          {
+            "left": "hungry",
+            "right": "đói"
+          },
+          {
+            "left": "surprised",
+            "right": "ngạc nhiên"
+          },
+          {
+            "left": "ill",
+            "right": "ốm, không khỏe"
+          },
+          {
+            "left": "hope",
+            "right": "hy vọng"
+          }
+        ]
+      },
+      {
+        "id": "u7-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "love",
+          "hate",
+          "happy",
+          "sad",
+          "tired",
+          "angry",
+          "thirsty",
+          "hungry"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I ______ my family.",
+            "hint_vi": "yêu",
+            "answer": "love"
+          },
+          {
+            "id": "q2",
+            "sentence": "I ______ getting up early.",
+            "hint_vi": "ghét",
+            "answer": "hate"
+          },
+          {
+            "id": "q3",
+            "sentence": "She is ______ today.",
+            "hint_vi": "vui",
+            "answer": "happy"
+          },
+          {
+            "id": "q4",
+            "sentence": "He looks ______.",
+            "hint_vi": "buồn",
+            "answer": "sad"
+          },
+          {
+            "id": "q5",
+            "sentence": "I am ______ after work.",
+            "hint_vi": "mệt mỏi",
+            "answer": "tired"
+          },
+          {
+            "id": "q6",
+            "sentence": "My father is ______ with me.",
+            "hint_vi": "tức giận",
+            "answer": "angry"
+          },
+          {
+            "id": "q7",
+            "sentence": "I'm ______. I need some water.",
+            "hint_vi": "khát nước",
+            "answer": "thirsty"
+          },
+          {
+            "id": "q8",
+            "sentence": "I'm ______. Let's have lunch.",
+            "hint_vi": "đói",
+            "answer": "hungry"
+          }
+        ]
+      },
+      {
+        "id": "u7-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the opposite of 'happy'?",
+            "options": [
+              "sad",
+              "hungry",
+              "cold",
+              "surprised"
+            ],
+            "answer": "sad"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'rất thích'?",
+            "options": [
+              "hate",
+              "like",
+              "love",
+              "want"
+            ],
+            "answer": "love"
+          },
+          {
+            "id": "q3",
+            "question": "I prefer tea ______ coffee.",
+            "options": [
+              "to",
+              "than",
+              "with",
+              "for"
+            ],
+            "answer": "to"
+          },
+          {
+            "id": "q4",
+            "question": "What do you feel when you need water?",
+            "options": [
+              "hungry",
+              "thirsty",
+              "tired",
+              "cold"
+            ],
+            "answer": "thirsty"
+          },
+          {
+            "id": "q5",
+            "question": "What is the opposite of 'hot'?",
+            "options": [
+              "cold",
+              "well",
+              "ill",
+              "upset"
+            ],
+            "answer": "cold"
+          },
+          {
+            "id": "q6",
+            "question": "\"I'm a bit tired\" — 'a bit' means...",
+            "options": [
+              "rất nhiều",
+              "một chút",
+              "không bao giờ",
+              "luôn luôn"
+            ],
+            "answer": "một chút"
+          }
+        ]
+      },
+      {
+        "id": "u7-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Hate\" means to like something very much.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "\"Thirsty\" means you need water.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Angry\" means happy.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Surprised\" means ngạc nhiên.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Prefer ... to ...\" is used to compare two things you like.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"A little\" and \"a bit\" have completely different meanings.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u7-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "PPYHA",
+            "answer": "HAPPY"
+          },
+          {
+            "id": "q2",
+            "scrambled": "DSA",
+            "answer": "SAD"
+          },
+          {
+            "id": "q3",
+            "scrambled": "GNAYR",
+            "answer": "ANGRY"
+          },
+          {
+            "id": "q4",
+            "scrambled": "RITSYTH",
+            "answer": "THIRSTY"
+          },
+          {
+            "id": "q5",
+            "scrambled": "RGUNYH",
+            "answer": "HUNGRY"
+          },
+          {
+            "id": "q6",
+            "scrambled": "PRISUDRES",
+            "answer": "SURPRISED"
+          }
+        ]
+      }
+    ]
+  },
+  8: {
+    "unit": {
+      "id": "unit-8-social-expressions",
+      "title": "Unit 8: Social English Expressions",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u8-ex1-matching",
+        "type": "matching",
+        "title": "Nối cụm từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "good morning",
+            "right": "chào buổi sáng"
+          },
+          {
+            "left": "goodbye",
+            "right": "tạm biệt"
+          },
+          {
+            "left": "good night",
+            "right": "chúc ngủ ngon"
+          },
+          {
+            "left": "please",
+            "right": "làm ơn"
+          },
+          {
+            "left": "thank you",
+            "right": "cảm ơn"
+          },
+          {
+            "left": "excuse me",
+            "right": "xin lỗi; làm ơn cho hỏi"
+          },
+          {
+            "left": "happy birthday",
+            "right": "chúc mừng sinh nhật"
+          },
+          {
+            "left": "good luck",
+            "right": "chúc may mắn"
+          },
+          {
+            "left": "congratulations",
+            "right": "xin chúc mừng"
+          },
+          {
+            "left": "well done",
+            "right": "làm tốt lắm"
+          }
+        ]
+      },
+      {
+        "id": "u8-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Bạn sẽ nói gì trong mỗi tình huống?",
+        "instructions_vi": "Dùng các cụm từ trong Word Bank để hoàn thành câu phù hợp với tình huống.",
+        "word_bank": [
+          "Excuse me",
+          "Congratulations",
+          "Bless you",
+          "Happy birthday",
+          "Goodbye",
+          "Merry Christmas",
+          "Happy New Year",
+          "Good luck"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "You want to pass by someone. Say: \"______!\"",
+            "answer": "Excuse me"
+          },
+          {
+            "id": "q2",
+            "sentence": "Your friend passed an exam. Say: \"______!\"",
+            "answer": "Congratulations",
+            "accepted_answers": [
+              "Congratulations",
+              "Well done"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "Someone sneezes. Say: \"______!\"",
+            "answer": "Bless you"
+          },
+          {
+            "id": "q4",
+            "sentence": "It's your friend's birthday. Say: \"______!\"",
+            "answer": "Happy birthday"
+          },
+          {
+            "id": "q5",
+            "sentence": "You leave a party. Say: \"______.\"",
+            "answer": "Goodbye"
+          },
+          {
+            "id": "q6",
+            "sentence": "It's December 25th. Say: \"______!\"",
+            "answer": "Merry Christmas"
+          },
+          {
+            "id": "q7",
+            "sentence": "It's January 1st. Say: \"______!\"",
+            "answer": "Happy New Year"
+          },
+          {
+            "id": "q8",
+            "sentence": "Your friend has an exam tomorrow. Say: \"______!\"",
+            "answer": "Good luck"
+          }
+        ]
+      },
+      {
+        "id": "u8-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What do you say when someone sneezes?",
+            "options": [
+              "Bless you!",
+              "Cheers!",
+              "Well done!",
+              "Good luck!"
+            ],
+            "answer": "Bless you!"
+          },
+          {
+            "id": "q2",
+            "question": "What do you say at night before sleeping?",
+            "options": [
+              "Good morning",
+              "Good night / Sleep well",
+              "Good afternoon",
+              "Goodbye"
+            ],
+            "answer": "Good night / Sleep well"
+          },
+          {
+            "id": "q3",
+            "question": "What do you say in the evening when you meet someone?",
+            "options": [
+              "Good morning",
+              "Good afternoon",
+              "Good evening",
+              "Good night"
+            ],
+            "answer": "Good evening"
+          },
+          {
+            "id": "q4",
+            "question": "\"Cheers\" can be used to mean...",
+            "options": [
+              "xin lỗi",
+              "cảm ơn / chúc mừng",
+              "tạm biệt",
+              "chúc ngủ ngon"
+            ],
+            "answer": "cảm ơn / chúc mừng"
+          },
+          {
+            "id": "q5",
+            "question": "What do you say when meeting someone at 3 pm?",
+            "options": [
+              "Good morning",
+              "Good afternoon",
+              "Good evening",
+              "Good night"
+            ],
+            "answer": "Good afternoon"
+          },
+          {
+            "id": "q6",
+            "question": "What do you say to congratulate someone on success?",
+            "options": [
+              "Bless you",
+              "Congratulations / Well done",
+              "Excuse me",
+              "Good night"
+            ],
+            "answer": "Congratulations / Well done"
+          }
+        ]
+      },
+      {
+        "id": "u8-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Good night\" is usually said in the morning.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "\"Cheers\" can mean 'thank you' or be used as a toast.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Bless you\" is said after someone sneezes.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Excuse me\" is impolite.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Congratulations\" is used to celebrate someone's success.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Good luck\" is said before something happens.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u8-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "EDOOGYB",
+            "answer": "GOODBYE"
+          },
+          {
+            "id": "q2",
+            "scrambled": "SREEHC",
+            "answer": "CHEERS"
+          },
+          {
+            "id": "q3",
+            "scrambled": "KCUL",
+            "answer": "LUCK"
+          },
+          {
+            "id": "q4",
+            "scrambled": "THGIN",
+            "answer": "NIGHT"
+          },
+          {
+            "id": "q5",
+            "scrambled": "GNINROM",
+            "answer": "MORNING"
+          },
+          {
+            "id": "q6",
+            "scrambled": "GNINEVE",
+            "answer": "EVENING"
+          }
+        ]
+      }
+    ]
+  },
+  9: {
+    "unit": {
+      "id": "unit-9-discourse-markers",
+      "title": "Unit 9: Useful Expressions & Discourse Markers",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u9-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "actually",
+            "right": "thực ra"
+          },
+          {
+            "left": "really",
+            "right": "thực sự"
+          },
+          {
+            "left": "else",
+            "right": "khác, nữa"
+          },
+          {
+            "left": "around",
+            "right": "khoảng"
+          },
+          {
+            "left": "anyway",
+            "right": "dù sao đi nữa"
+          },
+          {
+            "left": "oh dear",
+            "right": "ôi trời"
+          },
+          {
+            "left": "well done",
+            "right": "làm tốt lắm"
+          },
+          {
+            "left": "hurry up",
+            "right": "nhanh lên"
+          },
+          {
+            "left": "look out",
+            "right": "cẩn thận, coi chừng"
+          },
+          {
+            "left": "absolutely",
+            "right": "hoàn toàn, chắc chắn rồi"
+          }
+        ]
+      },
+      {
+        "id": "u9-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "else",
+          "around",
+          "Anyway",
+          "Absolutely",
+          "Look out",
+          "Hurry up",
+          "mind"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "It's boring here. Let's go somewhere ______.",
+            "hint_vi": "khác",
+            "answer": "else"
+          },
+          {
+            "id": "q2",
+            "sentence": "There were ______ 20 people.",
+            "hint_vi": "khoảng",
+            "answer": "around"
+          },
+          {
+            "id": "q3",
+            "sentence": "Have you had enough? Would you like anything ______?",
+            "hint_vi": "khác, nữa",
+            "answer": "else"
+          },
+          {
+            "id": "q4",
+            "sentence": "______, let's go home.",
+            "hint_vi": "dù sao đi nữa",
+            "answer": "Anyway"
+          },
+          {
+            "id": "q5",
+            "sentence": "\"Do you agree?\" — \"______!\"",
+            "hint_vi": "chắc chắn rồi",
+            "answer": "Absolutely"
+          },
+          {
+            "id": "q6",
+            "sentence": "______! There's a car!",
+            "hint_vi": "cẩn thận, coi chừng",
+            "answer": "Look out"
+          },
+          {
+            "id": "q7",
+            "sentence": "______! The bus is coming.",
+            "hint_vi": "nhanh lên",
+            "answer": "Hurry up"
+          },
+          {
+            "id": "q8",
+            "sentence": "I don't ______ waiting.",
+            "hint_vi": "không phiền",
+            "answer": "mind"
+          }
+        ]
+      },
+      {
+        "id": "u9-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What does 'it's up to you' mean?",
+            "options": [
+              "Tùy bạn",
+              "Không sao",
+              "Cẩn thận",
+              "Nhanh lên"
+            ],
+            "answer": "Tùy bạn"
+          },
+          {
+            "id": "q2",
+            "question": "Which phrases mean 'Hay là...?'",
+            "options": [
+              "How about / What about",
+              "Anyway",
+              "Absolutely",
+              "Else"
+            ],
+            "answer": "How about / What about"
+          },
+          {
+            "id": "q3",
+            "question": "What do you say when you didn't get a job you wanted?",
+            "options": [
+              "Well done!",
+              "What a pity!",
+              "Look out!",
+              "Hurry up!"
+            ],
+            "answer": "What a pity!"
+          },
+          {
+            "id": "q4",
+            "question": "What do you say to warn someone of danger?",
+            "options": [
+              "Look out!",
+              "It doesn't matter",
+              "Absolutely",
+              "Oh dear!"
+            ],
+            "answer": "Look out!"
+          },
+          {
+            "id": "q5",
+            "question": "Which word means 'thực ra'?",
+            "options": [
+              "Really",
+              "Actually",
+              "Anyway",
+              "Around"
+            ],
+            "answer": "Actually"
+          },
+          {
+            "id": "q6",
+            "question": "What is a strong way to say 'Yes, I agree'?",
+            "options": [
+              "Absolutely!",
+              "Anyway",
+              "Else",
+              "Around"
+            ],
+            "answer": "Absolutely!"
+          }
+        ]
+      },
+      {
+        "id": "u9-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Anyway\" is used to change the subject or return to the main point.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"It doesn't matter\" means something is very important.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Hurry up\" tells someone to be slow.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Be careful\" is a warning.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"I don't mind\" means you refuse to do something.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Well done\" is used to praise someone.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u9-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "LYLAUACT",
+            "answer": "ACTUALLY"
+          },
+          {
+            "id": "q2",
+            "scrambled": "YLLAER",
+            "answer": "REALLY"
+          },
+          {
+            "id": "q3",
+            "scrambled": "DAORNU",
+            "answer": "AROUND"
+          },
+          {
+            "id": "q4",
+            "scrambled": "YAWANY",
+            "answer": "ANYWAY"
+          },
+          {
+            "id": "q5",
+            "scrambled": "EYLETULOSBA",
+            "answer": "ABSOLUTELY"
+          },
+          {
+            "id": "q6",
+            "scrambled": "EEGAR",
+            "answer": "AGREE"
+          }
+        ]
+      }
+    ]
+  },
+  10: {
+    "unit": {
+      "id": "unit-10-food-drink",
+      "title": "Unit 10: Food and Drink",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u10-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "bread",
+            "right": "bánh mì"
+          },
+          {
+            "left": "rice",
+            "right": "cơm, gạo"
+          },
+          {
+            "left": "meat",
+            "right": "thịt"
+          },
+          {
+            "left": "fish",
+            "right": "cá"
+          },
+          {
+            "left": "vegetarian",
+            "right": "ăn chay; người ăn chay"
+          },
+          {
+            "left": "fruit",
+            "right": "trái cây"
+          },
+          {
+            "left": "vegetables",
+            "right": "rau củ"
+          },
+          {
+            "left": "milk",
+            "right": "sữa"
+          },
+          {
+            "left": "coffee",
+            "right": "cà phê"
+          },
+          {
+            "left": "tea",
+            "right": "trà"
+          }
+        ]
+      },
+      {
+        "id": "u10-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "bread",
+          "rice",
+          "vegetarian",
+          "vegetables",
+          "fruit",
+          "milk",
+          "coffee",
+          "tea"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I have ______ for breakfast.",
+            "hint_vi": "bánh mì",
+            "answer": "bread"
+          },
+          {
+            "id": "q2",
+            "sentence": "We eat ______ every day.",
+            "hint_vi": "cơm",
+            "answer": "rice"
+          },
+          {
+            "id": "q3",
+            "sentence": "My sister is ______.",
+            "hint_vi": "ăn chay",
+            "answer": "vegetarian"
+          },
+          {
+            "id": "q4",
+            "sentence": "You should eat more ______.",
+            "hint_vi": "rau củ",
+            "answer": "vegetables"
+          },
+          {
+            "id": "q5",
+            "sentence": "I eat ______ every day.",
+            "hint_vi": "trái cây",
+            "answer": "fruit"
+          },
+          {
+            "id": "q6",
+            "sentence": "Children need to drink ______.",
+            "hint_vi": "sữa",
+            "answer": "milk"
+          },
+          {
+            "id": "q7",
+            "sentence": "I drink ______ every morning.",
+            "hint_vi": "cà phê",
+            "answer": "coffee"
+          },
+          {
+            "id": "q8",
+            "sentence": "Would you like some ______?",
+            "hint_vi": "trà",
+            "answer": "tea"
+          }
+        ]
+      },
+      {
+        "id": "u10-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which one is a fruit?",
+            "options": [
+              "carrot",
+              "banana",
+              "onion",
+              "potato"
+            ],
+            "answer": "banana"
+          },
+          {
+            "id": "q2",
+            "question": "Which one is a vegetable?",
+            "options": [
+              "apple",
+              "pear",
+              "carrot",
+              "grapes"
+            ],
+            "answer": "carrot"
+          },
+          {
+            "id": "q3",
+            "question": "What do vegetarians NOT eat?",
+            "options": [
+              "vegetables",
+              "meat",
+              "fruit",
+              "rice"
+            ],
+            "answer": "meat"
+          },
+          {
+            "id": "q4",
+            "question": "What do you often put on chips?",
+            "options": [
+              "milk",
+              "salt",
+              "tea",
+              "wine"
+            ],
+            "answer": "salt"
+          },
+          {
+            "id": "q5",
+            "question": "Which one is a drink?",
+            "options": [
+              "bread",
+              "wine",
+              "rice",
+              "beans"
+            ],
+            "answer": "wine"
+          },
+          {
+            "id": "q6",
+            "question": "What is a 'hot dog'?",
+            "options": [
+              "một loại bánh mì kẹp xúc xích",
+              "một loại thú cưng",
+              "món tráng miệng",
+              "một loại rau"
+            ],
+            "answer": "một loại bánh mì kẹp xúc xích"
+          }
+        ]
+      },
+      {
+        "id": "u10-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "Vegetarians eat meat.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "Rice is popular in Japan.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "Garlic is a fruit.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "Milk is a drink.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "Pizza is a kind of fast food.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "Onions and garlic are vegetables.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u10-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "EADRB",
+            "answer": "BREAD"
+          },
+          {
+            "id": "q2",
+            "scrambled": "ECIR",
+            "answer": "RICE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "TAEM",
+            "answer": "MEAT"
+          },
+          {
+            "id": "q4",
+            "scrambled": "TIURF",
+            "answer": "FRUIT"
+          },
+          {
+            "id": "q5",
+            "scrambled": "LMKI",
+            "answer": "MILK"
+          },
+          {
+            "id": "q6",
+            "scrambled": "EEBR",
+            "answer": "BEER"
+          }
+        ]
+      }
+    ]
   }
 };

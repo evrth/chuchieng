@@ -1264,27 +1264,1136 @@ const VOCAB_UNITS = [
   {
     "id": 6,
     "title": "Health and illness",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "health",
+        "ipa": "/helθ/",
+        "meaning": "sức khỏe",
+        "example": "Good health is important.",
+        "exampleVi": "Sức khỏe tốt rất quan trọng."
+      },
+      {
+        "type": "Question phrase",
+        "word": "How are you today?",
+        "ipa": "/haʊ ɑːr ju təˈdeɪ/",
+        "meaning": "Hôm nay bạn cảm thấy thế nào?",
+        "example": "How are you today? — I'm fine, thanks.",
+        "exampleVi": "Hôm nay bạn cảm thấy thế nào? — Tôi khỏe, cảm ơn."
+      },
+      {
+        "type": "Adverb phrase",
+        "word": "very well",
+        "ipa": "/ˈveri wel/",
+        "meaning": "rất khỏe, rất tốt",
+        "example": "I feel very well today.",
+        "exampleVi": "Hôm nay tôi cảm thấy rất khỏe."
+      },
+      {
+        "type": "Adjective",
+        "word": "fine",
+        "ipa": "/faɪn/",
+        "meaning": "khỏe, ổn, tốt",
+        "example": "I'm fine, thank you.",
+        "exampleVi": "Tôi khỏe, cảm ơn bạn."
+      },
+      {
+        "type": "Phrase",
+        "word": "don't feel very well",
+        "ipa": "/doʊnt fiːl ˈveri wel/",
+        "meaning": "cảm thấy không được khỏe",
+        "example": "I don't feel very well today.",
+        "exampleVi": "Hôm nay tôi cảm thấy không được khỏe."
+      },
+      {
+        "type": "Verb",
+        "word": "rest",
+        "ipa": "/rest/",
+        "meaning": "nghỉ ngơi",
+        "example": "You should rest today.",
+        "exampleVi": "Hôm nay bạn nên nghỉ ngơi."
+      },
+      {
+        "type": "Phrase",
+        "word": "feel ill",
+        "ipa": "/fiːl ɪl/",
+        "meaning": "cảm thấy không khỏe, cảm thấy bị bệnh",
+        "example": "I feel ill today.",
+        "exampleVi": "Hôm nay tôi cảm thấy không khỏe."
+      },
+      {
+        "type": "Noun",
+        "word": "doctor",
+        "ipa": "/ˈdɑːktər/",
+        "meaning": "bác sĩ",
+        "example": "You should see a doctor.",
+        "exampleVi": "Bạn nên đi khám bác sĩ."
+      },
+      {
+        "type": "Phrase",
+        "word": "that fish was bad",
+        "ipa": "/ðæt fɪʃ wəz bæd/",
+        "meaning": "con cá đó bị hỏng/không còn tươi",
+        "example": "I think that fish was bad.",
+        "exampleVi": "Tôi nghĩ con cá đó bị hỏng."
+      },
+      {
+        "type": "Adjective",
+        "word": "sick",
+        "ipa": "/sɪk/",
+        "meaning": "ốm, bệnh; cảm thấy buồn nôn",
+        "example": "She is sick today.",
+        "exampleVi": "Hôm nay cô ấy bị ốm."
+      },
+      {
+        "type": "Noun",
+        "word": "aspirin",
+        "ipa": "/ˈæsprɪn/",
+        "meaning": "thuốc aspirin",
+        "example": "I took an aspirin for my headache.",
+        "exampleVi": "Tôi uống một viên aspirin vì đau đầu."
+      },
+      {
+        "type": "Noun",
+        "word": "headache",
+        "ipa": "/ˈhedeɪk/",
+        "meaning": "đau đầu",
+        "example": "I have a headache.",
+        "exampleVi": "Tôi bị đau đầu."
+      },
+      {
+        "type": "Noun",
+        "word": "toothache",
+        "ipa": "/ˈtuːθeɪk/",
+        "meaning": "đau răng",
+        "example": "I have a bad toothache.",
+        "exampleVi": "Tôi bị đau răng dữ dội."
+      },
+      {
+        "type": "Noun",
+        "word": "dentist",
+        "ipa": "/ˈdentɪst/",
+        "meaning": "nha sĩ",
+        "example": "I have an appointment with the dentist.",
+        "exampleVi": "Tôi có lịch hẹn với nha sĩ."
+      },
+      {
+        "type": "Noun",
+        "word": "cold",
+        "ipa": "/koʊld/",
+        "meaning": "cảm lạnh",
+        "example": "I have a cold.",
+        "exampleVi": "Tôi bị cảm lạnh."
+      },
+      {
+        "type": "Noun",
+        "word": "hay fever",
+        "ipa": "/ˈheɪ fiːvər/",
+        "meaning": "bệnh sốt cỏ khô, viêm mũi dị ứng theo mùa",
+        "example": "I get hay fever in spring.",
+        "exampleVi": "Tôi bị viêm mũi dị ứng vào mùa xuân."
+      },
+      {
+        "type": "Verb",
+        "word": "sneeze",
+        "ipa": "/sniːz/",
+        "meaning": "hắt hơi",
+        "example": "I sneeze when I have a cold.",
+        "exampleVi": "Tôi hắt hơi khi bị cảm lạnh."
+      },
+      {
+        "type": "Noun",
+        "word": "asthma",
+        "ipa": "/ˈæzmə/",
+        "meaning": "bệnh hen suyễn",
+        "example": "He has asthma.",
+        "exampleVi": "Anh ấy bị hen suyễn."
+      },
+      {
+        "type": "Verb",
+        "word": "breathe",
+        "ipa": "/briːð/",
+        "meaning": "thở",
+        "example": "It is difficult to breathe here.",
+        "exampleVi": "Thật khó thở ở đây."
+      },
+      {
+        "type": "Noun",
+        "word": "illness",
+        "ipa": "/ˈɪlnəs/",
+        "meaning": "bệnh tật, sự ốm đau",
+        "example": "The illness made her very weak.",
+        "exampleVi": "Căn bệnh khiến cô ấy rất yếu."
+      },
+      {
+        "type": "Noun (plural)",
+        "word": "illnesses",
+        "ipa": "/ˈɪlnəsɪz/",
+        "meaning": "các bệnh, những căn bệnh",
+        "example": "Some illnesses can be prevented.",
+        "exampleVi": "Một số bệnh có thể được phòng ngừa."
+      },
+      {
+        "type": "Phrase",
+        "word": "illnesses in hot, tropical countries",
+        "ipa": "/ˈɪlnəsɪz ɪn hɑːt ˈtrɑːpɪkəl ˈkʌntriz/",
+        "meaning": "các bệnh ở những nước nóng, nhiệt đới",
+        "example": "Some illnesses in hot, tropical countries are spread by mosquitoes.",
+        "exampleVi": "Một số bệnh ở các nước nóng, nhiệt đới lây lan qua muỗi."
+      },
+      {
+        "type": "Noun",
+        "word": "mosquito",
+        "ipa": "/məˈskiːtoʊ/",
+        "meaning": "muỗi",
+        "example": "A mosquito bit me.",
+        "exampleVi": "Một con muỗi đã đốt tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "malaria",
+        "ipa": "/məˈleriə/",
+        "meaning": "bệnh sốt rét",
+        "example": "Malaria is spread by mosquitoes.",
+        "exampleVi": "Bệnh sốt rét lây truyền qua muỗi."
+      },
+      {
+        "type": "Noun",
+        "word": "cholera",
+        "ipa": "/ˈkɑːlərə/",
+        "meaning": "bệnh tả",
+        "example": "Clean water can help prevent cholera.",
+        "exampleVi": "Nước sạch có thể giúp phòng bệnh tả."
+      },
+      {
+        "type": "Adjective",
+        "word": "serious",
+        "ipa": "/ˈsɪriəs/",
+        "meaning": "nghiêm trọng, nghiêm túc",
+        "example": "It is a serious illness.",
+        "exampleVi": "Đó là một căn bệnh nghiêm trọng."
+      },
+      {
+        "type": "Noun",
+        "word": "cancer",
+        "ipa": "/ˈkænsər/",
+        "meaning": "bệnh ung thư",
+        "example": "Her grandmother had cancer.",
+        "exampleVi": "Bà của cô ấy từng bị ung thư."
+      },
+      {
+        "type": "Noun",
+        "word": "hospital",
+        "ipa": "/ˈhɑːspɪtl/",
+        "meaning": "bệnh viện",
+        "example": "He is in hospital.",
+        "exampleVi": "Anh ấy đang ở bệnh viện."
+      },
+      {
+        "type": "Noun",
+        "word": "heart attack",
+        "ipa": "/ˈhɑːrt əˌtæk/",
+        "meaning": "cơn đau tim, nhồi máu cơ tim",
+        "example": "His grandfather had a heart attack.",
+        "exampleVi": "Ông của anh ấy bị đau tim."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "healthy diet",
+        "ipa": "/ˌhelθi ˈdaɪət/",
+        "meaning": "chế độ ăn uống lành mạnh",
+        "example": "A healthy diet is good for you.",
+        "exampleVi": "Một chế độ ăn uống lành mạnh rất tốt cho bạn."
+      },
+      {
+        "type": "Noun",
+        "word": "exercise",
+        "ipa": "/ˈeksərsaɪz/",
+        "meaning": "tập thể dục; sự vận động",
+        "example": "Regular exercise is good for your health.",
+        "exampleVi": "Tập thể dục thường xuyên tốt cho sức khỏe."
+      },
+      {
+        "type": "Phrase",
+        "word": "good for you",
+        "ipa": "/ɡʊd fər juː/",
+        "meaning": "tốt cho bạn, tốt cho sức khỏe",
+        "example": "Walking is good for you.",
+        "exampleVi": "Đi bộ tốt cho sức khỏe."
+      },
+      {
+        "type": "Adjective",
+        "word": "stressed",
+        "ipa": "/strest/",
+        "meaning": "căng thẳng, bị áp lực",
+        "example": "I feel stressed at work.",
+        "exampleVi": "Tôi cảm thấy căng thẳng ở nơi làm việc."
+      },
+      {
+        "type": "Verb",
+        "word": "relax",
+        "ipa": "/rɪˈlæks/",
+        "meaning": "thư giãn, nghỉ ngơi",
+        "example": "Try to relax before bed.",
+        "exampleVi": "Hãy cố gắng thư giãn trước khi đi ngủ."
+      },
+      {
+        "type": "Verb",
+        "word": "panic",
+        "ipa": "/ˈpænɪk/",
+        "meaning": "hoảng sợ, hoảng loạn",
+        "example": "Don't panic. Everything is OK.",
+        "exampleVi": "Đừng hoảng sợ. Mọi thứ đều ổn."
+      }
+    ]
   },
   {
     "id": 7,
     "title": "Feelings",
-    "words": []
+    "words": [
+      {
+        "type": "Verb",
+        "word": "love",
+        "ipa": "/lʌv/",
+        "meaning": "yêu; rất thích",
+        "example": "I love my family.",
+        "exampleVi": "Tôi yêu gia đình mình."
+      },
+      {
+        "type": "Verb",
+        "word": "like",
+        "ipa": "/laɪk/",
+        "meaning": "thích",
+        "example": "I like listening to music.",
+        "exampleVi": "Tôi thích nghe nhạc."
+      },
+      {
+        "type": "Verb",
+        "word": "hate",
+        "ipa": "/heɪt/",
+        "meaning": "ghét; rất không thích",
+        "example": "I hate getting up early.",
+        "exampleVi": "Tôi ghét dậy sớm."
+      },
+      {
+        "type": "Adjective",
+        "word": "happy",
+        "ipa": "/ˈhæpi/",
+        "meaning": "vui, hạnh phúc",
+        "example": "She is happy today.",
+        "exampleVi": "Hôm nay cô ấy rất vui."
+      },
+      {
+        "type": "Adjective",
+        "word": "sad",
+        "ipa": "/sæd/",
+        "meaning": "buồn",
+        "example": "He looks sad.",
+        "exampleVi": "Anh ấy trông buồn."
+      },
+      {
+        "type": "Adjective",
+        "word": "tired",
+        "ipa": "/ˈtaɪərd/",
+        "meaning": "mệt mỏi",
+        "example": "I am tired after work.",
+        "exampleVi": "Tôi mệt sau khi làm việc."
+      },
+      {
+        "type": "Adjective",
+        "word": "angry",
+        "ipa": "/ˈæŋɡri/",
+        "meaning": "tức giận",
+        "example": "My father is angry with me.",
+        "exampleVi": "Bố tôi tức giận với tôi."
+      },
+      {
+        "type": "Adjective",
+        "word": "upset",
+        "ipa": "/ʌpˈset/",
+        "meaning": "buồn bực, khó chịu, phiền lòng",
+        "example": "She is upset about the news.",
+        "exampleVi": "Cô ấy buồn vì tin tức đó."
+      },
+      {
+        "type": "Adjective",
+        "word": "cold",
+        "ipa": "/koʊld/",
+        "meaning": "lạnh; cảm thấy lạnh",
+        "example": "I am cold. Can I close the window?",
+        "exampleVi": "Tôi thấy lạnh. Tôi đóng cửa sổ được không?"
+      },
+      {
+        "type": "Adjective",
+        "word": "hot",
+        "ipa": "/hɑːt/",
+        "meaning": "nóng; cảm thấy nóng",
+        "example": "I'm hot after running.",
+        "exampleVi": "Tôi thấy nóng sau khi chạy."
+      },
+      {
+        "type": "Adjective",
+        "word": "thirsty",
+        "ipa": "/ˈθɜːrsti/",
+        "meaning": "khát nước",
+        "example": "I'm thirsty. I need some water.",
+        "exampleVi": "Tôi khát. Tôi cần một ít nước."
+      },
+      {
+        "type": "Adjective",
+        "word": "hungry",
+        "ipa": "/ˈhʌŋɡri/",
+        "meaning": "đói",
+        "example": "I'm hungry. Let's have lunch.",
+        "exampleVi": "Tôi đói. Chúng ta ăn trưa nhé."
+      },
+      {
+        "type": "Adjective",
+        "word": "well",
+        "ipa": "/wel/",
+        "meaning": "khỏe; cảm thấy tốt",
+        "example": "I don't feel well today.",
+        "exampleVi": "Hôm nay tôi cảm thấy không khỏe."
+      },
+      {
+        "type": "Adjective",
+        "word": "ill",
+        "ipa": "/ɪl/",
+        "meaning": "ốm, không khỏe",
+        "example": "She feels ill today.",
+        "exampleVi": "Hôm nay cô ấy cảm thấy không khỏe."
+      },
+      {
+        "type": "Adjective",
+        "word": "surprised",
+        "ipa": "/sərˈpraɪzd/",
+        "meaning": "ngạc nhiên, bất ngờ",
+        "example": "I was surprised by the gift.",
+        "exampleVi": "Tôi rất ngạc nhiên vì món quà."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "prefer ... to ...",
+        "ipa": "/prɪˈfɜːr ... tuː/",
+        "meaning": "thích ... hơn ...",
+        "example": "I prefer tea to coffee.",
+        "exampleVi": "Tôi thích trà hơn cà phê."
+      },
+      {
+        "type": "Verb",
+        "word": "hope",
+        "ipa": "/hoʊp/",
+        "meaning": "hy vọng",
+        "example": "I hope you feel better soon.",
+        "exampleVi": "Tôi hy vọng bạn sớm cảm thấy khỏe hơn."
+      },
+      {
+        "type": "Verb",
+        "word": "want",
+        "ipa": "/wɑːnt/",
+        "meaning": "muốn",
+        "example": "I want some water.",
+        "exampleVi": "Tôi muốn một ít nước."
+      },
+      {
+        "type": "Phrase",
+        "word": "a bit",
+        "ipa": "/ə bɪt/",
+        "meaning": "một chút, hơi",
+        "example": "I'm a bit tired.",
+        "exampleVi": "Tôi hơi mệt một chút."
+      },
+      {
+        "type": "Phrase",
+        "word": "a little",
+        "ipa": "/ə ˈlɪtl/",
+        "meaning": "một chút, hơi",
+        "example": "I'm a little hungry.",
+        "exampleVi": "Tôi hơi đói một chút."
+      }
+    ]
   },
   {
     "id": 8,
     "title": "Conversations 1: Greetings and wishes",
-    "words": []
+    "words": [
+      {
+        "type": "Adverb phrase",
+        "word": "every day",
+        "ipa": "/ˈevri deɪ/",
+        "meaning": "mỗi ngày, hằng ngày",
+        "example": "I walk to school every day.",
+        "exampleVi": "Tôi đi bộ đến trường mỗi ngày."
+      },
+      {
+        "type": "Greeting",
+        "word": "good morning",
+        "ipa": "/ɡʊd ˈmɔːrnɪŋ/",
+        "meaning": "chào buổi sáng",
+        "example": "Good morning, Mr. Brown!",
+        "exampleVi": "Chào buổi sáng, ông Brown!"
+      },
+      {
+        "type": "Greeting",
+        "word": "good afternoon",
+        "ipa": "/ɡʊd ˌæftərˈnuːn/",
+        "meaning": "chào buổi chiều",
+        "example": "Good afternoon, everyone!",
+        "exampleVi": "Chào buổi chiều mọi người!"
+      },
+      {
+        "type": "Greeting",
+        "word": "good evening",
+        "ipa": "/ɡʊd ˈiːvnɪŋ/",
+        "meaning": "chào buổi tối",
+        "example": "Good evening, Mrs. Smith.",
+        "exampleVi": "Chào buổi tối, bà Smith."
+      },
+      {
+        "type": "Expression",
+        "word": "goodbye",
+        "ipa": "/ˌɡʊdˈbaɪ/",
+        "meaning": "tạm biệt",
+        "example": "Goodbye! See you tomorrow.",
+        "exampleVi": "Tạm biệt! Hẹn gặp bạn ngày mai."
+      },
+      {
+        "type": "Expression",
+        "word": "see you soon",
+        "ipa": "/ˌsiː juː ˈsuːn/",
+        "meaning": "hẹn sớm gặp lại",
+        "example": "See you soon!",
+        "exampleVi": "Hẹn sớm gặp lại bạn!"
+      },
+      {
+        "type": "Expression",
+        "word": "good night",
+        "ipa": "/ˌɡʊd ˈnaɪt/",
+        "meaning": "chúc ngủ ngon; chào tạm biệt vào ban đêm",
+        "example": "Good night, Mum.",
+        "exampleVi": "Chúc mẹ ngủ ngon."
+      },
+      {
+        "type": "Expression",
+        "word": "sleep well",
+        "ipa": "/sliːp wel/",
+        "meaning": "ngủ ngon, ngủ thật ngon",
+        "example": "Sleep well! See you tomorrow.",
+        "exampleVi": "Ngủ ngon nhé! Hẹn gặp bạn ngày mai."
+      },
+      {
+        "type": "Polite expression",
+        "word": "please",
+        "ipa": "/pliːz/",
+        "meaning": "làm ơn, vui lòng",
+        "example": "Can I have some water, please?",
+        "exampleVi": "Làm ơn cho tôi một ít nước được không?"
+      },
+      {
+        "type": "Expression",
+        "word": "thank you",
+        "ipa": "/ˈθæŋk juː/",
+        "meaning": "cảm ơn",
+        "example": "Thank you for your help.",
+        "exampleVi": "Cảm ơn bạn đã giúp tôi."
+      },
+      {
+        "type": "Expression",
+        "word": "cheers",
+        "ipa": "/tʃɪrz/",
+        "meaning": "cảm ơn; chúc mừng/chúc sức khỏe",
+        "example": "Cheers for the coffee!",
+        "exampleVi": "Cảm ơn bạn vì ly cà phê!"
+      },
+      {
+        "type": "Polite expression",
+        "word": "excuse me",
+        "ipa": "/ɪkˈskjuːz miː/",
+        "meaning": "xin lỗi; làm ơn cho hỏi",
+        "example": "Excuse me, where is the bank?",
+        "exampleVi": "Xin lỗi, ngân hàng ở đâu vậy?"
+      },
+      {
+        "type": "Expression",
+        "word": "bless you",
+        "ipa": "/bles juː/",
+        "meaning": "chúc bạn khỏe; dùng khi ai đó hắt hơi",
+        "example": "“Achoo!” — “Bless you!”",
+        "exampleVi": "“Hắt xì!” — “Chúc bạn khỏe!”"
+      },
+      {
+        "type": "Wish",
+        "word": "happy birthday",
+        "ipa": "/ˌhæpi ˈbɜːrθdeɪ/",
+        "meaning": "chúc mừng sinh nhật",
+        "example": "Happy birthday! I hope you have a great day.",
+        "exampleVi": "Chúc mừng sinh nhật! Tôi hy vọng bạn có một ngày tuyệt vời."
+      },
+      {
+        "type": "Wish",
+        "word": "Merry Christmas / Happy Christmas",
+        "ipa": "/ˌmeri ˈkrɪsməs/; /ˌhæpi ˈkrɪsməs/",
+        "meaning": "chúc Giáng sinh vui vẻ",
+        "example": "Merry Christmas! Have a great holiday.",
+        "exampleVi": "Chúc Giáng sinh vui vẻ! Chúc bạn có một kỳ nghỉ tuyệt vời."
+      },
+      {
+        "type": "Wish",
+        "word": "Happy New Year",
+        "ipa": "/ˌhæpi nuː ˈjɪr/",
+        "meaning": "chúc mừng năm mới",
+        "example": "Happy New Year! I wish you happiness.",
+        "exampleVi": "Chúc mừng năm mới! Chúc bạn hạnh phúc."
+      },
+      {
+        "type": "Wish",
+        "word": "good luck",
+        "ipa": "/ɡʊd lʌk/",
+        "meaning": "chúc may mắn",
+        "example": "Good luck with your exam!",
+        "exampleVi": "Chúc bạn may mắn trong kỳ thi!"
+      },
+      {
+        "type": "Expression",
+        "word": "congratulations",
+        "ipa": "/kənˌɡrætʃəˈleɪʃənz/",
+        "meaning": "xin chúc mừng",
+        "example": "Congratulations on your new job!",
+        "exampleVi": "Chúc mừng bạn với công việc mới!"
+      },
+      {
+        "type": "Expression",
+        "word": "well done",
+        "ipa": "/ˌwel ˈdʌn/",
+        "meaning": "làm tốt lắm; giỏi lắm",
+        "example": "Well done! You got the right answer.",
+        "exampleVi": "Làm tốt lắm! Bạn đã trả lời đúng."
+      }
+    ]
   },
   {
     "id": 9,
     "title": "Conversations 2: Useful words and expressions",
-    "words": []
+    "words": [
+      {
+        "type": "Adverb",
+        "word": "actually",
+        "ipa": "/ˈæktʃuəli/",
+        "meaning": "thực ra, thật ra",
+        "example": "Actually, I don't like coffee.",
+        "exampleVi": "Thực ra, tôi không thích cà phê."
+      },
+      {
+        "type": "Adverb",
+        "word": "really",
+        "ipa": "/ˈriːəli/",
+        "meaning": "thực sự, rất",
+        "example": "I really like this song.",
+        "exampleVi": "Tôi thực sự thích bài hát này."
+      },
+      {
+        "type": "Adverb",
+        "word": "else",
+        "ipa": "/els/",
+        "meaning": "khác, nữa",
+        "example": "What else do you want?",
+        "exampleVi": "Bạn còn muốn gì khác nữa?"
+      },
+      {
+        "type": "Adverb / Preposition",
+        "word": "around",
+        "ipa": "/əˈraʊnd/",
+        "meaning": "xung quanh; khoảng",
+        "example": "There are many shops around here.",
+        "exampleVi": "Có nhiều cửa hàng xung quanh đây."
+      },
+      {
+        "type": "Adverb / Discourse marker",
+        "word": "anyway",
+        "ipa": "/ˈeniweɪ/",
+        "meaning": "dù sao đi nữa",
+        "example": "Anyway, let's go home.",
+        "exampleVi": "Dù sao đi nữa, chúng ta về nhà thôi."
+      },
+      {
+        "type": "Adverb / Discourse marker",
+        "word": "anyway",
+        "ipa": "/ˈeniweɪ/",
+        "meaning": "à mà / trở lại vấn đề chính",
+        "example": "Anyway, what time does the film start?",
+        "exampleVi": "À mà, bộ phim bắt đầu lúc mấy giờ?"
+      },
+      {
+        "type": "Noun",
+        "word": "expression",
+        "ipa": "/ɪkˈspreʃn/",
+        "meaning": "cách diễn đạt; cụm từ; biểu cảm",
+        "example": "“Good morning” is a common expression.",
+        "exampleVi": "“Good morning” là một cách diễn đạt phổ biến."
+      },
+      {
+        "type": "Phrase",
+        "word": "Why don't ...?",
+        "ipa": "/waɪ doʊnt/",
+        "meaning": "Tại sao không...?; hay là...?",
+        "example": "Why don't we go for a walk?",
+        "exampleVi": "Hay là chúng ta đi dạo?"
+      },
+      {
+        "type": "Phrase",
+        "word": "Let's ...",
+        "ipa": "/lets/",
+        "meaning": "Hãy cùng...; chúng ta hãy...",
+        "example": "Let's have lunch.",
+        "exampleVi": "Chúng ta hãy ăn trưa."
+      },
+      {
+        "type": "Phrase",
+        "word": "I don't mind",
+        "ipa": "/aɪ doʊnt maɪnd/",
+        "meaning": "Tôi không phiền; tôi không ngại",
+        "example": "I don't mind waiting.",
+        "exampleVi": "Tôi không ngại chờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "It's up to you",
+        "ipa": "/ɪts ʌp tə juː/",
+        "meaning": "Tùy bạn; bạn quyết định",
+        "example": "It's up to you where we go.",
+        "exampleVi": "Chúng ta đi đâu tùy bạn quyết định."
+      },
+      {
+        "type": "Phrase",
+        "word": "How about + V-ing?",
+        "ipa": "/haʊ əˈbaʊt/",
+        "meaning": "Hay là...?; còn ... thì sao?",
+        "example": "How about going by bus?",
+        "exampleVi": "Hay là chúng ta đi bằng xe buýt?"
+      },
+      {
+        "type": "Phrase",
+        "word": "What about + V-ing?",
+        "ipa": "/wʌt əˈbaʊt/",
+        "meaning": "Hay là...?; còn ... thì sao?",
+        "example": "What about eating at home?",
+        "exampleVi": "Hay là ăn ở nhà?"
+      },
+      {
+        "type": "Expression",
+        "word": "Oh dear!",
+        "ipa": "/oʊ dɪr/",
+        "meaning": "Ôi trời!; ôi không!",
+        "example": "Oh dear! I forgot my keys.",
+        "exampleVi": "Ôi không! Tôi quên chìa khóa rồi."
+      },
+      {
+        "type": "Expression",
+        "word": "It doesn't matter",
+        "ipa": "/ɪt ˈdʌznt ˈmætər/",
+        "meaning": "Không sao; không quan trọng",
+        "example": "It doesn't matter if you are late.",
+        "exampleVi": "Bạn đến muộn cũng không sao."
+      },
+      {
+        "type": "Expression",
+        "word": "What a pity!",
+        "ipa": "/wʌt ə ˈpɪti/",
+        "meaning": "Thật đáng tiếc!",
+        "example": "What a pity! You can't come.",
+        "exampleVi": "Thật đáng tiếc! Bạn không thể đến."
+      },
+      {
+        "type": "Expression",
+        "word": "Well done!",
+        "ipa": "/ˌwel ˈdʌn/",
+        "meaning": "Làm tốt lắm!; giỏi lắm!",
+        "example": "Well done! You got the answer right.",
+        "exampleVi": "Làm tốt lắm! Bạn đã trả lời đúng."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "Hurry up!",
+        "ipa": "/ˈhɜːri ʌp/",
+        "meaning": "Nhanh lên!",
+        "example": "Hurry up! The bus is coming.",
+        "exampleVi": "Nhanh lên! Xe buýt sắp đến rồi."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "Look out!",
+        "ipa": "/lʊk aʊt/",
+        "meaning": "Cẩn thận!; coi chừng!",
+        "example": "Look out! There's a car!",
+        "exampleVi": "Cẩn thận! Có ô tô kìa!"
+      },
+      {
+        "type": "Phrase",
+        "word": "Be careful!",
+        "ipa": "/bi ˈkerfəl/",
+        "meaning": "Hãy cẩn thận!",
+        "example": "Be careful! The floor is wet.",
+        "exampleVi": "Cẩn thận! Sàn nhà đang ướt."
+      },
+      {
+        "type": "Adverb",
+        "word": "absolutely",
+        "ipa": "/ˌæbsəˈluːtli/",
+        "meaning": "hoàn toàn; chắc chắn rồi; cực kỳ",
+        "example": "“Do you agree?” — “Absolutely!”",
+        "exampleVi": "“Bạn có đồng ý không?” — “Chắc chắn rồi!”"
+      },
+      {
+        "type": "Verb",
+        "word": "agree",
+        "ipa": "/əˈɡriː/",
+        "meaning": "đồng ý",
+        "example": "I agree with you.",
+        "exampleVi": "Tôi đồng ý với bạn."
+      }
+    ]
   },
   {
     "id": 10,
     "title": "Food and drink",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "food",
+        "ipa": "/fuːd/",
+        "meaning": "thức ăn, thực phẩm",
+        "example": "I like Italian food.",
+        "exampleVi": "Tôi thích đồ ăn Ý."
+      },
+      {
+        "type": "Noun",
+        "word": "bread",
+        "ipa": "/bred/",
+        "meaning": "bánh mì",
+        "example": "I have bread for breakfast.",
+        "exampleVi": "Tôi ăn bánh mì vào bữa sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "rice",
+        "ipa": "/raɪs/",
+        "meaning": "cơm, gạo",
+        "example": "We eat rice every day.",
+        "exampleVi": "Chúng tôi ăn cơm mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "pasta",
+        "ipa": "/ˈpɑːstə/",
+        "meaning": "mì Ý, pasta",
+        "example": "I like pasta with tomato sauce.",
+        "exampleVi": "Tôi thích mì Ý với sốt cà chua."
+      },
+      {
+        "type": "Noun",
+        "word": "salt",
+        "ipa": "/sɔːlt/",
+        "meaning": "muối",
+        "example": "Please pass me the salt.",
+        "exampleVi": "Làm ơn đưa tôi lọ muối."
+      },
+      {
+        "type": "Noun",
+        "word": "chips",
+        "ipa": "/tʃɪps/",
+        "meaning": "khoai tây chiên",
+        "example": "I like chips with my burger.",
+        "exampleVi": "Tôi thích khoai tây chiên với bánh burger."
+      },
+      {
+        "type": "Noun",
+        "word": "pepper",
+        "ipa": "/ˈpepər/",
+        "meaning": "hạt tiêu; tiêu",
+        "example": "Add some pepper to the soup.",
+        "exampleVi": "Thêm một ít tiêu vào súp."
+      },
+      {
+        "type": "Noun",
+        "word": "meat",
+        "ipa": "/miːt/",
+        "meaning": "thịt",
+        "example": "I don't eat much meat.",
+        "exampleVi": "Tôi không ăn nhiều thịt."
+      },
+      {
+        "type": "Noun",
+        "word": "fish",
+        "ipa": "/fɪʃ/",
+        "meaning": "cá; thịt cá",
+        "example": "We had fish for dinner.",
+        "exampleVi": "Chúng tôi ăn cá vào bữa tối."
+      },
+      {
+        "type": "Adjective / Noun",
+        "word": "vegetarian",
+        "ipa": "/ˌvedʒəˈteriən/",
+        "meaning": "ăn chay; người ăn chay",
+        "example": "My sister is vegetarian.",
+        "exampleVi": "Chị/em gái tôi ăn chay."
+      },
+      {
+        "type": "Noun",
+        "word": "sugar",
+        "ipa": "/ˈʃʊɡər/",
+        "meaning": "đường",
+        "example": "I don't take sugar in my tea.",
+        "exampleVi": "Tôi không cho đường vào trà."
+      },
+      {
+        "type": "Noun",
+        "word": "tea",
+        "ipa": "/tiː/",
+        "meaning": "trà",
+        "example": "Would you like some tea?",
+        "exampleVi": "Bạn có muốn uống trà không?"
+      },
+      {
+        "type": "Noun",
+        "word": "coffee",
+        "ipa": "/ˈkɔːfi/",
+        "meaning": "cà phê",
+        "example": "I drink coffee every morning.",
+        "exampleVi": "Tôi uống cà phê mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "fast food",
+        "ipa": "/ˌfæst ˈfuːd/",
+        "meaning": "đồ ăn nhanh",
+        "example": "Too much fast food is not healthy.",
+        "exampleVi": "Ăn quá nhiều đồ ăn nhanh không tốt cho sức khỏe."
+      },
+      {
+        "type": "Noun",
+        "word": "hamburger",
+        "ipa": "/ˈhæmbɜːrɡər/",
+        "meaning": "bánh hamburger",
+        "example": "I want a hamburger, please.",
+        "exampleVi": "Cho tôi một chiếc hamburger."
+      },
+      {
+        "type": "Noun",
+        "word": "hot dog",
+        "ipa": "/ˈhɑːt dɔːɡ/",
+        "meaning": "bánh mì xúc xích",
+        "example": "He ordered a hot dog.",
+        "exampleVi": "Anh ấy gọi một chiếc bánh mì xúc xích."
+      },
+      {
+        "type": "Noun",
+        "word": "pizza",
+        "ipa": "/ˈpiːtsə/",
+        "meaning": "bánh pizza",
+        "example": "We had pizza for dinner.",
+        "exampleVi": "Chúng tôi ăn pizza vào bữa tối."
+      },
+      {
+        "type": "Noun",
+        "word": "fruit",
+        "ipa": "/fruːt/",
+        "meaning": "trái cây, hoa quả",
+        "example": "I eat fruit every day.",
+        "exampleVi": "Tôi ăn trái cây mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "vegetables",
+        "ipa": "/ˈvedʒtəbəlz/",
+        "meaning": "rau củ",
+        "example": "You should eat more vegetables.",
+        "exampleVi": "Bạn nên ăn nhiều rau củ hơn."
+      },
+      {
+        "type": "Noun",
+        "word": "carrot",
+        "ipa": "/ˈkærət/",
+        "meaning": "cà rốt",
+        "example": "Rabbits like carrots.",
+        "exampleVi": "Thỏ thích cà rốt."
+      },
+      {
+        "type": "Noun",
+        "word": "beans",
+        "ipa": "/biːnz/",
+        "meaning": "đậu, đỗ",
+        "example": "I like beans in my soup.",
+        "exampleVi": "Tôi thích đậu trong món súp."
+      },
+      {
+        "type": "Noun",
+        "word": "potatoes",
+        "ipa": "/pəˈteɪtoʊz/",
+        "meaning": "khoai tây",
+        "example": "We need some potatoes for dinner.",
+        "exampleVi": "Chúng ta cần một ít khoai tây cho bữa tối."
+      },
+      {
+        "type": "Noun",
+        "word": "tomatoes",
+        "ipa": "/təˈmeɪtoʊz/",
+        "meaning": "cà chua",
+        "example": "I like tomatoes in my salad.",
+        "exampleVi": "Tôi thích cà chua trong món salad."
+      },
+      {
+        "type": "Noun",
+        "word": "peas",
+        "ipa": "/piːz/",
+        "meaning": "đậu Hà Lan",
+        "example": "The children don't like peas.",
+        "exampleVi": "Những đứa trẻ không thích đậu Hà Lan."
+      },
+      {
+        "type": "Noun",
+        "word": "onions",
+        "ipa": "/ˈʌnjənz/",
+        "meaning": "hành tây",
+        "example": "I don't like onions.",
+        "exampleVi": "Tôi không thích hành tây."
+      },
+      {
+        "type": "Noun",
+        "word": "garlic",
+        "ipa": "/ˈɡɑːrlɪk/",
+        "meaning": "tỏi",
+        "example": "This soup has a lot of garlic.",
+        "exampleVi": "Món súp này có nhiều tỏi."
+      },
+      {
+        "type": "Noun",
+        "word": "mushrooms",
+        "ipa": "/ˈmʌʃruːmz/",
+        "meaning": "nấm",
+        "example": "I like mushrooms on my pizza.",
+        "exampleVi": "Tôi thích nấm trên pizza."
+      },
+      {
+        "type": "Noun",
+        "word": "orange",
+        "ipa": "/ˈɔːrɪndʒ/",
+        "meaning": "quả cam",
+        "example": "I eat an orange every morning.",
+        "exampleVi": "Tôi ăn một quả cam mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "apple",
+        "ipa": "/ˈæpəl/",
+        "meaning": "quả táo",
+        "example": "She is eating an apple.",
+        "exampleVi": "Cô ấy đang ăn một quả táo."
+      },
+      {
+        "type": "Noun",
+        "word": "banana",
+        "ipa": "/bəˈnænə/",
+        "meaning": "quả chuối",
+        "example": "I have a banana for breakfast.",
+        "exampleVi": "Tôi ăn một quả chuối vào bữa sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "pear",
+        "ipa": "/per/",
+        "meaning": "quả lê",
+        "example": "This pear is sweet.",
+        "exampleVi": "Quả lê này ngọt."
+      },
+      {
+        "type": "Noun",
+        "word": "grapes",
+        "ipa": "/ɡreɪps/",
+        "meaning": "nho",
+        "example": "These grapes are very sweet.",
+        "exampleVi": "Những quả nho này rất ngọt."
+      },
+      {
+        "type": "Noun",
+        "word": "strawberries",
+        "ipa": "/ˈstrɔːberiz/",
+        "meaning": "dâu tây",
+        "example": "I love strawberries.",
+        "exampleVi": "Tôi rất thích dâu tây."
+      },
+      {
+        "type": "Noun",
+        "word": "pineapple",
+        "ipa": "/ˈpaɪnæpəl/",
+        "meaning": "quả dứa, quả thơm",
+        "example": "This pineapple is very sweet.",
+        "exampleVi": "Quả dứa này rất ngọt."
+      },
+      {
+        "type": "Noun",
+        "word": "drink",
+        "ipa": "/drɪŋk/",
+        "meaning": "đồ uống; thức uống",
+        "example": "Would you like a drink?",
+        "exampleVi": "Bạn có muốn uống gì không?"
+      },
+      {
+        "type": "Noun",
+        "word": "tea",
+        "ipa": "/tiː/",
+        "meaning": "trà",
+        "example": "I usually drink tea after dinner.",
+        "exampleVi": "Tôi thường uống trà sau bữa tối."
+      },
+      {
+        "type": "Noun",
+        "word": "coffee",
+        "ipa": "/ˈkɔːfi/",
+        "meaning": "cà phê",
+        "example": "My father drinks coffee every morning.",
+        "exampleVi": "Bố tôi uống cà phê mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "milk",
+        "ipa": "/mɪlk/",
+        "meaning": "sữa",
+        "example": "Children need to drink milk.",
+        "exampleVi": "Trẻ em cần uống sữa."
+      },
+      {
+        "type": "Noun",
+        "word": "fruit juice",
+        "ipa": "/ˈfruːt dʒuːs/",
+        "meaning": "nước ép trái cây",
+        "example": "I would like some fruit juice.",
+        "exampleVi": "Tôi muốn một ít nước ép trái cây."
+      },
+      {
+        "type": "Noun",
+        "word": "beer",
+        "ipa": "/bɪr/",
+        "meaning": "bia",
+        "example": "He sometimes drinks beer.",
+        "exampleVi": "Thỉnh thoảng anh ấy uống bia."
+      },
+      {
+        "type": "Noun",
+        "word": "wine",
+        "ipa": "/waɪn/",
+        "meaning": "rượu vang",
+        "example": "They drink wine with dinner.",
+        "exampleVi": "Họ uống rượu vang trong bữa tối."
+      },
+      {
+        "type": "Noun",
+        "word": "mineral water",
+        "ipa": "/ˈmɪnərəl ˌwɔːtər/",
+        "meaning": "nước khoáng",
+        "example": "Can I have some mineral water?",
+        "exampleVi": "Cho tôi một ít nước khoáng được không?"
+      }
+    ]
   },
   {
     "id": 11,

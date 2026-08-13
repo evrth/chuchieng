@@ -23,7 +23,14 @@
     matching: "Nối từ",
     labeling: "Điền theo gợi ý",
     question_formation: "Đặt câu hỏi",
-    unscramble: "Sắp xếp chữ cái"
+    unscramble: "Sắp xếp chữ cái",
+    dialogue_completion: "Hoàn thành hội thoại",
+    word_association: "Liên tưởng từ",
+    open_response: "Trả lời mở",
+    situational_expression: "Nói gì trong tình huống",
+    multiple_choice: "Trắc nghiệm",
+    dialogue_error_correction: "Sửa lỗi hội thoại",
+    classification: "Phân loại"
   };
   const TYPE_ICON = {
     sentence_completion: "🌳",
@@ -37,7 +44,14 @@
     matching: "🔗",
     labeling: "🏷️",
     question_formation: "❓",
-    unscramble: "🔤"
+    unscramble: "🔤",
+    dialogue_completion: "💬",
+    word_association: "🔍",
+    open_response: "📝",
+    situational_expression: "🗣️",
+    multiple_choice: "✅",
+    dialogue_error_correction: "🩹",
+    classification: "🗂️"
   };
 
   const STORAGE_KEY = "chuchieng:unit:" + unitId + ":detailed-exercises";
@@ -137,6 +151,13 @@
       case "matching": renderMatching(currentExercise, body); break;
       case "labeling": renderLabeling(currentExercise, body); break;
       case "question_formation": renderQuestionFormation(currentExercise, body); break;
+      case "dialogue_completion": renderDialogueCompletion(currentExercise, body); break;
+      case "word_association": renderWordFromDefinition(currentExercise, body); break;
+      case "open_response": renderSentenceConstruction(currentExercise, body); break;
+      case "situational_expression": renderSituationalExpression(currentExercise, body); break;
+      case "multiple_choice": renderDetailedMultipleChoice(currentExercise, body); break;
+      case "dialogue_error_correction": renderDialogueErrorCorrection(currentExercise, body); break;
+      case "classification": renderClassification(currentExercise, body); break;
       default: body.innerHTML = "<p>Dạng bài chưa được hỗ trợ.</p>";
     }
 
@@ -538,7 +559,9 @@
       qEl.dataset.example = isExample ? "1" : "0";
 
       let infoLine = "";
-      if(q.name && q.features){
+      if(q.situation){
+        infoLine = q.situation;
+      }else if(q.name && q.features){
         infoLine = "<strong>" + q.name + "</strong> — " + q.features.join(", ");
       }else if(q.name && q.birth_year && q.death_year){
         infoLine = "<strong>" + q.name + "</strong> — sinh " + q.birth_year + ", mất " + q.death_year;
@@ -1004,6 +1027,307 @@
         }else{
           feedback.className = "exq-feedback wrong";
           feedback.textContent = "❌ Đáp án đúng: " + firstAnswerText(q);
+        }
+      });
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 13. SITUATIONAL EXPRESSION (nói gì trong tình huống)
+  // ============================================
+  function renderSituationalExpression(ex, body){
+    renderContextCard(ex, body);
+    const qWrap = document.createElement("div");
+    ex.questions.forEach(function(q){
+      const isExample = q.example === true;
+      const promptText = q.clue_vi || q.situation || "";
+      const qEl = document.createElement("div");
+      qEl.className = "exq";
+      qEl.dataset.example = isExample ? "1" : "0";
+
+      let inputHtml;
+      if(isExample){
+        inputHtml = '<input type="text" class="exq-text-input example-filled" style="width:100%;max-width:100%;" value="' + q.answer + '" disabled>';
+      }else if(ex.word_bank){
+        inputHtml = '<select class="exq-blank-select">' +
+          '<option value="">— chọn —</option>' +
+          ex.word_bank.map(function(w){ return '<option value="' + w + '">' + w + '</option>'; }).join("") +
+          '</select>';
+      }else{
+        inputHtml = '<input type="text" class="exq-text-input" style="width:100%;max-width:100%;" placeholder="Bạn sẽ nói gì?..." autocomplete="off" spellcheck="false">';
+      }
+
+      qEl.innerHTML =
+        '<div class="exq-text">' + promptText +
+        (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>' +
+        inputHtml +
+        '<div class="exq-feedback" style="display:none;"></div>';
+      qWrap.appendChild(qEl);
+    });
+    body.appendChild(qWrap);
+
+    currentCheckFn = function(){
+      let correct = 0, total = 0;
+      let qi = -1;
+      qWrap.querySelectorAll(".exq").forEach(function(qEl){
+        qi++;
+        if(qEl.dataset.example === "1") return;
+        total++;
+        const q = ex.questions[qi];
+        const input = qEl.querySelector(".exq-blank-select, .exq-text-input");
+        const feedback = qEl.querySelector(".exq-feedback");
+        const ok = isAnswerCorrect(input.value, q);
+        input.classList.add(ok ? "correct" : "wrong");
+        input.disabled = true;
+        feedback.style.display = "block";
+        if(ok){
+          correct++;
+          feedback.className = "exq-feedback correct";
+          feedback.textContent = "✅ Chính xác";
+        }else{
+          feedback.className = "exq-feedback wrong";
+          feedback.textContent = "❌ Đáp án đúng: " + firstAnswerText(q);
+        }
+      });
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 14. MULTIPLE CHOICE (dạng bài tập chi tiết, có xử lý câu ví dụ)
+  // ============================================
+  function renderDetailedMultipleChoice(ex, body){
+    renderContextCard(ex, body);
+    const qWrap = document.createElement("div");
+    ex.questions.forEach(function(q){
+      const isExample = q.example === true;
+      const qEl = document.createElement("div");
+      qEl.className = "exq";
+      qEl.dataset.example = isExample ? "1" : "0";
+      qEl.innerHTML =
+        '<div class="exq-text">' + q.question +
+        (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>' +
+        '<div class="exq-options">' +
+          q.options.map(function(opt){
+            const isAnsOpt = isExample && normalizeAns(opt) === normalizeAns(q.answer);
+            return '<button type="button" class="exq-option' + (isAnsOpt ? " correct-answer" : "") + '" data-value="' + opt + '"' + (isExample ? " disabled" : "") + '>' + opt + '</button>';
+          }).join("") +
+        '</div>' +
+        '<div class="exq-feedback" style="display:none;"></div>';
+      qWrap.appendChild(qEl);
+    });
+    body.appendChild(qWrap);
+
+    qWrap.querySelectorAll(".exq").forEach(function(qEl){
+      if(qEl.dataset.example === "1") return;
+      qEl.querySelectorAll(".exq-option").forEach(function(btn){
+        btn.addEventListener("click", function(){
+          qEl.querySelectorAll(".exq-option").forEach(function(b){ b.classList.remove("selected"); });
+          btn.classList.add("selected");
+        });
+      });
+    });
+
+    currentCheckFn = function(){
+      let correct = 0, total = 0;
+      let qi = -1;
+      qWrap.querySelectorAll(".exq").forEach(function(qEl){
+        qi++;
+        if(qEl.dataset.example === "1") return;
+        total++;
+        const q = ex.questions[qi];
+        const selected = qEl.querySelector(".exq-option.selected");
+        const feedback = qEl.querySelector(".exq-feedback");
+        const isCorrect = selected && normalizeAns(selected.dataset.value) === normalizeAns(q.answer);
+        qEl.querySelectorAll(".exq-option").forEach(function(b){
+          b.disabled = true;
+          if(normalizeAns(b.dataset.value) === normalizeAns(q.answer)) b.classList.add("correct-answer");
+          else if(b.classList.contains("selected")) b.classList.add("wrong-answer");
+        });
+        feedback.style.display = "block";
+        if(isCorrect){
+          correct++;
+          feedback.className = "exq-feedback correct";
+          feedback.textContent = "✅ Chính xác";
+        }else{
+          feedback.className = "exq-feedback wrong";
+          feedback.textContent = selected ? "❌ Chưa đúng" : "❌ Bạn chưa chọn đáp án";
+        }
+      });
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 15. DIALOGUE COMPLETION (hội thoại có chỗ trống)
+  // ============================================
+  function renderDialogueCompletion(ex, body){
+    renderContextCard(ex, body);
+    const wrap = document.createElement("div");
+    const blanks = []; // { el, question }
+
+    const dialogues = ex.dialogues || [];
+    dialogues.forEach(function(dlg){
+      const dlgCard = document.createElement("div");
+      dlgCard.className = "exq";
+
+      dlg.turns.forEach(function(turn){
+        const row = document.createElement("div");
+        row.style.marginBottom = "8px";
+
+        if(turn.answer !== undefined){
+          const isExample = turn.example === true;
+          if(isExample){
+            row.innerHTML = '<strong>' + turn.speaker + ':</strong> ' + (turn.line || turn.answer) + '<span class="exq-example-badge">VÍ DỤ</span>';
+          }else if(turn.line && turn.line.indexOf("______") !== -1){
+            const parts = turn.line.split("______");
+            row.innerHTML = '<strong>' + turn.speaker + ':</strong> ' + parts[0] +
+              '<input type="text" class="exq-text-input" style="width:auto;min-width:140px;" autocomplete="off" spellcheck="false">' +
+              (parts[1] || "");
+          }else{
+            row.innerHTML = '<strong>' + turn.speaker + ':</strong> ' +
+              '<input type="text" class="exq-text-input" style="width:70%;max-width:400px;" placeholder="..." autocomplete="off" spellcheck="false">';
+          }
+          if(!isExample){
+            const inputEl = row.querySelector(".exq-text-input");
+            blanks.push({ el: inputEl, question: turn });
+          }
+        }else{
+          row.innerHTML = '<strong>' + turn.speaker + ':</strong> ' + turn.line;
+        }
+        dlgCard.appendChild(row);
+      });
+
+      dlgCard.appendChild((function(){
+        const fb = document.createElement("div");
+        fb.className = "exq-feedback";
+        fb.style.display = "none";
+        dlgCard._feedback = fb;
+        return fb;
+      })());
+
+      wrap.appendChild(dlgCard);
+    });
+    body.appendChild(wrap);
+
+    currentCheckFn = function(){
+      let correct = 0;
+      const total = blanks.length;
+      blanks.forEach(function(b){
+        const q = b.question;
+        const ok = q.required_keywords ? checkKeywords(b.el.value, q.required_keywords) : isAnswerCorrect(b.el.value, q);
+        b.el.classList.add(ok ? "correct" : "wrong");
+        b.el.disabled = true;
+        if(ok) correct++;
+        const fb = document.createElement("span");
+        fb.className = "exq-feedback " + (ok ? "correct" : "wrong");
+        fb.style.display = "inline-block";
+        fb.style.marginLeft = "8px";
+        fb.textContent = ok ? "✅" : "❌ (" + firstAnswerText(q) + ")";
+        b.el.insertAdjacentElement("afterend", fb);
+      });
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 16. DIALOGUE ERROR CORRECTION (sửa lỗi trong hội thoại)
+  // ============================================
+  function renderDialogueErrorCorrection(ex, body){
+    renderContextCard(ex, body);
+
+    const passageCard = document.createElement("div");
+    passageCard.className = "ex-context-card";
+    passageCard.innerHTML = '<div class="ex-context-title">💬 Đoạn hội thoại gốc</div><div style="white-space:pre-line;">' + ex.original_dialogue + '</div>';
+    body.appendChild(passageCard);
+
+    const qWrap = document.createElement("div");
+    ex.corrections.forEach(function(q){
+      const isExample = q.example === true;
+      const qEl = document.createElement("div");
+      qEl.className = "exq";
+      qEl.dataset.example = isExample ? "1" : "0";
+      qEl.innerHTML =
+        '<div class="exq-text">Sửa: <em>"' + q.wrong + '"</em>' +
+        (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>' +
+        '<input type="text" class="exq-text-input' + (isExample ? ' example-filled' : '') + '" style="width:100%;max-width:100%;" ' +
+          (isExample ? 'value="' + q.correct + '" disabled' : 'placeholder="Viết lại cho đúng..." autocomplete="off" spellcheck="false"') +
+          '>' +
+        '<div class="exq-feedback" style="display:none;"></div>';
+      qWrap.appendChild(qEl);
+    });
+    body.appendChild(qWrap);
+
+    currentCheckFn = function(){
+      let correct = 0, total = 0;
+      let qi = -1;
+      qWrap.querySelectorAll(".exq").forEach(function(qEl){
+        qi++;
+        if(qEl.dataset.example === "1") return;
+        total++;
+        const q = ex.corrections[qi];
+        const input = qEl.querySelector(".exq-text-input");
+        const feedback = qEl.querySelector(".exq-feedback");
+        const ok = normalizeAns(input.value) === normalizeAns(q.correct);
+        input.classList.add(ok ? "correct" : "wrong");
+        input.disabled = true;
+        feedback.style.display = "block";
+        if(ok){
+          correct++;
+          feedback.className = "exq-feedback correct";
+          feedback.textContent = "✅ Chính xác";
+        }else{
+          feedback.className = "exq-feedback wrong";
+          feedback.textContent = "❌ Đáp án đúng: " + q.correct;
+        }
+      });
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 17. CLASSIFICATION (phân loại từ vào nhóm)
+  // ============================================
+  function renderClassification(ex, body){
+    renderContextCard(ex, body);
+    const categoryNames = Object.keys(ex.categories);
+
+    const qWrap = document.createElement("div");
+    ex.items.forEach(function(item){
+      const qEl = document.createElement("div");
+      qEl.className = "exq";
+      qEl.dataset.item = item;
+      qEl.innerHTML =
+        '<div class="exq-text">' + item + '</div>' +
+        '<select class="exq-blank-select">' +
+          '<option value="">— chọn nhóm —</option>' +
+          categoryNames.map(function(c){ return '<option value="' + c + '">' + c + '</option>'; }).join("") +
+        '</select>' +
+        '<div class="exq-feedback" style="display:none;"></div>';
+      qWrap.appendChild(qEl);
+    });
+    body.appendChild(qWrap);
+
+    currentCheckFn = function(){
+      let correct = 0, total = 0;
+      qWrap.querySelectorAll(".exq").forEach(function(qEl){
+        total++;
+        const item = qEl.dataset.item;
+        const select = qEl.querySelector(".exq-blank-select");
+        const feedback = qEl.querySelector(".exq-feedback");
+        const correctCategory = categoryNames.find(function(c){ return ex.categories[c].indexOf(item) !== -1; });
+        const ok = select.value === correctCategory;
+        select.classList.add(ok ? "correct" : "wrong");
+        select.disabled = true;
+        feedback.style.display = "block";
+        if(ok){
+          correct++;
+          feedback.className = "exq-feedback correct";
+          feedback.textContent = "✅ Chính xác";
+        }else{
+          feedback.className = "exq-feedback wrong";
+          feedback.textContent = "❌ Đáp án đúng: " + correctCategory;
         }
       });
       return { correct: correct, total: total };

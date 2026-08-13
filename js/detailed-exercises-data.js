@@ -1214,5 +1214,1088 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  6: {
+    "unit": {
+      "id": "unit-6-health-detailed",
+      "title": "Unit 6: Health - Bài tập chi tiết (Workbook)",
+      "level": "A2-B1",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu có nhiều đáp án đúng. Trường 'answer' có thể là 1 chuỗi hoặc mảng 'accepted_answers' — hệ thống chấm nên so khớp không phân biệt hoa/thường và chấp nhận bất kỳ đáp án nào trong danh sách."
+    },
+    "exercises": [
+      {
+        "id": "u6d-ex1-dialogue",
+        "type": "dialogue_completion",
+        "title": "6.1. Complete the dialogues.",
+        "instructions_vi": "Điền câu phù hợp vào chỗ trống trong đoạn hội thoại.",
+        "dialogues": [
+          {
+            "id": "d1",
+            "turns": [
+              {
+                "speaker": "A",
+                "line": "How are you today?"
+              },
+              {
+                "speaker": "B",
+                "line": "Very well, thanks.",
+                "example": true
+              },
+              {
+                "speaker": "A",
+                "line": "Good!"
+              }
+            ]
+          },
+          {
+            "id": "d2",
+            "turns": [
+              {
+                "speaker": "A",
+                "line": "Are you OK?"
+              },
+              {
+                "speaker": "B",
+                "blank_id": "q1",
+                "answer": "I feel sick.",
+                "accepted_answers": [
+                  "I feel sick.",
+                  "I don't feel very well.",
+                  "I feel ill."
+                ]
+              },
+              {
+                "speaker": "A",
+                "line": "Would you like to use the bathroom?"
+              },
+              {
+                "speaker": "B",
+                "line": "Yes, thank you."
+              }
+            ]
+          },
+          {
+            "id": "d3",
+            "turns": [
+              {
+                "speaker": "A",
+                "blank_id": "q2",
+                "answer": "I feel ill."
+              },
+              {
+                "speaker": "B",
+                "line": "I'll get a doctor."
+              },
+              {
+                "speaker": "A",
+                "line": "Oh, thank you."
+              }
+            ]
+          },
+          {
+            "id": "d4",
+            "turns": [
+              {
+                "speaker": "A",
+                "blank_id": "q3",
+                "answer": "I've got toothache."
+              },
+              {
+                "speaker": "B",
+                "line": "Here's the dentist's phone number."
+              },
+              {
+                "speaker": "A",
+                "line": "Thanks."
+              }
+            ]
+          },
+          {
+            "id": "d5",
+            "turns": [
+              {
+                "speaker": "A",
+                "line": "Your nose is red. Have you got ______?",
+                "blank_id": "q4",
+                "answer": "a cold"
+              },
+              {
+                "speaker": "B",
+                "line": "Yes."
+              },
+              {
+                "speaker": "A",
+                "line": "Have a hot drink and go to bed early."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u6d-ex2-matching",
+        "type": "matching",
+        "title": "6.2. Match the illness with a possible treatment.",
+        "instructions_vi": "Nối bệnh với cách chữa trị phù hợp.",
+        "pairs": [
+          {
+            "left": "A headache",
+            "right": "take an aspirin",
+            "example": true
+          },
+          {
+            "left": "Toothache",
+            "right": "Go to the dentist"
+          },
+          {
+            "left": "A heart attack",
+            "right": "Go to hospital"
+          },
+          {
+            "left": "A cold",
+            "right": "Go to bed with a hot drink"
+          }
+        ]
+      },
+      {
+        "id": "u6d-ex3-word-association",
+        "type": "word_association",
+        "title": "6.3. What illnesses are connected with...?",
+        "instructions_vi": "Cho biết nguyên nhân sau liên quan đến bệnh gì.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "a mosquito bite?",
+            "answer": "malaria",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "bad drinking water?",
+            "answer": "cholera"
+          },
+          {
+            "id": "q3",
+            "clue": "pollution, traffic fumes, etc.?",
+            "answer": "asthma"
+          },
+          {
+            "id": "q4",
+            "clue": "grass, flowers, sunshine, etc.?",
+            "answer": "hay fever"
+          },
+          {
+            "id": "q5",
+            "clue": "smoking, unhealthy diet, no exercise?",
+            "answer": "cancer",
+            "accepted_answers": [
+              "cancer",
+              "heart attacks",
+              "cancer / heart attacks"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  7: {
+    "unit": {
+      "id": "unit-7-feelings-detailed",
+      "title": "Unit 7: Feelings - Bài tập chi tiết (Workbook)",
+      "level": "A2-B1",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu là câu trả lời mở, có thể diễn đạt theo nhiều cách. Trường 'required_keywords' liệt kê các từ khóa bắt buộc phải xuất hiện để được tính là đúng, không cần khớp chính xác từng chữ."
+    },
+    "exercises": [
+      {
+        "id": "u7d-ex1-want-hope",
+        "type": "open_response",
+        "title": "7.1. Answer these questions using want or hope.",
+        "instructions_vi": "Trả lời câu hỏi bằng cách dùng 'want' hoặc 'hope' cho phù hợp với tình huống.",
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "You're thirsty. What do you want?",
+            "answer": "I want a glass of water.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "The lesson feels very long. What do you hope?",
+            "answer": "I hope (that) the lesson ends soon.",
+            "required_keywords": [
+              "hope",
+              "lesson"
+            ]
+          },
+          {
+            "id": "q3",
+            "situation": "You're hungry. What do you want?",
+            "answer": "I want some food.",
+            "required_keywords": [
+              "want",
+              "food"
+            ]
+          },
+          {
+            "id": "q4",
+            "situation": "Your friend feels ill. What do you hope?",
+            "answer": "I hope (that) my friend feels better soon.",
+            "required_keywords": [
+              "hope",
+              "friend"
+            ]
+          },
+          {
+            "id": "q5",
+            "situation": "You're tired. What do you want to do?",
+            "answer": "I want to go to bed.",
+            "required_keywords": [
+              "want",
+              "bed"
+            ]
+          },
+          {
+            "id": "q6",
+            "situation": "You're upset. What do you want to do?",
+            "answer": "I want to cry.",
+            "required_keywords": [
+              "want",
+              "cry"
+            ]
+          },
+          {
+            "id": "q7",
+            "situation": "It's very cold weather. What do you hope?",
+            "answer": "I hope (that) it gets hotter soon.",
+            "required_keywords": [
+              "hope",
+              "hot"
+            ]
+          },
+          {
+            "id": "q8",
+            "situation": "Your friend feels sad. What do you want?",
+            "answer": "I want him / her to feel happy again soon.",
+            "required_keywords": [
+              "want",
+              "happy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u7d-ex2-feelings-pictures",
+        "type": "labeling",
+        "title": "7.2. How do the people feel?",
+        "instructions_vi": "Nhìn mô tả tình huống và điền tính từ cảm xúc phù hợp.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Jessica đang nhìn một chiếc bánh sandwich với vẻ thèm thuồng.",
+            "name": "Jessica",
+            "answer": "is hungry",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Nicholas đang uống một chai nước.",
+            "name": "Nicholas",
+            "answer": "is thirsty"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Max đang ôm mình vì lạnh.",
+            "name": "Max",
+            "answer": "is cold"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Sunita đang ngáp.",
+            "name": "Sunita",
+            "answer": "is tired"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Fiona có vẻ mặt bất ngờ, che miệng.",
+            "name": "Fiona",
+            "answer": "is surprised"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Các em nhỏ đang quạt cho mình vì nóng.",
+            "name": "The children",
+            "answer": "are hot"
+          }
+        ]
+      },
+      {
+        "id": "u7d-ex3-error-correction",
+        "type": "error_correction",
+        "title": "7.3. Correct the mistakes.",
+        "instructions_vi": "Sửa lỗi sai trong câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "original": "I very like basketball.",
+            "answer": "I like basketball very much.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "original": "I am happy for my sister's good news.",
+            "answer": "I am happy about my sister's good news."
+          },
+          {
+            "id": "q3",
+            "original": "The teacher wants that we learn these new words.",
+            "answer": "The teacher wants us to learn these new words."
+          },
+          {
+            "id": "q4",
+            "original": "I like really spiders.",
+            "answer": "I really like spiders."
+          },
+          {
+            "id": "q5",
+            "original": "My brother has a good new job. I'm very happy about him.",
+            "answer": "My brother has a good new job. I'm very happy for him."
+          },
+          {
+            "id": "q6",
+            "original": "My parents want that I go to university.",
+            "answer": "My parents want me to go to university."
+          },
+          {
+            "id": "q7",
+            "original": "I feel very well. How for you?",
+            "answer": "I feel very well. How about you?"
+          },
+          {
+            "id": "q8",
+            "original": "Priya is bit tired this morning.",
+            "answer": "Priya is a bit tired this morning."
+          }
+        ]
+      }
+    ]
+  },
+  8: {
+    "unit": {
+      "id": "unit-8-social-expressions-detailed",
+      "title": "Unit 8: Social English - Bài tập chi tiết (Workbook)",
+      "level": "A2-B1",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu có nhiều đáp án đúng, liệt kê trong 'accepted_answers'. Bài 8.4 là hội thoại mở, chấm theo từ khóa bắt buộc ('required_keywords')."
+    },
+    "exercises": [
+      {
+        "id": "u8d-ex1-dialogue",
+        "type": "dialogue_completion",
+        "title": "8.1. Choose a phrase to fit the dialogues.",
+        "instructions_vi": "Chọn cụm từ phù hợp để hoàn thành đoạn hội thoại.",
+        "questions": [
+          {
+            "id": "q1",
+            "context": "A: (sneezes) Atishoo!",
+            "answer": "Bless you!",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "context": "A: I'm taking my driving test today.",
+            "answer": "Good luck!"
+          },
+          {
+            "id": "q3",
+            "context": "A: I passed my driving test!",
+            "answer": "Congratulations!",
+            "accepted_answers": [
+              "Congratulations!",
+              "Well done!"
+            ]
+          },
+          {
+            "id": "q4",
+            "context": "A: Goodbye.",
+            "answer": "Goodbye."
+          },
+          {
+            "id": "q5",
+            "context": "A: It's my birthday today.",
+            "answer": "Happy Birthday!"
+          },
+          {
+            "id": "q6",
+            "context": "A: How are you?",
+            "answer": "Fine, thanks."
+          },
+          {
+            "id": "q7",
+            "context": "A: Hello!",
+            "answer": "Hello!",
+            "accepted_answers": [
+              "Hello!",
+              "Hi!"
+            ]
+          },
+          {
+            "id": "q8",
+            "context": "A: Here's your tea.",
+            "answer": "Thank you",
+            "accepted_answers": [
+              "Thank you",
+              "Cheers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u8d-ex2-situational",
+        "type": "situational_expression",
+        "title": "8.2. What is the person saying in the picture?",
+        "instructions_vi": "Dựa vào mô tả tình huống, cho biết người trong hình sẽ nói gì.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Muốn đi qua chỗ có người đang chắn lối.",
+            "answer": "Excuse me!",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Đang tặng quà bên cây thông Noel.",
+            "answer": "Happy Christmas!"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Vừa nhận được một bó hoa.",
+            "answer": "Thank you!"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Bắt tay chúc mừng trong lễ tốt nghiệp.",
+            "answer": "Congratulations!"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Va phải xe đẩy hàng của người khác trong siêu thị.",
+            "answer": "Sorry!"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Đến công ty lúc 9 giờ sáng.",
+            "answer": "Good morning!"
+          }
+        ]
+      },
+      {
+        "id": "u8d-ex3-situational-choice",
+        "type": "situational_expression",
+        "title": "8.3. What do you say?",
+        "instructions_vi": "Chọn cụm từ phù hợp với mỗi tình huống.",
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "You want to go through a doorway. There are some people blocking it.",
+            "answer": "Excuse me!",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "A friend buys you a drink.",
+            "answer": "Thank you. Cheers!"
+          },
+          {
+            "id": "q3",
+            "situation": "A child says 'Goodnight' to you.",
+            "answer": "Goodnight. Sleep well."
+          },
+          {
+            "id": "q4",
+            "situation": "You answer the phone at work. It is 10.30 am.",
+            "answer": "Good morning."
+          },
+          {
+            "id": "q5",
+            "situation": "You answer the phone at work. It is 3 pm.",
+            "answer": "Good afternoon."
+          },
+          {
+            "id": "q6",
+            "situation": "It is 2 am on January 1st. You meet a friend in the street.",
+            "answer": "Happy New Year!"
+          },
+          {
+            "id": "q7",
+            "situation": "You are on a very crowded bus and you stand on someone's foot.",
+            "answer": "Sorry!"
+          },
+          {
+            "id": "q8",
+            "situation": "It is 24th December. You meet a friend on the bus.",
+            "answer": "Happy Christmas!"
+          }
+        ]
+      },
+      {
+        "id": "u8d-ex4-dialogue-open",
+        "type": "dialogue_completion",
+        "title": "8.4. You meet Ann, an English friend. Reply to her.",
+        "instructions_vi": "Trả lời bạn Ann trong đoạn hội thoại. Câu trả lời mở, chấm theo từ khóa bắt buộc.",
+        "dialogues": [
+          {
+            "id": "d1",
+            "turns": [
+              {
+                "speaker": "ANN",
+                "line": "Good evening."
+              },
+              {
+                "speaker": "YOU",
+                "line": "Hello.",
+                "example": true
+              },
+              {
+                "speaker": "ANN",
+                "line": "How are you?"
+              },
+              {
+                "speaker": "YOU",
+                "blank_id": "q1",
+                "answer": "Fine, thanks.",
+                "required_keywords": [
+                  "fine"
+                ]
+              },
+              {
+                "speaker": "ANN",
+                "line": "It's my birthday today."
+              },
+              {
+                "speaker": "YOU",
+                "blank_id": "q2",
+                "answer": "Happy birthday!",
+                "required_keywords": [
+                  "happy",
+                  "birthday"
+                ]
+              },
+              {
+                "speaker": "ANN",
+                "line": "Would you like a drink?"
+              },
+              {
+                "speaker": "YOU",
+                "blank_id": "q3",
+                "answer": "Yes, please. An orange juice.",
+                "required_keywords": [
+                  "yes"
+                ]
+              },
+              {
+                "speaker": "ANN",
+                "line": "Here you are."
+              },
+              {
+                "speaker": "YOU",
+                "blank_id": "q4",
+                "answer": "Cheers! / Thank you!",
+                "required_keywords": [
+                  "thank"
+                ],
+                "accepted_answers": [
+                  "Cheers!",
+                  "Thank you!"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  9: {
+    "unit": {
+      "id": "unit-9-discourse-markers-detailed",
+      "title": "Unit 9: Useful Expressions - Bài tập chi tiết (Workbook)",
+      "level": "A2-B1",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu có nhiều đáp án đúng, liệt kê trong 'accepted_answers'. Bài 9.4 là sửa lỗi trong hội thoại, chấm theo từng lỗi (correction) riêng biệt."
+    },
+    "exercises": [
+      {
+        "id": "u9d-ex1-word-choice",
+        "type": "fill_in_the_blank",
+        "title": "9.1. Choose a word to complete the sentences.",
+        "instructions_vi": "Chọn từ phù hợp (Actually / Really / Else / Around / Anyway) để hoàn thành câu.",
+        "word_bank": [
+          "Actually",
+          "Really",
+          "Else",
+          "Around",
+          "Anyway"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "It's boring here. Let's go somewhere ______.",
+            "answer": "else",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "There were ______ 20 people at the lecture.",
+            "answer": "around"
+          },
+          {
+            "id": "q3",
+            "sentence": "It's a ______ lovely photo!",
+            "answer": "really"
+          },
+          {
+            "id": "q4",
+            "sentence": "Have you had enough to eat? Would you like anything ______?",
+            "answer": "else"
+          },
+          {
+            "id": "q5",
+            "sentence": "He said he was a doctor but he's ______ still a medical student.",
+            "answer": "actually",
+            "accepted_answers": [
+              "actually",
+              "really"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "The journey takes ______ two hours.",
+            "answer": "around"
+          }
+        ]
+      },
+      {
+        "id": "u9d-ex2-choose-correct",
+        "type": "multiple_choice",
+        "title": "9.2. Choose the correct answer.",
+        "instructions_vi": "Chọn từ đúng trong các từ được in nghiêng.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "I don't like skiing and ___ I'm not free that weekend.",
+            "options": [
+              "about",
+              "anyway",
+              "else"
+            ],
+            "answer": "anyway",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "I don't ___ what we do. It's all the same to me.",
+            "options": [
+              "mind",
+              "matter",
+              "agree"
+            ],
+            "answer": "mind"
+          },
+          {
+            "id": "q3",
+            "question": "___ invite Rachel to dinner tonight.",
+            "options": [
+              "It's up to you",
+              "Let's",
+              "I agree"
+            ],
+            "answer": "Let's"
+          },
+          {
+            "id": "q4",
+            "question": "___ in London. There's lots of traffic there.",
+            "options": [
+              "Be careful",
+              "What a pity",
+              "Oh dear"
+            ],
+            "answer": "Be careful"
+          },
+          {
+            "id": "q5",
+            "question": "I don't have time to go to the cinema and ___ I've seen that film already.",
+            "options": [
+              "really",
+              "absolutely",
+              "anyway"
+            ],
+            "answer": "anyway"
+          }
+        ]
+      },
+      {
+        "id": "u9d-ex3-situational",
+        "type": "situational_expression",
+        "title": "9.3. Choose an expression to fit these situations.",
+        "instructions_vi": "Chọn cụm từ phù hợp (Well done! / Oh dear! / What a pity! / Hurry up! / It's up to you / Look out!) cho mỗi tình huống.",
+        "word_bank": [
+          "Well done!",
+          "Oh dear!",
+          "What a pity!",
+          "Hurry up!",
+          "It's up to you",
+          "Look out!"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "Someone spills a drink.",
+            "answer": "Oh dear!",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "A brick is falling near someone.",
+            "answer": "Look out!"
+          },
+          {
+            "id": "q3",
+            "situation": "M: I didn't get that job.",
+            "answer": "What a pity!"
+          },
+          {
+            "id": "q4",
+            "situation": "W: Do you want to go to the party or not?",
+            "answer": "It's up to you"
+          },
+          {
+            "id": "q5",
+            "situation": "Someone is rushing, running late in the morning.",
+            "answer": "Hurry up!"
+          },
+          {
+            "id": "q6",
+            "situation": "A child shows a nice drawing.",
+            "answer": "Well done!"
+          }
+        ]
+      },
+      {
+        "id": "u9d-ex4-error-correction-dialogue",
+        "type": "dialogue_error_correction",
+        "title": "9.4. Correct the eight mistakes in the dialogue.",
+        "instructions_vi": "Tìm và sửa 8 lỗi sai trong đoạn hội thoại.",
+        "original_dialogue": "VERA: We need to celebrate. I got a new job!\nLUKE: Well made! How about go out for a meal this evening?\nVERA: Great! Let go to that Italian restaurant. Or do you prefer the Chinese one?\nLUKE: I don't mind it. I like the Italian one but it's very expensive.\nVERA: Oh, it isn't matter.\nLUKE: OK. Why don't we going to the Italian restaurant and then we could go to the cinema afterwards? Your new job needs a special celebration.\nVERA: I'm agree. And I'd love to see that film with George Clooney. Would you?\nLUKE: Absolute!",
+        "corrections": [
+          {
+            "id": "q1",
+            "wrong": "Well made!",
+            "correct": "Well done!",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "wrong": "How about go out",
+            "correct": "How about going out"
+          },
+          {
+            "id": "q3",
+            "wrong": "Let go to that Italian restaurant",
+            "correct": "Let's go to that Italian restaurant"
+          },
+          {
+            "id": "q4",
+            "wrong": "I don't mind it.",
+            "correct": "I don't mind."
+          },
+          {
+            "id": "q5",
+            "wrong": "it isn't matter",
+            "correct": "it doesn't matter"
+          },
+          {
+            "id": "q6",
+            "wrong": "Why don't we going to",
+            "correct": "Why don't we go to"
+          },
+          {
+            "id": "q7",
+            "wrong": "I'm agree.",
+            "correct": "I agree."
+          },
+          {
+            "id": "q8",
+            "wrong": "Absolute!",
+            "correct": "Absolutely!"
+          }
+        ]
+      }
+    ]
+  },
+  10: {
+    "unit": {
+      "id": "unit-10-food-drink-detailed",
+      "title": "Unit 10: Food and Drink - Bài tập chi tiết (Workbook)",
+      "level": "A2-B1",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Câu 10.1 (mục 2) và bài phân loại 10.2 có thể chấp nhận nhiều thứ tự/nhóm khác nhau miễn nội dung đúng."
+    },
+    "exercises": [
+      {
+        "id": "u10d-ex1-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "10.1. Complete the sentences. Use words from the box.",
+        "instructions_vi": "Điền từ chỉ thực phẩm phù hợp vào chỗ trống.",
+        "word_bank": [
+          "bread",
+          "rice",
+          "pasta",
+          "salt",
+          "chips",
+          "pepper",
+          "meat",
+          "fish",
+          "vegetarian",
+          "sugar",
+          "tea",
+          "coffee",
+          "hamburgers",
+          "hot dogs",
+          "pizzas",
+          "fish and chips"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "______ is popular in Japan.",
+            "answer": "Rice",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "______ and ______ are very popular in Italy.",
+            "answer": [
+              "Pasta",
+              "pizza"
+            ],
+            "note": "Chấp nhận thứ tự bất kỳ giữa 'pasta' và 'pizza'."
+          },
+          {
+            "id": "q3",
+            "sentence": "Chips are made from ______.",
+            "answer": "potatoes"
+          },
+          {
+            "id": "q4",
+            "sentence": "Many British people eat ______.",
+            "answer": "fish and chips"
+          },
+          {
+            "id": "q5",
+            "sentence": "Hamburgers are made from ______.",
+            "answer": "meat"
+          },
+          {
+            "id": "q6",
+            "sentence": "A ______ is a sausage inside a piece of bread.",
+            "answer": "hot dog"
+          }
+        ]
+      },
+      {
+        "id": "u10d-ex2-classification",
+        "type": "classification",
+        "title": "10.2. Put these words into two lists: fruit and vegetables.",
+        "instructions_vi": "Phân loại các từ sau vào 2 nhóm: Fruit (trái cây) và Vegetables (rau củ).",
+        "items": [
+          "beans",
+          "pineapple",
+          "grapes",
+          "onions",
+          "apple",
+          "carrot",
+          "garlic",
+          "pear",
+          "mushrooms"
+        ],
+        "categories": {
+          "Fruit": [
+            "pineapple",
+            "grapes",
+            "apple",
+            "pear"
+          ],
+          "Vegetables": [
+            "beans",
+            "onions",
+            "carrot",
+            "garlic",
+            "mushrooms"
+          ]
+        }
+      },
+      {
+        "id": "u10d-ex3-labeling",
+        "type": "labeling",
+        "title": "10.3. Write the names of these fruit and vegetables.",
+        "instructions_vi": "Viết tên loại trái cây/rau củ dựa vào mô tả.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Quả dài, vỏ vàng, bên trong mềm màu trắng.",
+            "answer": "banana",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Quả nhỏ màu đỏ, có hạt bên ngoài, thường ăn kèm kem.",
+            "answer": "strawberry"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Loại đậu nhỏ màu xanh nằm trong vỏ dài.",
+            "answer": "peas"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Quả tròn, vỏ xanh hoặc đỏ, giòn, có thể ăn sống.",
+            "answer": "apple"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Củ màu vàng nhạt, mọc dưới đất, thường được chiên hoặc luộc.",
+            "answer": "potatoes"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Quả tròn màu đỏ, thường dùng trong salad hoặc nấu sốt.",
+            "answer": "tomatoes"
+          }
+        ]
+      },
+      {
+        "id": "u10d-ex4-unscramble",
+        "type": "unscramble",
+        "title": "10.4. Unscramble the names of these drinks.",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành tên đồ uống đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "eta",
+            "answer": "tea",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "scrambled": "rebe",
+            "answer": "beer"
+          },
+          {
+            "id": "q3",
+            "scrambled": "klim",
+            "answer": "milk"
+          },
+          {
+            "id": "q4",
+            "scrambled": "fecofe",
+            "answer": "coffee"
+          },
+          {
+            "id": "q5",
+            "scrambled": "rituf eciju",
+            "answer": "fruit juice"
+          },
+          {
+            "id": "q6",
+            "scrambled": "nilemar retaw",
+            "answer": "mineral water"
+          }
+        ]
+      },
+      {
+        "id": "u10d-ex5-multiple-choice",
+        "type": "multiple_choice",
+        "title": "10.5. Choose a, b or c.",
+        "instructions_vi": "Chọn đáp án đúng nhất.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Vegetarians do not eat...",
+            "options": [
+              "vegetables",
+              "meat",
+              "fast food"
+            ],
+            "answer": "meat",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "Garlic is a kind of...",
+            "options": [
+              "fruit",
+              "fast food",
+              "vegetable"
+            ],
+            "answer": "vegetable"
+          },
+          {
+            "id": "q3",
+            "question": "You put ... in coffee.",
+            "options": [
+              "salt",
+              "beer",
+              "sugar"
+            ],
+            "answer": "sugar"
+          },
+          {
+            "id": "q4",
+            "question": "Which is correct?",
+            "options": [
+              "pinapple",
+              "pineapple",
+              "pieapple"
+            ],
+            "answer": "pineapple"
+          },
+          {
+            "id": "q5",
+            "question": "The first sound in 'onion' is the same as the sound in...",
+            "options": [
+              "fun",
+              "orange",
+              "man"
+            ],
+            "answer": "fun"
+          },
+          {
+            "id": "q6",
+            "question": "A pear is...",
+            "options": [
+              "a drink",
+              "a vegetable",
+              "a fruit"
+            ],
+            "answer": "a fruit"
+          }
+        ]
+      }
+    ]
   }
 };
