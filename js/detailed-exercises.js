@@ -237,7 +237,14 @@
   }
 
   function renderContextCard(ex, body){
-    if(ex.context && ex.context.family_tree && ex.context.family_tree.people){
+    if(ex.context && ex.context.image){
+      const card = document.createElement("div");
+      card.className = "ex-context-card ex-context-image-card";
+      card.innerHTML =
+        '<img class="ex-context-img" src="' + ex.context.image + '" alt="Sơ đồ minh họa">' +
+        (ex.context.description ? '<div class="ex-context-caption">' + ex.context.description + '</div>' : "");
+      body.appendChild(card);
+    }else if(ex.context && ex.context.family_tree && ex.context.family_tree.people){
       const lines = buildFamilyTreeSummary(ex.context.family_tree.people);
       const card = document.createElement("div");
       card.className = "ex-context-card";
@@ -570,6 +577,7 @@
       }
 
       qEl.innerHTML =
+        (q.image ? '<img class="exq-question-img" src="' + q.image + '" alt="' + (q.name || "") + '">' : "") +
         '<div class="exq-text">' + infoLine +
         (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>' +
         '<input type="text" class="exq-text-input" style="width:100%;max-width:100%;" ' +
@@ -753,6 +761,7 @@
       qEl.className = "exq";
       qEl.dataset.example = isExample ? "1" : "0";
       qEl.innerHTML =
+        (q.image ? '<img class="exq-question-img" src="' + q.image + '" alt="' + (q.full_word || q.base_word) + '">' : "") +
         '<div class="exq-text">' +
           (isExample
             ? '<input type="text" class="exq-text-input example-filled" value="' + q.answer + '" disabled style="width:90px;">'
@@ -864,7 +873,7 @@
     }
 
     const leftItems = shuffleArr(ex.pairs.map(function(p, i){ return { id: i, text: p.left }; }));
-    const rightItems = shuffleArr(ex.pairs.map(function(p, i){ return { id: i, text: p.right }; }));
+    const rightItems = shuffleArr(ex.pairs.map(function(p, i){ return { id: i, text: p.right, image: p.image }; }));
 
     const wrap = document.createElement("div");
     wrap.innerHTML =
@@ -888,7 +897,11 @@
     rightItems.forEach(function(item){
       const el = document.createElement("div");
       el.className = "exq-match-item";
-      el.textContent = item.text;
+      if(item.image){
+        el.innerHTML = '<img class="exq-match-item-img" src="' + item.image + '" alt="' + item.text + '"><span>' + item.text + '</span>';
+      }else{
+        el.textContent = item.text;
+      }
       el.addEventListener("click", function(){ pick("right", item, el); });
       rightCol.appendChild(el);
     });
