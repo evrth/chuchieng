@@ -450,3 +450,8 @@
   object-fit:cover;
   border-radius:10px;
 }
+
+/* word_search / ghi nhớ không theo thứ tự */
+.word-search-input{
+  margin-bottom:0;
+}

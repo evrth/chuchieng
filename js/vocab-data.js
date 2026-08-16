@@ -2398,27 +2398,1360 @@ const VOCAB_UNITS = [
   {
     "id": 11,
     "title": "In the kitchen",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "fridge",
+        "ipa": "/frɪdʒ/",
+        "meaning": "tủ lạnh",
+        "example": "The milk is in the fridge.",
+        "exampleVi": "Sữa ở trong tủ lạnh."
+      },
+      {
+        "type": "Noun",
+        "word": "freezer",
+        "ipa": "/ˈfriːzər/",
+        "meaning": "ngăn đá, tủ đông",
+        "example": "The ice cream is in the freezer.",
+        "exampleVi": "Kem ở trong ngăn đá."
+      },
+      {
+        "type": "Noun",
+        "word": "bin",
+        "ipa": "/bɪn/",
+        "meaning": "thùng rác",
+        "example": "Put the paper in the bin.",
+        "exampleVi": "Hãy bỏ tờ giấy vào thùng rác."
+      },
+      {
+        "type": "Noun",
+        "word": "washing machine",
+        "ipa": "/ˈwɑːʃɪŋ məˌʃiːn/",
+        "meaning": "máy giặt",
+        "example": "The washing machine is in the kitchen.",
+        "exampleVi": "Máy giặt ở trong bếp."
+      },
+      {
+        "type": "Noun",
+        "word": "sink",
+        "ipa": "/sɪŋk/",
+        "meaning": "bồn rửa",
+        "example": "The plates are in the sink.",
+        "exampleVi": "Những cái đĩa ở trong bồn rửa."
+      },
+      {
+        "type": "Noun",
+        "word": "tap",
+        "ipa": "/tæp/",
+        "meaning": "vòi nước",
+        "example": "Turn off the tap, please.",
+        "exampleVi": "Làm ơn khóa vòi nước."
+      },
+      {
+        "type": "Noun",
+        "word": "microwave",
+        "ipa": "/ˈmaɪkrəweɪv/",
+        "meaning": "lò vi sóng",
+        "example": "Heat the food in the microwave.",
+        "exampleVi": "Hâm nóng thức ăn trong lò vi sóng."
+      },
+      {
+        "type": "Noun",
+        "word": "cupboard",
+        "ipa": "/ˈkʌbərd/",
+        "meaning": "tủ đựng đồ",
+        "example": "The cups are in the cupboard.",
+        "exampleVi": "Những chiếc cốc ở trong tủ."
+      },
+      {
+        "type": "Noun",
+        "word": "cooker",
+        "ipa": "/ˈkʊkər/",
+        "meaning": "bếp nấu, bếp lò",
+        "example": "The cooker is very hot.",
+        "exampleVi": "Bếp rất nóng."
+      },
+      {
+        "type": "Noun",
+        "word": "shelf",
+        "ipa": "/ʃelf/",
+        "meaning": "kệ, giá",
+        "example": "The plates are on the shelf.",
+        "exampleVi": "Những chiếc đĩa ở trên kệ."
+      },
+      {
+        "type": "Noun",
+        "word": "worktop",
+        "ipa": "/ˈwɜːrktɑːp/",
+        "meaning": "mặt bàn bếp, bề mặt làm việc trong bếp",
+        "example": "The knife is on the worktop.",
+        "exampleVi": "Con dao ở trên mặt bàn bếp."
+      },
+      {
+        "type": "Noun",
+        "word": "dishwasher",
+        "ipa": "/ˈdɪʃˌwɑːʃər/",
+        "meaning": "máy rửa bát",
+        "example": "Put the plates in the dishwasher.",
+        "exampleVi": "Hãy cho những chiếc đĩa vào máy rửa bát."
+      },
+      {
+        "type": "Noun",
+        "word": "washing-up liquid",
+        "ipa": "/ˈwɑːʃɪŋ ʌp ˌlɪkwɪd/",
+        "meaning": "nước rửa bát",
+        "example": "We need some washing-up liquid.",
+        "exampleVi": "Chúng ta cần một ít nước rửa bát."
+      },
+      {
+        "type": "Noun",
+        "word": "tea towel",
+        "ipa": "/ˈtiː ˌtaʊəl/",
+        "meaning": "khăn lau bát/khăn lau bếp",
+        "example": "Use the tea towel to dry the cups.",
+        "exampleVi": "Dùng khăn lau bếp để lau khô những chiếc cốc."
+      },
+      {
+        "type": "Noun",
+        "word": "saucepan",
+        "ipa": "/ˈsɔːspən/",
+        "meaning": "nồi nhỏ có cán",
+        "example": "Put the soup in the saucepan.",
+        "exampleVi": "Cho súp vào nồi."
+      },
+      {
+        "type": "Noun",
+        "word": "frying pan",
+        "ipa": "/ˈfraɪɪŋ pæn/",
+        "meaning": "chảo rán",
+        "example": "Cook the eggs in the frying pan.",
+        "exampleVi": "Nấu trứng trong chảo."
+      },
+      {
+        "type": "Noun",
+        "word": "teapot",
+        "ipa": "/ˈtiːpɑːt/",
+        "meaning": "ấm trà",
+        "example": "The tea is in the teapot.",
+        "exampleVi": "Trà ở trong ấm trà."
+      },
+      {
+        "type": "Noun",
+        "word": "cloth",
+        "ipa": "/klɔːθ/",
+        "meaning": "khăn lau",
+        "example": "Use a cloth to clean the table.",
+        "exampleVi": "Dùng khăn để lau bàn."
+      },
+      {
+        "type": "Noun",
+        "word": "coffee maker",
+        "ipa": "/ˈkɔːfi ˌmeɪkər/",
+        "meaning": "máy pha cà phê",
+        "example": "The coffee maker is on the worktop.",
+        "exampleVi": "Máy pha cà phê ở trên mặt bàn bếp."
+      },
+      {
+        "type": "Noun",
+        "word": "kitchen roll",
+        "ipa": "/ˈkɪtʃən roʊl/",
+        "meaning": "giấy lau bếp",
+        "example": "Use some kitchen roll to clean the table.",
+        "exampleVi": "Dùng một ít giấy lau bếp để lau bàn."
+      },
+      {
+        "type": "Noun",
+        "word": "cup",
+        "ipa": "/kʌp/",
+        "meaning": "tách, cốc",
+        "example": "There is a cup on the table.",
+        "exampleVi": "Có một cái cốc trên bàn."
+      },
+      {
+        "type": "Noun",
+        "word": "plate",
+        "ipa": "/pleɪt/",
+        "meaning": "đĩa",
+        "example": "Put the food on the plate.",
+        "exampleVi": "Đặt thức ăn lên đĩa."
+      },
+      {
+        "type": "Noun",
+        "word": "bowl",
+        "ipa": "/boʊl/",
+        "meaning": "bát, tô",
+        "example": "The soup is in the bowl.",
+        "exampleVi": "Súp ở trong bát."
+      },
+      {
+        "type": "Noun",
+        "word": "fork",
+        "ipa": "/fɔːrk/",
+        "meaning": "cái nĩa",
+        "example": "I eat with a fork.",
+        "exampleVi": "Tôi ăn bằng nĩa."
+      },
+      {
+        "type": "Noun",
+        "word": "knife",
+        "ipa": "/naɪf/",
+        "meaning": "con dao",
+        "example": "Be careful with the knife.",
+        "exampleVi": "Hãy cẩn thận với con dao."
+      },
+      {
+        "type": "Noun",
+        "word": "chopsticks",
+        "ipa": "/ˈtʃɑːpˌstɪks/",
+        "meaning": "đũa",
+        "example": "I eat rice with chopsticks.",
+        "exampleVi": "Tôi ăn cơm bằng đũa."
+      },
+      {
+        "type": "Noun",
+        "word": "spoon",
+        "ipa": "/spuːn/",
+        "meaning": "cái thìa, muỗng",
+        "example": "I need a spoon for my soup.",
+        "exampleVi": "Tôi cần một cái thìa để ăn súp."
+      },
+      {
+        "type": "Noun",
+        "word": "mug",
+        "ipa": "/mʌɡ/",
+        "meaning": "cốc có quai, ca",
+        "example": "This is my coffee mug.",
+        "exampleVi": "Đây là cốc cà phê của tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "glass",
+        "ipa": "/ɡlæs/",
+        "meaning": "cốc thủy tinh; ly",
+        "example": "Can I have a glass of water?",
+        "exampleVi": "Cho tôi một cốc nước được không?"
+      },
+      {
+        "type": "Question phrase",
+        "word": "Where can I find ...?",
+        "ipa": "/wer kən aɪ faɪnd/",
+        "meaning": "Tôi có thể tìm ... ở đâu?",
+        "example": "Where can I find the cups?",
+        "exampleVi": "Tôi có thể tìm những cái cốc ở đâu?"
+      },
+      {
+        "type": "Question phrase",
+        "word": "Can I help with the ...?",
+        "ipa": "/kən aɪ help wɪð ðə/",
+        "meaning": "Tôi có thể giúp việc ... không?",
+        "example": "Can I help with the washing-up?",
+        "exampleVi": "Tôi có thể giúp rửa bát không?"
+      },
+      {
+        "type": "Verb",
+        "word": "dry",
+        "ipa": "/draɪ/",
+        "meaning": "làm khô; lau khô",
+        "example": "Please dry the plates.",
+        "exampleVi": "Làm ơn lau khô những chiếc đĩa."
+      },
+      {
+        "type": "Verb",
+        "word": "cook",
+        "ipa": "/kʊk/",
+        "meaning": "nấu ăn",
+        "example": "I cook dinner every day.",
+        "exampleVi": "Tôi nấu bữa tối mỗi ngày."
+      },
+      {
+        "type": "Question phrase",
+        "word": "Where does ... go?",
+        "ipa": "/wer dʌz ... ɡoʊ/",
+        "meaning": "…nên cất ở đâu?",
+        "example": "Where does this plate go?",
+        "exampleVi": "Cái đĩa này để ở đâu?"
+      }
+    ]
   },
   {
     "id": 12,
     "title": "In the bedroom and bathroom",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "bedroom",
+        "ipa": "/ˈbedruːm/",
+        "meaning": "phòng ngủ",
+        "example": "My bedroom is small.",
+        "exampleVi": "Phòng ngủ của tôi nhỏ."
+      },
+      {
+        "type": "Noun",
+        "word": "bed",
+        "ipa": "/bed/",
+        "meaning": "giường",
+        "example": "I am in bed.",
+        "exampleVi": "Tôi đang ở trên giường."
+      },
+      {
+        "type": "Noun",
+        "word": "bedside lamp",
+        "ipa": "/ˈbedsaɪd læmp/",
+        "meaning": "đèn ngủ, đèn cạnh giường",
+        "example": "I turn on the bedside lamp.",
+        "exampleVi": "Tôi bật đèn ngủ."
+      },
+      {
+        "type": "Noun",
+        "word": "alarm clock",
+        "ipa": "/əˈlɑːrm klɑːk/",
+        "meaning": "đồng hồ báo thức",
+        "example": "My alarm clock rings at seven.",
+        "exampleVi": "Đồng hồ báo thức của tôi reo lúc bảy giờ."
+      },
+      {
+        "type": "Noun",
+        "word": "dressing table",
+        "ipa": "/ˈdresɪŋ ˌteɪbəl/",
+        "meaning": "bàn trang điểm",
+        "example": "Her mirror is on the dressing table.",
+        "exampleVi": "Gương của cô ấy ở trên bàn trang điểm."
+      },
+      {
+        "type": "Noun",
+        "word": "comb",
+        "ipa": "/koʊm/",
+        "meaning": "cái lược",
+        "example": "I need a comb.",
+        "exampleVi": "Tôi cần một cái lược."
+      },
+      {
+        "type": "Noun",
+        "word": "hairbrush",
+        "ipa": "/ˈherbrʌʃ/",
+        "meaning": "bàn chải tóc, lược chải tóc",
+        "example": "She uses a hairbrush every morning.",
+        "exampleVi": "Cô ấy dùng lược chải tóc mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "bedside table",
+        "ipa": "/ˈbedsaɪd ˌteɪbəl/",
+        "meaning": "bàn cạnh giường",
+        "example": "My phone is on the bedside table.",
+        "exampleVi": "Điện thoại của tôi ở trên bàn cạnh giường."
+      },
+      {
+        "type": "Noun",
+        "word": "wardrobe",
+        "ipa": "/ˈwɔːrˌdroʊb/",
+        "meaning": "tủ quần áo",
+        "example": "My clothes are in the wardrobe.",
+        "exampleVi": "Quần áo của tôi ở trong tủ quần áo."
+      },
+      {
+        "type": "Noun",
+        "word": "mirror",
+        "ipa": "/ˈmɪrər/",
+        "meaning": "gương",
+        "example": "Look in the mirror.",
+        "exampleVi": "Hãy nhìn vào gương."
+      },
+      {
+        "type": "Noun",
+        "word": "chest of drawers",
+        "ipa": "/ˌtʃest əv ˈdrɔːrz/",
+        "meaning": "tủ có nhiều ngăn kéo",
+        "example": "My socks are in the chest of drawers.",
+        "exampleVi": "Tất của tôi ở trong tủ ngăn kéo."
+      },
+      {
+        "type": "Noun",
+        "word": "bathroom",
+        "ipa": "/ˈbæθruːm/",
+        "meaning": "phòng tắm, nhà vệ sinh",
+        "example": "The bathroom is upstairs.",
+        "exampleVi": "Phòng tắm ở trên tầng."
+      },
+      {
+        "type": "Noun",
+        "word": "shower",
+        "ipa": "/ˈʃaʊər/",
+        "meaning": "vòi sen; vòi tắm; việc tắm vòi sen",
+        "example": "I have a shower every morning.",
+        "exampleVi": "Tôi tắm vòi sen mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "soap",
+        "ipa": "/soʊp/",
+        "meaning": "xà phòng",
+        "example": "The soap is next to the sink.",
+        "exampleVi": "Xà phòng ở cạnh bồn rửa."
+      },
+      {
+        "type": "Noun",
+        "word": "toothpaste",
+        "ipa": "/ˈtuːθpeɪst/",
+        "meaning": "kem đánh răng",
+        "example": "I need some toothpaste.",
+        "exampleVi": "Tôi cần một ít kem đánh răng."
+      },
+      {
+        "type": "Noun",
+        "word": "toothbrush",
+        "ipa": "/ˈtuːθbrʌʃ/",
+        "meaning": "bàn chải đánh răng",
+        "example": "My toothbrush is blue.",
+        "exampleVi": "Bàn chải đánh răng của tôi màu xanh."
+      },
+      {
+        "type": "Noun",
+        "word": "shelf",
+        "ipa": "/ʃelf/",
+        "meaning": "kệ, giá",
+        "example": "The shampoo is on the shelf.",
+        "exampleVi": "Dầu gội ở trên kệ."
+      },
+      {
+        "type": "Noun",
+        "word": "basin",
+        "ipa": "/ˈbeɪsən/",
+        "meaning": "bồn rửa mặt",
+        "example": "Wash your hands in the basin.",
+        "exampleVi": "Hãy rửa tay trong bồn rửa mặt."
+      },
+      {
+        "type": "Noun",
+        "word": "towel",
+        "ipa": "/ˈtaʊəl/",
+        "meaning": "khăn tắm, khăn lau",
+        "example": "I need a clean towel.",
+        "exampleVi": "Tôi cần một chiếc khăn sạch."
+      },
+      {
+        "type": "Noun",
+        "word": "toilet",
+        "ipa": "/ˈtɔɪlət/",
+        "meaning": "bồn cầu; nhà vệ sinh",
+        "example": "The toilet is in the bathroom.",
+        "exampleVi": "Bồn cầu ở trong phòng tắm."
+      },
+      {
+        "type": "Noun",
+        "word": "razor",
+        "ipa": "/ˈreɪzər/",
+        "meaning": "dao cạo",
+        "example": "My father uses a razor every morning.",
+        "exampleVi": "Bố tôi dùng dao cạo mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "shower gel",
+        "ipa": "/ˈʃaʊər dʒel/",
+        "meaning": "sữa tắm",
+        "example": "The shower gel is in the bathroom.",
+        "exampleVi": "Sữa tắm ở trong phòng tắm."
+      },
+      {
+        "type": "Noun",
+        "word": "shampoo",
+        "ipa": "/ʃæmˈpuː/",
+        "meaning": "dầu gội",
+        "example": "I use this shampoo.",
+        "exampleVi": "Tôi dùng loại dầu gội này."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "go to bed",
+        "ipa": "/ɡoʊ tə bed/",
+        "meaning": "đi ngủ, lên giường",
+        "example": "I go to bed at ten.",
+        "exampleVi": "Tôi đi ngủ lúc mười giờ."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "go upstairs",
+        "ipa": "/ɡoʊ ʌpˈsterz/",
+        "meaning": "đi lên tầng trên",
+        "example": "She goes upstairs to her bedroom.",
+        "exampleVi": "Cô ấy đi lên tầng đến phòng ngủ."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "turn off",
+        "ipa": "/tɜːrn ɔːf/",
+        "meaning": "tắt",
+        "example": "Please turn off the light.",
+        "exampleVi": "Làm ơn tắt đèn."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "fall asleep",
+        "ipa": "/fɔːl əˈsliːp/",
+        "meaning": "ngủ thiếp đi, chìm vào giấc ngủ",
+        "example": "I fall asleep very quickly.",
+        "exampleVi": "Tôi ngủ thiếp đi rất nhanh."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "wake up",
+        "ipa": "/weɪk ʌp/",
+        "meaning": "thức dậy",
+        "example": "I wake up at six.",
+        "exampleVi": "Tôi thức dậy lúc sáu giờ."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "get up",
+        "ipa": "/ɡet ʌp/",
+        "meaning": "thức dậy và rời khỏi giường",
+        "example": "I get up at seven.",
+        "exampleVi": "Tôi ra khỏi giường lúc bảy giờ."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "have a shower",
+        "ipa": "/hæv ə ˈʃaʊər/",
+        "meaning": "tắm vòi sen",
+        "example": "I have a shower in the morning.",
+        "exampleVi": "Tôi tắm vòi sen vào buổi sáng."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "clean her teeth",
+        "ipa": "/kliːn hər tiːθ/",
+        "meaning": "đánh răng (cô ấy)",
+        "example": "She cleans her teeth every morning.",
+        "exampleVi": "Cô ấy đánh răng mỗi sáng."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "get undressed",
+        "ipa": "/ɡet ʌnˈdrest/",
+        "meaning": "cởi quần áo, thay đồ",
+        "example": "I get undressed before bed.",
+        "exampleVi": "Tôi cởi quần áo trước khi đi ngủ."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "get dressed",
+        "ipa": "/ɡet drest/",
+        "meaning": "mặc quần áo, thay đồ",
+        "example": "I get dressed after breakfast.",
+        "exampleVi": "Tôi mặc quần áo sau bữa sáng."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "go downstairs",
+        "ipa": "/ɡoʊ ˌdaʊnˈsterz/",
+        "meaning": "đi xuống tầng dưới",
+        "example": "I go downstairs for breakfast.",
+        "exampleVi": "Tôi đi xuống tầng dưới để ăn sáng."
+      }
+    ]
   },
   {
     "id": 13,
     "title": "In the living room",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "living room",
+        "ipa": "/ˈlɪvɪŋ ruːm/",
+        "meaning": "phòng khách",
+        "example": "We watch TV in the living room.",
+        "exampleVi": "Chúng tôi xem TV trong phòng khách."
+      },
+      {
+        "type": "Noun",
+        "word": "book",
+        "ipa": "/bʊk/",
+        "meaning": "sách",
+        "example": "I am reading a book.",
+        "exampleVi": "Tôi đang đọc một quyển sách."
+      },
+      {
+        "type": "Noun",
+        "word": "bookshelf",
+        "ipa": "/ˈbʊkʃelf/",
+        "meaning": "giá sách, kệ sách",
+        "example": "The books are on the bookshelf.",
+        "exampleVi": "Những quyển sách ở trên giá sách."
+      },
+      {
+        "type": "Noun",
+        "word": "light switch",
+        "ipa": "/ˈlaɪt swɪtʃ/",
+        "meaning": "công tắc đèn",
+        "example": "The light switch is next to the door.",
+        "exampleVi": "Công tắc đèn ở cạnh cửa."
+      },
+      {
+        "type": "Noun",
+        "word": "light",
+        "ipa": "/laɪt/",
+        "meaning": "đèn; ánh sáng",
+        "example": "Turn on the light, please.",
+        "exampleVi": "Làm ơn bật đèn."
+      },
+      {
+        "type": "Noun",
+        "word": "TV",
+        "ipa": "/ˌtiːˈviː/",
+        "meaning": "TV, tivi",
+        "example": "The TV is on.",
+        "exampleVi": "TV đang bật."
+      },
+      {
+        "type": "Noun",
+        "word": "picture",
+        "ipa": "/ˈpɪktʃər/",
+        "meaning": "bức tranh, bức ảnh",
+        "example": "There is a picture on the wall.",
+        "exampleVi": "Có một bức tranh trên tường."
+      },
+      {
+        "type": "Noun",
+        "word": "lamp",
+        "ipa": "/læmp/",
+        "meaning": "đèn",
+        "example": "The lamp is on the table.",
+        "exampleVi": "Cái đèn ở trên bàn."
+      },
+      {
+        "type": "Noun",
+        "word": "window",
+        "ipa": "/ˈwɪndoʊ/",
+        "meaning": "cửa sổ",
+        "example": "Please open the window.",
+        "exampleVi": "Làm ơn mở cửa sổ."
+      },
+      {
+        "type": "Noun",
+        "word": "curtain",
+        "ipa": "/ˈkɜːrtn/",
+        "meaning": "rèm cửa",
+        "example": "The curtains are closed.",
+        "exampleVi": "Rèm cửa đang đóng."
+      },
+      {
+        "type": "Noun",
+        "word": "sofa",
+        "ipa": "/ˈsoʊfə/",
+        "meaning": "ghế sofa",
+        "example": "We sit on the sofa.",
+        "exampleVi": "Chúng tôi ngồi trên ghế sofa."
+      },
+      {
+        "type": "Noun",
+        "word": "hi-fi",
+        "ipa": "/ˈhaɪ faɪ/",
+        "meaning": "dàn âm thanh, thiết bị nghe nhạc",
+        "example": "The hi-fi is next to the TV.",
+        "exampleVi": "Dàn âm thanh ở cạnh TV."
+      },
+      {
+        "type": "Noun",
+        "word": "table",
+        "ipa": "/ˈteɪbəl/",
+        "meaning": "cái bàn",
+        "example": "The book is on the table.",
+        "exampleVi": "Quyển sách ở trên bàn."
+      },
+      {
+        "type": "Noun",
+        "word": "chair",
+        "ipa": "/tʃer/",
+        "meaning": "cái ghế",
+        "example": "She is sitting on a chair.",
+        "exampleVi": "Cô ấy đang ngồi trên một cái ghế."
+      },
+      {
+        "type": "Noun",
+        "word": "socket",
+        "ipa": "/ˈsɑːkɪt/",
+        "meaning": "ổ cắm điện",
+        "example": "The lamp is plugged into the socket.",
+        "exampleVi": "Cái đèn được cắm vào ổ điện."
+      },
+      {
+        "type": "Noun",
+        "word": "rug",
+        "ipa": "/rʌɡ/",
+        "meaning": "tấm thảm nhỏ",
+        "example": "There is a rug under the table.",
+        "exampleVi": "Có một tấm thảm dưới bàn."
+      },
+      {
+        "type": "Noun",
+        "word": "carpet",
+        "ipa": "/ˈkɑːrpɪt/",
+        "meaning": "thảm trải sàn",
+        "example": "The bedroom has a blue carpet.",
+        "exampleVi": "Phòng ngủ có một tấm thảm màu xanh."
+      },
+      {
+        "type": "Noun",
+        "word": "remote control",
+        "ipa": "/rɪˈmoʊt kənˌtroʊl/",
+        "meaning": "điều khiển từ xa",
+        "example": "Where is the remote control?",
+        "exampleVi": "Điều khiển từ xa ở đâu?"
+      },
+      {
+        "type": "Noun",
+        "word": "coffee table",
+        "ipa": "/ˈkɔːfi ˌteɪbəl/",
+        "meaning": "bàn trà, bàn thấp trước sofa",
+        "example": "The cups are on the coffee table.",
+        "exampleVi": "Những chiếc cốc ở trên bàn trà."
+      },
+      {
+        "type": "Noun",
+        "word": "phone",
+        "ipa": "/foʊn/",
+        "meaning": "điện thoại",
+        "example": "My phone is on the sofa.",
+        "exampleVi": "Điện thoại của tôi ở trên ghế sofa."
+      },
+      {
+        "type": "Noun",
+        "word": "armchair",
+        "ipa": "/ˈɑːrmˌtʃer/",
+        "meaning": "ghế bành",
+        "example": "Grandpa is sitting in the armchair.",
+        "exampleVi": "Ông đang ngồi trên ghế bành."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "watch television",
+        "ipa": "/wɑːtʃ ˈteləˌvɪʒən/",
+        "meaning": "xem tivi",
+        "example": "We watch television after dinner.",
+        "exampleVi": "Chúng tôi xem tivi sau bữa tối."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "listen to the radio",
+        "ipa": "/ˈlɪsən tə ðə ˈreɪdioʊ/",
+        "meaning": "nghe đài",
+        "example": "My father listens to the radio in the morning.",
+        "exampleVi": "Bố tôi nghe đài vào buổi sáng."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "listen to music",
+        "ipa": "/ˈlɪsən tə ˈmjuːzɪk/",
+        "meaning": "nghe nhạc",
+        "example": "I listen to music every day.",
+        "exampleVi": "Tôi nghe nhạc mỗi ngày."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "read a book",
+        "ipa": "/riːd ə bʊk/",
+        "meaning": "đọc sách",
+        "example": "I read a book before bed.",
+        "exampleVi": "Tôi đọc sách trước khi đi ngủ."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "just relax",
+        "ipa": "/dʒʌst rɪˈlæks/",
+        "meaning": "chỉ thư giãn, cứ thư giãn",
+        "example": "I sit on the sofa and just relax.",
+        "exampleVi": "Tôi ngồi trên sofa và chỉ thư giãn."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "close the curtains",
+        "ipa": "/kloʊz ðə ˈkɜːrtnz/",
+        "meaning": "đóng rèm cửa",
+        "example": "Please close the curtains.",
+        "exampleVi": "Làm ơn đóng rèm cửa."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "switch the light",
+        "ipa": "/swɪtʃ ðə laɪt/",
+        "meaning": "bật/tắt đèn",
+        "example": "Please switch the light on.",
+        "exampleVi": "Làm ơn bật đèn."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "turn the radio off",
+        "ipa": "/tɜːrn ðə ˈreɪdioʊ ɔːf/",
+        "meaning": "tắt radio",
+        "example": "Please turn the radio off.",
+        "exampleVi": "Làm ơn tắt radio."
+      },
+      {
+        "type": "Phrase",
+        "word": "pass me the remote control",
+        "ipa": "/pæs mi ðə rɪˈmoʊt kənˌtroʊl/",
+        "meaning": "đưa điều khiển từ xa cho tôi",
+        "example": "Pass me the remote control, please.",
+        "exampleVi": "Làm ơn đưa điều khiển từ xa cho tôi."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "turn on the TV",
+        "ipa": "/tɜːrn ɑːn ðə ˌtiːˈviː/",
+        "meaning": "bật TV",
+        "example": "Please turn on the TV.",
+        "exampleVi": "Làm ơn bật TV."
+      }
+    ]
   },
   {
     "id": 14,
     "title": "Jobs",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "job",
+        "ipa": "/dʒɑːb/",
+        "meaning": "công việc, việc làm",
+        "example": "I have a new job.",
+        "exampleVi": "Tôi có một công việc mới."
+      },
+      {
+        "type": "Noun",
+        "word": "doctor",
+        "ipa": "/ˈdɑːktər/",
+        "meaning": "bác sĩ",
+        "example": "My mother is a doctor.",
+        "exampleVi": "Mẹ tôi là bác sĩ."
+      },
+      {
+        "type": "Noun",
+        "word": "teacher",
+        "ipa": "/ˈtiːtʃər/",
+        "meaning": "giáo viên",
+        "example": "She is a teacher.",
+        "exampleVi": "Cô ấy là giáo viên."
+      },
+      {
+        "type": "Noun",
+        "word": "nurse",
+        "ipa": "/nɜːrs/",
+        "meaning": "y tá, điều dưỡng",
+        "example": "The nurse helps the doctor.",
+        "exampleVi": "Y tá giúp bác sĩ."
+      },
+      {
+        "type": "Noun",
+        "word": "mechanic",
+        "ipa": "/məˈkænɪk/",
+        "meaning": "thợ sửa chữa, thợ máy",
+        "example": "My brother is a mechanic.",
+        "exampleVi": "Anh/em trai tôi là thợ máy."
+      },
+      {
+        "type": "Noun",
+        "word": "secretary",
+        "ipa": "/ˈsekrəteri/",
+        "meaning": "thư ký",
+        "example": "She works as a secretary.",
+        "exampleVi": "Cô ấy làm thư ký."
+      },
+      {
+        "type": "Noun",
+        "word": "shop assistant",
+        "ipa": "/ˈʃɑːp əˌsɪstənt/",
+        "meaning": "nhân viên bán hàng",
+        "example": "The shop assistant is very helpful.",
+        "exampleVi": "Nhân viên bán hàng rất nhiệt tình."
+      },
+      {
+        "type": "Noun",
+        "word": "hairdresser",
+        "ipa": "/ˈherdresər/",
+        "meaning": "thợ làm tóc",
+        "example": "The hairdresser cuts my hair.",
+        "exampleVi": "Thợ làm tóc cắt tóc cho tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "engineer",
+        "ipa": "/ˌendʒɪˈnɪr/",
+        "meaning": "kỹ sư",
+        "example": "My father is an engineer.",
+        "exampleVi": "Bố tôi là một kỹ sư."
+      },
+      {
+        "type": "Noun",
+        "word": "farmer",
+        "ipa": "/ˈfɑːrmər/",
+        "meaning": "nông dân",
+        "example": "The farmer works on a farm.",
+        "exampleVi": "Người nông dân làm việc ở trang trại."
+      },
+      {
+        "type": "Noun",
+        "word": "police officer",
+        "ipa": "/pəˈliːs ˌɑːfɪsər/",
+        "meaning": "cảnh sát",
+        "example": "The police officer helps people.",
+        "exampleVi": "Cảnh sát giúp đỡ mọi người."
+      },
+      {
+        "type": "Noun",
+        "word": "traffic warden",
+        "ipa": "/ˈtræfɪk ˌwɔːrdn/",
+        "meaning": "nhân viên kiểm soát giao thông",
+        "example": "The traffic warden checks the cars.",
+        "exampleVi": "Nhân viên kiểm soát giao thông kiểm tra các xe."
+      },
+      {
+        "type": "Noun",
+        "word": "librarian",
+        "ipa": "/laɪˈbreriən/",
+        "meaning": "thủ thư",
+        "example": "The librarian works in a library.",
+        "exampleVi": "Thủ thư làm việc trong thư viện."
+      },
+      {
+        "type": "Noun",
+        "word": "bank clerk",
+        "ipa": "/ˈbæŋk klɜːrk/",
+        "meaning": "nhân viên ngân hàng",
+        "example": "The bank clerk helps me.",
+        "exampleVi": "Nhân viên ngân hàng giúp tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "waiter",
+        "ipa": "/ˈweɪtər/",
+        "meaning": "bồi bàn, nhân viên phục vụ nam",
+        "example": "The waiter brings our food.",
+        "exampleVi": "Người phục vụ mang đồ ăn cho chúng tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "restaurant",
+        "ipa": "/ˈrestərɑːnt/",
+        "meaning": "nhà hàng",
+        "example": "She works in a restaurant.",
+        "exampleVi": "Cô ấy làm việc trong một nhà hàng."
+      },
+      {
+        "type": "Noun",
+        "word": "taxi driver",
+        "ipa": "/ˈtæksi ˌdraɪvər/",
+        "meaning": "tài xế taxi",
+        "example": "The taxi driver takes me home.",
+        "exampleVi": "Tài xế taxi đưa tôi về nhà."
+      },
+      {
+        "type": "Noun",
+        "word": "office",
+        "ipa": "/ˈɔːfɪs/",
+        "meaning": "văn phòng",
+        "example": "My father works in an office.",
+        "exampleVi": "Bố tôi làm việc trong một văn phòng."
+      },
+      {
+        "type": "Noun",
+        "word": "factory",
+        "ipa": "/ˈfæktəri/",
+        "meaning": "nhà máy",
+        "example": "He works in a factory.",
+        "exampleVi": "Anh ấy làm việc trong một nhà máy."
+      },
+      {
+        "type": "Noun",
+        "word": "shop",
+        "ipa": "/ʃɑːp/",
+        "meaning": "cửa hàng",
+        "example": "She works in a shop.",
+        "exampleVi": "Cô ấy làm việc trong một cửa hàng."
+      },
+      {
+        "type": "Noun",
+        "word": "beauty salon",
+        "ipa": "/ˈbjuːti səˌlɑːn/",
+        "meaning": "tiệm làm đẹp, salon",
+        "example": "My sister works in a beauty salon.",
+        "exampleVi": "Chị/em gái tôi làm việc ở một salon làm đẹp."
+      },
+      {
+        "type": "Noun",
+        "word": "hospital",
+        "ipa": "/ˈhɑːspɪtl/",
+        "meaning": "bệnh viện",
+        "example": "The doctor works at a hospital.",
+        "exampleVi": "Bác sĩ làm việc tại bệnh viện."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "work at",
+        "ipa": "/wɜːrk æt/",
+        "meaning": "làm việc tại (một địa điểm/cơ quan)",
+        "example": "I work at a hospital.",
+        "exampleVi": "Tôi làm việc tại một bệnh viện."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "work from",
+        "ipa": "/wɜːrk frəm/",
+        "meaning": "làm việc từ (một địa điểm)",
+        "example": "I work from home.",
+        "exampleVi": "Tôi làm việc tại nhà."
+      }
+    ]
   },
   {
     "id": 15,
     "title": "At school and university",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "subject",
+        "ipa": "/ˈsʌbdʒɪkt/",
+        "meaning": "môn học",
+        "example": "English is my favorite subject.",
+        "exampleVi": "Tiếng Anh là môn học yêu thích của tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "English",
+        "ipa": "/ˈɪŋɡlɪʃ/",
+        "meaning": "môn Tiếng Anh; tiếng Anh",
+        "example": "I study English at school.",
+        "exampleVi": "Tôi học tiếng Anh ở trường."
+      },
+      {
+        "type": "Noun",
+        "word": "maths",
+        "ipa": "/mæθs/",
+        "meaning": "môn Toán",
+        "example": "I like maths.",
+        "exampleVi": "Tôi thích môn Toán."
+      },
+      {
+        "type": "Noun",
+        "word": "art",
+        "ipa": "/ɑːrt/",
+        "meaning": "môn Mỹ thuật, nghệ thuật",
+        "example": "We have art on Monday.",
+        "exampleVi": "Chúng tôi học Mỹ thuật vào thứ Hai."
+      },
+      {
+        "type": "Noun",
+        "word": "history",
+        "ipa": "/ˈhɪstəri/",
+        "meaning": "môn Lịch sử",
+        "example": "History is interesting.",
+        "exampleVi": "Lịch sử rất thú vị."
+      },
+      {
+        "type": "Noun",
+        "word": "geography",
+        "ipa": "/dʒiˈɑːɡrəfi/",
+        "meaning": "môn Địa lý",
+        "example": "I study geography at school.",
+        "exampleVi": "Tôi học Địa lý ở trường."
+      },
+      {
+        "type": "Noun",
+        "word": "biology",
+        "ipa": "/baɪˈɑːlədʒi/",
+        "meaning": "môn Sinh học",
+        "example": "She studies biology.",
+        "exampleVi": "Cô ấy học Sinh học."
+      },
+      {
+        "type": "Noun",
+        "word": "ICT (Information and Communication Technology)",
+        "ipa": "/ˌaɪ siː ˈtiː/",
+        "meaning": "công nghệ thông tin và truyền thông",
+        "example": "We study ICT at school.",
+        "exampleVi": "Chúng tôi học Công nghệ thông tin ở trường."
+      },
+      {
+        "type": "Noun",
+        "word": "PE (Physical Education)",
+        "ipa": "/ˌpiː ˈiː/",
+        "meaning": "môn Giáo dục thể chất, thể dục",
+        "example": "I like PE because I love sports.",
+        "exampleVi": "Tôi thích thể dục vì tôi yêu thể thao."
+      },
+      {
+        "type": "Noun",
+        "word": "chemistry",
+        "ipa": "/ˈkemɪstri/",
+        "meaning": "môn Hóa học",
+        "example": "Chemistry is difficult for me.",
+        "exampleVi": "Hóa học khó đối với tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "modern languages",
+        "ipa": "/ˌmɑːdərn ˈlæŋɡwɪdʒɪz/",
+        "meaning": "các ngoại ngữ hiện đại",
+        "example": "We study modern languages at school.",
+        "exampleVi": "Chúng tôi học các ngoại ngữ ở trường."
+      },
+      {
+        "type": "Noun",
+        "word": "physics",
+        "ipa": "/ˈfɪzɪks/",
+        "meaning": "môn Vật lý",
+        "example": "My brother likes physics.",
+        "exampleVi": "Anh/em trai tôi thích Vật lý."
+      },
+      {
+        "type": "Noun",
+        "word": "music",
+        "ipa": "/ˈmjuːzɪk/",
+        "meaning": "môn Âm nhạc; âm nhạc",
+        "example": "I have music on Friday.",
+        "exampleVi": "Tôi học Âm nhạc vào thứ Sáu."
+      },
+      {
+        "type": "Noun",
+        "word": "rubber",
+        "ipa": "/ˈrʌbər/",
+        "meaning": "cục tẩy",
+        "example": "I need a rubber.",
+        "exampleVi": "Tôi cần một cục tẩy."
+      },
+      {
+        "type": "Noun",
+        "word": "board",
+        "ipa": "/bɔːrd/",
+        "meaning": "bảng",
+        "example": "The teacher writes on the board.",
+        "exampleVi": "Giáo viên viết lên bảng."
+      },
+      {
+        "type": "Noun",
+        "word": "drawing pin",
+        "ipa": "/ˈdrɔːɪŋ pɪn/",
+        "meaning": "ghim bảng, đinh ghim",
+        "example": "Use a drawing pin to put up the picture.",
+        "exampleVi": "Dùng ghim để ghim bức tranh lên."
+      },
+      {
+        "type": "Noun",
+        "word": "noticeboard",
+        "ipa": "/ˈnoʊtɪsˌbɔːrd/",
+        "meaning": "bảng thông báo",
+        "example": "The timetable is on the noticeboard.",
+        "exampleVi": "Thời khóa biểu ở trên bảng thông báo."
+      },
+      {
+        "type": "Noun",
+        "word": "piece of paper",
+        "ipa": "/piːs əv ˈpeɪpər/",
+        "meaning": "một tờ giấy",
+        "example": "I need a piece of paper.",
+        "exampleVi": "Tôi cần một tờ giấy."
+      },
+      {
+        "type": "Noun",
+        "word": "pencil",
+        "ipa": "/ˈpensəl/",
+        "meaning": "bút chì",
+        "example": "I write with a pencil.",
+        "exampleVi": "Tôi viết bằng bút chì."
+      },
+      {
+        "type": "Noun",
+        "word": "notebook",
+        "ipa": "/ˈnoʊtbʊk/",
+        "meaning": "vở, sổ ghi chép",
+        "example": "Write it in your notebook.",
+        "exampleVi": "Hãy viết nó vào vở của bạn."
+      },
+      {
+        "type": "Noun",
+        "word": "textbook",
+        "ipa": "/ˈtekstbʊk/",
+        "meaning": "sách giáo khoa",
+        "example": "This textbook is very useful.",
+        "exampleVi": "Cuốn sách giáo khoa này rất hữu ích."
+      },
+      {
+        "type": "Noun",
+        "word": "pencil sharpener",
+        "ipa": "/ˈpensəl ˌʃɑːrpənər/",
+        "meaning": "gọt bút chì",
+        "example": "I need a pencil sharpener.",
+        "exampleVi": "Tôi cần một cái gọt bút chì."
+      },
+      {
+        "type": "Noun",
+        "word": "pen",
+        "ipa": "/pen/",
+        "meaning": "bút mực",
+        "example": "Can I borrow your pen?",
+        "exampleVi": "Tôi có thể mượn bút của bạn không?"
+      },
+      {
+        "type": "Noun",
+        "word": "OHP (overhead projector)",
+        "ipa": "/ˌoʊ eɪtʃ ˈpiː/",
+        "meaning": "máy chiếu qua đầu",
+        "example": "The teacher uses an OHP.",
+        "exampleVi": "Giáo viên sử dụng máy chiếu qua đầu."
+      },
+      {
+        "type": "Noun",
+        "word": "board pen",
+        "ipa": "/ˈbɔːrd pen/",
+        "meaning": "bút viết bảng",
+        "example": "The teacher needs a board pen.",
+        "exampleVi": "Giáo viên cần một chiếc bút viết bảng."
+      },
+      {
+        "type": "Noun",
+        "word": "board rubber",
+        "ipa": "/ˈbɔːrd ˌrʌbər/",
+        "meaning": "khăn/cục lau bảng",
+        "example": "Where is the board rubber?",
+        "exampleVi": "Cục lau bảng ở đâu?"
+      },
+      {
+        "type": "Noun",
+        "word": "desk",
+        "ipa": "/desk/",
+        "meaning": "bàn học, bàn làm việc",
+        "example": "My books are on the desk.",
+        "exampleVi": "Sách của tôi ở trên bàn học."
+      },
+      {
+        "type": "Noun",
+        "word": "whiteboard",
+        "ipa": "/ˈwaɪtbɔːrd/",
+        "meaning": "bảng trắng",
+        "example": "The teacher writes on the whiteboard.",
+        "exampleVi": "Giáo viên viết trên bảng trắng."
+      },
+      {
+        "type": "Noun",
+        "word": "computer",
+        "ipa": "/kəmˈpjuːtər/",
+        "meaning": "máy tính",
+        "example": "We use a computer at school.",
+        "exampleVi": "Chúng tôi sử dụng máy tính ở trường."
+      },
+      {
+        "type": "Noun",
+        "word": "DVD player",
+        "ipa": "/ˈdiːviːdiː ˌpleɪər/",
+        "meaning": "đầu phát DVD",
+        "example": "There is a DVD player in the classroom.",
+        "exampleVi": "Có một đầu DVD trong lớp học."
+      },
+      {
+        "type": "Noun",
+        "word": "ruler",
+        "ipa": "/ˈruːlər/",
+        "meaning": "thước kẻ",
+        "example": "I use a ruler to draw a line.",
+        "exampleVi": "Tôi dùng thước để kẻ một đường."
+      },
+      {
+        "type": "Phrase",
+        "word": "a teacher teaches maths",
+        "ipa": "/ə ˈtiːtʃər ˈtiːtʃɪz mæθs/",
+        "meaning": "giáo viên dạy môn Toán",
+        "example": "My teacher teaches maths.",
+        "exampleVi": "Giáo viên của tôi dạy môn Toán."
+      },
+      {
+        "type": "Phrase",
+        "word": "students study maths",
+        "ipa": "/ˈstuːdənts ˈstʌdi mæθs/",
+        "meaning": "học sinh học môn Toán",
+        "example": "The students study maths every day.",
+        "exampleVi": "Học sinh học Toán mỗi ngày."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "go to school",
+        "ipa": "/ɡoʊ tə skuːl/",
+        "meaning": "đi học, đến trường",
+        "example": "I go to school at seven.",
+        "exampleVi": "Tôi đi học lúc bảy giờ."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "go to university",
+        "ipa": "/ɡoʊ tə ˌjuːnəˈvɜːrsəti/",
+        "meaning": "học đại học, đến trường đại học",
+        "example": "My sister goes to university.",
+        "exampleVi": "Chị tôi học đại học."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "learn to read and write",
+        "ipa": "/lɜːrn tə riːd ənd raɪt/",
+        "meaning": "học đọc và viết",
+        "example": "Children learn to read and write at school.",
+        "exampleVi": "Trẻ em học đọc và viết ở trường."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "do an English course",
+        "ipa": "/duː ən ˈɪŋɡlɪʃ kɔːrs/",
+        "meaning": "học một khóa tiếng Anh",
+        "example": "I do an English course online.",
+        "exampleVi": "Tôi học một khóa tiếng Anh trực tuyến."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "take an exam",
+        "ipa": "/teɪk ən ɪɡˈzæm/",
+        "meaning": "tham gia/làm một kỳ thi",
+        "example": "I take an exam tomorrow.",
+        "exampleVi": "Tôi thi vào ngày mai."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "do an exam",
+        "ipa": "/duː ən ɪɡˈzæm/",
+        "meaning": "làm bài thi",
+        "example": "We do an exam in the morning.",
+        "exampleVi": "Chúng tôi làm bài thi vào buổi sáng."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "pass your exams",
+        "ipa": "/pæs jʊr ɪɡˈzæmz/",
+        "meaning": "thi đỗ, vượt qua các kỳ thi",
+        "example": "I hope I pass my exams.",
+        "exampleVi": "Tôi hy vọng mình thi đỗ."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "fail your exams",
+        "ipa": "/feɪl jʊr ɪɡˈzæmz/",
+        "meaning": "thi trượt, không đỗ kỳ thi",
+        "example": "He failed his exams last year.",
+        "exampleVi": "Năm ngoái anh ấy thi trượt."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "get a degree",
+        "ipa": "/ɡet ə dɪˈɡriː/",
+        "meaning": "lấy/bằng đại học",
+        "example": "She wants to get a degree.",
+        "exampleVi": "Cô ấy muốn lấy bằng đại học."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "do homework",
+        "ipa": "/duː ˈhoʊmwɜːrk/",
+        "meaning": "làm bài tập về nhà",
+        "example": "I do my homework every evening.",
+        "exampleVi": "Tôi làm bài tập về nhà mỗi tối."
+      }
+    ]
   },
   {
     "id": 16,

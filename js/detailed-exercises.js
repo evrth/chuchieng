@@ -30,7 +30,9 @@
     situational_expression: "Nói gì trong tình huống",
     multiple_choice: "Trắc nghiệm",
     dialogue_error_correction: "Sửa lỗi hội thoại",
-    classification: "Phân loại"
+    classification: "Phân loại",
+    true_false: "Đúng / Sai",
+    word_search: "Tìm & ghi nhớ từ"
   };
   const TYPE_ICON = {
     sentence_completion: "🌳",
@@ -51,7 +53,9 @@
     situational_expression: "🗣️",
     multiple_choice: "✅",
     dialogue_error_correction: "🩹",
-    classification: "🗂️"
+    classification: "🗂️",
+    true_false: "⚖️",
+    word_search: "🔎"
   };
 
   const STORAGE_KEY = "chuchieng:unit:" + unitId + ":detailed-exercises";
@@ -158,6 +162,8 @@
       case "multiple_choice": renderDetailedMultipleChoice(currentExercise, body); break;
       case "dialogue_error_correction": renderDialogueErrorCorrection(currentExercise, body); break;
       case "classification": renderClassification(currentExercise, body); break;
+      case "true_false": renderDetailedTrueFalse(currentExercise, body); break;
+      case "word_search": renderWordSearch(currentExercise, body); break;
       default: body.innerHTML = "<p>Dạng bài chưa được hỗ trợ.</p>";
     }
 
@@ -349,9 +355,11 @@
     renderContextCard(ex, body);
 
     const answerMap = {};
+    const acceptedMap = {};
     const exampleMap = {};
     ex.blanks.forEach(function(b){
       answerMap[b.id] = b.answer;
+      acceptedMap[b.id] = b.accepted_answers || [];
       exampleMap[b.id] = b.example === true;
     });
 
@@ -380,7 +388,8 @@
         if(input.dataset.example === "1") return;
         total++;
         const answer = answerMap[input.dataset.blank];
-        const isCorrect = input.value.trim().toLowerCase() === answer.toLowerCase();
+        const accepted = [answer].concat(acceptedMap[input.dataset.blank]);
+        const isCorrect = accepted.some(function(a){ return normalizeAns(input.value) === normalizeAns(a); });
         input.classList.add(isCorrect ? "correct" : "wrong");
         input.disabled = true;
         if(isCorrect){
@@ -1345,6 +1354,130 @@
           feedback.textContent = "❌ Đáp án đúng: " + correctCategory;
         }
       });
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 18. TRUE / FALSE (dạng bài tập chi tiết, có ghi chú giải thích khi sai)
+  // ============================================
+  function renderDetailedTrueFalse(ex, body){
+    renderContextCard(ex, body);
+    const qWrap = document.createElement("div");
+    ex.questions.forEach(function(q){
+      const isExample = q.example === true;
+      const qEl = document.createElement("div");
+      qEl.className = "exq";
+      qEl.dataset.example = isExample ? "1" : "0";
+      qEl.dataset.answer = q.answer ? "true" : "false";
+
+      let html = '<div class="exq-text">' + q.statement +
+        (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>';
+
+      if(isExample){
+        html += '<div class="exq-tf-row">' +
+          '<button type="button" class="exq-option' + (q.answer ? " correct-answer" : "") + '" disabled>Đúng</button>' +
+          '<button type="button" class="exq-option' + (!q.answer ? " correct-answer" : "") + '" disabled>Sai</button>' +
+          '</div>';
+        if(q.note) html += '<div class="exq-hint" style="margin-left:0;">' + q.note + '</div>';
+      }else{
+        html += '<div class="exq-tf-row">' +
+          '<button type="button" class="exq-option" data-value="true">Đúng</button>' +
+          '<button type="button" class="exq-option" data-value="false">Sai</button>' +
+          '</div>';
+      }
+      html += '<div class="exq-feedback" style="display:none;"></div>';
+
+      qEl.innerHTML = html;
+      qWrap.appendChild(qEl);
+    });
+    body.appendChild(qWrap);
+
+    qWrap.querySelectorAll(".exq").forEach(function(qEl){
+      if(qEl.dataset.example === "1") return;
+      qEl.querySelectorAll(".exq-option").forEach(function(btn){
+        btn.addEventListener("click", function(){
+          qEl.querySelectorAll(".exq-option").forEach(function(b){ b.classList.remove("selected"); });
+          btn.classList.add("selected");
+        });
+      });
+    });
+
+    currentCheckFn = function(){
+      let correct = 0, total = 0;
+      let qi = -1;
+      qWrap.querySelectorAll(".exq").forEach(function(qEl){
+        qi++;
+        if(qEl.dataset.example === "1") return;
+        total++;
+        const q = ex.questions[qi];
+        const answer = qEl.dataset.answer;
+        const selected = qEl.querySelector(".exq-option.selected");
+        const feedback = qEl.querySelector(".exq-feedback");
+        const isCorrect = selected && selected.dataset.value === answer;
+        qEl.querySelectorAll(".exq-option").forEach(function(b){
+          b.disabled = true;
+          if(b.dataset.value === answer) b.classList.add("correct-answer");
+          else if(b.classList.contains("selected")) b.classList.add("wrong-answer");
+        });
+        feedback.style.display = "block";
+        if(isCorrect){
+          correct++;
+          feedback.className = "exq-feedback correct";
+          feedback.textContent = q.note ? "✅ Chính xác — " + q.note : "✅ Chính xác";
+        }else{
+          feedback.className = "exq-feedback wrong";
+          feedback.textContent = "❌ Đáp án đúng: " + (answer === "true" ? "Đúng" : "Sai") + (q.note ? " — " + q.note : "");
+        }
+      });
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 19. WORD SEARCH / GHI NHỚ KHÔNG THEO THỨ TỰ
+  // ============================================
+  function renderWordSearch(ex, body){
+    renderContextCard(ex, body);
+
+    const wrap = document.createElement("div");
+    let inputsHtml = '<div class="exq-scramble-tiles" style="flex-direction:column;align-items:stretch;gap:8px;max-width:320px;">';
+    for(let i = 0; i < ex.blank_count; i++){
+      inputsHtml += '<input type="text" class="exq-text-input word-search-input" style="width:100%;max-width:100%;" placeholder="Từ ' + (i + 1) + '..." autocomplete="off" autocapitalize="off" spellcheck="false">';
+    }
+    inputsHtml += '</div>';
+    wrap.innerHTML = inputsHtml;
+    body.appendChild(wrap);
+
+    const feedbackEl = document.createElement("div");
+    feedbackEl.className = "exq-feedback";
+    feedbackEl.style.marginTop = "16px";
+    feedbackEl.style.display = "none";
+    body.appendChild(feedbackEl);
+
+    currentCheckFn = function(){
+      const remaining = ex.answers.map(function(w){ return normalizeAns(w); });
+      const inputs = wrap.querySelectorAll(".word-search-input");
+      let correct = 0;
+
+      inputs.forEach(function(input){
+        const val = normalizeAns(input.value);
+        input.disabled = true;
+        if(!val){ return; }
+        const idx = remaining.indexOf(val);
+        if(idx !== -1){
+          input.classList.add("correct");
+          remaining.splice(idx, 1);
+          correct++;
+        }else{
+          input.classList.add("wrong");
+        }
+      });
+
+      const total = ex.blank_count;
+      feedbackEl.style.display = "block";
+      feedbackEl.className = "exq-feedback " + (correct === total ? "correct" : "wrong");
+      feedbackEl.textContent = "Bạn tìm đúng " + correct + "/" + total + " từ. Đáp án đầy đủ: " + ex.answers.join(", ") + ".";
       return { correct: correct, total: total };
     };
   }
