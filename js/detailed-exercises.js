@@ -958,6 +958,7 @@
       qEl.className = "exq";
       qEl.dataset.example = isExample ? "1" : "0";
       qEl.innerHTML =
+        (q.image ? '<img class="exq-question-img" src="' + q.image + '" alt="' + q.answer + '">' : "") +
         '<div class="exq-text">' + q.clue_vi +
         (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>' +
         '<input type="text" class="exq-text-input' + (isExample ? ' example-filled' : '') + '" ' +
@@ -1054,7 +1055,7 @@
     const qWrap = document.createElement("div");
     ex.questions.forEach(function(q){
       const isExample = q.example === true;
-      const promptText = q.clue_vi || q.situation || "";
+      const promptText = q.clue_vi || q.situation || q.context || "";
       const qEl = document.createElement("div");
       qEl.className = "exq";
       qEl.dataset.example = isExample ? "1" : "0";
@@ -1072,6 +1073,7 @@
       }
 
       qEl.innerHTML =
+        (q.image ? '<img class="exq-question-img" src="' + q.image + '" alt="">' : "") +
         '<div class="exq-text">' + promptText +
         (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>' +
         inputHtml +

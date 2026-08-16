@@ -1521,37 +1521,43 @@ const DETAILED_EXERCISES_DATA = {
             "clue_vi": "Jessica đang nhìn một chiếc bánh sandwich với vẻ thèm thuồng.",
             "name": "Jessica",
             "answer": "is hungry",
-            "example": true
+            "example": true,
+            "image": "images/exercises/u7-feel-jessica-hungry.jpg"
           },
           {
             "id": "q2",
             "clue_vi": "Nicholas đang uống một chai nước.",
             "name": "Nicholas",
-            "answer": "is thirsty"
+            "answer": "is thirsty",
+            "image": "images/exercises/u7-feel-nicholas-thirsty.jpg"
           },
           {
             "id": "q3",
             "clue_vi": "Max đang ôm mình vì lạnh.",
             "name": "Max",
-            "answer": "is cold"
+            "answer": "is cold",
+            "image": "images/exercises/u7-feel-max-cold.jpg"
           },
           {
             "id": "q4",
             "clue_vi": "Sunita đang ngáp.",
             "name": "Sunita",
-            "answer": "is tired"
+            "answer": "is tired",
+            "image": "images/exercises/u7-feel-sunita-tired.jpg"
           },
           {
             "id": "q5",
             "clue_vi": "Fiona có vẻ mặt bất ngờ, che miệng.",
             "name": "Fiona",
-            "answer": "is surprised"
+            "answer": "is surprised",
+            "image": "images/exercises/u7-feel-fiona-surprised.jpg"
           },
           {
             "id": "q6",
             "clue_vi": "Các em nhỏ đang quạt cho mình vì nóng.",
             "name": "The children",
-            "answer": "are hot"
+            "answer": "are hot",
+            "image": "images/exercises/u7-feel-children-hot.jpg"
           }
         ]
       },
@@ -1620,9 +1626,9 @@ const DETAILED_EXERCISES_DATA = {
     "exercises": [
       {
         "id": "u8d-ex1-dialogue",
-        "type": "dialogue_completion",
-        "title": "8.1. Choose a phrase to fit the dialogues.",
-        "instructions_vi": "Chọn cụm từ phù hợp để hoàn thành đoạn hội thoại.",
+        "type": "situational_expression",
+        "title": "8.1. Choose one of the phrases to fit the dialogues.",
+        "instructions_vi": "Chọn một cụm từ phù hợp để hoàn thành đoạn hội thoại. Lưu ý một số câu có thể có nhiều hơn một đáp án đúng.",
         "questions": [
           {
             "id": "q1",
@@ -1677,6 +1683,24 @@ const DETAILED_EXERCISES_DATA = {
               "Cheers"
             ]
           }
+        ],
+        "word_bank": [
+          "Hello",
+          "Hi",
+          "How are you?",
+          "Fine, thanks. And you?",
+          "Not too bad, thanks",
+          "Cheers!",
+          "Goodbye",
+          "Excuse me!",
+          "Sorry!",
+          "Bless you!",
+          "Happy Birthday!",
+          "Merry Christmas!",
+          "Happy New Year!",
+          "Good luck!",
+          "Congratulations!",
+          "Well done!"
         ]
       },
       {
@@ -1689,39 +1713,45 @@ const DETAILED_EXERCISES_DATA = {
             "id": "q1",
             "clue_vi": "Muốn đi qua chỗ có người đang chắn lối.",
             "answer": "Excuse me!",
-            "example": true
+            "example": true,
+            "image": "images/exercises/u8-situational-excuseme.jpg"
           },
           {
             "id": "q2",
             "clue_vi": "Đang tặng quà bên cây thông Noel.",
-            "answer": "Happy Christmas!"
+            "answer": "Happy Christmas!",
+            "image": "images/exercises/u8-situational-happychristmas.jpg"
           },
           {
             "id": "q3",
             "clue_vi": "Vừa nhận được một bó hoa.",
-            "answer": "Thank you!"
+            "answer": "Thank you!",
+            "image": "images/exercises/u8-situational-thankyou-flowers.jpg"
           },
           {
             "id": "q4",
             "clue_vi": "Bắt tay chúc mừng trong lễ tốt nghiệp.",
-            "answer": "Congratulations!"
+            "answer": "Congratulations!",
+            "image": "images/exercises/u8-situational-congratulations.jpg"
           },
           {
             "id": "q5",
             "clue_vi": "Va phải xe đẩy hàng của người khác trong siêu thị.",
-            "answer": "Sorry!"
+            "answer": "Sorry!",
+            "image": "images/exercises/u8-situational-sorry-cart.jpg"
           },
           {
             "id": "q6",
             "clue_vi": "Đến công ty lúc 9 giờ sáng.",
-            "answer": "Good morning!"
+            "answer": "Good morning!",
+            "image": "images/exercises/u8-situational-goodmorning.jpg"
           }
         ]
       },
       {
         "id": "u8d-ex3-situational-choice",
         "type": "situational_expression",
-        "title": "8.3. What do you say?",
+        "title": "8.3. What do you say? Choose a phrase.",
         "instructions_vi": "Chọn cụm từ phù hợp với mỗi tình huống.",
         "questions": [
           {
@@ -1765,6 +1795,16 @@ const DETAILED_EXERCISES_DATA = {
             "situation": "It is 24th December. You meet a friend on the bus.",
             "answer": "Happy Christmas!"
           }
+        ],
+        "word_bank": [
+          "Thank you. Cheers!",
+          "Sorry!",
+          "Happy Christmas!",
+          "Happy New Year!",
+          "Goodnight. Sleep well.",
+          "Good morning",
+          "Good afternoon",
+          "Excuse me!"
         ]
       },
       {
@@ -1983,32 +2023,38 @@ const DETAILED_EXERCISES_DATA = {
             "id": "q1",
             "situation": "Someone spills a drink.",
             "answer": "Oh dear!",
-            "example": true
+            "example": true,
+            "image": "images/exercises/u9-situational-ohdear.jpg"
           },
           {
             "id": "q2",
             "situation": "A brick is falling near someone.",
-            "answer": "Look out!"
+            "answer": "Look out!",
+            "image": "images/exercises/u9-situational-lookout.jpg"
           },
           {
             "id": "q3",
             "situation": "M: I didn't get that job.",
-            "answer": "What a pity!"
+            "answer": "What a pity!",
+            "image": "images/exercises/u9-situational-whatapity.jpg"
           },
           {
             "id": "q4",
             "situation": "W: Do you want to go to the party or not?",
-            "answer": "It's up to you"
+            "answer": "It's up to you",
+            "image": "images/exercises/u9-situational-itsuptoyou.jpg"
           },
           {
             "id": "q5",
             "situation": "Someone is rushing, running late in the morning.",
-            "answer": "Hurry up!"
+            "answer": "Hurry up!",
+            "image": "images/exercises/u9-situational-hurryup.jpg"
           },
           {
             "id": "q6",
             "situation": "A child shows a nice drawing.",
-            "answer": "Well done!"
+            "answer": "Well done!",
+            "image": "images/exercises/u9-situational-welldone.jpg"
           }
         ]
       },
@@ -2179,32 +2225,38 @@ const DETAILED_EXERCISES_DATA = {
             "id": "q1",
             "clue_vi": "Quả dài, vỏ vàng, bên trong mềm màu trắng.",
             "answer": "banana",
-            "example": true
+            "example": true,
+            "image": "images/exercises/u10-fruit-banana.jpg"
           },
           {
             "id": "q2",
             "clue_vi": "Quả nhỏ màu đỏ, có hạt bên ngoài, thường ăn kèm kem.",
-            "answer": "strawberry"
+            "answer": "strawberry",
+            "image": "images/exercises/u10-fruit-strawberry.jpg"
           },
           {
             "id": "q3",
             "clue_vi": "Loại đậu nhỏ màu xanh nằm trong vỏ dài.",
-            "answer": "peas"
+            "answer": "peas",
+            "image": "images/exercises/u10-veg-peas.jpg"
           },
           {
             "id": "q4",
             "clue_vi": "Quả tròn, vỏ xanh hoặc đỏ, giòn, có thể ăn sống.",
-            "answer": "apple"
+            "answer": "apple",
+            "image": "images/exercises/u10-fruit-apple.jpg"
           },
           {
             "id": "q5",
             "clue_vi": "Củ màu vàng nhạt, mọc dưới đất, thường được chiên hoặc luộc.",
-            "answer": "potatoes"
+            "answer": "potatoes",
+            "image": "images/exercises/u10-veg-potatoes.jpg"
           },
           {
             "id": "q6",
             "clue_vi": "Quả tròn màu đỏ, thường dùng trong salad hoặc nấu sốt.",
-            "answer": "tomatoes"
+            "answer": "tomatoes",
+            "image": "images/exercises/u10-veg-tomatoes.jpg"
           }
         ]
       },
