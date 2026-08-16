@@ -2893,5 +2893,1390 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  11: {
+    "unit": {
+      "id": "unit-11-kitchen",
+      "title": "Unit 11: In the Kitchen",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u11-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "fridge",
+            "right": "tủ lạnh"
+          },
+          {
+            "left": "freezer",
+            "right": "ngăn đá, tủ đông"
+          },
+          {
+            "left": "sink",
+            "right": "bồn rửa"
+          },
+          {
+            "left": "tap",
+            "right": "vòi nước"
+          },
+          {
+            "left": "microwave",
+            "right": "lò vi sóng"
+          },
+          {
+            "left": "cupboard",
+            "right": "tủ đựng đồ"
+          },
+          {
+            "left": "cooker",
+            "right": "bếp nấu, bếp lò"
+          },
+          {
+            "left": "dishwasher",
+            "right": "máy rửa bát"
+          },
+          {
+            "left": "saucepan",
+            "right": "nồi nhỏ có cán"
+          },
+          {
+            "left": "frying pan",
+            "right": "chảo rán"
+          }
+        ]
+      },
+      {
+        "id": "u11-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "fridge",
+          "freezer",
+          "bin",
+          "sink",
+          "tap",
+          "microwave",
+          "frying pan",
+          "tea towel"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "The milk is in the ______.",
+            "hint_vi": "tủ lạnh",
+            "answer": "fridge"
+          },
+          {
+            "id": "q2",
+            "sentence": "The ice cream is in the ______.",
+            "hint_vi": "ngăn đá",
+            "answer": "freezer"
+          },
+          {
+            "id": "q3",
+            "sentence": "Put the paper in the ______.",
+            "hint_vi": "thùng rác",
+            "answer": "bin"
+          },
+          {
+            "id": "q4",
+            "sentence": "The plates are in the ______.",
+            "hint_vi": "bồn rửa",
+            "answer": "sink"
+          },
+          {
+            "id": "q5",
+            "sentence": "Turn off the ______, please.",
+            "hint_vi": "vòi nước",
+            "answer": "tap"
+          },
+          {
+            "id": "q6",
+            "sentence": "Heat the food in the ______.",
+            "hint_vi": "lò vi sóng",
+            "answer": "microwave"
+          },
+          {
+            "id": "q7",
+            "sentence": "Cook the eggs in the ______.",
+            "hint_vi": "chảo rán",
+            "answer": "frying pan"
+          },
+          {
+            "id": "q8",
+            "sentence": "Use the ______ to dry the cups.",
+            "hint_vi": "khăn lau bát",
+            "answer": "tea towel"
+          }
+        ]
+      },
+      {
+        "id": "u11-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means 'tủ lạnh'?",
+            "options": [
+              "fridge",
+              "freezer",
+              "cupboard",
+              "cooker"
+            ],
+            "answer": "fridge"
+          },
+          {
+            "id": "q2",
+            "question": "Where do you wash the dishes?",
+            "options": [
+              "sink",
+              "shelf",
+              "worktop",
+              "bin"
+            ],
+            "answer": "sink"
+          },
+          {
+            "id": "q3",
+            "question": "What do you use to dry dishes?",
+            "options": [
+              "tea towel",
+              "washing-up liquid",
+              "coffee maker",
+              "kitchen roll"
+            ],
+            "answer": "tea towel"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'chảo rán'?",
+            "options": [
+              "saucepan",
+              "frying pan",
+              "teapot",
+              "cooker"
+            ],
+            "answer": "frying pan"
+          },
+          {
+            "id": "q5",
+            "question": "Which one is used to eat rice in some Asian countries?",
+            "options": [
+              "fork",
+              "knife",
+              "chopsticks",
+              "spoon"
+            ],
+            "answer": "chopsticks"
+          },
+          {
+            "id": "q6",
+            "question": "What appliance washes plates automatically?",
+            "options": [
+              "washing machine",
+              "dishwasher",
+              "microwave",
+              "fridge"
+            ],
+            "answer": "dishwasher"
+          }
+        ]
+      },
+      {
+        "id": "u11-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"freezer\" keeps food warm.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "You use a \"tap\" to get water.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "A \"mug\" is a type of cup with a handle.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Chopsticks\" are used for drinking water.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "A \"cooker\" is used for cooking food.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Washing-up liquid\" is used to wash clothes.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u11-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "RDIFEG",
+            "answer": "FRIDGE"
+          },
+          {
+            "id": "q2",
+            "scrambled": "NKIS",
+            "answer": "SINK"
+          },
+          {
+            "id": "q3",
+            "scrambled": "OCEKOR",
+            "answer": "COOKER"
+          },
+          {
+            "id": "q4",
+            "scrambled": "ECUASNAP",
+            "answer": "SAUCEPAN"
+          },
+          {
+            "id": "q5",
+            "scrambled": "TAOEPT",
+            "answer": "TEAPOT"
+          },
+          {
+            "id": "q6",
+            "scrambled": "RADCUOPB",
+            "answer": "CUPBOARD"
+          }
+        ]
+      }
+    ]
+  },
+  12: {
+    "unit": {
+      "id": "unit-12-bedroom-bathroom",
+      "title": "Unit 12: In the Bedroom and Bathroom",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u12-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "bedroom",
+            "right": "phòng ngủ"
+          },
+          {
+            "left": "bed",
+            "right": "giường"
+          },
+          {
+            "left": "wardrobe",
+            "right": "tủ quần áo"
+          },
+          {
+            "left": "mirror",
+            "right": "gương"
+          },
+          {
+            "left": "alarm clock",
+            "right": "đồng hồ báo thức"
+          },
+          {
+            "left": "bathroom",
+            "right": "phòng tắm"
+          },
+          {
+            "left": "shower",
+            "right": "vòi sen"
+          },
+          {
+            "left": "soap",
+            "right": "xà phòng"
+          },
+          {
+            "left": "toothbrush",
+            "right": "bàn chải đánh răng"
+          },
+          {
+            "left": "towel",
+            "right": "khăn tắm"
+          }
+        ]
+      },
+      {
+        "id": "u12-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "bedroom",
+          "bedside lamp",
+          "wardrobe",
+          "mirror",
+          "shower",
+          "toothpaste",
+          "basin",
+          "towel"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My ______ is small.",
+            "hint_vi": "phòng ngủ",
+            "answer": "bedroom"
+          },
+          {
+            "id": "q2",
+            "sentence": "I turn on the ______.",
+            "hint_vi": "đèn ngủ",
+            "answer": "bedside lamp"
+          },
+          {
+            "id": "q3",
+            "sentence": "My clothes are in the ______.",
+            "hint_vi": "tủ quần áo",
+            "answer": "wardrobe"
+          },
+          {
+            "id": "q4",
+            "sentence": "Look in the ______.",
+            "hint_vi": "gương",
+            "answer": "mirror"
+          },
+          {
+            "id": "q5",
+            "sentence": "I have a ______ every morning.",
+            "hint_vi": "tắm vòi sen",
+            "answer": "shower"
+          },
+          {
+            "id": "q6",
+            "sentence": "I need some ______.",
+            "hint_vi": "kem đánh răng",
+            "answer": "toothpaste"
+          },
+          {
+            "id": "q7",
+            "sentence": "Wash your hands in the ______.",
+            "hint_vi": "bồn rửa mặt",
+            "answer": "basin"
+          },
+          {
+            "id": "q8",
+            "sentence": "I need a clean ______.",
+            "hint_vi": "khăn tắm",
+            "answer": "towel"
+          }
+        ]
+      },
+      {
+        "id": "u12-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means 'giường'?",
+            "options": [
+              "bed",
+              "bedroom",
+              "bedside table",
+              "wardrobe"
+            ],
+            "answer": "bed"
+          },
+          {
+            "id": "q2",
+            "question": "What do you use to brush your teeth?",
+            "options": [
+              "soap",
+              "shampoo",
+              "toothbrush",
+              "razor"
+            ],
+            "answer": "toothbrush"
+          },
+          {
+            "id": "q3",
+            "question": "What do you use to wash your hair?",
+            "options": [
+              "shampoo",
+              "soap",
+              "toothpaste",
+              "shower gel"
+            ],
+            "answer": "shampoo"
+          },
+          {
+            "id": "q4",
+            "question": "Where do you keep your clothes?",
+            "options": [
+              "wardrobe",
+              "mirror",
+              "dressing table",
+              "bedside lamp"
+            ],
+            "answer": "wardrobe"
+          },
+          {
+            "id": "q5",
+            "question": "\"I get up at seven\" means...",
+            "options": [
+              "tôi thức dậy và rời khỏi giường lúc 7 giờ",
+              "tôi đi ngủ lúc 7 giờ",
+              "tôi tắm lúc 7 giờ",
+              "tôi mặc quần áo lúc 7 giờ"
+            ],
+            "answer": "tôi thức dậy và rời khỏi giường lúc 7 giờ"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means 'dao cạo'?",
+            "options": [
+              "razor",
+              "comb",
+              "hairbrush",
+              "soap"
+            ],
+            "answer": "razor"
+          }
+        ]
+      },
+      {
+        "id": "u12-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Wardrobe\" is where you keep your clothes.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Toothpaste\" is used to wash your hair.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "You use a \"towel\" to dry your body.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Fall asleep\" means to wake up.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Alarm clock\" helps you wake up on time.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Get dressed\" means to take off your clothes.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u12-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "OBEDMOR",
+            "answer": "BEDROOM"
+          },
+          {
+            "id": "q2",
+            "scrambled": "ROMRIR",
+            "answer": "MIRROR"
+          },
+          {
+            "id": "q3",
+            "scrambled": "EOWRSH",
+            "answer": "SHOWER"
+          },
+          {
+            "id": "q4",
+            "scrambled": "OWLET",
+            "answer": "TOWEL"
+          },
+          {
+            "id": "q5",
+            "scrambled": "EADROBWR",
+            "answer": "WARDROBE"
+          },
+          {
+            "id": "q6",
+            "scrambled": "OOBRHTAM",
+            "answer": "BATHROOM"
+          }
+        ]
+      }
+    ]
+  },
+  13: {
+    "unit": {
+      "id": "unit-13-living-room",
+      "title": "Unit 13: In the Living Room",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u13-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "living room",
+            "right": "phòng khách"
+          },
+          {
+            "left": "bookshelf",
+            "right": "giá sách"
+          },
+          {
+            "left": "light switch",
+            "right": "công tắc đèn"
+          },
+          {
+            "left": "TV",
+            "right": "tivi"
+          },
+          {
+            "left": "picture",
+            "right": "bức tranh"
+          },
+          {
+            "left": "lamp",
+            "right": "đèn"
+          },
+          {
+            "left": "window",
+            "right": "cửa sổ"
+          },
+          {
+            "left": "curtain",
+            "right": "rèm cửa"
+          },
+          {
+            "left": "sofa",
+            "right": "ghế sofa"
+          },
+          {
+            "left": "remote control",
+            "right": "điều khiển từ xa"
+          }
+        ]
+      },
+      {
+        "id": "u13-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "living room",
+          "book",
+          "bookshelf",
+          "window",
+          "curtains",
+          "sofa",
+          "rug",
+          "remote control"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "We watch TV in the ______.",
+            "hint_vi": "phòng khách",
+            "answer": "living room"
+          },
+          {
+            "id": "q2",
+            "sentence": "I am reading a ______.",
+            "hint_vi": "sách",
+            "answer": "book"
+          },
+          {
+            "id": "q3",
+            "sentence": "The books are on the ______.",
+            "hint_vi": "giá sách",
+            "answer": "bookshelf"
+          },
+          {
+            "id": "q4",
+            "sentence": "Please open the ______.",
+            "hint_vi": "cửa sổ",
+            "answer": "window"
+          },
+          {
+            "id": "q5",
+            "sentence": "The ______ are closed.",
+            "hint_vi": "rèm cửa",
+            "answer": "curtains"
+          },
+          {
+            "id": "q6",
+            "sentence": "We sit on the ______.",
+            "hint_vi": "ghế sofa",
+            "answer": "sofa"
+          },
+          {
+            "id": "q7",
+            "sentence": "There is a ______ under the table.",
+            "hint_vi": "tấm thảm nhỏ",
+            "answer": "rug"
+          },
+          {
+            "id": "q8",
+            "sentence": "Where is the ______?",
+            "hint_vi": "điều khiển từ xa",
+            "answer": "remote control"
+          }
+        ]
+      },
+      {
+        "id": "u13-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means 'ghế sofa'?",
+            "options": [
+              "armchair",
+              "sofa",
+              "chair",
+              "bed"
+            ],
+            "answer": "sofa"
+          },
+          {
+            "id": "q2",
+            "question": "What do you use to change TV channels?",
+            "options": [
+              "remote control",
+              "socket",
+              "light switch",
+              "phone"
+            ],
+            "answer": "remote control"
+          },
+          {
+            "id": "q3",
+            "question": "Which is usually bigger?",
+            "options": [
+              "carpet (thảm trải cả sàn)",
+              "rug (thảm nhỏ)",
+              "chúng bằng nhau",
+              "không có gì khác biệt"
+            ],
+            "answer": "carpet (thảm trải cả sàn)"
+          },
+          {
+            "id": "q4",
+            "question": "Where do you put your coffee cup in the living room?",
+            "options": [
+              "coffee table",
+              "bookshelf",
+              "sofa",
+              "window"
+            ],
+            "answer": "coffee table"
+          },
+          {
+            "id": "q5",
+            "question": "Which word means 'nghe đài'?",
+            "options": [
+              "listen to the radio",
+              "watch television",
+              "listen to music",
+              "read a book"
+            ],
+            "answer": "listen to the radio"
+          },
+          {
+            "id": "q6",
+            "question": "\"Just relax\" means...",
+            "options": [
+              "chỉ thư giãn",
+              "làm việc chăm chỉ",
+              "dọn dẹp nhà cửa",
+              "đi ngủ"
+            ],
+            "answer": "chỉ thư giãn"
+          }
+        ]
+      },
+      {
+        "id": "u13-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"sofa\" is something you sit on.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Curtains\" are used to cover windows.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "A \"hi-fi\" is used to cook food.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "An \"armchair\" is a comfortable chair, often for one person.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "A \"socket\" is where you plug in electrical devices.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A \"bookshelf\" is used to watch television.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u13-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "AFOS",
+            "answer": "SOFA"
+          },
+          {
+            "id": "q2",
+            "scrambled": "NIATRUC",
+            "answer": "CURTAIN"
+          },
+          {
+            "id": "q3",
+            "scrambled": "DOWNIW",
+            "answer": "WINDOW"
+          },
+          {
+            "id": "q4",
+            "scrambled": "PLMA",
+            "answer": "LAMP"
+          },
+          {
+            "id": "q5",
+            "scrambled": "TEPRAC",
+            "answer": "CARPET"
+          },
+          {
+            "id": "q6",
+            "scrambled": "NOISIVELET",
+            "answer": "TELEVISION"
+          }
+        ]
+      }
+    ]
+  },
+  14: {
+    "unit": {
+      "id": "unit-14-jobs",
+      "title": "Unit 14: Jobs",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u14-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "doctor",
+            "right": "bác sĩ"
+          },
+          {
+            "left": "teacher",
+            "right": "giáo viên"
+          },
+          {
+            "left": "nurse",
+            "right": "y tá, điều dưỡng"
+          },
+          {
+            "left": "mechanic",
+            "right": "thợ máy"
+          },
+          {
+            "left": "secretary",
+            "right": "thư ký"
+          },
+          {
+            "left": "engineer",
+            "right": "kỹ sư"
+          },
+          {
+            "left": "farmer",
+            "right": "nông dân"
+          },
+          {
+            "left": "waiter",
+            "right": "bồi bàn"
+          },
+          {
+            "left": "librarian",
+            "right": "thủ thư"
+          },
+          {
+            "left": "taxi driver",
+            "right": "tài xế taxi"
+          }
+        ]
+      },
+      {
+        "id": "u14-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "job",
+          "doctor",
+          "teacher",
+          "nurse",
+          "mechanic",
+          "engineer",
+          "farmer",
+          "waiter"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I have a new ______.",
+            "hint_vi": "công việc",
+            "answer": "job"
+          },
+          {
+            "id": "q2",
+            "sentence": "My mother is a ______.",
+            "hint_vi": "bác sĩ",
+            "answer": "doctor"
+          },
+          {
+            "id": "q3",
+            "sentence": "She is a ______.",
+            "hint_vi": "giáo viên",
+            "answer": "teacher"
+          },
+          {
+            "id": "q4",
+            "sentence": "The ______ helps the doctor.",
+            "hint_vi": "y tá",
+            "answer": "nurse"
+          },
+          {
+            "id": "q5",
+            "sentence": "My brother is a ______.",
+            "hint_vi": "thợ máy",
+            "answer": "mechanic"
+          },
+          {
+            "id": "q6",
+            "sentence": "My father is an ______.",
+            "hint_vi": "kỹ sư",
+            "answer": "engineer"
+          },
+          {
+            "id": "q7",
+            "sentence": "The ______ works on a farm.",
+            "hint_vi": "nông dân",
+            "answer": "farmer"
+          },
+          {
+            "id": "q8",
+            "sentence": "The ______ brings our food.",
+            "hint_vi": "bồi bàn",
+            "answer": "waiter"
+          }
+        ]
+      },
+      {
+        "id": "u14-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Who works in a hospital and helps the doctor?",
+            "options": [
+              "nurse",
+              "secretary",
+              "waiter",
+              "farmer"
+            ],
+            "answer": "nurse"
+          },
+          {
+            "id": "q2",
+            "question": "Who fixes cars?",
+            "options": [
+              "mechanic",
+              "engineer",
+              "librarian",
+              "bank clerk"
+            ],
+            "answer": "mechanic"
+          },
+          {
+            "id": "q3",
+            "question": "Who works in a library?",
+            "options": [
+              "librarian",
+              "secretary",
+              "teacher",
+              "waiter"
+            ],
+            "answer": "librarian"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'cảnh sát'?",
+            "options": [
+              "police officer",
+              "traffic warden",
+              "bank clerk",
+              "shop assistant"
+            ],
+            "answer": "police officer"
+          },
+          {
+            "id": "q5",
+            "question": "Where does a 'hairdresser' work?",
+            "options": [
+              "beauty salon",
+              "hospital",
+              "factory",
+              "office"
+            ],
+            "answer": "beauty salon"
+          },
+          {
+            "id": "q6",
+            "question": "Who checks parked cars?",
+            "options": [
+              "traffic warden",
+              "police officer",
+              "taxi driver",
+              "farmer"
+            ],
+            "answer": "traffic warden"
+          }
+        ]
+      },
+      {
+        "id": "u14-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"teacher\" works in a school.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "An \"engineer\" can build roads and bridges.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "A \"waiter\" works in a hospital.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "A \"farmer\" works on a farm.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "A \"librarian\" works in a restaurant.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "A \"taxi driver\" drives people to places.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u14-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "RCOTDO",
+            "answer": "DOCTOR"
+          },
+          {
+            "id": "q2",
+            "scrambled": "EHCAETR",
+            "answer": "TEACHER"
+          },
+          {
+            "id": "q3",
+            "scrambled": "SERNU",
+            "answer": "NURSE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "RMERAF",
+            "answer": "FARMER"
+          },
+          {
+            "id": "q5",
+            "scrambled": "REENIGNE",
+            "answer": "ENGINEER"
+          },
+          {
+            "id": "q6",
+            "scrambled": "TIERAW",
+            "answer": "WAITER"
+          }
+        ]
+      }
+    ]
+  },
+  15: {
+    "unit": {
+      "id": "unit-15-school-university",
+      "title": "Unit 15: At School and University",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u15-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "subject",
+            "right": "môn học"
+          },
+          {
+            "left": "maths",
+            "right": "môn Toán"
+          },
+          {
+            "left": "history",
+            "right": "môn Lịch sử"
+          },
+          {
+            "left": "geography",
+            "right": "môn Địa lý"
+          },
+          {
+            "left": "biology",
+            "right": "môn Sinh học"
+          },
+          {
+            "left": "chemistry",
+            "right": "môn Hóa học"
+          },
+          {
+            "left": "physics",
+            "right": "môn Vật lý"
+          },
+          {
+            "left": "music",
+            "right": "môn Âm nhạc"
+          },
+          {
+            "left": "pencil",
+            "right": "bút chì"
+          },
+          {
+            "left": "notebook",
+            "right": "vở, sổ ghi chép"
+          }
+        ]
+      },
+      {
+        "id": "u15-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "subject",
+          "maths",
+          "art",
+          "geography",
+          "rubber",
+          "board",
+          "pencil",
+          "notebook"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "English is my favorite ______.",
+            "hint_vi": "môn học",
+            "answer": "subject"
+          },
+          {
+            "id": "q2",
+            "sentence": "I like ______.",
+            "hint_vi": "môn Toán",
+            "answer": "maths"
+          },
+          {
+            "id": "q3",
+            "sentence": "We have ______ on Monday.",
+            "hint_vi": "môn Mỹ thuật",
+            "answer": "art"
+          },
+          {
+            "id": "q4",
+            "sentence": "I study ______ at school.",
+            "hint_vi": "môn Địa lý",
+            "answer": "geography"
+          },
+          {
+            "id": "q5",
+            "sentence": "I need a ______.",
+            "hint_vi": "cục tẩy",
+            "answer": "rubber"
+          },
+          {
+            "id": "q6",
+            "sentence": "The teacher writes on the ______.",
+            "hint_vi": "bảng",
+            "answer": "board"
+          },
+          {
+            "id": "q7",
+            "sentence": "I write with a ______.",
+            "hint_vi": "bút chì",
+            "answer": "pencil"
+          },
+          {
+            "id": "q8",
+            "sentence": "Write it in your ______.",
+            "hint_vi": "vở",
+            "answer": "notebook"
+          }
+        ]
+      },
+      {
+        "id": "u15-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which subject studies plants and animals?",
+            "options": [
+              "biology",
+              "chemistry",
+              "physics",
+              "geography"
+            ],
+            "answer": "biology"
+          },
+          {
+            "id": "q2",
+            "question": "Which subject studies numbers and equations?",
+            "options": [
+              "maths",
+              "history",
+              "art",
+              "music"
+            ],
+            "answer": "maths"
+          },
+          {
+            "id": "q3",
+            "question": "What do you use to erase pencil marks?",
+            "options": [
+              "rubber",
+              "ruler",
+              "pen",
+              "drawing pin"
+            ],
+            "answer": "rubber"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'thi đỗ'?",
+            "options": [
+              "pass your exams",
+              "fail your exams",
+              "take an exam",
+              "do homework"
+            ],
+            "answer": "pass your exams"
+          },
+          {
+            "id": "q5",
+            "question": "What do you use to draw a straight line?",
+            "options": [
+              "ruler",
+              "pencil sharpener",
+              "drawing pin",
+              "board pen"
+            ],
+            "answer": "ruler"
+          },
+          {
+            "id": "q6",
+            "question": "\"Get a degree\" means...",
+            "options": [
+              "lấy bằng đại học",
+              "làm bài tập về nhà",
+              "đi học",
+              "thi trượt"
+            ],
+            "answer": "lấy bằng đại học"
+          }
+        ]
+      },
+      {
+        "id": "u15-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"textbook\" is a book used for studying a subject.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Fail your exams\" means you passed successfully.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"ICT\" studies computers and technology.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "A \"ruler\" is used to draw straight lines.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"PE\" means Physical Education, a subject about sports.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A \"notebook\" is a place where teachers write on the wall.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u15-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "LICNEP",
+            "answer": "PENCIL"
+          },
+          {
+            "id": "q2",
+            "scrambled": "RELUR",
+            "answer": "RULER"
+          },
+          {
+            "id": "q3",
+            "scrambled": "BBRUER",
+            "answer": "RUBBER"
+          },
+          {
+            "id": "q4",
+            "scrambled": "TCEJBUS",
+            "answer": "SUBJECT"
+          },
+          {
+            "id": "q5",
+            "scrambled": "YROTSIH",
+            "answer": "HISTORY"
+          },
+          {
+            "id": "q6",
+            "scrambled": "TSIMHERYC",
+            "answer": "CHEMISTRY"
+          }
+        ]
+      }
+    ]
   }
 };
