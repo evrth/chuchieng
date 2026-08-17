@@ -3263,5 +3263,1047 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  16: {
+    "unit": {
+      "id": "u16d",
+      "title": "Unit 16: Communications",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u16d-ex1-names",
+        "type": "labeling",
+        "title": "16.1. What are the names of these things?",
+        "instructions_vi": "Nhìn hình và viết tên đồ vật bằng tiếng Anh.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-keyboard.jpg",
+            "answer": "keyboard",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-phonebox.jpg",
+            "answer": "phone box"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-mobilephone.jpg",
+            "answer": "mobile phone"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-stamp.jpg",
+            "answer": "stamp"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-mouse.jpg",
+            "answer": "mouse"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-address.jpg",
+            "answer": "address"
+          },
+          {
+            "id": "q7",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-envelope.jpg",
+            "answer": "envelope"
+          },
+          {
+            "id": "q8",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-letterbox.jpg",
+            "answer": "letter box"
+          },
+          {
+            "id": "q9",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-screen.jpg",
+            "answer": "screen"
+          },
+          {
+            "id": "q10",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-laptop.jpg",
+            "answer": "laptop"
+          },
+          {
+            "id": "q11",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-memorystick.jpg",
+            "answer": "memory stick"
+          },
+          {
+            "id": "q12",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u16-item-phone.jpg",
+            "answer": "phone"
+          }
+        ]
+      },
+      {
+        "id": "u16d-ex2-phonecall",
+        "type": "dialogue_completion",
+        "title": "16.2. Complete this phone conversation.",
+        "instructions_vi": "Điền từ phù hợp vào chỗ trống trong đoạn hội thoại điện thoại. Lưu ý một số câu có thể có nhiều hơn một đáp án đúng.",
+        "dialogues": [
+          {
+            "turns": [
+              {
+                "speaker": "AMELIA",
+                "line": "Hello."
+              },
+              {
+                "speaker": "MEENA",
+                "line": "Hello. It's Meena here. Can I ______ to Amal, please?",
+                "answer": "speak",
+                "accepted_answers": [
+                  "talk"
+                ]
+              },
+              {
+                "speaker": "AMELIA",
+                "line": "I'm ______,",
+                "answer": "sorry"
+              },
+              {
+                "speaker": "",
+                "line": "he's at work ______ the moment.",
+                "answer": "at"
+              },
+              {
+                "speaker": "",
+                "line": "Can I ______ a message?",
+                "answer": "take",
+                "accepted_answers": [
+                  "give him"
+                ]
+              },
+              {
+                "speaker": "MEENA",
+                "line": "It's all right. I'll ______ back later.",
+                "answer": "call",
+                "accepted_answers": [
+                  "phone",
+                  "ring"
+                ]
+              },
+              {
+                "speaker": "AMELIA",
+                "line": "OK, then. Bye."
+              },
+              {
+                "speaker": "MEENA",
+                "line": "Bye."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  17: {
+    "unit": {
+      "id": "u17d",
+      "title": "Unit 17: Your Phone",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u17d-ex1-matching",
+        "type": "matching",
+        "title": "17.1. Match the things on your phone with what they do.",
+        "instructions_vi": "Nối bộ phận của điện thoại với chức năng của nó.",
+        "pairs": [
+          {
+            "left": "camera",
+            "right": "takes photos"
+          },
+          {
+            "left": "SIM card",
+            "right": "stores the information you need to use your phone"
+          },
+          {
+            "left": "screen",
+            "right": "shows pictures and words"
+          },
+          {
+            "left": "phone case",
+            "right": "covers the phone"
+          },
+          {
+            "left": "power button",
+            "right": "starts the phone"
+          }
+        ]
+      },
+      {
+        "id": "u17d-ex2-choose",
+        "type": "multiple_choice",
+        "title": "17.2. Choose the right words to complete these sentences.",
+        "instructions_vi": "Chọn từ đúng để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Tanya has a new ___ for texting on the Internet.",
+            "options": [
+              "app",
+              "battery"
+            ],
+            "answer": "app",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "When your phone's battery is low, you need a ___.",
+            "options": [
+              "charger",
+              "camera"
+            ],
+            "answer": "charger"
+          },
+          {
+            "id": "q3",
+            "question": "You can use my phone to ___ Megan.",
+            "options": [
+              "voicemail",
+              "call"
+            ],
+            "answer": "call"
+          },
+          {
+            "id": "q4",
+            "question": "Danny's new phone has a great ___. It takes amazing photos.",
+            "options": [
+              "screen",
+              "camera"
+            ],
+            "answer": "camera"
+          },
+          {
+            "id": "q5",
+            "question": "I bought a new ___ in France, so it was cheaper to call and use the Internet.",
+            "options": [
+              "battery",
+              "SIM card"
+            ],
+            "answer": "SIM card"
+          },
+          {
+            "id": "q6",
+            "question": "I want to buy a new ___. This one is old and dirty.",
+            "options": [
+              "phone case",
+              "app"
+            ],
+            "answer": "phone case"
+          }
+        ]
+      },
+      {
+        "id": "u17d-ex3-sentences",
+        "type": "fill_in_the_blank",
+        "title": "17.3. Complete these sentences with words.",
+        "instructions_vi": "Điền động từ phù hợp (chia đúng dạng) vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Maria texted me last night, but I didn't see her message until this morning.",
+            "answer": "texted",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Carlos ______ a lot of photos of his new dog and puts them on Facebook.",
+            "answer": "takes"
+          },
+          {
+            "id": "q3",
+            "sentence": "What was the last app that you ______?",
+            "answer": "downloaded"
+          },
+          {
+            "id": "q4",
+            "sentence": "Lucy ______ her sister. They talked about their holiday at the beach.",
+            "answer": "called"
+          },
+          {
+            "id": "q5",
+            "sentence": "Victor ______ me a voicemail. He asked me to call him back.",
+            "answer": "left"
+          }
+        ]
+      },
+      {
+        "id": "u17d-ex4-dialogue",
+        "type": "dialogue_completion",
+        "title": "17.4. Complete the conversation with words.",
+        "instructions_vi": "Điền từ phù hợp (locked / PIN / unlock / swipe / save / memory / delete) vào chỗ trống.",
+        "dialogues": [
+          {
+            "turns": [
+              {
+                "speaker": "DEEPA",
+                "line": "Can I look at your photos from the concert?"
+              },
+              {
+                "speaker": "IREENA",
+                "line": "Sure. Here's my phone. Let me just put in the PIN to ______ it.",
+                "answer": "unlock",
+                "example": true
+              },
+              {
+                "speaker": "DEEPA",
+                "line": "That's a great one! Do I ______ right to see the next photo?",
+                "answer": "swipe"
+              },
+              {
+                "speaker": "IREENA",
+                "line": "Yes, that's right."
+              },
+              {
+                "speaker": "DEEPA",
+                "line": "Did you delete the ones from the restaurant?"
+              },
+              {
+                "speaker": "IREENA",
+                "line": "No, I ______ them in a different folder. Here they are.",
+                "answer": "saved"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  18: {
+    "unit": {
+      "id": "u18d",
+      "title": "Unit 18: Holidays",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u18d-ex1-dialogues",
+        "type": "dialogue_completion",
+        "title": "18.1. Complete the sentences.",
+        "instructions_vi": "Điền từ phù hợp vào chỗ trống trong mỗi đoạn hội thoại ngắn.",
+        "dialogues": [
+          {
+            "turns": [
+              {
+                "speaker": "A",
+                "line": "Are you working on Monday?"
+              },
+              {
+                "speaker": "B",
+                "line": "No, I'm on holiday.",
+                "example": true,
+                "answer": "on holiday"
+              }
+            ]
+          },
+          {
+            "turns": [
+              {
+                "speaker": "A",
+                "line": "Are you ______ on holiday this year?",
+                "answer": "going"
+              },
+              {
+                "speaker": "B",
+                "line": "Yes, I'm going camping."
+              }
+            ]
+          },
+          {
+            "turns": [
+              {
+                "speaker": "A",
+                "line": "Did you have a good ______ in Greece?",
+                "answer": "time"
+              },
+              {
+                "speaker": "B",
+                "line": "Yes, it was wonderful."
+              }
+            ]
+          },
+          {
+            "turns": [
+              {
+                "speaker": "A",
+                "line": "Are you flying to Italy?"
+              },
+              {
+                "speaker": "B",
+                "line": "No, I'm going ______ train.",
+                "answer": "by"
+              }
+            ]
+          },
+          {
+            "turns": [
+              {
+                "speaker": "A",
+                "line": "I'm going to New York next week."
+              },
+              {
+                "speaker": "B",
+                "line": "Great! Please ______ me a postcard.",
+                "answer": "send"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u18d-ex2-holidaytype",
+        "type": "word_from_definition",
+        "title": "18.2. What type of holiday is each person talking about?",
+        "instructions_vi": "Đọc câu mô tả và cho biết đó là loại hình du lịch nào.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "It was fun but the tent was very small.",
+            "answer": "camping",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Everything was included - hotels and flights.",
+            "answer": "a package holiday"
+          },
+          {
+            "id": "q3",
+            "clue": "We were on the coach for seven days. I was very tired.",
+            "answer": "a coach tour"
+          },
+          {
+            "id": "q4",
+            "clue": "We walked about 20 kilometres every day.",
+            "answer": "a walking holiday"
+          },
+          {
+            "id": "q5",
+            "clue": "We went to Switzerland in December. There was a lot of snow.",
+            "answer": "a winter holiday"
+          }
+        ]
+      },
+      {
+        "id": "u18d-ex3-items",
+        "type": "word_from_definition",
+        "title": "18.3. Write the names of these things you need for a holiday.",
+        "instructions_vi": "Nhìn hình và viết tên đồ vật cần cho một chuyến du lịch.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Vật dụng này là gì?",
+            "image": "images/exercises/u18-item-currency.jpg",
+            "answer": "currency",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Vật dụng này là gì?",
+            "image": "images/exercises/u18-item-passport.jpg",
+            "answer": "passport"
+          },
+          {
+            "id": "q3",
+            "clue": "Vật dụng này là gì?",
+            "image": "images/exercises/u18-item-camera.jpg",
+            "answer": "camera"
+          },
+          {
+            "id": "q4",
+            "clue": "Vật dụng này là gì?",
+            "image": "images/exercises/u18-item-luggage.jpg",
+            "answer": "luggage",
+            "accepted_answers": [
+              "suitcase"
+            ]
+          },
+          {
+            "id": "q5",
+            "clue": "Vật dụng này là gì?",
+            "image": "images/exercises/u18-item-rucksack.jpg",
+            "answer": "rucksack"
+          },
+          {
+            "id": "q6",
+            "clue": "Vật dụng này là gì?",
+            "image": "images/exercises/u18-item-tickets.jpg",
+            "answer": "tickets"
+          }
+        ]
+      },
+      {
+        "id": "u18d-ex4-whatcall",
+        "type": "word_from_definition",
+        "title": "18.4. What do we call...?",
+        "instructions_vi": "Đọc mô tả và viết từ phù hợp (một số câu có gợi ý chữ cái đầu).",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "something you take photos with?",
+            "answer": "a camera",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "a special stamp in your passport to enter a country? (gợi ý: a v_____)",
+            "answer": "a visa"
+          },
+          {
+            "id": "q3",
+            "clue": "something you fly in? (gợi ý: a p_____)",
+            "answer": "a plane"
+          },
+          {
+            "id": "q4",
+            "clue": "something that you carry things on your back in? (gợi ý: a r_____)",
+            "answer": "a rucksack"
+          },
+          {
+            "id": "q5",
+            "clue": "what people carry their clothes in when they go on holiday? (gợi ý: a s_____)",
+            "answer": "a suitcase"
+          }
+        ]
+      },
+      {
+        "id": "u18d-ex5-email",
+        "type": "cloze_reading",
+        "title": "18.5. Fill the gaps in this email.",
+        "instructions_vi": "Điền từ thích hợp vào chỗ trống trong email.",
+        "passage": "I'm having a great {1} here in Spain. The {2} is great - the clubs are open all night. The {3} food is very good - lots of fish and salads. Please send me a {4} from your holiday in Italy. Love, Alex",
+        "blanks": [
+          {
+            "id": "1",
+            "answer": "time",
+            "example": true
+          },
+          {
+            "id": "2",
+            "answer": "nightlife"
+          },
+          {
+            "id": "3",
+            "answer": "local"
+          },
+          {
+            "id": "4",
+            "answer": "postcard"
+          }
+        ]
+      }
+    ]
+  },
+  19: {
+    "unit": {
+      "id": "u19d",
+      "title": "Unit 19: Shops and Shopping",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u19d-ex1-matching",
+        "type": "matching",
+        "title": "19.1. Match the item with the shop.",
+        "instructions_vi": "Nối tên cửa hàng với món đồ tương ứng bán ở đó.",
+        "pairs": [
+          {
+            "left": "Chemist",
+            "right": "Aspirin",
+            "image": "images/exercises/u19-shop-chemist.jpg"
+          },
+          {
+            "left": "Toy shop",
+            "right": "Beach ball",
+            "image": "images/exercises/u19-shop-toyshop.jpg"
+          },
+          {
+            "left": "Butcher",
+            "right": "Sausage",
+            "image": "images/exercises/u19-shop-butcher.jpg"
+          },
+          {
+            "left": "Newsagent",
+            "right": "Greeting cards",
+            "image": "images/exercises/u19-shop-newsagent.jpg"
+          },
+          {
+            "left": "Gift shop",
+            "right": "Souvenir t-shirt",
+            "image": "images/exercises/u19-shop-giftshop.jpg"
+          },
+          {
+            "left": "Baker",
+            "right": "Bread",
+            "image": "images/exercises/u19-shop-baker.jpg"
+          }
+        ]
+      },
+      {
+        "id": "u19d-ex2-wheretogo",
+        "type": "word_from_definition",
+        "title": "19.2. Where do you need to go?",
+        "instructions_vi": "Đọc câu và cho biết bạn cần đến cửa hàng nào.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "I want to get a newspaper.",
+            "answer": "the newsagent",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "I'd like to buy food for a week.",
+            "answer": "a supermarket"
+          },
+          {
+            "id": "q3",
+            "clue": "I need some stamps.",
+            "answer": "the post office",
+            "accepted_answers": [
+              "a newsagent"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue": "We must get Michael a present.",
+            "answer": "a gift shop"
+          },
+          {
+            "id": "q5",
+            "clue": "I'd like to buy a book.",
+            "answer": "a bookshop"
+          },
+          {
+            "id": "q6",
+            "clue": "I want to buy some clothes for myself and my children in one shop.",
+            "answer": "a department store",
+            "accepted_answers": [
+              "a supermarket"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u19d-ex3-floors",
+        "type": "word_from_definition",
+        "title": "19.3. Look at the department store plan. Which floor will you go to buy...?",
+        "instructions_vi": "Dựa vào sơ đồ cửa hàng bên dưới, cho biết bạn sẽ lên tầng nào để mua món đồ đó.",
+        "context": {
+          "description": "Sơ đồ cửa hàng: Tầng 4 - Đồ chơi, Nhà hàng · Tầng 3 - Nội thất · Tầng 2 - Thời trang nam, Khu trẻ em · Tầng 1 - Thời trang nữ · Tầng trệt - Làm đẹp · Tầng hầm - Đồ điện, Thực phẩm."
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "an armchair?",
+            "answer": "third floor",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "lipstick?",
+            "answer": "ground floor"
+          },
+          {
+            "id": "q3",
+            "clue": "a cup of tea?",
+            "answer": "fourth floor"
+          },
+          {
+            "id": "q4",
+            "clue": "a packet of tea?",
+            "answer": "basement"
+          },
+          {
+            "id": "q5",
+            "clue": "a skirt?",
+            "answer": "first floor"
+          },
+          {
+            "id": "q6",
+            "clue": "some baby clothes?",
+            "answer": "second floor"
+          },
+          {
+            "id": "q7",
+            "clue": "a tie?",
+            "answer": "second floor"
+          },
+          {
+            "id": "q8",
+            "clue": "a TV?",
+            "answer": "basement"
+          },
+          {
+            "id": "q9",
+            "clue": "a bed?",
+            "answer": "third floor"
+          },
+          {
+            "id": "q10",
+            "clue": "a doll?",
+            "answer": "fourth floor"
+          }
+        ]
+      },
+      {
+        "id": "u19d-ex4a-definitions",
+        "type": "word_from_definition",
+        "title": "19.4.1. Write the words for these definitions.",
+        "instructions_vi": "Viết từ phù hợp với mô tả.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "a person who sells things in a shop",
+            "answer": "shop assistant",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "money (not a cheque or credit/debit card)",
+            "answer": "cash"
+          },
+          {
+            "id": "q3",
+            "clue": "a piece of paper that is worth £20",
+            "answer": "a £20 note",
+            "accepted_answers": [
+              "a note",
+              "20 pound note"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue": "'plastic money'",
+            "answer": "a credit or a debit card",
+            "accepted_answers": [
+              "a credit card",
+              "a debit card"
+            ]
+          },
+          {
+            "id": "q5",
+            "clue": "coins or small notes",
+            "answer": "change"
+          }
+        ]
+      },
+      {
+        "id": "u19d-ex4b-write-definitions",
+        "type": "open_response",
+        "title": "19.4.2. Now write definitions in English for these words/phrases.",
+        "instructions_vi": "Viết định nghĩa bằng tiếng Anh cho các từ sau. Chấm theo từ khóa quan trọng, không cần đúng từng chữ.",
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "a butcher's",
+            "answer": "a shop that sells meat",
+            "required_keywords": [
+              "shop",
+              "meat"
+            ],
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "the first floor",
+            "answer": "the floor above the ground floor (in a British building)",
+            "required_keywords": [
+              "floor",
+              "above"
+            ]
+          },
+          {
+            "id": "q3",
+            "situation": "a newsagent's",
+            "answer": "a shop that sells newspapers and magazines",
+            "required_keywords": [
+              "shop",
+              "newspaper"
+            ]
+          },
+          {
+            "id": "q4",
+            "situation": "the basement",
+            "answer": "the floor under the ground floor",
+            "required_keywords": [
+              "floor",
+              "under"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u19d-ex5-signs",
+        "type": "word_from_definition",
+        "title": "19.5. Which sign tells you...?",
+        "instructions_vi": "Đọc mô tả và viết từ trên biển báo tương ứng.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "that you can give the money for the things you are buying here?",
+            "answer": "Cash desk",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "that you can't go into the shop?",
+            "answer": "Closed"
+          },
+          {
+            "id": "q3",
+            "clue": "that the door will open towards you?",
+            "answer": "Pull"
+          },
+          {
+            "id": "q4",
+            "clue": "that the door will open away from you?",
+            "answer": "Push"
+          },
+          {
+            "id": "q5",
+            "clue": "that you can go into the shop?",
+            "answer": "Open"
+          }
+        ]
+      },
+      {
+        "id": "u19d-ex6-dialogue",
+        "type": "dialogue_completion",
+        "title": "19.6. Fill the gaps in the dialogue.",
+        "instructions_vi": "Điền từ phù hợp vào chỗ trống trong đoạn hội thoại mua sắm.",
+        "dialogues": [
+          {
+            "turns": [
+              {
+                "speaker": "CUSTOMER",
+                "line": "How much does this jacket ______?",
+                "answer": "cost"
+              },
+              {
+                "speaker": "SHOP ASSISTANT",
+                "line": "£50."
+              },
+              {
+                "speaker": "CUSTOMER",
+                "line": "I'll take it, please. Can I ______ by credit card?",
+                "answer": "pay"
+              },
+              {
+                "speaker": "SHOP ASSISTANT",
+                "line": "Certainly. I'll put your receipt in the ______.",
+                "answer": "bag",
+                "accepted_answers": [
+                  "carrier bag"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  20: {
+    "unit": {
+      "id": "u20d",
+      "title": "Unit 20: Online Shopping",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u20d-ex1-matching",
+        "type": "matching",
+        "title": "20.1. Match the words from A and B with the examples on the right.",
+        "instructions_vi": "Nối từ với ví dụ minh họa tương ứng.",
+        "pairs": [
+          {
+            "left": "size",
+            "right": "small"
+          },
+          {
+            "left": "price",
+            "right": "£12.89"
+          },
+          {
+            "left": "delivery address",
+            "right": "7 Park Lane, Bristol"
+          },
+          {
+            "left": "post code",
+            "right": "MR12 6QA"
+          },
+          {
+            "left": "credit card",
+            "right": "MasterCard"
+          },
+          {
+            "left": "order number",
+            "right": "8167990012"
+          }
+        ]
+      },
+      {
+        "id": "u20d-ex2-choose",
+        "type": "multiple_choice",
+        "title": "20.2. Choose the right word to complete these sentences.",
+        "instructions_vi": "Chọn từ đúng để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "When you shop online, you can ___ for the best price.",
+            "options": [
+              "search",
+              "collect"
+            ],
+            "answer": "search",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "You can read ___ from other people who bought the same thing.",
+            "options": [
+              "sizes",
+              "reviews"
+            ],
+            "answer": "reviews"
+          },
+          {
+            "id": "q3",
+            "question": "If you want to buy something, ___ it to your basket.",
+            "options": [
+              "add",
+              "deliver"
+            ],
+            "answer": "add"
+          },
+          {
+            "id": "q4",
+            "question": "If you don't want to buy something that is in your basket, you can ___ it.",
+            "options": [
+              "delete",
+              "order"
+            ],
+            "answer": "delete"
+          },
+          {
+            "id": "q5",
+            "question": "Don't forget to check how much you will pay for ___.",
+            "options": [
+              "delivery",
+              "order number"
+            ],
+            "answer": "delivery"
+          },
+          {
+            "id": "q6",
+            "question": "You can use your ___ to pay for your shopping.",
+            "options": [
+              "credit card",
+              "post code"
+            ],
+            "answer": "credit card"
+          }
+        ]
+      },
+      {
+        "id": "u20d-ex3-dialogue",
+        "type": "dialogue_completion",
+        "title": "20.3. Complete the dialogue with the words below.",
+        "instructions_vi": "Điền từ phù hợp (next day / post code / delivery / order number) vào chỗ trống.",
+        "dialogues": [
+          {
+            "turns": [
+              {
+                "speaker": "TOM",
+                "line": "I'm waiting for a delivery of a pair of shoes.",
+                "answer": "delivery",
+                "example": true
+              },
+              {
+                "speaker": "CUSTOMER CARE",
+                "line": "What's your ______?",
+                "answer": "order number"
+              },
+              {
+                "speaker": "TOM",
+                "line": "It's G99215540000Z."
+              },
+              {
+                "speaker": "CUSTOMER CARE",
+                "line": "And what's your address and ______?",
+                "answer": "post code"
+              },
+              {
+                "speaker": "TOM",
+                "line": "31 Mill Road, WC2 5SN. I bought them yesterday and I paid £5 for ______ delivery. Will they be here today?",
+                "answer": "next day"
+              },
+              {
+                "speaker": "CUSTOMER CARE",
+                "line": "I'm sorry. We're very busy. Your order will be delivered tomorrow."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u20d-ex4-ordering",
+        "type": "ordering",
+        "title": "20.4. Put these steps of buying a computer online in the correct order.",
+        "instructions_vi": "Chọn số thứ tự đúng (1-6) cho mỗi bước mua máy tính trực tuyến.",
+        "steps": [
+          {
+            "id": "A",
+            "text": "Wait at home for the delivery"
+          },
+          {
+            "id": "B",
+            "text": "Add the computer to your basket"
+          },
+          {
+            "id": "C",
+            "text": "Choose next day delivery"
+          },
+          {
+            "id": "D",
+            "text": "Pay with a credit card"
+          },
+          {
+            "id": "E",
+            "text": "Search for a website which sells the computer you want"
+          },
+          {
+            "id": "F",
+            "text": "Read online reviews and choose which computer you want to buy"
+          }
+        ],
+        "correct_order": [
+          "F",
+          "E",
+          "B",
+          "C",
+          "D",
+          "A"
+        ]
+      }
+    ]
   }
 };

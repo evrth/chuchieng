@@ -4278,5 +4278,1390 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  16: {
+    "unit": {
+      "id": "unit-16-communications",
+      "title": "Unit 16: Communications",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u16-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "letter",
+            "right": "thư"
+          },
+          {
+            "left": "envelope",
+            "right": "phong bì"
+          },
+          {
+            "left": "stamp",
+            "right": "tem thư"
+          },
+          {
+            "left": "letter box",
+            "right": "hòm thư"
+          },
+          {
+            "left": "email",
+            "right": "email, thư điện tử"
+          },
+          {
+            "left": "keyboard",
+            "right": "bàn phím"
+          },
+          {
+            "left": "mouse",
+            "right": "chuột máy tính"
+          },
+          {
+            "left": "laptop",
+            "right": "máy tính xách tay"
+          },
+          {
+            "left": "phone number",
+            "right": "số điện thoại"
+          },
+          {
+            "left": "voicemail",
+            "right": "thư thoại"
+          }
+        ]
+      },
+      {
+        "id": "u16-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "letter",
+          "envelope",
+          "stamp",
+          "email",
+          "keyboard",
+          "mouse",
+          "laptop",
+          "voicemail"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I got a ______ from my friend.",
+            "hint_vi": "thư",
+            "answer": "letter"
+          },
+          {
+            "id": "q2",
+            "sentence": "Put the letter in an ______.",
+            "hint_vi": "phong bì",
+            "answer": "envelope"
+          },
+          {
+            "id": "q3",
+            "sentence": "Put a ______ on the envelope.",
+            "hint_vi": "tem thư",
+            "answer": "stamp"
+          },
+          {
+            "id": "q4",
+            "sentence": "I sent you an ______.",
+            "hint_vi": "email",
+            "answer": "email"
+          },
+          {
+            "id": "q5",
+            "sentence": "The ______ is black.",
+            "hint_vi": "bàn phím",
+            "answer": "keyboard"
+          },
+          {
+            "id": "q6",
+            "sentence": "Move the ______ slowly.",
+            "hint_vi": "chuột máy tính",
+            "answer": "mouse"
+          },
+          {
+            "id": "q7",
+            "sentence": "I have a new ______.",
+            "hint_vi": "máy tính xách tay",
+            "answer": "laptop"
+          },
+          {
+            "id": "q8",
+            "sentence": "She left me a ______.",
+            "hint_vi": "thư thoại",
+            "answer": "voicemail"
+          }
+        ]
+      },
+      {
+        "id": "u16-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means 'địa chỉ'?",
+            "options": [
+              "address",
+              "date",
+              "stamp",
+              "envelope"
+            ],
+            "answer": "address"
+          },
+          {
+            "id": "q2",
+            "question": "Where do you post a letter?",
+            "options": [
+              "letter box",
+              "screen",
+              "keyboard",
+              "memory stick"
+            ],
+            "answer": "letter box"
+          },
+          {
+            "id": "q3",
+            "question": "What do you save files on?",
+            "options": [
+              "memory stick",
+              "stamp",
+              "envelope",
+              "letter"
+            ],
+            "answer": "memory stick"
+          },
+          {
+            "id": "q4",
+            "question": "\"Can I speak to Tom?\" is used when...",
+            "options": [
+              "gọi điện thoại và muốn nói chuyện với ai đó",
+              "viết một lá thư",
+              "gửi email",
+              "mua tem"
+            ],
+            "answer": "gọi điện thoại và muốn nói chuyện với ai đó"
+          },
+          {
+            "id": "q5",
+            "question": "Which word means 'gọi lại'?",
+            "options": [
+              "call back",
+              "take a message",
+              "speak to",
+              "send a text"
+            ],
+            "answer": "call back"
+          },
+          {
+            "id": "q6",
+            "question": "What do you call a small public place to make a phone call?",
+            "options": [
+              "phone box",
+              "letter box",
+              "mailbox",
+              "keyboard"
+            ],
+            "answer": "phone box"
+          }
+        ]
+      },
+      {
+        "id": "u16-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"stamp\" goes on an envelope before you post it.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"mouse\" is an animal, never used with computers.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Take a message\" means to write down information for someone else.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "A \"memory stick\" is used to make phone calls.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Call back\" means to phone someone again later.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A \"laptop\" is a type of envelope.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u16-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "TETRLE",
+            "answer": "LETTER"
+          },
+          {
+            "id": "q2",
+            "scrambled": "PMSAT",
+            "answer": "STAMP"
+          },
+          {
+            "id": "q3",
+            "scrambled": "EOPEELVN",
+            "answer": "ENVELOPE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "OTLPPA",
+            "answer": "LAPTOP"
+          },
+          {
+            "id": "q5",
+            "scrambled": "SUOME",
+            "answer": "MOUSE"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ONPEH",
+            "answer": "PHONE"
+          }
+        ]
+      }
+    ]
+  },
+  17: {
+    "unit": {
+      "id": "unit-17-your-phone",
+      "title": "Unit 17: Your Phone",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u17-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "camera",
+            "right": "máy ảnh, camera"
+          },
+          {
+            "left": "screen",
+            "right": "màn hình"
+          },
+          {
+            "left": "app",
+            "right": "ứng dụng"
+          },
+          {
+            "left": "battery",
+            "right": "pin"
+          },
+          {
+            "left": "charger",
+            "right": "bộ sạc"
+          },
+          {
+            "left": "SIM card",
+            "right": "thẻ SIM"
+          },
+          {
+            "left": "message",
+            "right": "tin nhắn"
+          },
+          {
+            "left": "PIN",
+            "right": "mã PIN"
+          },
+          {
+            "left": "swipe",
+            "right": "vuốt màn hình"
+          },
+          {
+            "left": "delete",
+            "right": "xóa"
+          }
+        ]
+      },
+      {
+        "id": "u17-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "camera",
+          "app",
+          "battery",
+          "charger",
+          "message",
+          "locked",
+          "unlock",
+          "save"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My phone has a good ______.",
+            "hint_vi": "máy ảnh",
+            "answer": "camera"
+          },
+          {
+            "id": "q2",
+            "sentence": "I use a music ______.",
+            "hint_vi": "ứng dụng",
+            "answer": "app"
+          },
+          {
+            "id": "q3",
+            "sentence": "My phone ______ is low.",
+            "hint_vi": "pin",
+            "answer": "battery"
+          },
+          {
+            "id": "q4",
+            "sentence": "Where is my ______?",
+            "hint_vi": "bộ sạc",
+            "answer": "charger"
+          },
+          {
+            "id": "q5",
+            "sentence": "I got your ______.",
+            "hint_vi": "tin nhắn",
+            "answer": "message"
+          },
+          {
+            "id": "q6",
+            "sentence": "My phone is ______.",
+            "hint_vi": "bị khóa",
+            "answer": "locked"
+          },
+          {
+            "id": "q7",
+            "sentence": "I use my PIN to ______ my phone.",
+            "hint_vi": "mở khóa",
+            "answer": "unlock"
+          },
+          {
+            "id": "q8",
+            "sentence": "Please ______ this photo.",
+            "hint_vi": "lưu",
+            "answer": "save"
+          }
+        ]
+      },
+      {
+        "id": "u17-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which part of the phone takes photos?",
+            "options": [
+              "camera",
+              "screen",
+              "battery",
+              "SIM card"
+            ],
+            "answer": "camera"
+          },
+          {
+            "id": "q2",
+            "question": "What do you use to charge your phone?",
+            "options": [
+              "charger",
+              "phone case",
+              "app",
+              "memory"
+            ],
+            "answer": "charger"
+          },
+          {
+            "id": "q3",
+            "question": "Which word means 'vuốt màn hình'?",
+            "options": [
+              "swipe",
+              "unlock",
+              "delete",
+              "download"
+            ],
+            "answer": "swipe"
+          },
+          {
+            "id": "q4",
+            "question": "What stores the information you need to use your phone?",
+            "options": [
+              "SIM card",
+              "phone case",
+              "battery",
+              "screen"
+            ],
+            "answer": "SIM card"
+          },
+          {
+            "id": "q5",
+            "question": "Which word means 'xóa'?",
+            "options": [
+              "delete",
+              "save",
+              "swipe",
+              "lock"
+            ],
+            "answer": "delete"
+          },
+          {
+            "id": "q6",
+            "question": "\"I left a voicemail for him\" means...",
+            "options": [
+              "tôi để lại tin nhắn thoại cho anh ấy",
+              "tôi gọi điện cho anh ấy",
+              "tôi nhắn tin cho anh ấy",
+              "tôi chụp ảnh anh ấy"
+            ],
+            "answer": "tôi để lại tin nhắn thoại cho anh ấy"
+          }
+        ]
+      },
+      {
+        "id": "u17-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"charger\" is used to charge your phone's battery.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Delete\" means to save a photo forever.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "A \"PIN\" is used to unlock your phone.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Swipe\" means to press the power button.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "An \"app\" is a program you use on your phone.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Download an app\" means to remove an app from your phone.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u17-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "AACERM",
+            "answer": "CAMERA"
+          },
+          {
+            "id": "q2",
+            "scrambled": "TATBYRE",
+            "answer": "BATTERY"
+          },
+          {
+            "id": "q3",
+            "scrambled": "RRACGHE",
+            "answer": "CHARGER"
+          },
+          {
+            "id": "q4",
+            "scrambled": "EDTELE",
+            "answer": "DELETE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "EPIWS",
+            "answer": "SWIPE"
+          },
+          {
+            "id": "q6",
+            "scrambled": "VSEA",
+            "answer": "SAVE"
+          }
+        ]
+      }
+    ]
+  },
+  18: {
+    "unit": {
+      "id": "unit-18-holidays",
+      "title": "Unit 18: Holidays",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u18-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "holiday",
+            "right": "kỳ nghỉ"
+          },
+          {
+            "left": "camping",
+            "right": "hoạt động cắm trại"
+          },
+          {
+            "left": "passport",
+            "right": "hộ chiếu"
+          },
+          {
+            "left": "visa",
+            "right": "thị thực, visa"
+          },
+          {
+            "left": "ticket",
+            "right": "vé"
+          },
+          {
+            "left": "currency",
+            "right": "tiền tệ"
+          },
+          {
+            "left": "luggage",
+            "right": "hành lý"
+          },
+          {
+            "left": "suitcase",
+            "right": "va-li"
+          },
+          {
+            "left": "rucksack",
+            "right": "ba lô"
+          },
+          {
+            "left": "flights",
+            "right": "các chuyến bay"
+          }
+        ]
+      },
+      {
+        "id": "u18-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "holiday",
+          "camping",
+          "passport",
+          "visa",
+          "currency",
+          "luggage",
+          "suitcase",
+          "rucksack"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "We are going on ______ next week.",
+            "hint_vi": "kỳ nghỉ",
+            "answer": "holiday"
+          },
+          {
+            "id": "q2",
+            "sentence": "We go ______ every summer.",
+            "hint_vi": "cắm trại",
+            "answer": "camping"
+          },
+          {
+            "id": "q3",
+            "sentence": "I need my ______.",
+            "hint_vi": "hộ chiếu",
+            "answer": "passport"
+          },
+          {
+            "id": "q4",
+            "sentence": "Do I need a ______?",
+            "hint_vi": "thị thực",
+            "answer": "visa"
+          },
+          {
+            "id": "q5",
+            "sentence": "What is the local ______?",
+            "hint_vi": "tiền tệ",
+            "answer": "currency"
+          },
+          {
+            "id": "q6",
+            "sentence": "My ______ is very heavy.",
+            "hint_vi": "hành lý",
+            "answer": "luggage"
+          },
+          {
+            "id": "q7",
+            "sentence": "My clothes are in my ______.",
+            "hint_vi": "va-li",
+            "answer": "suitcase"
+          },
+          {
+            "id": "q8",
+            "sentence": "I put my water in my ______.",
+            "hint_vi": "ba lô",
+            "answer": "rucksack"
+          }
+        ]
+      },
+      {
+        "id": "u18-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means 'kỳ nghỉ trọn gói'?",
+            "options": [
+              "a package holiday",
+              "a walking holiday",
+              "a coach tour",
+              "camping"
+            ],
+            "answer": "a package holiday"
+          },
+          {
+            "id": "q2",
+            "question": "What do you need to show at the airport before flying abroad?",
+            "options": [
+              "passport",
+              "ticket",
+              "currency",
+              "rucksack"
+            ],
+            "answer": "passport"
+          },
+          {
+            "id": "q3",
+            "question": "Which one means 'bằng tàu hỏa'?",
+            "options": [
+              "by train",
+              "by plane",
+              "by car",
+              "by ferry"
+            ],
+            "answer": "by train"
+          },
+          {
+            "id": "q4",
+            "question": "\"Try the local food\" means...",
+            "options": [
+              "thử món ăn địa phương",
+              "gửi bưu thiếp",
+              "mang theo hộ chiếu",
+              "đóng gói hành lý"
+            ],
+            "answer": "thử món ăn địa phương"
+          },
+          {
+            "id": "q5",
+            "question": "What do people usually put clothes in for a trip?",
+            "options": [
+              "a suitcase",
+              "a passport",
+              "a ticket",
+              "a visa"
+            ],
+            "answer": "a suitcase"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means 'gửi cho tôi một tấm bưu thiếp'?",
+            "options": [
+              "send me a postcard",
+              "have a great time",
+              "enjoy the nightlife",
+              "try the local food"
+            ],
+            "answer": "send me a postcard"
+          }
+        ]
+      },
+      {
+        "id": "u18-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Camping\" means sleeping in a tent outdoors.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"visa\" is a type of suitcase.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Currency\" means the money used in a country.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "A \"rucksack\" is a bag you carry on your back.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"By ferry\" means travelling by plane.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Have a great time\" means to enjoy yourself.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u18-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "SSAPPTOR",
+            "answer": "PASSPORT"
+          },
+          {
+            "id": "q2",
+            "scrambled": "SIAV",
+            "answer": "VISA"
+          },
+          {
+            "id": "q3",
+            "scrambled": "EGGUALG",
+            "answer": "LUGGAGE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "CASUTIES",
+            "answer": "SUITCASE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "KCSCUAKR",
+            "answer": "RUCKSACK"
+          },
+          {
+            "id": "q6",
+            "scrambled": "PACMGIN",
+            "answer": "CAMPING"
+          }
+        ]
+      }
+    ]
+  },
+  19: {
+    "unit": {
+      "id": "unit-19-shops-shopping",
+      "title": "Unit 19: Shops and Shopping",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u19-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "butcher",
+            "right": "cửa hàng bán thịt"
+          },
+          {
+            "left": "post office",
+            "right": "bưu điện"
+          },
+          {
+            "left": "supermarket",
+            "right": "siêu thị"
+          },
+          {
+            "left": "bookshop",
+            "right": "hiệu sách"
+          },
+          {
+            "left": "baker",
+            "right": "thợ làm bánh, cửa hàng bánh"
+          },
+          {
+            "left": "chemist",
+            "right": "hiệu thuốc"
+          },
+          {
+            "left": "newsagent",
+            "right": "cửa hàng bán báo"
+          },
+          {
+            "left": "gift shop",
+            "right": "cửa hàng quà tặng"
+          },
+          {
+            "left": "cash desk",
+            "right": "quầy thu ngân"
+          },
+          {
+            "left": "receipt",
+            "right": "hóa đơn"
+          }
+        ]
+      },
+      {
+        "id": "u19-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "shop",
+          "supermarket",
+          "bookshop",
+          "chemist",
+          "cash desk",
+          "push",
+          "pull",
+          "receipt"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I go to the ______ every day.",
+            "hint_vi": "cửa hàng",
+            "answer": "shop"
+          },
+          {
+            "id": "q2",
+            "sentence": "I buy food at the ______.",
+            "hint_vi": "siêu thị",
+            "answer": "supermarket"
+          },
+          {
+            "id": "q3",
+            "sentence": "There is a ______ near my school.",
+            "hint_vi": "hiệu sách",
+            "answer": "bookshop"
+          },
+          {
+            "id": "q4",
+            "sentence": "I bought some medicine at the ______'s.",
+            "hint_vi": "hiệu thuốc",
+            "answer": "chemist"
+          },
+          {
+            "id": "q5",
+            "sentence": "Please pay at the ______.",
+            "hint_vi": "quầy thu ngân",
+            "answer": "cash desk"
+          },
+          {
+            "id": "q6",
+            "sentence": "______ the door.",
+            "hint_vi": "đẩy",
+            "answer": "push"
+          },
+          {
+            "id": "q7",
+            "sentence": "______ the door.",
+            "hint_vi": "kéo",
+            "answer": "pull"
+          },
+          {
+            "id": "q8",
+            "sentence": "Can I have a ______, please?",
+            "hint_vi": "hóa đơn",
+            "answer": "receipt"
+          }
+        ]
+      },
+      {
+        "id": "u19-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Where do you buy meat?",
+            "options": [
+              "butcher",
+              "baker",
+              "chemist",
+              "bookshop"
+            ],
+            "answer": "butcher"
+          },
+          {
+            "id": "q2",
+            "question": "Where do you buy medicine?",
+            "options": [
+              "chemist",
+              "butcher",
+              "newsagent",
+              "gift shop"
+            ],
+            "answer": "chemist"
+          },
+          {
+            "id": "q3",
+            "question": "Which word means 'trả tiền'?",
+            "options": [
+              "pay",
+              "cost",
+              "change",
+              "receipt"
+            ],
+            "answer": "pay"
+          },
+          {
+            "id": "q4",
+            "question": "What do you get back if you pay too much?",
+            "options": [
+              "change",
+              "receipt",
+              "cash",
+              "cheque"
+            ],
+            "answer": "change"
+          },
+          {
+            "id": "q5",
+            "question": "Which floor is usually above the ground floor in the UK?",
+            "options": [
+              "first floor",
+              "basement",
+              "ground floor",
+              "second floor"
+            ],
+            "answer": "first floor"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means 'túi đựng hàng'?",
+            "options": [
+              "a carrier bag",
+              "a receipt",
+              "a note",
+              "a cheque"
+            ],
+            "answer": "a carrier bag"
+          }
+        ]
+      },
+      {
+        "id": "u19-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"baker\" sells bread and cakes.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Cash\" means paying by credit card.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "A \"receipt\" is proof that you paid for something.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Push\" and \"pull\" are signs on doors.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "A \"newsagent\" sells furniture.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Try this shirt on\" means to see if clothes fit before buying.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u19-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "HERTCUB",
+            "answer": "BUTCHER"
+          },
+          {
+            "id": "q2",
+            "scrambled": "REKAB",
+            "answer": "BAKER"
+          },
+          {
+            "id": "q3",
+            "scrambled": "TIMHCES",
+            "answer": "CHEMIST"
+          },
+          {
+            "id": "q4",
+            "scrambled": "PRAKMEUSTER",
+            "answer": "SUPERMARKET"
+          },
+          {
+            "id": "q5",
+            "scrambled": "EICPRTE",
+            "answer": "RECEIPT"
+          },
+          {
+            "id": "q6",
+            "scrambled": "HACS",
+            "answer": "CASH"
+          }
+        ]
+      }
+    ]
+  },
+  20: {
+    "unit": {
+      "id": "unit-20-online-shopping",
+      "title": "Unit 20: Online Shopping",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u20-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "size",
+            "right": "kích cỡ"
+          },
+          {
+            "left": "price",
+            "right": "giá cả"
+          },
+          {
+            "left": "delivery address",
+            "right": "địa chỉ giao hàng"
+          },
+          {
+            "left": "postcode",
+            "right": "mã bưu chính"
+          },
+          {
+            "left": "credit card",
+            "right": "thẻ tín dụng"
+          },
+          {
+            "left": "order number",
+            "right": "mã số đơn hàng"
+          },
+          {
+            "left": "review",
+            "right": "đánh giá"
+          },
+          {
+            "left": "delivery",
+            "right": "việc giao hàng"
+          },
+          {
+            "left": "delete",
+            "right": "xóa"
+          },
+          {
+            "left": "collect",
+            "right": "nhận, lấy hàng"
+          }
+        ]
+      },
+      {
+        "id": "u20-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "size",
+          "price",
+          "review",
+          "add",
+          "delete",
+          "order",
+          "delivery",
+          "postcode"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "What ______ do you need?",
+            "hint_vi": "kích cỡ",
+            "answer": "size"
+          },
+          {
+            "id": "q2",
+            "sentence": "The ______ is very good.",
+            "hint_vi": "giá cả",
+            "answer": "price"
+          },
+          {
+            "id": "q3",
+            "sentence": "I read the ______ before I buy.",
+            "hint_vi": "đánh giá",
+            "answer": "review"
+          },
+          {
+            "id": "q4",
+            "sentence": "______ the shoes to your basket.",
+            "hint_vi": "thêm",
+            "answer": "add"
+          },
+          {
+            "id": "q5",
+            "sentence": "I want to ______ this item.",
+            "hint_vi": "xóa",
+            "answer": "delete"
+          },
+          {
+            "id": "q6",
+            "sentence": "I ______ed a new shirt online.",
+            "hint_vi": "đặt hàng",
+            "answer": "order"
+          },
+          {
+            "id": "q7",
+            "sentence": "The ______ is free.",
+            "hint_vi": "việc giao hàng",
+            "answer": "delivery"
+          },
+          {
+            "id": "q8",
+            "sentence": "What is your ______?",
+            "hint_vi": "mã bưu chính",
+            "answer": "postcode"
+          }
+        ]
+      },
+      {
+        "id": "u20-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What do you check before buying to see if others liked the product?",
+            "options": [
+              "reviews",
+              "order number",
+              "postcode",
+              "size"
+            ],
+            "answer": "reviews"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'nhận, lấy hàng'?",
+            "options": [
+              "collect",
+              "deliver",
+              "delete",
+              "add"
+            ],
+            "answer": "collect"
+          },
+          {
+            "id": "q3",
+            "question": "What do you use to pay online?",
+            "options": [
+              "a credit card",
+              "a review",
+              "a postcode",
+              "a size"
+            ],
+            "answer": "a credit card"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'mã số đơn hàng'?",
+            "options": [
+              "order number",
+              "postcode",
+              "delivery address",
+              "price"
+            ],
+            "answer": "order number"
+          },
+          {
+            "id": "q5",
+            "question": "\"Shop online\" means...",
+            "options": [
+              "mua sắm trực tuyến",
+              "mua sắm tại cửa hàng",
+              "trả hàng",
+              "gọi điện đặt hàng"
+            ],
+            "answer": "mua sắm trực tuyến"
+          },
+          {
+            "id": "q6",
+            "question": "What does \"next day\" delivery mean?",
+            "options": [
+              "giao hàng vào ngày hôm sau",
+              "giao hàng miễn phí",
+              "giao hàng chậm",
+              "giao hàng quốc tế"
+            ],
+            "answer": "giao hàng vào ngày hôm sau"
+          }
+        ]
+      },
+      {
+        "id": "u20-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Delivery address\" is where your order will be sent.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Delete\" means to add more items to your basket.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "A \"review\" can help you decide whether to buy a product.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Search for\" means to look for something online.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "A \"postcode\" is a type of credit card.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Collect\" can mean picking up your order yourself.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u20-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "EDROR",
+            "answer": "ORDER"
+          },
+          {
+            "id": "q2",
+            "scrambled": "EIRVEW",
+            "answer": "REVIEW"
+          },
+          {
+            "id": "q3",
+            "scrambled": "YLEDVIER",
+            "answer": "DELIVERY"
+          },
+          {
+            "id": "q4",
+            "scrambled": "EZIS",
+            "answer": "SIZE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "EIRPC",
+            "answer": "PRICE"
+          },
+          {
+            "id": "q6",
+            "scrambled": "DDA",
+            "answer": "ADD"
+          }
+        ]
+      }
+    ]
   }
 };

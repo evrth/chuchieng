@@ -3756,27 +3756,1136 @@ const VOCAB_UNITS = [
   {
     "id": 16,
     "title": "Communications",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "letter",
+        "ipa": "/ˈletər/",
+        "meaning": "thư",
+        "example": "I got a letter from my friend.",
+        "exampleVi": "Tôi nhận được một lá thư từ bạn tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "address",
+        "ipa": "/əˈdres/",
+        "meaning": "địa chỉ",
+        "example": "What is your address?",
+        "exampleVi": "Địa chỉ của bạn là gì?"
+      },
+      {
+        "type": "Noun",
+        "word": "date",
+        "ipa": "/deɪt/",
+        "meaning": "ngày, ngày tháng",
+        "example": "Write the date at the top.",
+        "exampleVi": "Hãy viết ngày tháng ở phía trên."
+      },
+      {
+        "type": "Noun",
+        "word": "envelope",
+        "ipa": "/ˈenvəloʊp/",
+        "meaning": "phong bì",
+        "example": "Put the letter in an envelope.",
+        "exampleVi": "Cho lá thư vào phong bì."
+      },
+      {
+        "type": "Noun",
+        "word": "stamp",
+        "ipa": "/stæmp/",
+        "meaning": "tem thư",
+        "example": "Put a stamp on the envelope.",
+        "exampleVi": "Dán một con tem lên phong bì."
+      },
+      {
+        "type": "Noun",
+        "word": "letter box",
+        "ipa": "/ˈletər bɑːks/",
+        "meaning": "hòm thư, hộp thư",
+        "example": "Put the letter in the letter box.",
+        "exampleVi": "Bỏ lá thư vào hòm thư."
+      },
+      {
+        "type": "Noun",
+        "word": "email",
+        "ipa": "/ˈiːmeɪl/",
+        "meaning": "email, thư điện tử",
+        "example": "I sent you an email.",
+        "exampleVi": "Tôi đã gửi email cho bạn."
+      },
+      {
+        "type": "Noun",
+        "word": "internet",
+        "ipa": "/ˈɪntərnet/",
+        "meaning": "Internet, mạng Internet",
+        "example": "I use the internet every day.",
+        "exampleVi": "Tôi sử dụng Internet mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "computer",
+        "ipa": "/kəmˈpjuːtər/",
+        "meaning": "máy tính",
+        "example": "I use a computer at work.",
+        "exampleVi": "Tôi sử dụng máy tính ở chỗ làm."
+      },
+      {
+        "type": "Noun",
+        "word": "screen",
+        "ipa": "/skriːn/",
+        "meaning": "màn hình",
+        "example": "Look at the screen.",
+        "exampleVi": "Hãy nhìn vào màn hình."
+      },
+      {
+        "type": "Noun",
+        "word": "keyboard",
+        "ipa": "/ˈkiːbɔːrd/",
+        "meaning": "bàn phím",
+        "example": "The keyboard is black.",
+        "exampleVi": "Bàn phím màu đen."
+      },
+      {
+        "type": "Noun",
+        "word": "mouse",
+        "ipa": "/maʊs/",
+        "meaning": "chuột máy tính",
+        "example": "Move the mouse slowly.",
+        "exampleVi": "Di chuyển chuột từ từ."
+      },
+      {
+        "type": "Noun",
+        "word": "laptop",
+        "ipa": "/ˈlæptɑːp/",
+        "meaning": "máy tính xách tay",
+        "example": "I have a new laptop.",
+        "exampleVi": "Tôi có một chiếc laptop mới."
+      },
+      {
+        "type": "Noun",
+        "word": "memory stick",
+        "ipa": "/ˈmeməri stɪk/",
+        "meaning": "USB, thiết bị lưu trữ USB",
+        "example": "I saved the file on a memory stick.",
+        "exampleVi": "Tôi đã lưu tệp vào USB."
+      },
+      {
+        "type": "Adjective / Adverb",
+        "word": "online",
+        "ipa": "/ˌɑːnˈlaɪn/",
+        "meaning": "trực tuyến, trên mạng",
+        "example": "I buy books online.",
+        "exampleVi": "Tôi mua sách trực tuyến."
+      },
+      {
+        "type": "Noun",
+        "word": "telephone",
+        "ipa": "/ˈteləfoʊn/",
+        "meaning": "điện thoại",
+        "example": "The telephone is ringing.",
+        "exampleVi": "Điện thoại đang reo."
+      },
+      {
+        "type": "Noun",
+        "word": "mobile device",
+        "ipa": "/ˈmoʊbəl dɪˈvaɪs/",
+        "meaning": "thiết bị di động",
+        "example": "I use my mobile device every day.",
+        "exampleVi": "Tôi sử dụng thiết bị di động mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "mobile",
+        "ipa": "/ˈmoʊbəl/",
+        "meaning": "điện thoại di động",
+        "example": "I left my mobile at home.",
+        "exampleVi": "Tôi để quên điện thoại ở nhà."
+      },
+      {
+        "type": "Noun",
+        "word": "phone box",
+        "ipa": "/ˈfoʊn bɑːks/",
+        "meaning": "bốt điện thoại công cộng",
+        "example": "There is a phone box near the station.",
+        "exampleVi": "Có một bốt điện thoại gần nhà ga."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "make a phone call",
+        "ipa": "/meɪk ə foʊn kɔːl/",
+        "meaning": "gọi điện thoại",
+        "example": "I need to make a phone call.",
+        "exampleVi": "Tôi cần gọi một cuộc điện thoại."
+      },
+      {
+        "type": "Noun",
+        "word": "phone number",
+        "ipa": "/ˈfoʊn ˌnʌmbər/",
+        "meaning": "số điện thoại",
+        "example": "What is your phone number?",
+        "exampleVi": "Số điện thoại của bạn là gì?"
+      },
+      {
+        "type": "Noun",
+        "word": "voicemail",
+        "ipa": "/ˈvɔɪsmeɪl/",
+        "meaning": "thư thoại, hộp thư thoại",
+        "example": "She left me a voicemail.",
+        "exampleVi": "Cô ấy để lại cho tôi một tin nhắn thoại."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "text somebody a message",
+        "ipa": "/tekst ˈsʌmbədi ə ˈmesɪdʒ/",
+        "meaning": "nhắn tin cho ai",
+        "example": "I texted him a message yesterday.",
+        "exampleVi": "Hôm qua tôi đã nhắn tin cho anh ấy."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "send somebody a text",
+        "ipa": "/send ˈsʌmbədi ə tekst/",
+        "meaning": "gửi tin nhắn cho ai",
+        "example": "Send me a text when you arrive.",
+        "exampleVi": "Hãy nhắn tin cho tôi khi bạn đến."
+      },
+      {
+        "type": "Phrase",
+        "word": "It's somebody here",
+        "ipa": "/ɪts ˈsʌmbədi hɪr/",
+        "meaning": "Có ai đó đang gọi/đang ở đây",
+        "example": "It's John here. Can I speak to Mary?",
+        "exampleVi": "John đây. Tôi có thể nói chuyện với Mary không?"
+      },
+      {
+        "type": "Verb phrase",
+        "word": "speak to",
+        "ipa": "/spiːk tuː/",
+        "meaning": "nói chuyện với",
+        "example": "Can I speak to Tom?",
+        "exampleVi": "Tôi có thể nói chuyện với Tom không?"
+      },
+      {
+        "type": "Verb phrase",
+        "word": "take a message",
+        "ipa": "/teɪk ə ˈmesɪdʒ/",
+        "meaning": "nhận/ghi lại lời nhắn",
+        "example": "Can I take a message?",
+        "exampleVi": "Tôi có thể nhận lời nhắn không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "tell him I called",
+        "ipa": "/tel hɪm aɪ kɔːld/",
+        "meaning": "nói với anh ấy là tôi đã gọi",
+        "example": "Please tell him I called.",
+        "exampleVi": "Làm ơn nói với anh ấy là tôi đã gọi."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "call back",
+        "ipa": "/kɔːl bæk/",
+        "meaning": "gọi lại",
+        "example": "I will call you back later.",
+        "exampleVi": "Tôi sẽ gọi lại cho bạn sau."
+      }
+    ]
   },
   {
     "id": 17,
     "title": "Your phone",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "camera",
+        "ipa": "/ˈkæmərə/",
+        "meaning": "máy ảnh, camera",
+        "example": "My phone has a good camera.",
+        "exampleVi": "Điện thoại của tôi có camera tốt."
+      },
+      {
+        "type": "Noun",
+        "word": "screen",
+        "ipa": "/skriːn/",
+        "meaning": "màn hình",
+        "example": "The screen is very bright.",
+        "exampleVi": "Màn hình rất sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "app",
+        "ipa": "/æp/",
+        "meaning": "ứng dụng",
+        "example": "I use a music app.",
+        "exampleVi": "Tôi sử dụng một ứng dụng nghe nhạc."
+      },
+      {
+        "type": "Noun",
+        "word": "power button",
+        "ipa": "/ˈpaʊər ˌbʌtn/",
+        "meaning": "nút nguồn",
+        "example": "Press the power button.",
+        "exampleVi": "Nhấn nút nguồn."
+      },
+      {
+        "type": "Noun",
+        "word": "phone case",
+        "ipa": "/ˈfoʊn keɪs/",
+        "meaning": "ốp điện thoại",
+        "example": "My phone case is blue.",
+        "exampleVi": "Ốp điện thoại của tôi màu xanh."
+      },
+      {
+        "type": "Noun",
+        "word": "battery",
+        "ipa": "/ˈbætəri/",
+        "meaning": "pin",
+        "example": "My phone battery is low.",
+        "exampleVi": "Pin điện thoại của tôi sắp hết."
+      },
+      {
+        "type": "Noun",
+        "word": "charger",
+        "ipa": "/ˈtʃɑːrdʒər/",
+        "meaning": "bộ sạc, cục sạc",
+        "example": "Where is my charger?",
+        "exampleVi": "Bộ sạc của tôi đâu?"
+      },
+      {
+        "type": "Noun",
+        "word": "SIM card",
+        "ipa": "/ˈsɪm kɑːrd/",
+        "meaning": "thẻ SIM",
+        "example": "I need a new SIM card.",
+        "exampleVi": "Tôi cần một thẻ SIM mới."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "take a selfie",
+        "ipa": "/teɪk ə ˈselfi/",
+        "meaning": "chụp ảnh selfie",
+        "example": "Let's take a selfie.",
+        "exampleVi": "Hãy chụp một bức ảnh selfie nào."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "leave a voicemail",
+        "ipa": "/liːv ə ˈvɔɪsmeɪl/",
+        "meaning": "để lại tin nhắn thoại",
+        "example": "I left a voicemail for him.",
+        "exampleVi": "Tôi đã để lại tin nhắn thoại cho anh ấy."
+      },
+      {
+        "type": "Verb",
+        "word": "text",
+        "ipa": "/tekst/",
+        "meaning": "nhắn tin",
+        "example": "I text my friend every day.",
+        "exampleVi": "Tôi nhắn tin cho bạn mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "message",
+        "ipa": "/ˈmesɪdʒ/",
+        "meaning": "tin nhắn, lời nhắn",
+        "example": "I got your message.",
+        "exampleVi": "Tôi đã nhận được tin nhắn của bạn."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "download an app",
+        "ipa": "/ˌdaʊnˈloʊd ən æp/",
+        "meaning": "tải một ứng dụng",
+        "example": "I want to download an app.",
+        "exampleVi": "Tôi muốn tải một ứng dụng."
+      },
+      {
+        "type": "Verb",
+        "word": "call",
+        "ipa": "/kɔːl/",
+        "meaning": "gọi điện",
+        "example": "I called my mother yesterday.",
+        "exampleVi": "Hôm qua tôi đã gọi cho mẹ."
+      },
+      {
+        "type": "Adjective",
+        "word": "locked",
+        "ipa": "/lɑːkt/",
+        "meaning": "bị khóa",
+        "example": "My phone is locked.",
+        "exampleVi": "Điện thoại của tôi bị khóa."
+      },
+      {
+        "type": "Noun",
+        "word": "PIN",
+        "ipa": "/pɪn/",
+        "meaning": "mã PIN",
+        "example": "I forgot my PIN.",
+        "exampleVi": "Tôi quên mã PIN."
+      },
+      {
+        "type": "Verb",
+        "word": "unlock",
+        "ipa": "/ˌʌnˈlɑːk/",
+        "meaning": "mở khóa",
+        "example": "I use my PIN to unlock my phone.",
+        "exampleVi": "Tôi dùng mã PIN để mở khóa điện thoại."
+      },
+      {
+        "type": "Verb",
+        "word": "swipe",
+        "ipa": "/swaɪp/",
+        "meaning": "vuốt màn hình",
+        "example": "Swipe left to see the photo.",
+        "exampleVi": "Vuốt sang trái để xem ảnh."
+      },
+      {
+        "type": "Verb",
+        "word": "save",
+        "ipa": "/seɪv/",
+        "meaning": "lưu",
+        "example": "Please save this photo.",
+        "exampleVi": "Hãy lưu bức ảnh này."
+      },
+      {
+        "type": "Noun",
+        "word": "memory",
+        "ipa": "/ˈmeməri/",
+        "meaning": "bộ nhớ",
+        "example": "My phone has a lot of memory.",
+        "exampleVi": "Điện thoại của tôi có nhiều bộ nhớ."
+      },
+      {
+        "type": "Verb",
+        "word": "delete",
+        "ipa": "/dɪˈliːt/",
+        "meaning": "xóa",
+        "example": "I want to delete this photo.",
+        "exampleVi": "Tôi muốn xóa bức ảnh này."
+      }
+    ]
   },
   {
     "id": 18,
     "title": "Holidays",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "holiday",
+        "ipa": "/ˈhɑːlədeɪ/",
+        "meaning": "kỳ nghỉ, kỳ nghỉ lễ",
+        "example": "We are going on holiday next week.",
+        "exampleVi": "Chúng tôi sẽ đi nghỉ vào tuần tới."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "had a holiday",
+        "ipa": "/hæd ə ˈhɑːlədeɪ/",
+        "meaning": "đã có một kỳ nghỉ",
+        "example": "We had a holiday in Spain.",
+        "exampleVi": "Chúng tôi đã có một kỳ nghỉ ở Tây Ban Nha."
+      },
+      {
+        "type": "Phrase",
+        "word": "I'm on holiday",
+        "ipa": "/aɪm ɑːn ˈhɑːlədeɪ/",
+        "meaning": "tôi đang đi nghỉ",
+        "example": "I'm on holiday this week.",
+        "exampleVi": "Tuần này tôi đang đi nghỉ."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "going on holiday",
+        "ipa": "/ˈɡoʊɪŋ ɑːn ˈhɑːlədeɪ/",
+        "meaning": "đi nghỉ, đi du lịch",
+        "example": "We are going on holiday in July.",
+        "exampleVi": "Chúng tôi sẽ đi nghỉ vào tháng Bảy."
+      },
+      {
+        "type": "Noun",
+        "word": "a package holiday",
+        "ipa": "/ə ˈpækɪdʒ ˌhɑːlədeɪ/",
+        "meaning": "kỳ nghỉ trọn gói",
+        "example": "We booked a package holiday to Greece.",
+        "exampleVi": "Chúng tôi đã đặt một kỳ nghỉ trọn gói đến Hy Lạp."
+      },
+      {
+        "type": "Noun",
+        "word": "flights",
+        "ipa": "/flaɪts/",
+        "meaning": "các chuyến bay",
+        "example": "The flights are very expensive.",
+        "exampleVi": "Các chuyến bay rất đắt."
+      },
+      {
+        "type": "Noun",
+        "word": "winter holiday",
+        "ipa": "/ˈwɪntər ˌhɑːlədeɪ/",
+        "meaning": "kỳ nghỉ đông",
+        "example": "We went skiing on our winter holiday.",
+        "exampleVi": "Chúng tôi đi trượt tuyết trong kỳ nghỉ đông."
+      },
+      {
+        "type": "Noun",
+        "word": "camping",
+        "ipa": "/ˈkæmpɪŋ/",
+        "meaning": "hoạt động cắm trại",
+        "example": "We go camping every summer.",
+        "exampleVi": "Chúng tôi đi cắm trại mỗi mùa hè."
+      },
+      {
+        "type": "Noun",
+        "word": "walking holiday",
+        "ipa": "/ˈwɔːkɪŋ ˌhɑːlədeɪ/",
+        "meaning": "kỳ nghỉ đi bộ/đi bộ đường dài",
+        "example": "We had a walking holiday in the mountains.",
+        "exampleVi": "Chúng tôi đã có một kỳ nghỉ đi bộ ở vùng núi."
+      },
+      {
+        "type": "Noun",
+        "word": "coach tour",
+        "ipa": "/ˈkoʊtʃ tʊr/",
+        "meaning": "chuyến du lịch bằng xe khách",
+        "example": "We went on a coach tour of Italy.",
+        "exampleVi": "Chúng tôi đi tham quan Ý bằng xe khách."
+      },
+      {
+        "type": "Noun",
+        "word": "transport",
+        "ipa": "/ˈtrænspɔːrt/",
+        "meaning": "phương tiện giao thông, giao thông vận tải",
+        "example": "Public transport is cheap here.",
+        "exampleVi": "Phương tiện giao thông công cộng ở đây rẻ."
+      },
+      {
+        "type": "Phrase",
+        "word": "by plane",
+        "ipa": "/baɪ pleɪn/",
+        "meaning": "bằng máy bay",
+        "example": "We travelled by plane.",
+        "exampleVi": "Chúng tôi đi bằng máy bay."
+      },
+      {
+        "type": "Phrase",
+        "word": "by train",
+        "ipa": "/baɪ treɪn/",
+        "meaning": "bằng tàu hỏa",
+        "example": "I went to London by train.",
+        "exampleVi": "Tôi đến London bằng tàu hỏa."
+      },
+      {
+        "type": "Phrase",
+        "word": "by car",
+        "ipa": "/baɪ kɑːr/",
+        "meaning": "bằng ô tô",
+        "example": "We went there by car.",
+        "exampleVi": "Chúng tôi đến đó bằng ô tô."
+      },
+      {
+        "type": "Phrase",
+        "word": "by ferry",
+        "ipa": "/baɪ ˈferi/",
+        "meaning": "bằng phà",
+        "example": "We travelled by ferry.",
+        "exampleVi": "Chúng tôi đi bằng phà."
+      },
+      {
+        "type": "Phrase",
+        "word": "by coach",
+        "ipa": "/baɪ koʊtʃ/",
+        "meaning": "bằng xe khách",
+        "example": "They travelled by coach.",
+        "exampleVi": "Họ đi bằng xe khách."
+      },
+      {
+        "type": "Phrase",
+        "word": "don't forget to take...",
+        "ipa": "/doʊnt fərˈɡet tə teɪk/",
+        "meaning": "đừng quên mang theo...",
+        "example": "Don't forget to take your passport.",
+        "exampleVi": "Đừng quên mang theo hộ chiếu."
+      },
+      {
+        "type": "Noun",
+        "word": "passport",
+        "ipa": "/ˈpæspɔːrt/",
+        "meaning": "hộ chiếu",
+        "example": "I need my passport.",
+        "exampleVi": "Tôi cần hộ chiếu của mình."
+      },
+      {
+        "type": "Noun",
+        "word": "visa",
+        "ipa": "/ˈviːzə/",
+        "meaning": "thị thực, visa",
+        "example": "Do I need a visa?",
+        "exampleVi": "Tôi có cần visa không?"
+      },
+      {
+        "type": "Noun",
+        "word": "ticket",
+        "ipa": "/ˈtɪkɪt/",
+        "meaning": "vé",
+        "example": "I have my train ticket.",
+        "exampleVi": "Tôi có vé tàu."
+      },
+      {
+        "type": "Noun",
+        "word": "currency",
+        "ipa": "/ˈkɜːrənsi/",
+        "meaning": "tiền tệ",
+        "example": "What is the local currency?",
+        "exampleVi": "Đơn vị tiền tệ địa phương là gì?"
+      },
+      {
+        "type": "Noun",
+        "word": "camera",
+        "ipa": "/ˈkæmərə/",
+        "meaning": "máy ảnh, camera",
+        "example": "Don't forget your camera.",
+        "exampleVi": "Đừng quên máy ảnh của bạn."
+      },
+      {
+        "type": "Noun",
+        "word": "luggage",
+        "ipa": "/ˈlʌɡɪdʒ/",
+        "meaning": "hành lý",
+        "example": "My luggage is very heavy.",
+        "exampleVi": "Hành lý của tôi rất nặng."
+      },
+      {
+        "type": "Noun",
+        "word": "suitcase",
+        "ipa": "/ˈsuːtkeɪs/",
+        "meaning": "va-li",
+        "example": "My clothes are in my suitcase.",
+        "exampleVi": "Quần áo của tôi ở trong va-li."
+      },
+      {
+        "type": "Noun",
+        "word": "rucksack",
+        "ipa": "/ˈrʌksæk/",
+        "meaning": "ba lô",
+        "example": "I put my water in my rucksack.",
+        "exampleVi": "Tôi để nước vào ba lô."
+      },
+      {
+        "type": "Verb / Gerund",
+        "word": "flying",
+        "ipa": "/ˈflaɪɪŋ/",
+        "meaning": "việc đi máy bay, bay",
+        "example": "Flying is fast.",
+        "exampleVi": "Đi máy bay rất nhanh."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "try the local food",
+        "ipa": "/traɪ ðə ˈloʊkəl fuːd/",
+        "meaning": "thử đồ ăn địa phương",
+        "example": "We want to try the local food.",
+        "exampleVi": "Chúng tôi muốn thử đồ ăn địa phương."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "enjoy the nightlife",
+        "ipa": "/ɪnˈdʒɔɪ ðə ˈnaɪtlaɪf/",
+        "meaning": "tận hưởng cuộc sống về đêm",
+        "example": "Young people enjoy the nightlife.",
+        "exampleVi": "Những người trẻ thích tận hưởng cuộc sống về đêm."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "have a great time",
+        "ipa": "/hæv ə ɡreɪt taɪm/",
+        "meaning": "có khoảng thời gian tuyệt vời, vui vẻ",
+        "example": "We had a great time in Paris.",
+        "exampleVi": "Chúng tôi đã có khoảng thời gian tuyệt vời ở Paris."
+      },
+      {
+        "type": "Phrase",
+        "word": "send me a postcard",
+        "ipa": "/send mi ə ˈpoʊstkɑːrd/",
+        "meaning": "gửi cho tôi một tấm bưu thiếp",
+        "example": "Send me a postcard from Italy.",
+        "exampleVi": "Hãy gửi cho tôi một tấm bưu thiếp từ Ý."
+      }
+    ]
   },
   {
     "id": 19,
     "title": "Shops and shopping",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "shop",
+        "ipa": "/ʃɑːp/",
+        "meaning": "cửa hàng",
+        "example": "I go to the shop every day.",
+        "exampleVi": "Tôi đi cửa hàng mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "butcher",
+        "ipa": "/ˈbʊtʃər/",
+        "meaning": "cửa hàng bán thịt; người bán thịt",
+        "example": "We buy meat at the butcher's.",
+        "exampleVi": "Chúng tôi mua thịt ở cửa hàng thịt."
+      },
+      {
+        "type": "Noun",
+        "word": "post office",
+        "ipa": "/ˈpoʊst ˌɔːfɪs/",
+        "meaning": "bưu điện",
+        "example": "The post office is near my house.",
+        "exampleVi": "Bưu điện ở gần nhà tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "supermarket",
+        "ipa": "/ˈsuːpərˌmɑːrkɪt/",
+        "meaning": "siêu thị",
+        "example": "I buy food at the supermarket.",
+        "exampleVi": "Tôi mua thức ăn ở siêu thị."
+      },
+      {
+        "type": "Noun",
+        "word": "bookshop",
+        "ipa": "/ˈbʊkʃɑːp/",
+        "meaning": "hiệu sách",
+        "example": "There is a bookshop near my school.",
+        "exampleVi": "Có một hiệu sách gần trường tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "baker",
+        "ipa": "/ˈbeɪkər/",
+        "meaning": "thợ làm bánh; người bán bánh",
+        "example": "The baker makes fresh bread.",
+        "exampleVi": "Người thợ làm bánh làm bánh mì tươi."
+      },
+      {
+        "type": "Noun",
+        "word": "department store",
+        "ipa": "/dɪˈpɑːrtmənt stɔːr/",
+        "meaning": "cửa hàng bách hóa",
+        "example": "We bought a coat at the department store.",
+        "exampleVi": "Chúng tôi mua một chiếc áo khoác ở cửa hàng bách hóa."
+      },
+      {
+        "type": "Noun",
+        "word": "chemist",
+        "ipa": "/ˈkemɪst/",
+        "meaning": "hiệu thuốc; dược sĩ",
+        "example": "I bought some medicine at the chemist's.",
+        "exampleVi": "Tôi mua thuốc ở hiệu thuốc."
+      },
+      {
+        "type": "Noun",
+        "word": "newsagent",
+        "ipa": "/ˈnuːzˌeɪdʒənt/",
+        "meaning": "cửa hàng bán báo và tạp chí",
+        "example": "I bought a newspaper at the newsagent's.",
+        "exampleVi": "Tôi mua một tờ báo ở cửa hàng bán báo."
+      },
+      {
+        "type": "Noun",
+        "word": "gift shop",
+        "ipa": "/ˈɡɪft ʃɑːp/",
+        "meaning": "cửa hàng quà tặng",
+        "example": "There is a gift shop near the museum.",
+        "exampleVi": "Có một cửa hàng quà tặng gần bảo tàng."
+      },
+      {
+        "type": "Noun",
+        "word": "basement",
+        "ipa": "/ˈbeɪsmənt/",
+        "meaning": "tầng hầm",
+        "example": "The car park is in the basement.",
+        "exampleVi": "Bãi đỗ xe ở tầng hầm."
+      },
+      {
+        "type": "Noun",
+        "word": "electricals",
+        "ipa": "/ɪˈlektrɪkəlz/",
+        "meaning": "đồ điện, thiết bị điện",
+        "example": "The electricals are on the ground floor.",
+        "exampleVi": "Đồ điện ở tầng trệt."
+      },
+      {
+        "type": "Noun",
+        "word": "food",
+        "ipa": "/fuːd/",
+        "meaning": "thực phẩm, đồ ăn",
+        "example": "You can buy food here.",
+        "exampleVi": "Bạn có thể mua thực phẩm ở đây."
+      },
+      {
+        "type": "Noun",
+        "word": "ground floor",
+        "ipa": "/ˈɡraʊnd flɔːr/",
+        "meaning": "tầng trệt, tầng một theo cách gọi Anh",
+        "example": "The café is on the ground floor.",
+        "exampleVi": "Quán cà phê ở tầng trệt."
+      },
+      {
+        "type": "Noun",
+        "word": "beauty",
+        "ipa": "/ˈbjuːti/",
+        "meaning": "đồ dùng/sản phẩm làm đẹp; ngành làm đẹp",
+        "example": "The beauty department is upstairs.",
+        "exampleVi": "Khu đồ làm đẹp ở tầng trên."
+      },
+      {
+        "type": "Noun",
+        "word": "first floor",
+        "ipa": "/ˌfɜːrst ˈflɔːr/",
+        "meaning": "tầng một (trên tầng trệt trong BrE)",
+        "example": "The toys are on the first floor.",
+        "exampleVi": "Đồ chơi ở tầng một."
+      },
+      {
+        "type": "Noun",
+        "word": "women's wear",
+        "ipa": "/ˈwɪmɪnz wer/",
+        "meaning": "quần áo nữ",
+        "example": "Women's wear is on the first floor.",
+        "exampleVi": "Quần áo nữ ở tầng một."
+      },
+      {
+        "type": "Noun",
+        "word": "men's wear",
+        "ipa": "/ˈmenz wer/",
+        "meaning": "quần áo nam",
+        "example": "Men's wear is downstairs.",
+        "exampleVi": "Quần áo nam ở tầng dưới."
+      },
+      {
+        "type": "Noun",
+        "word": "children's department",
+        "ipa": "/ˈtʃɪldrənz dɪˌpɑːrtmənt/",
+        "meaning": "khu đồ trẻ em",
+        "example": "The children's department is on the first floor.",
+        "exampleVi": "Khu đồ trẻ em ở tầng một."
+      },
+      {
+        "type": "Noun",
+        "word": "furniture",
+        "ipa": "/ˈfɜːrnɪtʃər/",
+        "meaning": "đồ nội thất",
+        "example": "The furniture is upstairs.",
+        "exampleVi": "Đồ nội thất ở tầng trên."
+      },
+      {
+        "type": "Noun",
+        "word": "toys",
+        "ipa": "/tɔɪz/",
+        "meaning": "đồ chơi",
+        "example": "The toys are on the first floor.",
+        "exampleVi": "Đồ chơi ở tầng một."
+      },
+      {
+        "type": "Noun",
+        "word": "restaurant",
+        "ipa": "/ˈrestərɑːnt/",
+        "meaning": "nhà hàng",
+        "example": "The restaurant is on the top floor.",
+        "exampleVi": "Nhà hàng ở tầng trên cùng."
+      },
+      {
+        "type": "Noun",
+        "word": "sign in a shop",
+        "ipa": "/saɪn ɪn ə ʃɑːp/",
+        "meaning": "biển hiệu trong cửa hàng",
+        "example": "There is a sign in the shop.",
+        "exampleVi": "Có một biển hiệu trong cửa hàng."
+      },
+      {
+        "type": "Adjective",
+        "word": "open",
+        "ipa": "/ˈoʊpən/",
+        "meaning": "mở, đang mở cửa",
+        "example": "The shop is open today.",
+        "exampleVi": "Cửa hàng mở cửa hôm nay."
+      },
+      {
+        "type": "Verb",
+        "word": "close",
+        "ipa": "/kloʊz/",
+        "meaning": "đóng; đóng cửa",
+        "example": "The shop closes at six.",
+        "exampleVi": "Cửa hàng đóng cửa lúc sáu giờ."
+      },
+      {
+        "type": "Noun",
+        "word": "cash desk",
+        "ipa": "/ˈkæʃ desk/",
+        "meaning": "quầy thu ngân",
+        "example": "Please pay at the cash desk.",
+        "exampleVi": "Vui lòng thanh toán tại quầy thu ngân."
+      },
+      {
+        "type": "Verb",
+        "word": "push",
+        "ipa": "/pʊʃ/",
+        "meaning": "đẩy",
+        "example": "Push the door.",
+        "exampleVi": "Đẩy cửa."
+      },
+      {
+        "type": "Verb",
+        "word": "pull",
+        "ipa": "/pʊl/",
+        "meaning": "kéo",
+        "example": "Pull the door.",
+        "exampleVi": "Kéo cửa."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "try this shirt on",
+        "ipa": "/traɪ ðɪs ʃɜːrt ɑːn/",
+        "meaning": "thử chiếc áo sơ mi này",
+        "example": "Can I try this shirt on?",
+        "exampleVi": "Tôi có thể thử chiếc áo sơ mi này không?"
+      },
+      {
+        "type": "Adjective",
+        "word": "bigger",
+        "ipa": "/ˈbɪɡər/",
+        "meaning": "to hơn",
+        "example": "Do you have a bigger size?",
+        "exampleVi": "Bạn có cỡ lớn hơn không?"
+      },
+      {
+        "type": "Adjective",
+        "word": "smaller",
+        "ipa": "/ˈsmɔːlər/",
+        "meaning": "nhỏ hơn",
+        "example": "Do you have a smaller size?",
+        "exampleVi": "Bạn có cỡ nhỏ hơn không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "different color",
+        "ipa": "/ˈdɪfrənt ˈkʌlər/",
+        "meaning": "màu khác",
+        "example": "Do you have this in a different color?",
+        "exampleVi": "Bạn có cái này màu khác không?"
+      },
+      {
+        "type": "Verb",
+        "word": "cost",
+        "ipa": "/kɔːst/",
+        "meaning": "có giá, tốn bao nhiêu tiền",
+        "example": "How much does this cost?",
+        "exampleVi": "Cái này giá bao nhiêu?"
+      },
+      {
+        "type": "Verb",
+        "word": "pay",
+        "ipa": "/peɪ/",
+        "meaning": "trả tiền, thanh toán",
+        "example": "Can I pay by card?",
+        "exampleVi": "Tôi có thể thanh toán bằng thẻ không?"
+      },
+      {
+        "type": "Noun",
+        "word": "cheque",
+        "ipa": "/tʃek/",
+        "meaning": "séc",
+        "example": "Can I pay by cheque?",
+        "exampleVi": "Tôi có thể thanh toán bằng séc không?"
+      },
+      {
+        "type": "Noun",
+        "word": "credit card",
+        "ipa": "/ˈkredɪt kɑːrd/",
+        "meaning": "thẻ tín dụng",
+        "example": "Can I pay by credit card?",
+        "exampleVi": "Tôi có thể thanh toán bằng thẻ tín dụng không?"
+      },
+      {
+        "type": "Noun",
+        "word": "cash",
+        "ipa": "/kæʃ/",
+        "meaning": "tiền mặt",
+        "example": "I don't have any cash.",
+        "exampleVi": "Tôi không có tiền mặt."
+      },
+      {
+        "type": "Noun",
+        "word": "note",
+        "ipa": "/noʊt/",
+        "meaning": "tiền giấy",
+        "example": "I have a twenty-dollar note.",
+        "exampleVi": "Tôi có một tờ tiền 20 đô."
+      },
+      {
+        "type": "Noun",
+        "word": "change",
+        "ipa": "/tʃeɪndʒ/",
+        "meaning": "tiền thừa, tiền trả lại",
+        "example": "Here is your change.",
+        "exampleVi": "Đây là tiền thừa của bạn."
+      },
+      {
+        "type": "Noun",
+        "word": "receipt",
+        "ipa": "/rɪˈsiːt/",
+        "meaning": "hóa đơn, biên lai",
+        "example": "Can I have a receipt, please?",
+        "exampleVi": "Cho tôi xin hóa đơn được không?"
+      },
+      {
+        "type": "Noun",
+        "word": "(carrier) bag",
+        "ipa": "/ˈkæriər bæɡ/",
+        "meaning": "túi đựng hàng, túi mua sắm",
+        "example": "Do you need a carrier bag?",
+        "exampleVi": "Bạn có cần túi đựng hàng không?"
+      }
+    ]
   },
   {
     "id": 20,
     "title": "Online shopping",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "size",
+        "ipa": "/saɪz/",
+        "meaning": "kích cỡ",
+        "example": "What size do you need?",
+        "exampleVi": "Bạn cần kích cỡ nào?"
+      },
+      {
+        "type": "Noun",
+        "word": "price",
+        "ipa": "/praɪs/",
+        "meaning": "giá cả",
+        "example": "The price is very good.",
+        "exampleVi": "Giá rất tốt."
+      },
+      {
+        "type": "Noun",
+        "word": "delivery address",
+        "ipa": "/dɪˈlɪvəri əˈdres/",
+        "meaning": "địa chỉ giao hàng",
+        "example": "Please check your delivery address.",
+        "exampleVi": "Vui lòng kiểm tra địa chỉ giao hàng của bạn."
+      },
+      {
+        "type": "Noun",
+        "word": "postcode",
+        "ipa": "/ˈpoʊstkoʊd/",
+        "meaning": "mã bưu chính",
+        "example": "What is your postcode?",
+        "exampleVi": "Mã bưu chính của bạn là gì?"
+      },
+      {
+        "type": "Noun",
+        "word": "credit card",
+        "ipa": "/ˈkredɪt kɑːrd/",
+        "meaning": "thẻ tín dụng",
+        "example": "I paid by credit card.",
+        "exampleVi": "Tôi đã thanh toán bằng thẻ tín dụng."
+      },
+      {
+        "type": "Noun",
+        "word": "order number",
+        "ipa": "/ˈɔːrdər ˌnʌmbər/",
+        "meaning": "mã số đơn hàng",
+        "example": "What is your order number?",
+        "exampleVi": "Mã đơn hàng của bạn là gì?"
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "search for",
+        "ipa": "/sɜːrtʃ fɔːr/",
+        "meaning": "tìm kiếm",
+        "example": "I search for cheap shoes online.",
+        "exampleVi": "Tôi tìm kiếm giày giá rẻ trên mạng."
+      },
+      {
+        "type": "Verb",
+        "word": "collect",
+        "ipa": "/kəˈlekt/",
+        "meaning": "nhận, lấy hàng",
+        "example": "I will collect my order tomorrow.",
+        "exampleVi": "Tôi sẽ nhận đơn hàng vào ngày mai."
+      },
+      {
+        "type": "Noun / Verb",
+        "word": "review",
+        "ipa": "/rɪˈvjuː/",
+        "meaning": "đánh giá; đánh giá sản phẩm",
+        "example": "I read the reviews before I buy.",
+        "exampleVi": "Tôi đọc các đánh giá trước khi mua."
+      },
+      {
+        "type": "Verb",
+        "word": "add",
+        "ipa": "/æd/",
+        "meaning": "thêm",
+        "example": "Add the shoes to your basket.",
+        "exampleVi": "Thêm đôi giày vào giỏ hàng của bạn."
+      },
+      {
+        "type": "Verb",
+        "word": "deliver",
+        "ipa": "/dɪˈlɪvər/",
+        "meaning": "giao, giao hàng",
+        "example": "They deliver the food to my home.",
+        "exampleVi": "Họ giao thức ăn đến nhà tôi."
+      },
+      {
+        "type": "Verb",
+        "word": "delete",
+        "ipa": "/dɪˈliːt/",
+        "meaning": "xóa",
+        "example": "I want to delete this item.",
+        "exampleVi": "Tôi muốn xóa sản phẩm này."
+      },
+      {
+        "type": "Noun / Verb",
+        "word": "order",
+        "ipa": "/ˈɔːrdər/",
+        "meaning": "đơn hàng; đặt hàng",
+        "example": "I ordered a new shirt online.",
+        "exampleVi": "Tôi đã đặt một chiếc áo mới trên mạng."
+      },
+      {
+        "type": "Noun",
+        "word": "delivery",
+        "ipa": "/dɪˈlɪvəri/",
+        "meaning": "việc giao hàng, sự giao hàng",
+        "example": "The delivery is free.",
+        "exampleVi": "Việc giao hàng được miễn phí."
+      },
+      {
+        "type": "Noun",
+        "word": "next day",
+        "ipa": "/nekst deɪ/",
+        "meaning": "ngày hôm sau",
+        "example": "You can get next-day delivery.",
+        "exampleVi": "Bạn có thể nhận hàng vào ngày hôm sau."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "shop online",
+        "ipa": "/ʃɑːp ɑːnˈlaɪn/",
+        "meaning": "mua sắm trực tuyến",
+        "example": "I often shop online.",
+        "exampleVi": "Tôi thường mua sắm trực tuyến."
+      },
+      {
+        "type": "Noun",
+        "word": "online review",
+        "ipa": "/ˌɑːnˈlaɪn rɪˈvjuː/",
+        "meaning": "đánh giá trực tuyến",
+        "example": "I read an online review before buying it.",
+        "exampleVi": "Tôi đọc một bài đánh giá trực tuyến trước khi mua nó."
+      }
+    ]
   },
   {
     "id": 21,

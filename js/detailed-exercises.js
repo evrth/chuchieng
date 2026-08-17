@@ -32,7 +32,8 @@
     dialogue_error_correction: "Sửa lỗi hội thoại",
     classification: "Phân loại",
     true_false: "Đúng / Sai",
-    word_search: "Tìm & ghi nhớ từ"
+    word_search: "Tìm & ghi nhớ từ",
+    ordering: "Sắp xếp thứ tự"
   };
   const TYPE_ICON = {
     sentence_completion: "🌳",
@@ -55,7 +56,8 @@
     dialogue_error_correction: "🩹",
     classification: "🗂️",
     true_false: "⚖️",
-    word_search: "🔎"
+    word_search: "🔎",
+    ordering: "🔢"
   };
 
   const STORAGE_KEY = "chuchieng:unit:" + unitId + ":detailed-exercises";
@@ -164,6 +166,7 @@
       case "classification": renderClassification(currentExercise, body); break;
       case "true_false": renderDetailedTrueFalse(currentExercise, body); break;
       case "word_search": renderWordSearch(currentExercise, body); break;
+      case "ordering": renderOrdering(currentExercise, body); break;
       default: body.innerHTML = "<p>Dạng bài chưa được hỗ trợ.</p>";
     }
 
@@ -1478,6 +1481,55 @@
       feedbackEl.style.display = "block";
       feedbackEl.className = "exq-feedback " + (correct === total ? "correct" : "wrong");
       feedbackEl.textContent = "Bạn tìm đúng " + correct + "/" + total + " từ. Đáp án đầy đủ: " + ex.answers.join(", ") + ".";
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 20. ORDERING (sắp xếp thứ tự các bước)
+  // ============================================
+  function renderOrdering(ex, body){
+    renderContextCard(ex, body);
+    const qWrap = document.createElement("div");
+
+    ex.steps.forEach(function(step){
+      const qEl = document.createElement("div");
+      qEl.className = "exq";
+      qEl.dataset.stepId = step.id;
+      qEl.innerHTML =
+        '<div class="exq-text" style="display:flex;align-items:center;gap:12px;">' +
+          '<select class="exq-blank-select ordering-select" style="width:70px;flex-shrink:0;">' +
+            '<option value="">#</option>' +
+            ex.steps.map(function(_, i){ return '<option value="' + (i + 1) + '">' + (i + 1) + '</option>'; }).join("") +
+          '</select>' +
+          '<span>' + step.text + '</span>' +
+        '</div>' +
+        '<div class="exq-feedback" style="display:none;"></div>';
+      qWrap.appendChild(qEl);
+    });
+    body.appendChild(qWrap);
+
+    currentCheckFn = function(){
+      let correct = 0;
+      const total = ex.steps.length;
+      qWrap.querySelectorAll(".exq").forEach(function(qEl){
+        const stepId = qEl.dataset.stepId;
+        const correctPos = ex.correct_order.indexOf(stepId) + 1;
+        const select = qEl.querySelector(".ordering-select");
+        const feedback = qEl.querySelector(".exq-feedback");
+        const ok = parseInt(select.value, 10) === correctPos;
+        select.classList.add(ok ? "correct" : "wrong");
+        select.disabled = true;
+        feedback.style.display = "block";
+        if(ok){
+          correct++;
+          feedback.className = "exq-feedback correct";
+          feedback.textContent = "✅ Đúng vị trí";
+        }else{
+          feedback.className = "exq-feedback wrong";
+          feedback.textContent = "❌ Vị trí đúng: " + correctPos;
+        }
+      });
       return { correct: correct, total: total };
     };
   }
