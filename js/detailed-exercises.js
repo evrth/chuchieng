@@ -246,7 +246,21 @@
   }
 
   function renderContextCard(ex, body){
-    if(ex.context && ex.context.image){
+    if(ex.context && ex.context.table){
+      const t = ex.context.table;
+      const card = document.createElement("div");
+      card.className = "ex-context-card";
+      let html = '<div class="ex-context-title">📋 Reference</div>' +
+        '<table class="ex-context-table"><thead><tr>' +
+        t.headers.map(function(h){ return "<th>" + h + "</th>"; }).join("") +
+        '</tr></thead><tbody>';
+      t.rows.forEach(function(row){
+        html += "<tr>" + row.map(function(c){ return "<td>" + c + "</td>"; }).join("") + "</tr>";
+      });
+      html += "</tbody></table>";
+      card.innerHTML = html;
+      body.appendChild(card);
+    }else if(ex.context && ex.context.image){
       const card = document.createElement("div");
       card.className = "ex-context-card ex-context-image-card";
       card.innerHTML =
@@ -520,6 +534,7 @@
       qEl.className = "exq";
       qEl.dataset.example = isExample ? "1" : "0";
       qEl.innerHTML =
+        (q.image ? '<img class="exq-question-img" src="' + q.image + '" alt="">' : "") +
         '<div class="exq-text">' + q.clue +
         (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>' +
         '<input type="text" class="exq-text-input' + (isExample ? ' example-filled' : '') + '" ' +

@@ -3908,7 +3908,50 @@ const DETAILED_EXERCISES_DATA = {
         "title": "19.3. Look at the department store plan. Which floor will you go to buy...?",
         "instructions_vi": "Dựa vào sơ đồ cửa hàng bên dưới, cho biết bạn sẽ lên tầng nào để mua món đồ đó.",
         "context": {
-          "description": "Sơ đồ cửa hàng: Tầng 4 - Đồ chơi, Nhà hàng · Tầng 3 - Nội thất · Tầng 2 - Thời trang nam, Khu trẻ em · Tầng 1 - Thời trang nữ · Tầng trệt - Làm đẹp · Tầng hầm - Đồ điện, Thực phẩm."
+          "table": {
+            "headers": [
+              "Floor",
+              "Department"
+            ],
+            "rows": [
+              [
+                "Fourth floor",
+                "Toys"
+              ],
+              [
+                "Fourth floor",
+                "Restaurant"
+              ],
+              [
+                "Third floor",
+                "Furniture"
+              ],
+              [
+                "Second floor",
+                "Men's Wear"
+              ],
+              [
+                "Second floor",
+                "Children's Department"
+              ],
+              [
+                "First floor",
+                "Women's Wear"
+              ],
+              [
+                "Ground Floor",
+                "Beauty"
+              ],
+              [
+                "Basement",
+                "Electricals"
+              ],
+              [
+                "Basement",
+                "Food"
+              ]
+            ]
+          }
         },
         "questions": [
           {
