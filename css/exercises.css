@@ -455,3 +455,30 @@
 .word-search-input{
   margin-bottom:0;
 }
+
+/* bảng tham chiếu trong context card (VD: sơ đồ tầng cửa hàng) */
+.ex-context-table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:6px;
+}
+.ex-context-table th, .ex-context-table td{
+  text-align:left;
+  padding:8px 12px;
+  font-size:13px;
+  border-bottom:1px solid rgba(174,190,137,0.35);
+}
+.ex-context-table th{
+  font-weight:900;
+  color:var(--ink-soft);
+  text-transform:uppercase;
+  font-size:11px;
+  letter-spacing:.3px;
+}
+.ex-context-table td{
+  font-weight:700;
+  color:var(--forest);
+}
+.ex-context-table tbody tr:last-child td{
+  border-bottom:none;
+}
