@@ -5663,5 +5663,1390 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  21: {
+    "unit": {
+      "id": "unit-21-hotel",
+      "title": "Unit 21: In a Hotel",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u21-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "key",
+            "right": "chìa khóa"
+          },
+          {
+            "left": "reception",
+            "right": "quầy lễ tân"
+          },
+          {
+            "left": "lift",
+            "right": "thang máy"
+          },
+          {
+            "left": "bill",
+            "right": "hóa đơn"
+          },
+          {
+            "left": "luggage",
+            "right": "hành lý"
+          },
+          {
+            "left": "shower",
+            "right": "vòi sen"
+          },
+          {
+            "left": "mini-bar",
+            "right": "tủ đồ uống nhỏ trong phòng"
+          },
+          {
+            "left": "hairdryer",
+            "right": "máy sấy tóc"
+          },
+          {
+            "left": "single room",
+            "right": "phòng đơn"
+          },
+          {
+            "left": "double room",
+            "right": "phòng đôi"
+          }
+        ]
+      },
+      {
+        "id": "u21-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "key",
+          "reception",
+          "lift",
+          "bill",
+          "luggage",
+          "form",
+          "reservation",
+          "hairdryer"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Here is your ______.",
+            "hint_vi": "chìa khóa",
+            "answer": "key"
+          },
+          {
+            "id": "q2",
+            "sentence": "The ______ is downstairs.",
+            "hint_vi": "quầy lễ tân",
+            "answer": "reception"
+          },
+          {
+            "id": "q3",
+            "sentence": "Take the ______ to the second floor.",
+            "hint_vi": "thang máy",
+            "answer": "lift"
+          },
+          {
+            "id": "q4",
+            "sentence": "Can I have the ______, please?",
+            "hint_vi": "hóa đơn",
+            "answer": "bill"
+          },
+          {
+            "id": "q5",
+            "sentence": "Your ______ is here.",
+            "hint_vi": "hành lý",
+            "answer": "luggage"
+          },
+          {
+            "id": "q6",
+            "sentence": "Please fill in this ______.",
+            "hint_vi": "biểu mẫu",
+            "answer": "form"
+          },
+          {
+            "id": "q7",
+            "sentence": "I have a ______.",
+            "hint_vi": "đặt phòng trước",
+            "answer": "reservation"
+          },
+          {
+            "id": "q8",
+            "sentence": "There is a ______ in the bathroom.",
+            "hint_vi": "máy sấy tóc",
+            "answer": "hairdryer"
+          }
+        ]
+      },
+      {
+        "id": "u21-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means 'trả phòng'?",
+            "options": [
+              "check out",
+              "check in",
+              "reservation",
+              "reception"
+            ],
+            "answer": "check out"
+          },
+          {
+            "id": "q2",
+            "question": "What do you take to go to another floor?",
+            "options": [
+              "the lift",
+              "the key",
+              "the bill",
+              "the form"
+            ],
+            "answer": "the lift"
+          },
+          {
+            "id": "q3",
+            "question": "Which room is for one person?",
+            "options": [
+              "a single room",
+              "a double room",
+              "room service",
+              "a mini-bar"
+            ],
+            "answer": "a single room"
+          },
+          {
+            "id": "q4",
+            "question": "What do you ask for to phone outside the hotel?",
+            "options": [
+              "an outside line",
+              "a wake-up call",
+              "room service",
+              "a reservation"
+            ],
+            "answer": "an outside line"
+          },
+          {
+            "id": "q5",
+            "question": "Which word means 'dịch vụ phòng'?",
+            "options": [
+              "room service",
+              "reception",
+              "check out",
+              "a form"
+            ],
+            "answer": "room service"
+          },
+          {
+            "id": "q6",
+            "question": "What do you need to enter your hotel room?",
+            "options": [
+              "a key",
+              "a bill",
+              "a menu",
+              "a form"
+            ],
+            "answer": "a key"
+          }
+        ]
+      },
+      {
+        "id": "u21-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Reception\" is where you check in at a hotel.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"mini-bar\" is a small bar/fridge with drinks in your room.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Check out\" means arriving at the hotel.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "A \"wake-up call\" helps you wake up on time.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Luggage\" means the money you pay at a hotel.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "A \"reservation\" means you have booked a room in advance.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u21-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "YEK",
+            "answer": "KEY"
+          },
+          {
+            "id": "q2",
+            "scrambled": "TIFL",
+            "answer": "LIFT"
+          },
+          {
+            "id": "q3",
+            "scrambled": "LLIB",
+            "answer": "BILL"
+          },
+          {
+            "id": "q4",
+            "scrambled": "EGGAGLU",
+            "answer": "LUGGAGE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "REWOHS",
+            "answer": "SHOWER"
+          },
+          {
+            "id": "q6",
+            "scrambled": "MROF",
+            "answer": "FORM"
+          }
+        ]
+      }
+    ]
+  },
+  22: {
+    "unit": {
+      "id": "unit-22-eating-out",
+      "title": "Unit 22: Eating Out",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u22-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "restaurant",
+            "right": "nhà hàng"
+          },
+          {
+            "left": "bar",
+            "right": "quán bar"
+          },
+          {
+            "left": "pub",
+            "right": "quán rượu/quán pub"
+          },
+          {
+            "left": "menu",
+            "right": "thực đơn"
+          },
+          {
+            "left": "starter",
+            "right": "món khai vị"
+          },
+          {
+            "left": "main course",
+            "right": "món chính"
+          },
+          {
+            "left": "dessert",
+            "right": "món tráng miệng"
+          },
+          {
+            "left": "rare",
+            "right": "tái (bít tết)"
+          },
+          {
+            "left": "well-done",
+            "right": "chín kỹ"
+          },
+          {
+            "left": "delicious",
+            "right": "ngon, thơm ngon"
+          }
+        ]
+      },
+      {
+        "id": "u22-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "menu",
+          "starter",
+          "main course",
+          "dessert",
+          "rare",
+          "medium",
+          "well-done",
+          "delicious"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Can I see the ______, please?",
+            "hint_vi": "thực đơn",
+            "answer": "menu"
+          },
+          {
+            "id": "q2",
+            "sentence": "I had soup for my ______.",
+            "hint_vi": "món khai vị",
+            "answer": "starter"
+          },
+          {
+            "id": "q3",
+            "sentence": "Fish is my ______.",
+            "hint_vi": "món chính",
+            "answer": "main course"
+          },
+          {
+            "id": "q4",
+            "sentence": "Do you want ______?",
+            "hint_vi": "món tráng miệng",
+            "answer": "dessert"
+          },
+          {
+            "id": "q5",
+            "sentence": "I'd like my steak ______.",
+            "hint_vi": "tái",
+            "answer": "rare"
+          },
+          {
+            "id": "q6",
+            "sentence": "I'd like my steak ______, not too raw.",
+            "hint_vi": "chín vừa",
+            "answer": "medium"
+          },
+          {
+            "id": "q7",
+            "sentence": "I'd like my steak ______, no pink at all.",
+            "hint_vi": "chín kỹ",
+            "answer": "well-done"
+          },
+          {
+            "id": "q8",
+            "sentence": "The food is ______.",
+            "hint_vi": "ngon",
+            "answer": "delicious"
+          }
+        ]
+      },
+      {
+        "id": "u22-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What do you ask for at the end of a meal?",
+            "options": [
+              "the bill",
+              "the menu",
+              "a starter",
+              "a snack"
+            ],
+            "answer": "the bill"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'sẵn sàng gọi món'?",
+            "options": [
+              "ready to order",
+              "I'll have",
+              "dessert",
+              "delicious"
+            ],
+            "answer": "ready to order"
+          },
+          {
+            "id": "q3",
+            "question": "What do you call food you buy and eat at home?",
+            "options": [
+              "a take-away",
+              "a starter",
+              "a main course",
+              "a dessert"
+            ],
+            "answer": "a take-away"
+          },
+          {
+            "id": "q4",
+            "question": "Which is a drink without alcohol?",
+            "options": [
+              "a soft drink",
+              "a pub",
+              "a bar",
+              "alcohol"
+            ],
+            "answer": "a soft drink"
+          },
+          {
+            "id": "q5",
+            "question": "How do you politely order food?",
+            "options": [
+              "I'd like...",
+              "I want...",
+              "Give me...",
+              "I have..."
+            ],
+            "answer": "I'd like..."
+          },
+          {
+            "id": "q6",
+            "question": "Which word describes food that tastes very good?",
+            "options": [
+              "delicious",
+              "boring",
+              "rare",
+              "medium"
+            ],
+            "answer": "delicious"
+          }
+        ]
+      },
+      {
+        "id": "u22-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"starter\" is eaten before the main course.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Well-done\" steak is almost raw.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "A \"menu\" lists the food a restaurant offers.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Dessert\" is eaten before the starter.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"I'd like...\" is a polite way to order food.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A \"take-away\" must be eaten inside the restaurant.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u22-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "NUME",
+            "answer": "MENU"
+          },
+          {
+            "id": "q2",
+            "scrambled": "RETSRAT",
+            "answer": "STARTER"
+          },
+          {
+            "id": "q3",
+            "scrambled": "TRESSED",
+            "answer": "DESSERT"
+          },
+          {
+            "id": "q4",
+            "scrambled": "RAB",
+            "answer": "BAR"
+          },
+          {
+            "id": "q5",
+            "scrambled": "BUP",
+            "answer": "PUB"
+          },
+          {
+            "id": "q6",
+            "scrambled": "EARR",
+            "answer": "RARE"
+          }
+        ]
+      }
+    ]
+  },
+  23: {
+    "unit": {
+      "id": "unit-23-sports",
+      "title": "Unit 23: Sports",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u23-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "football",
+            "right": "bóng đá"
+          },
+          {
+            "left": "rugby",
+            "right": "bóng bầu dục"
+          },
+          {
+            "left": "basketball",
+            "right": "bóng rổ"
+          },
+          {
+            "left": "badminton",
+            "right": "cầu lông"
+          },
+          {
+            "left": "baseball",
+            "right": "bóng chày"
+          },
+          {
+            "left": "tennis",
+            "right": "quần vợt"
+          },
+          {
+            "left": "volleyball",
+            "right": "bóng chuyền"
+          },
+          {
+            "left": "swimming",
+            "right": "môn bơi lội"
+          },
+          {
+            "left": "skiing",
+            "right": "môn trượt tuyết"
+          },
+          {
+            "left": "judo",
+            "right": "môn judo"
+          }
+        ]
+      },
+      {
+        "id": "u23-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "football",
+          "swimming",
+          "tennis",
+          "court",
+          "pitch",
+          "pool",
+          "running",
+          "sailing"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I play ______ with my friends.",
+            "hint_vi": "bóng đá",
+            "answer": "football"
+          },
+          {
+            "id": "q2",
+            "sentence": "I like ______ in summer.",
+            "hint_vi": "bơi lội",
+            "answer": "swimming"
+          },
+          {
+            "id": "q3",
+            "sentence": "She plays ______ very well.",
+            "hint_vi": "quần vợt",
+            "answer": "tennis"
+          },
+          {
+            "id": "q4",
+            "sentence": "We play tennis on this ______.",
+            "hint_vi": "sân (tennis, bóng rổ)",
+            "answer": "court"
+          },
+          {
+            "id": "q5",
+            "sentence": "The football ______ is very big.",
+            "hint_vi": "sân (bóng đá, rugby)",
+            "answer": "pitch"
+          },
+          {
+            "id": "q6",
+            "sentence": "The swimming ______ is near my house.",
+            "hint_vi": "hồ bơi",
+            "answer": "pool"
+          },
+          {
+            "id": "q7",
+            "sentence": "______ is good exercise.",
+            "hint_vi": "chạy bộ",
+            "answer": "running"
+          },
+          {
+            "id": "q8",
+            "sentence": "We go ______ in summer.",
+            "hint_vi": "chèo thuyền buồm",
+            "answer": "sailing"
+          }
+        ]
+      },
+      {
+        "id": "u23-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which sport uses a racket and shuttlecock?",
+            "options": [
+              "badminton",
+              "basketball",
+              "swimming",
+              "judo"
+            ],
+            "answer": "badminton"
+          },
+          {
+            "id": "q2",
+            "question": "Where do people play football?",
+            "options": [
+              "a pitch",
+              "a court",
+              "a pool",
+              "a track"
+            ],
+            "answer": "a pitch"
+          },
+          {
+            "id": "q3",
+            "question": "Which word means 'trung tâm thể thao'?",
+            "options": [
+              "sports centre",
+              "court",
+              "pool",
+              "pitch"
+            ],
+            "answer": "sports centre"
+          },
+          {
+            "id": "q4",
+            "question": "Which sport do you do in water?",
+            "options": [
+              "swimming",
+              "judo",
+              "skiing",
+              "tennis"
+            ],
+            "answer": "swimming"
+          },
+          {
+            "id": "q5",
+            "question": "\"What's your favourite sport?\" asks about...",
+            "options": [
+              "môn thể thao bạn thích nhất",
+              "nơi bạn chơi thể thao",
+              "thời gian bạn tập thể thao",
+              "bạn chơi với ai"
+            ],
+            "answer": "môn thể thao bạn thích nhất"
+          },
+          {
+            "id": "q6",
+            "question": "Which sport is a type of martial art?",
+            "options": [
+              "judo",
+              "tennis",
+              "volleyball",
+              "baseball"
+            ],
+            "answer": "judo"
+          }
+        ]
+      },
+      {
+        "id": "u23-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Swimming\" is a sport you do in water.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"pitch\" is used for chess.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Do you play tennis?\" asks about a specific sport.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Sailing\" is done on snow.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Table tennis\" is played on a small table with a net.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A \"court\" can be used for tennis or basketball.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u23-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "LOBTOALF",
+            "answer": "FOOTBALL"
+          },
+          {
+            "id": "q2",
+            "scrambled": "YGRUB",
+            "answer": "RUGBY"
+          },
+          {
+            "id": "q3",
+            "scrambled": "TEBASLLKBA",
+            "answer": "BASKETBALL"
+          },
+          {
+            "id": "q4",
+            "scrambled": "MNOMDATIN",
+            "answer": "BADMINTON"
+          },
+          {
+            "id": "q5",
+            "scrambled": "GNIMSWIM",
+            "answer": "SWIMMING"
+          },
+          {
+            "id": "q6",
+            "scrambled": "SETINN",
+            "answer": "TENNIS"
+          }
+        ]
+      }
+    ]
+  },
+  24: {
+    "unit": {
+      "id": "unit-24-cinema",
+      "title": "Unit 24: Cinema",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u24-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "cinema",
+            "right": "rạp chiếu phim"
+          },
+          {
+            "left": "film",
+            "right": "bộ phim"
+          },
+          {
+            "left": "a western",
+            "right": "phim cao bồi"
+          },
+          {
+            "left": "a cartoon",
+            "right": "phim hoạt hình"
+          },
+          {
+            "left": "a horror film",
+            "right": "phim kinh dị"
+          },
+          {
+            "left": "a comedy",
+            "right": "phim hài"
+          },
+          {
+            "left": "a thriller",
+            "right": "phim ly kỳ, hồi hộp"
+          },
+          {
+            "left": "an action film",
+            "right": "phim hành động"
+          },
+          {
+            "left": "film star",
+            "right": "ngôi sao điện ảnh"
+          },
+          {
+            "left": "director",
+            "right": "đạo diễn"
+          }
+        ]
+      },
+      {
+        "id": "u24-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "cinema",
+          "film",
+          "cartoon",
+          "comedy",
+          "thriller",
+          "action film",
+          "director",
+          "boring"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "We go to the ______ on Saturday.",
+            "hint_vi": "rạp chiếu phim",
+            "answer": "cinema"
+          },
+          {
+            "id": "q2",
+            "sentence": "I watched a good ______ last night.",
+            "hint_vi": "bộ phim",
+            "answer": "film"
+          },
+          {
+            "id": "q3",
+            "sentence": "The children are watching a ______.",
+            "hint_vi": "phim hoạt hình",
+            "answer": "cartoon"
+          },
+          {
+            "id": "q4",
+            "sentence": "We watched a ______ last night.",
+            "hint_vi": "phim hài",
+            "answer": "comedy"
+          },
+          {
+            "id": "q5",
+            "sentence": "This is a very exciting ______.",
+            "hint_vi": "phim ly kỳ",
+            "answer": "thriller"
+          },
+          {
+            "id": "q6",
+            "sentence": "He likes ______s.",
+            "hint_vi": "phim hành động",
+            "answer": "action film"
+          },
+          {
+            "id": "q7",
+            "sentence": "The ______ made a great film.",
+            "hint_vi": "đạo diễn",
+            "answer": "director"
+          },
+          {
+            "id": "q8",
+            "sentence": "The film was ______.",
+            "hint_vi": "nhàm chán",
+            "answer": "boring"
+          }
+        ]
+      },
+      {
+        "id": "u24-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which type of film has a lot of songs and dancing?",
+            "options": [
+              "a musical",
+              "a western",
+              "a thriller",
+              "a cartoon"
+            ],
+            "answer": "a musical"
+          },
+          {
+            "id": "q2",
+            "question": "Which type of film is about the future or space?",
+            "options": [
+              "science fiction",
+              "romantic comedy",
+              "horror",
+              "western"
+            ],
+            "answer": "science fiction"
+          },
+          {
+            "id": "q3",
+            "question": "Who acts in films?",
+            "options": [
+              "a film star",
+              "a director",
+              "a critic",
+              "a producer"
+            ],
+            "answer": "a film star"
+          },
+          {
+            "id": "q4",
+            "question": "Which word describes a film that isn't interesting?",
+            "options": [
+              "boring",
+              "delicious",
+              "famous",
+              "exciting"
+            ],
+            "answer": "boring"
+          },
+          {
+            "id": "q5",
+            "question": "Who makes decisions about how a film is made?",
+            "options": [
+              "a director",
+              "a film star",
+              "an actor",
+              "an audience"
+            ],
+            "answer": "a director"
+          },
+          {
+            "id": "q6",
+            "question": "A film about cowboys is called...",
+            "options": [
+              "a western",
+              "a musical",
+              "a cartoon",
+              "a comedy"
+            ],
+            "answer": "a western"
+          }
+        ]
+      },
+      {
+        "id": "u24-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"cartoon\" is usually drawn or animated.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"horror film\" is meant to be very funny.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "A \"director\" makes decisions about how a film is made.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Boring\" means very exciting and interesting.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "A \"thriller\" is usually exciting and suspenseful.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A \"film star\" is a famous actor in films.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u24-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "MEACIN",
+            "answer": "CINEMA"
+          },
+          {
+            "id": "q2",
+            "scrambled": "LFIM",
+            "answer": "FILM"
+          },
+          {
+            "id": "q3",
+            "scrambled": "YMDECO",
+            "answer": "COMEDY"
+          },
+          {
+            "id": "q4",
+            "scrambled": "RRELHITL",
+            "answer": "THRILLER"
+          },
+          {
+            "id": "q5",
+            "scrambled": "NRTOACO",
+            "answer": "CARTOON"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ROTDCERI",
+            "answer": "DIRECTOR"
+          }
+        ]
+      }
+    ]
+  },
+  25: {
+    "unit": {
+      "id": "unit-25-free-time",
+      "title": "Unit 25: Free Time at Home",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u25-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "TV",
+            "right": "TV, tivi"
+          },
+          {
+            "left": "radio",
+            "right": "đài radio"
+          },
+          {
+            "left": "music",
+            "right": "âm nhạc"
+          },
+          {
+            "left": "headphones",
+            "right": "tai nghe"
+          },
+          {
+            "left": "hobby",
+            "right": "sở thích"
+          },
+          {
+            "left": "novel",
+            "right": "tiểu thuyết"
+          },
+          {
+            "left": "comic",
+            "right": "truyện tranh"
+          },
+          {
+            "left": "newspaper",
+            "right": "báo, tờ báo"
+          },
+          {
+            "left": "gardening",
+            "right": "việc làm vườn"
+          },
+          {
+            "left": "cooking",
+            "right": "việc nấu ăn"
+          }
+        ]
+      },
+      {
+        "id": "u25-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "TV",
+          "radio",
+          "music",
+          "headphones",
+          "hobby",
+          "novel",
+          "newspaper",
+          "gardening"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I watch ______ every evening.",
+            "hint_vi": "TV",
+            "answer": "TV"
+          },
+          {
+            "id": "q2",
+            "sentence": "My father listens to the ______.",
+            "hint_vi": "đài radio",
+            "answer": "radio"
+          },
+          {
+            "id": "q3",
+            "sentence": "I like listening to ______.",
+            "hint_vi": "âm nhạc",
+            "answer": "music"
+          },
+          {
+            "id": "q4",
+            "sentence": "I use ______ on the bus.",
+            "hint_vi": "tai nghe",
+            "answer": "headphones"
+          },
+          {
+            "id": "q5",
+            "sentence": "Reading is my favourite ______.",
+            "hint_vi": "sở thích",
+            "answer": "hobby"
+          },
+          {
+            "id": "q6",
+            "sentence": "I am reading a ______.",
+            "hint_vi": "tiểu thuyết",
+            "answer": "novel"
+          },
+          {
+            "id": "q7",
+            "sentence": "My dad reads the ______ every morning.",
+            "hint_vi": "báo",
+            "answer": "newspaper"
+          },
+          {
+            "id": "q8",
+            "sentence": "My mother likes ______.",
+            "hint_vi": "làm vườn",
+            "answer": "gardening"
+          }
+        ]
+      },
+      {
+        "id": "u25-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What do you call a story book that isn't true?",
+            "options": [
+              "a novel",
+              "a newspaper",
+              "a comic",
+              "a magazine"
+            ],
+            "answer": "a novel"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'tải xuống'?",
+            "options": [
+              "download",
+              "upload",
+              "watch",
+              "listen"
+            ],
+            "answer": "download"
+          },
+          {
+            "id": "q3",
+            "question": "What do you use to listen to music privately?",
+            "options": [
+              "headphones",
+              "a novel",
+              "a newspaper",
+              "a comic"
+            ],
+            "answer": "headphones"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'mời bạn bè đến nhà'?",
+            "options": [
+              "have friends round",
+              "do nothing",
+              "have a sleep",
+              "talk to"
+            ],
+            "answer": "have friends round"
+          },
+          {
+            "id": "q5",
+            "question": "What do you call books with pictures and speech bubbles?",
+            "options": [
+              "comics",
+              "novels",
+              "newspapers",
+              "magazines"
+            ],
+            "answer": "comics"
+          },
+          {
+            "id": "q6",
+            "question": "\"Have a sleep\" means...",
+            "options": [
+              "chợp mắt, ngủ một giấc ngắn",
+              "đi ngủ buổi tối",
+              "thức dậy sớm",
+              "mơ"
+            ],
+            "answer": "chợp mắt, ngủ một giấc ngắn"
+          }
+        ]
+      },
+      {
+        "id": "u25-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"hobby\" is something you enjoy doing in your free time.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Gardening\" means reading books.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "Headphones are used to listen to music privately.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Do nothing\" means to be very busy.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "A \"comic\" usually has pictures and speech bubbles.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Chat to my friend online\" means talking through the internet.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u25-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "OIRAD",
+            "answer": "RADIO"
+          },
+          {
+            "id": "q2",
+            "scrambled": "CSMUI",
+            "answer": "MUSIC"
+          },
+          {
+            "id": "q3",
+            "scrambled": "VELON",
+            "answer": "NOVEL"
+          },
+          {
+            "id": "q4",
+            "scrambled": "MICOC",
+            "answer": "COMIC"
+          },
+          {
+            "id": "q5",
+            "scrambled": "SEPAWPRENA",
+            "answer": "NEWSPAPER"
+          },
+          {
+            "id": "q6",
+            "scrambled": "YHBOB",
+            "answer": "HOBBY"
+          }
+        ]
+      }
+    ]
   }
 };

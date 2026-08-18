@@ -4348,5 +4348,771 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  21: {
+    "unit": {
+      "id": "u21d",
+      "title": "Unit 21: In a Hotel",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u21d-ex1-dialogue",
+        "type": "word_from_definition",
+        "title": "21.1. Look at the pictures and complete the dialogue with words.",
+        "instructions_vi": "Nhìn hình và điền từ phù hợp vào chỗ trống trong đoạn hội thoại tại khách sạn.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "CUSTOMER: Can I have a ______ room for tonight, please?",
+            "image": "images/exercises/u21-hotel-double.jpg",
+            "answer": "double",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "RECEPTIONIST: Would you like a room with a ______?",
+            "image": "images/exercises/u21-hotel-shower.jpg",
+            "answer": "shower"
+          },
+          {
+            "id": "q3",
+            "clue": "CUSTOMER: Yes, please. And with a ______, please.",
+            "image": "images/exercises/u21-hotel-tv.jpg",
+            "answer": "TV"
+          },
+          {
+            "id": "q4",
+            "clue": "RECEPTIONIST: All our rooms have a TV, a ______ and a hairdryer.",
+            "image": "images/exercises/u21-hotel-phone.jpg",
+            "answer": "phone"
+          },
+          {
+            "id": "q5",
+            "clue": "...and a phone and a ______.",
+            "image": "images/exercises/u21-hotel-hairdryer.jpg",
+            "answer": "hairdryer"
+          },
+          {
+            "id": "q6",
+            "clue": "I can give you room 25. It has a view of the ______.",
+            "image": "images/exercises/u21-hotel-sea.jpg",
+            "answer": "sea"
+          },
+          {
+            "id": "q7",
+            "clue": "Here is your ______.",
+            "image": "images/exercises/u21-hotel-key.jpg",
+            "answer": "key"
+          },
+          {
+            "id": "q8",
+            "clue": "The ______ is over there. The room's on the second floor.",
+            "image": "images/exercises/u21-hotel-lift.jpg",
+            "answer": "lift"
+          }
+        ]
+      },
+      {
+        "id": "u21d-ex2-matching",
+        "type": "matching",
+        "title": "21.2. Match what you want on the left with what you need on the right.",
+        "instructions_vi": "Nối điều bạn muốn (bên trái) với thứ bạn cần (bên phải).",
+        "pairs": [
+          {
+            "left": "to have a drink in your room",
+            "right": "a mini-bar"
+          },
+          {
+            "left": "to go to the top floor",
+            "right": "the lift"
+          },
+          {
+            "left": "to open your door",
+            "right": "a key"
+          },
+          {
+            "left": "to get up at 6 am",
+            "right": "a wake-up call"
+          },
+          {
+            "left": "to phone your country",
+            "right": "an outside line"
+          },
+          {
+            "left": "to watch the news",
+            "right": "a TV"
+          },
+          {
+            "left": "to wash your hair",
+            "right": "a shower"
+          },
+          {
+            "left": "to dry your hair",
+            "right": "a hairdryer"
+          }
+        ]
+      },
+      {
+        "id": "u21d-ex3-choose",
+        "type": "multiple_choice",
+        "title": "21.3. Choose the right words to complete these sentences.",
+        "instructions_vi": "Chọn câu đúng trong 2 lựa chọn cho mỗi câu (mỗi câu gốc có 2 từ để lựa chọn, đáp án đúng là câu dùng đúng cả 2 từ).",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "1. At reception / reservation you can order room / lift service.",
+            "options": [
+              "At reception you can order room service.",
+              "At reservation you can order lift service."
+            ],
+            "answer": "At reception you can order room service."
+          },
+          {
+            "id": "q2",
+            "question": "2. We'd like a two / double room with a view / see of the garden, please.",
+            "options": [
+              "We'd like a double room with a view of the garden, please.",
+              "We'd like a two room with a see of the garden, please."
+            ],
+            "answer": "We'd like a double room with a view of the garden, please."
+          },
+          {
+            "id": "q3",
+            "question": "3. The lift is after / over there. Take it to the second floor / room.",
+            "options": [
+              "The lift is over there. Take it to the second floor.",
+              "The lift is after there. Take it to the second room."
+            ],
+            "answer": "The lift is over there. Take it to the second floor."
+          },
+          {
+            "id": "q4",
+            "question": "4. Please fill / write in this form / bill.",
+            "options": [
+              "Please fill in this form.",
+              "Please write in this bill."
+            ],
+            "answer": "Please fill in this form."
+          },
+          {
+            "id": "q5",
+            "question": "5. I'd like a sit-up / wake-up call at 7.30 and I'd like to make / have breakfast in my room, please.",
+            "options": [
+              "I'd like a wake-up call at 7.30 and I'd like to have breakfast in my room, please.",
+              "I'd like a sit-up call at 7.30 and I'd like to make breakfast in my room, please."
+            ],
+            "answer": "I'd like a wake-up call at 7.30 and I'd like to have breakfast in my room, please."
+          },
+          {
+            "id": "q6",
+            "question": "6. I have a luggage / reservation for a single / one room with a bathroom.",
+            "options": [
+              "I have a reservation for a single room with a bathroom.",
+              "I have a luggage for a one room with a bathroom."
+            ],
+            "answer": "I have a reservation for a single room with a bathroom."
+          },
+          {
+            "id": "q7",
+            "question": "7. Can I cash / have the bill, please? I'll check / change it now.",
+            "options": [
+              "Can I have the bill, please? I'll check it now.",
+              "Can I cash the bill, please? I'll change it now."
+            ],
+            "answer": "Can I have the bill, please? I'll check it now."
+          },
+          {
+            "id": "q8",
+            "question": "8. I'm leaving today. Can I exchange / order some dollars here before I pay / check out?",
+            "options": [
+              "I'm leaving today. Can I exchange some dollars here before I check out?",
+              "I'm leaving today. Can I order some dollars here before I pay out?"
+            ],
+            "answer": "I'm leaving today. Can I exchange some dollars here before I check out?"
+          }
+        ]
+      }
+    ]
+  },
+  22: {
+    "unit": {
+      "id": "u22d",
+      "title": "Unit 22: Eating Out",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u22d-ex1-wheretogo",
+        "type": "word_from_definition",
+        "title": "22.1. Look at this words. Where would you go to...?",
+        "instructions_vi": "Đọc câu hỏi và cho biết bạn sẽ đến đâu.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "buy a meal and take it home to eat?",
+            "answer": "a take-away",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "have a romantic dinner for two?",
+            "answer": "a restaurant",
+            "accepted_answers": [
+              "restaurant"
+            ]
+          },
+          {
+            "id": "q3",
+            "clue": "eat a quick lunch?",
+            "answer": "a fast food restaurant",
+            "accepted_answers": [
+              "fast food restaurant"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue": "have a cake and a cup of coffee?",
+            "answer": "a café",
+            "accepted_answers": [
+              "café"
+            ]
+          },
+          {
+            "id": "q5",
+            "clue": "drink a glass of wine with friends?",
+            "answer": "a bar",
+            "accepted_answers": [
+              "a pub",
+              "bar",
+              "pub"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u22d-ex2-menu",
+        "type": "fill_in_the_blank",
+        "title": "22.2. Choose one of the words in the box which can go with each of the words in each group.",
+        "instructions_vi": "Chọn từ trong Word Bank phù hợp với từng nhóm câu.",
+        "word_bank": [
+          "soup",
+          "curry",
+          "salad",
+          "pie",
+          "steak"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "You can have tomato / vegetable / chicken ______ as a starter.",
+            "answer": "soup",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "I'd like the beef / chicken / vegetable ______ as a main course.",
+            "answer": "curry"
+          },
+          {
+            "id": "q3",
+            "sentence": "I'll have the mixed / tomato / fruit ______.",
+            "answer": "salad"
+          },
+          {
+            "id": "q4",
+            "sentence": "Can I have the apple / chicken ______, please.",
+            "answer": "pie"
+          },
+          {
+            "id": "q5",
+            "sentence": "Do you like your ______ well-done, medium or rare?",
+            "answer": "steak"
+          }
+        ]
+      },
+      {
+        "id": "u22d-ex3-corrections",
+        "type": "dialogue_error_correction",
+        "title": "22.3. Correct the six mistakes in this dialogue.",
+        "instructions_vi": "Tìm và sửa 6 lỗi sai trong đoạn hội thoại ở nhà hàng.",
+        "original_dialogue": "WAITER: Are you ready for order? to\nCUSTOMER: Yes. I like vegetable soup and steak, please.\nWAITER: What would you like your steak? Rare, medium or done good?\nCUSTOMER: Rare, please.\nWAITER: What you would like to drink?\nCUSTOMER: A orange juice, please.",
+        "corrections": [
+          {
+            "id": "q1",
+            "wrong": "Are you ready for order? to",
+            "correct": "Are you ready to order?",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "wrong": "I like vegetable soup and steak, please.",
+            "correct": "I'd like vegetable soup and steak, please."
+          },
+          {
+            "id": "q3",
+            "wrong": "What would you like your steak? Rare, medium or done good?",
+            "correct": "How would you like your steak? Rare, medium or well-done?"
+          },
+          {
+            "id": "q4",
+            "wrong": "What you would like to drink?",
+            "correct": "What would you like to drink?"
+          },
+          {
+            "id": "q5",
+            "wrong": "A orange juice, please.",
+            "correct": "An orange juice, please."
+          }
+        ]
+      }
+    ]
+  },
+  23: {
+    "unit": {
+      "id": "u23d",
+      "title": "Unit 23: Sports",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u23d-ex1-sports",
+        "type": "word_from_definition",
+        "title": "23.1. What are these sports?",
+        "instructions_vi": "Nhìn hình và viết tên môn thể thao.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Đây là môn gì?",
+            "image": "images/exercises/u23-sport-rugby.jpg",
+            "answer": "rugby",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Đây là môn gì?",
+            "image": "images/exercises/u23-sport-swimming.jpg",
+            "answer": "swimming"
+          },
+          {
+            "id": "q3",
+            "clue": "Đây là môn gì?",
+            "image": "images/exercises/u23-sport-judo.jpg",
+            "answer": "judo",
+            "accepted_answers": [
+              "karate"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue": "Đây là môn gì?",
+            "image": "images/exercises/u23-sport-sailing.jpg",
+            "answer": "sailing"
+          },
+          {
+            "id": "q5",
+            "clue": "Đây là môn gì?",
+            "image": "images/exercises/u23-sport-volleyball.jpg",
+            "answer": "volleyball"
+          },
+          {
+            "id": "q6",
+            "clue": "Đây là môn gì?",
+            "image": "images/exercises/u23-sport-motorracing.jpg",
+            "answer": "motor racing"
+          }
+        ]
+      },
+      {
+        "id": "u23d-ex2-equipment",
+        "type": "word_from_definition",
+        "title": "23.2. Which sports use these things?",
+        "instructions_vi": "Nhìn hình dụng cụ và cho biết đó là môn thể thao nào. Lưu ý một số câu có thể có nhiều hơn một đáp án đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Môn thể thao nào?",
+            "image": "images/exercises/u23-equip-kayaking.jpg",
+            "answer": "kayaking",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Môn thể thao nào?",
+            "image": "images/exercises/u23-equip-badminton.jpg",
+            "answer": "badminton"
+          },
+          {
+            "id": "q3",
+            "clue": "Môn thể thao nào?",
+            "image": "images/exercises/u23-equip-tabletennis.jpg",
+            "answer": "table tennis"
+          },
+          {
+            "id": "q4",
+            "clue": "Môn thể thao nào?",
+            "image": "images/exercises/u23-equip-snowboarding.jpg",
+            "answer": "snowboarding"
+          },
+          {
+            "id": "q5",
+            "clue": "Môn thể thao nào?",
+            "image": "images/exercises/u23-equip-baseball.jpg",
+            "answer": "baseball"
+          },
+          {
+            "id": "q6",
+            "clue": "Môn thể thao nào?",
+            "image": "images/exercises/u23-equip-basketball.jpg",
+            "answer": "basketball"
+          },
+          {
+            "id": "q7",
+            "clue": "Môn thể thao nào?",
+            "image": "images/exercises/u23-equip-skiing.jpg",
+            "answer": "skiing"
+          },
+          {
+            "id": "q8",
+            "clue": "Môn thể thao nào?",
+            "image": "images/exercises/u23-equip-americanfootball.jpg",
+            "answer": "American football"
+          }
+        ]
+      },
+      {
+        "id": "u23d-ex3-questions",
+        "type": "question_formation",
+        "title": "23.3. Ask questions for these answers.",
+        "instructions_vi": "Đặt câu hỏi phù hợp cho mỗi câu trả lời cho sẵn.",
+        "questions": [
+          {
+            "id": "q1",
+            "given_answer": "On a tennis court.",
+            "answer": "Where do people play tennis?",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "given_answer": "Yes, but only American football.",
+            "answer": "Do you play football?"
+          },
+          {
+            "id": "q3",
+            "given_answer": "No, I don't do any at all. I prefer watching TV.",
+            "answer": "Do you do any sports?"
+          },
+          {
+            "id": "q4",
+            "given_answer": "Yes, I go to the swimming pool every Friday.",
+            "answer": "Do you go swimming?",
+            "accepted_answers": [
+              "Do you like swimming?",
+              "Do you swim?"
+            ]
+          },
+          {
+            "id": "q5",
+            "given_answer": "I like running best.",
+            "answer": "What is your favourite sport?"
+          },
+          {
+            "id": "q6",
+            "given_answer": "On a rugby pitch.",
+            "answer": "Where do people play rugby?"
+          }
+        ]
+      }
+    ]
+  },
+  24: {
+    "unit": {
+      "id": "u24d",
+      "title": "Unit 24: Cinema",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u24d-ex1-filmtypes",
+        "type": "word_from_definition",
+        "title": "24.1. What types of films are these?",
+        "instructions_vi": "Đọc mô tả và cho biết đó là thể loại phim gì.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Some cowboys rob a train.",
+            "answer": "western",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "A flying saucer lands from Mars.",
+            "answer": "science fiction"
+          },
+          {
+            "id": "q3",
+            "clue": "A dead person comes back to life.",
+            "answer": "horror"
+          },
+          {
+            "id": "q4",
+            "clue": "James Bond saves the world.",
+            "answer": "action"
+          },
+          {
+            "id": "q5",
+            "clue": "Mickey Mouse goes on a picnic.",
+            "answer": "cartoon"
+          },
+          {
+            "id": "q6",
+            "clue": "A man falls in love with his teacher.",
+            "answer": "romantic comedy"
+          },
+          {
+            "id": "q7",
+            "clue": "A dead body is found in the river.",
+            "answer": "thriller"
+          },
+          {
+            "id": "q8",
+            "clue": "There are lots of songs and dancing.",
+            "answer": "musical"
+          }
+        ]
+      },
+      {
+        "id": "u24d-ex2-puzzle",
+        "type": "crossword",
+        "title": "24.2. Word puzzle. Can you make words for other types of films with the letters of ROMANTIC?",
+        "instructions_vi": "Điền từ khớp với mẫu chữ cái cho sẵn (mỗi chữ cái trong mẫu là 1 chữ đã biết, dấu gạch dưới là chữ còn thiếu).",
+        "clues": [
+          {
+            "number": 1,
+            "direction": "across",
+            "clue": "Mẫu chữ cái: T H R I L L E R",
+            "answer": "thriller",
+            "example": true
+          },
+          {
+            "number": 2,
+            "direction": "across",
+            "clue": "Mẫu chữ cái: _ O _ _ _ R",
+            "answer": "horror"
+          },
+          {
+            "number": 3,
+            "direction": "across",
+            "clue": "Mẫu chữ cái: C _ M _ _ Y",
+            "answer": "comedy"
+          },
+          {
+            "number": 4,
+            "direction": "across",
+            "clue": "Mẫu chữ cái: A _ T _ _ N",
+            "answer": "action"
+          },
+          {
+            "number": 5,
+            "direction": "across",
+            "clue": "Mẫu chữ cái: S _ _ _ N C _ F _ _ _ _ _ N",
+            "answer": "science fiction"
+          },
+          {
+            "number": 6,
+            "direction": "across",
+            "clue": "Mẫu chữ cái: W _ _ T _ _ N",
+            "answer": "western"
+          },
+          {
+            "number": 7,
+            "direction": "across",
+            "clue": "Mẫu chữ cái: M _ _ I C _ L",
+            "answer": "musical"
+          },
+          {
+            "number": 8,
+            "direction": "across",
+            "clue": "Mẫu chữ cái: C A _ _ O O _",
+            "answer": "cartoon"
+          }
+        ]
+      },
+      {
+        "id": "u24d-ex3-fill",
+        "type": "fill_in_the_blank",
+        "title": "24.3. Fill the gaps in these sentences.",
+        "instructions_vi": "Điền từ phù hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Do you prefer going to the cinema or watching TV?",
+            "answer": "going",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "We ______ a DVD last night.",
+            "answer": "watched"
+          },
+          {
+            "id": "q3",
+            "sentence": "Who ______ James Bond in Skyfall?",
+            "answer": "played"
+          },
+          {
+            "id": "q4",
+            "sentence": "Was Rachel Weisz ______ The Constant Gardener?",
+            "answer": "in"
+          },
+          {
+            "id": "q5",
+            "sentence": "Lots of big ______ live in Hollywood.",
+            "answer": "film stars"
+          },
+          {
+            "id": "q6",
+            "sentence": "Steven Spielberg is a famous American film ______.",
+            "answer": "director"
+          }
+        ]
+      }
+    ]
+  },
+  25: {
+    "unit": {
+      "id": "u25d",
+      "title": "Unit 25: Free Time at Home",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u25d-ex1-doing",
+        "type": "sentence_construction",
+        "title": "25.1. What are these people doing?",
+        "instructions_vi": "Nhìn hình và viết câu mô tả hành động, dùng thì hiện tại tiếp diễn.",
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "",
+            "image": "images/exercises/u25-doing-watchingtv.jpg",
+            "answer": "She's watching TV.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "",
+            "image": "images/exercises/u25-doing-gardening.jpg",
+            "answer": "He's gardening.",
+            "required_keywords": [
+              "gardening"
+            ]
+          },
+          {
+            "id": "q3",
+            "situation": "",
+            "image": "images/exercises/u25-doing-readingnewspaper.jpg",
+            "answer": "He's reading a newspaper.",
+            "required_keywords": [
+              "reading",
+              "newspaper"
+            ]
+          },
+          {
+            "id": "q4",
+            "situation": "",
+            "image": "images/exercises/u25-doing-cooking.jpg",
+            "answer": "He's cooking.",
+            "required_keywords": [
+              "cooking"
+            ]
+          },
+          {
+            "id": "q5",
+            "situation": "",
+            "image": "images/exercises/u25-doing-usinginternet.jpg",
+            "answer": "She's using the Internet.",
+            "required_keywords": [
+              "using"
+            ]
+          },
+          {
+            "id": "q6",
+            "situation": "",
+            "image": "images/exercises/u25-doing-listeningmusic.jpg",
+            "answer": "He's listening to music.",
+            "required_keywords": [
+              "listening",
+              "music"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u25d-ex2-verbs",
+        "type": "fill_in_the_blank",
+        "title": "25.2. Fill in the missing verbs.",
+        "instructions_vi": "Điền động từ phù hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I usually listen to music on my laptop at home.",
+            "answer": "listen",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "I like ______ magazines more than newspapers.",
+            "answer": "reading"
+          },
+          {
+            "id": "q3",
+            "sentence": "I ______ to my sister on the phone every Sunday.",
+            "answer": "talk"
+          },
+          {
+            "id": "q4",
+            "sentence": "A lot of people like to ______ a sleep after lunch.",
+            "answer": "have"
+          },
+          {
+            "id": "q5",
+            "sentence": "Do you ever ______ friends to dinner?",
+            "answer": "have",
+            "accepted_answers": [
+              "invite"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "The children ______ video games every evening.",
+            "answer": "play"
+          },
+          {
+            "id": "q7",
+            "sentence": "I want to ______ some music from the Internet this evening.",
+            "answer": "download"
+          },
+          {
+            "id": "q8",
+            "sentence": "Did you ______ the programme about Namibia yesterday?",
+            "answer": "see",
+            "accepted_answers": [
+              "watch"
+            ]
+          },
+          {
+            "id": "q9",
+            "sentence": "My dad ______ vegetables in his garden.",
+            "answer": "grows"
+          },
+          {
+            "id": "q10",
+            "sentence": "Shall we ______ a DVD tonight?",
+            "answer": "watch"
+          }
+        ]
+      }
+    ]
   }
 };

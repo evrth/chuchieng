@@ -4890,27 +4890,1184 @@ const VOCAB_UNITS = [
   {
     "id": 21,
     "title": "In a hotel",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "key",
+        "ipa": "/kiː/",
+        "meaning": "chìa khóa",
+        "example": "Here is your key.",
+        "exampleVi": "Đây là chìa khóa của bạn."
+      },
+      {
+        "type": "Noun",
+        "word": "reception",
+        "ipa": "/rɪˈsepʃən/",
+        "meaning": "quầy lễ tân, khu vực lễ tân",
+        "example": "The reception is downstairs.",
+        "exampleVi": "Quầy lễ tân ở tầng dưới."
+      },
+      {
+        "type": "Noun",
+        "word": "lift",
+        "ipa": "/lɪft/",
+        "meaning": "thang máy",
+        "example": "Take the lift to the second floor.",
+        "exampleVi": "Đi thang máy lên tầng hai."
+      },
+      {
+        "type": "Noun",
+        "word": "bill",
+        "ipa": "/bɪl/",
+        "meaning": "hóa đơn",
+        "example": "Can I have the bill, please?",
+        "exampleVi": "Cho tôi xin hóa đơn được không?"
+      },
+      {
+        "type": "Noun",
+        "word": "luggage",
+        "ipa": "/ˈlʌɡɪdʒ/",
+        "meaning": "hành lý",
+        "example": "Your luggage is here.",
+        "exampleVi": "Hành lý của bạn ở đây."
+      },
+      {
+        "type": "Noun",
+        "word": "form",
+        "ipa": "/fɔːrm/",
+        "meaning": "biểu mẫu, phiếu",
+        "example": "Please fill in this form.",
+        "exampleVi": "Vui lòng điền vào biểu mẫu này."
+      },
+      {
+        "type": "Noun",
+        "word": "bathroom",
+        "ipa": "/ˈbæθruːm/",
+        "meaning": "phòng tắm, nhà vệ sinh",
+        "example": "The bathroom is very clean.",
+        "exampleVi": "Phòng tắm rất sạch."
+      },
+      {
+        "type": "Noun",
+        "word": "shower",
+        "ipa": "/ˈʃaʊər/",
+        "meaning": "vòi sen, phòng tắm vòi sen",
+        "example": "The room has a shower.",
+        "exampleVi": "Phòng có vòi sen."
+      },
+      {
+        "type": "Noun",
+        "word": "phone",
+        "ipa": "/foʊn/",
+        "meaning": "điện thoại",
+        "example": "There is a phone in the room.",
+        "exampleVi": "Có một chiếc điện thoại trong phòng."
+      },
+      {
+        "type": "Noun",
+        "word": "TV",
+        "ipa": "/ˌtiː ˈviː/",
+        "meaning": "TV, tivi",
+        "example": "There is a TV in my room.",
+        "exampleVi": "Có một chiếc TV trong phòng tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "mini-bar",
+        "ipa": "/ˈmɪni bɑːr/",
+        "meaning": "minibar, tủ đồ uống/đồ ăn nhỏ trong phòng",
+        "example": "There is a mini-bar in the room.",
+        "exampleVi": "Có một minibar trong phòng."
+      },
+      {
+        "type": "Noun",
+        "word": "hairdryer",
+        "ipa": "/ˈherˌdraɪər/",
+        "meaning": "máy sấy tóc",
+        "example": "There is a hairdryer in the bathroom.",
+        "exampleVi": "Có một máy sấy tóc trong phòng tắm."
+      },
+      {
+        "type": "Noun",
+        "word": "single room",
+        "ipa": "/ˈsɪŋɡəl ruːm/",
+        "meaning": "phòng đơn",
+        "example": "I'd like a single room.",
+        "exampleVi": "Tôi muốn một phòng đơn."
+      },
+      {
+        "type": "Noun",
+        "word": "double room",
+        "ipa": "/ˈdʌbəl ruːm/",
+        "meaning": "phòng đôi",
+        "example": "We booked a double room.",
+        "exampleVi": "Chúng tôi đã đặt một phòng đôi."
+      },
+      {
+        "type": "Noun",
+        "word": "reservation",
+        "ipa": "/ˌrezərˈveɪʃən/",
+        "meaning": "sự đặt phòng, đặt chỗ",
+        "example": "I have a reservation.",
+        "exampleVi": "Tôi có đặt phòng."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "room with a view",
+        "ipa": "/ruːm wɪð ə vjuː/",
+        "meaning": "phòng có tầm nhìn đẹp",
+        "example": "I'd like a room with a view.",
+        "exampleVi": "Tôi muốn một phòng có tầm nhìn đẹp."
+      },
+      {
+        "type": "Phrase",
+        "word": "Here is your key.",
+        "ipa": "/hɪr ɪz jʊr kiː/",
+        "meaning": "Đây là chìa khóa của bạn.",
+        "example": "Here is your key. Room 205.",
+        "exampleVi": "Đây là chìa khóa của bạn. Phòng 205."
+      },
+      {
+        "type": "Phrase",
+        "word": "on the first floor",
+        "ipa": "/ɑːn ðə ˈfɜːrst flɔːr/",
+        "meaning": "ở tầng một",
+        "example": "Your room is on the first floor.",
+        "exampleVi": "Phòng của bạn ở tầng một."
+      },
+      {
+        "type": "Phrase",
+        "word": "take the lift",
+        "ipa": "/teɪk ðə lɪft/",
+        "meaning": "đi thang máy",
+        "example": "Take the lift to the first floor.",
+        "exampleVi": "Đi thang máy lên tầng một."
+      },
+      {
+        "type": "Phrase",
+        "word": "over there",
+        "ipa": "/ˈoʊvər ðer/",
+        "meaning": "ở đằng kia",
+        "example": "The lift is over there.",
+        "exampleVi": "Thang máy ở đằng kia."
+      },
+      {
+        "type": "Phrase",
+        "word": "Would you like some help with your luggage?",
+        "ipa": "/wʊd ju laɪk sʌm help wɪð jʊr ˈlʌɡɪdʒ/",
+        "meaning": "Bạn có muốn tôi giúp mang hành lý không?",
+        "example": "Would you like some help with your luggage?",
+        "exampleVi": "Bạn có muốn tôi giúp mang hành lý không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "fill in this form",
+        "ipa": "/fɪl ɪn ðɪs fɔːrm/",
+        "meaning": "điền vào biểu mẫu này",
+        "example": "Please fill in this form.",
+        "exampleVi": "Vui lòng điền vào biểu mẫu này."
+      },
+      {
+        "type": "Phrase",
+        "word": "sign your name here",
+        "ipa": "/saɪn jʊr neɪm hɪr/",
+        "meaning": "ký tên vào đây",
+        "example": "Please sign your name here.",
+        "exampleVi": "Vui lòng ký tên vào đây."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "check your bill",
+        "ipa": "/tʃek jʊr bɪl/",
+        "meaning": "kiểm tra hóa đơn",
+        "example": "Please check your bill.",
+        "exampleVi": "Vui lòng kiểm tra hóa đơn của bạn."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "check out",
+        "ipa": "/tʃek aʊt/",
+        "meaning": "trả phòng",
+        "example": "We check out at 11 a.m.",
+        "exampleVi": "Chúng tôi trả phòng lúc 11 giờ sáng."
+      },
+      {
+        "type": "Question",
+        "word": "How much is ...?",
+        "ipa": "/haʊ mʌtʃ ɪz/",
+        "meaning": "... giá bao nhiêu?",
+        "example": "How much is a single room?",
+        "exampleVi": "Phòng đơn giá bao nhiêu?"
+      },
+      {
+        "type": "Noun",
+        "word": "room service",
+        "ipa": "/ˈruːm ˌsɜːrvɪs/",
+        "meaning": "dịch vụ phòng",
+        "example": "We ordered room service.",
+        "exampleVi": "Chúng tôi gọi dịch vụ phòng."
+      },
+      {
+        "type": "Question",
+        "word": "How do I get an outside line?",
+        "ipa": "/haʊ du aɪ ɡet ən aʊtˈsaɪd laɪn/",
+        "meaning": "Làm thế nào để gọi ra ngoài?",
+        "example": "How do I get an outside line?",
+        "exampleVi": "Làm thế nào để tôi gọi ra ngoài?"
+      },
+      {
+        "type": "Phrase",
+        "word": "the code for ...",
+        "ipa": "/ðə koʊd fɔːr/",
+        "meaning": "mã/số để gọi ...",
+        "example": "What is the code for London?",
+        "exampleVi": "Mã để gọi London là gì?"
+      },
+      {
+        "type": "Phrase",
+        "word": "have breakfast in my room",
+        "ipa": "/hæv ˈbrekfəst ɪn maɪ ruːm/",
+        "meaning": "ăn sáng trong phòng",
+        "example": "I'd like to have breakfast in my room.",
+        "exampleVi": "Tôi muốn ăn sáng trong phòng."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a wake-up call",
+        "ipa": "/hæv ə ˈweɪk ʌp kɔːl/",
+        "meaning": "yêu cầu cuộc gọi đánh thức",
+        "example": "I'd like to have a wake-up call at 7.",
+        "exampleVi": "Tôi muốn có cuộc gọi đánh thức lúc 7 giờ."
+      },
+      {
+        "type": "Question",
+        "word": "What time is ...?",
+        "ipa": "/wʌt taɪm ɪz/",
+        "meaning": "... lúc mấy giờ?",
+        "example": "What time is breakfast?",
+        "exampleVi": "Bữa sáng lúc mấy giờ?"
+      },
+      {
+        "type": "Verb phrase",
+        "word": "change some money",
+        "ipa": "/tʃeɪndʒ sʌm ˈmʌni/",
+        "meaning": "đổi một ít tiền",
+        "example": "I'd like to change some money.",
+        "exampleVi": "Tôi muốn đổi một ít tiền."
+      }
+    ]
   },
   {
     "id": 22,
     "title": "Eating out",
-    "words": []
+    "words": [
+      {
+        "type": "Noun phrase",
+        "word": "a cup of",
+        "ipa": "/ə kʌp əv/",
+        "meaning": "một cốc/tách ...",
+        "example": "I'd like a cup of tea.",
+        "exampleVi": "Tôi muốn một tách trà."
+      },
+      {
+        "type": "Noun",
+        "word": "coffee",
+        "ipa": "/ˈkɔːfi/",
+        "meaning": "cà phê",
+        "example": "I drink coffee in the morning.",
+        "exampleVi": "Tôi uống cà phê vào buổi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "tea",
+        "ipa": "/tiː/",
+        "meaning": "trà",
+        "example": "Would you like some tea?",
+        "exampleVi": "Bạn có muốn uống trà không?"
+      },
+      {
+        "type": "Noun",
+        "word": "snack",
+        "ipa": "/snæk/",
+        "meaning": "đồ ăn nhẹ, món ăn vặt",
+        "example": "I have a snack after school.",
+        "exampleVi": "Tôi ăn nhẹ sau giờ học."
+      },
+      {
+        "type": "Noun",
+        "word": "meals",
+        "ipa": "/miːlz/",
+        "meaning": "các bữa ăn",
+        "example": "We have three meals a day.",
+        "exampleVi": "Chúng tôi có ba bữa ăn một ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "restaurant",
+        "ipa": "/ˈrestərɑːnt/",
+        "meaning": "nhà hàng",
+        "example": "We eat at a restaurant on Sunday.",
+        "exampleVi": "Chúng tôi ăn ở nhà hàng vào Chủ nhật."
+      },
+      {
+        "type": "Noun",
+        "word": "bar",
+        "ipa": "/bɑːr/",
+        "meaning": "quán bar",
+        "example": "They are sitting in a bar.",
+        "exampleVi": "Họ đang ngồi trong quán bar."
+      },
+      {
+        "type": "Noun",
+        "word": "pub",
+        "ipa": "/pʌb/",
+        "meaning": "quán rượu/quán pub",
+        "example": "We met at the pub.",
+        "exampleVi": "Chúng tôi gặp nhau ở quán pub."
+      },
+      {
+        "type": "Noun",
+        "word": "alcohol",
+        "ipa": "/ˈælkəhɔːl/",
+        "meaning": "đồ uống có cồn, rượu",
+        "example": "I don't drink alcohol.",
+        "exampleVi": "Tôi không uống đồ có cồn."
+      },
+      {
+        "type": "Noun",
+        "word": "soft drink",
+        "ipa": "/ˌsɔːft ˈdrɪŋk/",
+        "meaning": "nước ngọt, đồ uống không cồn",
+        "example": "I'd like a soft drink, please.",
+        "exampleVi": "Tôi muốn một ly nước ngọt."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "fast food restaurant",
+        "ipa": "/ˌfæst ˈfuːd ˌrestərɑːnt/",
+        "meaning": "nhà hàng đồ ăn nhanh",
+        "example": "There is a fast food restaurant near here.",
+        "exampleVi": "Có một nhà hàng đồ ăn nhanh gần đây."
+      },
+      {
+        "type": "Noun",
+        "word": "take-away",
+        "ipa": "/ˈteɪkəweɪ/",
+        "meaning": "đồ ăn mua mang đi",
+        "example": "We ordered a take-away.",
+        "exampleVi": "Chúng tôi gọi đồ ăn mang đi."
+      },
+      {
+        "type": "Noun",
+        "word": "menu",
+        "ipa": "/ˈmenjuː/",
+        "meaning": "thực đơn",
+        "example": "Can I see the menu, please?",
+        "exampleVi": "Cho tôi xem thực đơn được không?"
+      },
+      {
+        "type": "Noun",
+        "word": "starter",
+        "ipa": "/ˈstɑːrtər/",
+        "meaning": "món khai vị",
+        "example": "I had soup for my starter.",
+        "exampleVi": "Tôi dùng súp làm món khai vị."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "soup of the day",
+        "ipa": "/suːp əv ðə deɪ/",
+        "meaning": "món súp trong ngày",
+        "example": "What's the soup of the day?",
+        "exampleVi": "Món súp hôm nay là gì?"
+      },
+      {
+        "type": "Noun phrase",
+        "word": "mixed salad",
+        "ipa": "/mɪkst ˈsæləd/",
+        "meaning": "salad trộn",
+        "example": "I'd like a mixed salad.",
+        "exampleVi": "Tôi muốn một phần salad trộn."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "main course",
+        "ipa": "/ˌmeɪn ˈkɔːrs/",
+        "meaning": "món chính",
+        "example": "Fish is my main course.",
+        "exampleVi": "Cá là món chính của tôi."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "steak with chips or new potatoes",
+        "ipa": "/steɪk wɪð tʃɪps ɔːr nuː pəˈteɪtoʊz/",
+        "meaning": "bít tết với khoai tây chiên hoặc khoai tây mới",
+        "example": "I'll have steak with chips, please.",
+        "exampleVi": "Tôi sẽ gọi bít tết với khoai tây chiên."
+      },
+      {
+        "type": "Noun",
+        "word": "fish and chips",
+        "ipa": "/ˌfɪʃ ən ˈtʃɪps/",
+        "meaning": "cá và khoai tây chiên",
+        "example": "I like fish and chips.",
+        "exampleVi": "Tôi thích món cá và khoai tây chiên."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "vegetable curry",
+        "ipa": "/ˈvedʒtəbəl ˈkɜːri/",
+        "meaning": "cà ri rau củ",
+        "example": "She ordered a vegetable curry.",
+        "exampleVi": "Cô ấy gọi món cà ri rau củ."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "salmon fillet with green beans",
+        "ipa": "/ˈsæmən fɪˈleɪ wɪð ɡriːn biːnz/",
+        "meaning": "phi lê cá hồi với đậu cô-ve",
+        "example": "He ordered salmon fillet with green beans.",
+        "exampleVi": "Anh ấy gọi phi lê cá hồi với đậu cô-ve."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "burger with chips and mushrooms",
+        "ipa": "/ˈbɜːrɡər wɪð tʃɪps ən ˈmʌʃruːmz/",
+        "meaning": "burger với khoai tây chiên và nấm",
+        "example": "I'd like a burger with chips and mushrooms.",
+        "exampleVi": "Tôi muốn một burger với khoai tây chiên và nấm."
+      },
+      {
+        "type": "Noun",
+        "word": "dessert",
+        "ipa": "/dɪˈzɜːrt/",
+        "meaning": "món tráng miệng",
+        "example": "Do you want dessert?",
+        "exampleVi": "Bạn có muốn món tráng miệng không?"
+      },
+      {
+        "type": "Noun phrase",
+        "word": "chocolate ice cream",
+        "ipa": "/ˈtʃɑːklət ˌaɪs ˈkriːm/",
+        "meaning": "kem sô-cô-la",
+        "example": "I'd like chocolate ice cream.",
+        "exampleVi": "Tôi muốn kem sô-cô-la."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "apple ice",
+        "ipa": "/ˈæpəl aɪs/",
+        "meaning": "kem đá/vị táo",
+        "example": "She had apple ice for dessert.",
+        "exampleVi": "Cô ấy dùng kem đá vị táo làm món tráng miệng."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "fruit salad",
+        "ipa": "/ˈfruːt ˌsæləd/",
+        "meaning": "salad trái cây",
+        "example": "I'll have a fruit salad.",
+        "exampleVi": "Tôi sẽ gọi salad trái cây."
+      },
+      {
+        "type": "Phrase",
+        "word": "ready to order",
+        "ipa": "/ˈredi tə ˈɔːrdər/",
+        "meaning": "sẵn sàng gọi món",
+        "example": "Are you ready to order?",
+        "exampleVi": "Bạn đã sẵn sàng gọi món chưa?"
+      },
+      {
+        "type": "Phrase",
+        "word": "I'd like",
+        "ipa": "/aɪd laɪk/",
+        "meaning": "tôi muốn gọi/muốn có",
+        "example": "I'd like a coffee, please.",
+        "exampleVi": "Tôi muốn một ly cà phê."
+      },
+      {
+        "type": "Phrase",
+        "word": "Would you like ...?",
+        "ipa": "/wʊd ju laɪk/",
+        "meaning": "bạn có muốn ... không?",
+        "example": "Would you like some tea?",
+        "exampleVi": "Bạn có muốn uống trà không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "How would you like ...?",
+        "ipa": "/haʊ wʊd ju laɪk/",
+        "meaning": "bạn muốn ... như thế nào?",
+        "example": "How would you like your steak?",
+        "exampleVi": "Bạn muốn bít tết được chế biến như thế nào?"
+      },
+      {
+        "type": "Adjective",
+        "word": "rare",
+        "ipa": "/rer/",
+        "meaning": "tái (bít tết)",
+        "example": "I'd like my steak rare.",
+        "exampleVi": "Tôi muốn bít tết tái."
+      },
+      {
+        "type": "Adjective",
+        "word": "medium",
+        "ipa": "/ˈmiːdiəm/",
+        "meaning": "chín vừa",
+        "example": "I'd like my steak medium.",
+        "exampleVi": "Tôi muốn bít tết chín vừa."
+      },
+      {
+        "type": "Adjective",
+        "word": "well-done",
+        "ipa": "/ˌwel ˈdʌn/",
+        "meaning": "chín kỹ",
+        "example": "I'd like my steak well-done.",
+        "exampleVi": "Tôi muốn bít tết chín kỹ."
+      },
+      {
+        "type": "Question",
+        "word": "What would you like to drink?",
+        "ipa": "/wʌt wʊd ju laɪk tə drɪŋk/",
+        "meaning": "Bạn muốn uống gì?",
+        "example": "What would you like to drink?",
+        "exampleVi": "Bạn muốn uống gì?"
+      },
+      {
+        "type": "Phrase",
+        "word": "I'll have ...",
+        "ipa": "/aɪl hæv/",
+        "meaning": "tôi sẽ gọi/dùng ...",
+        "example": "I'll have the fish, please.",
+        "exampleVi": "Tôi sẽ gọi món cá."
+      },
+      {
+        "type": "Question",
+        "word": "Is everything all right?",
+        "ipa": "/ɪz ˈevriθɪŋ ɔːl raɪt/",
+        "meaning": "Mọi thứ có ổn không?",
+        "example": "Is everything all right?",
+        "exampleVi": "Mọi thứ có ổn không?"
+      },
+      {
+        "type": "Adjective",
+        "word": "delicious",
+        "ipa": "/dɪˈlɪʃəs/",
+        "meaning": "ngon, thơm ngon",
+        "example": "The food is delicious.",
+        "exampleVi": "Đồ ăn rất ngon."
+      },
+      {
+        "type": "Question",
+        "word": "Could I have the bill?",
+        "ipa": "/kʊd aɪ hæv ðə bɪl/",
+        "meaning": "Tôi có thể xin hóa đơn được không?",
+        "example": "Could I have the bill, please?",
+        "exampleVi": "Cho tôi xin hóa đơn được không?"
+      }
+    ]
   },
   {
     "id": 23,
     "title": "Sports table",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "ball game",
+        "ipa": "/ˈbɔːl ɡeɪm/",
+        "meaning": "môn thể thao dùng bóng",
+        "example": "Football is a popular ball game.",
+        "exampleVi": "Bóng đá là một môn thể thao dùng bóng phổ biến."
+      },
+      {
+        "type": "Noun",
+        "word": "football",
+        "ipa": "/ˈfʊtbɔːl/",
+        "meaning": "bóng đá",
+        "example": "I play football with my friends.",
+        "exampleVi": "Tôi chơi bóng đá với bạn bè."
+      },
+      {
+        "type": "Noun",
+        "word": "rugby",
+        "ipa": "/ˈrʌɡbi/",
+        "meaning": "bóng bầu dục rugby",
+        "example": "He plays rugby at school.",
+        "exampleVi": "Cậu ấy chơi rugby ở trường."
+      },
+      {
+        "type": "Noun",
+        "word": "American football",
+        "ipa": "/əˌmerɪkən ˈfʊtbɔːl/",
+        "meaning": "bóng bầu dục Mỹ",
+        "example": "My brother likes American football.",
+        "exampleVi": "Anh trai tôi thích bóng bầu dục Mỹ."
+      },
+      {
+        "type": "Noun",
+        "word": "basketball",
+        "ipa": "/ˈbæskɪtbɔːl/",
+        "meaning": "bóng rổ",
+        "example": "We play basketball after school.",
+        "exampleVi": "Chúng tôi chơi bóng rổ sau giờ học."
+      },
+      {
+        "type": "Noun",
+        "word": "badminton",
+        "ipa": "/ˈbædmɪntən/",
+        "meaning": "cầu lông",
+        "example": "I play badminton every Sunday.",
+        "exampleVi": "Tôi chơi cầu lông mỗi Chủ nhật."
+      },
+      {
+        "type": "Noun",
+        "word": "baseball",
+        "ipa": "/ˈbeɪsbɔːl/",
+        "meaning": "bóng chày",
+        "example": "They play baseball in the park.",
+        "exampleVi": "Họ chơi bóng chày trong công viên."
+      },
+      {
+        "type": "Noun",
+        "word": "tennis",
+        "ipa": "/ˈtenɪs/",
+        "meaning": "quần vợt",
+        "example": "She plays tennis very well.",
+        "exampleVi": "Cô ấy chơi quần vợt rất giỏi."
+      },
+      {
+        "type": "Noun",
+        "word": "volleyball",
+        "ipa": "/ˈvɑːlibɔːl/",
+        "meaning": "bóng chuyền",
+        "example": "We play volleyball at school.",
+        "exampleVi": "Chúng tôi chơi bóng chuyền ở trường."
+      },
+      {
+        "type": "Noun",
+        "word": "table tennis",
+        "ipa": "/ˈteɪbəl ˌtenɪs/",
+        "meaning": "bóng bàn",
+        "example": "I play table tennis with my father.",
+        "exampleVi": "Tôi chơi bóng bàn với bố."
+      },
+      {
+        "type": "Noun",
+        "word": "swimming",
+        "ipa": "/ˈswɪmɪŋ/",
+        "meaning": "môn bơi lội",
+        "example": "I like swimming in summer.",
+        "exampleVi": "Tôi thích bơi vào mùa hè."
+      },
+      {
+        "type": "Noun",
+        "word": "running",
+        "ipa": "/ˈrʌnɪŋ/",
+        "meaning": "môn chạy bộ",
+        "example": "Running is good exercise.",
+        "exampleVi": "Chạy bộ là bài tập thể dục tốt."
+      },
+      {
+        "type": "Noun",
+        "word": "sailing",
+        "ipa": "/ˈseɪlɪŋ/",
+        "meaning": "môn chèo/thuyền buồm",
+        "example": "We go sailing in summer.",
+        "exampleVi": "Chúng tôi đi thuyền buồm vào mùa hè."
+      },
+      {
+        "type": "Noun",
+        "word": "motor racing",
+        "ipa": "/ˈmoʊtər ˌreɪsɪŋ/",
+        "meaning": "đua xe",
+        "example": "He likes motor racing.",
+        "exampleVi": "Anh ấy thích đua xe."
+      },
+      {
+        "type": "Noun",
+        "word": "horse racing",
+        "ipa": "/ˈhɔːrs ˌreɪsɪŋ/",
+        "meaning": "đua ngựa",
+        "example": "They watch horse racing on TV.",
+        "exampleVi": "Họ xem đua ngựa trên TV."
+      },
+      {
+        "type": "Noun",
+        "word": "judo",
+        "ipa": "/ˈdʒuːdoʊ/",
+        "meaning": "môn judo, võ nhu đạo",
+        "example": "My sister does judo.",
+        "exampleVi": "Chị tôi tập judo."
+      },
+      {
+        "type": "Noun",
+        "word": "karate",
+        "ipa": "/kəˈrɑːti/",
+        "meaning": "môn karate",
+        "example": "He does karate twice a week.",
+        "exampleVi": "Cậu ấy tập karate hai lần một tuần."
+      },
+      {
+        "type": "Noun",
+        "word": "snowboarding",
+        "ipa": "/ˈsnoʊbɔːrdɪŋ/",
+        "meaning": "môn trượt ván trên tuyết",
+        "example": "They go snowboarding in winter.",
+        "exampleVi": "Họ đi trượt ván trên tuyết vào mùa đông."
+      },
+      {
+        "type": "Noun",
+        "word": "skiing",
+        "ipa": "/ˈskiːɪŋ/",
+        "meaning": "môn trượt tuyết",
+        "example": "I like skiing in the mountains.",
+        "exampleVi": "Tôi thích trượt tuyết trên núi."
+      },
+      {
+        "type": "Noun",
+        "word": "kayaking",
+        "ipa": "/ˈkaɪækɪŋ/",
+        "meaning": "môn chèo thuyền kayak",
+        "example": "We go kayaking on the river.",
+        "exampleVi": "Chúng tôi chèo thuyền kayak trên sông."
+      },
+      {
+        "type": "Noun",
+        "word": "court",
+        "ipa": "/kɔːrt/",
+        "meaning": "sân thi đấu (tennis, basketball...)",
+        "example": "We play tennis on this court.",
+        "exampleVi": "Chúng tôi chơi tennis trên sân này."
+      },
+      {
+        "type": "Noun",
+        "word": "pitch",
+        "ipa": "/pɪtʃ/",
+        "meaning": "sân thi đấu (đặc biệt football, rugby)",
+        "example": "The football pitch is very big.",
+        "exampleVi": "Sân bóng đá rất rộng."
+      },
+      {
+        "type": "Noun",
+        "word": "pool",
+        "ipa": "/puːl/",
+        "meaning": "hồ bơi",
+        "example": "The swimming pool is near my house.",
+        "exampleVi": "Hồ bơi ở gần nhà tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "sports centre",
+        "ipa": "/ˈspɔːrts ˌsentər/",
+        "meaning": "trung tâm thể thao",
+        "example": "I go to the sports centre every week.",
+        "exampleVi": "Tôi đến trung tâm thể thao mỗi tuần."
+      },
+      {
+        "type": "Question",
+        "word": "Do you do any sports?",
+        "ipa": "/duː ju duː ˈeni spɔːrts/",
+        "meaning": "Bạn có chơi/tập môn thể thao nào không?",
+        "example": "Do you do any sports?",
+        "exampleVi": "Bạn có chơi môn thể thao nào không?"
+      },
+      {
+        "type": "Question",
+        "word": "Do you play ...?",
+        "ipa": "/duː ju pleɪ/",
+        "meaning": "Bạn có chơi ... không?",
+        "example": "Do you play tennis?",
+        "exampleVi": "Bạn có chơi tennis không?"
+      },
+      {
+        "type": "Question",
+        "word": "What's your favourite sport?",
+        "ipa": "/wʌts jʊr ˈfeɪvərɪt spɔːrt/",
+        "meaning": "Môn thể thao yêu thích của bạn là gì?",
+        "example": "What's your favourite sport?",
+        "exampleVi": "Môn thể thao yêu thích của bạn là gì?"
+      }
+    ]
   },
   {
     "id": 24,
     "title": "Cinema",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "cinema",
+        "ipa": "/ˈsɪnəmə/",
+        "meaning": "rạp chiếu phim; điện ảnh",
+        "example": "We go to the cinema on Saturday.",
+        "exampleVi": "Chúng tôi đi xem phim vào thứ Bảy."
+      },
+      {
+        "type": "Noun",
+        "word": "film",
+        "ipa": "/fɪlm/",
+        "meaning": "bộ phim",
+        "example": "I watched a good film last night.",
+        "exampleVi": "Tôi đã xem một bộ phim hay tối qua."
+      },
+      {
+        "type": "Noun",
+        "word": "a western",
+        "ipa": "/ə ˈwestərn/",
+        "meaning": "phim cao bồi miền Tây",
+        "example": "My father likes westerns.",
+        "exampleVi": "Bố tôi thích phim cao bồi miền Tây."
+      },
+      {
+        "type": "Noun",
+        "word": "a cartoon",
+        "ipa": "/ə kɑːrˈtuːn/",
+        "meaning": "phim hoạt hình",
+        "example": "The children are watching a cartoon.",
+        "exampleVi": "Bọn trẻ đang xem một bộ phim hoạt hình."
+      },
+      {
+        "type": "Noun",
+        "word": "a horror film",
+        "ipa": "/ə ˈhɔːrər fɪlm/",
+        "meaning": "phim kinh dị",
+        "example": "I don't like horror films.",
+        "exampleVi": "Tôi không thích phim kinh dị."
+      },
+      {
+        "type": "Noun",
+        "word": "a comedy",
+        "ipa": "/ə ˈkɑːmədi/",
+        "meaning": "phim hài",
+        "example": "We watched a comedy last night.",
+        "exampleVi": "Chúng tôi đã xem một bộ phim hài tối qua."
+      },
+      {
+        "type": "Noun",
+        "word": "a thriller",
+        "ipa": "/ə ˈθrɪlər/",
+        "meaning": "phim ly kỳ, hồi hộp",
+        "example": "This is a very exciting thriller.",
+        "exampleVi": "Đây là một bộ phim ly kỳ rất hấp dẫn."
+      },
+      {
+        "type": "Noun",
+        "word": "an action film",
+        "ipa": "/ən ˈækʃən fɪlm/",
+        "meaning": "phim hành động",
+        "example": "He likes action films.",
+        "exampleVi": "Anh ấy thích phim hành động."
+      },
+      {
+        "type": "Noun",
+        "word": "a science fiction film",
+        "ipa": "/ə ˌsaɪəns ˈfɪkʃən fɪlm/",
+        "meaning": "phim khoa học viễn tưởng",
+        "example": "I like science fiction films.",
+        "exampleVi": "Tôi thích phim khoa học viễn tưởng."
+      },
+      {
+        "type": "Noun",
+        "word": "a musical",
+        "ipa": "/ə ˈmjuːzɪkəl/",
+        "meaning": "phim ca nhạc",
+        "example": "She watched a musical with her friends.",
+        "exampleVi": "Cô ấy xem một bộ phim ca nhạc với bạn bè."
+      },
+      {
+        "type": "Noun",
+        "word": "a romantic comedy",
+        "ipa": "/ə roʊˌmæntɪk ˈkɑːmədi/",
+        "meaning": "phim hài lãng mạn",
+        "example": "My sister likes romantic comedies.",
+        "exampleVi": "Chị tôi thích phim hài lãng mạn."
+      },
+      {
+        "type": "Noun",
+        "word": "film star",
+        "ipa": "/ˈfɪlm stɑːr/",
+        "meaning": "ngôi sao điện ảnh",
+        "example": "She is a famous film star.",
+        "exampleVi": "Cô ấy là một ngôi sao điện ảnh nổi tiếng."
+      },
+      {
+        "type": "Verb",
+        "word": "played",
+        "ipa": "/pleɪd/",
+        "meaning": "đã đóng vai",
+        "example": "He played the main character.",
+        "exampleVi": "Anh ấy đóng nhân vật chính."
+      },
+      {
+        "type": "Noun",
+        "word": "director",
+        "ipa": "/dəˈrektər/",
+        "meaning": "đạo diễn",
+        "example": "The director made a great film.",
+        "exampleVi": "Đạo diễn đã làm một bộ phim tuyệt vời."
+      },
+      {
+        "type": "Adjective",
+        "word": "boring",
+        "ipa": "/ˈbɔːrɪŋ/",
+        "meaning": "nhàm chán",
+        "example": "The film was boring.",
+        "exampleVi": "Bộ phim rất nhàm chán."
+      },
+      {
+        "type": "Question",
+        "word": "What's on at the cinema this week?",
+        "ipa": "/wʌts ɑːn æt ðə ˈsɪnəmə ðɪs wiːk/",
+        "meaning": "Tuần này rạp chiếu những phim gì?",
+        "example": "What's on at the cinema this week?",
+        "exampleVi": "Tuần này rạp chiếu những phim gì?"
+      },
+      {
+        "type": "Question",
+        "word": "Do you go to the cinema often?",
+        "ipa": "/duː ju ɡoʊ tə ðə ˈsɪnəmə ˈɔːfən/",
+        "meaning": "Bạn có thường đi xem phim không?",
+        "example": "Do you go to the cinema often?",
+        "exampleVi": "Bạn có thường đi xem phim không?"
+      }
+    ]
   },
   {
     "id": 25,
     "title": "Free time at home",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "TV",
+        "ipa": "/ˌtiː ˈviː/",
+        "meaning": "TV, tivi",
+        "example": "I watch TV every evening.",
+        "exampleVi": "Tôi xem TV mỗi tối."
+      },
+      {
+        "type": "Noun",
+        "word": "radio",
+        "ipa": "/ˈreɪdioʊ/",
+        "meaning": "đài radio, máy radio",
+        "example": "My father listens to the radio.",
+        "exampleVi": "Bố tôi nghe radio."
+      },
+      {
+        "type": "Noun",
+        "word": "music",
+        "ipa": "/ˈmjuːzɪk/",
+        "meaning": "âm nhạc",
+        "example": "I like listening to music.",
+        "exampleVi": "Tôi thích nghe nhạc."
+      },
+      {
+        "type": "Noun",
+        "word": "film",
+        "ipa": "/fɪlm/",
+        "meaning": "bộ phim",
+        "example": "We watched a film last night.",
+        "exampleVi": "Chúng tôi đã xem một bộ phim tối qua."
+      },
+      {
+        "type": "Verb",
+        "word": "watch",
+        "ipa": "/wɑːtʃ/",
+        "meaning": "xem",
+        "example": "I watch TV after dinner.",
+        "exampleVi": "Tôi xem TV sau bữa tối."
+      },
+      {
+        "type": "Verb",
+        "word": "see",
+        "ipa": "/siː/",
+        "meaning": "xem, nhìn; gặp",
+        "example": "I want to see a film tonight.",
+        "exampleVi": "Tôi muốn xem một bộ phim tối nay."
+      },
+      {
+        "type": "Noun",
+        "word": "programme",
+        "ipa": "/ˈproʊɡræm/",
+        "meaning": "chương trình (TV/radio)",
+        "example": "This is my favourite TV programme.",
+        "exampleVi": "Đây là chương trình TV yêu thích của tôi."
+      },
+      {
+        "type": "Phrase",
+        "word": "watch a DVD",
+        "ipa": "/wɑːtʃ ə ˌdiːviːˈdiː/",
+        "meaning": "xem DVD",
+        "example": "We watch a DVD at home.",
+        "exampleVi": "Chúng tôi xem DVD ở nhà."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "listen to",
+        "ipa": "/ˈlɪsən tuː/",
+        "meaning": "nghe",
+        "example": "I listen to music every day.",
+        "exampleVi": "Tôi nghe nhạc mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "headphones",
+        "ipa": "/ˈhedfoʊnz/",
+        "meaning": "tai nghe",
+        "example": "I use headphones on the bus.",
+        "exampleVi": "Tôi dùng tai nghe trên xe buýt."
+      },
+      {
+        "type": "Noun",
+        "word": "hobby",
+        "ipa": "/ˈhɑːbi/",
+        "meaning": "sở thích",
+        "example": "Reading is my favourite hobby.",
+        "exampleVi": "Đọc sách là sở thích yêu thích của tôi."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "play video games",
+        "ipa": "/pleɪ ˈvɪdioʊ ɡeɪmz/",
+        "meaning": "chơi trò chơi điện tử",
+        "example": "I play video games after school.",
+        "exampleVi": "Tôi chơi trò chơi điện tử sau giờ học."
+      },
+      {
+        "type": "Verb",
+        "word": "download",
+        "ipa": "/ˌdaʊnˈloʊd/",
+        "meaning": "tải xuống",
+        "example": "I download music from the internet.",
+        "exampleVi": "Tôi tải nhạc từ Internet."
+      },
+      {
+        "type": "Noun",
+        "word": "the internet",
+        "ipa": "/ði ˈɪntərnet/",
+        "meaning": "Internet, mạng Internet",
+        "example": "I use the internet every day.",
+        "exampleVi": "Tôi sử dụng Internet mỗi ngày."
+      },
+      {
+        "type": "Phrase",
+        "word": "chat to my friend online",
+        "ipa": "/tʃæt tə maɪ frend ˌɑːnˈlaɪn/",
+        "meaning": "trò chuyện trực tuyến với bạn",
+        "example": "I chat to my friend online every evening.",
+        "exampleVi": "Tôi trò chuyện trực tuyến với bạn mỗi tối."
+      },
+      {
+        "type": "Noun",
+        "word": "cooking",
+        "ipa": "/ˈkʊkɪŋ/",
+        "meaning": "việc nấu ăn",
+        "example": "Cooking is my hobby.",
+        "exampleVi": "Nấu ăn là sở thích của tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "gardening",
+        "ipa": "/ˈɡɑːrdənɪŋ/",
+        "meaning": "việc làm vườn",
+        "example": "My mother likes gardening.",
+        "exampleVi": "Mẹ tôi thích làm vườn."
+      },
+      {
+        "type": "Phrase",
+        "word": "grow flowers and vegetables",
+        "ipa": "/ɡroʊ ˈflaʊərz ən ˈvedʒtəbəlz/",
+        "meaning": "trồng hoa và rau",
+        "example": "We grow flowers and vegetables in our garden.",
+        "exampleVi": "Chúng tôi trồng hoa và rau trong vườn."
+      },
+      {
+        "type": "Noun",
+        "word": "novel",
+        "ipa": "/ˈnɑːvəl/",
+        "meaning": "tiểu thuyết",
+        "example": "I am reading a novel.",
+        "exampleVi": "Tôi đang đọc một cuốn tiểu thuyết."
+      },
+      {
+        "type": "Noun",
+        "word": "comic",
+        "ipa": "/ˈkɑːmɪk/",
+        "meaning": "truyện tranh",
+        "example": "My brother likes reading comics.",
+        "exampleVi": "Em trai tôi thích đọc truyện tranh."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "books about",
+        "ipa": "/bʊks əˈbaʊt/",
+        "meaning": "những cuốn sách về...",
+        "example": "I like books about animals.",
+        "exampleVi": "Tôi thích những cuốn sách về động vật."
+      },
+      {
+        "type": "Noun",
+        "word": "newspaper",
+        "ipa": "/ˈnuːzˌpeɪpər/",
+        "meaning": "báo, tờ báo",
+        "example": "My dad reads the newspaper every morning.",
+        "exampleVi": "Bố tôi đọc báo mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "have friends round",
+        "ipa": "/hæv frendz raʊnd/",
+        "meaning": "mời bạn bè đến nhà",
+        "example": "We have friends round on Saturday.",
+        "exampleVi": "Chúng tôi mời bạn bè đến nhà vào thứ Bảy."
+      },
+      {
+        "type": "Phrase",
+        "word": "have friends to dinner",
+        "ipa": "/hæv frendz tə ˈdɪnər/",
+        "meaning": "mời bạn bè đến ăn tối",
+        "example": "We have friends to dinner tonight.",
+        "exampleVi": "Tối nay chúng tôi mời bạn bè đến ăn tối."
+      },
+      {
+        "type": "Phrase",
+        "word": "come to stay",
+        "ipa": "/kʌm tə steɪ/",
+        "meaning": "đến ở lại",
+        "example": "My cousin is coming to stay.",
+        "exampleVi": "Anh/chị/em họ của tôi sẽ đến ở lại."
+      },
+      {
+        "type": "Verb phrase",
+        "word": "talk to",
+        "ipa": "/tɔːk tuː/",
+        "meaning": "nói chuyện với",
+        "example": "I talk to my sister every day.",
+        "exampleVi": "Tôi nói chuyện với chị/em gái mỗi ngày."
+      },
+      {
+        "type": "Phrase",
+        "word": "on the phone",
+        "ipa": "/ɑːn ðə foʊn/",
+        "meaning": "qua điện thoại; đang nói chuyện điện thoại",
+        "example": "She is on the phone.",
+        "exampleVi": "Cô ấy đang nói chuyện điện thoại."
+      },
+      {
+        "type": "Phrase",
+        "word": "do nothing",
+        "ipa": "/duː ˈnʌθɪŋ/",
+        "meaning": "không làm gì cả",
+        "example": "I like to do nothing at the weekend.",
+        "exampleVi": "Tôi thích không làm gì vào cuối tuần."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a sleep",
+        "ipa": "/hæv ə sliːp/",
+        "meaning": "ngủ một giấc, chợp mắt",
+        "example": "I have a sleep after lunch.",
+        "exampleVi": "Tôi ngủ một giấc sau bữa trưa."
+      }
+    ]
   },
   {
     "id": 26,
