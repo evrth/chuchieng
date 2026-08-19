@@ -7048,5 +7048,1390 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  26: {
+    "unit": {
+      "id": "unit-26-music",
+      "title": "Unit 26: Music and Musical Instruments",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u26-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "piano",
+            "right": "đàn piano"
+          },
+          {
+            "left": "guitar",
+            "right": "đàn ghi-ta"
+          },
+          {
+            "left": "violin",
+            "right": "đàn vi-ô-lông"
+          },
+          {
+            "left": "drums",
+            "right": "trống"
+          },
+          {
+            "left": "trumpet",
+            "right": "kèn trumpet"
+          },
+          {
+            "left": "orchestra",
+            "right": "dàn nhạc giao hưởng"
+          },
+          {
+            "left": "band",
+            "right": "ban nhạc"
+          },
+          {
+            "left": "concert",
+            "right": "buổi hòa nhạc"
+          },
+          {
+            "left": "jazz",
+            "right": "nhạc jazz"
+          },
+          {
+            "left": "classical music",
+            "right": "nhạc cổ điển"
+          }
+        ]
+      },
+      {
+        "id": "u26-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "piano",
+          "guitar",
+          "violin",
+          "drums",
+          "orchestra",
+          "band",
+          "concert",
+          "musician"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "She plays the ______ very well.",
+            "hint_vi": "đàn piano",
+            "answer": "piano"
+          },
+          {
+            "id": "q2",
+            "sentence": "I play the ______.",
+            "hint_vi": "đàn ghi-ta",
+            "answer": "guitar"
+          },
+          {
+            "id": "q3",
+            "sentence": "My sister plays the ______.",
+            "hint_vi": "đàn vi-ô-lông",
+            "answer": "violin"
+          },
+          {
+            "id": "q4",
+            "sentence": "He plays the ______ in a band.",
+            "hint_vi": "trống",
+            "answer": "drums"
+          },
+          {
+            "id": "q5",
+            "sentence": "She plays in an ______.",
+            "hint_vi": "dàn nhạc giao hưởng",
+            "answer": "orchestra"
+          },
+          {
+            "id": "q6",
+            "sentence": "My friend plays in a ______.",
+            "hint_vi": "ban nhạc",
+            "answer": "band"
+          },
+          {
+            "id": "q7",
+            "sentence": "We went to a ______ last weekend.",
+            "hint_vi": "buổi hòa nhạc",
+            "answer": "concert"
+          },
+          {
+            "id": "q8",
+            "sentence": "My brother is a ______.",
+            "hint_vi": "nhạc sĩ",
+            "answer": "musician"
+          }
+        ]
+      },
+      {
+        "id": "u26-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which instrument has black and white keys?",
+            "options": [
+              "piano",
+              "guitar",
+              "drums",
+              "flute"
+            ],
+            "answer": "piano"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'nhạc dân gian'?",
+            "options": [
+              "folk music",
+              "pop music",
+              "rock",
+              "jazz"
+            ],
+            "answer": "folk music"
+          },
+          {
+            "id": "q3",
+            "question": "Where do many musicians perform together?",
+            "options": [
+              "an orchestra",
+              "a museum",
+              "a library",
+              "a bank"
+            ],
+            "answer": "an orchestra"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'tải một số bài hát mới'?",
+            "options": [
+              "download some new songs",
+              "play an instrument",
+              "go to a concert",
+              "listen to the radio"
+            ],
+            "answer": "download some new songs"
+          },
+          {
+            "id": "q5",
+            "question": "What do you call a person who plays music?",
+            "options": [
+              "a musician",
+              "a music",
+              "a musical",
+              "an orchestra"
+            ],
+            "answer": "a musician"
+          },
+          {
+            "id": "q6",
+            "question": "Which type of music often uses electric guitars and drums?",
+            "options": [
+              "rock",
+              "opera",
+              "classical music",
+              "folk music"
+            ],
+            "answer": "rock"
+          }
+        ]
+      },
+      {
+        "id": "u26-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"guitar\" has strings.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Jazz\" and \"classical music\" are the same type of music.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "An \"orchestra\" usually has many musicians playing together.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Musical\" can describe someone who is good at music.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Opera\" is a type of sport.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "A \"concert\" is a live music performance.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u26-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "NAIOP",
+            "answer": "PIANO"
+          },
+          {
+            "id": "q2",
+            "scrambled": "RIGATU",
+            "answer": "GUITAR"
+          },
+          {
+            "id": "q3",
+            "scrambled": "NIILOV",
+            "answer": "VIOLIN"
+          },
+          {
+            "id": "q4",
+            "scrambled": "SRUDM",
+            "answer": "DRUMS"
+          },
+          {
+            "id": "q5",
+            "scrambled": "DABN",
+            "answer": "BAND"
+          },
+          {
+            "id": "q6",
+            "scrambled": "TRENOCC",
+            "answer": "CONCERT"
+          }
+        ]
+      }
+    ]
+  },
+  27: {
+    "unit": {
+      "id": "unit-27-countries",
+      "title": "Unit 27: Countries and Nationalities",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u27-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "continent",
+            "right": "châu lục"
+          },
+          {
+            "left": "country",
+            "right": "đất nước, quốc gia"
+          },
+          {
+            "left": "Asia",
+            "right": "châu Á"
+          },
+          {
+            "left": "Europe",
+            "right": "châu Âu"
+          },
+          {
+            "left": "Africa",
+            "right": "châu Phi"
+          },
+          {
+            "left": "Australia",
+            "right": "Úc, Australia"
+          },
+          {
+            "left": "North America",
+            "right": "Bắc Mỹ"
+          },
+          {
+            "left": "South America",
+            "right": "Nam Mỹ"
+          },
+          {
+            "left": "Antarctica",
+            "right": "Nam Cực"
+          },
+          {
+            "left": "nationality",
+            "right": "quốc tịch"
+          }
+        ]
+      },
+      {
+        "id": "u27-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "continent",
+          "country",
+          "Asia",
+          "Europe",
+          "Africa",
+          "Australia",
+          "nationality",
+          "Antarctica"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Asia is a large ______.",
+            "hint_vi": "châu lục",
+            "answer": "continent"
+          },
+          {
+            "id": "q2",
+            "sentence": "Vietnam is my ______.",
+            "hint_vi": "đất nước",
+            "answer": "country"
+          },
+          {
+            "id": "q3",
+            "sentence": "Vietnam is in ______.",
+            "hint_vi": "châu Á",
+            "answer": "Asia"
+          },
+          {
+            "id": "q4",
+            "sentence": "France is in ______.",
+            "hint_vi": "châu Âu",
+            "answer": "Europe"
+          },
+          {
+            "id": "q5",
+            "sentence": "Egypt is in ______.",
+            "hint_vi": "châu Phi",
+            "answer": "Africa"
+          },
+          {
+            "id": "q6",
+            "sentence": "______ is a large country.",
+            "hint_vi": "Úc",
+            "answer": "Australia"
+          },
+          {
+            "id": "q7",
+            "sentence": "What is your ______?",
+            "hint_vi": "quốc tịch",
+            "answer": "nationality"
+          },
+          {
+            "id": "q8",
+            "sentence": "______ is very cold.",
+            "hint_vi": "Nam Cực",
+            "answer": "Antarctica"
+          }
+        ]
+      },
+      {
+        "id": "u27-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which continent is Brazil in?",
+            "options": [
+              "South America",
+              "North America",
+              "Europe",
+              "Asia"
+            ],
+            "answer": "South America"
+          },
+          {
+            "id": "q2",
+            "question": "Which continent is Egypt in?",
+            "options": [
+              "Africa",
+              "Europe",
+              "Asia",
+              "Australia"
+            ],
+            "answer": "Africa"
+          },
+          {
+            "id": "q3",
+            "question": "What is the adjective for 'China'?",
+            "options": [
+              "Chinese",
+              "China",
+              "Chinaish",
+              "Chinan"
+            ],
+            "answer": "Chinese"
+          },
+          {
+            "id": "q4",
+            "question": "What is the adjective for 'Spain'?",
+            "options": [
+              "Spanish",
+              "Spainish",
+              "Spain",
+              "Spaner"
+            ],
+            "answer": "Spanish"
+          },
+          {
+            "id": "q5",
+            "question": "Which continent is the coldest?",
+            "options": [
+              "Antarctica",
+              "Africa",
+              "Asia",
+              "Europe"
+            ],
+            "answer": "Antarctica"
+          },
+          {
+            "id": "q6",
+            "question": "What is the capital of Japan?",
+            "options": [
+              "Tokyo",
+              "Beijing",
+              "Seoul",
+              "Bangkok"
+            ],
+            "answer": "Tokyo"
+          }
+        ]
+      },
+      {
+        "id": "u27-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Asia\" is the largest continent.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Antarctica\" is a very hot continent.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Nationality\" means the country you belong to.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Australia\" is both a country and a continent.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Europe\" and \"Africa\" are the same continent.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"South America\" includes countries like Brazil and Argentina.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u27-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "AISA",
+            "answer": "ASIA"
+          },
+          {
+            "id": "q2",
+            "scrambled": "PEUEOR",
+            "answer": "EUROPE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "CFAIRA",
+            "answer": "AFRICA"
+          },
+          {
+            "id": "q4",
+            "scrambled": "ARTALSAIU",
+            "answer": "AUSTRALIA"
+          },
+          {
+            "id": "q5",
+            "scrambled": "CTRAANTAIC",
+            "answer": "ANTARCTICA"
+          },
+          {
+            "id": "q6",
+            "scrambled": "TRONUCY",
+            "answer": "COUNTRY"
+          }
+        ]
+      }
+    ]
+  },
+  28: {
+    "unit": {
+      "id": "unit-28-weather",
+      "title": "Unit 28: Weather",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u28-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "sun",
+            "right": "mặt trời, ánh nắng"
+          },
+          {
+            "left": "rain",
+            "right": "mưa"
+          },
+          {
+            "left": "cloud",
+            "right": "đám mây"
+          },
+          {
+            "left": "snow",
+            "right": "tuyết"
+          },
+          {
+            "left": "fog",
+            "right": "sương mù"
+          },
+          {
+            "left": "wind",
+            "right": "gió"
+          },
+          {
+            "left": "thunder",
+            "right": "sấm"
+          },
+          {
+            "left": "lightning",
+            "right": "tia chớp, sét"
+          },
+          {
+            "left": "storm",
+            "right": "bão, giông bão"
+          },
+          {
+            "left": "degrees",
+            "right": "độ (nhiệt độ)"
+          }
+        ]
+      },
+      {
+        "id": "u28-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "sunny",
+          "rainy",
+          "windy",
+          "cloudy",
+          "snowy",
+          "foggy",
+          "hot",
+          "cold"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "It's ______ today.",
+            "hint_vi": "có nắng",
+            "answer": "sunny"
+          },
+          {
+            "id": "q2",
+            "sentence": "It is a ______ day.",
+            "hint_vi": "có mưa",
+            "answer": "rainy"
+          },
+          {
+            "id": "q3",
+            "sentence": "It's very ______ today.",
+            "hint_vi": "nhiều gió",
+            "answer": "windy"
+          },
+          {
+            "id": "q4",
+            "sentence": "It is ______ today.",
+            "hint_vi": "nhiều mây",
+            "answer": "cloudy"
+          },
+          {
+            "id": "q5",
+            "sentence": "It is ______ in winter.",
+            "hint_vi": "có tuyết",
+            "answer": "snowy"
+          },
+          {
+            "id": "q6",
+            "sentence": "It is ______ this morning.",
+            "hint_vi": "có sương mù",
+            "answer": "foggy"
+          },
+          {
+            "id": "q7",
+            "sentence": "It is very ______ today.",
+            "hint_vi": "nóng",
+            "answer": "hot"
+          },
+          {
+            "id": "q8",
+            "sentence": "It is very ______ outside.",
+            "hint_vi": "lạnh",
+            "answer": "cold"
+          }
+        ]
+      },
+      {
+        "id": "u28-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What do you see in the sky before you hear thunder?",
+            "options": [
+              "lightning",
+              "fog",
+              "cloud",
+              "wind"
+            ],
+            "answer": "lightning"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'khô'?",
+            "options": [
+              "dry",
+              "wet",
+              "cold",
+              "hot"
+            ],
+            "answer": "dry"
+          },
+          {
+            "id": "q3",
+            "question": "Which word describes a very strong storm?",
+            "options": [
+              "hurricane",
+              "fog",
+              "cloud",
+              "degrees"
+            ],
+            "answer": "hurricane"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'chiếu sáng, tỏa sáng'?",
+            "options": [
+              "shine",
+              "rain",
+              "snow",
+              "blow"
+            ],
+            "answer": "shine"
+          },
+          {
+            "id": "q5",
+            "question": "\"What's the weather like today?\" asks about...",
+            "options": [
+              "thời tiết hôm nay như thế nào",
+              "hôm nay là thứ mấy",
+              "bạn ở đâu",
+              "bạn có khỏe không"
+            ],
+            "answer": "thời tiết hôm nay như thế nào"
+          },
+          {
+            "id": "q6",
+            "question": "Which is coldest?",
+            "options": [
+              "minus 50 degrees",
+              "30 degrees",
+              "hot",
+              "sunny"
+            ],
+            "answer": "minus 50 degrees"
+          }
+        ]
+      },
+      {
+        "id": "u28-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Sunny\" means there is a lot of sun.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Foggy\" means it is very hot and dry.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "A \"thunderstorm\" has both thunder and rain.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Wet\" is the opposite of \"dry\".",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Snowy\" weather happens when it's very hot.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Degrees\" are used to measure temperature.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u28-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "NUS",
+            "answer": "SUN"
+          },
+          {
+            "id": "q2",
+            "scrambled": "NIAR",
+            "answer": "RAIN"
+          },
+          {
+            "id": "q3",
+            "scrambled": "WNOS",
+            "answer": "SNOW"
+          },
+          {
+            "id": "q4",
+            "scrambled": "DWNI",
+            "answer": "WIND"
+          },
+          {
+            "id": "q5",
+            "scrambled": "GOF",
+            "answer": "FOG"
+          },
+          {
+            "id": "q6",
+            "scrambled": "MRTOS",
+            "answer": "STORM"
+          }
+        ]
+      }
+    ]
+  },
+  29: {
+    "unit": {
+      "id": "unit-29-town",
+      "title": "Unit 29: In the Town",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u29-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "train station",
+            "right": "ga tàu hỏa"
+          },
+          {
+            "left": "bus station",
+            "right": "bến xe buýt"
+          },
+          {
+            "left": "shopping centre",
+            "right": "trung tâm mua sắm"
+          },
+          {
+            "left": "museum",
+            "right": "bảo tàng"
+          },
+          {
+            "left": "bank",
+            "right": "ngân hàng"
+          },
+          {
+            "left": "post office",
+            "right": "bưu điện"
+          },
+          {
+            "left": "library",
+            "right": "thư viện"
+          },
+          {
+            "left": "town hall",
+            "right": "tòa thị chính"
+          },
+          {
+            "left": "car park",
+            "right": "bãi đỗ xe"
+          },
+          {
+            "left": "entrance",
+            "right": "lối vào"
+          }
+        ]
+      },
+      {
+        "id": "u29-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "bank",
+          "museum",
+          "library",
+          "post office",
+          "car park",
+          "entrance",
+          "exit",
+          "bus station"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "The ______ is next to the post office.",
+            "hint_vi": "ngân hàng",
+            "answer": "bank"
+          },
+          {
+            "id": "q2",
+            "sentence": "We visited the ______ yesterday.",
+            "hint_vi": "bảo tàng",
+            "answer": "museum"
+          },
+          {
+            "id": "q3",
+            "sentence": "I often study in the ______.",
+            "hint_vi": "thư viện",
+            "answer": "library"
+          },
+          {
+            "id": "q4",
+            "sentence": "I need to go to the ______.",
+            "hint_vi": "bưu điện",
+            "answer": "post office"
+          },
+          {
+            "id": "q5",
+            "sentence": "There is a ______ near the shop.",
+            "hint_vi": "bãi đỗ xe",
+            "answer": "car park"
+          },
+          {
+            "id": "q6",
+            "sentence": "The ______ is over there.",
+            "hint_vi": "lối vào",
+            "answer": "entrance"
+          },
+          {
+            "id": "q7",
+            "sentence": "The ______ is on the left.",
+            "hint_vi": "lối ra",
+            "answer": "exit"
+          },
+          {
+            "id": "q8",
+            "sentence": "The ______ is in the town centre.",
+            "hint_vi": "bến xe buýt",
+            "answer": "bus station"
+          }
+        ]
+      },
+      {
+        "id": "u29-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Where do you go to borrow books?",
+            "options": [
+              "a library",
+              "a museum",
+              "a bank",
+              "a car park"
+            ],
+            "answer": "a library"
+          },
+          {
+            "id": "q2",
+            "question": "Where do you go to change money?",
+            "options": [
+              "a bank",
+              "a museum",
+              "a library",
+              "a post office"
+            ],
+            "answer": "a bank"
+          },
+          {
+            "id": "q3",
+            "question": "Which word means 'khu vực dành cho người đi bộ'?",
+            "options": [
+              "pedestrian area",
+              "car park",
+              "bus station",
+              "entrance"
+            ],
+            "answer": "pedestrian area"
+          },
+          {
+            "id": "q4",
+            "question": "What sign do you see when a machine doesn't work?",
+            "options": [
+              "out of order",
+              "no smoking",
+              "exit",
+              "entrance"
+            ],
+            "answer": "out of order"
+          },
+          {
+            "id": "q5",
+            "question": "Which phrase means 'xin lỗi (để hỏi ai đó)'?",
+            "options": [
+              "Excuse me",
+              "I'm looking for",
+              "Turn right",
+              "Go left"
+            ],
+            "answer": "Excuse me"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means 'ATM'?",
+            "options": [
+              "a cash machine",
+              "a bank",
+              "a post office",
+              "a museum"
+            ],
+            "answer": "a cash machine"
+          }
+        ]
+      },
+      {
+        "id": "u29-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"museum\" is a place where you keep and show old and interesting things.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Post office\" is where you borrow books.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Turn right\" and \"turn left\" give directions.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"No smoking\" means you are allowed to smoke.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Town hall\" is a government building in a town.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Car park\" is a place to park your car.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u29-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "KABN",
+            "answer": "BANK"
+          },
+          {
+            "id": "q2",
+            "scrambled": "USEMUM",
+            "answer": "MUSEUM"
+          },
+          {
+            "id": "q3",
+            "scrambled": "RARLIYB",
+            "answer": "LIBRARY"
+          },
+          {
+            "id": "q4",
+            "scrambled": "TSPO EFCIFO",
+            "answer": "POST OFFICE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "XETI",
+            "answer": "EXIT"
+          },
+          {
+            "id": "q6",
+            "scrambled": "EACRTNNE",
+            "answer": "ENTRANCE"
+          }
+        ]
+      }
+    ]
+  },
+  30: {
+    "unit": {
+      "id": "unit-30-countryside",
+      "title": "Unit 30: In the Countryside",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u30-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "countryside",
+            "right": "vùng nông thôn"
+          },
+          {
+            "left": "mountain",
+            "right": "núi"
+          },
+          {
+            "left": "forest",
+            "right": "rừng"
+          },
+          {
+            "left": "lake",
+            "right": "hồ"
+          },
+          {
+            "left": "field",
+            "right": "cánh đồng"
+          },
+          {
+            "left": "village",
+            "right": "ngôi làng"
+          },
+          {
+            "left": "river",
+            "right": "sông"
+          },
+          {
+            "left": "farm",
+            "right": "trang trại"
+          },
+          {
+            "left": "hill",
+            "right": "đồi"
+          },
+          {
+            "left": "wildlife",
+            "right": "động vật hoang dã"
+          }
+        ]
+      },
+      {
+        "id": "u30-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "countryside",
+          "mountain",
+          "forest",
+          "lake",
+          "field",
+          "village",
+          "river",
+          "farm"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I love living in the ______.",
+            "hint_vi": "vùng nông thôn",
+            "answer": "countryside"
+          },
+          {
+            "id": "q2",
+            "sentence": "There is a high ______ near our village.",
+            "hint_vi": "núi",
+            "answer": "mountain"
+          },
+          {
+            "id": "q3",
+            "sentence": "We walked through the ______.",
+            "hint_vi": "rừng",
+            "answer": "forest"
+          },
+          {
+            "id": "q4",
+            "sentence": "There is a beautiful ______ near the village.",
+            "hint_vi": "hồ",
+            "answer": "lake"
+          },
+          {
+            "id": "q5",
+            "sentence": "The cows are in the ______.",
+            "hint_vi": "cánh đồng",
+            "answer": "field"
+          },
+          {
+            "id": "q6",
+            "sentence": "My grandparents live in a small ______.",
+            "hint_vi": "ngôi làng",
+            "answer": "village"
+          },
+          {
+            "id": "q7",
+            "sentence": "There is a ______ near the farm.",
+            "hint_vi": "sông",
+            "answer": "river"
+          },
+          {
+            "id": "q8",
+            "sentence": "My uncle has a ______.",
+            "hint_vi": "trang trại",
+            "answer": "farm"
+          }
+        ]
+      },
+      {
+        "id": "u30-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Who works on a farm?",
+            "options": [
+              "a farmer",
+              "a librarian",
+              "a musician",
+              "a director"
+            ],
+            "answer": "a farmer"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'khu bảo tồn'?",
+            "options": [
+              "a conservation area",
+              "a national park",
+              "a village",
+              "a farm"
+            ],
+            "answer": "a conservation area"
+          },
+          {
+            "id": "q3",
+            "question": "Which word means 'đi dã ngoại'?",
+            "options": [
+              "have a picnic",
+              "go skiing",
+              "go walking",
+              "have a sleep"
+            ],
+            "answer": "have a picnic"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'nhà nhỏ ở nông thôn'?",
+            "options": [
+              "a cottage",
+              "a farm",
+              "a village",
+              "a town"
+            ],
+            "answer": "a cottage"
+          },
+          {
+            "id": "q5",
+            "question": "What is 'wildlife'?",
+            "options": [
+              "động vật hoang dã",
+              "đồ nội thất",
+              "dụng cụ nấu ăn",
+              "phương tiện giao thông"
+            ],
+            "answer": "động vật hoang dã"
+          },
+          {
+            "id": "q6",
+            "question": "Which is smaller than a town but bigger than a farm?",
+            "options": [
+              "a village",
+              "a city",
+              "a country",
+              "a continent"
+            ],
+            "answer": "a village"
+          }
+        ]
+      },
+      {
+        "id": "u30-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"forest\" has a lot of trees.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"lake\" is smaller than a puddle.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Wildlife\" means wild animals and plants.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "A \"cottage\" is a very tall skyscraper.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "A \"national park\" is a protected natural area.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Go walking\" and \"go skiing\" are both outdoor activities.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u30-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "NUMOTIAN",
+            "answer": "MOUNTAIN"
+          },
+          {
+            "id": "q2",
+            "scrambled": "SFTREO",
+            "answer": "FOREST"
+          },
+          {
+            "id": "q3",
+            "scrambled": "EALK",
+            "answer": "LAKE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "EGVLLIA",
+            "answer": "VILLAGE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "MFAR",
+            "answer": "FARM"
+          },
+          {
+            "id": "q6",
+            "scrambled": "REVRI",
+            "answer": "RIVER"
+          }
+        ]
+      }
+    ]
   }
 };

@@ -5114,5 +5114,1000 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  26: {
+    "unit": {
+      "id": "u26d",
+      "title": "Unit 26: Music and Musical Instruments",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u26d-ex1-choose",
+        "type": "fill_in_the_blank",
+        "title": "26.1. Choose the correct word: music, musical or musician.",
+        "instructions_vi": "Chọn từ đúng (music/musical/musician/musicians) để điền vào chỗ trống.",
+        "word_bank": [
+          "music",
+          "musical",
+          "musician",
+          "musicians"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "What are your favourite types of music?",
+            "answer": "music",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "My brother thinks he's a good ______, but he's very bad!",
+            "answer": "musician"
+          },
+          {
+            "id": "q3",
+            "sentence": "Can you play a ______ instrument?",
+            "answer": "musical"
+          },
+          {
+            "id": "q4",
+            "sentence": "I love different types of ______, for example, jazz, rock and classical.",
+            "answer": "music"
+          },
+          {
+            "id": "q5",
+            "sentence": "Which ______ instrument would you like to learn?",
+            "answer": "musical"
+          },
+          {
+            "id": "q6",
+            "sentence": "Are there any ______ in your family?",
+            "answer": "musicians"
+          }
+        ]
+      },
+      {
+        "id": "u26d-ex2-pictures",
+        "type": "word_from_definition",
+        "title": "26.2. Look at the pictures and complete the sentences.",
+        "instructions_vi": "Nhìn hình và điền từ còn thiếu vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Madison plays the violin.",
+            "image": "images/exercises/u26-madison-violin.jpg",
+            "answer": "violin",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Who plays the cello in an orchestra?",
+            "image": "images/exercises/u26-abigail-cello.jpg",
+            "answer": "Abigail"
+          },
+          {
+            "id": "q3",
+            "clue": "Abigail plays the cello in an ______.",
+            "answer": "orchestra"
+          },
+          {
+            "id": "q4",
+            "clue": "Noah loves playing the ______.",
+            "image": "images/exercises/u26-noah-drums.jpg",
+            "answer": "drums"
+          },
+          {
+            "id": "q5",
+            "clue": "Emily is having a ______ lesson.",
+            "image": "images/exercises/u26-emily-piano.jpg",
+            "answer": "piano"
+          },
+          {
+            "id": "q6",
+            "clue": "Mason is a very good ______-player.",
+            "image": "images/exercises/u26-mason-trumpet.jpg",
+            "answer": "trumpet"
+          },
+          {
+            "id": "q7",
+            "clue": "Ella plays the ______ every evening.",
+            "image": "images/exercises/u26-ella-clarinet.jpg",
+            "answer": "clarinet"
+          },
+          {
+            "id": "q8",
+            "clue": "William ______ the guitar.",
+            "image": "images/exercises/u26-william-guitar.jpg",
+            "answer": "plays"
+          },
+          {
+            "id": "q9",
+            "clue": "William plays the ______.",
+            "answer": "guitar"
+          },
+          {
+            "id": "q10",
+            "clue": "Emma is learning the ______.",
+            "image": "images/exercises/u26-emma-flute.jpg",
+            "answer": "flute"
+          },
+          {
+            "id": "q11",
+            "clue": "She will be a good flute-______ one day.",
+            "answer": "player"
+          },
+          {
+            "id": "q12",
+            "clue": "______ is a violinist.",
+            "answer": "Madison"
+          },
+          {
+            "id": "q13",
+            "clue": "______ wants to be a pianist.",
+            "answer": "Emily"
+          }
+        ]
+      },
+      {
+        "id": "u26d-ex3-abc",
+        "type": "multiple_choice",
+        "title": "26.3. Choose the correct answer, a, b or c.",
+        "instructions_vi": "Chọn đáp án đúng trong 3 lựa chọn a, b, c.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "I love a) classic b) classical c) classist music. Beethoven is my favourite.",
+            "options": [
+              "classic",
+              "classical",
+              "classist"
+            ],
+            "answer": "classical",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "My brother a) can't stand b) can stand c) can't stay folk music but I love it.",
+            "options": [
+              "can't stand",
+              "can stand",
+              "can't stay"
+            ],
+            "answer": "can't stand"
+          },
+          {
+            "id": "q3",
+            "question": "I have some tickets for a a) concert music b) music concert c) concert at the Town Hall. Would you like one?",
+            "options": [
+              "concert music",
+              "music concert",
+              "concert"
+            ],
+            "answer": "concert"
+          },
+          {
+            "id": "q4",
+            "question": "I always a) listen in b) listen to c) listen music when I'm studying.",
+            "options": [
+              "listen in",
+              "listen to",
+              "listen"
+            ],
+            "answer": "listen to"
+          },
+          {
+            "id": "q5",
+            "question": "My sister plays in a a) music band b) band music c) band with three other girls from her school.",
+            "options": [
+              "music band",
+              "band music",
+              "band"
+            ],
+            "answer": "band"
+          }
+        ]
+      }
+    ]
+  },
+  27: {
+    "unit": {
+      "id": "u27d",
+      "title": "Unit 27: Countries and Nationalities",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u27d-ex1-unscramble",
+        "type": "unscramble",
+        "title": "27.1. Which countries do these letters make?",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành tên quốc gia.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "HINAC",
+            "answer": "CHINA",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "scrambled": "ZIRALB",
+            "answer": "BRAZIL"
+          },
+          {
+            "id": "q3",
+            "scrambled": "PINSA",
+            "answer": "SPAIN"
+          },
+          {
+            "id": "q4",
+            "scrambled": "OCRMOOC",
+            "answer": "MOROCCO"
+          },
+          {
+            "id": "q5",
+            "scrambled": "ANJAP",
+            "answer": "JAPAN"
+          },
+          {
+            "id": "q6",
+            "scrambled": "DALTHINA",
+            "answer": "THAILAND"
+          }
+        ]
+      },
+      {
+        "id": "u27d-ex2-capitals",
+        "type": "sentence_construction",
+        "title": "27.2. Match these capital cities to their countries and make sentences.",
+        "instructions_vi": "Viết câu cho biết thành phố đó là thủ đô của nước nào. Dùng các nước cho sẵn bên dưới.",
+        "context": {
+          "table": {
+            "headers": [
+              "Countries to use"
+            ],
+            "rows": [
+              [
+                "Argentina"
+              ],
+              [
+                "Australia"
+              ],
+              [
+                "Colombia"
+              ],
+              [
+                "Egypt"
+              ],
+              [
+                "Germany"
+              ],
+              [
+                "Italy"
+              ],
+              [
+                "Japan"
+              ],
+              [
+                "Poland"
+              ],
+              [
+                "Spain"
+              ],
+              [
+                "the UK"
+              ]
+            ]
+          }
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "name": "Tokyo",
+            "answer": "Tokyo is the capital of Japan.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "name": "Rome",
+            "answer": "Rome is the capital of Italy."
+          },
+          {
+            "id": "q3",
+            "name": "Canberra",
+            "answer": "Canberra is the capital of Australia."
+          },
+          {
+            "id": "q4",
+            "name": "Bogotá",
+            "answer": "Bogotá is the capital of Colombia."
+          },
+          {
+            "id": "q5",
+            "name": "Cairo",
+            "answer": "Cairo is the capital of Egypt."
+          },
+          {
+            "id": "q6",
+            "name": "London",
+            "answer": "London is the capital of the UK."
+          },
+          {
+            "id": "q7",
+            "name": "Berlin",
+            "answer": "Berlin is the capital of Germany."
+          },
+          {
+            "id": "q8",
+            "name": "Warsaw",
+            "answer": "Warsaw is the capital of Poland."
+          },
+          {
+            "id": "q9",
+            "name": "Buenos Aires",
+            "answer": "Buenos Aires is the capital of Argentina."
+          },
+          {
+            "id": "q10",
+            "name": "Madrid",
+            "answer": "Madrid is the capital of Spain."
+          }
+        ]
+      },
+      {
+        "id": "u27d-ex3-adjectives",
+        "type": "word_from_definition",
+        "title": "27.3. What is the adjective for these countries?",
+        "instructions_vi": "Viết tính từ chỉ quốc tịch tương ứng với mỗi quốc gia.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "India",
+            "answer": "Indian",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Thailand",
+            "answer": "Thai"
+          },
+          {
+            "id": "q3",
+            "clue": "Germany",
+            "answer": "German"
+          },
+          {
+            "id": "q4",
+            "clue": "Egypt",
+            "answer": "Egyptian"
+          },
+          {
+            "id": "q5",
+            "clue": "Argentina",
+            "answer": "Argentinian"
+          },
+          {
+            "id": "q6",
+            "clue": "Spain",
+            "answer": "Spanish"
+          },
+          {
+            "id": "q7",
+            "clue": "Peru",
+            "answer": "Peruvian"
+          },
+          {
+            "id": "q8",
+            "clue": "China",
+            "answer": "Chinese"
+          },
+          {
+            "id": "q9",
+            "clue": "Australia",
+            "answer": "Australian"
+          },
+          {
+            "id": "q10",
+            "clue": "Poland",
+            "answer": "Polish"
+          }
+        ]
+      }
+    ]
+  },
+  28: {
+    "unit": {
+      "id": "u28d",
+      "title": "Unit 28: Weather",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u28d-ex1-symbols",
+        "type": "matching",
+        "title": "28.1. Match the words and the symbols.",
+        "instructions_vi": "Nối từ chỉ thời tiết với đúng biểu tượng của nó.",
+        "pairs": [
+          {
+            "left": "snow",
+            "right": "",
+            "image": "images/exercises/u28-symbol-snow.jpg"
+          },
+          {
+            "left": "sun",
+            "right": "",
+            "image": "images/exercises/u28-symbol-sun.jpg"
+          },
+          {
+            "left": "rain",
+            "right": "",
+            "image": "images/exercises/u28-symbol-rain.jpg"
+          },
+          {
+            "left": "fog",
+            "right": "",
+            "image": "images/exercises/u28-symbol-fog.jpg"
+          },
+          {
+            "left": "lightning",
+            "right": "",
+            "image": "images/exercises/u28-symbol-lightning.jpg"
+          },
+          {
+            "left": "wind",
+            "right": "",
+            "image": "images/exercises/u28-symbol-wind.jpg"
+          },
+          {
+            "left": "cloud",
+            "right": "",
+            "image": "images/exercises/u28-symbol-cloud.jpg"
+          }
+        ]
+      },
+      {
+        "id": "u28d-ex2-chart",
+        "type": "sentence_construction",
+        "title": "28.2. Look at the chart. Write sentences about the cities in the chart.",
+        "instructions_vi": "Nhìn biểu đồ thời tiết và viết câu mô tả thời tiết ở mỗi thành phố.",
+        "context": {
+          "image": "images/exercises/u28-weather-chart.jpg"
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "name": "Hanoi",
+            "answer": "It is sunny in Hanoi.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "name": "Hong Kong",
+            "answer": "It is raining in Hong Kong.",
+            "example": true
+          },
+          {
+            "id": "q3",
+            "name": "La Paz",
+            "answer": "It is windy in La Paz.",
+            "required_keywords": [
+              "windy"
+            ]
+          },
+          {
+            "id": "q4",
+            "name": "Paris",
+            "answer": "It is cloudy in Paris.",
+            "required_keywords": [
+              "cloudy"
+            ]
+          },
+          {
+            "id": "q5",
+            "name": "Tashkent",
+            "answer": "It is foggy in Tashkent.",
+            "required_keywords": [
+              "foggy"
+            ]
+          },
+          {
+            "id": "q6",
+            "name": "Seoul",
+            "answer": "It is sunny in Seoul.",
+            "required_keywords": [
+              "sunny"
+            ]
+          },
+          {
+            "id": "q7",
+            "name": "Washington",
+            "answer": "It is snowing in Washington.",
+            "accepted_answers": [
+              "It's snowy in Washington.",
+              "It is snowy in Washington."
+            ],
+            "required_keywords": [
+              "snow"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u28d-ex3-fill",
+        "type": "fill_in_the_blank",
+        "title": "28.3. Complete these sentences with a word.",
+        "instructions_vi": "Điền từ phù hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "The sun shone every day last month.",
+            "answer": "shone",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "When it ______, I take my umbrella.",
+            "answer": "rains"
+          },
+          {
+            "id": "q3",
+            "sentence": "What's the ______ like in your country in January?",
+            "answer": "weather"
+          },
+          {
+            "id": "q4",
+            "sentence": "When it ______, we can go skiing.",
+            "answer": "snows"
+          },
+          {
+            "id": "q5",
+            "sentence": "You see ______ before you hear thunder.",
+            "answer": "lightning"
+          },
+          {
+            "id": "q6",
+            "sentence": "It is 24 ______ here today.",
+            "answer": "degrees"
+          },
+          {
+            "id": "q7",
+            "sentence": "It is dangerous to be in a small boat at sea in a ______.",
+            "answer": "storm"
+          },
+          {
+            "id": "q8",
+            "sentence": "It is very ______ in Siberia in winter.",
+            "answer": "cold"
+          }
+        ]
+      }
+    ]
+  },
+  29: {
+    "unit": {
+      "id": "u29d",
+      "title": "Unit 29: In the Town",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u29d-ex1-where",
+        "type": "word_from_definition",
+        "title": "29.1. Answer the questions.",
+        "instructions_vi": "Trả lời câu hỏi cho biết bạn có thể tìm thấy ở đâu.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Where can I get a bus to London?",
+            "answer": "at the bus station",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Where can I get information about hotels?",
+            "answer": "at the tourist information office"
+          },
+          {
+            "id": "q3",
+            "clue": "Where can I change money?",
+            "answer": "at the bank"
+          },
+          {
+            "id": "q4",
+            "clue": "Where can I park my car?",
+            "answer": "in the car park",
+            "accepted_answers": [
+              "at the car park"
+            ]
+          },
+          {
+            "id": "q5",
+            "clue": "Where can I see old and interesting things?",
+            "answer": "at the museum"
+          },
+          {
+            "id": "q6",
+            "clue": "Where can I get a train?",
+            "answer": "at the train station",
+            "accepted_answers": [
+              "at the railway station"
+            ]
+          },
+          {
+            "id": "q7",
+            "clue": "Where can I go to a lot of different shops?",
+            "answer": "in the shopping centre",
+            "accepted_answers": [
+              "at the shopping centre"
+            ]
+          },
+          {
+            "id": "q8",
+            "clue": "Where can I go to post a parcel?",
+            "answer": "at the post office"
+          }
+        ]
+      },
+      {
+        "id": "u29d-ex2-notices",
+        "type": "situational_expression",
+        "title": "29.2. Which notice will help you?",
+        "instructions_vi": "Chọn biển báo phù hợp với mỗi tình huống.",
+        "word_bank": [
+          "Exit",
+          "Entrance",
+          "No smoking",
+          "Out of order",
+          "Please keep off the grass"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "The cash machine doesn't give you any money.",
+            "answer": "Out of order",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "You are in the shopping centre and you want to leave.",
+            "answer": "Exit"
+          },
+          {
+            "id": "q3",
+            "situation": "You want to sit in a place where there are no cigarettes.",
+            "answer": "No smoking"
+          },
+          {
+            "id": "q4",
+            "situation": "You want to know if people can go on the grass.",
+            "answer": "Please keep off the grass",
+            "accepted_answers": [
+              "Please do not walk on the grass"
+            ]
+          },
+          {
+            "id": "q5",
+            "situation": "You want to go into the museum.",
+            "answer": "Entrance"
+          }
+        ]
+      },
+      {
+        "id": "u29d-ex3-fill",
+        "type": "fill_in_the_blank",
+        "title": "29.3. Complete these sentences.",
+        "instructions_vi": "Điền từ phù hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Turn right at the end of the road.",
+            "answer": "right",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "The bus ______ is over there on the left.",
+            "answer": "station",
+            "accepted_answers": [
+              "stop"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "The bus station is over there ______ the left.",
+            "answer": "on"
+          },
+          {
+            "id": "q4",
+            "sentence": "For the Town Hall ______ the number 14 bus.",
+            "answer": "take"
+          },
+          {
+            "id": "q5",
+            "sentence": "______ is a post office on the other side of the road.",
+            "answer": "There"
+          },
+          {
+            "id": "q6",
+            "sentence": "There is a post office on the other ______ of the road.",
+            "answer": "side"
+          },
+          {
+            "id": "q7",
+            "sentence": "You can find a cash ______ at the bank in High Street.",
+            "answer": "machine"
+          },
+          {
+            "id": "q8",
+            "sentence": "We can get a map of the town at the tourist ______ office.",
+            "answer": "information"
+          },
+          {
+            "id": "q9",
+            "sentence": "Can you tell me the way to the ______ station, please?",
+            "answer": "railway",
+            "accepted_answers": [
+              "train"
+            ]
+          },
+          {
+            "id": "q10",
+            "sentence": "Can you tell me the way to the railway ______, please?",
+            "answer": "station"
+          },
+          {
+            "id": "q11",
+            "sentence": "______ me. I'm looking for a car park.",
+            "answer": "Excuse"
+          },
+          {
+            "id": "q12",
+            "sentence": "Excuse me. I'm looking ______ a car park.",
+            "answer": "for"
+          }
+        ]
+      },
+      {
+        "id": "u29d-ex4-unscramble",
+        "type": "unscramble",
+        "title": "29.4. What words are these?",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ/cụm từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "SUMUEM",
+            "answer": "MUSEUM",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "scrambled": "NOWT HLAL",
+            "answer": "TOWN HALL"
+          },
+          {
+            "id": "q3",
+            "scrambled": "BRILYRA",
+            "answer": "LIBRARY"
+          },
+          {
+            "id": "q4",
+            "scrambled": "RAC PRAK",
+            "answer": "CAR PARK"
+          },
+          {
+            "id": "q5",
+            "scrambled": "YWRLAAI NTTOISA",
+            "answer": "RAILWAY STATION"
+          },
+          {
+            "id": "q6",
+            "scrambled": "DTAEEPSRIN RAAE",
+            "answer": "PEDESTRIAN AREA"
+          },
+          {
+            "id": "q7",
+            "scrambled": "SCAH ENICMAH",
+            "answer": "CASH MACHINE"
+          },
+          {
+            "id": "q8",
+            "scrambled": "TSOP FFCOIE",
+            "answer": "POST OFFICE"
+          },
+          {
+            "id": "q9",
+            "scrambled": "PHOSS",
+            "answer": "SHOPS"
+          },
+          {
+            "id": "q10",
+            "scrambled": "SUB TOPS",
+            "answer": "BUS STOP"
+          }
+        ]
+      },
+      {
+        "id": "u29d-ex5-directions",
+        "type": "sentence_construction",
+        "title": "29.5. Look at the map. How do you get from the tourist information office to the shopping centre? Write directions.",
+        "instructions_vi": "Nhìn bản đồ và viết chỉ đường từ Tourist Information Office đến Shopping Centre. Đây là câu hỏi mở, có nhiều cách diễn đạt đúng — hệ thống sẽ chấm theo các từ khóa quan trọng.",
+        "context": {
+          "image": "images/exercises/u29-town-map.jpg"
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "Viết chỉ đường từ Tourist Information Office đến Shopping Centre.",
+            "answer": "Go left out of the tourist information office and take the first left. Then take the second left, which is Market Street. The shopping centre is on the left.",
+            "required_keywords": [
+              "left",
+              "market street"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  30: {
+    "unit": {
+      "id": "u30d",
+      "title": "Unit 30: In the Countryside",
+      "level": "A1-A2"
+    },
+    "exercises": [
+      {
+        "id": "u30d-ex1-picture",
+        "type": "labeling",
+        "title": "30.1. How many names of things in the countryside can you remember?",
+        "instructions_vi": "Nhìn hình và viết tên đúng theo từng số thứ tự.",
+        "context": {
+          "image": "images/exercises/u30-countryside.jpg"
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Vị trí số 1",
+            "answer": "mountains",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Vị trí số 2",
+            "answer": "forest"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Vị trí số 3",
+            "answer": "village"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Vị trí số 4",
+            "answer": "hills"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Vị trí số 5",
+            "answer": "wood"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Vị trí số 6",
+            "answer": "farm"
+          },
+          {
+            "id": "q7",
+            "clue_vi": "Vị trí số 7",
+            "answer": "river"
+          },
+          {
+            "id": "q8",
+            "clue_vi": "Vị trí số 8",
+            "answer": "country road"
+          },
+          {
+            "id": "q9",
+            "clue_vi": "Vị trí số 9",
+            "answer": "path"
+          },
+          {
+            "id": "q10",
+            "clue_vi": "Vị trí số 10",
+            "answer": "fields"
+          },
+          {
+            "id": "q11",
+            "clue_vi": "Vị trí số 11",
+            "answer": "lake"
+          }
+        ]
+      },
+      {
+        "id": "u30d-ex2-fill",
+        "type": "fill_in_the_blank",
+        "title": "30.2. Fill the gaps in these sentences.",
+        "instructions_vi": "Điền từ phù hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My brother is a farmer. He lives on a farm.",
+            "answer": "farm",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "It's not a big house; it's just a ______.",
+            "answer": "cottage"
+          },
+          {
+            "id": "q3",
+            "sentence": "The farm is near a ______ which has 800 people.",
+            "answer": "village"
+          },
+          {
+            "id": "q4",
+            "sentence": "Twenty kilometres from the village there is a small ______. It has 9,000 people.",
+            "answer": "town"
+          }
+        ]
+      },
+      {
+        "id": "u30d-ex3-matching",
+        "type": "matching",
+        "title": "30.3. Match the beginning of the sentences on the left with the ends of the sentences on the right.",
+        "instructions_vi": "Nối phần đầu câu với phần cuối câu phù hợp.",
+        "pairs": [
+          {
+            "left": "We went swimming",
+            "right": "in the lake. The water was warm."
+          },
+          {
+            "left": "We went walking",
+            "right": "along a five-kilometre path."
+          },
+          {
+            "left": "We went skiing",
+            "right": "down the mountain."
+          },
+          {
+            "left": "We saw some wonderful wildlife",
+            "right": "in the national park."
+          },
+          {
+            "left": "We had a picnic",
+            "right": "sitting by the river."
+          }
+        ]
+      },
+      {
+        "id": "u30d-ex4-thearticle",
+        "type": "fill_in_the_blank",
+        "title": "30.4. Put \"the\" in the sentences if necessary.",
+        "instructions_vi": "Điền chữ \"the\" vào chỗ trống nếu cần, hoặc để trống ô nhập nếu câu không cần mạo từ \"the\".",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My parents live in the countryside.",
+            "answer": "the",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "He loves ______ nature. (để trống nếu không cần \"the\")",
+            "answer": ""
+          },
+          {
+            "id": "q3",
+            "sentence": "She wants to live ______ in country.",
+            "answer": "the"
+          },
+          {
+            "id": "q4",
+            "sentence": "They are interested in ______ wildlife. (để trống nếu không cần \"the\")",
+            "answer": ""
+          }
+        ]
+      }
+    ]
   }
 };

@@ -6072,27 +6072,1016 @@ const VOCAB_UNITS = [
   {
     "id": 26,
     "title": "Music and musical instruments",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "music",
+        "ipa": "/ˈmjuːzɪk/",
+        "meaning": "âm nhạc",
+        "example": "I listen to music every day.",
+        "exampleVi": "Tôi nghe nhạc mỗi ngày."
+      },
+      {
+        "type": "Adjective",
+        "word": "musical",
+        "ipa": "/ˈmjuːzɪkəl/",
+        "meaning": "thuộc về âm nhạc; có năng khiếu âm nhạc",
+        "example": "She is very musical.",
+        "exampleVi": "Cô ấy rất có năng khiếu âm nhạc."
+      },
+      {
+        "type": "Noun",
+        "word": "musician",
+        "ipa": "/mjuˈzɪʃən/",
+        "meaning": "nhạc sĩ; người chơi nhạc",
+        "example": "My brother is a musician.",
+        "exampleVi": "Anh trai tôi là một nhạc sĩ."
+      },
+      {
+        "type": "Noun",
+        "word": "musical instrument",
+        "ipa": "/ˌmjuːzɪkəl ˈɪnstrəmənt/",
+        "meaning": "nhạc cụ",
+        "example": "The piano is a musical instrument.",
+        "exampleVi": "Đàn piano là một nhạc cụ."
+      },
+      {
+        "type": "Noun",
+        "word": "piano",
+        "ipa": "/piˈænoʊ/",
+        "meaning": "đàn piano",
+        "example": "She plays the piano very well.",
+        "exampleVi": "Cô ấy chơi đàn piano rất giỏi."
+      },
+      {
+        "type": "Noun",
+        "word": "cello",
+        "ipa": "/ˈtʃeloʊ/",
+        "meaning": "đàn cello",
+        "example": "He plays the cello.",
+        "exampleVi": "Anh ấy chơi đàn cello."
+      },
+      {
+        "type": "Noun",
+        "word": "guitar",
+        "ipa": "/ɡɪˈtɑːr/",
+        "meaning": "đàn ghi-ta",
+        "example": "I play the guitar.",
+        "exampleVi": "Tôi chơi đàn ghi-ta."
+      },
+      {
+        "type": "Noun",
+        "word": "flute",
+        "ipa": "/fluːt/",
+        "meaning": "sáo",
+        "example": "She plays the flute.",
+        "exampleVi": "Cô ấy chơi sáo."
+      },
+      {
+        "type": "Noun",
+        "word": "violin",
+        "ipa": "/ˌvaɪəˈlɪn/",
+        "meaning": "đàn vi-ô-lông",
+        "example": "My sister plays the violin.",
+        "exampleVi": "Chị/em gái tôi chơi đàn vi-ô-lông."
+      },
+      {
+        "type": "Noun",
+        "word": "trumpet",
+        "ipa": "/ˈtrʌmpɪt/",
+        "meaning": "kèn trumpet",
+        "example": "He plays the trumpet.",
+        "exampleVi": "Anh ấy chơi kèn trumpet."
+      },
+      {
+        "type": "Noun",
+        "word": "clarinet",
+        "ipa": "/ˌklærəˈnet/",
+        "meaning": "kèn clarinet",
+        "example": "She plays the clarinet at school.",
+        "exampleVi": "Cô ấy chơi kèn clarinet ở trường."
+      },
+      {
+        "type": "Noun",
+        "word": "drums",
+        "ipa": "/drʌmz/",
+        "meaning": "trống",
+        "example": "He plays the drums in a band.",
+        "exampleVi": "Anh ấy chơi trống trong một ban nhạc."
+      },
+      {
+        "type": "Noun",
+        "word": "flute-player",
+        "ipa": "/ˈfluːt ˌpleɪər/",
+        "meaning": "người chơi sáo",
+        "example": "The flute-player is very good.",
+        "exampleVi": "Người chơi sáo rất giỏi."
+      },
+      {
+        "type": "Noun",
+        "word": "orchestra",
+        "ipa": "/ˈɔːrkɪstrə/",
+        "meaning": "dàn nhạc giao hưởng",
+        "example": "She plays in an orchestra.",
+        "exampleVi": "Cô ấy chơi trong một dàn nhạc."
+      },
+      {
+        "type": "Noun",
+        "word": "trumpet-player",
+        "ipa": "/ˈtrʌmpɪt ˌpleɪər/",
+        "meaning": "người chơi kèn trumpet",
+        "example": "The trumpet-player is on stage.",
+        "exampleVi": "Người chơi kèn trumpet đang ở trên sân khấu."
+      },
+      {
+        "type": "Noun",
+        "word": "classical music",
+        "ipa": "/ˌklæsɪkəl ˈmjuːzɪk/",
+        "meaning": "nhạc cổ điển",
+        "example": "My mother likes classical music.",
+        "exampleVi": "Mẹ tôi thích nhạc cổ điển."
+      },
+      {
+        "type": "Noun",
+        "word": "opera",
+        "ipa": "/ˈɑːprə/",
+        "meaning": "nhạc kịch opera",
+        "example": "We went to the opera last night.",
+        "exampleVi": "Chúng tôi đã đi xem opera tối qua."
+      },
+      {
+        "type": "Noun",
+        "word": "pop music",
+        "ipa": "/ˈpɑːp ˌmjuːzɪk/",
+        "meaning": "nhạc pop",
+        "example": "I like pop music.",
+        "exampleVi": "Tôi thích nhạc pop."
+      },
+      {
+        "type": "Noun",
+        "word": "folk music",
+        "ipa": "/ˈfoʊk ˌmjuːzɪk/",
+        "meaning": "nhạc dân gian",
+        "example": "My grandparents like folk music.",
+        "exampleVi": "Ông bà tôi thích nhạc dân gian."
+      },
+      {
+        "type": "Noun",
+        "word": "jazz",
+        "ipa": "/dʒæz/",
+        "meaning": "nhạc jazz",
+        "example": "My father listens to jazz.",
+        "exampleVi": "Bố tôi nghe nhạc jazz."
+      },
+      {
+        "type": "Noun",
+        "word": "rock",
+        "ipa": "/rɑːk/",
+        "meaning": "nhạc rock",
+        "example": "My brother loves rock.",
+        "exampleVi": "Anh/em trai tôi rất thích nhạc rock."
+      },
+      {
+        "type": "Phrase",
+        "word": "download some new songs",
+        "ipa": "/ˌdaʊnˈloʊd səm nuː sɔːŋz/",
+        "meaning": "tải một số bài hát mới",
+        "example": "I want to download some new songs.",
+        "exampleVi": "Tôi muốn tải một số bài hát mới."
+      },
+      {
+        "type": "Noun",
+        "word": "band",
+        "ipa": "/bænd/",
+        "meaning": "ban nhạc",
+        "example": "My friend plays in a band.",
+        "exampleVi": "Bạn tôi chơi trong một ban nhạc."
+      },
+      {
+        "type": "Noun",
+        "word": "concert",
+        "ipa": "/ˈkɑːnsɜːrt/",
+        "meaning": "buổi hòa nhạc, buổi biểu diễn âm nhạc",
+        "example": "We went to a concert last weekend.",
+        "exampleVi": "Chúng tôi đã đi xem một buổi hòa nhạc cuối tuần trước."
+      }
+    ]
   },
   {
     "id": 27,
     "title": "Countries and nationalities",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "continent",
+        "ipa": "/ˈkɑːntənənt/",
+        "meaning": "châu lục",
+        "example": "Asia is a large continent.",
+        "exampleVi": "Châu Á là một châu lục lớn."
+      },
+      {
+        "type": "Noun",
+        "word": "country",
+        "ipa": "/ˈkʌntri/",
+        "meaning": "đất nước, quốc gia",
+        "example": "Vietnam is my country.",
+        "exampleVi": "Việt Nam là đất nước của tôi."
+      },
+      {
+        "type": "Proper noun",
+        "word": "North America",
+        "ipa": "/ˌnɔːrθ əˈmerɪkə/",
+        "meaning": "Bắc Mỹ",
+        "example": "Canada is in North America.",
+        "exampleVi": "Canada nằm ở Bắc Mỹ."
+      },
+      {
+        "type": "Proper noun",
+        "word": "South America",
+        "ipa": "/ˌsaʊθ əˈmerɪkə/",
+        "meaning": "Nam Mỹ",
+        "example": "Brazil is in South America.",
+        "exampleVi": "Brazil nằm ở Nam Mỹ."
+      },
+      {
+        "type": "Proper noun",
+        "word": "Europe",
+        "ipa": "/ˈjʊrəp/",
+        "meaning": "châu Âu",
+        "example": "France is in Europe.",
+        "exampleVi": "Pháp nằm ở châu Âu."
+      },
+      {
+        "type": "Proper noun",
+        "word": "Australia",
+        "ipa": "/ɔːˈstreɪliə/",
+        "meaning": "Úc, Australia",
+        "example": "Australia is a large country.",
+        "exampleVi": "Australia là một quốc gia lớn."
+      },
+      {
+        "type": "Proper noun",
+        "word": "Asia",
+        "ipa": "/ˈeɪʒə/",
+        "meaning": "châu Á",
+        "example": "Vietnam is in Asia.",
+        "exampleVi": "Việt Nam nằm ở châu Á."
+      },
+      {
+        "type": "Proper noun",
+        "word": "Africa",
+        "ipa": "/ˈæfrɪkə/",
+        "meaning": "châu Phi",
+        "example": "Egypt is in Africa.",
+        "exampleVi": "Ai Cập nằm ở châu Phi."
+      },
+      {
+        "type": "Proper noun",
+        "word": "Antarctica",
+        "ipa": "/ænˈtɑːrktɪkə/",
+        "meaning": "Nam Cực",
+        "example": "Antarctica is very cold.",
+        "exampleVi": "Nam Cực rất lạnh."
+      },
+      {
+        "type": "Noun",
+        "word": "nationality",
+        "ipa": "/ˌnæʃəˈnæləti/",
+        "meaning": "quốc tịch",
+        "example": "What is your nationality?",
+        "exampleVi": "Quốc tịch của bạn là gì?"
+      }
+    ]
   },
   {
     "id": 28,
     "title": "Weather",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "sun",
+        "ipa": "/sʌn/",
+        "meaning": "mặt trời; ánh nắng",
+        "example": "The sun is very bright today.",
+        "exampleVi": "Mặt trời hôm nay rất sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "rain",
+        "ipa": "/reɪn/",
+        "meaning": "mưa",
+        "example": "We have a lot of rain in summer.",
+        "exampleVi": "Chúng tôi có nhiều mưa vào mùa hè."
+      },
+      {
+        "type": "Noun",
+        "word": "cloud",
+        "ipa": "/klaʊd/",
+        "meaning": "đám mây",
+        "example": "There is a big cloud in the sky.",
+        "exampleVi": "Có một đám mây lớn trên bầu trời."
+      },
+      {
+        "type": "Noun",
+        "word": "snow",
+        "ipa": "/snoʊ/",
+        "meaning": "tuyết",
+        "example": "The children are playing in the snow.",
+        "exampleVi": "Bọn trẻ đang chơi trong tuyết."
+      },
+      {
+        "type": "Noun",
+        "word": "fog",
+        "ipa": "/fɑːɡ/",
+        "meaning": "sương mù",
+        "example": "There is a lot of fog this morning.",
+        "exampleVi": "Sáng nay có rất nhiều sương mù."
+      },
+      {
+        "type": "Noun",
+        "word": "wind",
+        "ipa": "/wɪnd/",
+        "meaning": "gió",
+        "example": "The wind is very strong today.",
+        "exampleVi": "Gió hôm nay rất mạnh."
+      },
+      {
+        "type": "Noun",
+        "word": "thunder",
+        "ipa": "/ˈθʌndər/",
+        "meaning": "sấm",
+        "example": "I can hear thunder.",
+        "exampleVi": "Tôi có thể nghe thấy tiếng sấm."
+      },
+      {
+        "type": "Noun",
+        "word": "lightning",
+        "ipa": "/ˈlaɪtnɪŋ/",
+        "meaning": "tia chớp, sét",
+        "example": "We saw lightning in the sky.",
+        "exampleVi": "Chúng tôi nhìn thấy tia chớp trên bầu trời."
+      },
+      {
+        "type": "Adjective",
+        "word": "sunny",
+        "ipa": "/ˈsʌni/",
+        "meaning": "có nắng, trời nắng",
+        "example": "It's sunny today.",
+        "exampleVi": "Hôm nay trời nắng."
+      },
+      {
+        "type": "Adjective",
+        "word": "rainy",
+        "ipa": "/ˈreɪni/",
+        "meaning": "có mưa, trời mưa",
+        "example": "It is a rainy day.",
+        "exampleVi": "Hôm nay là một ngày mưa."
+      },
+      {
+        "type": "Adjective",
+        "word": "windy",
+        "ipa": "/ˈwɪndi/",
+        "meaning": "nhiều gió, có gió",
+        "example": "It's very windy today.",
+        "exampleVi": "Hôm nay trời rất nhiều gió."
+      },
+      {
+        "type": "Adjective",
+        "word": "cloudy",
+        "ipa": "/ˈklaʊdi/",
+        "meaning": "nhiều mây, có mây",
+        "example": "It is cloudy today.",
+        "exampleVi": "Hôm nay trời nhiều mây."
+      },
+      {
+        "type": "Adjective",
+        "word": "snowy",
+        "ipa": "/ˈsnoʊi/",
+        "meaning": "có tuyết, đầy tuyết",
+        "example": "It is snowy in winter.",
+        "exampleVi": "Trời có tuyết vào mùa đông."
+      },
+      {
+        "type": "Adjective",
+        "word": "foggy",
+        "ipa": "/ˈfɑːɡi/",
+        "meaning": "có sương mù",
+        "example": "It is foggy this morning.",
+        "exampleVi": "Sáng nay trời có sương mù."
+      },
+      {
+        "type": "Adjective",
+        "word": "thundery",
+        "ipa": "/ˈθʌndəri/",
+        "meaning": "có sấm, có giông",
+        "example": "It is a thundery day.",
+        "exampleVi": "Hôm nay trời có giông."
+      },
+      {
+        "type": "Adjective",
+        "word": "hot",
+        "ipa": "/hɑːt/",
+        "meaning": "nóng",
+        "example": "It is very hot today.",
+        "exampleVi": "Hôm nay trời rất nóng."
+      },
+      {
+        "type": "Noun",
+        "word": "degrees",
+        "ipa": "/dɪˈɡriːz/",
+        "meaning": "độ (nhiệt độ)",
+        "example": "It is 30 degrees today.",
+        "exampleVi": "Hôm nay nhiệt độ là 30 độ."
+      },
+      {
+        "type": "Adjective",
+        "word": "cold",
+        "ipa": "/koʊld/",
+        "meaning": "lạnh",
+        "example": "It is very cold outside.",
+        "exampleVi": "Bên ngoài trời rất lạnh."
+      },
+      {
+        "type": "Phrase",
+        "word": "minus 50 degrees",
+        "ipa": "/ˈmaɪnəs ˈfɪfti dɪˈɡriːz/",
+        "meaning": "âm 50 độ",
+        "example": "It is minus 50 degrees in winter.",
+        "exampleVi": "Mùa đông nhiệt độ là âm 50 độ."
+      },
+      {
+        "type": "Adjective",
+        "word": "wet",
+        "ipa": "/wet/",
+        "meaning": "ẩm ướt; ướt",
+        "example": "The ground is wet after the rain.",
+        "exampleVi": "Mặt đất ướt sau cơn mưa."
+      },
+      {
+        "type": "Adjective",
+        "word": "dry",
+        "ipa": "/draɪ/",
+        "meaning": "khô",
+        "example": "The weather is hot and dry.",
+        "exampleVi": "Thời tiết nóng và khô."
+      },
+      {
+        "type": "Noun",
+        "word": "hurricane",
+        "ipa": "/ˈhɜːrəkeɪn/",
+        "meaning": "bão lớn, bão nhiệt đới",
+        "example": "The hurricane is very strong.",
+        "exampleVi": "Cơn bão rất mạnh."
+      },
+      {
+        "type": "Noun",
+        "word": "storm",
+        "ipa": "/stɔːrm/",
+        "meaning": "bão, giông bão",
+        "example": "There is a big storm tonight.",
+        "exampleVi": "Tối nay có một cơn bão lớn."
+      },
+      {
+        "type": "Noun",
+        "word": "thunderstorm",
+        "ipa": "/ˈθʌndərstɔːrm/",
+        "meaning": "bão có sấm sét, giông",
+        "example": "We had a thunderstorm last night.",
+        "exampleVi": "Tối qua chúng tôi có một trận giông."
+      },
+      {
+        "type": "Phrase",
+        "word": "It's a sunny day",
+        "ipa": "/ɪts ə ˈsʌni deɪ/",
+        "meaning": "Hôm nay là một ngày nắng",
+        "example": "It's a sunny day today.",
+        "exampleVi": "Hôm nay là một ngày nắng."
+      },
+      {
+        "type": "Verb",
+        "word": "shine",
+        "ipa": "/ʃaɪn/",
+        "meaning": "chiếu sáng, tỏa sáng",
+        "example": "The sun is shining.",
+        "exampleVi": "Mặt trời đang chiếu sáng."
+      },
+      {
+        "type": "Question",
+        "word": "What's the weather like in your country in June?",
+        "ipa": "/wʌts ðə ˈweðər laɪk ɪn jʊr ˈkʌntri ɪn dʒuːn/",
+        "meaning": "Thời tiết ở đất nước bạn vào tháng Sáu như thế nào?",
+        "example": "What's the weather like in your country in June?",
+        "exampleVi": "Thời tiết ở đất nước bạn vào tháng Sáu như thế nào?"
+      }
+    ]
   },
   {
     "id": 29,
     "title": "In the town",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "train station",
+        "ipa": "/ˈtreɪn ˌsteɪʃən/",
+        "meaning": "ga tàu hỏa",
+        "example": "The train station is near my house.",
+        "exampleVi": "Ga tàu hỏa ở gần nhà tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "railway station",
+        "ipa": "/ˈreɪlweɪ ˌsteɪʃən/",
+        "meaning": "ga đường sắt, ga tàu hỏa",
+        "example": "The railway station is very busy.",
+        "exampleVi": "Ga tàu hỏa rất đông."
+      },
+      {
+        "type": "Phrase",
+        "word": "get a train",
+        "ipa": "/ɡet ə treɪn/",
+        "meaning": "đi/bắt tàu",
+        "example": "I get a train to London.",
+        "exampleVi": "Tôi đi tàu đến London."
+      },
+      {
+        "type": "Noun",
+        "word": "bus station",
+        "ipa": "/ˈbʌs ˌsteɪʃən/",
+        "meaning": "bến xe buýt",
+        "example": "The bus station is in the town centre.",
+        "exampleVi": "Bến xe buýt ở trung tâm thị trấn."
+      },
+      {
+        "type": "Phrase",
+        "word": "get a bus",
+        "ipa": "/ɡet ə bʌs/",
+        "meaning": "đi/bắt xe buýt",
+        "example": "I get a bus to school.",
+        "exampleVi": "Tôi đi xe buýt đến trường."
+      },
+      {
+        "type": "Noun",
+        "word": "shop",
+        "ipa": "/ʃɑːp/",
+        "meaning": "cửa hàng",
+        "example": "There is a small shop near here.",
+        "exampleVi": "Có một cửa hàng nhỏ gần đây."
+      },
+      {
+        "type": "Noun",
+        "word": "shopping centre",
+        "ipa": "/ˈʃɑːpɪŋ ˌsentər/",
+        "meaning": "trung tâm mua sắm",
+        "example": "The shopping centre is very big.",
+        "exampleVi": "Trung tâm mua sắm rất lớn."
+      },
+      {
+        "type": "Noun",
+        "word": "tourist information office",
+        "ipa": "/ˈtʊrɪst ˌɪnfərˈmeɪʃən ˌɔːfɪs/",
+        "meaning": "văn phòng thông tin du lịch",
+        "example": "The tourist information office is near the museum.",
+        "exampleVi": "Văn phòng thông tin du lịch ở gần bảo tàng."
+      },
+      {
+        "type": "Phrase",
+        "word": "get information",
+        "ipa": "/ɡet ˌɪnfərˈmeɪʃən/",
+        "meaning": "lấy/tìm thông tin",
+        "example": "You can get information here.",
+        "exampleVi": "Bạn có thể lấy thông tin ở đây."
+      },
+      {
+        "type": "Noun",
+        "word": "museum",
+        "ipa": "/mjuˈziːəm/",
+        "meaning": "bảo tàng",
+        "example": "We visited the museum yesterday.",
+        "exampleVi": "Chúng tôi đã tham quan bảo tàng hôm qua."
+      },
+      {
+        "type": "Noun",
+        "word": "bank",
+        "ipa": "/bæŋk/",
+        "meaning": "ngân hàng",
+        "example": "The bank is next to the post office.",
+        "exampleVi": "Ngân hàng ở cạnh bưu điện."
+      },
+      {
+        "type": "Phrase",
+        "word": "change money",
+        "ipa": "/tʃeɪndʒ ˈmʌni/",
+        "meaning": "đổi tiền",
+        "example": "I need to change money.",
+        "exampleVi": "Tôi cần đổi tiền."
+      },
+      {
+        "type": "Noun",
+        "word": "a cash machine",
+        "ipa": "/ə kæʃ məˈʃiːn/",
+        "meaning": "máy ATM",
+        "example": "There is a cash machine outside the bank.",
+        "exampleVi": "Có một máy ATM bên ngoài ngân hàng."
+      },
+      {
+        "type": "Noun",
+        "word": "post office",
+        "ipa": "/ˈpoʊst ˌɔːfɪs/",
+        "meaning": "bưu điện",
+        "example": "I need to go to the post office.",
+        "exampleVi": "Tôi cần đến bưu điện."
+      },
+      {
+        "type": "Phrase",
+        "word": "post letters and parcels",
+        "ipa": "/poʊst ˈletərz ən ˈpɑːrsəlz/",
+        "meaning": "gửi thư và bưu kiện",
+        "example": "I post letters and parcels at the post office.",
+        "exampleVi": "Tôi gửi thư và bưu kiện ở bưu điện."
+      },
+      {
+        "type": "Noun",
+        "word": "library",
+        "ipa": "/ˈlaɪbreri/",
+        "meaning": "thư viện",
+        "example": "I often study in the library.",
+        "exampleVi": "Tôi thường học trong thư viện."
+      },
+      {
+        "type": "Phrase",
+        "word": "read books and newspapers",
+        "ipa": "/riːd bʊks ən ˈnuːzˌpeɪpərz/",
+        "meaning": "đọc sách và báo",
+        "example": "People read books and newspapers here.",
+        "exampleVi": "Mọi người đọc sách và báo ở đây."
+      },
+      {
+        "type": "Noun",
+        "word": "town hall",
+        "ipa": "/ˈtaʊn ˌhɔːl/",
+        "meaning": "tòa thị chính",
+        "example": "The town hall is in the town centre.",
+        "exampleVi": "Tòa thị chính ở trung tâm thị trấn."
+      },
+      {
+        "type": "Noun",
+        "word": "car park",
+        "ipa": "/ˈkɑːr ˌpɑːrk/",
+        "meaning": "bãi đỗ xe",
+        "example": "There is a car park near the shop.",
+        "exampleVi": "Có một bãi đỗ xe gần cửa hàng."
+      },
+      {
+        "type": "Phrase",
+        "word": "park your car",
+        "ipa": "/pɑːrk jʊr kɑːr/",
+        "meaning": "đỗ xe ô tô của bạn",
+        "example": "You can park your car here.",
+        "exampleVi": "Bạn có thể đỗ xe ở đây."
+      },
+      {
+        "type": "Noun",
+        "word": "pedestrian area",
+        "ipa": "/pəˈdestriən ˌeriə/",
+        "meaning": "khu vực dành cho người đi bộ",
+        "example": "Cars cannot enter the pedestrian area.",
+        "exampleVi": "Ô tô không được vào khu vực dành cho người đi bộ."
+      },
+      {
+        "type": "Noun",
+        "word": "notice in town",
+        "ipa": "/ˈnoʊtɪs ɪn taʊn/",
+        "meaning": "thông báo/biển báo trong thị trấn",
+        "example": "I read a notice in town.",
+        "exampleVi": "Tôi đọc một thông báo trong thị trấn."
+      },
+      {
+        "type": "Noun",
+        "word": "exit",
+        "ipa": "/ˈeɡzɪt/",
+        "meaning": "lối ra",
+        "example": "The exit is on the left.",
+        "exampleVi": "Lối ra ở bên trái."
+      },
+      {
+        "type": "Noun",
+        "word": "entrance",
+        "ipa": "/ˈentrəns/",
+        "meaning": "lối vào",
+        "example": "The entrance is over there.",
+        "exampleVi": "Lối vào ở đằng kia."
+      },
+      {
+        "type": "Sign",
+        "word": "no smoking",
+        "ipa": "/noʊ ˈsmoʊkɪŋ/",
+        "meaning": "cấm hút thuốc",
+        "example": "The sign says No smoking.",
+        "exampleVi": "Biển báo ghi “Cấm hút thuốc”."
+      },
+      {
+        "type": "Adjective / Sign",
+        "word": "out of order",
+        "ipa": "/ˌaʊt əv ˈɔːrdər/",
+        "meaning": "bị hỏng, không hoạt động",
+        "example": "The lift is out of order.",
+        "exampleVi": "Thang máy bị hỏng."
+      },
+      {
+        "type": "Sign",
+        "word": "please keep off the grass",
+        "ipa": "/pliːz kiːp ɔːf ðə ɡræs/",
+        "meaning": "vui lòng không giẫm lên cỏ",
+        "example": "The sign says, “Please keep off the grass.”",
+        "exampleVi": "Biển báo ghi: “Vui lòng không giẫm lên cỏ.”"
+      },
+      {
+        "type": "Question",
+        "word": "Where is ...?",
+        "ipa": "/wer ɪz/",
+        "meaning": "... ở đâu?",
+        "example": "Where is the bank?",
+        "exampleVi": "Ngân hàng ở đâu?"
+      },
+      {
+        "type": "Phrase",
+        "word": "go left",
+        "ipa": "/ɡoʊ left/",
+        "meaning": "đi sang trái",
+        "example": "Go left at the traffic lights.",
+        "exampleVi": "Đi sang trái ở đèn giao thông."
+      },
+      {
+        "type": "Phrase",
+        "word": "at the end of the road",
+        "ipa": "/æt ði end əv ðə roʊd/",
+        "meaning": "ở cuối con đường",
+        "example": "The bank is at the end of the road.",
+        "exampleVi": "Ngân hàng ở cuối con đường."
+      },
+      {
+        "type": "Question",
+        "word": "How do I get to ...?",
+        "ipa": "/haʊ du aɪ ɡet tə/",
+        "meaning": "Làm thế nào để tôi đến ...?",
+        "example": "How do I get to the museum?",
+        "exampleVi": "Làm thế nào để tôi đến bảo tàng?"
+      },
+      {
+        "type": "Phrase",
+        "word": "take the first right",
+        "ipa": "/teɪk ðə fɜːrst raɪt/",
+        "meaning": "rẽ phải ở ngã rẽ đầu tiên",
+        "example": "Take the first right.",
+        "exampleVi": "Rẽ phải ở ngã rẽ đầu tiên."
+      },
+      {
+        "type": "Phrase",
+        "word": "turn right",
+        "ipa": "/tɜːrn raɪt/",
+        "meaning": "rẽ phải",
+        "example": "Turn right at the bank.",
+        "exampleVi": "Rẽ phải ở ngân hàng."
+      },
+      {
+        "type": "Phrase",
+        "word": "on the left",
+        "ipa": "/ɑːn ðə left/",
+        "meaning": "ở bên trái",
+        "example": "The library is on the left.",
+        "exampleVi": "Thư viện ở bên trái."
+      },
+      {
+        "type": "Expression",
+        "word": "Excuse me",
+        "ipa": "/ɪkˈskjuːz miː/",
+        "meaning": "xin lỗi; xin phép (để hỏi ai đó)",
+        "example": "Excuse me, where is the station?",
+        "exampleVi": "Xin lỗi, ga tàu ở đâu ạ?"
+      },
+      {
+        "type": "Phrase",
+        "word": "I'm looking for ...",
+        "ipa": "/aɪm ˈlʊkɪŋ fər/",
+        "meaning": "Tôi đang tìm ...",
+        "example": "I'm looking for the post office.",
+        "exampleVi": "Tôi đang tìm bưu điện."
+      },
+      {
+        "type": "Phrase",
+        "word": "take the number ... bus and get off at the ... stop",
+        "ipa": "/teɪk ðə ˈnʌmbər bʌs ən ɡet ɔːf æt ðə stoʊp/",
+        "meaning": "đi xe buýt số ... và xuống ở trạm ...",
+        "example": "Take the number 10 bus and get off at the third stop.",
+        "exampleVi": "Đi xe buýt số 10 và xuống ở trạm thứ ba."
+      },
+      {
+        "type": "Question",
+        "word": "Can you tell me the way to ...?",
+        "ipa": "/kən ju tel mi ðə weɪ tə/",
+        "meaning": "Bạn có thể chỉ cho tôi đường đến ... không?",
+        "example": "Can you tell me the way to the bank?",
+        "exampleVi": "Bạn có thể chỉ cho tôi đường đến ngân hàng không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "on the other side of the road",
+        "ipa": "/ɑːn ði ˈʌðər saɪd əv ðə roʊd/",
+        "meaning": "ở phía bên kia đường",
+        "example": "The bank is on the other side of the road.",
+        "exampleVi": "Ngân hàng ở phía bên kia đường."
+      }
+    ]
   },
   {
     "id": 30,
     "title": "In the countryside",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "countryside",
+        "ipa": "/ˈkʌntrisaɪd/",
+        "meaning": "vùng nông thôn, miền quê",
+        "example": "I love living in the countryside.",
+        "exampleVi": "Tôi thích sống ở vùng nông thôn."
+      },
+      {
+        "type": "Noun",
+        "word": "mountain",
+        "ipa": "/ˈmaʊntən/",
+        "meaning": "núi",
+        "example": "There is a high mountain near our village.",
+        "exampleVi": "Có một ngọn núi cao gần làng của chúng tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "forest",
+        "ipa": "/ˈfɔːrəst/",
+        "meaning": "rừng",
+        "example": "We walked through the forest.",
+        "exampleVi": "Chúng tôi đi bộ xuyên qua khu rừng."
+      },
+      {
+        "type": "Noun",
+        "word": "lake",
+        "ipa": "/leɪk/",
+        "meaning": "hồ",
+        "example": "There is a beautiful lake near the village.",
+        "exampleVi": "Có một cái hồ đẹp gần ngôi làng."
+      },
+      {
+        "type": "Noun",
+        "word": "field",
+        "ipa": "/fiːld/",
+        "meaning": "cánh đồng",
+        "example": "The cows are in the field.",
+        "exampleVi": "Những con bò đang ở trên cánh đồng."
+      },
+      {
+        "type": "Noun",
+        "word": "path",
+        "ipa": "/pæθ/",
+        "meaning": "con đường mòn, lối đi bộ",
+        "example": "Follow this path to the lake.",
+        "exampleVi": "Đi theo con đường mòn này đến hồ."
+      },
+      {
+        "type": "Noun",
+        "word": "country road",
+        "ipa": "/ˈkʌntri roʊd/",
+        "meaning": "đường ở nông thôn, đường làng",
+        "example": "We drove along a quiet country road.",
+        "exampleVi": "Chúng tôi lái xe trên một con đường nông thôn yên tĩnh."
+      },
+      {
+        "type": "Noun",
+        "word": "village",
+        "ipa": "/ˈvɪlɪdʒ/",
+        "meaning": "ngôi làng",
+        "example": "My grandparents live in a small village.",
+        "exampleVi": "Ông bà tôi sống trong một ngôi làng nhỏ."
+      },
+      {
+        "type": "Noun",
+        "word": "hill",
+        "ipa": "/hɪl/",
+        "meaning": "đồi",
+        "example": "The house is on a hill.",
+        "exampleVi": "Ngôi nhà ở trên một ngọn đồi."
+      },
+      {
+        "type": "Noun",
+        "word": "river",
+        "ipa": "/ˈrɪvər/",
+        "meaning": "sông",
+        "example": "There is a river near the farm.",
+        "exampleVi": "Có một con sông gần trang trại."
+      },
+      {
+        "type": "Noun",
+        "word": "wood",
+        "ipa": "/wʊd/",
+        "meaning": "khu rừng nhỏ, lùm cây",
+        "example": "We went for a walk in the wood.",
+        "exampleVi": "Chúng tôi đi dạo trong khu rừng nhỏ."
+      },
+      {
+        "type": "Noun",
+        "word": "farm",
+        "ipa": "/fɑːrm/",
+        "meaning": "trang trại",
+        "example": "My uncle has a farm.",
+        "exampleVi": "Chú tôi có một trang trại."
+      },
+      {
+        "type": "Noun",
+        "word": "farmer",
+        "ipa": "/ˈfɑːrmər/",
+        "meaning": "nông dân",
+        "example": "The farmer has many cows.",
+        "exampleVi": "Người nông dân có nhiều con bò."
+      },
+      {
+        "type": "Phrase",
+        "word": "on a farm",
+        "ipa": "/ɑːn ə fɑːrm/",
+        "meaning": "ở/trên một trang trại",
+        "example": "They live on a farm.",
+        "exampleVi": "Họ sống ở một trang trại."
+      },
+      {
+        "type": "Noun",
+        "word": "cottage",
+        "ipa": "/ˈkɑːtɪdʒ/",
+        "meaning": "nhà nhỏ ở nông thôn",
+        "example": "They have a small cottage in the countryside.",
+        "exampleVi": "Họ có một ngôi nhà nhỏ ở vùng nông thôn."
+      },
+      {
+        "type": "Noun",
+        "word": "nature",
+        "ipa": "/ˈneɪtʃər/",
+        "meaning": "thiên nhiên",
+        "example": "I love being close to nature.",
+        "exampleVi": "Tôi thích gần gũi với thiên nhiên."
+      },
+      {
+        "type": "Noun",
+        "word": "conservation",
+        "ipa": "/ˌkɑːnsərˈveɪʃən/",
+        "meaning": "sự bảo tồn, bảo vệ thiên nhiên",
+        "example": "Conservation is important for animals.",
+        "exampleVi": "Việc bảo tồn rất quan trọng đối với động vật."
+      },
+      {
+        "type": "Noun",
+        "word": "wildlife",
+        "ipa": "/ˈwaɪldlaɪf/",
+        "meaning": "động vật hoang dã; hệ động thực vật hoang dã",
+        "example": "This park has a lot of wildlife.",
+        "exampleVi": "Công viên này có nhiều động vật hoang dã."
+      },
+      {
+        "type": "Noun phrase",
+        "word": "a conservation area",
+        "ipa": "/ə ˌkɑːnsərˈveɪʃən ˌeriə/",
+        "meaning": "khu bảo tồn, khu vực được bảo vệ",
+        "example": "This is a conservation area.",
+        "exampleVi": "Đây là một khu bảo tồn."
+      },
+      {
+        "type": "Noun",
+        "word": "national park",
+        "ipa": "/ˈnæʃənəl pɑːrk/",
+        "meaning": "vườn quốc gia",
+        "example": "We visited a national park last summer.",
+        "exampleVi": "Chúng tôi đã thăm một vườn quốc gia vào mùa hè năm ngoái."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a picnic",
+        "ipa": "/hæv ə ˈpɪknɪk/",
+        "meaning": "đi/dùng bữa dã ngoại",
+        "example": "We have a picnic by the lake.",
+        "exampleVi": "Chúng tôi đi dã ngoại bên hồ."
+      },
+      {
+        "type": "Phrase",
+        "word": "go walking",
+        "ipa": "/ɡoʊ ˈwɔːkɪŋ/",
+        "meaning": "đi bộ, đi dạo",
+        "example": "We go walking in the countryside.",
+        "exampleVi": "Chúng tôi đi bộ ở vùng nông thôn."
+      },
+      {
+        "type": "Phrase",
+        "word": "go skiing",
+        "ipa": "/ɡoʊ ˈskiːɪŋ/",
+        "meaning": "đi trượt tuyết",
+        "example": "We go skiing in winter.",
+        "exampleVi": "Chúng tôi đi trượt tuyết vào mùa đông."
+      }
+    ]
   },
   {
     "id": 31,
