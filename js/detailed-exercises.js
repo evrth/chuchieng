@@ -246,7 +246,18 @@
   }
 
   function renderContextCard(ex, body){
-    if(ex.context && ex.context.table){
+    if(ex.context && ex.context.gallery){
+      const card = document.createElement("div");
+      card.className = "ex-context-card ex-context-gallery-card";
+      let html = '<div class="ex-context-title">🖼️ Nhìn hình trước khi làm bài</div><div class="ex-gallery-grid">';
+      ex.context.gallery.forEach(function(g){
+        html += '<div class="ex-gallery-item"><img src="' + g.image + '" alt="' + (g.caption || "") + '">' +
+          (g.caption ? '<div class="ex-gallery-caption">' + g.caption + '</div>' : "") + '</div>';
+      });
+      html += '</div>';
+      card.innerHTML = html;
+      body.appendChild(card);
+    }else if(ex.context && ex.context.table){
       const t = ex.context.table;
       const card = document.createElement("div");
       card.className = "ex-context-card";

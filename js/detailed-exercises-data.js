@@ -5176,14 +5176,12 @@ const DETAILED_EXERCISES_DATA = {
           {
             "id": "q1",
             "clue": "Madison plays the violin.",
-            "image": "images/exercises/u26-madison-violin.jpg",
             "answer": "violin",
             "example": true
           },
           {
             "id": "q2",
             "clue": "Who plays the cello in an orchestra?",
-            "image": "images/exercises/u26-abigail-cello.jpg",
             "answer": "Abigail"
           },
           {
@@ -5194,31 +5192,26 @@ const DETAILED_EXERCISES_DATA = {
           {
             "id": "q4",
             "clue": "Noah loves playing the ______.",
-            "image": "images/exercises/u26-noah-drums.jpg",
             "answer": "drums"
           },
           {
             "id": "q5",
             "clue": "Emily is having a ______ lesson.",
-            "image": "images/exercises/u26-emily-piano.jpg",
             "answer": "piano"
           },
           {
             "id": "q6",
             "clue": "Mason is a very good ______-player.",
-            "image": "images/exercises/u26-mason-trumpet.jpg",
             "answer": "trumpet"
           },
           {
             "id": "q7",
             "clue": "Ella plays the ______ every evening.",
-            "image": "images/exercises/u26-ella-clarinet.jpg",
             "answer": "clarinet"
           },
           {
             "id": "q8",
             "clue": "William ______ the guitar.",
-            "image": "images/exercises/u26-william-guitar.jpg",
             "answer": "plays"
           },
           {
@@ -5229,7 +5222,6 @@ const DETAILED_EXERCISES_DATA = {
           {
             "id": "q10",
             "clue": "Emma is learning the ______.",
-            "image": "images/exercises/u26-emma-flute.jpg",
             "answer": "flute"
           },
           {
@@ -5247,7 +5239,43 @@ const DETAILED_EXERCISES_DATA = {
             "clue": "______ wants to be a pianist.",
             "answer": "Emily"
           }
-        ]
+        ],
+        "context": {
+          "gallery": [
+            {
+              "image": "images/exercises/u26-madison-violin.jpg",
+              "caption": "Madison"
+            },
+            {
+              "image": "images/exercises/u26-abigail-cello.jpg",
+              "caption": "Abigail"
+            },
+            {
+              "image": "images/exercises/u26-noah-drums.jpg",
+              "caption": "Noah"
+            },
+            {
+              "image": "images/exercises/u26-emily-piano.jpg",
+              "caption": "Emily"
+            },
+            {
+              "image": "images/exercises/u26-mason-trumpet.jpg",
+              "caption": "Mason"
+            },
+            {
+              "image": "images/exercises/u26-ella-clarinet.jpg",
+              "caption": "Ella"
+            },
+            {
+              "image": "images/exercises/u26-william-guitar.jpg",
+              "caption": "William"
+            },
+            {
+              "image": "images/exercises/u26-emma-flute.jpg",
+              "caption": "Emma"
+            }
+          ]
+        }
       },
       {
         "id": "u26d-ex3-abc",
