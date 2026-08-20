@@ -6137,5 +6137,1020 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  31: {
+    "unit": {
+      "id": "u31d",
+      "title": "Unit 31: Animals - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu có nhiều đáp án đúng (ví dụ câu 31.4 số 8: hình có cả voi và chim). Hệ thống chấm chấp nhận bất kỳ đáp án nào trong danh sách accepted_answers."
+    },
+    "exercises": [
+      {
+        "id": "u31d-ex1-sentences",
+        "type": "fill_in_the_blank",
+        "title": "31.1. Complete these sentences.",
+        "instructions_vi": "Điền từ chỉ con vật phù hợp vào chỗ trống để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "A ______ goes to sleep in winter.",
+            "answer": "tortoise",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "A ______ has a very long neck.",
+            "answer": "giraffe"
+          },
+          {
+            "id": "q3",
+            "sentence": "______ and ______ are birds.",
+            "answer": [
+              "Parrots",
+              "hens"
+            ]
+          },
+          {
+            "id": "q4",
+            "sentence": "______ and ______ are large cats.",
+            "answer": [
+              "Tigers",
+              "lions"
+            ]
+          },
+          {
+            "id": "q5",
+            "sentence": "You can ride a ______ and an ______.",
+            "answer": [
+              "horse",
+              "elephant"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "______ swim and ______ fly.",
+            "answer": [
+              "Fish",
+              "birds"
+            ]
+          },
+          {
+            "id": "q7",
+            "sentence": "______ are farm birds.",
+            "answer": "Chickens",
+            "accepted_answers": [
+              "Chickens",
+              "Hens",
+              "Chickens/Hens"
+            ]
+          },
+          {
+            "id": "q8",
+            "sentence": "______ are very good at hopping and jumping.",
+            "answer": "Rabbits"
+          },
+          {
+            "id": "q9",
+            "sentence": "Don't forget to ______ the cat and to ______ it some water.",
+            "answer": [
+              "feed",
+              "give"
+            ]
+          },
+          {
+            "id": "q10",
+            "sentence": "I ______ my dog for a walk every day before school.",
+            "answer": "take"
+          }
+        ]
+      },
+      {
+        "id": "u31d-ex2-matching",
+        "type": "matching",
+        "title": "31.2. Match the animal with its meat and with its baby.",
+        "instructions_vi": "Nối tên con vật với đúng loại thịt và tên con non của nó.",
+        "pairs": [
+          {
+            "left": "Sheep",
+            "right": "thịt: lamb · con non: lamb"
+          },
+          {
+            "left": "Cow",
+            "right": "thịt: beef · con non: calf"
+          },
+          {
+            "left": "Hen",
+            "right": "thịt: chicken · con non: chick"
+          },
+          {
+            "left": "Pig",
+            "right": "thịt: pork · con non: piglet"
+          },
+          {
+            "left": "Goat",
+            "right": "thịt: goat · con non: kid"
+          }
+        ]
+      },
+      {
+        "id": "u31d-ex3-categories",
+        "type": "multi_select",
+        "title": "31.3. Look at the animals. Find animals which:",
+        "instructions_vi": "Chọn ít nhất 3 con vật phù hợp với mỗi tiêu chí bên dưới. Lưu ý: mỗi câu có thể có nhiều hơn 1 đáp án đúng, và một con vật có thể đúng ở nhiều tiêu chí khác nhau.",
+        "word_bank": [
+          "horse",
+          "chicken",
+          "hen",
+          "pig",
+          "sheep",
+          "cow",
+          "goat",
+          "elephant",
+          "snake",
+          "monkey",
+          "tiger",
+          "lion",
+          "giraffe",
+          "fish",
+          "cat",
+          "rabbit",
+          "parrot",
+          "bird",
+          "dog",
+          "tortoise"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "prompt": "1. eat meat.",
+            "correct_answers": [
+              "lion",
+              "tiger",
+              "monkey",
+              "snake",
+              "dog",
+              "cat"
+            ],
+            "min_required": 3
+          },
+          {
+            "id": "q2",
+            "prompt": "2. give us things that we wear.",
+            "correct_answers": [
+              "cow",
+              "sheep",
+              "pig",
+              "goat",
+              "parrot",
+              "snake"
+            ],
+            "min_required": 3
+          },
+          {
+            "id": "q3",
+            "prompt": "3. produce their babies in eggs.",
+            "correct_answers": [
+              "chicken",
+              "hen",
+              "tortoise",
+              "parrot",
+              "snake",
+              "fish",
+              "bird"
+            ],
+            "min_required": 3
+          },
+          {
+            "id": "q4",
+            "prompt": "4. we can eat.",
+            "correct_answers": [
+              "cow",
+              "sheep",
+              "pig",
+              "chicken",
+              "hen",
+              "goat",
+              "horse",
+              "fish"
+            ],
+            "min_required": 3
+          }
+        ]
+      },
+      {
+        "id": "u31d-ex4-pictures",
+        "type": "labeling",
+        "title": "31.4. Look at the pictures and complete.",
+        "instructions_vi": "Nhìn hình và điền tên con vật bằng tiếng Anh. Lưu ý: câu 8 hình có cả voi và chim nên có nhiều hơn 1 đáp án đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Con gì đây?",
+            "image": "images/exercises/u31-animal-parrot.jpg",
+            "answer": "parrot",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Con gì đây?",
+            "image": "images/exercises/u31-animal-monkey.jpg",
+            "answer": "monkey"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Con gì đây?",
+            "image": "images/exercises/u31-animal-cat.jpg",
+            "answer": "cat",
+            "accepted_answers": [
+              "cat",
+              "cats"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Con gì đây?",
+            "image": "images/exercises/u31-animal-sheep.jpg",
+            "answer": "sheep"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Con gì đây?",
+            "image": "images/exercises/u31-animal-tiger.jpg",
+            "answer": "tiger"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Con gì đây?",
+            "image": "images/exercises/u31-animal-lion.jpg",
+            "answer": "lion"
+          },
+          {
+            "id": "q7",
+            "clue_vi": "Con gì đây?",
+            "image": "images/exercises/u31-animal-horse.jpg",
+            "answer": "horse"
+          },
+          {
+            "id": "q8",
+            "clue_vi": "Con gì đây? (hình có 2 con vật, gõ 1 trong 2 đáp án đều đúng)",
+            "image": "images/exercises/u31-animal-elephant.jpg",
+            "answer": "elephant",
+            "accepted_answers": [
+              "elephant",
+              "bird"
+            ]
+          },
+          {
+            "id": "q9",
+            "clue_vi": "Con gì đây?",
+            "image": "images/exercises/u31-animal-hen.jpg",
+            "answer": "hen"
+          }
+        ]
+      }
+    ]
+  },
+  32: {
+    "unit": {
+      "id": "u32d",
+      "title": "Unit 32: Travelling - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu (đặc biệt bài 32.3) có thể chấp nhận nhiều cách gọi tên phương tiện/đồ vật khác nhau."
+    },
+    "exercises": [
+      {
+        "id": "u32d-ex1-matching",
+        "type": "matching",
+        "title": "32.1. Match the words on the left with their definitions on the right.",
+        "instructions_vi": "Nối từ ở cột trái với đúng định nghĩa ở cột phải.",
+        "pairs": [
+          {
+            "left": "land",
+            "right": "planes do this at airports"
+          },
+          {
+            "left": "direct",
+            "right": "you do not have to change to a different plane / train / bus"
+          },
+          {
+            "left": "restaurant car",
+            "right": "a place to eat on a train"
+          },
+          {
+            "left": "ship",
+            "right": "it travels on water, e.g. the Titanic"
+          },
+          {
+            "left": "timetable",
+            "right": "it says when trains depart and arrive"
+          },
+          {
+            "left": "platform",
+            "right": "where you stand when you are waiting for a train"
+          },
+          {
+            "left": "luggage",
+            "right": "bags and suitcases"
+          }
+        ]
+      },
+      {
+        "id": "u32d-ex2-truefalse",
+        "type": "true_false",
+        "title": "32.2. Are these sentences true or false? Correct the false sentences.",
+        "instructions_vi": "Xác định câu đúng hay sai. Nếu sai, hệ thống sẽ hiện câu sửa lại đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A single ticket takes you to a place and back again.",
+            "answer": false,
+            "note": "A return ticket takes you to a place and back again.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "statement": "At customs, people check what you bring into the country.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "Planes land at the beginning of a journey.",
+            "answer": false,
+            "note": "Planes take off at the beginning of a journey. Planes land at the end of a journey."
+          },
+          {
+            "id": "q4",
+            "statement": "You need a boarding card to get off a plane.",
+            "answer": false,
+            "note": "You need a boarding card to get on a plane."
+          },
+          {
+            "id": "q5",
+            "statement": "Hiring a car is the same as buying a car.",
+            "answer": false,
+            "note": "Hiring a car is not the same as buying a car."
+          },
+          {
+            "id": "q6",
+            "statement": "If you give someone a lift they travel in your car.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u32d-ex3-pictures",
+        "type": "labeling",
+        "title": "32.3. Look at the pictures and complete.",
+        "instructions_vi": "Nhìn hình và điền từ tiếng Anh phù hợp.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-timetable.jpg",
+            "answer": "timetable",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-taxi.jpg",
+            "answer": "taxi",
+            "accepted_answers": [
+              "taxi",
+              "cab"
+            ]
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-motorcycle.jpg",
+            "answer": "motorcycle",
+            "accepted_answers": [
+              "motorcycle",
+              "motorbike"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-platform.jpg",
+            "answer": "platform"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-train.jpg",
+            "answer": "train"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-helicopter.jpg",
+            "answer": "helicopter"
+          },
+          {
+            "id": "q7",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-bus.jpg",
+            "answer": "bus"
+          },
+          {
+            "id": "q8",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-petrol.jpg",
+            "answer": "petrol",
+            "accepted_answers": [
+              "petrol",
+              "petrol pump",
+              "petrol station"
+            ]
+          },
+          {
+            "id": "q9",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u32-transport-map.jpg",
+            "answer": "map"
+          }
+        ]
+      }
+    ]
+  },
+  33: {
+    "unit": {
+      "id": "u33d",
+      "title": "Unit 33: UK culture - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u33d-ex1-festivals",
+        "type": "labeling",
+        "title": "33.1. Which festivals do these pictures show?",
+        "instructions_vi": "Nhìn hình và gọi tên ngày lễ/lễ hội bằng tiếng Anh.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Đây là lễ hội gì?",
+            "image": "images/exercises/u33-festival-halloween.jpg",
+            "answer": "Halloween",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Đây là lễ hội gì?",
+            "image": "images/exercises/u33-festival-christmas.jpg",
+            "answer": "Christmas"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Đây là lễ hội gì?",
+            "image": "images/exercises/u33-festival-bonfire.jpg",
+            "answer": "Bonfire Night"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Đây là lễ hội gì?",
+            "image": "images/exercises/u33-festival-valentine.jpg",
+            "answer": "Valentine's Day"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Đây là lễ hội gì?",
+            "image": "images/exercises/u33-festival-easter.jpg",
+            "answer": "Easter"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Đây là lễ hội gì?",
+            "image": "images/exercises/u33-festival-newyear.jpg",
+            "answer": "New Year's Eve",
+            "accepted_answers": [
+              "New Year's Eve",
+              "New Year Eve",
+              "Hogmanay"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u33d-ex2-wordsearch",
+        "type": "word_search",
+        "title": "33.2. Find 10 more words connected with food in the puzzle.",
+        "instructions_vi": "Tìm 10 từ còn lại liên quan đến ẩm thực Anh ẩn trong bảng chữ cái rồi gõ lại (không cần đúng thứ tự). Từ 'MASALA' đã được khoanh sẵn làm ví dụ, không tính điểm.",
+        "context": {
+          "image": "images/exercises/u33-wordsearch.jpg",
+          "description": "Từ 'MASALA' (cột dọc giữa bảng) đã được khoanh tròn sẵn làm ví dụ. Các từ khác có thể nằm ngang hoặc dọc."
+        },
+        "answers": [
+          "Chicken",
+          "Yorkshire",
+          "Roast",
+          "Potatoes",
+          "Fish",
+          "Curry",
+          "Beef",
+          "Chips",
+          "Tikka",
+          "Pudding"
+        ],
+        "blank_count": 10
+      },
+      {
+        "id": "u33d-ex3-food-qa",
+        "type": "word_from_definition",
+        "title": "33.3. Answer these questions about traditional UK food.",
+        "instructions_vi": "Trả lời các câu hỏi dựa trên đoạn thông tin sau: Món ăn truyền thống của Anh là fish and chips, và roast beef với roast potatoes (nướng trong lò) cùng Yorkshire pudding (món làm từ bột mì, sữa và trứng). Chicken tikka masala (một loại curry) có nguồn gốc từ Ấn Độ nhưng rất phổ biến ở Anh.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "What do British people traditionally eat with fish?",
+            "answer": "chips",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Where does chicken tikka masala come from?",
+            "answer": "India"
+          },
+          {
+            "id": "q3",
+            "clue": "What is chicken tikka masala a kind of?",
+            "answer": "curry"
+          },
+          {
+            "id": "q4",
+            "clue": "Do British people eat Yorkshire pudding after their main course?",
+            "answer": "No, they eat it with their main course.",
+            "accepted_answers": [
+              "No, they eat it with their main course.",
+              "No",
+              "No, with the main course",
+              "No, they eat it with roast beef"
+            ]
+          },
+          {
+            "id": "q5",
+            "clue": "In or on which part of the cooker do you make roast beef and roast potatoes?",
+            "answer": "in the oven",
+            "accepted_answers": [
+              "in the oven",
+              "the oven",
+              "oven"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u33d-ex4-schools",
+        "type": "word_from_definition",
+        "title": "33.4. Which kind of school do these British children go to?",
+        "instructions_vi": "Dựa vào bảng tham khảo bên dưới, xác định loại trường phù hợp cho mỗi bạn nhỏ.",
+        "context": {
+          "table": {
+            "headers": [
+              "Type of school",
+              "What it is"
+            ],
+            "rows": [
+              [
+                "nursery school",
+                "for children aged 2-4"
+              ],
+              [
+                "primary school",
+                "for children aged 5-11"
+              ],
+              [
+                "secondary school",
+                "for children aged 12-18"
+              ],
+              [
+                "state school",
+                "parents don't pay for children to go here"
+              ],
+              [
+                "private school",
+                "parents pay for children to go here"
+              ]
+            ]
+          }
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Lily is seven. Her parents pay for her to go to school.",
+            "answer": "a private primary school",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Gabriel is 14. His school is free.",
+            "answer": "a state secondary school"
+          },
+          {
+            "id": "q3",
+            "clue": "James and Ellie are three.",
+            "answer": "a nursery school"
+          },
+          {
+            "id": "q4",
+            "clue": "Mehmet is ten. His parents don't pay for him to go to school.",
+            "answer": "a state primary school"
+          },
+          {
+            "id": "q5",
+            "clue": "Nick is 16. His parents pay for him to go to school.",
+            "answer": "a private secondary school"
+          }
+        ]
+      }
+    ]
+  },
+  34: {
+    "unit": {
+      "id": "u34d",
+      "title": "Unit 34: Crime - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u34d-ex1-who",
+        "type": "word_from_definition",
+        "title": "34.1. What do we call someone …",
+        "instructions_vi": "Gọi tên người thực hiện hành vi được mô tả.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "who steals cars?",
+            "answer": "a car thief",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "who kills someone?",
+            "answer": "a murderer"
+          },
+          {
+            "id": "q3",
+            "clue": "who steals things from shops?",
+            "answer": "a shoplifter",
+            "accepted_answers": [
+              "a shoplifter",
+              "a robber",
+              "a shoplifter / robber"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue": "who robs people's houses and flats?",
+            "answer": "a burglar"
+          },
+          {
+            "id": "q5",
+            "clue": "who attacks someone in the street and steals their money?",
+            "answer": "a mugger"
+          },
+          {
+            "id": "q6",
+            "clue": "who sells illegal drugs?",
+            "answer": "a drug dealer"
+          }
+        ]
+      },
+      {
+        "id": "u34d-ex2-gaps",
+        "type": "fill_in_the_blank",
+        "title": "34.2. Fill the gaps in these sentences.",
+        "instructions_vi": "Điền từ vào chỗ trống dựa theo gợi ý chữ cái đầu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "There were a lot of football ______ near the stadium.",
+            "letter_hint": "hooligans",
+            "answer": "hooligans",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "The police officer ______ her for shoplifting.",
+            "letter_hint": "arr___",
+            "answer": "arrested"
+          },
+          {
+            "id": "q3",
+            "sentence": "Some ______ destroyed all the flowers in the park.",
+            "letter_hint": "van___",
+            "answer": "vandals"
+          },
+          {
+            "id": "q4",
+            "sentence": "He had to pay a ______ of £50 for parking his car in the wrong place.",
+            "letter_hint": "fi___",
+            "answer": "fine"
+          },
+          {
+            "id": "q5",
+            "sentence": "There are a lot of ______ in this part of the city, so always close the windows.",
+            "letter_hint": "bur___",
+            "answer": "burglaries",
+            "accepted_answers": [
+              "burglaries",
+              "burglars"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "The police made a mistake; she was ______. She did not steal the money.",
+            "letter_hint": "inn___",
+            "answer": "innocent"
+          },
+          {
+            "id": "q7",
+            "sentence": "A group of ______ have attacked the airport.",
+            "letter_hint": "terr___",
+            "answer": "terrorists"
+          },
+          {
+            "id": "q8",
+            "sentence": "He murdered his wife. He was in ______ for 20 years.",
+            "letter_hint": "pr___",
+            "answer": "prison"
+          }
+        ]
+      },
+      {
+        "id": "u34d-ex3-truefalse",
+        "type": "true_false",
+        "title": "34.3. True or false?",
+        "instructions_vi": "Xác định câu đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A burglar goes into someone's house and steals things.",
+            "answer": true,
+            "example": true
+          },
+          {
+            "id": "q2",
+            "statement": "Vandals take people's money.",
+            "answer": false,
+            "note": "Vandals destroy things."
+          },
+          {
+            "id": "q3",
+            "statement": "A murderer kills someone.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "A car thief is someone who drives very badly or dangerously.",
+            "answer": false,
+            "note": "A car thief steals cars."
+          },
+          {
+            "id": "q5",
+            "statement": "If you are guilty it means you are the person who did the crime.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u34d-ex4-robbedstole",
+        "type": "multiple_choice",
+        "title": "34.4. Choose the right word to complete each sentence.",
+        "instructions_vi": "Chọn từ đúng: 'rob(bed)' đi với người/nơi chốn bị cướp, còn 'steal/stole' đi với đồ vật bị lấy trộm.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "My brother was robbed / stolen yesterday.",
+            "options": [
+              "robbed",
+              "stolen"
+            ],
+            "answer": "robbed",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "Someone robbed / stole my bike last night.",
+            "options": [
+              "robbed",
+              "stole"
+            ],
+            "answer": "stole"
+          },
+          {
+            "id": "q3",
+            "question": "My local bank has been robbed / stolen.",
+            "options": [
+              "robbed",
+              "stolen"
+            ],
+            "answer": "robbed"
+          },
+          {
+            "id": "q4",
+            "question": "Who has robbed / stolen my pen?",
+            "options": [
+              "robbed",
+              "stolen"
+            ],
+            "answer": "stolen"
+          },
+          {
+            "id": "q5",
+            "question": "Someone robbed / stole our TV when we were on holiday.",
+            "options": [
+              "robbed",
+              "stole"
+            ],
+            "answer": "stole"
+          },
+          {
+            "id": "q6",
+            "question": "Where were you when your keys were robbed / stolen?",
+            "options": [
+              "robbed",
+              "stolen"
+            ],
+            "answer": "stolen"
+          }
+        ]
+      }
+    ]
+  },
+  35: {
+    "unit": {
+      "id": "u35d",
+      "title": "Unit 35: The media - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 35.3 có nhiều câu chấp nhận hơn 1 cách diễn đạt đúng (ví dụ: 'an advert' / 'an advertisement')."
+    },
+    "exercises": [
+      {
+        "id": "u35d-ex1-gaps",
+        "type": "fill_in_the_blank",
+        "title": "35.1. Fill the gaps in these sentences.",
+        "instructions_vi": "Điền từ thích hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Ten million people watch this ______ every week. It's very popular.",
+            "answer": "programme",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "The news ______ on channel 3 at 9 o'clock every night.",
+            "answer": "is"
+          },
+          {
+            "id": "q3",
+            "sentence": "There was a ______ about traffic problems in cities on TV last night.",
+            "answer": "documentary"
+          },
+          {
+            "id": "q4",
+            "sentence": "I saw a ______ programme about birds in Antarctica.",
+            "answer": "nature"
+          },
+          {
+            "id": "q5",
+            "sentence": "My sister is 13; she reads a ______ magazine every week. She likes the stories about boys.",
+            "answer": "teenage"
+          },
+          {
+            "id": "q6",
+            "sentence": "With my mobile I can read the sports news ______.",
+            "answer": "online"
+          },
+          {
+            "id": "q7",
+            "sentence": "I'd like to watch the news now. Is it OK if I ______ the channel?",
+            "answer": "change"
+          },
+          {
+            "id": "q8",
+            "sentence": "Did you see the ______ with the Prime Minister last night?",
+            "answer": "interview"
+          }
+        ]
+      },
+      {
+        "id": "u35d-ex2-matching",
+        "type": "matching",
+        "title": "35.2. Match the left-hand column with the type of programme on the right.",
+        "instructions_vi": "Nối mô tả nội dung với đúng thể loại chương trình.",
+        "pairs": [
+          {
+            "left": "Talking about family problems",
+            "right": "Talk show"
+          },
+          {
+            "left": "Film of elephants in Africa",
+            "right": "Nature programme"
+          },
+          {
+            "left": "Football cup final",
+            "right": "Sports programme"
+          },
+          {
+            "left": "Reports from all over the world",
+            "right": "International news"
+          },
+          {
+            "left": "Maria decides not to marry Philip",
+            "right": "Soap (opera)"
+          },
+          {
+            "left": "Ten people in a house - they cannot leave or talk to anyone outside",
+            "right": "Reality TV programme"
+          }
+        ]
+      },
+      {
+        "id": "u35d-ex3-whatcall",
+        "type": "word_from_definition",
+        "title": "35.3. What do you call …",
+        "instructions_vi": "Gọi tên đúng thuật ngữ được mô tả. Lưu ý: một số câu có nhiều hơn 1 cách diễn đạt đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "a person who goes out and gets stories for newspapers?",
+            "answer": "a reporter",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "a person who writes articles in newspapers and magazines?",
+            "answer": "a journalist"
+          },
+          {
+            "id": "q3",
+            "clue": "a newspaper you can buy every day after about 5 pm?",
+            "answer": "an evening newspaper",
+            "accepted_answers": [
+              "an evening newspaper",
+              "an evening paper",
+              "an evening (news)paper"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue": "a programme with stories made from lots of pictures?",
+            "answer": "a cartoon"
+          },
+          {
+            "id": "q5",
+            "clue": "a programme on TV about animals, birds, etc?",
+            "answer": "a nature programme"
+          },
+          {
+            "id": "q6",
+            "clue": "something in a magazine or on TV that tries to sell something?",
+            "answer": "an advert",
+            "accepted_answers": [
+              "an advert",
+              "an advertisement"
+            ]
+          },
+          {
+            "id": "q7",
+            "clue": "something like CNN or Sky Sports?",
+            "answer": "a channel",
+            "accepted_answers": [
+              "a channel",
+              "a TV channel"
+            ]
+          },
+          {
+            "id": "q8",
+            "clue": "a meeting when a reporter asks a person questions for TV or a newspaper?",
+            "answer": "an interview"
+          }
+        ]
+      }
+    ]
   }
 };

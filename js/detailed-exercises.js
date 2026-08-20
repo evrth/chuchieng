@@ -33,7 +33,8 @@
     classification: "Phân loại",
     true_false: "Đúng / Sai",
     word_search: "Tìm & ghi nhớ từ",
-    ordering: "Sắp xếp thứ tự"
+    ordering: "Sắp xếp thứ tự",
+    multi_select: "Chọn nhiều đáp án"
   };
   const TYPE_ICON = {
     sentence_completion: "🌳",
@@ -57,7 +58,8 @@
     classification: "🗂️",
     true_false: "⚖️",
     word_search: "🔎",
-    ordering: "🔢"
+    ordering: "🔢",
+    multi_select: "🧮"
   };
 
   const STORAGE_KEY = "chuchieng:unit:" + unitId + ":detailed-exercises";
@@ -167,6 +169,7 @@
       case "true_false": renderDetailedTrueFalse(currentExercise, body); break;
       case "word_search": renderWordSearch(currentExercise, body); break;
       case "ordering": renderOrdering(currentExercise, body); break;
+      case "multi_select": renderMultiSelect(currentExercise, body); break;
       default: body.innerHTML = "<p>Dạng bài chưa được hỗ trợ.</p>";
     }
 
@@ -1554,6 +1557,79 @@
         }else{
           feedback.className = "exq-feedback wrong";
           feedback.textContent = "❌ Vị trí đúng: " + correctPos;
+        }
+      });
+      return { correct: correct, total: total };
+    };
+  }
+
+  // ============================================
+  // 21. MULTI SELECT (chọn nhiều đáp án đúng trong 1 word bank dùng chung)
+  // ============================================
+  function renderMultiSelect(ex, body){
+    renderContextCard(ex, body);
+
+    if(ex.word_bank){
+      const wb = document.createElement("div");
+      wb.className = "ex-context-card";
+      wb.innerHTML = '<div class="ex-context-title">📚 Word bank</div><div>' + ex.word_bank.join(", ") + '</div>';
+      body.appendChild(wb);
+    }
+
+    const qWrap = document.createElement("div");
+    ex.questions.forEach(function(q){
+      const qEl = document.createElement("div");
+      qEl.className = "exq";
+      const chipsHtml = '<div class="exq-scramble-tiles">' +
+        ex.word_bank.map(function(w){
+          return '<button type="button" class="exq-option exq-chip" data-word="' + w + '">' + w + '</button>';
+        }).join("") +
+        '</div>';
+      qEl.innerHTML =
+        '<div class="exq-text">' + q.prompt + '</div>' +
+        chipsHtml +
+        '<div class="exq-feedback" style="display:none;"></div>';
+      qWrap.appendChild(qEl);
+    });
+    body.appendChild(qWrap);
+
+    qWrap.querySelectorAll(".exq").forEach(function(qEl){
+      qEl.querySelectorAll(".exq-chip").forEach(function(btn){
+        btn.addEventListener("click", function(){
+          btn.classList.toggle("selected");
+        });
+      });
+    });
+
+    currentCheckFn = function(){
+      let correct = 0, total = 0;
+      let qi = -1;
+      qWrap.querySelectorAll(".exq").forEach(function(qEl){
+        qi++;
+        total++;
+        const q = ex.questions[qi];
+        const minReq = q.min_required || 3;
+        const chips = qEl.querySelectorAll(".exq-chip");
+        const selectedWords = [];
+        chips.forEach(function(c){ if(c.classList.contains("selected")) selectedWords.push(c.dataset.word); });
+        const allValid = selectedWords.every(function(w){ return q.correct_answers.indexOf(w) !== -1; });
+        const ok = selectedWords.length >= minReq && allValid;
+
+        chips.forEach(function(c){
+          c.disabled = true;
+          if(q.correct_answers.indexOf(c.dataset.word) !== -1) c.classList.add("correct-answer");
+          else if(c.classList.contains("selected")) c.classList.add("wrong-answer");
+        });
+
+        const feedback = qEl.querySelector(".exq-feedback");
+        feedback.style.display = "block";
+        if(ok){
+          correct++;
+          feedback.className = "exq-feedback correct";
+          feedback.textContent = "✅ Chính xác — Đáp án gợi ý: " + q.correct_answers.join(", ");
+        }else{
+          feedback.className = "exq-feedback wrong";
+          feedback.textContent = "❌ Đáp án gợi ý (chọn ít nhất " + minReq + "): " + q.correct_answers.join(", ");
         }
       });
       return { correct: correct, total: total };

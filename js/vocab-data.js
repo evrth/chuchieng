@@ -7086,27 +7086,1528 @@ const VOCAB_UNITS = [
   {
     "id": 31,
     "title": "Animals",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "farm animal",
+        "ipa": "/ˈfɑːrm ˌænɪməl/",
+        "meaning": "động vật nuôi trong trang trại",
+        "example": "A cow is a farm animal.",
+        "exampleVi": "Bò là một loài động vật nuôi trong trang trại."
+      },
+      {
+        "type": "Noun",
+        "word": "horse",
+        "ipa": "/hɔːrs/",
+        "meaning": "ngựa",
+        "example": "The horse is very big.",
+        "exampleVi": "Con ngựa rất to."
+      },
+      {
+        "type": "Noun",
+        "word": "chicken",
+        "ipa": "/ˈtʃɪkən/",
+        "meaning": "gà; thịt gà",
+        "example": "We have three chickens.",
+        "exampleVi": "Chúng tôi có ba con gà."
+      },
+      {
+        "type": "Noun",
+        "word": "hen",
+        "ipa": "/hen/",
+        "meaning": "gà mái",
+        "example": "The hen has three eggs.",
+        "exampleVi": "Con gà mái có ba quả trứng."
+      },
+      {
+        "type": "Noun",
+        "word": "pig",
+        "ipa": "/pɪɡ/",
+        "meaning": "lợn, heo",
+        "example": "The pig is eating.",
+        "exampleVi": "Con lợn đang ăn."
+      },
+      {
+        "type": "Noun",
+        "word": "sheep",
+        "ipa": "/ʃiːp/",
+        "meaning": "cừu",
+        "example": "There are five sheep in the field.",
+        "exampleVi": "Có năm con cừu trên cánh đồng."
+      },
+      {
+        "type": "Noun",
+        "word": "cow",
+        "ipa": "/kaʊ/",
+        "meaning": "bò cái; bò",
+        "example": "The cow gives us milk.",
+        "exampleVi": "Con bò cho chúng ta sữa."
+      },
+      {
+        "type": "Noun",
+        "word": "goat",
+        "ipa": "/ɡoʊt/",
+        "meaning": "dê",
+        "example": "The goat is eating grass.",
+        "exampleVi": "Con dê đang ăn cỏ."
+      },
+      {
+        "type": "Verb",
+        "word": "produce",
+        "ipa": "/prəˈduːs/",
+        "meaning": "sản xuất; tạo ra; cho ra sản phẩm",
+        "example": "Cows produce milk.",
+        "exampleVi": "Bò cho ra sữa."
+      },
+      {
+        "type": "Noun",
+        "word": "hair",
+        "ipa": "/her/",
+        "meaning": "lông, tóc",
+        "example": "The horse has long hair.",
+        "exampleVi": "Con ngựa có lông dài."
+      },
+      {
+        "type": "Noun",
+        "word": "meat",
+        "ipa": "/miːt/",
+        "meaning": "thịt",
+        "example": "We eat meat for dinner.",
+        "exampleVi": "Chúng tôi ăn thịt vào bữa tối."
+      },
+      {
+        "type": "Noun",
+        "word": "foal",
+        "ipa": "/foʊl/",
+        "meaning": "ngựa con",
+        "example": "The foal is with its mother.",
+        "exampleVi": "Con ngựa con ở cùng mẹ nó."
+      },
+      {
+        "type": "Noun",
+        "word": "milk",
+        "ipa": "/mɪlk/",
+        "meaning": "sữa",
+        "example": "I drink milk every morning.",
+        "exampleVi": "Tôi uống sữa mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "leather",
+        "ipa": "/ˈleðər/",
+        "meaning": "da thuộc",
+        "example": "These shoes are made of leather.",
+        "exampleVi": "Đôi giày này được làm bằng da thuộc."
+      },
+      {
+        "type": "Noun",
+        "word": "beef",
+        "ipa": "/biːf/",
+        "meaning": "thịt bò",
+        "example": "We had beef for dinner.",
+        "exampleVi": "Chúng tôi ăn thịt bò vào bữa tối."
+      },
+      {
+        "type": "Noun",
+        "word": "calf",
+        "ipa": "/kæf/",
+        "meaning": "bê, nghé",
+        "example": "The calf is very small.",
+        "exampleVi": "Con bê rất nhỏ."
+      },
+      {
+        "type": "Noun",
+        "word": "wool",
+        "ipa": "/wʊl/",
+        "meaning": "len; lông cừu",
+        "example": "This sweater is made of wool.",
+        "exampleVi": "Chiếc áo len này được làm từ len."
+      },
+      {
+        "type": "Noun",
+        "word": "lamb",
+        "ipa": "/læm/",
+        "meaning": "cừu non; thịt cừu",
+        "example": "The lamb is with its mother.",
+        "exampleVi": "Con cừu non ở cùng mẹ nó."
+      },
+      {
+        "type": "Noun",
+        "word": "pork",
+        "ipa": "/pɔːrk/",
+        "meaning": "thịt lợn",
+        "example": "My father likes pork.",
+        "exampleVi": "Bố tôi thích thịt lợn."
+      },
+      {
+        "type": "Noun",
+        "word": "bacon",
+        "ipa": "/ˈbeɪkən/",
+        "meaning": "thịt xông khói",
+        "example": "I like bacon and eggs.",
+        "exampleVi": "Tôi thích thịt xông khói và trứng."
+      },
+      {
+        "type": "Noun",
+        "word": "ham",
+        "ipa": "/hæm/",
+        "meaning": "thịt nguội, giăm bông",
+        "example": "I had a ham sandwich.",
+        "exampleVi": "Tôi đã ăn một chiếc bánh sandwich giăm bông."
+      },
+      {
+        "type": "Noun",
+        "word": "piglet",
+        "ipa": "/ˈpɪɡlət/",
+        "meaning": "lợn con",
+        "example": "The piglet is very small.",
+        "exampleVi": "Con lợn con rất nhỏ."
+      },
+      {
+        "type": "Noun",
+        "word": "egg",
+        "ipa": "/eɡ/",
+        "meaning": "trứng",
+        "example": "I eat an egg for breakfast.",
+        "exampleVi": "Tôi ăn một quả trứng vào bữa sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "chick",
+        "ipa": "/tʃɪk/",
+        "meaning": "gà con",
+        "example": "The chick is yellow.",
+        "exampleVi": "Con gà con màu vàng."
+      },
+      {
+        "type": "Noun",
+        "word": "kid",
+        "ipa": "/kɪd/",
+        "meaning": "dê con",
+        "example": "The kid is playing with its mother.",
+        "exampleVi": "Con dê con đang chơi với mẹ nó."
+      },
+      {
+        "type": "Noun",
+        "word": "wild animal",
+        "ipa": "/waɪld ˈænɪməl/",
+        "meaning": "động vật hoang dã",
+        "example": "A tiger is a wild animal.",
+        "exampleVi": "Hổ là một loài động vật hoang dã."
+      },
+      {
+        "type": "Noun",
+        "word": "zoo animal",
+        "ipa": "/zuː ˈænɪməl/",
+        "meaning": "động vật sống trong sở thú",
+        "example": "An elephant is a zoo animal.",
+        "exampleVi": "Voi là một loài động vật sống trong sở thú."
+      },
+      {
+        "type": "Noun",
+        "word": "elephant",
+        "ipa": "/ˈeləfənt/",
+        "meaning": "voi",
+        "example": "The elephant is very large.",
+        "exampleVi": "Con voi rất lớn."
+      },
+      {
+        "type": "Noun",
+        "word": "snake",
+        "ipa": "/sneɪk/",
+        "meaning": "rắn",
+        "example": "The snake is long.",
+        "exampleVi": "Con rắn dài."
+      },
+      {
+        "type": "Noun",
+        "word": "monkey",
+        "ipa": "/ˈmʌŋki/",
+        "meaning": "khỉ",
+        "example": "The monkey is in the tree.",
+        "exampleVi": "Con khỉ ở trên cây."
+      },
+      {
+        "type": "Noun",
+        "word": "tiger",
+        "ipa": "/ˈtaɪɡər/",
+        "meaning": "hổ",
+        "example": "The tiger is dangerous.",
+        "exampleVi": "Con hổ nguy hiểm."
+      },
+      {
+        "type": "Noun",
+        "word": "lion",
+        "ipa": "/ˈlaɪən/",
+        "meaning": "sư tử",
+        "example": "The lion is sleeping.",
+        "exampleVi": "Con sư tử đang ngủ."
+      },
+      {
+        "type": "Noun",
+        "word": "giraffe",
+        "ipa": "/dʒəˈræf/",
+        "meaning": "hươu cao cổ",
+        "example": "The giraffe has a long neck.",
+        "exampleVi": "Hươu cao cổ có cổ dài."
+      },
+      {
+        "type": "Noun",
+        "word": "pet",
+        "ipa": "/pet/",
+        "meaning": "thú cưng",
+        "example": "I have a pet at home.",
+        "exampleVi": "Tôi có một con thú cưng ở nhà."
+      },
+      {
+        "type": "Noun",
+        "word": "fish",
+        "ipa": "/fɪʃ/",
+        "meaning": "cá",
+        "example": "I have two fish.",
+        "exampleVi": "Tôi có hai con cá."
+      },
+      {
+        "type": "Noun",
+        "word": "cat",
+        "ipa": "/kæt/",
+        "meaning": "mèo",
+        "example": "My cat likes sleeping.",
+        "exampleVi": "Con mèo của tôi thích ngủ."
+      },
+      {
+        "type": "Noun",
+        "word": "rabbit",
+        "ipa": "/ˈræbɪt/",
+        "meaning": "thỏ",
+        "example": "The rabbit is white.",
+        "exampleVi": "Con thỏ màu trắng."
+      },
+      {
+        "type": "Noun",
+        "word": "parrot",
+        "ipa": "/ˈperət/",
+        "meaning": "vẹt",
+        "example": "My parrot can talk.",
+        "exampleVi": "Con vẹt của tôi có thể nói."
+      },
+      {
+        "type": "Noun",
+        "word": "bird",
+        "ipa": "/bɜːrd/",
+        "meaning": "chim",
+        "example": "There is a bird in the tree.",
+        "exampleVi": "Có một con chim trên cây."
+      },
+      {
+        "type": "Noun",
+        "word": "dog",
+        "ipa": "/dɔːɡ/",
+        "meaning": "chó",
+        "example": "My dog is very friendly.",
+        "exampleVi": "Con chó của tôi rất thân thiện."
+      },
+      {
+        "type": "Noun",
+        "word": "tortoise",
+        "ipa": "/ˈtɔːrtəs/",
+        "meaning": "rùa cạn",
+        "example": "The tortoise moves slowly.",
+        "exampleVi": "Con rùa cạn di chuyển chậm."
+      },
+      {
+        "type": "Phrase",
+        "word": "take ... for a walk",
+        "ipa": "/teɪk fər ə wɔːk/",
+        "meaning": "dắt ... đi dạo",
+        "example": "I take my dog for a walk every morning.",
+        "exampleVi": "Tôi dắt chó đi dạo mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "feed your animal",
+        "ipa": "/fiːd jʊr ˈænɪməl/",
+        "meaning": "cho động vật của bạn ăn",
+        "example": "Please feed your animal every day.",
+        "exampleVi": "Hãy cho thú cưng của bạn ăn mỗi ngày."
+      },
+      {
+        "type": "Phrase",
+        "word": "give them water",
+        "ipa": "/ɡɪv ðəm ˈwɔːtər/",
+        "meaning": "cho chúng nước uống",
+        "example": "We give them water every morning.",
+        "exampleVi": "Chúng tôi cho chúng nước mỗi sáng."
+      },
+      {
+        "type": "Question",
+        "word": "Do you have any pets?",
+        "ipa": "/duː ju hæv ˈeni pets/",
+        "meaning": "Bạn có thú cưng nào không?",
+        "example": "Do you have any pets?",
+        "exampleVi": "Bạn có thú cưng nào không?"
+      }
+    ]
   },
   {
     "id": 32,
     "title": "Travelling",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "transport",
+        "ipa": "/ˈtrænspɔːrt/",
+        "meaning": "phương tiện giao thông; giao thông vận tải",
+        "example": "Public transport is cheap here.",
+        "exampleVi": "Phương tiện giao thông công cộng ở đây rẻ."
+      },
+      {
+        "type": "Noun",
+        "word": "train",
+        "ipa": "/treɪn/",
+        "meaning": "tàu hỏa",
+        "example": "I go to work by train.",
+        "exampleVi": "Tôi đi làm bằng tàu hỏa."
+      },
+      {
+        "type": "Noun",
+        "word": "bus",
+        "ipa": "/bʌs/",
+        "meaning": "xe buýt",
+        "example": "I take the bus to school.",
+        "exampleVi": "Tôi đi xe buýt đến trường."
+      },
+      {
+        "type": "Noun",
+        "word": "bicycle",
+        "ipa": "/ˈbaɪsɪkəl/",
+        "meaning": "xe đạp",
+        "example": "I go to school by bicycle.",
+        "exampleVi": "Tôi đi học bằng xe đạp."
+      },
+      {
+        "type": "Noun",
+        "word": "bike",
+        "ipa": "/baɪk/",
+        "meaning": "xe đạp; xe máy (tùy ngữ cảnh)",
+        "example": "I have a new bike.",
+        "exampleVi": "Tôi có một chiếc xe đạp mới."
+      },
+      {
+        "type": "Noun",
+        "word": "taxi",
+        "ipa": "/ˈtæksi/",
+        "meaning": "taxi",
+        "example": "We took a taxi to the hotel.",
+        "exampleVi": "Chúng tôi đi taxi đến khách sạn."
+      },
+      {
+        "type": "Noun",
+        "word": "(aero)plane",
+        "ipa": "/ˈerəpleɪn/",
+        "meaning": "máy bay",
+        "example": "The plane leaves at eight.",
+        "exampleVi": "Máy bay khởi hành lúc tám giờ."
+      },
+      {
+        "type": "Noun",
+        "word": "car",
+        "ipa": "/kɑːr/",
+        "meaning": "ô tô",
+        "example": "My father drives a car to work.",
+        "exampleVi": "Bố tôi lái ô tô đi làm."
+      },
+      {
+        "type": "Noun",
+        "word": "helicopter",
+        "ipa": "/ˈhelɪˌkɑːptər/",
+        "meaning": "trực thăng",
+        "example": "The helicopter is in the sky.",
+        "exampleVi": "Chiếc trực thăng ở trên bầu trời."
+      },
+      {
+        "type": "Noun",
+        "word": "motorbike",
+        "ipa": "/ˈmoʊtərbaɪk/",
+        "meaning": "xe máy",
+        "example": "He goes to work by motorbike.",
+        "exampleVi": "Anh ấy đi làm bằng xe máy."
+      },
+      {
+        "type": "Noun",
+        "word": "motorcycle",
+        "ipa": "/ˈmoʊtərˌsaɪkəl/",
+        "meaning": "xe mô tô, xe máy",
+        "example": "She has a new motorcycle.",
+        "exampleVi": "Cô ấy có một chiếc xe máy mới."
+      },
+      {
+        "type": "Noun",
+        "word": "underground",
+        "ipa": "/ˈʌndərɡraʊnd/",
+        "meaning": "tàu điện ngầm",
+        "example": "I take the underground to work.",
+        "exampleVi": "Tôi đi tàu điện ngầm đến chỗ làm."
+      },
+      {
+        "type": "Noun",
+        "word": "boat",
+        "ipa": "/boʊt/",
+        "meaning": "thuyền",
+        "example": "We went across the river by boat.",
+        "exampleVi": "Chúng tôi qua sông bằng thuyền."
+      },
+      {
+        "type": "Noun",
+        "word": "ship",
+        "ipa": "/ʃɪp/",
+        "meaning": "tàu thủy",
+        "example": "The ship is very large.",
+        "exampleVi": "Con tàu rất lớn."
+      },
+      {
+        "type": "Noun",
+        "word": "map",
+        "ipa": "/mæp/",
+        "meaning": "bản đồ",
+        "example": "I looked at the map.",
+        "exampleVi": "Tôi đã xem bản đồ."
+      },
+      {
+        "type": "Noun",
+        "word": "timetable",
+        "ipa": "/ˈtaɪmˌteɪbəl/",
+        "meaning": "lịch trình, thời gian biểu",
+        "example": "Check the timetable before you travel.",
+        "exampleVi": "Hãy xem lịch trình trước khi đi."
+      },
+      {
+        "type": "Noun",
+        "word": "customs",
+        "ipa": "/ˈkʌstəmz/",
+        "meaning": "hải quan",
+        "example": "We went through customs at the airport.",
+        "exampleVi": "Chúng tôi làm thủ tục hải quan ở sân bay."
+      },
+      {
+        "type": "Noun",
+        "word": "luggage",
+        "ipa": "/ˈlʌɡɪdʒ/",
+        "meaning": "hành lý",
+        "example": "My luggage is very heavy.",
+        "exampleVi": "Hành lý của tôi rất nặng."
+      },
+      {
+        "type": "Noun",
+        "word": "passport",
+        "ipa": "/ˈpæspɔːrt/",
+        "meaning": "hộ chiếu",
+        "example": "Don't forget your passport.",
+        "exampleVi": "Đừng quên hộ chiếu của bạn."
+      },
+      {
+        "type": "Noun",
+        "word": "single ticket",
+        "ipa": "/ˌsɪŋɡəl ˈtɪkɪt/",
+        "meaning": "vé một chiều",
+        "example": "I'd like a single ticket to London.",
+        "exampleVi": "Tôi muốn một vé một chiều đến London."
+      },
+      {
+        "type": "Noun",
+        "word": "return ticket",
+        "ipa": "/rɪˈtɜːrn ˌtɪkɪt/",
+        "meaning": "vé khứ hồi",
+        "example": "I bought a return ticket.",
+        "exampleVi": "Tôi đã mua một vé khứ hồi."
+      },
+      {
+        "type": "Phrase",
+        "word": "book a seat in advance",
+        "ipa": "/bʊk ə siːt ɪn ədˈvæns/",
+        "meaning": "đặt chỗ trước",
+        "example": "I booked a seat in advance.",
+        "exampleVi": "Tôi đã đặt chỗ trước."
+      },
+      {
+        "type": "Phrase",
+        "word": "reserve a seat in advance",
+        "ipa": "/rɪˈzɜːrv ə siːt ɪn ədˈvæns/",
+        "meaning": "đặt chỗ trước",
+        "example": "You should reserve a seat in advance.",
+        "exampleVi": "Bạn nên đặt chỗ trước."
+      },
+      {
+        "type": "Noun",
+        "word": "journey",
+        "ipa": "/ˈdʒɜːrni/",
+        "meaning": "chuyến đi, hành trình",
+        "example": "The journey takes two hours.",
+        "exampleVi": "Chuyến đi mất hai giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "arriving at",
+        "ipa": "/əˈraɪvɪŋ æt/",
+        "meaning": "đến tại",
+        "example": "The train is arriving at platform 3.",
+        "exampleVi": "Tàu đang đến sân ga số 3."
+      },
+      {
+        "type": "Phrase",
+        "word": "depart from",
+        "ipa": "/dɪˈpɑːrt frəm/",
+        "meaning": "khởi hành từ",
+        "example": "The train departs from platform 5.",
+        "exampleVi": "Tàu khởi hành từ sân ga số 5."
+      },
+      {
+        "type": "Phrase",
+        "word": "leave from",
+        "ipa": "/liːv frəm/",
+        "meaning": "rời đi/khởi hành từ",
+        "example": "The bus leaves from the station.",
+        "exampleVi": "Xe buýt khởi hành từ nhà ga."
+      },
+      {
+        "type": "Noun",
+        "word": "restaurant car",
+        "ipa": "/ˈrestrɑːnt kɑːr/",
+        "meaning": "toa ăn, toa nhà hàng trên tàu",
+        "example": "We had lunch in the restaurant car.",
+        "exampleVi": "Chúng tôi ăn trưa trong toa ăn."
+      },
+      {
+        "type": "Phrase",
+        "word": "change trains",
+        "ipa": "/tʃeɪndʒ treɪnz/",
+        "meaning": "đổi tàu",
+        "example": "We have to change trains in London.",
+        "exampleVi": "Chúng tôi phải đổi tàu ở London."
+      },
+      {
+        "type": "Adjective",
+        "word": "direct",
+        "ipa": "/dəˈrekt/",
+        "meaning": "trực tiếp, không phải đổi phương tiện",
+        "example": "Is there a direct train to London?",
+        "exampleVi": "Có tàu trực tiếp đến London không?"
+      },
+      {
+        "type": "Verb",
+        "word": "check in",
+        "ipa": "/tʃek ɪn/",
+        "meaning": "làm thủ tục check-in",
+        "example": "We need to check in two hours early.",
+        "exampleVi": "Chúng tôi cần làm thủ tục hai giờ trước."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "take off",
+        "ipa": "/teɪk ɔːf/",
+        "meaning": "cất cánh",
+        "example": "The plane takes off at 9 a.m.",
+        "exampleVi": "Máy bay cất cánh lúc 9 giờ sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "online check-in",
+        "ipa": "/ˌɑːnˈlaɪn ˈtʃek ɪn/",
+        "meaning": "thủ tục check-in trực tuyến",
+        "example": "Online check-in is easy.",
+        "exampleVi": "Check-in trực tuyến rất dễ."
+      },
+      {
+        "type": "Phrase",
+        "word": "check in online",
+        "ipa": "/tʃek ɪn ˌɑːnˈlaɪn/",
+        "meaning": "làm thủ tục trực tuyến",
+        "example": "I checked in online yesterday.",
+        "exampleVi": "Tôi đã check-in trực tuyến hôm qua."
+      },
+      {
+        "type": "Noun",
+        "word": "boarding card",
+        "ipa": "/ˈbɔːrdɪŋ kɑːrd/",
+        "meaning": "thẻ lên máy bay",
+        "example": "Please show your boarding card.",
+        "exampleVi": "Vui lòng xuất trình thẻ lên máy bay."
+      },
+      {
+        "type": "Noun",
+        "word": "flight attendant",
+        "ipa": "/ˈflaɪt əˌtendənt/",
+        "meaning": "tiếp viên hàng không",
+        "example": "The flight attendant gave me some water.",
+        "exampleVi": "Tiếp viên hàng không đưa cho tôi một ít nước."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a good flight",
+        "ipa": "/hæv ə ɡʊd flaɪt/",
+        "meaning": "chúc chuyến bay tốt đẹp",
+        "example": "Have a good flight!",
+        "exampleVi": "Chúc bạn có một chuyến bay tốt đẹp!"
+      },
+      {
+        "type": "Verb",
+        "word": "land",
+        "ipa": "/lænd/",
+        "meaning": "hạ cánh",
+        "example": "The plane lands at six.",
+        "exampleVi": "Máy bay hạ cánh lúc sáu giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "go through customs",
+        "ipa": "/ɡoʊ θruː ˈkʌstəmz/",
+        "meaning": "làm thủ tục qua hải quan",
+        "example": "We went through customs quickly.",
+        "exampleVi": "Chúng tôi làm thủ tục hải quan nhanh chóng."
+      },
+      {
+        "type": "Phrase",
+        "word": "hire a car",
+        "ipa": "/haɪr ə kɑːr/",
+        "meaning": "thuê ô tô",
+        "example": "We hired a car at the airport.",
+        "exampleVi": "Chúng tôi thuê một chiếc ô tô ở sân bay."
+      },
+      {
+        "type": "Phrase",
+        "word": "fill ... up with petrol",
+        "ipa": "/fɪl ... ʌp wɪð ˈpetrəl/",
+        "meaning": "đổ đầy xăng cho...",
+        "example": "We need to fill the car up with petrol.",
+        "exampleVi": "Chúng ta cần đổ đầy xăng cho ô tô."
+      },
+      {
+        "type": "Phrase",
+        "word": "give ... a lift",
+        "ipa": "/ɡɪv ... ə lɪft/",
+        "meaning": "cho ai đi nhờ xe",
+        "example": "Can you give me a lift to the station?",
+        "exampleVi": "Bạn có thể cho tôi đi nhờ đến nhà ga không?"
+      }
+    ]
   },
   {
     "id": 33,
     "title": "UK culture",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "special day",
+        "ipa": "/ˈspeʃəl deɪ/",
+        "meaning": "ngày đặc biệt",
+        "example": "Christmas is a special day for many people.",
+        "exampleVi": "Giáng sinh là một ngày đặc biệt đối với nhiều người."
+      },
+      {
+        "type": "Noun",
+        "word": "festival",
+        "ipa": "/ˈfestəvəl/",
+        "meaning": "lễ hội",
+        "example": "The town has a music festival every year.",
+        "exampleVi": "Thị trấn có một lễ hội âm nhạc mỗi năm."
+      },
+      {
+        "type": "Noun",
+        "word": "Christmas",
+        "ipa": "/ˈkrɪsməs/",
+        "meaning": "lễ Giáng sinh",
+        "example": "We visit our family at Christmas.",
+        "exampleVi": "Chúng tôi thăm gia đình vào dịp Giáng sinh."
+      },
+      {
+        "type": "Noun",
+        "word": "Christmas tree",
+        "ipa": "/ˈkrɪsməs triː/",
+        "meaning": "cây thông Noel",
+        "example": "We have a Christmas tree in our living room.",
+        "exampleVi": "Chúng tôi có một cây thông Noel trong phòng khách."
+      },
+      {
+        "type": "Noun",
+        "word": "New Year's Eve",
+        "ipa": "/ˌnuː jɪrz ˈiːv/",
+        "meaning": "đêm Giao thừa",
+        "example": "We have a party on New Year's Eve.",
+        "exampleVi": "Chúng tôi tổ chức một bữa tiệc vào đêm Giao thừa."
+      },
+      {
+        "type": "Noun",
+        "word": "New Year's Day",
+        "ipa": "/ˌnuː jɪrz ˈdeɪ/",
+        "meaning": "ngày đầu năm mới",
+        "example": "We visit our grandparents on New Year's Day.",
+        "exampleVi": "Chúng tôi thăm ông bà vào ngày đầu năm mới."
+      },
+      {
+        "type": "Noun",
+        "word": "bank holiday",
+        "ipa": "/ˈbæŋk ˌhɑːlədeɪ/",
+        "meaning": "ngày nghỉ lễ chính thức",
+        "example": "Monday is a bank holiday.",
+        "exampleVi": "Thứ Hai là một ngày nghỉ lễ chính thức."
+      },
+      {
+        "type": "Noun",
+        "word": "Valentine's Day",
+        "ipa": "/ˈvæləntaɪnz deɪ/",
+        "meaning": "Ngày lễ Tình nhân",
+        "example": "They have dinner together on Valentine's Day.",
+        "exampleVi": "Họ ăn tối cùng nhau vào Ngày lễ Tình nhân."
+      },
+      {
+        "type": "Noun",
+        "word": "Easter",
+        "ipa": "/ˈiːstər/",
+        "meaning": "Lễ Phục sinh",
+        "example": "We usually visit our family at Easter.",
+        "exampleVi": "Chúng tôi thường thăm gia đình vào dịp Lễ Phục sinh."
+      },
+      {
+        "type": "Noun",
+        "word": "Easter egg",
+        "ipa": "/ˈiːstər eɡ/",
+        "meaning": "trứng Phục sinh",
+        "example": "The children get Easter eggs.",
+        "exampleVi": "Những đứa trẻ nhận được trứng Phục sinh."
+      },
+      {
+        "type": "Noun",
+        "word": "Halloween",
+        "ipa": "/ˌhæləˈwiːn/",
+        "meaning": "Halloween, Lễ hội hóa trang",
+        "example": "Children wear costumes on Halloween.",
+        "exampleVi": "Trẻ em mặc trang phục hóa trang vào Halloween."
+      },
+      {
+        "type": "Noun",
+        "word": "Bonfire Night",
+        "ipa": "/ˈbɑːnfaɪər naɪt/",
+        "meaning": "Đêm Lửa trại (5/11 ở Anh)",
+        "example": "People watch fireworks on Bonfire Night.",
+        "exampleVi": "Mọi người xem pháo hoa vào Đêm Lửa trại."
+      },
+      {
+        "type": "Noun",
+        "word": "fireworks",
+        "ipa": "/ˈfaɪərwɜːrks/",
+        "meaning": "pháo hoa",
+        "example": "We watched the fireworks last night.",
+        "exampleVi": "Chúng tôi đã xem pháo hoa tối qua."
+      },
+      {
+        "type": "Noun",
+        "word": "fish and chips",
+        "ipa": "/ˌfɪʃ ən ˈtʃɪps/",
+        "meaning": "cá và khoai tây chiên",
+        "example": "I had fish and chips for dinner.",
+        "exampleVi": "Tôi đã ăn cá và khoai tây chiên vào bữa tối."
+      },
+      {
+        "type": "Noun",
+        "word": "roast beef",
+        "ipa": "/ˌroʊst ˈbiːf/",
+        "meaning": "thịt bò nướng",
+        "example": "We had roast beef on Sunday.",
+        "exampleVi": "Chúng tôi ăn thịt bò nướng vào Chủ nhật."
+      },
+      {
+        "type": "Noun",
+        "word": "roast potatoes",
+        "ipa": "/ˌroʊst pəˈteɪtoʊz/",
+        "meaning": "khoai tây nướng",
+        "example": "We ate roast potatoes with the beef.",
+        "exampleVi": "Chúng tôi ăn khoai tây nướng cùng thịt bò."
+      },
+      {
+        "type": "Noun",
+        "word": "oven",
+        "ipa": "/ˈʌvən/",
+        "meaning": "lò nướng",
+        "example": "The chicken is in the oven.",
+        "exampleVi": "Con gà đang ở trong lò nướng."
+      },
+      {
+        "type": "Noun",
+        "word": "Yorkshire pudding",
+        "ipa": "/ˌjɔːrkʃər ˈpʊdɪŋ/",
+        "meaning": "bánh Yorkshire",
+        "example": "We eat Yorkshire pudding with roast beef.",
+        "exampleVi": "Chúng tôi ăn bánh Yorkshire cùng thịt bò nướng."
+      },
+      {
+        "type": "Noun",
+        "word": "chicken tikka masala",
+        "ipa": "/ˌtʃɪkən ˈtiːkə məˈsɑːlə/",
+        "meaning": "món gà tikka masala",
+        "example": "I like chicken tikka masala.",
+        "exampleVi": "Tôi thích món gà tikka masala."
+      },
+      {
+        "type": "Noun",
+        "word": "curry",
+        "ipa": "/ˈkɜːri/",
+        "meaning": "món cà ri",
+        "example": "We had curry for dinner.",
+        "exampleVi": "Chúng tôi ăn cà ri vào bữa tối."
+      },
+      {
+        "type": "Noun",
+        "word": "nursery school",
+        "ipa": "/ˈnɜːrsəri skuːl/",
+        "meaning": "trường mầm non",
+        "example": "My daughter goes to nursery school.",
+        "exampleVi": "Con gái tôi đi học trường mầm non."
+      },
+      {
+        "type": "Noun",
+        "word": "primary school",
+        "ipa": "/ˈpraɪmeri skuːl/",
+        "meaning": "trường tiểu học",
+        "example": "My son is at primary school.",
+        "exampleVi": "Con trai tôi học tiểu học."
+      },
+      {
+        "type": "Noun",
+        "word": "secondary school",
+        "ipa": "/ˈsekənderi skuːl/",
+        "meaning": "trường trung học",
+        "example": "She goes to secondary school.",
+        "exampleVi": "Cô ấy học trường trung học."
+      },
+      {
+        "type": "Noun",
+        "word": "state school",
+        "ipa": "/ˈsteɪt skuːl/",
+        "meaning": "trường công lập",
+        "example": "My children go to a state school.",
+        "exampleVi": "Các con tôi học trường công lập."
+      },
+      {
+        "type": "Noun",
+        "word": "private school",
+        "ipa": "/ˈpraɪvət skuːl/",
+        "meaning": "trường tư thục",
+        "example": "He goes to a private school.",
+        "exampleVi": "Cậu ấy học trường tư."
+      },
+      {
+        "type": "Noun",
+        "word": "politics",
+        "ipa": "/ˈpɑːlətɪks/",
+        "meaning": "chính trị",
+        "example": "We sometimes talk about politics.",
+        "exampleVi": "Đôi khi chúng tôi nói về chính trị."
+      },
+      {
+        "type": "Noun",
+        "word": "royal family",
+        "ipa": "/ˈrɔɪəl ˌfæməli/",
+        "meaning": "Hoàng gia",
+        "example": "Many tourists visit London to learn about the royal family.",
+        "exampleVi": "Nhiều du khách đến London để tìm hiểu về Hoàng gia."
+      },
+      {
+        "type": "Noun",
+        "word": "king",
+        "ipa": "/kɪŋ/",
+        "meaning": "vua",
+        "example": "The king lives in a palace.",
+        "exampleVi": "Nhà vua sống trong một cung điện."
+      },
+      {
+        "type": "Noun",
+        "word": "queen",
+        "ipa": "/kwiːn/",
+        "meaning": "nữ hoàng",
+        "example": "The queen was very popular.",
+        "exampleVi": "Nữ hoàng rất được yêu mến."
+      },
+      {
+        "type": "Noun",
+        "word": "Houses of Parliament",
+        "ipa": "/ˌhaʊzɪz əv ˈpɑːrləmənt/",
+        "meaning": "Tòa nhà Quốc hội Anh",
+        "example": "The Houses of Parliament are in London.",
+        "exampleVi": "Tòa nhà Quốc hội Anh ở London."
+      },
+      {
+        "type": "Noun",
+        "word": "Prime Minister",
+        "ipa": "/ˌpraɪm ˈmɪnɪstər/",
+        "meaning": "Thủ tướng",
+        "example": "The Prime Minister works in London.",
+        "exampleVi": "Thủ tướng làm việc ở London."
+      }
+    ]
   },
   {
     "id": 34,
     "title": "Crime",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "crime",
+        "ipa": "/kraɪm/",
+        "meaning": "tội phạm; hành vi phạm tội",
+        "example": "Crime is a serious problem in some cities.",
+        "exampleVi": "Tội phạm là một vấn đề nghiêm trọng ở một số thành phố."
+      },
+      {
+        "type": "Noun",
+        "word": "criminal",
+        "ipa": "/ˈkrɪmənəl/",
+        "meaning": "tội phạm; kẻ phạm tội",
+        "example": "The police caught the criminal.",
+        "exampleVi": "Cảnh sát đã bắt được tên tội phạm."
+      },
+      {
+        "type": "Noun",
+        "word": "robbery",
+        "ipa": "/ˈrɑːbəri/",
+        "meaning": "vụ cướp",
+        "example": "There was a robbery at the bank.",
+        "exampleVi": "Có một vụ cướp ở ngân hàng."
+      },
+      {
+        "type": "Noun",
+        "word": "robber",
+        "ipa": "/ˈrɑːbər/",
+        "meaning": "kẻ cướp",
+        "example": "The robber ran away.",
+        "exampleVi": "Tên cướp đã chạy trốn."
+      },
+      {
+        "type": "Verb",
+        "word": "rob sb/place",
+        "ipa": "/rɑːb/",
+        "meaning": "cướp ai/nơi nào",
+        "example": "They robbed a bank.",
+        "exampleVi": "Họ đã cướp một ngân hàng."
+      },
+      {
+        "type": "Noun",
+        "word": "murder",
+        "ipa": "/ˈmɜːrdər/",
+        "meaning": "vụ giết người",
+        "example": "The police are investigating the murder.",
+        "exampleVi": "Cảnh sát đang điều tra vụ giết người."
+      },
+      {
+        "type": "Noun",
+        "word": "murderer",
+        "ipa": "/ˈmɜːrdərər/",
+        "meaning": "kẻ giết người",
+        "example": "The murderer was arrested.",
+        "exampleVi": "Kẻ giết người đã bị bắt."
+      },
+      {
+        "type": "Verb",
+        "word": "murder sb",
+        "ipa": "/ˈmɜːrdər/",
+        "meaning": "giết người",
+        "example": "The man murdered his victim.",
+        "exampleVi": "Người đàn ông đã giết nạn nhân của mình."
+      },
+      {
+        "type": "Noun",
+        "word": "burglary",
+        "ipa": "/ˈbɜːrɡləri/",
+        "meaning": "vụ đột nhập trộm cắp",
+        "example": "There was a burglary at our house.",
+        "exampleVi": "Có một vụ đột nhập trộm cắp tại nhà chúng tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "burglar",
+        "ipa": "/ˈbɜːrɡlər/",
+        "meaning": "kẻ trộm đột nhập",
+        "example": "The burglar broke a window.",
+        "exampleVi": "Kẻ trộm đột nhập đã đập vỡ một cửa sổ."
+      },
+      {
+        "type": "Phrase",
+        "word": "break into...",
+        "ipa": "/breɪk ˈɪntuː/",
+        "meaning": "đột nhập vào",
+        "example": "Someone broke into our house.",
+        "exampleVi": "Ai đó đã đột nhập vào nhà chúng tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "mugging",
+        "ipa": "/ˈmʌɡɪŋ/",
+        "meaning": "vụ cướp đường phố",
+        "example": "There was a mugging near the station.",
+        "exampleVi": "Có một vụ cướp đường phố gần nhà ga."
+      },
+      {
+        "type": "Noun",
+        "word": "mugger",
+        "ipa": "/ˈmʌɡər/",
+        "meaning": "kẻ cướp đường phố",
+        "example": "The mugger took his phone.",
+        "exampleVi": "Kẻ cướp đường phố lấy điện thoại của anh ấy."
+      },
+      {
+        "type": "Verb",
+        "word": "mug sb",
+        "ipa": "/mʌɡ/",
+        "meaning": "cướp tài sản của ai, thường ở nơi công cộng",
+        "example": "The man was mugged on his way home.",
+        "exampleVi": "Người đàn ông bị cướp trên đường về nhà."
+      },
+      {
+        "type": "Noun",
+        "word": "car theft",
+        "ipa": "/ˈkɑːr θeft/",
+        "meaning": "hành vi/vụ trộm xe",
+        "example": "Car theft is a problem in this area.",
+        "exampleVi": "Trộm xe là một vấn đề ở khu vực này."
+      },
+      {
+        "type": "Noun",
+        "word": "car thief",
+        "ipa": "/ˈkɑːr θiːf/",
+        "meaning": "kẻ trộm xe",
+        "example": "The car thief was arrested.",
+        "exampleVi": "Kẻ trộm xe đã bị bắt."
+      },
+      {
+        "type": "Phrase",
+        "word": "steal a car",
+        "ipa": "/stiːl ə kɑːr/",
+        "meaning": "trộm một chiếc xe",
+        "example": "Someone stole my car last night.",
+        "exampleVi": "Ai đó đã trộm xe của tôi tối qua."
+      },
+      {
+        "type": "Noun",
+        "word": "drug dealing",
+        "ipa": "/ˈdrʌɡ ˌdiːlɪŋ/",
+        "meaning": "buôn bán ma túy",
+        "example": "Drug dealing is illegal.",
+        "exampleVi": "Buôn bán ma túy là bất hợp pháp."
+      },
+      {
+        "type": "Noun",
+        "word": "drug dealer",
+        "ipa": "/ˈdrʌɡ ˌdiːlər/",
+        "meaning": "kẻ buôn ma túy",
+        "example": "The police arrested a drug dealer.",
+        "exampleVi": "Cảnh sát đã bắt một kẻ buôn ma túy."
+      },
+      {
+        "type": "Phrase",
+        "word": "sell drugs",
+        "ipa": "/sel drʌɡz/",
+        "meaning": "bán ma túy",
+        "example": "It is illegal to sell drugs.",
+        "exampleVi": "Bán ma túy là bất hợp pháp."
+      },
+      {
+        "type": "Noun",
+        "word": "terrorism",
+        "ipa": "/ˈterərɪzəm/",
+        "meaning": "chủ nghĩa khủng bố; khủng bố",
+        "example": "Terrorism is a serious problem.",
+        "exampleVi": "Khủng bố là một vấn đề nghiêm trọng."
+      },
+      {
+        "type": "Noun",
+        "word": "terrorist",
+        "ipa": "/ˈterərɪst/",
+        "meaning": "kẻ khủng bố",
+        "example": "The terrorist was arrested.",
+        "exampleVi": "Kẻ khủng bố đã bị bắt."
+      },
+      {
+        "type": "Phrase",
+        "word": "attack sb/place",
+        "ipa": "/əˈtæk/",
+        "meaning": "tấn công ai/nơi nào",
+        "example": "The men attacked the building.",
+        "exampleVi": "Những người đàn ông đã tấn công tòa nhà."
+      },
+      {
+        "type": "Noun",
+        "word": "shoplifting",
+        "ipa": "/ˈʃɑːpˌlɪftɪŋ/",
+        "meaning": "hành vi ăn cắp hàng trong cửa hàng",
+        "example": "Shoplifting is against the law.",
+        "exampleVi": "Ăn cắp hàng trong cửa hàng là trái pháp luật."
+      },
+      {
+        "type": "Noun",
+        "word": "shoplifter",
+        "ipa": "/ˈʃɑːpˌlɪftər/",
+        "meaning": "kẻ ăn cắp hàng trong cửa hàng",
+        "example": "The shoplifter was caught.",
+        "exampleVi": "Kẻ ăn cắp hàng đã bị bắt."
+      },
+      {
+        "type": "Phrase",
+        "word": "steal things from a shop",
+        "ipa": "/stiːl θɪŋz frəm ə ʃɑːp/",
+        "meaning": "lấy trộm đồ từ cửa hàng",
+        "example": "He stole things from a shop.",
+        "exampleVi": "Anh ta lấy trộm đồ từ một cửa hàng."
+      },
+      {
+        "type": "Noun",
+        "word": "law",
+        "ipa": "/lɔː/",
+        "meaning": "luật pháp, luật",
+        "example": "Everyone must obey the law.",
+        "exampleVi": "Mọi người phải tuân thủ pháp luật."
+      },
+      {
+        "type": "Phrase",
+        "word": "be arrested for",
+        "ipa": "/biː əˈrestɪd fɔːr/",
+        "meaning": "bị bắt vì",
+        "example": "He was arrested for robbery.",
+        "exampleVi": "Anh ta bị bắt vì tội cướp."
+      },
+      {
+        "type": "Noun",
+        "word": "police",
+        "ipa": "/pəˈliːs/",
+        "meaning": "cảnh sát",
+        "example": "The police are looking for the thief.",
+        "exampleVi": "Cảnh sát đang tìm tên trộm."
+      },
+      {
+        "type": "Phrase",
+        "word": "go to court",
+        "ipa": "/ɡoʊ tə kɔːrt/",
+        "meaning": "ra tòa",
+        "example": "He has to go to court.",
+        "exampleVi": "Anh ấy phải ra tòa."
+      },
+      {
+        "type": "Adjective",
+        "word": "guilty",
+        "ipa": "/ˈɡɪlti/",
+        "meaning": "có tội",
+        "example": "The man was found guilty.",
+        "exampleVi": "Người đàn ông bị kết luận là có tội."
+      },
+      {
+        "type": "Phrase",
+        "word": "pay a fine",
+        "ipa": "/peɪ ə faɪn/",
+        "meaning": "nộp tiền phạt",
+        "example": "He had to pay a fine.",
+        "exampleVi": "Anh ấy phải nộp tiền phạt."
+      },
+      {
+        "type": "Adjective",
+        "word": "innocent",
+        "ipa": "/ˈɪnəsənt/",
+        "meaning": "vô tội",
+        "example": "The man is innocent.",
+        "exampleVi": "Người đàn ông vô tội."
+      },
+      {
+        "type": "Phrase",
+        "word": "go to prison",
+        "ipa": "/ɡoʊ tə ˈprɪzən/",
+        "meaning": "đi tù",
+        "example": "He went to prison for five years.",
+        "exampleVi": "Anh ta đi tù năm năm."
+      },
+      {
+        "type": "Noun",
+        "word": "vandals",
+        "ipa": "/ˈvændəlz/",
+        "meaning": "những kẻ phá hoại",
+        "example": "The vandals broke the windows.",
+        "exampleVi": "Những kẻ phá hoại đã đập vỡ cửa sổ."
+      },
+      {
+        "type": "Noun",
+        "word": "vandalism",
+        "ipa": "/ˈvændəlɪzəm/",
+        "meaning": "hành vi phá hoại tài sản",
+        "example": "Vandalism is a crime.",
+        "exampleVi": "Phá hoại tài sản là một tội phạm."
+      },
+      {
+        "type": "Phrase",
+        "word": "take drugs",
+        "ipa": "/teɪk drʌɡz/",
+        "meaning": "sử dụng ma túy",
+        "example": "He was arrested for taking drugs.",
+        "exampleVi": "Anh ta bị bắt vì sử dụng ma túy."
+      },
+      {
+        "type": "Noun",
+        "word": "football hooliganism",
+        "ipa": "/ˈfʊtbɔːl ˈhuːlɪɡənɪzəm/",
+        "meaning": "nạn bạo lực của cổ động viên bóng đá",
+        "example": "Football hooliganism can be dangerous.",
+        "exampleVi": "Bạo lực của cổ động viên bóng đá có thể nguy hiểm."
+      },
+      {
+        "type": "Noun",
+        "word": "football hooligan",
+        "ipa": "/ˈfʊtbɔːl ˈhuːlɪɡən/",
+        "meaning": "cổ động viên bóng đá quá khích",
+        "example": "The football hooligan was arrested.",
+        "exampleVi": "Cổ động viên bóng đá quá khích đã bị bắt."
+      }
+    ]
   },
   {
     "id": 35,
     "title": "The media",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "radio",
+        "ipa": "/ˈreɪdioʊ/",
+        "meaning": "đài phát thanh; radio",
+        "example": "I listen to the radio every morning.",
+        "exampleVi": "Tôi nghe radio mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "programme",
+        "ipa": "/ˈproʊɡræm/",
+        "meaning": "chương trình",
+        "example": "This is my favourite TV programme.",
+        "exampleVi": "Đây là chương trình TV yêu thích của tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "news",
+        "ipa": "/nuːz/",
+        "meaning": "tin tức",
+        "example": "I watch the news every evening.",
+        "exampleVi": "Tôi xem tin tức mỗi tối."
+      },
+      {
+        "type": "Noun",
+        "word": "soaps",
+        "ipa": "/soʊps/",
+        "meaning": "phim truyền hình dài tập",
+        "example": "My mother likes watching soaps.",
+        "exampleVi": "Mẹ tôi thích xem phim truyền hình dài tập."
+      },
+      {
+        "type": "Noun",
+        "word": "soap operas",
+        "ipa": "/ˈsoʊp ˌɑːpərəz/",
+        "meaning": "phim truyền hình dài tập",
+        "example": "She watches soap operas every day.",
+        "exampleVi": "Cô ấy xem phim truyền hình dài tập mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "nature programme",
+        "ipa": "/ˈneɪtʃər ˌproʊɡræm/",
+        "meaning": "chương trình về thiên nhiên",
+        "example": "I like watching nature programmes.",
+        "exampleVi": "Tôi thích xem các chương trình về thiên nhiên."
+      },
+      {
+        "type": "Noun",
+        "word": "documentary",
+        "ipa": "/ˌdɑːkjuˈmentəri/",
+        "meaning": "phim/chương trình tài liệu",
+        "example": "We watched a documentary about animals.",
+        "exampleVi": "Chúng tôi đã xem một bộ phim tài liệu về động vật."
+      },
+      {
+        "type": "Noun",
+        "word": "talk show",
+        "ipa": "/ˈtɔːk ʃoʊ/",
+        "meaning": "chương trình trò chuyện",
+        "example": "My father watches a talk show in the evening.",
+        "exampleVi": "Bố tôi xem một chương trình trò chuyện vào buổi tối."
+      },
+      {
+        "type": "Noun",
+        "word": "cartoon",
+        "ipa": "/kɑːrˈtuːn/",
+        "meaning": "phim hoạt hình",
+        "example": "The children are watching a cartoon.",
+        "exampleVi": "Bọn trẻ đang xem phim hoạt hình."
+      },
+      {
+        "type": "Noun",
+        "word": "reality TV",
+        "ipa": "/riˈæləti ˌtiːˈviː/",
+        "meaning": "truyền hình thực tế",
+        "example": "My sister likes reality TV.",
+        "exampleVi": "Chị tôi thích truyền hình thực tế."
+      },
+      {
+        "type": "Noun",
+        "word": "sports programme",
+        "ipa": "/spɔːrts ˌproʊɡræm/",
+        "meaning": "chương trình thể thao",
+        "example": "He watches a sports programme every Sunday.",
+        "exampleVi": "Anh ấy xem chương trình thể thao mỗi Chủ nhật."
+      },
+      {
+        "type": "Noun",
+        "word": "magazine",
+        "ipa": "/ˌmæɡəˈziːn/",
+        "meaning": "tạp chí",
+        "example": "I read a magazine on the train.",
+        "exampleVi": "Tôi đọc một tạp chí trên tàu."
+      },
+      {
+        "type": "Noun",
+        "word": "morning newspaper",
+        "ipa": "/ˈmɔːrnɪŋ ˈnuːzˌpeɪpər/",
+        "meaning": "báo buổi sáng",
+        "example": "My father reads the morning newspaper.",
+        "exampleVi": "Bố tôi đọc báo buổi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "evening newspaper",
+        "ipa": "/ˈiːvnɪŋ ˈnuːzˌpeɪpər/",
+        "meaning": "báo buổi tối",
+        "example": "She buys an evening newspaper.",
+        "exampleVi": "Cô ấy mua một tờ báo buổi tối."
+      },
+      {
+        "type": "Noun",
+        "word": "women's magazine",
+        "ipa": "/ˈwɪmɪnz ˌmæɡəˈziːn/",
+        "meaning": "tạp chí dành cho phụ nữ",
+        "example": "She reads a women's magazine.",
+        "exampleVi": "Cô ấy đọc một tạp chí dành cho phụ nữ."
+      },
+      {
+        "type": "Noun",
+        "word": "news magazine",
+        "ipa": "/ˈnuːz ˌmæɡəˈziːn/",
+        "meaning": "tạp chí tin tức",
+        "example": "He reads a news magazine every week.",
+        "exampleVi": "Anh ấy đọc một tạp chí tin tức mỗi tuần."
+      },
+      {
+        "type": "Noun",
+        "word": "advert",
+        "ipa": "/ˈædvɜːrt/",
+        "meaning": "quảng cáo",
+        "example": "I saw an advert on TV.",
+        "exampleVi": "Tôi đã thấy một quảng cáo trên TV."
+      },
+      {
+        "type": "Noun",
+        "word": "advertisement",
+        "ipa": "/ˌædvərˈtaɪzmənt/",
+        "meaning": "quảng cáo",
+        "example": "There is an advertisement for a new car.",
+        "exampleVi": "Có một quảng cáo về một chiếc ô tô mới."
+      },
+      {
+        "type": "Noun",
+        "word": "sports magazine",
+        "ipa": "/spɔːrts ˌmæɡəˈziːn/",
+        "meaning": "tạp chí thể thao",
+        "example": "He buys a sports magazine every month.",
+        "exampleVi": "Anh ấy mua một tạp chí thể thao mỗi tháng."
+      },
+      {
+        "type": "Noun",
+        "word": "computer magazine",
+        "ipa": "/kəmˈpjuːtər ˌmæɡəˈziːn/",
+        "meaning": "tạp chí máy tính",
+        "example": "I read a computer magazine.",
+        "exampleVi": "Tôi đọc một tạp chí máy tính."
+      },
+      {
+        "type": "Noun",
+        "word": "teenage magazine",
+        "ipa": "/ˈtiːneɪdʒ ˌmæɡəˈziːn/",
+        "meaning": "tạp chí dành cho tuổi teen",
+        "example": "She reads a teenage magazine.",
+        "exampleVi": "Cô ấy đọc một tạp chí dành cho tuổi teen."
+      },
+      {
+        "type": "Noun",
+        "word": "media",
+        "ipa": "/ˈmiːdiə/",
+        "meaning": "truyền thông",
+        "example": "The media often reports important news.",
+        "exampleVi": "Truyền thông thường đưa tin về những tin tức quan trọng."
+      },
+      {
+        "type": "Phrase",
+        "word": "an interview with",
+        "ipa": "/ən ˈɪntərvjuː wɪð/",
+        "meaning": "một cuộc phỏng vấn với",
+        "example": "There is an interview with a famous actor.",
+        "exampleVi": "Có một cuộc phỏng vấn với một diễn viên nổi tiếng."
+      },
+      {
+        "type": "Noun",
+        "word": "reporter",
+        "ipa": "/rɪˈpɔːrtər/",
+        "meaning": "phóng viên",
+        "example": "The reporter is talking to people.",
+        "exampleVi": "Phóng viên đang nói chuyện với mọi người."
+      },
+      {
+        "type": "Noun",
+        "word": "journalist",
+        "ipa": "/ˈdʒɜːrnəlɪst/",
+        "meaning": "nhà báo",
+        "example": "My uncle is a journalist.",
+        "exampleVi": "Chú tôi là một nhà báo."
+      },
+      {
+        "type": "Phrase",
+        "word": "read a newspaper",
+        "ipa": "/riːd ə ˈnuːzˌpeɪpər/",
+        "meaning": "đọc báo",
+        "example": "I read a newspaper every morning.",
+        "exampleVi": "Tôi đọc báo mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "watch TV online",
+        "ipa": "/wɑːtʃ ˌtiːˈviː ɑːnˈlaɪn/",
+        "meaning": "xem TV trực tuyến",
+        "example": "We watch TV online at home.",
+        "exampleVi": "Chúng tôi xem TV trực tuyến ở nhà."
+      },
+      {
+        "type": "Question",
+        "word": "What's your favourite TV programme?",
+        "ipa": "/wʌts jʊr ˈfeɪvərɪt ˌtiːˈviː ˌproʊɡræm/",
+        "meaning": "Chương trình TV yêu thích của bạn là gì?",
+        "example": "What's your favourite TV programme?",
+        "exampleVi": "Chương trình TV yêu thích của bạn là gì?"
+      },
+      {
+        "type": "Question",
+        "word": "What's on TV...?",
+        "ipa": "/wʌts ɑːn ˌtiːˈviː/",
+        "meaning": "Có gì trên TV...?",
+        "example": "What's on TV tonight?",
+        "exampleVi": "Tối nay có gì trên TV?"
+      },
+      {
+        "type": "Phrase",
+        "word": "change the channel",
+        "ipa": "/tʃeɪndʒ ðə ˈtʃænəl/",
+        "meaning": "chuyển kênh",
+        "example": "Can you change the channel, please?",
+        "exampleVi": "Bạn có thể chuyển kênh giúp tôi được không?"
+      }
+    ]
   },
   {
     "id": 36,

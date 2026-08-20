@@ -8433,5 +8433,1390 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  31: {
+    "unit": {
+      "id": "unit-31-animals",
+      "title": "Unit 31: Animals",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u31-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "farm animal",
+            "right": "động vật nuôi trong trang trại"
+          },
+          {
+            "left": "wild animal",
+            "right": "động vật hoang dã"
+          },
+          {
+            "left": "foal",
+            "right": "ngựa con"
+          },
+          {
+            "left": "calf",
+            "right": "bê, nghé"
+          },
+          {
+            "left": "piglet",
+            "right": "lợn con"
+          },
+          {
+            "left": "chick",
+            "right": "gà con"
+          },
+          {
+            "left": "kid",
+            "right": "dê con"
+          },
+          {
+            "left": "wool",
+            "right": "len; lông cừu"
+          },
+          {
+            "left": "leather",
+            "right": "da thuộc"
+          },
+          {
+            "left": "tortoise",
+            "right": "rùa cạn"
+          }
+        ]
+      },
+      {
+        "id": "u31-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "sheep",
+          "produce",
+          "pig",
+          "hen",
+          "milk",
+          "meat",
+          "goat",
+          "cow"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "A ______ produces wool for our clothes.",
+            "hint_vi": "cừu",
+            "answer": "sheep"
+          },
+          {
+            "id": "q2",
+            "sentence": "Cows ______ milk for us every day.",
+            "hint_vi": "sản xuất, cho ra",
+            "answer": "produce"
+          },
+          {
+            "id": "q3",
+            "sentence": "A ______ gives us bacon and ham.",
+            "hint_vi": "lợn",
+            "answer": "pig"
+          },
+          {
+            "id": "q4",
+            "sentence": "A ______ lays eggs almost every day.",
+            "hint_vi": "gà mái",
+            "answer": "hen"
+          },
+          {
+            "id": "q5",
+            "sentence": "I drink a glass of ______ every morning.",
+            "hint_vi": "sữa",
+            "answer": "milk"
+          },
+          {
+            "id": "q6",
+            "sentence": "Beef and pork are both kinds of ______.",
+            "hint_vi": "thịt",
+            "answer": "meat"
+          },
+          {
+            "id": "q7",
+            "sentence": "A ______ can climb rocky hills easily.",
+            "hint_vi": "dê",
+            "answer": "goat"
+          },
+          {
+            "id": "q8",
+            "sentence": "A ______ is the mother of a calf.",
+            "hint_vi": "bò cái",
+            "answer": "cow"
+          }
+        ]
+      },
+      {
+        "id": "u31-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is a baby horse called?",
+            "options": [
+              "a foal",
+              "a calf",
+              "a chick",
+              "a kid"
+            ],
+            "answer": "a foal"
+          },
+          {
+            "id": "q2",
+            "question": "What is a baby pig called?",
+            "options": [
+              "a piglet",
+              "a calf",
+              "a chick",
+              "a lamb"
+            ],
+            "answer": "a piglet"
+          },
+          {
+            "id": "q3",
+            "question": "Which word means 'động vật hoang dã'?",
+            "options": [
+              "wild animal",
+              "farm animal",
+              "zoo animal",
+              "pet"
+            ],
+            "answer": "wild animal"
+          },
+          {
+            "id": "q4",
+            "question": "Leather is made from an animal's ______.",
+            "options": [
+              "skin",
+              "wool",
+              "milk",
+              "meat"
+            ],
+            "answer": "skin"
+          },
+          {
+            "id": "q5",
+            "question": "Which of these is NOT a farm animal?",
+            "options": [
+              "tiger",
+              "cow",
+              "pig",
+              "sheep"
+            ],
+            "answer": "tiger"
+          },
+          {
+            "id": "q6",
+            "question": "Which pet can copy (mimic) human speech?",
+            "options": [
+              "a parrot",
+              "a rabbit",
+              "a tortoise",
+              "a fish"
+            ],
+            "answer": "a parrot"
+          }
+        ]
+      },
+      {
+        "id": "u31-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"calf\" is a baby cow.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"kid\" is a baby pig.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Wool\" comes from sheep.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "A \"foal\" is a baby horse.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "Both \"bacon\" and \"ham\" come from pork.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A \"hen\" is a male chicken.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u31-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "EEPSH",
+            "answer": "SHEEP"
+          },
+          {
+            "id": "q2",
+            "scrambled": "ROSEH",
+            "answer": "HORSE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "RBBTIA",
+            "answer": "RABBIT"
+          },
+          {
+            "id": "q4",
+            "scrambled": "KYEMNO",
+            "answer": "MONKEY"
+          },
+          {
+            "id": "q5",
+            "scrambled": "APRTRO",
+            "answer": "PARROT"
+          },
+          {
+            "id": "q6",
+            "scrambled": "RFIAGFE",
+            "answer": "GIRAFFE"
+          }
+        ]
+      }
+    ]
+  },
+  32: {
+    "unit": {
+      "id": "unit-32-travelling",
+      "title": "Unit 32: Travelling",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u32-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "timetable",
+            "right": "lịch trình, thời gian biểu"
+          },
+          {
+            "left": "luggage",
+            "right": "hành lý"
+          },
+          {
+            "left": "passport",
+            "right": "hộ chiếu"
+          },
+          {
+            "left": "customs",
+            "right": "hải quan"
+          },
+          {
+            "left": "journey",
+            "right": "chuyến đi, hành trình"
+          },
+          {
+            "left": "platform",
+            "right": "sân ga (từ hình 32.3)"
+          },
+          {
+            "left": "boarding card",
+            "right": "thẻ lên máy bay"
+          },
+          {
+            "left": "flight attendant",
+            "right": "tiếp viên hàng không"
+          },
+          {
+            "left": "underground",
+            "right": "tàu điện ngầm"
+          },
+          {
+            "left": "return ticket",
+            "right": "vé khứ hồi"
+          }
+        ]
+      },
+      {
+        "id": "u32-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "check in",
+          "take off",
+          "land",
+          "luggage",
+          "direct",
+          "platform",
+          "customs",
+          "hire"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "We need to ______ two hours before the flight.",
+            "hint_vi": "làm thủ tục",
+            "answer": "check in"
+          },
+          {
+            "id": "q2",
+            "sentence": "The plane will ______ at nine o'clock.",
+            "hint_vi": "cất cánh",
+            "answer": "take off"
+          },
+          {
+            "id": "q3",
+            "sentence": "The plane will ______ in Paris at noon.",
+            "hint_vi": "hạ cánh",
+            "answer": "land"
+          },
+          {
+            "id": "q4",
+            "sentence": "My ______ is very heavy this time.",
+            "hint_vi": "hành lý",
+            "answer": "luggage"
+          },
+          {
+            "id": "q5",
+            "sentence": "Is there a ______ train to London, or do I have to change?",
+            "hint_vi": "trực tiếp",
+            "answer": "direct"
+          },
+          {
+            "id": "q6",
+            "sentence": "The train leaves from ______ 3.",
+            "hint_vi": "sân ga",
+            "answer": "platform"
+          },
+          {
+            "id": "q7",
+            "sentence": "We went through ______ quickly at the airport.",
+            "hint_vi": "hải quan",
+            "answer": "customs"
+          },
+          {
+            "id": "q8",
+            "sentence": "We decided to ______ a car for the holiday.",
+            "hint_vi": "thuê",
+            "answer": "hire"
+          }
+        ]
+      },
+      {
+        "id": "u32-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What do you show before getting on a plane?",
+            "options": [
+              "a boarding card",
+              "a timetable",
+              "a map",
+              "a receipt"
+            ],
+            "answer": "a boarding card"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'vé một chiều'?",
+            "options": [
+              "a single ticket",
+              "a return ticket",
+              "a season ticket",
+              "a day ticket"
+            ],
+            "answer": "a single ticket"
+          },
+          {
+            "id": "q3",
+            "question": "Where do you eat a meal on a long train journey?",
+            "options": [
+              "the restaurant car",
+              "the platform",
+              "the boarding card",
+              "customs"
+            ],
+            "answer": "the restaurant car"
+          },
+          {
+            "id": "q4",
+            "question": "Who serves you drinks and food on a plane?",
+            "options": [
+              "a flight attendant",
+              "a taxi driver",
+              "a passport officer",
+              "a train driver"
+            ],
+            "answer": "a flight attendant"
+          },
+          {
+            "id": "q5",
+            "question": "If you 'give someone a lift', you...",
+            "options": [
+              "take them in your car",
+              "give them money",
+              "carry their luggage",
+              "sell them a ticket"
+            ],
+            "answer": "take them in your car"
+          },
+          {
+            "id": "q6",
+            "question": "'Fill the car up with petrol' means...",
+            "options": [
+              "put fuel in the car",
+              "wash the car",
+              "park the car",
+              "hire the car"
+            ],
+            "answer": "put fuel in the car"
+          }
+        ]
+      },
+      {
+        "id": "u32-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"return ticket\" takes you there and back.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "Planes \"land\" at the beginning of a journey.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "You need a passport to go through customs in another country.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Luggage\" means bags and suitcases.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Hiring a car\" means buying a car.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "The \"underground\" is a type of train under the city.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u32-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "ATRNI",
+            "answer": "TRAIN"
+          },
+          {
+            "id": "q2",
+            "scrambled": "TXAI",
+            "answer": "TAXI"
+          },
+          {
+            "id": "q3",
+            "scrambled": "KTEITC",
+            "answer": "TICKET"
+          },
+          {
+            "id": "q4",
+            "scrambled": "TRPIROA",
+            "answer": "AIRPORT"
+          },
+          {
+            "id": "q5",
+            "scrambled": "YURENJO",
+            "answer": "JOURNEY"
+          },
+          {
+            "id": "q6",
+            "scrambled": "PCHREILETO",
+            "answer": "HELICOPTER"
+          }
+        ]
+      }
+    ]
+  },
+  33: {
+    "unit": {
+      "id": "unit-33-uk-culture",
+      "title": "Unit 33: UK culture",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u33-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "Christmas",
+            "right": "lễ Giáng sinh"
+          },
+          {
+            "left": "Easter",
+            "right": "Lễ Phục sinh"
+          },
+          {
+            "left": "Halloween",
+            "right": "Halloween, Lễ hội hóa trang"
+          },
+          {
+            "left": "Bonfire Night",
+            "right": "Đêm Lửa trại (5/11 ở Anh)"
+          },
+          {
+            "left": "bank holiday",
+            "right": "ngày nghỉ lễ chính thức"
+          },
+          {
+            "left": "roast beef",
+            "right": "thịt bò nướng"
+          },
+          {
+            "left": "curry",
+            "right": "món cà ri"
+          },
+          {
+            "left": "nursery school",
+            "right": "trường mầm non"
+          },
+          {
+            "left": "royal family",
+            "right": "Hoàng gia"
+          },
+          {
+            "left": "Prime Minister",
+            "right": "Thủ tướng"
+          }
+        ]
+      },
+      {
+        "id": "u33-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "fireworks",
+          "Christmas tree",
+          "oven",
+          "curry",
+          "state",
+          "private",
+          "king",
+          "fish"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "We decorate a ______ every December.",
+            "hint_vi": "cây thông Noel",
+            "answer": "Christmas tree"
+          },
+          {
+            "id": "q2",
+            "sentence": "People watch ______ on Bonfire Night.",
+            "hint_vi": "pháo hoa",
+            "answer": "fireworks"
+          },
+          {
+            "id": "q3",
+            "sentence": "Roast beef is cooked in the ______.",
+            "hint_vi": "lò nướng",
+            "answer": "oven"
+          },
+          {
+            "id": "q4",
+            "sentence": "Chicken tikka masala is a kind of ______.",
+            "hint_vi": "món cà ri",
+            "answer": "curry"
+          },
+          {
+            "id": "q5",
+            "sentence": "We had ______ and chips for dinner.",
+            "hint_vi": "cá",
+            "answer": "fish"
+          },
+          {
+            "id": "q6",
+            "sentence": "A ______ school is free for children.",
+            "hint_vi": "công lập",
+            "answer": "state"
+          },
+          {
+            "id": "q7",
+            "sentence": "Parents pay for their children to go to a ______ school.",
+            "hint_vi": "tư thục",
+            "answer": "private"
+          },
+          {
+            "id": "q8",
+            "sentence": "The ______ lives in a palace.",
+            "hint_vi": "vua",
+            "answer": "king"
+          }
+        ]
+      },
+      {
+        "id": "u33-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which special day do children wear costumes for?",
+            "options": [
+              "Halloween",
+              "Christmas",
+              "Easter",
+              "New Year's Day"
+            ],
+            "answer": "Halloween"
+          },
+          {
+            "id": "q2",
+            "question": "What do children find on Easter?",
+            "options": [
+              "Easter eggs",
+              "Christmas trees",
+              "fireworks",
+              "chips"
+            ],
+            "answer": "Easter eggs"
+          },
+          {
+            "id": "q3",
+            "question": "Which dish is traditionally eaten with roast beef?",
+            "options": [
+              "Yorkshire pudding",
+              "chicken tikka masala",
+              "fish and chips",
+              "curry"
+            ],
+            "answer": "Yorkshire pudding"
+          },
+          {
+            "id": "q4",
+            "question": "Which age group goes to secondary school in the UK?",
+            "options": [
+              "12-18",
+              "2-4",
+              "5-11",
+              "18-22"
+            ],
+            "answer": "12-18"
+          },
+          {
+            "id": "q5",
+            "question": "Where do the Prime Minister and MPs work?",
+            "options": [
+              "the Houses of Parliament",
+              "the royal palace",
+              "a state school",
+              "a bank"
+            ],
+            "answer": "the Houses of Parliament"
+          },
+          {
+            "id": "q6",
+            "question": "When do British people traditionally have a party at midnight?",
+            "options": [
+              "New Year's Eve",
+              "Valentine's Day",
+              "Bonfire Night",
+              "Easter"
+            ],
+            "answer": "New Year's Eve"
+          }
+        ]
+      },
+      {
+        "id": "u33-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "Chicken tikka masala originally comes from India.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"bank holiday\" is a normal working day.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "Fireworks are traditionally watched on Bonfire Night.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "A \"private school\" is free for parents.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "The Queen or King is part of the royal family.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "Nursery school is for children aged 12-18.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u33-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "ERSETA",
+            "answer": "EASTER"
+          },
+          {
+            "id": "q2",
+            "scrambled": "RRCYU",
+            "answer": "CURRY"
+          },
+          {
+            "id": "q3",
+            "scrambled": "LTESVFAI",
+            "answer": "FESTIVAL"
+          },
+          {
+            "id": "q4",
+            "scrambled": "NEQUE",
+            "answer": "QUEEN"
+          },
+          {
+            "id": "q5",
+            "scrambled": "OHLCSO",
+            "answer": "SCHOOL"
+          },
+          {
+            "id": "q6",
+            "scrambled": "LCTPSOII",
+            "answer": "POLITICS"
+          }
+        ]
+      }
+    ]
+  },
+  34: {
+    "unit": {
+      "id": "unit-34-crime",
+      "title": "Unit 34: Crime",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u34-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "robbery",
+            "right": "vụ cướp"
+          },
+          {
+            "left": "burglary",
+            "right": "vụ đột nhập trộm cắp"
+          },
+          {
+            "left": "mugging",
+            "right": "vụ cướp đường phố"
+          },
+          {
+            "left": "shoplifting",
+            "right": "hành vi ăn cắp hàng trong cửa hàng"
+          },
+          {
+            "left": "terrorism",
+            "right": "chủ nghĩa khủng bố; khủng bố"
+          },
+          {
+            "left": "vandalism",
+            "right": "hành vi phá hoại tài sản"
+          },
+          {
+            "left": "guilty",
+            "right": "có tội"
+          },
+          {
+            "left": "innocent",
+            "right": "vô tội"
+          },
+          {
+            "left": "law",
+            "right": "luật pháp, luật"
+          },
+          {
+            "left": "police",
+            "right": "cảnh sát"
+          }
+        ]
+      },
+      {
+        "id": "u34-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "arrested",
+          "fine",
+          "prison",
+          "stole",
+          "broke into",
+          "court",
+          "innocent",
+          "guilty"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "The police officer ______ him for shoplifting.",
+            "hint_vi": "bắt giữ",
+            "answer": "arrested"
+          },
+          {
+            "id": "q2",
+            "sentence": "He had to pay a ______ of £50.",
+            "hint_vi": "tiền phạt",
+            "answer": "fine"
+          },
+          {
+            "id": "q3",
+            "sentence": "The murderer went to ______ for 20 years.",
+            "hint_vi": "nhà tù",
+            "answer": "prison"
+          },
+          {
+            "id": "q4",
+            "sentence": "Someone ______ my bike last night.",
+            "hint_vi": "đã trộm",
+            "answer": "stole"
+          },
+          {
+            "id": "q5",
+            "sentence": "A burglar ______ our house while we were on holiday.",
+            "hint_vi": "đột nhập vào",
+            "answer": "broke into"
+          },
+          {
+            "id": "q6",
+            "sentence": "He has to go to ______ next week.",
+            "hint_vi": "tòa án",
+            "answer": "court"
+          },
+          {
+            "id": "q7",
+            "sentence": "The man was found ______; he did not commit the crime.",
+            "hint_vi": "vô tội",
+            "answer": "innocent"
+          },
+          {
+            "id": "q8",
+            "sentence": "The jury found her ______ of the robbery.",
+            "hint_vi": "có tội",
+            "answer": "guilty"
+          }
+        ]
+      },
+      {
+        "id": "u34-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What do we call someone who kills another person?",
+            "options": [
+              "a murderer",
+              "a burglar",
+              "a shoplifter",
+              "a mugger"
+            ],
+            "answer": "a murderer"
+          },
+          {
+            "id": "q2",
+            "question": "What do we call someone who steals from shops?",
+            "options": [
+              "a shoplifter",
+              "a car thief",
+              "a drug dealer",
+              "a terrorist"
+            ],
+            "answer": "a shoplifter"
+          },
+          {
+            "id": "q3",
+            "question": "What do we call someone who breaks into houses to steal?",
+            "options": [
+              "a burglar",
+              "a robber",
+              "a mugger",
+              "a vandal"
+            ],
+            "answer": "a burglar"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'cướp tài sản của ai đó ở nơi công cộng'?",
+            "options": [
+              "mug",
+              "rob a bank",
+              "burgle",
+              "shoplift"
+            ],
+            "answer": "mug"
+          },
+          {
+            "id": "q5",
+            "question": "If someone 'takes drugs', they...",
+            "options": [
+              "use illegal drugs",
+              "sell illegal drugs",
+              "are a doctor",
+              "work for the police"
+            ],
+            "answer": "use illegal drugs"
+          },
+          {
+            "id": "q6",
+            "question": "Football hooliganism is connected with...",
+            "options": [
+              "violence among football fans",
+              "stealing cars",
+              "selling drugs",
+              "cybercrime"
+            ],
+            "answer": "violence among football fans"
+          }
+        ]
+      },
+      {
+        "id": "u34-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A burglar goes into someone's house and steals things.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "Vandals take people's money from their pockets.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "A car thief is someone who steals cars.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "If you are \"guilty\", it means you did not commit the crime.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Rob\" and \"steal\" can both describe taking something illegally.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A drug dealer sells illegal drugs.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u34-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "IREMC",
+            "answer": "CRIME"
+          },
+          {
+            "id": "q2",
+            "scrambled": "BRBEOR",
+            "answer": "ROBBER"
+          },
+          {
+            "id": "q3",
+            "scrambled": "PISNRO",
+            "answer": "PRISON"
+          },
+          {
+            "id": "q4",
+            "scrambled": "UAGBRRL",
+            "answer": "BURGLAR"
+          },
+          {
+            "id": "q5",
+            "scrambled": "GLYUIT",
+            "answer": "GUILTY"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ADMAINSVL",
+            "answer": "VANDALISM"
+          }
+        ]
+      }
+    ]
+  },
+  35: {
+    "unit": {
+      "id": "unit-35-media",
+      "title": "Unit 35: The media",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u35-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "documentary",
+            "right": "phim/chương trình tài liệu"
+          },
+          {
+            "left": "soap opera",
+            "right": "phim truyền hình dài tập"
+          },
+          {
+            "left": "cartoon",
+            "right": "phim hoạt hình"
+          },
+          {
+            "left": "talk show",
+            "right": "chương trình trò chuyện"
+          },
+          {
+            "left": "reality TV",
+            "right": "truyền hình thực tế"
+          },
+          {
+            "left": "advertisement",
+            "right": "quảng cáo"
+          },
+          {
+            "left": "reporter",
+            "right": "phóng viên"
+          },
+          {
+            "left": "journalist",
+            "right": "nhà báo"
+          },
+          {
+            "left": "media",
+            "right": "truyền thông"
+          },
+          {
+            "left": "magazine",
+            "right": "tạp chí"
+          }
+        ]
+      },
+      {
+        "id": "u35-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "news",
+          "channel",
+          "documentary",
+          "interview",
+          "online",
+          "advert",
+          "reporter",
+          "newspaper"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I watch the ______ every evening at 7.",
+            "hint_vi": "tin tức",
+            "answer": "news"
+          },
+          {
+            "id": "q2",
+            "sentence": "Can you change the ______, please?",
+            "hint_vi": "kênh",
+            "answer": "channel"
+          },
+          {
+            "id": "q3",
+            "sentence": "We watched a ______ about the ocean last night.",
+            "hint_vi": "phim tài liệu",
+            "answer": "documentary"
+          },
+          {
+            "id": "q4",
+            "sentence": "There was an ______ with the Prime Minister on TV.",
+            "hint_vi": "cuộc phỏng vấn",
+            "answer": "interview"
+          },
+          {
+            "id": "q5",
+            "sentence": "These days, many people watch TV ______.",
+            "hint_vi": "trực tuyến",
+            "answer": "online"
+          },
+          {
+            "id": "q6",
+            "sentence": "I saw an ______ for a new phone.",
+            "hint_vi": "quảng cáo",
+            "answer": "advert"
+          },
+          {
+            "id": "q7",
+            "sentence": "A ______ went to the scene to get the story.",
+            "hint_vi": "phóng viên",
+            "answer": "reporter"
+          },
+          {
+            "id": "q8",
+            "sentence": "My father reads the morning ______ every day.",
+            "hint_vi": "tờ báo",
+            "answer": "newspaper"
+          }
+        ]
+      },
+      {
+        "id": "u35-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which programme has stories about animals and nature?",
+            "options": [
+              "a nature programme",
+              "a talk show",
+              "a soap opera",
+              "a cartoon"
+            ],
+            "answer": "a nature programme"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'phim truyền hình dài tập'?",
+            "options": [
+              "soaps",
+              "the news",
+              "a documentary",
+              "an advert"
+            ],
+            "answer": "soaps"
+          },
+          {
+            "id": "q3",
+            "question": "A person who writes articles for newspapers is a...",
+            "options": [
+              "journalist",
+              "reporter only",
+              "reader",
+              "editor's assistant"
+            ],
+            "answer": "journalist"
+          },
+          {
+            "id": "q4",
+            "question": "What do you buy to read the latest news each day?",
+            "options": [
+              "a newspaper",
+              "a cartoon",
+              "a talk show",
+              "a channel"
+            ],
+            "answer": "a newspaper"
+          },
+          {
+            "id": "q5",
+            "question": "Which is an example of 'reality TV'?",
+            "options": [
+              "people living in a house together, filmed all day",
+              "a cartoon for children",
+              "the evening news",
+              "a sports match"
+            ],
+            "answer": "people living in a house together, filmed all day"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means something that tries to sell you a product on TV?",
+            "options": [
+              "an advert",
+              "a documentary",
+              "a talk show",
+              "a soap opera"
+            ],
+            "answer": "an advert"
+          }
+        ]
+      },
+      {
+        "id": "u35-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A \"documentary\" is a factual programme about real life.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Soaps\" and \"soap operas\" mean the same thing.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "A \"cartoon\" is always about real news events.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "A \"journalist\" writes for newspapers or magazines.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "An \"evening newspaper\" is sold in the morning only.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "You can watch TV online with an internet connection.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u35-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "AORDI",
+            "answer": "RADIO"
+          },
+          {
+            "id": "q2",
+            "scrambled": "ATORNCO",
+            "answer": "CARTOON"
+          },
+          {
+            "id": "q3",
+            "scrambled": "ERROETPR",
+            "answer": "REPORTER"
+          },
+          {
+            "id": "q4",
+            "scrambled": "GIAAMEZN",
+            "answer": "MAGAZINE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "NHCLENA",
+            "answer": "CHANNEL"
+          },
+          {
+            "id": "q6",
+            "scrambled": "DRVTEA",
+            "answer": "ADVERT"
+          }
+        ]
+      }
+    ]
   }
 };
