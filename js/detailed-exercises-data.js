@@ -7945,40 +7945,60 @@ const DETAILED_EXERCISES_DATA = {
         "id": "u39d-ex2-resolutions",
         "type": "fill_in_the_blank",
         "title": "39.2. Write about Victoria's New Year Resolutions.",
-        "instructions_vi": "Chọn đúng dự định của Victoria trong danh sách cho mỗi câu.",
-        "word_bank": [
-          "stop eating chocolate",
-          "pass her driving test",
-          "learn Spanish",
-          "watch less TV",
-          "keep her room tidy"
-        ],
+        "instructions_vi": "Dựa vào danh sách dự định của Victoria bên dưới, tự viết lại câu hoàn chỉnh (chia ở ngôi thứ ba) vào chỗ trống.",
+        "context": {
+          "description": "This year I'm going to: stop eating chocolate · pass my driving test · learn Spanish · watch less TV · keep my room tidy"
+        },
         "questions": [
           {
             "id": "q1",
-            "sentence": "This year Victoria is going to ______.",
+            "sentence": "1. This year Victoria is going to stop eating chocolate.",
             "answer": "stop eating chocolate",
             "example": true
           },
           {
             "id": "q2",
-            "sentence": "This year Victoria is going to ______.",
-            "answer": "pass her driving test"
+            "sentence": "2. This year ______",
+            "answer": "Victoria is going to pass her driving test.",
+            "accepted_answers": [
+              "Victoria is going to pass her driving test.",
+              "Victoria is going to pass her driving test",
+              "is going to pass her driving test",
+              "is going to pass her driving test."
+            ]
           },
           {
             "id": "q3",
-            "sentence": "This year Victoria is going to ______.",
-            "answer": "learn Spanish"
+            "sentence": "3. This year ______",
+            "answer": "Victoria is going to learn Spanish.",
+            "accepted_answers": [
+              "Victoria is going to learn Spanish.",
+              "Victoria is going to learn Spanish",
+              "is going to learn Spanish",
+              "is going to learn Spanish."
+            ]
           },
           {
             "id": "q4",
-            "sentence": "This year Victoria is going to ______.",
-            "answer": "watch less TV"
+            "sentence": "4. This year ______",
+            "answer": "Victoria is going to watch less TV.",
+            "accepted_answers": [
+              "Victoria is going to watch less TV.",
+              "Victoria is going to watch less TV",
+              "is going to watch less TV",
+              "is going to watch less TV."
+            ]
           },
           {
             "id": "q5",
-            "sentence": "This year Victoria is going to ______.",
-            "answer": "keep her room tidy"
+            "sentence": "5. This year ______",
+            "answer": "Victoria is going to keep her room tidy.",
+            "accepted_answers": [
+              "Victoria is going to keep her room tidy.",
+              "Victoria is going to keep her room tidy",
+              "is going to keep her room tidy",
+              "is going to keep her room tidy."
+            ]
           }
         ]
       },
