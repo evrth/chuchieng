@@ -7152,5 +7152,1114 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  36: {
+    "unit": {
+      "id": "u36d",
+      "title": "Unit 36: Problems at home and work - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 36.1 chấp nhận nhiều cách diễn đạt (chỉ cần nêu đúng ý chính, hệ thống kiểm tra từ khóa). Bài 36.2 mỗi câu có nhiều hơn 1 đáp án đúng — cần chọn đúng ít nhất 3 danh từ phù hợp."
+    },
+    "exercises": [
+      {
+        "id": "u36d-ex1-pictures",
+        "type": "sentence_construction",
+        "title": "36.1. Look at the pictures. What is the problem?",
+        "instructions_vi": "Nhìn vào hình (8 ô đánh số) và mô tả vấn đề bằng một câu tiếng Anh. Chỉ cần nêu đúng ý chính (từ khóa), không cần khớp chính xác từng chữ.",
+        "context": {
+          "image": "images/exercises/u36-problems-composite.jpg",
+          "description": "Hình gồm 8 ô đánh số từ 1 đến 8, mỗi ô mô tả một vấn đề khác nhau ở nhà hoặc nơi làm việc."
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "Picture 1",
+            "answer": "The phone isn't working.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "Picture 2",
+            "answer": "The computer has crashed.",
+            "required_keywords": [
+              "computer"
+            ]
+          },
+          {
+            "id": "q3",
+            "situation": "Picture 3",
+            "answer": "The cup is broken.",
+            "required_keywords": [
+              "broken"
+            ]
+          },
+          {
+            "id": "q4",
+            "situation": "Picture 4",
+            "answer": "The coffee machine isn't working.",
+            "required_keywords": [
+              "coffee"
+            ]
+          },
+          {
+            "id": "q5",
+            "situation": "Picture 5",
+            "answer": "She has too much work to do.",
+            "required_keywords": [
+              "work"
+            ]
+          },
+          {
+            "id": "q6",
+            "situation": "Picture 6",
+            "answer": "He's cut his hand.",
+            "required_keywords": [
+              "cut"
+            ]
+          },
+          {
+            "id": "q7",
+            "situation": "Picture 7",
+            "answer": "The room is untidy.",
+            "required_keywords": [
+              "untidy"
+            ]
+          },
+          {
+            "id": "q8",
+            "situation": "Picture 8",
+            "answer": "She is late for work.",
+            "required_keywords": [
+              "late"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u36d-ex2-nouns",
+        "type": "multi_select",
+        "title": "36.2. Write down three nouns that can go with these words.",
+        "instructions_vi": "Với mỗi từ/cụm từ, chọn ít nhất 3 danh từ phù hợp có thể đi cùng.",
+        "word_bank": [
+          "window",
+          "cup",
+          "glass",
+          "finger",
+          "hand",
+          "knee",
+          "room",
+          "desk",
+          "hair",
+          "school",
+          "an appointment",
+          "a concert",
+          "camera",
+          "microwave",
+          "fridge",
+          "work",
+          "rain",
+          "wind",
+          "chair",
+          "table",
+          "book",
+          "mountain",
+          "spoon",
+          "cloud",
+          "song",
+          "shoe",
+          "guitar"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "prompt": "1. broken ______",
+            "correct_answers": [
+              "window",
+              "cup",
+              "glass"
+            ],
+            "min_required": 3,
+            "example": true
+          },
+          {
+            "id": "q2",
+            "prompt": "2. cut ______",
+            "correct_answers": [
+              "finger",
+              "hand",
+              "knee"
+            ],
+            "min_required": 3
+          },
+          {
+            "id": "q3",
+            "prompt": "3. untidy ______",
+            "correct_answers": [
+              "room",
+              "desk",
+              "hair"
+            ],
+            "min_required": 3
+          },
+          {
+            "id": "q4",
+            "prompt": "4. late for ______",
+            "correct_answers": [
+              "school",
+              "an appointment",
+              "a concert"
+            ],
+            "min_required": 3
+          },
+          {
+            "id": "q5",
+            "prompt": "5. a ______ that isn't working",
+            "correct_answers": [
+              "camera",
+              "microwave",
+              "fridge"
+            ],
+            "min_required": 3
+          },
+          {
+            "id": "q6",
+            "prompt": "6. too much ______",
+            "correct_answers": [
+              "work",
+              "rain",
+              "wind"
+            ],
+            "min_required": 3
+          }
+        ]
+      }
+    ]
+  },
+  37: {
+    "unit": {
+      "id": "u37d",
+      "title": "Unit 37: Global problems - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 37.4 mỗi câu có nhiều hơn 1 đáp án đúng — cần chọn đủ số lượng từ yêu cầu."
+    },
+    "exercises": [
+      {
+        "id": "u37d-ex1-pictures",
+        "type": "labeling",
+        "title": "37.1. What problems can you see in the pictures?",
+        "instructions_vi": "Nhìn hình và gọi tên vấn đề/thảm họa bằng tiếng Anh.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-strike.jpg",
+            "answer": "strike",
+            "accepted_answers": [
+              "strike",
+              "a strike"
+            ],
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-carcrash.jpg",
+            "answer": "car crash",
+            "accepted_answers": [
+              "car crash",
+              "a car crash"
+            ]
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-flood.jpg",
+            "answer": "flood",
+            "accepted_answers": [
+              "flood",
+              "a flood"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-war.jpg",
+            "answer": "war"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-earthquake.jpg",
+            "answer": "earthquake",
+            "accepted_answers": [
+              "earthquake",
+              "an earthquake"
+            ]
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-forestfire.jpg",
+            "answer": "forest fire",
+            "accepted_answers": [
+              "forest fire",
+              "a forest fire"
+            ]
+          },
+          {
+            "id": "q7",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-hurricane.jpg",
+            "answer": "hurricane",
+            "accepted_answers": [
+              "hurricane",
+              "a hurricane"
+            ]
+          },
+          {
+            "id": "q8",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-trafficjam.jpg",
+            "answer": "traffic jam",
+            "accepted_answers": [
+              "traffic jam",
+              "a traffic jam"
+            ]
+          },
+          {
+            "id": "q9",
+            "clue_vi": "Vấn đề gì?",
+            "image": "images/exercises/u37-problem-snowstorm.jpg",
+            "answer": "snowstorm",
+            "accepted_answers": [
+              "snowstorm",
+              "a snowstorm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u37d-ex2-matching",
+        "type": "matching",
+        "title": "37.2. Match the words on the left with the words on the right.",
+        "instructions_vi": "Ghép 2 từ để tạo thành một từ/cụm từ có nghĩa.",
+        "pairs": [
+          {
+            "left": "air",
+            "right": "pollution"
+          },
+          {
+            "left": "traffic",
+            "right": "jam"
+          },
+          {
+            "left": "rush",
+            "right": "hour"
+          },
+          {
+            "left": "forest",
+            "right": "fire"
+          },
+          {
+            "left": "crowded",
+            "right": "cities"
+          },
+          {
+            "left": "homeless",
+            "right": "people"
+          },
+          {
+            "left": "car",
+            "right": "crash"
+          },
+          {
+            "left": "earth",
+            "right": "quake"
+          }
+        ]
+      },
+      {
+        "id": "u37d-ex3-definitions",
+        "type": "word_from_definition",
+        "title": "37.3. Find the words that match these definitions.",
+        "instructions_vi": "Tìm từ/cụm từ phù hợp với định nghĩa.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "a very strong wind",
+            "answer": "a hurricane",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "so many cars on the road that they can't easily move",
+            "answer": "a traffic jam"
+          },
+          {
+            "id": "q3",
+            "clue": "a street with a large number of people",
+            "answer": "crowded"
+          },
+          {
+            "id": "q4",
+            "clue": "when two cars hit one another",
+            "answer": "a car crash"
+          },
+          {
+            "id": "q5",
+            "clue": "without work",
+            "answer": "unemployed"
+          },
+          {
+            "id": "q6",
+            "clue": "the time of day when there is most traffic",
+            "answer": "the rush hour",
+            "accepted_answers": [
+              "the rush hour",
+              "rush hour"
+            ]
+          },
+          {
+            "id": "q7",
+            "clue": "without enough to eat",
+            "answer": "hungry"
+          },
+          {
+            "id": "q8",
+            "clue": "when a lot of trees burn",
+            "answer": "a forest fire"
+          }
+        ]
+      },
+      {
+        "id": "u37d-ex4-groups",
+        "type": "multi_select",
+        "title": "37.4. Look at and find …",
+        "instructions_vi": "Chọn đủ số lượng từ được yêu cầu trong mỗi câu.",
+        "word_bank": [
+          "car crash",
+          "traffic jam",
+          "forest fire",
+          "strike",
+          "war",
+          "hurricane",
+          "snowstorm",
+          "flood",
+          "poor",
+          "hungry",
+          "homeless",
+          "unemployed",
+          "earthquake",
+          "pollution",
+          "crowded",
+          "rush hour"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "prompt": "1. two problems on the roads.",
+            "correct_answers": [
+              "car crash",
+              "traffic jam"
+            ],
+            "min_required": 2,
+            "example": true
+          },
+          {
+            "id": "q2",
+            "prompt": "2. two things that pollute the air.",
+            "correct_answers": [
+              "forest fire",
+              "traffic jam"
+            ],
+            "min_required": 2
+          },
+          {
+            "id": "q3",
+            "prompt": "3. two problems that can be political.",
+            "correct_answers": [
+              "strike",
+              "war"
+            ],
+            "min_required": 2
+          },
+          {
+            "id": "q4",
+            "prompt": "4. three problems that are caused by the weather.",
+            "correct_answers": [
+              "hurricane",
+              "snowstorm",
+              "flood"
+            ],
+            "min_required": 3
+          },
+          {
+            "id": "q5",
+            "prompt": "5. four adjectives that can describe people.",
+            "correct_answers": [
+              "poor",
+              "hungry",
+              "homeless",
+              "unemployed"
+            ],
+            "min_required": 4
+          }
+        ]
+      },
+      {
+        "id": "u37d-ex5-gaps",
+        "type": "fill_in_the_blank",
+        "title": "37.5. Fill the gaps with a word.",
+        "instructions_vi": "Điền từ thích hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Cars make air ______ worse in towns.",
+            "answer": "pollution",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Their wages were very low so the workers went on ______.",
+            "answer": "strike"
+          },
+          {
+            "id": "q3",
+            "sentence": "My great-grandfather died in the First World ______.",
+            "answer": "War",
+            "accepted_answers": [
+              "War",
+              "war"
+            ]
+          },
+          {
+            "id": "q4",
+            "sentence": "Jack had a ______ last year but fortunately no one was hurt.",
+            "answer": "car crash"
+          },
+          {
+            "id": "q5",
+            "sentence": "Japan often has ______ and Siberia often has ______.",
+            "answer": [
+              "earthquakes",
+              "snowstorms"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "When people are ______ they sometimes sleep on the streets.",
+            "answer": "homeless"
+          },
+          {
+            "id": "q7",
+            "sentence": "I hate driving in the city in the ______.",
+            "answer": "rush hour"
+          },
+          {
+            "id": "q8",
+            "sentence": "The water is so ______ that people cannot drink it.",
+            "answer": "polluted"
+          }
+        ]
+      }
+    ]
+  },
+  38: {
+    "unit": {
+      "id": "u38d",
+      "title": "Unit 38: Have / had / had - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Nhiều câu có nhiều hơn 1 đáp án đúng — hệ thống chấp nhận bất kỳ đáp án nào trong danh sách accepted_answers."
+    },
+    "exercises": [
+      {
+        "id": "u38d-ex1-gaps",
+        "type": "fill_in_the_blank",
+        "title": "38.1. Fill the gaps in the sentences.",
+        "instructions_vi": "Điền từ/cụm từ thích hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I always have ______ in the morning.",
+            "answer": "coffee",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "I have a tennis ______ every Saturday morning. My teacher is excellent.",
+            "answer": "lesson"
+          },
+          {
+            "id": "q3",
+            "sentence": "Do you want to have a game of ______?",
+            "answer": "tennis",
+            "accepted_answers": [
+              "tennis",
+              "football",
+              "squash",
+              "rugby",
+              "darts",
+              "chess",
+              "cards"
+            ]
+          },
+          {
+            "id": "q4",
+            "sentence": "Evelyn's having a ______ on Saturday. Are you going?",
+            "answer": "party"
+          },
+          {
+            "id": "q5",
+            "sentence": "Do you want to have a ______? The bathroom's just here.",
+            "answer": "shower",
+            "accepted_answers": [
+              "shower",
+              "bath",
+              "wash"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "I have an ______ tomorrow, so I have to study tonight.",
+            "answer": "exam"
+          },
+          {
+            "id": "q7",
+            "sentence": "We must have a ______ to talk about these problems.",
+            "answer": "meeting"
+          },
+          {
+            "id": "q8",
+            "sentence": "I'm going to the cafeteria to have a ______. Do you want to come?",
+            "answer": "coffee",
+            "accepted_answers": [
+              "coffee",
+              "cup of coffee",
+              "cup of tea",
+              "drink"
+            ]
+          },
+          {
+            "id": "q9",
+            "sentence": "The hotel has a swimming pool, so we can have a ______ every day.",
+            "answer": "swim"
+          },
+          {
+            "id": "q10",
+            "sentence": "We can have ______ before the film, or we can eat after it.",
+            "answer": "dinner",
+            "accepted_answers": [
+              "dinner",
+              "a meal",
+              "supper",
+              "something to eat"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u38d-ex2-mistakes",
+        "type": "error_correction",
+        "title": "38.2. Correct the mistakes.",
+        "instructions_vi": "Sửa lỗi sai liên quan đến cách dùng 'have' trong mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "original": "Please phone Grandma when you have the moment.",
+            "answer": "Please phone Grandma when you have a moment.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "original": "Scarlett has gone to the hairdresser's to have cut her hair.",
+            "answer": "Scarlett has gone to the hairdresser's to have her hair cut."
+          },
+          {
+            "id": "q3",
+            "original": "That computer game looks great. Can I have a going?",
+            "answer": "That computer game looks great. Can I have a go?"
+          },
+          {
+            "id": "q4",
+            "original": "I want to have some words with my teacher after the lesson.",
+            "answer": "I want to have a word with my teacher after the lesson."
+          },
+          {
+            "id": "q5",
+            "original": "Mum didn't have the times to go to the shop today.",
+            "answer": "Mum didn't have the time to go to the shop today."
+          },
+          {
+            "id": "q6",
+            "original": "They don't have got any cake in the café today.",
+            "answer": "They don't have any cake in the café today.",
+            "accepted_answers": [
+              "They don't have any cake in the café today.",
+              "They haven't got any cake in the café today."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u38d-ex3-crossword",
+        "type": "crossword",
+        "title": "38.3. Complete the crossword.",
+        "instructions_vi": "Điền từ phù hợp cho mỗi gợi ý.",
+        "clues": [
+          {
+            "number": 1,
+            "direction": "across",
+            "clue": "You have it in a restaurant.",
+            "answer": "meal",
+            "example": true
+          },
+          {
+            "number": 2,
+            "direction": "across",
+            "clue": "You have it at school or university.",
+            "answer": "exam"
+          },
+          {
+            "number": 3,
+            "direction": "across",
+            "clue": "People often have one on their birthday.",
+            "answer": "party"
+          },
+          {
+            "number": 4,
+            "direction": "across",
+            "clue": "If you don't like coffee, you can have ______.",
+            "answer": "tea"
+          },
+          {
+            "number": 5,
+            "direction": "across",
+            "clue": "Do you want to have a ______ of tennis?",
+            "answer": "game"
+          }
+        ]
+      },
+      {
+        "id": "u38d-ex4-whatsay",
+        "type": "word_from_definition",
+        "title": "38.4. What do you say?",
+        "instructions_vi": "Chọn/viết câu phù hợp với tình huống được mô tả.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "(someone is thirsty)",
+            "answer": "Why don't you have a drink?",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "(someone is going away)",
+            "answer": "Have a good journey!",
+            "accepted_answers": [
+              "Have a good journey!",
+              "Have a good time!"
+            ]
+          },
+          {
+            "id": "q3",
+            "clue": "(someone sneezes [Atishoo!] and has a red nose)",
+            "answer": "Have you got a cold?"
+          },
+          {
+            "id": "q4",
+            "clue": "(someone has a new camera)",
+            "answer": "Can I have a look?"
+          }
+        ]
+      }
+    ]
+  },
+  39: {
+    "unit": {
+      "id": "u39d",
+      "title": "Unit 39: Go / went / gone - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u39d-ex1-pictures",
+        "type": "labeling",
+        "title": "39.1. Where are these people going? Follow the lines.",
+        "instructions_vi": "Nhìn hình (nối theo đường dẫn) và viết địa điểm/hoạt động mà mỗi người đang đi tới.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Mateo is going to...",
+            "image": "images/exercises/u39-going-zoo.jpg",
+            "answer": "the zoo",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "The Sharps are going to...",
+            "image": "images/exercises/u39-going-beach.jpg",
+            "answer": "the beach"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Zoe and Penelope are going...",
+            "image": "images/exercises/u39-going-shopping.jpg",
+            "answer": "shopping",
+            "accepted_answers": [
+              "shopping",
+              "to the shopping centre",
+              "to the shopping mall"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Asad is going to...",
+            "image": "images/exercises/u39-going-cairo.jpg",
+            "answer": "Cairo"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Lars is going...",
+            "image": "images/exercises/u39-going-fishing.jpg",
+            "answer": "fishing"
+          }
+        ]
+      },
+      {
+        "id": "u39d-ex2-resolutions",
+        "type": "fill_in_the_blank",
+        "title": "39.2. Write about Victoria's New Year Resolutions.",
+        "instructions_vi": "Chọn đúng dự định của Victoria trong danh sách cho mỗi câu.",
+        "word_bank": [
+          "stop eating chocolate",
+          "pass her driving test",
+          "learn Spanish",
+          "watch less TV",
+          "keep her room tidy"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "This year Victoria is going to ______.",
+            "answer": "stop eating chocolate",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "This year Victoria is going to ______.",
+            "answer": "pass her driving test"
+          },
+          {
+            "id": "q3",
+            "sentence": "This year Victoria is going to ______.",
+            "answer": "learn Spanish"
+          },
+          {
+            "id": "q4",
+            "sentence": "This year Victoria is going to ______.",
+            "answer": "watch less TV"
+          },
+          {
+            "id": "q5",
+            "sentence": "This year Victoria is going to ______.",
+            "answer": "keep her room tidy"
+          }
+        ]
+      },
+      {
+        "id": "u39d-ex3-truefalse",
+        "type": "true_false",
+        "title": "39.3. Are these sentences correct?",
+        "instructions_vi": "Xác định câu đã cho đúng ngữ pháp hay sai. Nếu sai, xem gợi ý sửa lại đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "It's time to go at home now.",
+            "answer": false,
+            "note": "It's time to go home now.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "statement": "Mum is going for shopping this afternoon.",
+            "answer": false,
+            "note": "Mum is going shopping this afternoon."
+          },
+          {
+            "id": "q3",
+            "statement": "I'm going to London by car tomorrow.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "I love Paris. Did you go to there last year?",
+            "answer": false,
+            "note": "Did you go there last year?"
+          },
+          {
+            "id": "q5",
+            "statement": "Alexei is going to home at 4 o'clock.",
+            "answer": false,
+            "note": "Alexei is going home at 4 o'clock."
+          },
+          {
+            "id": "q6",
+            "statement": "We always go to the same café. Let's go to somewhere different today.",
+            "answer": false,
+            "note": "Let's go somewhere different today."
+          },
+          {
+            "id": "q7",
+            "statement": "Excuse me, please. Where does this bus go?",
+            "answer": true
+          },
+          {
+            "id": "q8",
+            "statement": "I go to swimming every Sunday morning.",
+            "answer": false,
+            "note": "I go swimming every Sunday morning."
+          },
+          {
+            "id": "q9",
+            "statement": "We're going sightsee today.",
+            "answer": false,
+            "note": "We're going sightseeing today."
+          },
+          {
+            "id": "q10",
+            "statement": "Jo went down to the top of the hill.",
+            "answer": false,
+            "note": "Jo went up to the top of the hill. (hoặc: went down to the bottom of the hill.)"
+          },
+          {
+            "id": "q11",
+            "statement": "Let's go to fish today.",
+            "answer": false,
+            "note": "Let's go fishing today."
+          },
+          {
+            "id": "q12",
+            "statement": "She went out off the shop.",
+            "answer": false,
+            "note": "She went out of the shop."
+          },
+          {
+            "id": "q13",
+            "statement": "Please go away. I'm tired.",
+            "answer": true
+          },
+          {
+            "id": "q14",
+            "statement": "Would you like to go to home now?",
+            "answer": false,
+            "note": "Would you like to go home now?"
+          }
+        ]
+      }
+    ]
+  },
+  40: {
+    "unit": {
+      "id": "u40d",
+      "title": "Unit 40: Do / did / done - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u40d-ex1-picture",
+        "type": "sentence_construction",
+        "title": "40.1. Write questions and answers about the people in the picture.",
+        "instructions_vi": "Nhìn hình và viết câu trả lời cho câu hỏi 'What is ... doing?' của mỗi người/con vật trong hình.",
+        "context": {
+          "image": "images/exercises/u40-activities-composite.jpg",
+          "description": "Hình vẽ nhiều người và một con vật đang làm các hoạt động khác nhau."
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "(the boy) What is the boy doing?",
+            "answer": "He's eating an ice cream.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "(the girls) What are the girls doing?",
+            "answer": "They're playing tennis.",
+            "required_keywords": [
+              "tennis"
+            ]
+          },
+          {
+            "id": "q3",
+            "situation": "(the dog) What is the dog doing?",
+            "answer": "It's sleeping.",
+            "required_keywords": [
+              "sleeping"
+            ]
+          },
+          {
+            "id": "q4",
+            "situation": "(the man in the house) What is the man in the house doing?",
+            "answer": "He's washing up. / He's doing the washing-up.",
+            "required_keywords": [
+              "washing"
+            ]
+          },
+          {
+            "id": "q5",
+            "situation": "(the woman) What is the woman doing?",
+            "answer": "She's reading a book.",
+            "required_keywords": [
+              "reading"
+            ]
+          },
+          {
+            "id": "q6",
+            "situation": "(the man in the garden) What is the man in the garden doing?",
+            "answer": "He's gardening. / He's doing the gardening.",
+            "required_keywords": [
+              "garden"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u40d-ex2-jobs",
+        "type": "labeling",
+        "title": "40.2. Write questions and answers about the jobs of the people in the pictures.",
+        "instructions_vi": "Nhìn hình và cho biết nghề nghiệp của mỗi người.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Lara Brown — What does she do?",
+            "image": "images/exercises/u40-job-secretary.jpg",
+            "answer": "a secretary",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Lee Atkins — What does he do?",
+            "image": "images/exercises/u40-job-teacher.jpg",
+            "answer": "a teacher"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Sophie Hicks — What does she do?",
+            "image": "images/exercises/u40-job-doctor.jpg",
+            "answer": "a doctor"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Cooper and Hailey — What do they do?",
+            "image": "images/exercises/u40-job-students.jpg",
+            "answer": "students",
+            "accepted_answers": [
+              "students",
+              "they're students",
+              "they are students"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u40d-ex3-thismorning",
+        "type": "word_from_definition",
+        "title": "40.3. Write questions about what the people in Exercise 40.2 did this morning.",
+        "instructions_vi": "Dựa vào các cụm từ cho sẵn (talk to five patients / teach three lessons / write an essay / go to a meeting) và hình đã dùng ở bài 40.2, trả lời câu hỏi 'What did ... do?' cho mỗi người.",
+        "context": {
+          "gallery": [
+            {
+              "image": "images/exercises/u40-job-secretary.jpg",
+              "caption": "Lara Brown (secretary)"
+            },
+            {
+              "image": "images/exercises/u40-job-teacher.jpg",
+              "caption": "Lee Atkins (teacher)"
+            },
+            {
+              "image": "images/exercises/u40-job-doctor.jpg",
+              "caption": "Sophie Hicks (doctor)"
+            },
+            {
+              "image": "images/exercises/u40-job-students.jpg",
+              "caption": "Cooper and Hailey (students)"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Lee Atkins — What did he do?",
+            "answer": "He taught three lessons.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Lara Brown — What did she do?",
+            "answer": "She went to a meeting."
+          },
+          {
+            "id": "q3",
+            "clue": "Sophie Hicks — What did she do?",
+            "answer": "She talked to five patients."
+          },
+          {
+            "id": "q4",
+            "clue": "Cooper and Hailey — What did they do?",
+            "answer": "They wrote an essay."
+          }
+        ]
+      },
+      {
+        "id": "u40d-ex4-dialogue",
+        "type": "dialogue_error_correction",
+        "title": "40.4. Correct the mistakes in this dialogue.",
+        "instructions_vi": "Sửa lỗi sai trong đoạn hội thoại sau.",
+        "original_dialogue": "ANNA: Where did you went on your holidays? To Wales?\nPAVEL: No, we don't go to Wales this year. We went to Scotland.\nANNA: Do your grandmother lives in Scotland?\nPAVEL: No, she don't but my uncle do.",
+        "corrections": [
+          {
+            "id": "q1",
+            "wrong": "Where did you went on your holidays?",
+            "correct": "Where did you go on your holidays?",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "wrong": "No, we don't go to Wales this year.",
+            "correct": "No, we didn't go to Wales this year."
+          },
+          {
+            "id": "q3",
+            "wrong": "Do your grandmother lives in Scotland?",
+            "correct": "Does your grandmother live in Scotland?"
+          },
+          {
+            "id": "q4",
+            "wrong": "No, she don't but my uncle do.",
+            "correct": "No, she doesn't but my uncle does."
+          }
+        ]
+      }
+    ]
   }
 };

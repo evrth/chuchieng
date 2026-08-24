@@ -9818,5 +9818,1390 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  36: {
+    "unit": {
+      "id": "unit-36-problems-home-work",
+      "title": "Unit 36: Problems at home and work",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u36-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "broken",
+            "right": "bị hỏng, bị vỡ"
+          },
+          {
+            "left": "untidy",
+            "right": "bừa bộn, không gọn gàng"
+          },
+          {
+            "left": "tidy",
+            "right": "gọn gàng, ngăn nắp"
+          },
+          {
+            "left": "repair",
+            "right": "sửa chữa"
+          },
+          {
+            "left": "mend",
+            "right": "sửa chữa, vá"
+          },
+          {
+            "left": "apologise",
+            "right": "xin lỗi"
+          },
+          {
+            "left": "out of order",
+            "right": "bị hỏng, không hoạt động"
+          },
+          {
+            "left": "have a row with",
+            "right": "cãi nhau với ai"
+          },
+          {
+            "left": "look for",
+            "right": "tìm kiếm"
+          },
+          {
+            "left": "in a bad mood",
+            "right": "tâm trạng không tốt"
+          }
+        ]
+      },
+      {
+        "id": "u36-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "broken",
+          "working",
+          "untidy",
+          "lost",
+          "repair",
+          "cut",
+          "apologised",
+          "late"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "The window is ______; we need a new one.",
+            "hint_vi": "bị vỡ",
+            "answer": "broken"
+          },
+          {
+            "id": "q2",
+            "sentence": "My phone isn't ______ today.",
+            "hint_vi": "hoạt động",
+            "answer": "working"
+          },
+          {
+            "id": "q3",
+            "sentence": "Your bedroom is very ______; please clean it.",
+            "hint_vi": "bừa bộn",
+            "answer": "untidy"
+          },
+          {
+            "id": "q4",
+            "sentence": "I've ______ my keys again!",
+            "hint_vi": "làm mất",
+            "answer": "lost"
+          },
+          {
+            "id": "q5",
+            "sentence": "Can you ______ my bike? The wheel is broken.",
+            "hint_vi": "sửa chữa",
+            "answer": "repair"
+          },
+          {
+            "id": "q6",
+            "sentence": "I ______ my finger while cooking.",
+            "hint_vi": "làm đứt",
+            "answer": "cut"
+          },
+          {
+            "id": "q7",
+            "sentence": "I ______ to my friend after our argument.",
+            "hint_vi": "xin lỗi",
+            "answer": "apologised"
+          },
+          {
+            "id": "q8",
+            "sentence": "I was ______ for work this morning.",
+            "hint_vi": "đến muộn",
+            "answer": "late"
+          }
+        ]
+      },
+      {
+        "id": "u36-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word describes a machine that has stopped working suddenly?",
+            "options": [
+              "dying",
+              "tidy",
+              "working",
+              "mended"
+            ],
+            "answer": "dying"
+          },
+          {
+            "id": "q2",
+            "question": "If a lift is 'out of order', it means...",
+            "options": [
+              "it isn't working",
+              "it is very clean",
+              "it is very fast",
+              "it is new"
+            ],
+            "answer": "it isn't working"
+          },
+          {
+            "id": "q3",
+            "question": "'Have a row with someone' means...",
+            "options": [
+              "argue with someone",
+              "help someone",
+              "meet someone",
+              "thank someone"
+            ],
+            "answer": "argue with someone"
+          },
+          {
+            "id": "q4",
+            "question": "What do you put on a small cut on your finger?",
+            "options": [
+              "a plaster",
+              "a plate",
+              "a plant",
+              "a plank"
+            ],
+            "answer": "a plaster"
+          },
+          {
+            "id": "q5",
+            "question": "Which word means the opposite of 'tidy'?",
+            "options": [
+              "untidy",
+              "broken",
+              "lost",
+              "working"
+            ],
+            "answer": "untidy"
+          },
+          {
+            "id": "q6",
+            "question": "If your computer 'crashed', it means...",
+            "options": [
+              "it stopped working suddenly",
+              "it became very fast",
+              "it was cleaned",
+              "it was sold"
+            ],
+            "answer": "it stopped working suddenly"
+          }
+        ]
+      },
+      {
+        "id": "u36-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "If something is \"broken\", it is working perfectly.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "\"Mend\" and \"repair\" have a similar meaning.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "An \"untidy\" room is very clean and organised.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "If you \"apologise\", you say sorry.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Too much work\" means you don't have enough work to do.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "If you are \"in a bad mood\", you feel unhappy or irritated.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u36-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "KOBNER",
+            "answer": "BROKEN"
+          },
+          {
+            "id": "q2",
+            "scrambled": "DYNIUT",
+            "answer": "UNTIDY"
+          },
+          {
+            "id": "q3",
+            "scrambled": "RRPAEI",
+            "answer": "REPAIR"
+          },
+          {
+            "id": "q4",
+            "scrambled": "PEMOLBR",
+            "answer": "PROBLEM"
+          },
+          {
+            "id": "q5",
+            "scrambled": "ISOAOGELP",
+            "answer": "APOLOGISE"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ELASPTR",
+            "answer": "PLASTER"
+          }
+        ]
+      }
+    ]
+  },
+  37: {
+    "unit": {
+      "id": "unit-37-global-problems",
+      "title": "Unit 37: Global problems",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u37-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "hurricane",
+            "right": "bão lớn, bão nhiệt đới"
+          },
+          {
+            "left": "earthquake",
+            "right": "động đất"
+          },
+          {
+            "left": "flood",
+            "right": "lũ lụt"
+          },
+          {
+            "left": "forest fire",
+            "right": "cháy rừng"
+          },
+          {
+            "left": "snowstorm",
+            "right": "bão tuyết"
+          },
+          {
+            "left": "pollution",
+            "right": "sự ô nhiễm"
+          },
+          {
+            "left": "homeless",
+            "right": "vô gia cư"
+          },
+          {
+            "left": "unemployed",
+            "right": "thất nghiệp"
+          },
+          {
+            "left": "on strike",
+            "right": "đang đình công"
+          },
+          {
+            "left": "traffic jam",
+            "right": "tắc đường"
+          }
+        ]
+      },
+      {
+        "id": "u37-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "earthquake",
+          "flood",
+          "polluted",
+          "hungry",
+          "poor",
+          "war",
+          "crowded",
+          "rush hour"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "An ______ can destroy buildings in seconds.",
+            "hint_vi": "động đất",
+            "answer": "earthquake"
+          },
+          {
+            "id": "q2",
+            "sentence": "Heavy rain caused a ______ in the village.",
+            "hint_vi": "lũ lụt",
+            "answer": "flood"
+          },
+          {
+            "id": "q3",
+            "sentence": "The river is badly ______; you cannot swim there.",
+            "hint_vi": "bị ô nhiễm",
+            "answer": "polluted"
+          },
+          {
+            "id": "q4",
+            "sentence": "Many children go to bed ______ every night.",
+            "hint_vi": "đói",
+            "answer": "hungry"
+          },
+          {
+            "id": "q5",
+            "sentence": "Some ______ families cannot afford enough food.",
+            "hint_vi": "nghèo",
+            "answer": "poor"
+          },
+          {
+            "id": "q6",
+            "sentence": "Millions of people died in the Second World ______.",
+            "hint_vi": "chiến tranh",
+            "answer": "war"
+          },
+          {
+            "id": "q7",
+            "sentence": "Big cities are often very ______.",
+            "hint_vi": "đông đúc",
+            "answer": "crowded"
+          },
+          {
+            "id": "q8",
+            "sentence": "The roads are always busy during the ______.",
+            "hint_vi": "giờ cao điểm",
+            "answer": "rush hour"
+          }
+        ]
+      },
+      {
+        "id": "u37-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which of these is a natural disaster?",
+            "options": [
+              "an earthquake",
+              "a traffic jam",
+              "a strike",
+              "unemployment"
+            ],
+            "answer": "an earthquake"
+          },
+          {
+            "id": "q2",
+            "question": "Which of these is a man-made problem?",
+            "options": [
+              "pollution",
+              "a hurricane",
+              "an earthquake",
+              "a flood"
+            ],
+            "answer": "pollution"
+          },
+          {
+            "id": "q3",
+            "question": "If someone is 'unemployed', it means...",
+            "options": [
+              "they don't have a job",
+              "they have a lot of money",
+              "they are on holiday",
+              "they are very busy"
+            ],
+            "answer": "they don't have a job"
+          },
+          {
+            "id": "q4",
+            "question": "When workers refuse to work because they want more money, they are...",
+            "options": [
+              "on strike",
+              "on holiday",
+              "unemployed",
+              "homeless"
+            ],
+            "answer": "on strike"
+          },
+          {
+            "id": "q5",
+            "question": "Which word describes air, water or land that is dirty and dangerous?",
+            "options": [
+              "polluted",
+              "crowded",
+              "flooded",
+              "homeless"
+            ],
+            "answer": "polluted"
+          },
+          {
+            "id": "q6",
+            "question": "A 'forest fire' happens when...",
+            "options": [
+              "a lot of trees burn",
+              "there is too much snow",
+              "cars crash on the road",
+              "the sea rises"
+            ],
+            "answer": "a lot of trees burn"
+          }
+        ]
+      },
+      {
+        "id": "u37-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "A hurricane is a kind of very strong wind.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Homeless\" people have a comfortable place to live.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "An earthquake is an example of a man-made problem.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Rush hour\" is the quietest time on the roads.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "Pollution can affect air, water, and land.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "A traffic jam means cars can move freely and quickly.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u37-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "RHCAEUIRN",
+            "answer": "HURRICANE"
+          },
+          {
+            "id": "q2",
+            "scrambled": "OOFLD",
+            "answer": "FLOOD"
+          },
+          {
+            "id": "q3",
+            "scrambled": "TUOPLILNO",
+            "answer": "POLLUTION"
+          },
+          {
+            "id": "q4",
+            "scrambled": "OSMELEHS",
+            "answer": "HOMELESS"
+          },
+          {
+            "id": "q5",
+            "scrambled": "CDDREOW",
+            "answer": "CROWDED"
+          },
+          {
+            "id": "q6",
+            "scrambled": "AEQKRTEUHA",
+            "answer": "EARTHQUAKE"
+          }
+        ]
+      }
+    ]
+  },
+  38: {
+    "unit": {
+      "id": "unit-38-have-had-had",
+      "title": "Unit 38: Have / had / had",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u38-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "have a shower",
+            "right": "tắm vòi sen"
+          },
+          {
+            "left": "have a look",
+            "right": "xem, nhìn qua"
+          },
+          {
+            "left": "have a go",
+            "right": "thử làm gì"
+          },
+          {
+            "left": "have a word with",
+            "right": "nói chuyện riêng với ai"
+          },
+          {
+            "left": "have a good time",
+            "right": "có khoảng thời gian vui vẻ"
+          },
+          {
+            "left": "have got to",
+            "right": "phải"
+          },
+          {
+            "left": "have my hair cut",
+            "right": "đi cắt tóc"
+          },
+          {
+            "left": "have a meeting",
+            "right": "có/tổ chức một cuộc họp"
+          },
+          {
+            "left": "have a row with",
+            "right": "cãi nhau với ai"
+          },
+          {
+            "left": "don't have the time",
+            "right": "không có thời gian"
+          }
+        ]
+      },
+      {
+        "id": "u38-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "breakfast",
+          "shower",
+          "exam",
+          "meeting",
+          "look",
+          "go",
+          "word",
+          "party"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I have ______ at 7 every morning.",
+            "hint_vi": "ăn sáng",
+            "answer": "breakfast"
+          },
+          {
+            "id": "q2",
+            "sentence": "I have a ______ every morning before school.",
+            "hint_vi": "tắm vòi sen",
+            "answer": "shower"
+          },
+          {
+            "id": "q3",
+            "sentence": "I have an ______ tomorrow, so I need to study.",
+            "hint_vi": "kỳ thi",
+            "answer": "exam"
+          },
+          {
+            "id": "q4",
+            "sentence": "We must have a ______ to talk about the project.",
+            "hint_vi": "cuộc họp",
+            "answer": "meeting"
+          },
+          {
+            "id": "q5",
+            "sentence": "Can I have a ______ at your photos?",
+            "hint_vi": "xem qua",
+            "answer": "look"
+          },
+          {
+            "id": "q6",
+            "sentence": "Can I have a ______ on your bike?",
+            "hint_vi": "thử",
+            "answer": "go"
+          },
+          {
+            "id": "q7",
+            "sentence": "I need to have a ______ with you about the plan.",
+            "hint_vi": "nói chuyện riêng",
+            "answer": "word"
+          },
+          {
+            "id": "q8",
+            "sentence": "We're having a ______ on Saturday evening.",
+            "hint_vi": "bữa tiệc",
+            "answer": "party"
+          }
+        ]
+      },
+      {
+        "id": "u38-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which expression means 'to try something'?",
+            "options": [
+              "have a go",
+              "have a row",
+              "have a word",
+              "have a look"
+            ],
+            "answer": "have a go"
+          },
+          {
+            "id": "q2",
+            "question": "If you 'have a row with' someone, you...",
+            "options": [
+              "argue with them",
+              "help them",
+              "dance with them",
+              "teach them"
+            ],
+            "answer": "argue with them"
+          },
+          {
+            "id": "q3",
+            "question": "Which phrase do you say to someone leaving on a trip?",
+            "options": [
+              "Have a good journey!",
+              "Have a look!",
+              "Have a go!",
+              "Have a word!"
+            ],
+            "answer": "Have a good journey!"
+          },
+          {
+            "id": "q4",
+            "question": "'I've got to go now' means...",
+            "options": [
+              "I must go now",
+              "I want to go now",
+              "I like going now",
+              "I never go"
+            ],
+            "answer": "I must go now"
+          },
+          {
+            "id": "q5",
+            "question": "Which is correct?",
+            "options": [
+              "have a bath",
+              "have a baths",
+              "having bath",
+              "haves a bath"
+            ],
+            "answer": "have a bath"
+          },
+          {
+            "id": "q6",
+            "question": "'Have my hair cut' means...",
+            "options": [
+              "go to the hairdresser to cut your hair",
+              "cut your hair yourself",
+              "wash your hair",
+              "dye your hair"
+            ],
+            "answer": "go to the hairdresser to cut your hair"
+          }
+        ]
+      },
+      {
+        "id": "u38-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Have a swim\" means to go swimming.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Have a word with someone\" means to write them a long letter.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Have to\" expresses obligation (something you must do).",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Have a good time\" is something you say when you are angry.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Have a meeting\" and \"have a lesson\" both use the verb 'have'.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Don't have the time\" means you have plenty of free time.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u38-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "RWHSEO",
+            "answer": "SHOWER"
+          },
+          {
+            "id": "q2",
+            "scrambled": "GNTEEIM",
+            "answer": "MEETING"
+          },
+          {
+            "id": "q3",
+            "scrambled": "BEFSAATRK",
+            "answer": "BREAKFAST"
+          },
+          {
+            "id": "q4",
+            "scrambled": "UROJENY",
+            "answer": "JOURNEY"
+          },
+          {
+            "id": "q5",
+            "scrambled": "AXEM",
+            "answer": "EXAM"
+          },
+          {
+            "id": "q6",
+            "scrambled": "KWHMOREO",
+            "answer": "HOMEWORK"
+          }
+        ]
+      }
+    ]
+  },
+  39: {
+    "unit": {
+      "id": "unit-39-go-went-gone",
+      "title": "Unit 39: Go / went / gone",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u39-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "go shopping",
+            "right": "đi mua sắm"
+          },
+          {
+            "left": "go swimming",
+            "right": "đi bơi"
+          },
+          {
+            "left": "go dancing",
+            "right": "đi khiêu vũ"
+          },
+          {
+            "left": "go sightseeing",
+            "right": "đi tham quan"
+          },
+          {
+            "left": "go skiing",
+            "right": "đi trượt tuyết"
+          },
+          {
+            "left": "go fishing",
+            "right": "đi câu cá"
+          },
+          {
+            "left": "go up",
+            "right": "đi lên"
+          },
+          {
+            "left": "go down",
+            "right": "đi xuống"
+          },
+          {
+            "left": "go out of",
+            "right": "đi ra khỏi"
+          },
+          {
+            "left": "be going to",
+            "right": "sẽ, dự định sẽ"
+          }
+        ]
+      },
+      {
+        "id": "u39-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "shopping",
+          "swimming",
+          "fishing",
+          "up",
+          "down",
+          "into",
+          "out of",
+          "by"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "We go ______ every Saturday morning at the market.",
+            "hint_vi": "mua sắm",
+            "answer": "shopping"
+          },
+          {
+            "id": "q2",
+            "sentence": "I go ______ in the pool every week.",
+            "hint_vi": "bơi",
+            "answer": "swimming"
+          },
+          {
+            "id": "q3",
+            "sentence": "My father likes to go ______ at the lake.",
+            "hint_vi": "câu cá",
+            "answer": "fishing"
+          },
+          {
+            "id": "q4",
+            "sentence": "We went ______ the stairs to the third floor.",
+            "hint_vi": "đi lên",
+            "answer": "up"
+          },
+          {
+            "id": "q5",
+            "sentence": "They went ______ the hill to the village.",
+            "hint_vi": "đi xuống",
+            "answer": "down"
+          },
+          {
+            "id": "q6",
+            "sentence": "Please go ______ the room and sit down.",
+            "hint_vi": "đi vào",
+            "answer": "into"
+          },
+          {
+            "id": "q7",
+            "sentence": "She went ______ the house quickly.",
+            "hint_vi": "đi ra khỏi",
+            "answer": "out of"
+          },
+          {
+            "id": "q8",
+            "sentence": "I go to school ______ bus every day.",
+            "hint_vi": "bằng",
+            "answer": "by"
+          }
+        ]
+      },
+      {
+        "id": "u39-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which is correct?",
+            "options": [
+              "go home",
+              "go to home",
+              "go at home",
+              "go for home"
+            ],
+            "answer": "go home"
+          },
+          {
+            "id": "q2",
+            "question": "Which is correct?",
+            "options": [
+              "go shopping",
+              "go to shopping",
+              "go for shopping",
+              "go at shopping"
+            ],
+            "answer": "go shopping"
+          },
+          {
+            "id": "q3",
+            "question": "Which sentence uses 'be going to' correctly for future plans?",
+            "options": [
+              "I am going to study tonight.",
+              "I am go to study tonight.",
+              "I going to study tonight.",
+              "I am going study tonight."
+            ],
+            "answer": "I am going to study tonight."
+          },
+          {
+            "id": "q4",
+            "question": "Which is correct?",
+            "options": [
+              "Did you go there last year?",
+              "Did you go to there last year?",
+              "Did you went there last year?",
+              "Did you go to there yesterday last year?"
+            ],
+            "answer": "Did you go there last year?"
+          },
+          {
+            "id": "q5",
+            "question": "Which is correct?",
+            "options": [
+              "Where does this bus go?",
+              "Where does this bus go to?",
+              "Where this bus goes?",
+              "Where go this bus?"
+            ],
+            "answer": "Where does this bus go?"
+          },
+          {
+            "id": "q6",
+            "question": "Which is correct?",
+            "options": [
+              "go sightseeing",
+              "go to sightsee",
+              "go sightsee",
+              "go for sightseeing"
+            ],
+            "answer": "go sightseeing"
+          }
+        ]
+      },
+      {
+        "id": "u39-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Go home\" does NOT need the word 'to' before 'home'.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Go swimming\" and \"go fishing\" both use the -ing form after 'go'.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Go to there\" is correct English.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Be going to\" is used to talk about future plans.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "The past simple of \"go\" is \"goed\".",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Go somewhere\" does not need the word 'to' before it.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u39-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "NSHPIPOG",
+            "answer": "SHOPPING"
+          },
+          {
+            "id": "q2",
+            "scrambled": "GNFSIHI",
+            "answer": "FISHING"
+          },
+          {
+            "id": "q3",
+            "scrambled": "NINADGC",
+            "answer": "DANCING"
+          },
+          {
+            "id": "q4",
+            "scrambled": "NIKSIG",
+            "answer": "SKIING"
+          },
+          {
+            "id": "q5",
+            "scrambled": "WGNISMIM",
+            "answer": "SWIMMING"
+          },
+          {
+            "id": "q6",
+            "scrambled": "NIHGTEEGSIS",
+            "answer": "SIGHTSEEING"
+          }
+        ]
+      }
+    ]
+  },
+  40: {
+    "unit": {
+      "id": "unit-40-do-did-done",
+      "title": "Unit 40: Do / did / done",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u40-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "do the gardening",
+            "right": "làm vườn"
+          },
+          {
+            "left": "do the washing",
+            "right": "giặt quần áo"
+          },
+          {
+            "left": "do the washing-up",
+            "right": "rửa bát"
+          },
+          {
+            "left": "do your homework",
+            "right": "làm bài tập về nhà"
+          },
+          {
+            "left": "do some exercises",
+            "right": "làm một số bài tập"
+          },
+          {
+            "left": "do business with",
+            "right": "làm ăn/giao dịch với"
+          },
+          {
+            "left": "do your best",
+            "right": "cố gắng hết sức"
+          },
+          {
+            "left": "do nothing",
+            "right": "không làm gì cả"
+          },
+          {
+            "left": "What do you do?",
+            "right": "Bạn làm nghề gì?"
+          },
+          {
+            "left": "What are ... doing?",
+            "right": "... đang làm gì?"
+          }
+        ]
+      },
+      {
+        "id": "u40-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "gardening",
+          "washing-up",
+          "homework",
+          "exercises",
+          "best",
+          "nothing",
+          "business",
+          "that"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My father does the ______ every weekend.",
+            "hint_vi": "làm vườn",
+            "answer": "gardening"
+          },
+          {
+            "id": "q2",
+            "sentence": "We do the ______ after every meal.",
+            "hint_vi": "rửa bát",
+            "answer": "washing-up"
+          },
+          {
+            "id": "q3",
+            "sentence": "I do my ______ after school every day.",
+            "hint_vi": "bài tập về nhà",
+            "answer": "homework"
+          },
+          {
+            "id": "q4",
+            "sentence": "I do some ______ every morning to stay healthy.",
+            "hint_vi": "bài tập thể dục",
+            "answer": "exercises"
+          },
+          {
+            "id": "q5",
+            "sentence": "Please do your ______ in the exam.",
+            "hint_vi": "cố gắng hết sức",
+            "answer": "best"
+          },
+          {
+            "id": "q6",
+            "sentence": "On Sundays I like to do ______ and just relax.",
+            "hint_vi": "không làm gì",
+            "answer": "nothing"
+          },
+          {
+            "id": "q7",
+            "sentence": "Our company does a lot of ______ with Japan.",
+            "hint_vi": "giao dịch",
+            "answer": "business"
+          },
+          {
+            "id": "q8",
+            "sentence": "Don't do ______! It's dangerous.",
+            "hint_vi": "điều đó",
+            "answer": "that"
+          }
+        ]
+      },
+      {
+        "id": "u40-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which question asks about someone's job?",
+            "options": [
+              "What do you do?",
+              "What are you doing?",
+              "What did you do?",
+              "What do you have?"
+            ],
+            "answer": "What do you do?"
+          },
+          {
+            "id": "q2",
+            "question": "Which question asks about an action happening right now?",
+            "options": [
+              "What are you doing?",
+              "What do you do?",
+              "What do you doing?",
+              "What you doing?"
+            ],
+            "answer": "What are you doing?"
+          },
+          {
+            "id": "q3",
+            "question": "'Do the washing' means...",
+            "options": [
+              "wash the clothes",
+              "wash the dishes",
+              "clean the floor",
+              "wash your hair"
+            ],
+            "answer": "wash the clothes"
+          },
+          {
+            "id": "q4",
+            "question": "'Do the washing-up' means...",
+            "options": [
+              "wash the dishes",
+              "wash the clothes",
+              "wash the car",
+              "wash your hands"
+            ],
+            "answer": "wash the dishes"
+          },
+          {
+            "id": "q5",
+            "question": "Which is correct for talking about your job?",
+            "options": [
+              "I'm a teacher.",
+              "I do a teacher.",
+              "I do teacher.",
+              "I make a teacher."
+            ],
+            "answer": "I'm a teacher."
+          },
+          {
+            "id": "q6",
+            "question": "'Do business with' means...",
+            "options": [
+              "have trade/commercial dealings with",
+              "become friends with",
+              "travel with",
+              "study with"
+            ],
+            "answer": "have trade/commercial dealings with"
+          }
+        ]
+      },
+      {
+        "id": "u40-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Do the gardening\" means taking care of a garden.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Do the washing-up\" means to clean the car.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"What do you do?\" is a common way to ask about someone's job.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Do nothing\" means to be very busy.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "The past tense of \"do\" is \"did\".",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Do your best\" means to try as hard as you can.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u40-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "GNEDGINRA",
+            "answer": "GARDENING"
+          },
+          {
+            "id": "q2",
+            "scrambled": "OHEMOKWR",
+            "answer": "HOMEWORK"
+          },
+          {
+            "id": "q3",
+            "scrambled": "SUIBSENS",
+            "answer": "BUSINESS"
+          },
+          {
+            "id": "q4",
+            "scrambled": "CXSRIEEES",
+            "answer": "EXERCISES"
+          },
+          {
+            "id": "q5",
+            "scrambled": "TNHONIG",
+            "answer": "NOTHING"
+          },
+          {
+            "id": "q6",
+            "scrambled": "NIWAHGS",
+            "answer": "WASHING"
+          }
+        ]
+      }
+    ]
   }
 };

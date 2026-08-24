@@ -1578,15 +1578,19 @@
 
     const qWrap = document.createElement("div");
     ex.questions.forEach(function(q){
+      const isExample = q.example === true;
       const qEl = document.createElement("div");
       qEl.className = "exq";
+      qEl.dataset.example = isExample ? "1" : "0";
       const chipsHtml = '<div class="exq-scramble-tiles">' +
         ex.word_bank.map(function(w){
-          return '<button type="button" class="exq-option exq-chip" data-word="' + w + '">' + w + '</button>';
+          const isAnsChip = isExample && q.correct_answers.indexOf(w) !== -1;
+          return '<button type="button" class="exq-option exq-chip' + (isAnsChip ? " correct-answer" : "") + '" data-word="' + w + '"' + (isExample ? " disabled" : "") + '>' + w + '</button>';
         }).join("") +
         '</div>';
       qEl.innerHTML =
-        '<div class="exq-text">' + q.prompt + '</div>' +
+        '<div class="exq-text">' + q.prompt +
+        (isExample ? '<span class="exq-example-badge">VÍ DỤ</span>' : "") + '</div>' +
         chipsHtml +
         '<div class="exq-feedback" style="display:none;"></div>';
       qWrap.appendChild(qEl);
@@ -1594,6 +1598,7 @@
     body.appendChild(qWrap);
 
     qWrap.querySelectorAll(".exq").forEach(function(qEl){
+      if(qEl.dataset.example === "1") return;
       qEl.querySelectorAll(".exq-chip").forEach(function(btn){
         btn.addEventListener("click", function(){
           btn.classList.toggle("selected");
@@ -1606,6 +1611,7 @@
       let qi = -1;
       qWrap.querySelectorAll(".exq").forEach(function(qEl){
         qi++;
+        if(qEl.dataset.example === "1") return;
         total++;
         const q = ex.questions[qi];
         const minReq = q.min_required || 3;

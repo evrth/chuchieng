@@ -8612,27 +8612,824 @@ const VOCAB_UNITS = [
   {
     "id": 36,
     "title": "Problems at home and work",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "problem",
+        "ipa": "/ˈprɑːbləm/",
+        "meaning": "vấn đề, sự cố",
+        "example": "I have a problem with my computer.",
+        "exampleVi": "Tôi có vấn đề với máy tính."
+      },
+      {
+        "type": "Adjective",
+        "word": "working",
+        "ipa": "/ˈwɜːrkɪŋ/",
+        "meaning": "đang hoạt động, hoạt động bình thường",
+        "example": "The TV isn't working.",
+        "exampleVi": "TV không hoạt động."
+      },
+      {
+        "type": "Verb",
+        "word": "repair",
+        "ipa": "/rɪˈper/",
+        "meaning": "sửa chữa",
+        "example": "Can you repair my bike?",
+        "exampleVi": "Bạn có thể sửa xe đạp của tôi không?"
+      },
+      {
+        "type": "Verb",
+        "word": "dying",
+        "ipa": "/ˈdaɪɪŋ/",
+        "meaning": "sắp hỏng; sắp hết",
+        "example": "My phone battery is dying.",
+        "exampleVi": "Pin điện thoại của tôi sắp hết."
+      },
+      {
+        "type": "Noun",
+        "word": "water",
+        "ipa": "/ˈwɔːtər/",
+        "meaning": "nước",
+        "example": "There is no water in the kitchen.",
+        "exampleVi": "Không có nước trong bếp."
+      },
+      {
+        "type": "Adjective",
+        "word": "broken",
+        "ipa": "/ˈbroʊkən/",
+        "meaning": "bị hỏng, bị vỡ",
+        "example": "The window is broken.",
+        "exampleVi": "Cửa sổ bị vỡ."
+      },
+      {
+        "type": "Verb",
+        "word": "mend",
+        "ipa": "/mend/",
+        "meaning": "sửa chữa, vá",
+        "example": "Can you mend my shirt?",
+        "exampleVi": "Bạn có thể sửa áo cho tôi không?"
+      },
+      {
+        "type": "Adjective",
+        "word": "untidy",
+        "ipa": "/ʌnˈtaɪdi/",
+        "meaning": "bừa bộn, không gọn gàng",
+        "example": "Your room is very untidy.",
+        "exampleVi": "Phòng của bạn rất bừa bộn."
+      },
+      {
+        "type": "Adjective",
+        "word": "tidy",
+        "ipa": "/ˈtaɪdi/",
+        "meaning": "gọn gàng, ngăn nắp",
+        "example": "Please keep your room tidy.",
+        "exampleVi": "Hãy giữ phòng của bạn gọn gàng."
+      },
+      {
+        "type": "Adjective",
+        "word": "lost",
+        "ipa": "/lɔːst/",
+        "meaning": "bị mất; bị lạc",
+        "example": "I've lost my keys.",
+        "exampleVi": "Tôi đã làm mất chìa khóa."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "look for",
+        "ipa": "/lʊk fɔːr/",
+        "meaning": "tìm kiếm",
+        "example": "I'm looking for my phone.",
+        "exampleVi": "Tôi đang tìm điện thoại."
+      },
+      {
+        "type": "Verb",
+        "word": "cut",
+        "ipa": "/kʌt/",
+        "meaning": "cắt; làm bị thương/cắt vào",
+        "example": "I cut my finger.",
+        "exampleVi": "Tôi bị đứt tay."
+      },
+      {
+        "type": "Phrase",
+        "word": "put on a plaster",
+        "ipa": "/pʊt ɑːn ə ˈplæstər/",
+        "meaning": "dán băng cá nhân",
+        "example": "I put a plaster on my finger.",
+        "exampleVi": "Tôi dán băng cá nhân lên ngón tay."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a row with",
+        "ipa": "/hæv ə raʊ wɪð/",
+        "meaning": "cãi nhau với ai",
+        "example": "I had a row with my brother.",
+        "exampleVi": "Tôi đã cãi nhau với anh trai."
+      },
+      {
+        "type": "Verb",
+        "word": "apologise",
+        "ipa": "/əˈpɑːlədʒaɪz/",
+        "meaning": "xin lỗi",
+        "example": "I apologised to my friend.",
+        "exampleVi": "Tôi đã xin lỗi bạn mình."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a bad day",
+        "ipa": "/hæv ə bæd deɪ/",
+        "meaning": "có một ngày tồi tệ",
+        "example": "I had a bad day at work.",
+        "exampleVi": "Tôi đã có một ngày tồi tệ ở chỗ làm."
+      },
+      {
+        "type": "Phrase",
+        "word": "be late for",
+        "ipa": "/biː leɪt fɔːr/",
+        "meaning": "đến muộn",
+        "example": "I was late for work.",
+        "exampleVi": "Tôi đã đi làm muộn."
+      },
+      {
+        "type": "Phrase",
+        "word": "too much work",
+        "ipa": "/tuː mʌtʃ wɜːrk/",
+        "meaning": "quá nhiều việc",
+        "example": "I have too much work today.",
+        "exampleVi": "Hôm nay tôi có quá nhiều việc."
+      },
+      {
+        "type": "Phrase",
+        "word": "in a bad mood",
+        "ipa": "/ɪn ə bæd muːd/",
+        "meaning": "tâm trạng không tốt",
+        "example": "He's in a bad mood today.",
+        "exampleVi": "Hôm nay anh ấy có tâm trạng không tốt."
+      },
+      {
+        "type": "Phrase",
+        "word": "computer crashed",
+        "ipa": "/kəmˈpjuːtər kræʃt/",
+        "meaning": "máy tính bị treo/hỏng đột ngột",
+        "example": "My computer crashed yesterday.",
+        "exampleVi": "Máy tính của tôi bị treo hôm qua."
+      },
+      {
+        "type": "Phrase",
+        "word": "out of order",
+        "ipa": "/aʊt əv ˈɔːrdər/",
+        "meaning": "bị hỏng, không hoạt động",
+        "example": "The lift is out of order.",
+        "exampleVi": "Thang máy bị hỏng."
+      }
+    ]
   },
   {
     "id": 37,
     "title": "Global problems",
-    "words": []
+    "words": [
+      {
+        "type": "Adjective",
+        "word": "global",
+        "ipa": "/ˈɡloʊbəl/",
+        "meaning": "toàn cầu",
+        "example": "Climate change is a global problem.",
+        "exampleVi": "Biến đổi khí hậu là một vấn đề toàn cầu."
+      },
+      {
+        "type": "Noun",
+        "word": "natural disaster",
+        "ipa": "/ˌnætʃərəl dɪˈzæstər/",
+        "meaning": "thảm họa thiên nhiên",
+        "example": "An earthquake is a natural disaster.",
+        "exampleVi": "Động đất là một thảm họa thiên nhiên."
+      },
+      {
+        "type": "Noun",
+        "word": "hurricane",
+        "ipa": "/ˈhɜːrəkeɪn/",
+        "meaning": "bão lớn, bão nhiệt đới",
+        "example": "The hurricane damaged many houses.",
+        "exampleVi": "Cơn bão đã làm hư hại nhiều ngôi nhà."
+      },
+      {
+        "type": "Noun",
+        "word": "snowstorm",
+        "ipa": "/ˈsnoʊstɔːrm/",
+        "meaning": "bão tuyết",
+        "example": "The snowstorm stopped the trains.",
+        "exampleVi": "Bão tuyết khiến các chuyến tàu phải dừng lại."
+      },
+      {
+        "type": "Noun",
+        "word": "forest fire",
+        "ipa": "/ˈfɔːrɪst faɪər/",
+        "meaning": "cháy rừng",
+        "example": "The forest fire destroyed many trees.",
+        "exampleVi": "Vụ cháy rừng đã phá hủy nhiều cây cối."
+      },
+      {
+        "type": "Noun",
+        "word": "earthquake",
+        "ipa": "/ˈɜːrθkweɪk/",
+        "meaning": "động đất",
+        "example": "The earthquake damaged the buildings.",
+        "exampleVi": "Trận động đất làm hư hại các tòa nhà."
+      },
+      {
+        "type": "Noun",
+        "word": "flood",
+        "ipa": "/flʌd/",
+        "meaning": "lũ lụt",
+        "example": "The heavy rain caused a flood.",
+        "exampleVi": "Mưa lớn gây ra lũ lụt."
+      },
+      {
+        "type": "Noun",
+        "word": "man-made problem",
+        "ipa": "/ˌmæn ˈmeɪd ˈprɑːbləm/",
+        "meaning": "vấn đề do con người gây ra",
+        "example": "Pollution is a man-made problem.",
+        "exampleVi": "Ô nhiễm là một vấn đề do con người gây ra."
+      },
+      {
+        "type": "Adjective",
+        "word": "crowded",
+        "ipa": "/ˈkraʊdɪd/",
+        "meaning": "đông đúc, chật chội",
+        "example": "The city is very crowded.",
+        "exampleVi": "Thành phố rất đông đúc."
+      },
+      {
+        "type": "Adjective",
+        "word": "poor",
+        "ipa": "/pʊr/",
+        "meaning": "nghèo",
+        "example": "Many poor people need help.",
+        "exampleVi": "Nhiều người nghèo cần sự giúp đỡ."
+      },
+      {
+        "type": "Adjective",
+        "word": "hungry",
+        "ipa": "/ˈhʌŋɡri/",
+        "meaning": "đói",
+        "example": "Some children are hungry.",
+        "exampleVi": "Một số trẻ em bị đói."
+      },
+      {
+        "type": "Adjective",
+        "word": "homeless",
+        "ipa": "/ˈhoʊmləs/",
+        "meaning": "vô gia cư",
+        "example": "Many homeless people live on the streets.",
+        "exampleVi": "Nhiều người vô gia cư sống trên đường phố."
+      },
+      {
+        "type": "Adjective",
+        "word": "unemployed",
+        "ipa": "/ˌʌnɪmˈplɔɪd/",
+        "meaning": "thất nghiệp",
+        "example": "He has been unemployed for six months.",
+        "exampleVi": "Anh ấy đã thất nghiệp được sáu tháng."
+      },
+      {
+        "type": "Noun",
+        "word": "pollution",
+        "ipa": "/pəˈluːʃən/",
+        "meaning": "sự ô nhiễm",
+        "example": "Pollution is a big problem.",
+        "exampleVi": "Ô nhiễm là một vấn đề lớn."
+      },
+      {
+        "type": "Adjective",
+        "word": "polluted",
+        "ipa": "/pəˈluːtɪd/",
+        "meaning": "bị ô nhiễm",
+        "example": "The river is badly polluted.",
+        "exampleVi": "Con sông bị ô nhiễm nghiêm trọng."
+      },
+      {
+        "type": "Noun",
+        "word": "air pollution",
+        "ipa": "/ˈer pəˌluːʃən/",
+        "meaning": "ô nhiễm không khí",
+        "example": "Air pollution is worse in big cities.",
+        "exampleVi": "Ô nhiễm không khí nghiêm trọng hơn ở các thành phố lớn."
+      },
+      {
+        "type": "Noun",
+        "word": "war",
+        "ipa": "/wɔːr/",
+        "meaning": "chiến tranh",
+        "example": "Many people lost their homes during the war.",
+        "exampleVi": "Nhiều người mất nhà trong chiến tranh."
+      },
+      {
+        "type": "Phrase",
+        "word": "on strike",
+        "ipa": "/ɑːn straɪk/",
+        "meaning": "đang đình công",
+        "example": "The workers are on strike.",
+        "exampleVi": "Những người công nhân đang đình công."
+      },
+      {
+        "type": "Noun",
+        "word": "car crash",
+        "ipa": "/ˈkɑːr kræʃ/",
+        "meaning": "vụ tai nạn ô tô",
+        "example": "There was a car crash this morning.",
+        "exampleVi": "Có một vụ tai nạn ô tô sáng nay."
+      },
+      {
+        "type": "Noun",
+        "word": "traffic jam",
+        "ipa": "/ˈtræfɪk dʒæm/",
+        "meaning": "tắc đường",
+        "example": "There is a traffic jam on the main road.",
+        "exampleVi": "Có một vụ tắc đường trên con đường chính."
+      },
+      {
+        "type": "Noun",
+        "word": "rush hour",
+        "ipa": "/ˈrʌʃ aʊər/",
+        "meaning": "giờ cao điểm",
+        "example": "The roads are busy during rush hour.",
+        "exampleVi": "Đường phố đông đúc vào giờ cao điểm."
+      }
+    ]
   },
   {
     "id": 38,
     "title": "Have / had / had",
-    "words": []
+    "words": [
+      {
+        "type": "Phrase",
+        "word": "have breakfast",
+        "ipa": "/hæv ˈbrekfəst/",
+        "meaning": "ăn sáng",
+        "example": "I have breakfast every morning.",
+        "exampleVi": "Tôi ăn sáng mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "have lunch",
+        "ipa": "/hæv lʌntʃ/",
+        "meaning": "ăn trưa",
+        "example": "We have lunch at noon.",
+        "exampleVi": "Chúng tôi ăn trưa vào buổi trưa."
+      },
+      {
+        "type": "Phrase",
+        "word": "have dinner",
+        "ipa": "/hæv ˈdɪnər/",
+        "meaning": "ăn tối",
+        "example": "They have dinner at six.",
+        "exampleVi": "Họ ăn tối lúc sáu giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a meal",
+        "ipa": "/hæv ə miːl/",
+        "meaning": "ăn một bữa",
+        "example": "We have a meal together.",
+        "exampleVi": "Chúng tôi ăn một bữa cùng nhau."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a party",
+        "ipa": "/hæv ə ˈpɑːrti/",
+        "meaning": "tổ chức một bữa tiệc",
+        "example": "We have a party on Saturday.",
+        "exampleVi": "Chúng tôi tổ chức một bữa tiệc vào thứ Bảy."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a meeting",
+        "ipa": "/hæv ə ˈmiːtɪŋ/",
+        "meaning": "có/tổ chức một cuộc họp",
+        "example": "I have a meeting at ten.",
+        "exampleVi": "Tôi có một cuộc họp lúc mười giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a game",
+        "ipa": "/hæv ə ɡeɪm/",
+        "meaning": "chơi một trận/ván",
+        "example": "Let's have a game of tennis.",
+        "exampleVi": "Hãy chơi một trận tennis."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a lesson",
+        "ipa": "/hæv ə ˈlesən/",
+        "meaning": "học một tiết/buổi học",
+        "example": "I have a lesson at nine.",
+        "exampleVi": "Tôi có một tiết học lúc chín giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "have an exam",
+        "ipa": "/hæv ən ɪɡˈzæm/",
+        "meaning": "có một kỳ thi/bài thi",
+        "example": "I have an exam tomorrow.",
+        "exampleVi": "Ngày mai tôi có một bài thi."
+      },
+      {
+        "type": "Phrase",
+        "word": "have homework",
+        "ipa": "/hæv ˈhoʊmwɜːrk/",
+        "meaning": "có bài tập về nhà",
+        "example": "I have homework tonight.",
+        "exampleVi": "Tối nay tôi có bài tập về nhà."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a cup of tea",
+        "ipa": "/hæv ə kʌp əv tiː/",
+        "meaning": "uống một tách trà",
+        "example": "I have a cup of tea every morning.",
+        "exampleVi": "Tôi uống một tách trà mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a cup of coffee",
+        "ipa": "/hæv ə kʌp əv ˈkɔːfi/",
+        "meaning": "uống một tách cà phê",
+        "example": "She has a cup of coffee at breakfast.",
+        "exampleVi": "Cô ấy uống một tách cà phê vào bữa sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a drink",
+        "ipa": "/hæv ə drɪŋk/",
+        "meaning": "uống một thứ gì đó",
+        "example": "Let's have a drink.",
+        "exampleVi": "Hãy uống gì đó nhé."
+      },
+      {
+        "type": "Phrase",
+        "word": "have an ice cream",
+        "ipa": "/hæv ən ˈaɪs kriːm/",
+        "meaning": "ăn một cây/phần kem",
+        "example": "The children have an ice cream.",
+        "exampleVi": "Bọn trẻ ăn kem."
+      },
+      {
+        "type": "Phrase",
+        "word": "have some cheese",
+        "ipa": "/hæv sʌm tʃiːz/",
+        "meaning": "ăn một ít phô mai",
+        "example": "I have some cheese with bread.",
+        "exampleVi": "Tôi ăn một ít phô mai với bánh mì."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a shower",
+        "ipa": "/hæv ə ˈʃaʊər/",
+        "meaning": "tắm vòi sen",
+        "example": "I have a shower every morning.",
+        "exampleVi": "Tôi tắm vòi sen mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a bath",
+        "ipa": "/hæv ə bæθ/",
+        "meaning": "tắm bồn",
+        "example": "She has a bath before bed.",
+        "exampleVi": "Cô ấy tắm bồn trước khi đi ngủ."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a swim",
+        "ipa": "/hæv ə swɪm/",
+        "meaning": "đi bơi",
+        "example": "We have a swim every Sunday.",
+        "exampleVi": "Chúng tôi đi bơi mỗi Chủ nhật."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a look",
+        "ipa": "/hæv ə lʊk/",
+        "meaning": "xem, nhìn qua",
+        "example": "Have a look at this photo.",
+        "exampleVi": "Hãy xem bức ảnh này."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a go",
+        "ipa": "/hæv ə ɡoʊ/",
+        "meaning": "thử làm gì",
+        "example": "Have a go at this game.",
+        "exampleVi": "Hãy thử trò chơi này."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a good journey",
+        "ipa": "/hæv ə ɡʊd ˈdʒɜːrni/",
+        "meaning": "chúc chuyến đi tốt đẹp",
+        "example": "Have a good journey!",
+        "exampleVi": "Chúc bạn có một chuyến đi tốt đẹp!"
+      },
+      {
+        "type": "Phrase",
+        "word": "have a moment",
+        "ipa": "/hæv ə ˈmoʊmənt/",
+        "meaning": "có một chút thời gian",
+        "example": "Do you have a moment?",
+        "exampleVi": "Bạn có chút thời gian không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "have a word with",
+        "ipa": "/hæv ə wɜːrd wɪð/",
+        "meaning": "nói chuyện riêng với ai",
+        "example": "Can I have a word with you?",
+        "exampleVi": "Tôi có thể nói chuyện riêng với bạn một chút không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "have a good time",
+        "ipa": "/hæv ə ɡʊd taɪm/",
+        "meaning": "có khoảng thời gian vui vẻ",
+        "example": "We had a good time at the party.",
+        "exampleVi": "Chúng tôi đã có khoảng thời gian vui vẻ ở bữa tiệc."
+      },
+      {
+        "type": "Phrase",
+        "word": "have my hair cut",
+        "ipa": "/hæv maɪ her kʌt/",
+        "meaning": "đi cắt tóc",
+        "example": "I have my hair cut every month.",
+        "exampleVi": "Tôi đi cắt tóc mỗi tháng."
+      },
+      {
+        "type": "Phrase",
+        "word": "don't have the time",
+        "ipa": "/doʊnt hæv ðə taɪm/",
+        "meaning": "không có thời gian",
+        "example": "I don't have the time today.",
+        "exampleVi": "Hôm nay tôi không có thời gian."
+      },
+      {
+        "type": "Phrase",
+        "word": "have got",
+        "ipa": "/hæv ɡɑːt/",
+        "meaning": "có, sở hữu",
+        "example": "I have got a new phone.",
+        "exampleVi": "Tôi có một chiếc điện thoại mới."
+      },
+      {
+        "type": "Phrase",
+        "word": "have got to",
+        "ipa": "/hæv ɡɑːt tə/",
+        "meaning": "phải",
+        "example": "I have got to go now.",
+        "exampleVi": "Bây giờ tôi phải đi."
+      },
+      {
+        "type": "Phrase",
+        "word": "have to",
+        "ipa": "/hæv tə/",
+        "meaning": "phải, buộc phải",
+        "example": "I have to work today.",
+        "exampleVi": "Hôm nay tôi phải làm việc."
+      }
+    ]
   },
   {
     "id": 39,
     "title": "Go / went / gone",
-    "words": []
+    "words": [
+      {
+        "type": "Verb",
+        "word": "go",
+        "ipa": "/ɡoʊ/",
+        "meaning": "đi",
+        "example": "I go to school by bus.",
+        "exampleVi": "Tôi đi học bằng xe buýt."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "go by",
+        "ipa": "/ɡoʊ baɪ/",
+        "meaning": "đi bằng; đi ngang qua; trôi qua",
+        "example": "I go by bus every day.",
+        "exampleVi": "Tôi đi bằng xe buýt mỗi ngày."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "go in / go into",
+        "ipa": "/ɡoʊ ɪn/; /ɡoʊ ˈɪntuː/",
+        "meaning": "đi vào",
+        "example": "Please go into the room.",
+        "exampleVi": "Hãy đi vào phòng."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "go out of",
+        "ipa": "/ɡoʊ aʊt əv/",
+        "meaning": "đi ra khỏi",
+        "example": "He went out of the house.",
+        "exampleVi": "Anh ấy đi ra khỏi nhà."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "go up",
+        "ipa": "/ɡoʊ ʌp/",
+        "meaning": "đi lên",
+        "example": "We went up the stairs.",
+        "exampleVi": "Chúng tôi đi lên cầu thang."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "go down",
+        "ipa": "/ɡoʊ daʊn/",
+        "meaning": "đi xuống",
+        "example": "They went down the hill.",
+        "exampleVi": "Họ đi xuống ngọn đồi."
+      },
+      {
+        "type": "Phrase",
+        "word": "be going to",
+        "ipa": "/biː ˈɡoʊɪŋ tə/",
+        "meaning": "sẽ, dự định sẽ",
+        "example": "I am going to study tonight.",
+        "exampleVi": "Tối nay tôi sẽ học."
+      },
+      {
+        "type": "Phrase",
+        "word": "going to study",
+        "ipa": "/ˈɡoʊɪŋ tə ˈstʌdi/",
+        "meaning": "sẽ học, dự định học",
+        "example": "She is going to study English.",
+        "exampleVi": "Cô ấy sẽ học tiếng Anh."
+      },
+      {
+        "type": "Phrase",
+        "word": "going to visit",
+        "ipa": "/ˈɡoʊɪŋ tə ˈvɪzɪt/",
+        "meaning": "sẽ thăm, dự định thăm",
+        "example": "We are going to visit my grandmother.",
+        "exampleVi": "Chúng tôi sẽ thăm bà tôi."
+      },
+      {
+        "type": "Phrase",
+        "word": "going to learn",
+        "ipa": "/ˈɡoʊɪŋ tə lɜːrn/",
+        "meaning": "sẽ học, dự định học",
+        "example": "I am going to learn French.",
+        "exampleVi": "Tôi sẽ học tiếng Pháp."
+      },
+      {
+        "type": "Phrase",
+        "word": "go shopping",
+        "ipa": "/ɡoʊ ˈʃɑːpɪŋ/",
+        "meaning": "đi mua sắm",
+        "example": "We go shopping on Saturday.",
+        "exampleVi": "Chúng tôi đi mua sắm vào thứ Bảy."
+      },
+      {
+        "type": "Phrase",
+        "word": "go swimming",
+        "ipa": "/ɡoʊ ˈswɪmɪŋ/",
+        "meaning": "đi bơi",
+        "example": "I go swimming every week.",
+        "exampleVi": "Tôi đi bơi mỗi tuần."
+      },
+      {
+        "type": "Phrase",
+        "word": "go dancing",
+        "ipa": "/ɡoʊ ˈdænsɪŋ/",
+        "meaning": "đi khiêu vũ",
+        "example": "They go dancing on Friday nights.",
+        "exampleVi": "Họ đi khiêu vũ vào tối thứ Sáu."
+      },
+      {
+        "type": "Phrase",
+        "word": "go sightseeing",
+        "ipa": "/ɡoʊ ˈsaɪtˌsiːɪŋ/",
+        "meaning": "đi tham quan",
+        "example": "We are going sightseeing today.",
+        "exampleVi": "Hôm nay chúng tôi đi tham quan."
+      },
+      {
+        "type": "Phrase",
+        "word": "go skiing",
+        "ipa": "/ɡoʊ ˈskiːɪŋ/",
+        "meaning": "đi trượt tuyết",
+        "example": "They go skiing in winter.",
+        "exampleVi": "Họ đi trượt tuyết vào mùa đông."
+      },
+      {
+        "type": "Phrase",
+        "word": "go fishing",
+        "ipa": "/ɡoʊ ˈfɪʃɪŋ/",
+        "meaning": "đi câu cá",
+        "example": "My father likes to go fishing.",
+        "exampleVi": "Bố tôi thích đi câu cá."
+      }
+    ]
   },
   {
     "id": 40,
     "title": "Do / did / done",
-    "words": []
+    "words": [
+      {
+        "type": "Phrase",
+        "word": "do nothing",
+        "ipa": "/duː ˈnʌθɪŋ/",
+        "meaning": "không làm gì cả",
+        "example": "I want to do nothing today.",
+        "exampleVi": "Hôm nay tôi muốn không làm gì cả."
+      },
+      {
+        "type": "Phrase",
+        "word": "don't do that",
+        "ipa": "/doʊnt duː ðæt/",
+        "meaning": "đừng làm điều đó",
+        "example": "Don't do that! It's dangerous.",
+        "exampleVi": "Đừng làm thế! Nó nguy hiểm."
+      },
+      {
+        "type": "Question",
+        "word": "What are ... doing?",
+        "ipa": "/wʌt ɑːr ... ˈduːɪŋ/",
+        "meaning": "... đang làm gì?",
+        "example": "What are you doing?",
+        "exampleVi": "Bạn đang làm gì?"
+      },
+      {
+        "type": "Question",
+        "word": "What do you do?",
+        "ipa": "/wʌt duː juː duː/",
+        "meaning": "Bạn làm nghề gì?",
+        "example": "What do you do? – I'm a teacher.",
+        "exampleVi": "Bạn làm nghề gì? – Tôi là giáo viên."
+      },
+      {
+        "type": "Phrase",
+        "word": "do the gardening",
+        "ipa": "/duː ðə ˈɡɑːrdənɪŋ/",
+        "meaning": "làm vườn",
+        "example": "My father does the gardening.",
+        "exampleVi": "Bố tôi làm vườn."
+      },
+      {
+        "type": "Phrase",
+        "word": "do the washing",
+        "ipa": "/duː ðə ˈwɑːʃɪŋ/",
+        "meaning": "giặt quần áo",
+        "example": "I do the washing on Sunday.",
+        "exampleVi": "Tôi giặt quần áo vào Chủ nhật."
+      },
+      {
+        "type": "Phrase",
+        "word": "do the washing-up",
+        "ipa": "/duː ðə ˌwɑːʃɪŋ ˈʌp/",
+        "meaning": "rửa bát",
+        "example": "We do the washing-up after dinner.",
+        "exampleVi": "Chúng tôi rửa bát sau bữa tối."
+      },
+      {
+        "type": "Phrase",
+        "word": "do your homework",
+        "ipa": "/duː jʊr ˈhoʊmwɜːrk/",
+        "meaning": "làm bài tập về nhà",
+        "example": "I do my homework after school.",
+        "exampleVi": "Tôi làm bài tập về nhà sau giờ học."
+      },
+      {
+        "type": "Phrase",
+        "word": "do some exercises",
+        "ipa": "/duː sʌm ˈeksərsaɪzɪz/",
+        "meaning": "làm một số bài tập",
+        "example": "I do some exercises every morning.",
+        "exampleVi": "Tôi tập một số bài tập mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "do business with",
+        "ipa": "/duː ˈbɪznəs wɪð/",
+        "meaning": "làm ăn/giao dịch với",
+        "example": "We do business with that company.",
+        "exampleVi": "Chúng tôi làm ăn với công ty đó."
+      },
+      {
+        "type": "Phrase",
+        "word": "do your best",
+        "ipa": "/duː jʊr best/",
+        "meaning": "cố gắng hết sức",
+        "example": "Do your best in the exam.",
+        "exampleVi": "Hãy cố gắng hết sức trong kỳ thi."
+      },
+      {
+        "type": "Phrase",
+        "word": "does a lot of business with",
+        "ipa": "/dʌz ə lɑːt əv ˈbɪznəs wɪð/",
+        "meaning": "làm ăn/giao dịch rất nhiều với",
+        "example": "Our company does a lot of business with them.",
+        "exampleVi": "Công ty chúng tôi làm ăn rất nhiều với họ."
+      }
+    ]
   },
   {
     "id": 41,
