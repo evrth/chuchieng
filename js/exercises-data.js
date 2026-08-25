@@ -11203,5 +11203,1328 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  41: {
+    "unit": {
+      "id": "unit-41-make",
+      "title": "Unit 41: Make / made / made",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u41-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "make a mistake",
+            "right": "mắc lỗi"
+          },
+          {
+            "left": "make an appointment",
+            "right": "đặt lịch hẹn"
+          },
+          {
+            "left": "make my bed",
+            "right": "dọn giường"
+          },
+          {
+            "left": "make a noise",
+            "right": "gây ra tiếng ồn"
+          },
+          {
+            "left": "make a mess",
+            "right": "làm bừa bộn"
+          },
+          {
+            "left": "make a choice",
+            "right": "đưa ra lựa chọn"
+          },
+          {
+            "left": "make a photocopy",
+            "right": "photocopy, sao chụp tài liệu"
+          },
+          {
+            "left": "make a video",
+            "right": "làm/quay một video"
+          },
+          {
+            "left": "make me feel",
+            "right": "khiến tôi cảm thấy"
+          },
+          {
+            "left": "make dinner",
+            "right": "nấu bữa tối"
+          }
+        ]
+      },
+      {
+        "id": "u41-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "make",
+          "made",
+          "making",
+          "mistake",
+          "appointment",
+          "choice",
+          "mess",
+          "noise"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I always ______ a lot of mistakes when I speak English.",
+            "hint_vi": "làm, mắc",
+            "answer": "make"
+          },
+          {
+            "id": "q2",
+            "sentence": "I ______ a ______ yesterday; I forgot her name.",
+            "hint_vi": "đã mắc / lỗi",
+            "answer": [
+              "made",
+              "mistake"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "I'm ______ dinner right now.",
+            "hint_vi": "đang nấu",
+            "answer": "making"
+          },
+          {
+            "id": "q4",
+            "sentence": "We must ______ our choice today.",
+            "hint_vi": "đưa ra",
+            "answer": "make"
+          },
+          {
+            "id": "q5",
+            "sentence": "I need to make an ______ with the dentist.",
+            "hint_vi": "lịch hẹn",
+            "answer": "appointment"
+          },
+          {
+            "id": "q6",
+            "sentence": "Please don't make a ______ in the kitchen.",
+            "hint_vi": "bừa bộn",
+            "answer": "mess"
+          },
+          {
+            "id": "q7",
+            "sentence": "The children are making a ______ upstairs.",
+            "hint_vi": "tiếng ồn",
+            "answer": "noise"
+          },
+          {
+            "id": "q8",
+            "sentence": "You have to make a ______ between the two jobs.",
+            "hint_vi": "lựa chọn",
+            "answer": "choice"
+          }
+        ]
+      },
+      {
+        "id": "u41-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which is correct?",
+            "options": [
+              "make breakfast",
+              "do breakfast",
+              "take breakfast",
+              "have made breakfast"
+            ],
+            "answer": "make breakfast"
+          },
+          {
+            "id": "q2",
+            "question": "'That song makes me feel happy' means...",
+            "options": [
+              "the song causes a happy feeling",
+              "the song is about happiness",
+              "I wrote a happy song",
+              "I don't like the song"
+            ],
+            "answer": "the song causes a happy feeling"
+          },
+          {
+            "id": "q3",
+            "question": "Which is correct?",
+            "options": [
+              "make a photocopy",
+              "do a photocopy",
+              "take a photocopy",
+              "have a photocopy"
+            ],
+            "answer": "make a photocopy"
+          },
+          {
+            "id": "q4",
+            "question": "Which is correct for tidying your bed in the morning?",
+            "options": [
+              "make my bed",
+              "do my bed",
+              "take my bed",
+              "have my bed"
+            ],
+            "answer": "make my bed"
+          },
+          {
+            "id": "q5",
+            "question": "Which is correct?",
+            "options": [
+              "make an appointment",
+              "do an appointment",
+              "take an appointment",
+              "have made an appointment only"
+            ],
+            "answer": "make an appointment"
+          },
+          {
+            "id": "q6",
+            "question": "Which is correct?",
+            "options": [
+              "make a mistake",
+              "do a mistake",
+              "take a mistake",
+              "have a mistake"
+            ],
+            "answer": "make a mistake"
+          }
+        ]
+      },
+      {
+        "id": "u41-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Make a noise\" means to be very quiet.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "\"Make a mistake\" means to do something wrong.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "You say \"make my bed\", not \"do my bed\".",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Make a choice\" means to decide between options.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Make a mess\" means to tidy a room.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Make an appointment\" means to arrange a meeting time.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u41-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "TMKSEIA",
+            "answer": "MISTAKE"
+          },
+          {
+            "id": "q2",
+            "scrambled": "EICOCH",
+            "answer": "CHOICE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "ENIOS",
+            "answer": "NOISE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "OOYOPHCTP",
+            "answer": "PHOTOCOPY"
+          },
+          {
+            "id": "q5",
+            "scrambled": "OMETTIPAPNN",
+            "answer": "APPOINTMENT"
+          },
+          {
+            "id": "q6",
+            "scrambled": "EFRTAAKBS",
+            "answer": "BREAKFAST"
+          }
+        ]
+      }
+    ]
+  },
+  42: {
+    "unit": {
+      "id": "unit-42-come",
+      "title": "Unit 42: Come / came / come",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u42-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "come in",
+            "right": "đi vào, bước vào"
+          },
+          {
+            "left": "come out of",
+            "right": "đi ra khỏi"
+          },
+          {
+            "left": "come back",
+            "right": "quay lại, trở lại"
+          },
+          {
+            "left": "come home",
+            "right": "về nhà"
+          },
+          {
+            "left": "come from",
+            "right": "đến từ, xuất thân từ"
+          },
+          {
+            "left": "come along",
+            "right": "đi cùng; đi theo"
+          },
+          {
+            "left": "come and see me",
+            "right": "đến thăm tôi"
+          },
+          {
+            "left": "come into",
+            "right": "đi vào bên trong"
+          },
+          {
+            "left": "come out",
+            "right": "đi ra; xuất hiện"
+          },
+          {
+            "left": "come back from",
+            "right": "trở về từ"
+          }
+        ]
+      },
+      {
+        "id": "u42-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "in",
+          "into",
+          "out of",
+          "back",
+          "from",
+          "along"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Please come ______; the door is open.",
+            "hint_vi": "vào",
+            "answer": "in"
+          },
+          {
+            "id": "q2",
+            "sentence": "She came ______ the room quietly.",
+            "hint_vi": "vào bên trong",
+            "answer": "into"
+          },
+          {
+            "id": "q3",
+            "sentence": "He came ______ the house and locked the door.",
+            "hint_vi": "ra khỏi",
+            "answer": "out of"
+          },
+          {
+            "id": "q4",
+            "sentence": "What time will you come ______ tonight?",
+            "hint_vi": "trở lại",
+            "answer": "back"
+          },
+          {
+            "id": "q5",
+            "sentence": "Where do you come ______?",
+            "hint_vi": "đến từ",
+            "answer": "from"
+          },
+          {
+            "id": "q6",
+            "sentence": "We're going to the cinema. Do you want to come ______?",
+            "hint_vi": "đi cùng",
+            "answer": "along"
+          }
+        ]
+      },
+      {
+        "id": "u42-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which phrase asks about someone's nationality/origin?",
+            "options": [
+              "Where do you come from?",
+              "Where do you come in?",
+              "Where do you come back?",
+              "Where do you come along?"
+            ],
+            "answer": "Where do you come from?"
+          },
+          {
+            "id": "q2",
+            "question": "Which is correct when inviting someone to join you?",
+            "options": [
+              "Do you want to come along?",
+              "Do you want to come out of?",
+              "Do you want to come into?",
+              "Do you want to come back from?"
+            ],
+            "answer": "Do you want to come along?"
+          },
+          {
+            "id": "q3",
+            "question": "'I came back from London yesterday' means...",
+            "options": [
+              "I returned from London yesterday",
+              "I am going to London tomorrow",
+              "I live in London",
+              "I have never been to London"
+            ],
+            "answer": "I returned from London yesterday"
+          },
+          {
+            "id": "q4",
+            "question": "Which is correct?",
+            "options": [
+              "come home",
+              "come to home",
+              "come at home",
+              "come for home"
+            ],
+            "answer": "come home"
+          },
+          {
+            "id": "q5",
+            "question": "'Come and see me soon' means...",
+            "options": [
+              "visit me soon",
+              "call me soon",
+              "write to me soon",
+              "forget me soon"
+            ],
+            "answer": "visit me soon"
+          },
+          {
+            "id": "q6",
+            "question": "Which sentence uses 'come out of' correctly?",
+            "options": [
+              "He came out of the house.",
+              "He came out of see me.",
+              "He came out from house.",
+              "He came the house out."
+            ],
+            "answer": "He came out of the house."
+          }
+        ]
+      },
+      {
+        "id": "u42-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Come in\" is what you say to invite someone into a room.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Come from\" is used to talk about where someone is originally from.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Come back\" means to leave forever.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Come along\" can mean 'come with us'.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Come home\" needs the word 'to' before 'home'.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "The past tense of \"come\" is \"comed\".",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u42-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "CMEO",
+            "answer": "COME"
+          },
+          {
+            "id": "q2",
+            "scrambled": "MCAE",
+            "answer": "CAME"
+          },
+          {
+            "id": "q3",
+            "scrambled": "NLGOA",
+            "answer": "ALONG"
+          },
+          {
+            "id": "q4",
+            "scrambled": "KBCA",
+            "answer": "BACK"
+          },
+          {
+            "id": "q5",
+            "scrambled": "CNEFRA",
+            "answer": "FRANCE"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ITVENAM",
+            "answer": "VIETNAM"
+          }
+        ]
+      }
+    ]
+  },
+  43: {
+    "unit": {
+      "id": "unit-43-take",
+      "title": "Unit 43: Take / took / taken",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u43-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "take a photo",
+            "right": "chụp ảnh"
+          },
+          {
+            "left": "take an exam",
+            "right": "tham gia/làm một bài thi"
+          },
+          {
+            "left": "take a course",
+            "right": "tham gia một khóa học"
+          },
+          {
+            "left": "take the bus",
+            "right": "đi xe buýt"
+          },
+          {
+            "left": "take the underground",
+            "right": "đi tàu điện ngầm"
+          },
+          {
+            "left": "take a taxi",
+            "right": "đi taxi"
+          },
+          {
+            "left": "take the train",
+            "right": "đi tàu hỏa"
+          },
+          {
+            "left": "take sth with you",
+            "right": "mang theo thứ gì"
+          },
+          {
+            "left": "How long does it take?",
+            "right": "mất bao lâu?"
+          },
+          {
+            "left": "take some lessons",
+            "right": "học một số buổi học"
+          }
+        ]
+      },
+      {
+        "id": "u43-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "exam",
+          "course",
+          "train",
+          "taxi",
+          "photo",
+          "bus",
+          "underground",
+          "passport"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "At the end of the year, you have to take an ______.",
+            "hint_vi": "kỳ thi",
+            "answer": "exam"
+          },
+          {
+            "id": "q2",
+            "sentence": "I'm going to take an English ______ next month.",
+            "hint_vi": "khóa học",
+            "answer": "course"
+          },
+          {
+            "id": "q3",
+            "sentence": "We take the ______ to London every summer.",
+            "hint_vi": "tàu hỏa",
+            "answer": "train"
+          },
+          {
+            "id": "q4",
+            "sentence": "It's late, let's take a ______ home.",
+            "hint_vi": "taxi",
+            "answer": "taxi"
+          },
+          {
+            "id": "q5",
+            "sentence": "Can you take a ______ of us in front of the tower?",
+            "hint_vi": "tấm ảnh",
+            "answer": "photo"
+          },
+          {
+            "id": "q6",
+            "sentence": "I take the ______ to school every morning.",
+            "hint_vi": "xe buýt",
+            "answer": "bus"
+          },
+          {
+            "id": "q7",
+            "sentence": "In big cities, many people take the ______ to work.",
+            "hint_vi": "tàu điện ngầm",
+            "answer": "underground"
+          },
+          {
+            "id": "q8",
+            "sentence": "Don't forget to take your ______ with you.",
+            "hint_vi": "hộ chiếu",
+            "answer": "passport"
+          }
+        ]
+      },
+      {
+        "id": "u43-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which question asks about duration?",
+            "options": [
+              "How long does it take?",
+              "How much does it take?",
+              "How many does it take?",
+              "How far does it take?"
+            ],
+            "answer": "How long does it take?"
+          },
+          {
+            "id": "q2",
+            "question": "Which is correct?",
+            "options": [
+              "take a photo",
+              "make a photo",
+              "do a photo",
+              "have a photo"
+            ],
+            "answer": "take a photo"
+          },
+          {
+            "id": "q3",
+            "question": "Which is correct for going somewhere by public transport?",
+            "options": [
+              "take the bus",
+              "make the bus",
+              "do the bus",
+              "have the bus"
+            ],
+            "answer": "take the bus"
+          },
+          {
+            "id": "q4",
+            "question": "'It takes me 20 minutes to get to school' means...",
+            "options": [
+              "My journey to school lasts 20 minutes",
+              "I leave home at 20 minutes past the hour",
+              "School lasts 20 minutes",
+              "I have 20 minutes of homework"
+            ],
+            "answer": "My journey to school lasts 20 minutes"
+          },
+          {
+            "id": "q5",
+            "question": "Which is correct?",
+            "options": [
+              "take an exam",
+              "make an exam",
+              "do an exam only",
+              "have an exam only"
+            ],
+            "answer": "take an exam"
+          },
+          {
+            "id": "q6",
+            "question": "Which is correct?",
+            "options": [
+              "take some piano lessons",
+              "make some piano lessons",
+              "do some piano lessons",
+              "have made some piano lessons"
+            ],
+            "answer": "take some piano lessons"
+          }
+        ]
+      },
+      {
+        "id": "u43-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Take a photo\" means to make a picture with a camera.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Take the bus\" and \"take the train\" both describe using public transport.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"It takes me 10 minutes\" describes how much money something costs.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Take an exam\" means to sit a test.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "The past simple of \"take\" is \"taked\".",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Take a course\" means to study a subject or program.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u43-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "XAIT",
+            "answer": "TAXI"
+          },
+          {
+            "id": "q2",
+            "scrambled": "RECUOS",
+            "answer": "COURSE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "PAGHOTRHOP",
+            "answer": "PHOTOGRAPH"
+          },
+          {
+            "id": "q4",
+            "scrambled": "GNRDOENDUUR",
+            "answer": "UNDERGROUND"
+          },
+          {
+            "id": "q5",
+            "scrambled": "OPTRSPAS",
+            "answer": "PASSPORT"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ESNSLO",
+            "answer": "LESSON"
+          }
+        ]
+      }
+    ]
+  },
+  44: {
+    "unit": {
+      "id": "unit-44-bring",
+      "title": "Unit 44: Bring / brought / brought",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u44-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ/cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "bring",
+            "right": "mang đến"
+          },
+          {
+            "left": "take",
+            "right": "mang đi"
+          },
+          {
+            "left": "bring sb sth",
+            "right": "mang/đem thứ gì cho ai"
+          },
+          {
+            "left": "bring sth back",
+            "right": "mang thứ gì trở lại; mang trả lại"
+          }
+        ]
+      },
+      {
+        "id": "u44-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống (bring / take)",
+        "instructions_vi": "Điền 'bring' hoặc 'take' (chia đúng dạng) vào chỗ trống.",
+        "word_bank": [
+          "bring",
+          "take",
+          "brought",
+          "took"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Can you ______ me some water, please? (I'm sitting here, you're in the kitchen)",
+            "hint_vi": "mang đến (hướng về người nói)",
+            "answer": "bring"
+          },
+          {
+            "id": "q2",
+            "sentence": "______ your umbrella when you leave; it's raining outside.",
+            "hint_vi": "mang đi (hướng ra xa người nói)",
+            "answer": "Take",
+            "accepted_answers": [
+              "Take",
+              "take"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "She always ______ me a present when she visits.",
+            "hint_vi": "mang đến (thì hiện tại)",
+            "answer": "brings",
+            "accepted_answers": [
+              "brings",
+              "bring"
+            ]
+          },
+          {
+            "id": "q4",
+            "sentence": "Yesterday, he ______ his guitar to the party.",
+            "hint_vi": "mang đến (thì quá khứ)",
+            "answer": "brought"
+          },
+          {
+            "id": "q5",
+            "sentence": "Please ______ these letters to the post office.",
+            "hint_vi": "mang đi",
+            "answer": "take"
+          },
+          {
+            "id": "q6",
+            "sentence": "I'll ______ you a souvenir from Japan.",
+            "hint_vi": "mang đến (tương lai)",
+            "answer": "bring"
+          }
+        ]
+      },
+      {
+        "id": "u44-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "You are at home. Your friend is coming to visit. You say:",
+            "options": [
+              "Bring some snacks!",
+              "Take some snacks!",
+              "Make some snacks!",
+              "Do some snacks!"
+            ],
+            "answer": "Bring some snacks!"
+          },
+          {
+            "id": "q2",
+            "question": "You are leaving home to go to work. You say:",
+            "options": [
+              "I'll take my laptop.",
+              "I'll bring my laptop.",
+              "I'll make my laptop.",
+              "I'll do my laptop."
+            ],
+            "answer": "I'll take my laptop."
+          },
+          {
+            "id": "q3",
+            "question": "'Bring sth back' means...",
+            "options": [
+              "return something",
+              "buy something new",
+              "lose something",
+              "break something"
+            ],
+            "answer": "return something"
+          },
+          {
+            "id": "q4",
+            "question": "Which is correct for the past tense of 'bring'?",
+            "options": [
+              "brought",
+              "bringed",
+              "brang",
+              "broughted"
+            ],
+            "answer": "brought"
+          },
+          {
+            "id": "q5",
+            "question": "'Can you bring me my glasses?' — the speaker is asking the listener to move the glasses...",
+            "options": [
+              "towards the speaker",
+              "away from the speaker",
+              "nowhere",
+              "to a shop"
+            ],
+            "answer": "towards the speaker"
+          },
+          {
+            "id": "q6",
+            "question": "Which sentence is correct?",
+            "options": [
+              "He took his umbrella when he left.",
+              "He brang his umbrella when he left.",
+              "He bringed his umbrella when he left.",
+              "He take his umbrella when he left."
+            ],
+            "answer": "He took his umbrella when he left."
+          }
+        ]
+      },
+      {
+        "id": "u44-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Bring\" describes movement towards the speaker.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Take\" describes movement away from the speaker.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "The past tense of \"bring\" is \"bringed\".",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Bring something back\" means to return it.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Take\" and \"bring\" always mean exactly the same thing.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Bring sb sth\" means to give someone something you carried to them.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u44-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "RBNGI",
+            "answer": "BRING"
+          },
+          {
+            "id": "q2",
+            "scrambled": "HOGBTRU",
+            "answer": "BROUGHT"
+          },
+          {
+            "id": "q3",
+            "scrambled": "PRENTES",
+            "answer": "PRESENT"
+          },
+          {
+            "id": "q4",
+            "scrambled": "BRULLMEA",
+            "answer": "UMBRELLA"
+          },
+          {
+            "id": "q5",
+            "scrambled": "AEHCCSOTOL",
+            "answer": "CHOCOLATES"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ROLFSWE",
+            "answer": "FLOWERS"
+          }
+        ]
+      }
+    ]
+  },
+  45: {
+    "unit": {
+      "id": "unit-45-get",
+      "title": "Unit 45: Get / got / got",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u45-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "get married",
+            "right": "kết hôn"
+          },
+          {
+            "left": "get to",
+            "right": "đến một nơi"
+          },
+          {
+            "left": "get back",
+            "right": "trở lại; trở về"
+          },
+          {
+            "left": "get up",
+            "right": "thức dậy; đứng dậy"
+          },
+          {
+            "left": "get there",
+            "right": "đến đó"
+          },
+          {
+            "left": "get + adjective",
+            "right": "trở nên..."
+          },
+          {
+            "left": "get + noun",
+            "right": "có, nhận, lấy, mua được..."
+          }
+        ]
+      },
+      {
+        "id": "u45-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "dark",
+          "cold",
+          "wet",
+          "better",
+          "married",
+          "up",
+          "back"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "It's getting ______ outside; let's turn on the lights.",
+            "hint_vi": "tối",
+            "answer": "dark"
+          },
+          {
+            "id": "q2",
+            "sentence": "Please close the window, I'm getting ______.",
+            "hint_vi": "lạnh",
+            "answer": "cold"
+          },
+          {
+            "id": "q3",
+            "sentence": "It's raining and I'm getting ______!",
+            "hint_vi": "ướt",
+            "answer": "wet"
+          },
+          {
+            "id": "q4",
+            "sentence": "She was ill, but now she's getting ______.",
+            "hint_vi": "khỏe hơn",
+            "answer": "better"
+          },
+          {
+            "id": "q5",
+            "sentence": "They are getting ______ next spring.",
+            "hint_vi": "kết hôn",
+            "answer": "married"
+          },
+          {
+            "id": "q6",
+            "sentence": "I get ______ at six every morning.",
+            "hint_vi": "thức dậy",
+            "answer": "up"
+          },
+          {
+            "id": "q7",
+            "sentence": "What time did you get ______ from the party?",
+            "hint_vi": "trở về",
+            "answer": "back"
+          }
+        ]
+      },
+      {
+        "id": "u45-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "'It's getting dark' describes a change in...",
+            "options": [
+              "light level",
+              "temperature",
+              "weight",
+              "price"
+            ],
+            "answer": "light level"
+          },
+          {
+            "id": "q2",
+            "question": "Which means 'to arrive somewhere'?",
+            "options": [
+              "get to",
+              "get up",
+              "get back",
+              "get married"
+            ],
+            "answer": "get to"
+          },
+          {
+            "id": "q3",
+            "question": "Which means 'to wake up and rise from bed'?",
+            "options": [
+              "get up",
+              "get back",
+              "get to",
+              "get married"
+            ],
+            "answer": "get up"
+          },
+          {
+            "id": "q4",
+            "question": "'What time did you get back?' asks about...",
+            "options": [
+              "when you returned",
+              "when you left",
+              "when you woke up",
+              "when you ate"
+            ],
+            "answer": "when you returned"
+          },
+          {
+            "id": "q5",
+            "question": "'I got a new phone' means...",
+            "options": [
+              "I obtained/received a new phone",
+              "I lost my phone",
+              "I broke my phone",
+              "I sold my phone"
+            ],
+            "answer": "I obtained/received a new phone"
+          },
+          {
+            "id": "q6",
+            "question": "Which sentence correctly uses 'get + adjective'?",
+            "options": [
+              "It's getting cold.",
+              "It's getting a cold.",
+              "It gets colds.",
+              "It's get cold."
+            ],
+            "answer": "It's getting cold."
+          }
+        ]
+      },
+      {
+        "id": "u45-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Get married\" means to become someone's husband or wife.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Get up\" means to go to sleep.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "The past tense of \"get\" is \"got\".",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Get to\" can be followed by a place, e.g. 'get to work'.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Get there\" means to leave a place.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"It's getting dark\" means the light is decreasing.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u45-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "RAERDMI",
+            "answer": "MARRIED"
+          },
+          {
+            "id": "q2",
+            "scrambled": "BTRETE",
+            "answer": "BETTER"
+          },
+          {
+            "id": "q3",
+            "scrambled": "KRDA",
+            "answer": "DARK"
+          },
+          {
+            "id": "q4",
+            "scrambled": "APTSM",
+            "answer": "STAMP"
+          },
+          {
+            "id": "q5",
+            "scrambled": "AEPRWESNP",
+            "answer": "NEWSPAPER"
+          },
+          {
+            "id": "q6",
+            "scrambled": "LLRUAEMB",
+            "answer": "UMBRELLA"
+          }
+        ]
+      }
+    ]
   }
 };

@@ -9434,27 +9434,424 @@ const VOCAB_UNITS = [
   {
     "id": 41,
     "title": "Make / made / made",
-    "words": []
+    "words": [
+      {
+        "type": "Phrase",
+        "word": "make some coffee",
+        "ipa": "/meɪk sʌm ˈkɔːfi/",
+        "meaning": "pha cà phê",
+        "example": "I'm making some coffee.",
+        "exampleVi": "Tôi đang pha cà phê."
+      },
+      {
+        "type": "Phrase",
+        "word": "make dinner",
+        "ipa": "/meɪk ˈdɪnər/",
+        "meaning": "nấu bữa tối",
+        "example": "Dad is making dinner.",
+        "exampleVi": "Bố đang nấu bữa tối."
+      },
+      {
+        "type": "Phrase",
+        "word": "make some tea",
+        "ipa": "/meɪk sʌm tiː/",
+        "meaning": "pha trà",
+        "example": "I'll make some tea.",
+        "exampleVi": "Tôi sẽ pha trà."
+      },
+      {
+        "type": "Phrase",
+        "word": "make some hot chocolate",
+        "ipa": "/meɪk sʌm hɑːt ˈtʃɑːklət/",
+        "meaning": "pha sô-cô-la nóng",
+        "example": "She is making some hot chocolate.",
+        "exampleVi": "Cô ấy đang pha sô-cô-la nóng."
+      },
+      {
+        "type": "Phrase",
+        "word": "make breakfast",
+        "ipa": "/meɪk ˈbrekfəst/",
+        "meaning": "chuẩn bị/nấu bữa sáng",
+        "example": "I make breakfast for my family.",
+        "exampleVi": "Tôi chuẩn bị bữa sáng cho gia đình."
+      },
+      {
+        "type": "Phrase",
+        "word": "make lunch",
+        "ipa": "/meɪk lʌntʃ/",
+        "meaning": "chuẩn bị/nấu bữa trưa",
+        "example": "We make lunch at home.",
+        "exampleVi": "Chúng tôi chuẩn bị bữa trưa ở nhà."
+      },
+      {
+        "type": "Phrase",
+        "word": "make a photocopy",
+        "ipa": "/meɪk ə ˈfoʊtoʊˌkɑːpi/",
+        "meaning": "photocopy, sao chụp tài liệu",
+        "example": "Can you make a photocopy of this?",
+        "exampleVi": "Bạn có thể photocopy cái này không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "make a film",
+        "ipa": "/meɪk ə fɪlm/",
+        "meaning": "làm một bộ phim",
+        "example": "They are making a film.",
+        "exampleVi": "Họ đang làm một bộ phim."
+      },
+      {
+        "type": "Phrase",
+        "word": "make a video",
+        "ipa": "/meɪk ə ˈvɪdioʊ/",
+        "meaning": "làm/quay một video",
+        "example": "I'm making a video for school.",
+        "exampleVi": "Tôi đang làm một video cho trường."
+      },
+      {
+        "type": "Phrase",
+        "word": "make me feel",
+        "ipa": "/meɪk mi fiːl/",
+        "meaning": "khiến tôi cảm thấy",
+        "example": "Music makes me feel happy.",
+        "exampleVi": "Âm nhạc khiến tôi cảm thấy vui."
+      },
+      {
+        "type": "Phrase",
+        "word": "make a mistake",
+        "ipa": "/meɪk ə mɪˈsteɪk/",
+        "meaning": "mắc lỗi",
+        "example": "I made a mistake.",
+        "exampleVi": "Tôi đã mắc một lỗi."
+      },
+      {
+        "type": "Phrase",
+        "word": "make an appointment",
+        "ipa": "/meɪk ən əˈpɔɪntmənt/",
+        "meaning": "đặt lịch hẹn",
+        "example": "I need to make an appointment with the doctor.",
+        "exampleVi": "Tôi cần đặt lịch hẹn với bác sĩ."
+      },
+      {
+        "type": "Phrase",
+        "word": "make my bed",
+        "ipa": "/meɪk maɪ bed/",
+        "meaning": "dọn giường",
+        "example": "I make my bed every morning.",
+        "exampleVi": "Tôi dọn giường mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "make a noise",
+        "ipa": "/meɪk ə nɔɪz/",
+        "meaning": "gây ra tiếng ồn",
+        "example": "The children are making a noise.",
+        "exampleVi": "Bọn trẻ đang gây ồn."
+      },
+      {
+        "type": "Phrase",
+        "word": "make a mess",
+        "ipa": "/meɪk ə mes/",
+        "meaning": "làm bừa bộn",
+        "example": "Don't make a mess in the kitchen.",
+        "exampleVi": "Đừng làm bừa bộn trong bếp."
+      },
+      {
+        "type": "Phrase",
+        "word": "make a choice",
+        "ipa": "/meɪk ə tʃɔɪs/",
+        "meaning": "đưa ra lựa chọn",
+        "example": "You have to make a choice.",
+        "exampleVi": "Bạn phải đưa ra một lựa chọn."
+      }
+    ]
   },
   {
     "id": 42,
     "title": "Come / came / come",
-    "words": []
+    "words": [
+      {
+        "type": "Phrasal verb",
+        "word": "come in",
+        "ipa": "/kʌm ɪn/",
+        "meaning": "đi vào, bước vào",
+        "example": "Please come in.",
+        "exampleVi": "Mời vào."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "come into",
+        "ipa": "/kʌm ˈɪntuː/",
+        "meaning": "đi vào bên trong",
+        "example": "She came into the room.",
+        "exampleVi": "Cô ấy bước vào phòng."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "come out",
+        "ipa": "/kʌm aʊt/",
+        "meaning": "đi ra; xuất hiện; được phát hành",
+        "example": "The children came out.",
+        "exampleVi": "Bọn trẻ đi ra ngoài."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "come out of",
+        "ipa": "/kʌm aʊt əv/",
+        "meaning": "đi ra khỏi",
+        "example": "He came out of the house.",
+        "exampleVi": "Anh ấy đi ra khỏi nhà."
+      },
+      {
+        "type": "Phrase",
+        "word": "come in to",
+        "ipa": "/kʌm ɪn tə/",
+        "meaning": "đi vào để làm gì",
+        "example": "She came in to see me.",
+        "exampleVi": "Cô ấy vào để gặp tôi."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "come back",
+        "ipa": "/kʌm bæk/",
+        "meaning": "quay lại, trở lại",
+        "example": "Please come back soon.",
+        "exampleVi": "Hãy sớm quay lại nhé."
+      },
+      {
+        "type": "Phrase",
+        "word": "come back from",
+        "ipa": "/kʌm bæk frəm/",
+        "meaning": "trở về từ",
+        "example": "I came back from London yesterday.",
+        "exampleVi": "Tôi trở về từ London hôm qua."
+      },
+      {
+        "type": "Phrase",
+        "word": "come home",
+        "ipa": "/kʌm hoʊm/",
+        "meaning": "về nhà",
+        "example": "Dad came home at six.",
+        "exampleVi": "Bố về nhà lúc sáu giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "come from",
+        "ipa": "/kʌm frəm/",
+        "meaning": "đến từ, xuất thân từ",
+        "example": "I come from Vietnam.",
+        "exampleVi": "Tôi đến từ Việt Nam."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "come along",
+        "ipa": "/kʌm əˈlɔːŋ/",
+        "meaning": "đi cùng; đi theo; tiến triển",
+        "example": "Come along with us!",
+        "exampleVi": "Đi cùng chúng tôi nhé!"
+      },
+      {
+        "type": "Phrase",
+        "word": "come and see me",
+        "ipa": "/kʌm ənd siː mi/",
+        "meaning": "đến thăm tôi",
+        "example": "Come and see me soon.",
+        "exampleVi": "Hãy sớm đến thăm tôi nhé."
+      }
+    ]
   },
   {
     "id": 43,
     "title": "Take / took / taken",
-    "words": []
+    "words": [
+      {
+        "type": "Structure",
+        "word": "it takes + person + time",
+        "ipa": "/ɪt teɪks .../",
+        "meaning": "ai đó mất bao nhiêu thời gian để làm gì",
+        "example": "It takes me 20 minutes to get to school.",
+        "exampleVi": "Tôi mất 20 phút để đến trường."
+      },
+      {
+        "type": "Question",
+        "word": "How long does it take ...?",
+        "ipa": "/haʊ lɔːŋ dʌz ɪt teɪk/",
+        "meaning": "mất bao lâu...?",
+        "example": "How long does it take to get there?",
+        "exampleVi": "Đến đó mất bao lâu?"
+      },
+      {
+        "type": "Question",
+        "word": "How long did it take you ...?",
+        "ipa": "/haʊ lɔːŋ dɪd ɪt teɪk juː/",
+        "meaning": "bạn đã mất bao lâu...?",
+        "example": "How long did it take you to do it?",
+        "exampleVi": "Bạn đã mất bao lâu để làm việc đó?"
+      },
+      {
+        "type": "Phrase",
+        "word": "take sth with you",
+        "ipa": "/teɪk ... wɪð juː/",
+        "meaning": "mang theo thứ gì",
+        "example": "Take your passport with you.",
+        "exampleVi": "Hãy mang hộ chiếu theo."
+      },
+      {
+        "type": "Phrase",
+        "word": "take a photo / photograph",
+        "ipa": "/teɪk ə ˈfoʊtoʊ/; /teɪk ə ˈfoʊtəɡræf/",
+        "meaning": "chụp ảnh",
+        "example": "Can you take a photo of us?",
+        "exampleVi": "Bạn có thể chụp ảnh cho chúng tôi không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "take an ... course",
+        "ipa": "/teɪk ən ... kɔːrs/",
+        "meaning": "tham gia một khóa học",
+        "example": "I'm taking an English course.",
+        "exampleVi": "Tôi đang tham gia một khóa học tiếng Anh."
+      },
+      {
+        "type": "Phrase",
+        "word": "take an exam",
+        "ipa": "/teɪk ən ɪɡˈzæm/",
+        "meaning": "tham gia/làm một bài thi",
+        "example": "I have to take an exam tomorrow.",
+        "exampleVi": "Tôi phải thi vào ngày mai."
+      },
+      {
+        "type": "Phrase",
+        "word": "take some ... lessons",
+        "ipa": "/teɪk sʌm ... ˈlesənz/",
+        "meaning": "học một số buổi học",
+        "example": "She is taking some piano lessons.",
+        "exampleVi": "Cô ấy đang học một số buổi piano."
+      },
+      {
+        "type": "Phrase",
+        "word": "take the bus",
+        "ipa": "/teɪk ðə bʌs/",
+        "meaning": "đi xe buýt",
+        "example": "I take the bus to school.",
+        "exampleVi": "Tôi đi xe buýt đến trường."
+      },
+      {
+        "type": "Phrase",
+        "word": "take the underground",
+        "ipa": "/teɪk ði ˈʌndərɡraʊnd/",
+        "meaning": "đi tàu điện ngầm",
+        "example": "We take the underground to work.",
+        "exampleVi": "Chúng tôi đi tàu điện ngầm đến chỗ làm."
+      },
+      {
+        "type": "Phrase",
+        "word": "take a taxi",
+        "ipa": "/teɪk ə ˈtæksi/",
+        "meaning": "đi taxi",
+        "example": "Let's take a taxi home.",
+        "exampleVi": "Hãy đi taxi về nhà."
+      },
+      {
+        "type": "Phrase",
+        "word": "take the train",
+        "ipa": "/teɪk ðə treɪn/",
+        "meaning": "đi tàu hỏa",
+        "example": "We take the train to London.",
+        "exampleVi": "Chúng tôi đi tàu đến London."
+      }
+    ]
   },
   {
     "id": 44,
     "title": "Bring / brought / brought",
-    "words": []
+    "words": [
+      {
+        "type": "Verb",
+        "word": "bring & take",
+        "ipa": "/brɪŋ ænd teɪk/",
+        "meaning": "bring = mang đến; take = mang đi",
+        "example": "Bring your book here and take it home later.",
+        "exampleVi": "Mang sách đến đây và sau đó mang nó về nhà."
+      },
+      {
+        "type": "Structure",
+        "word": "bring sb sth",
+        "ipa": "/brɪŋ ˈsʌmbədi ˈsʌmθɪŋ/",
+        "meaning": "mang/đem thứ gì cho ai",
+        "example": "Can you bring me some water?",
+        "exampleVi": "Bạn có thể mang cho tôi ít nước không?"
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "bring sth back",
+        "ipa": "/brɪŋ ... bæk/",
+        "meaning": "mang thứ gì trở lại; mang trả lại",
+        "example": "Please bring the book back tomorrow.",
+        "exampleVi": "Hãy mang quyển sách trả lại vào ngày mai."
+      }
+    ]
   },
   {
     "id": 45,
     "title": "Get / got / got",
-    "words": []
+    "words": [
+      {
+        "type": "Structure",
+        "word": "get + adjective",
+        "ipa": "/ɡet + ˈædʒəktɪv/",
+        "meaning": "trở nên...; thay đổi sang trạng thái...",
+        "example": "It's getting cold.",
+        "exampleVi": "Trời đang trở lạnh."
+      },
+      {
+        "type": "Structure",
+        "word": "get + noun",
+        "ipa": "/ɡet + naʊn/",
+        "meaning": "có, nhận, lấy, mua được...",
+        "example": "I got a new phone.",
+        "exampleVi": "Tôi có một chiếc điện thoại mới."
+      },
+      {
+        "type": "Phrase",
+        "word": "get married",
+        "ipa": "/ɡet ˈmærid/",
+        "meaning": "kết hôn",
+        "example": "They are getting married next year.",
+        "exampleVi": "Họ sẽ kết hôn vào năm tới."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "get to",
+        "ipa": "/ɡet tuː/",
+        "meaning": "đến một nơi",
+        "example": "What time do you get to work?",
+        "exampleVi": "Bạn đến chỗ làm lúc mấy giờ?"
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "get back",
+        "ipa": "/ɡet bæk/",
+        "meaning": "trở lại; trở về",
+        "example": "What time did you get back?",
+        "exampleVi": "Bạn đã trở về lúc mấy giờ?"
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "get up",
+        "ipa": "/ɡet ʌp/",
+        "meaning": "thức dậy; đứng dậy",
+        "example": "I get up at seven.",
+        "exampleVi": "Tôi thức dậy lúc bảy giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "get there",
+        "ipa": "/ɡet ðer/",
+        "meaning": "đến đó",
+        "example": "How can we get there?",
+        "exampleVi": "Chúng ta đến đó bằng cách nào?"
+      }
+    ]
   },
   {
     "id": 46,

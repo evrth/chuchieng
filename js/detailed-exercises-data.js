@@ -8281,5 +8281,875 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  41: {
+    "unit": {
+      "id": "u41d",
+      "title": "Unit 41: Make / made / made - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu có nhiều hơn 1 đáp án đúng (ví dụ: 'made / have made', 'a video / a film'). Hệ thống chấp nhận bất kỳ đáp án nào trong danh sách accepted_answers."
+    },
+    "exercises": [
+      {
+        "id": "u41d-ex1-form",
+        "type": "fill_in_the_blank",
+        "title": "41.1. Complete the sentences with the correct form of make.",
+        "instructions_vi": "Chia đúng dạng của động từ 'make' để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I always ______ a lot of mistakes when I speak English.",
+            "answer": "make",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Our neighbours had a party last night. They ______ a lot of noise.",
+            "answer": "made"
+          },
+          {
+            "id": "q3",
+            "sentence": "I am ______ dinner for my parents this evening.",
+            "answer": "making"
+          },
+          {
+            "id": "q4",
+            "sentence": "What do you think, the silver car or the white one? We must ______ our choice today.",
+            "answer": "make"
+          },
+          {
+            "id": "q5",
+            "sentence": "I ______ an appointment with the doctor for you. It's at 5 o'clock.",
+            "answer": "made",
+            "accepted_answers": [
+              "made",
+              "have made",
+              "'ve made"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "Craig is in the kitchen. He is ______ a cup of tea.",
+            "answer": "making"
+          }
+        ]
+      },
+      {
+        "id": "u41d-ex2-feelings",
+        "type": "fill_in_the_blank",
+        "title": "41.2. Complete the sentences with make(s) / made me feel + an adjective from the box.",
+        "instructions_vi": "Chọn tính từ phù hợp trong hộp từ để hoàn thành câu.",
+        "word_bank": [
+          "sick",
+          "tired",
+          "sad",
+          "happy",
+          "angry"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "That film about the war made me feel ______.",
+            "answer": "sad",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Long lessons always make me feel ______.",
+            "answer": "tired"
+          },
+          {
+            "id": "q3",
+            "sentence": "She was horrible to me; it made me feel ______.",
+            "answer": "angry"
+          },
+          {
+            "id": "q4",
+            "sentence": "It's a lovely song. It makes me feel ______.",
+            "answer": "happy"
+          },
+          {
+            "id": "q5",
+            "sentence": "That meal was horrible. It made me feel ______.",
+            "answer": "sick"
+          }
+        ]
+      },
+      {
+        "id": "u41d-ex3-pictures",
+        "type": "labeling",
+        "title": "41.3. What are these people doing? Complete the sentences using make.",
+        "instructions_vi": "Nhìn hình và mô tả hành động bằng cụm từ với 'make'.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Anh/cô ấy đang làm gì?",
+            "image": "images/exercises/u41-making-photocopy.jpg",
+            "answer": "making a photocopy",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Cô ấy đang làm gì?",
+            "image": "images/exercises/u41-making-tea.jpg",
+            "answer": "making tea",
+            "accepted_answers": [
+              "making tea",
+              "making some tea"
+            ]
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Họ đang làm gì? (gây tiếng ồn)",
+            "image": "images/exercises/u41-making-noise.jpg",
+            "answer": "making a noise"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Họ đang làm gì?",
+            "image": "images/exercises/u41-making-video.jpg",
+            "answer": "making a video",
+            "accepted_answers": [
+              "making a video",
+              "making a film"
+            ]
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Bọn trẻ đang làm gì?",
+            "image": "images/exercises/u41-making-mess.jpg",
+            "answer": "making a mess"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Cô ấy đang làm gì?",
+            "image": "images/exercises/u41-making-bed.jpg",
+            "answer": "making her bed",
+            "accepted_answers": [
+              "making her bed",
+              "making the bed"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u41d-ex4-mistakes",
+        "type": "error_correction",
+        "title": "41.4. Correct the mistakes in these sentences.",
+        "instructions_vi": "Sửa lỗi sai liên quan đến 'make/do/take' trong mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "original": "I have to make my homework.",
+            "answer": "I have to do my homework.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "original": "Can I make a photo of you?",
+            "answer": "Can I take a photo of you?"
+          },
+          {
+            "id": "q3",
+            "original": "He's 25 but he never makes his own washing. He takes his dirty clothes to his mother's.",
+            "answer": "He's 25 but he never does his own washing. He takes his dirty clothes to his mother's."
+          },
+          {
+            "id": "q4",
+            "original": "Are you making an exam tomorrow?",
+            "answer": "Are you doing an exam tomorrow?",
+            "accepted_answers": [
+              "Are you doing an exam tomorrow?",
+              "Are you taking an exam tomorrow?"
+            ]
+          },
+          {
+            "id": "q5",
+            "original": "Have you made your homework yet?",
+            "answer": "Have you done your homework yet?"
+          }
+        ]
+      }
+    ]
+  },
+  42: {
+    "unit": {
+      "id": "u42d",
+      "title": "Unit 42: Come / came / come - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu có nhiều hơn 1 đáp án đúng (ví dụ: 'back / home', 'out of / back from / home from'). Hệ thống chấp nhận bất kỳ đáp án nào trong danh sách accepted_answers."
+    },
+    "exercises": [
+      {
+        "id": "u42d-ex1-gaps",
+        "type": "fill_in_the_blank",
+        "title": "42.1. Fill the gaps in the sentences.",
+        "instructions_vi": "Điền giới từ/từ thích hợp đi cùng 'come' vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I put money in, but the ticket didn't ______ of the machine.",
+            "answer": "come out",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "A: I'm going to Thailand tomorrow. B: Oh! When are you coming ______? A: In two weeks.",
+            "answer": "back",
+            "accepted_answers": [
+              "back",
+              "home",
+              "back home"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "The teacher came ______ the classroom and started the lesson.",
+            "answer": "into"
+          },
+          {
+            "id": "q4",
+            "sentence": "A: Where do you come ______? B: I'm Spanish.",
+            "answer": "from"
+          },
+          {
+            "id": "q5",
+            "sentence": "Come and ______ me at 5 o'clock; we can talk about it then.",
+            "answer": "see"
+          },
+          {
+            "id": "q6",
+            "sentence": "The children come ______ school at 4 o'clock.",
+            "answer": "out of",
+            "accepted_answers": [
+              "out of",
+              "back from",
+              "home from"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u42d-ex2-pictures",
+        "type": "labeling",
+        "title": "42.2. What do you think these people are saying? Use words from the box.",
+        "instructions_vi": "Nhìn hình và hoàn thành câu người trong hình đang nói (dùng: come from, come in, come along, come here).",
+        "context": {
+          "description": "Word box: Come from · Come in · Come along · Come here"
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Người phụ nữ gõ cửa, người trong phòng đáp lại điều gì?",
+            "image": "images/exercises/u42-come-in.jpg",
+            "answer": "Come in!",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Cô giáo ra hiệu học sinh lại gần bảng, cô ấy nói gì?",
+            "image": "images/exercises/u42-come-here.jpg",
+            "answer": "Come here!"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Bạn ấy rủ đi cùng đến bữa tiệc, câu còn thiếu là gì?",
+            "image": "images/exercises/u42-come-along.jpg",
+            "answer": "come along",
+            "accepted_answers": [
+              "come along",
+              "Do you want to come along?",
+              "come along?"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Cô gái giới thiệu quê hương mình, cô ấy nói gì?",
+            "image": "images/exercises/u42-come-from.jpg",
+            "answer": "I come from France."
+          }
+        ]
+      },
+      {
+        "id": "u42d-ex3-form",
+        "type": "fill_in_the_blank",
+        "title": "42.3. Fill the gaps using come in the correct form.",
+        "instructions_vi": "Chia đúng dạng của động từ 'come' để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Did you ______ for your letters? They're on the table.",
+            "answer": "come",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "She ______ back yesterday.",
+            "answer": "came"
+          },
+          {
+            "id": "q3",
+            "sentence": "He ______ here every Tuesday.",
+            "answer": "comes"
+          },
+          {
+            "id": "q4",
+            "sentence": "______ you ______ to the party tonight?",
+            "answer": [
+              "Are",
+              "coming"
+            ]
+          },
+          {
+            "id": "q5",
+            "sentence": "Pierre ______ from a small town in Luxembourg.",
+            "answer": "comes"
+          }
+        ]
+      }
+    ]
+  },
+  43: {
+    "unit": {
+      "id": "u43d",
+      "title": "Unit 43: Take / took / taken - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 43.1 là câu hỏi cá nhân (không có đáp án cố định) — hệ thống chỉ kiểm tra bạn đã trả lời theo đúng cấu trúc. Một số câu ở 43.3 và 43.4 có nhiều hơn 1 đáp án đúng."
+    },
+    "exercises": [
+      {
+        "id": "u43d-ex1-personal",
+        "type": "sentence_construction",
+        "title": "43.1. Fill the gaps for yourself.",
+        "instructions_vi": "Đây là câu hỏi cá nhân — hãy tự điền thời gian thật của bạn theo đúng cấu trúc 'It takes me ... minutes to ...'.",
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "It takes me _____ minutes to get to school / university / work.",
+            "answer": "It takes me 10 minutes to get to university.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "It takes me _____ minutes to go from my house to the nearest railway station.",
+            "answer": "It takes me 30 minutes to go from my house to the nearest railway station.",
+            "required_keywords": [
+              "minutes"
+            ]
+          },
+          {
+            "id": "q3",
+            "situation": "It takes me _____ minutes to get to my best friend's house.",
+            "answer": "It takes me 20 minutes to get to my best friend's house.",
+            "required_keywords": [
+              "minutes"
+            ]
+          },
+          {
+            "id": "q4",
+            "situation": "_____ takes me _____ to do one unit of this book.",
+            "answer": "It takes me an hour to do one unit of this book.",
+            "required_keywords": [
+              "takes"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u43d-ex2-expressions",
+        "type": "fill_in_the_blank",
+        "title": "43.2. Complete the sentences using take and an expression from the box.",
+        "instructions_vi": "Dùng 'take' và cụm từ phù hợp trong hộp để hoàn thành câu.",
+        "word_bank": [
+          "an exam",
+          "the train",
+          "a course",
+          "some water"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "At the end of the course, you have to take ______.",
+            "answer": "an exam",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "You can fly from London to Paris or you can take ______.",
+            "answer": "the train"
+          },
+          {
+            "id": "q3",
+            "sentence": "You want to learn Russian? Why don't you take ______?",
+            "answer": "a course"
+          },
+          {
+            "id": "q4",
+            "sentence": "If you go out on a hot day, you need to take ______.",
+            "answer": "some water"
+          }
+        ]
+      },
+      {
+        "id": "u43d-ex3-pictures",
+        "type": "labeling",
+        "title": "43.3. Look at the pictures. Answer the questions using take.",
+        "instructions_vi": "Nhìn hình và trả lời câu hỏi bằng 'take'.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "How does Natalie go to work?",
+            "image": "images/exercises/u43-take-train.jpg",
+            "answer": "She takes the train.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "How can I get to the airport?",
+            "image": "images/exercises/u43-take-taxi.jpg",
+            "answer": "You take a taxi.",
+            "accepted_answers": [
+              "You take a taxi.",
+              "You can take a taxi.",
+              "You have to take a taxi."
+            ]
+          },
+          {
+            "id": "q3",
+            "clue_vi": "How does Christopher go to school?",
+            "image": "images/exercises/u43-take-bus.jpg",
+            "answer": "He takes the bus."
+          },
+          {
+            "id": "q4",
+            "clue_vi": "How do Santiago and Lucia get home every day?",
+            "image": "images/exercises/u43-take-underground.jpg",
+            "answer": "They take the underground."
+          }
+        ]
+      },
+      {
+        "id": "u43d-ex4-whatyoutake",
+        "type": "word_from_definition",
+        "title": "43.4. What do you take with you when …",
+        "instructions_vi": "Trả lời câu hỏi bằng cấu trúc 'I take my/an ...'.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "you want to take photographs?",
+            "answer": "I take my camera.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "it's raining?",
+            "answer": "I take my umbrella.",
+            "accepted_answers": [
+              "I take my umbrella.",
+              "I take an umbrella."
+            ]
+          },
+          {
+            "id": "q3",
+            "clue": "you go to another country?",
+            "answer": "I take my passport."
+          },
+          {
+            "id": "q4",
+            "clue": "you go to your English lessons?",
+            "answer": "I take my notebook and pen."
+          },
+          {
+            "id": "q5",
+            "clue": "you need to text someone?",
+            "answer": "I take my mobile phone.",
+            "accepted_answers": [
+              "I take my mobile phone.",
+              "I take my mobile.",
+              "I take my phone."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  44: {
+    "unit": {
+      "id": "u44d",
+      "title": "Unit 44: Bring / brought / brought - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu có 2-3 chỗ trống trong cùng một câu (ví dụ 'take; bring it back') — cần điền đủ và đúng thứ tự các từ."
+    },
+    "exercises": [
+      {
+        "id": "u44d-ex1-bringtake",
+        "type": "fill_in_the_blank",
+        "title": "44.1. Fill the gaps with bring or take.",
+        "instructions_vi": "Điền 'bring' hoặc 'take' vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Are you going to the shops? ______ an umbrella. It's raining.",
+            "answer": "Take",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "'Don't forget to ______ your books tomorrow!' the teacher said to the class.",
+            "answer": "bring"
+          },
+          {
+            "id": "q3",
+            "sentence": "Are you going to the kitchen? Can you ______ me some water?",
+            "answer": "bring"
+          },
+          {
+            "id": "q4",
+            "sentence": "______ your camera with you when you go to Thailand. It's beautiful there.",
+            "answer": "Take"
+          },
+          {
+            "id": "q5",
+            "sentence": "Are you going to the office? Can you ______ these papers, please?",
+            "answer": "take"
+          },
+          {
+            "id": "q6",
+            "sentence": "I'll ______ you a present from New York.",
+            "answer": "bring"
+          }
+        ]
+      },
+      {
+        "id": "u44d-ex2-matching",
+        "type": "matching",
+        "title": "44.2. Match the words on the left with the words on the right.",
+        "instructions_vi": "Nối vế câu bên trái với vế câu phù hợp bên phải.",
+        "pairs": [
+          {
+            "left": "Yesterday he brought me",
+            "right": "some flowers"
+          },
+          {
+            "left": "You must take",
+            "right": "your passport when you travel"
+          },
+          {
+            "left": "Come to my house and",
+            "right": "bring your guitar"
+          },
+          {
+            "left": "Go to the post office and take",
+            "right": "these letters, please"
+          },
+          {
+            "left": "Everybody is going to bring",
+            "right": "food to the party"
+          }
+        ]
+      },
+      {
+        "id": "u44d-ex3-form",
+        "type": "fill_in_the_blank",
+        "title": "44.3. Fill the gaps with the correct form of bring or take.",
+        "instructions_vi": "Chia đúng dạng của 'bring' hoặc 'take' để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "She always brings me presents. Yesterday she ______ me some chocolates.",
+            "answer": "brought",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Hello, I've ______ you some flowers. I hope you like them!",
+            "answer": "brought"
+          },
+          {
+            "id": "q3",
+            "sentence": "Can you ______ this present when you go and see Sonia?",
+            "answer": "take"
+          },
+          {
+            "id": "q4",
+            "sentence": "She is going to ______ my book, read it tonight and ______ it back tomorrow.",
+            "answer": [
+              "take",
+              "bring"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u44d-ex4-bringback",
+        "type": "fill_in_the_blank",
+        "title": "44.4. Fill the gaps with bring back or take.",
+        "instructions_vi": "Điền 'take' hoặc 'bring ... back' vào chỗ trống (mỗi câu có thể có nhiều chỗ trống).",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Can I take this magazine to read tonight? I'll ______ it ______ tomorrow.",
+            "answer": [
+              "bring",
+              "back"
+            ],
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "When she went to Belgium, she ______ me ______ some chocolates.",
+            "answer": [
+              "brought",
+              "back"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "Please ______ my umbrella. You can ______ it ______ tomorrow.",
+            "answer": [
+              "take",
+              "bring",
+              "back"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  45: {
+    "unit": {
+      "id": "u45d",
+      "title": "Unit 45: Get / got / got - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 45.3 có nhiều câu chấp nhận nhiều hơn 1 đáp án đúng (ví dụ: 'a taxi / a bus / a train', 'an umbrella / a raincoat'). Hệ thống chấp nhận bất kỳ đáp án nào trong danh sách accepted_answers."
+    },
+    "exercises": [
+      {
+        "id": "u45d-ex1-choice",
+        "type": "multiple_choice",
+        "title": "45.1. Complete these sentences using a, b or c.",
+        "instructions_vi": "Chọn đáp án đúng nhất.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "I studied too much and I got ______.",
+            "options": [
+              "hot",
+              "tired",
+              "sick"
+            ],
+            "answer": "tired",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "I ate too much and I got ______.",
+            "options": [
+              "hot",
+              "tired",
+              "sick"
+            ],
+            "answer": "sick"
+          },
+          {
+            "id": "q3",
+            "question": "I sat in the sun too much and I got ______.",
+            "options": [
+              "hot",
+              "tired",
+              "sick"
+            ],
+            "answer": "hot"
+          },
+          {
+            "id": "q4",
+            "question": "In winter in the north it gets ______ very early.",
+            "options": [
+              "tired",
+              "dark",
+              "wet"
+            ],
+            "answer": "dark"
+          },
+          {
+            "id": "q5",
+            "question": "Vincent got very ______ in the rain.",
+            "options": [
+              "dark",
+              "better",
+              "wet"
+            ],
+            "answer": "wet"
+          }
+        ]
+      },
+      {
+        "id": "u45d-ex2-changes",
+        "type": "fill_in_the_blank",
+        "title": "45.2. Complete these sentences using the correct form of get and a word from the box.",
+        "instructions_vi": "Dùng 'get' và một từ trong hộp để hoàn thành câu.",
+        "word_bank": [
+          "better",
+          "light",
+          "dark",
+          "cold",
+          "wet"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "The sun is going down. It's getting ______.",
+            "answer": "dark",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "When the sun comes up it gets ______.",
+            "answer": "light"
+          },
+          {
+            "id": "q3",
+            "sentence": "She's in hospital but she's getting ______.",
+            "answer": "better"
+          },
+          {
+            "id": "q4",
+            "sentence": "It's raining! I'm getting ______!",
+            "answer": "wet"
+          },
+          {
+            "id": "q5",
+            "sentence": "Please close the window. I'm getting ______.",
+            "answer": "cold"
+          }
+        ]
+      },
+      {
+        "id": "u45d-ex3-whatget",
+        "type": "word_from_definition",
+        "title": "45.3. What / Who do you get if …",
+        "instructions_vi": "Trả lời câu hỏi bằng danh từ phù hợp.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "you want to post a letter?",
+            "answer": "a stamp",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "somebody is ill?",
+            "answer": "a doctor"
+          },
+          {
+            "id": "q3",
+            "clue": "you are thirsty?",
+            "answer": "a drink"
+          },
+          {
+            "id": "q4",
+            "clue": "you want to write something down?",
+            "answer": "a pen",
+            "accepted_answers": [
+              "a pen",
+              "a pencil",
+              "a pen and paper",
+              "a pencil and paper"
+            ]
+          },
+          {
+            "id": "q5",
+            "clue": "you want to read the news?",
+            "answer": "a newspaper"
+          },
+          {
+            "id": "q6",
+            "clue": "you want to go to the airport?",
+            "answer": "a taxi",
+            "accepted_answers": [
+              "a taxi",
+              "a bus",
+              "a train"
+            ]
+          },
+          {
+            "id": "q7",
+            "clue": "you want to earn some money?",
+            "answer": "a job"
+          },
+          {
+            "id": "q8",
+            "clue": "you want to go out and it's raining?",
+            "answer": "an umbrella",
+            "accepted_answers": [
+              "an umbrella",
+              "a raincoat"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u45d-ex4-complete",
+        "type": "fill_in_the_blank",
+        "title": "45.4. Complete these sentences.",
+        "instructions_vi": "Điền đúng dạng của 'get' để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "This plane ______ Paris at 12.30.",
+            "answer": "gets to",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "The bus from the university ______ my house in 25 minutes.",
+            "answer": "gets to"
+          },
+          {
+            "id": "q3",
+            "sentence": "When does the flight from Moscow ______ London?",
+            "answer": "get to"
+          },
+          {
+            "id": "q4",
+            "sentence": "José usually leaves work at 6 and ______ home at 6.30.",
+            "answer": "gets",
+            "accepted_answers": [
+              "gets",
+              "gets back"
+            ]
+          },
+          {
+            "id": "q5",
+            "sentence": "Mike is in New York. He won't ______ till the 14th July.",
+            "answer": "get back",
+            "accepted_answers": [
+              "get back",
+              "get home"
+            ]
+          }
+        ]
+      }
+    ]
   }
 };
