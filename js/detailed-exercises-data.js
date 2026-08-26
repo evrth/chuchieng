@@ -9945,90 +9945,176 @@ const DETAILED_EXERCISES_DATA = {
           }
         ]
       },
-      {
+{
         "id": "u50d-ex2-sentences",
         "type": "sentence_construction",
-        "title": "50.2. Write sentences using each of the conjunctions once.",
-        "instructions_vi": "Viết một câu hoàn chỉnh có nghĩa, bắt đầu với 'Annabelle agreed to marry Aarav' hoặc 'Annabelle will marry Aarav', sử dụng đúng liên từ được yêu cầu.",
+        "title": "50.2. Write down nine sentences from the columns. Use each of the conjunctions once.",
+        "instructions_vi": "Viết 9 câu bằng cách ghép các cột bên dưới sao cho hợp lý — mỗi liên từ chỉ dùng đúng một lần. Bảng dưới đây được sắp xếp lộn xộn có chủ đích (giống nguyên bản trong sách), bạn cần tự chọn vế câu phù hợp cho từng liên từ.",
         "context": {
-          "description": "Chủ đề chung: Annabelle agreed to marry Aarav / Annabelle will marry Aarav. Hãy hoàn thành câu với liên từ được cho."
+                "table": {
+                        "headers": [
+                                "Cột A",
+                                "Liên từ",
+                                "Cột B"
+                        ],
+                        "rows": [
+                                [
+                                        "Annabelle agreed to marry Aarav",
+                                        "After",
+                                        "she loves him"
+                                ],
+                                [
+                                        "Annabelle agreed to marry Aarav",
+                                        "And",
+                                        "she loves him"
+                                ],
+                                [
+                                        "Annabelle agreed to marry Aarav",
+                                        "Because",
+                                        "she doesn't love him"
+                                ],
+                                [
+                                        "Annabelle agreed to marry Aarav",
+                                        "Before",
+                                        "they had two sons"
+                                ],
+                                [
+                                        "Annabelle agreed to marry Aarav",
+                                        "But",
+                                        "he moves to London."
+                                ],
+                                [
+                                        "Annabelle will marry Aarav",
+                                        "If",
+                                        "he moved to London"
+                                ],
+                                [
+                                        "Annabelle will marry Aarav",
+                                        "Or",
+                                        "she won't marry anyone."
+                                ],
+                                [
+                                        "Annabelle will marry Aarav",
+                                        "So",
+                                        "he was a pop star."
+                                ],
+                                [
+                                        "Annabelle will marry Aarav",
+                                        "When",
+                                        "they decided to start a business together"
+                                ]
+                        ]
+                }
         },
         "questions": [
-          {
-            "id": "q1",
-            "situation": "after",
-            "answer": "Annabelle agreed to marry Aarav after they decided to start a business together.",
-            "required_keywords": [
-              "after"
-            ],
-            "example": true
-          },
-          {
-            "id": "q2",
-            "situation": "and",
-            "answer": "Annabelle agreed to marry Aarav and they had two sons.",
-            "required_keywords": [
-              "and"
-            ]
-          },
-          {
-            "id": "q3",
-            "situation": "because",
-            "answer": "Annabelle agreed to marry Aarav because she loved him.",
-            "required_keywords": [
-              "because"
-            ]
-          },
-          {
-            "id": "q4",
-            "situation": "before",
-            "answer": "Annabelle agreed to marry Aarav before he moved to London.",
-            "required_keywords": [
-              "before"
-            ]
-          },
-          {
-            "id": "q5",
-            "situation": "but",
-            "answer": "Annabelle will marry Aarav but she doesn't love him.",
-            "required_keywords": [
-              "but"
-            ]
-          },
-          {
-            "id": "q6",
-            "situation": "if",
-            "answer": "Annabelle agreed to marry Aarav if he moved to London.",
-            "required_keywords": [
-              "if"
-            ]
-          },
-          {
-            "id": "q7",
-            "situation": "or",
-            "answer": "Annabelle will marry Aarav or she won't marry anyone.",
-            "required_keywords": [
-              "or"
-            ]
-          },
-          {
-            "id": "q8",
-            "situation": "so",
-            "answer": "Annabelle agreed to marry Aarav so he moved to London.",
-            "required_keywords": [
-              "so"
-            ]
-          },
-          {
-            "id": "q9",
-            "situation": "when",
-            "answer": "Annabelle will marry Aarav when he moves to London.",
-            "required_keywords": [
-              "when"
-            ]
-          }
+                {
+                        "id": "q1",
+                        "situation": "after",
+                        "answer": "Annabelle agreed to marry Aarav after they decided to start a business together.",
+                        "accepted_answers": [
+                                "Annabelle agreed to marry Aarav after he moved to London.",
+                                "Annabelle agreed to marry Aarav after they decided to start a business together."
+                        ],
+                        "required_keywords": [
+                                "after"
+                        ],
+                        "example": true
+                },
+                {
+                        "id": "q2",
+                        "situation": "and",
+                        "answer": "Annabelle agreed to marry Aarav and they decided to start a business together.",
+                        "accepted_answers": [
+                                "Annabelle agreed to marry Aarav and they had two sons.",
+                                "Annabelle agreed to marry Aarav and they decided to start a business together."
+                        ],
+                        "required_keywords": [
+                                "and"
+                        ]
+                },
+                {
+                        "id": "q3",
+                        "situation": "because",
+                        "answer": "Annabelle agreed to marry Aarav because she loved him.",
+                        "accepted_answers": [
+                                "Annabelle agreed to marry Aarav because she loved him.",
+                                "Annabelle agreed to marry Aarav because he was a pop star.",
+                                "Annabelle will marry Aarav because she loves him."
+                        ],
+                        "required_keywords": [
+                                "because"
+                        ]
+                },
+                {
+                        "id": "q4",
+                        "situation": "before",
+                        "answer": "Annabelle agreed to marry Aarav before he moved to London.",
+                        "accepted_answers": [
+                                "Annabelle agreed to marry Aarav before he moved to London.",
+                                "Annabelle agreed to marry Aarav before they decided to start a business together.",
+                                "Annabelle will marry Aarav before he moves to London."
+                        ],
+                        "required_keywords": [
+                                "before"
+                        ]
+                },
+                {
+                        "id": "q5",
+                        "situation": "but",
+                        "answer": "Annabelle will marry Aarav but she doesn't love him.",
+                        "accepted_answers": [
+                                "Annabelle will marry Aarav but she doesn't love him."
+                        ],
+                        "required_keywords": [
+                                "but"
+                        ]
+                },
+                {
+                        "id": "q6",
+                        "situation": "if",
+                        "answer": "Annabelle agreed to marry Aarav if he moved to London.",
+                        "accepted_answers": [
+                                "Annabelle agreed to marry Aarav if he moved to London."
+                        ],
+                        "required_keywords": [
+                                "if"
+                        ]
+                },
+                {
+                        "id": "q7",
+                        "situation": "or",
+                        "answer": "Annabelle will marry Aarav or she won't marry anyone.",
+                        "accepted_answers": [
+                                "Annabelle will marry Aarav or she won't marry anyone."
+                        ],
+                        "required_keywords": [
+                                "or"
+                        ]
+                },
+                {
+                        "id": "q8",
+                        "situation": "so",
+                        "answer": "Annabelle agreed to marry Aarav so he moved to London.",
+                        "accepted_answers": [
+                                "Annabelle agreed to marry Aarav so he moved to London."
+                        ],
+                        "required_keywords": [
+                                "so"
+                        ]
+                },
+                {
+                        "id": "q9",
+                        "situation": "when",
+                        "answer": "Annabelle will marry Aarav when he moves to London.",
+                        "accepted_answers": [
+                                "Annabelle will marry Aarav when he moves to London."
+                        ],
+                        "required_keywords": [
+                                "when"
+                        ]
+                }
         ]
-      },
+},
       {
         "id": "u50d-ex3-gaps",
         "type": "fill_in_the_blank",
