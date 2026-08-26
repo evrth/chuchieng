@@ -9151,5 +9151,922 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  46: {
+    "unit": {
+      "id": "u46d",
+      "title": "Unit 46: Phrasal verbs - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u46d-ex1-matching",
+        "type": "matching",
+        "title": "46.1. Match a sentence on the left with a sentence on the right.",
+        "instructions_vi": "Nối câu ở cột trái với câu phản hồi/liên quan phù hợp ở cột phải.",
+        "pairs": [
+          {
+            "left": "It's eight o'clock.",
+            "right": "It's time to get up."
+          },
+          {
+            "left": "We arrived at our station.",
+            "right": "We got off the train."
+          },
+          {
+            "left": "That funny programme is on soon",
+            "right": "Turn on the TV"
+          },
+          {
+            "left": "The bus arrived",
+            "right": "We got on."
+          },
+          {
+            "left": "I'm trying to work",
+            "right": "Please turn your music down"
+          },
+          {
+            "left": "I can't hear the news.",
+            "right": "Turn the radio up"
+          },
+          {
+            "left": "It's raining today",
+            "right": "Put on your raincoat."
+          },
+          {
+            "left": "I don't want to accept that job",
+            "right": "I'm going to turn it down."
+          }
+        ]
+      },
+      {
+        "id": "u46d-ex2-prepositions",
+        "type": "fill_in_the_blank",
+        "title": "46.2. Put the correct prepositions in these sentences.",
+        "instructions_vi": "Điền giới từ đúng vào chỗ trống để hoàn thành cụm động từ.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "It's dark in here. Turn ______ the lights.",
+            "answer": "on",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Our plane takes ______ at 6.25 and lands at 7.50.",
+            "answer": "off"
+          },
+          {
+            "id": "q3",
+            "sentence": "Come ______! It's time to get ______. You'll be late for school!",
+            "answer": [
+              "on",
+              "up"
+            ]
+          },
+          {
+            "id": "q4",
+            "sentence": "The children took ______ their school uniforms when they got home.",
+            "answer": "off"
+          },
+          {
+            "id": "q5",
+            "sentence": "It's time to turn ______ the TV and go to bed now.",
+            "answer": "off"
+          },
+          {
+            "id": "q6",
+            "sentence": "Get ______ the bus at the train station, then walk about 100 metres and you'll see the theatre.",
+            "answer": "off"
+          },
+          {
+            "id": "q7",
+            "sentence": "The students went ______ working until late at night.",
+            "answer": "on"
+          },
+          {
+            "id": "q8",
+            "sentence": "When they got to the beach, he put ______ his swimming trunks and ran down to the sea.",
+            "answer": "on"
+          }
+        ]
+      },
+      {
+        "id": "u46d-ex3-pictures",
+        "type": "labeling",
+        "title": "46.3. What is happening in these pictures? Use one of the phrasal verbs from the opposite page to describe each picture.",
+        "instructions_vi": "Nhìn hình và mô tả hành động bằng một cụm động từ phù hợp.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Họ đang làm gì?",
+            "image": "images/exercises/u46-getting-on-coach.jpg",
+            "answer": "getting on the coach",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Anh ấy đang làm gì?",
+            "image": "images/exercises/u46-putting-on-shoes.jpg",
+            "answer": "putting on his shoes",
+            "accepted_answers": [
+              "putting on his shoes",
+              "putting on shoes"
+            ]
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Điều gì đang xảy ra?",
+            "image": "images/exercises/u46-plane-taking-off.jpg",
+            "answer": "taking off",
+            "accepted_answers": [
+              "taking off",
+              "is taking off",
+              "a plane is taking off"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Cô ấy đang làm gì?",
+            "image": "images/exercises/u46-turning-on-oven.jpg",
+            "answer": "turning on the oven"
+          }
+        ]
+      },
+      {
+        "id": "u46d-ex4-replace",
+        "type": "word_from_definition",
+        "title": "46.4. Replace the underlined words with a phrasal verb.",
+        "instructions_vi": "Thay thế từ được gạch chân trong câu bằng một cụm động từ (chỉ cần gõ cụm động từ, không cần viết lại cả câu).",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "The plane left at midnight.",
+            "answer": "took off",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "I removed my hat and coat.",
+            "answer": "took off"
+          },
+          {
+            "id": "q3",
+            "clue": "She continued writing novels all her life.",
+            "answer": "went on"
+          },
+          {
+            "id": "q4",
+            "clue": "Michael left without saying goodbye to anybody.",
+            "answer": "went off"
+          },
+          {
+            "id": "q5",
+            "clue": "I refused the invitation to Maya's wedding.",
+            "answer": "turned down"
+          }
+        ]
+      }
+    ]
+  },
+  47: {
+    "unit": {
+      "id": "u47d",
+      "title": "Unit 47: Everyday things - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Một số câu chấp nhận nhiều cách diễn đạt (ví dụ: 'the clothes / her clothes', 'the house / his flat'). Bài 47.2 là câu hỏi mở, chấp nhận vài cách đặt câu hỏi hợp lý khác nhau."
+    },
+    "exercises": [
+      {
+        "id": "u47d-ex1-pictures",
+        "type": "labeling",
+        "title": "47.1. What do they usually do?",
+        "instructions_vi": "Nhìn hình và hoàn thành câu mô tả thói quen của mỗi người.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Anh ấy thường làm gì mỗi sáng?",
+            "image": "images/exercises/u47-listen-radio.jpg",
+            "answer": "He listens to the radio every morning.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Cô ấy thường làm gì mỗi thứ Bảy?",
+            "image": "images/exercises/u47-wash-clothes.jpg",
+            "answer": "She washes clothes every Saturday.",
+            "accepted_answers": [
+              "She washes clothes every Saturday.",
+              "She washes her clothes every Saturday.",
+              "She washes the clothes every Saturday."
+            ]
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Anh ấy thường làm gì mỗi cuối tuần?",
+            "image": "images/exercises/u47-clean-house.jpg",
+            "answer": "He cleans the house every weekend.",
+            "accepted_answers": [
+              "He cleans the house every weekend.",
+              "He cleans his flat every weekend."
+            ]
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Anh ấy thường làm gì mỗi tối?",
+            "image": "images/exercises/u47-watch-tv.jpg",
+            "answer": "He watches TV every evening.",
+            "accepted_answers": [
+              "He watches TV every evening.",
+              "He watches television every evening."
+            ]
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Cô ấy thường làm gì mỗi Chủ nhật?",
+            "image": "images/exercises/u47-go-for-walk.jpg",
+            "answer": "She goes for a walk every Sunday."
+          }
+        ]
+      },
+      {
+        "id": "u47d-ex2-questions",
+        "type": "word_from_definition",
+        "title": "47.2. Ask questions.",
+        "instructions_vi": "Dựa vào hoạt động và câu trả lời gợi ý, đặt câu hỏi phù hợp (dùng How / How often / When / What time).",
+        "context": {
+          "table": {
+            "headers": [
+              "Hoạt động",
+              "Câu trả lời mẫu"
+            ],
+            "rows": [
+              [
+                "get up",
+                "7.30, usually. → What time do you get up?"
+              ],
+              [
+                "go for a walk",
+                "Every Saturday."
+              ],
+              [
+                "go to work",
+                "By train."
+              ],
+              [
+                "have dinner",
+                "At about 7 o'clock usually."
+              ],
+              [
+                "come home from work",
+                "I normally walk home."
+              ],
+              [
+                "phone your best friend",
+                "Two or three times a week."
+              ],
+              [
+                "clean your room",
+                "On Saturday morning usually."
+              ],
+              [
+                "have a shower",
+                "Usually at about 11 pm."
+              ]
+            ]
+          }
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "get up (Trả lời: 7.30, usually.)",
+            "answer": "What time do you get up?",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "go for a walk (Trả lời: Every Saturday.)",
+            "answer": "How often do you go for a walk?"
+          },
+          {
+            "id": "q3",
+            "clue": "go to work (Trả lời: By train.)",
+            "answer": "How do you go to work?",
+            "accepted_answers": [
+              "How do you go to work?",
+              "How do you get to work?"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue": "have dinner (Trả lời: At about 7 o'clock usually.)",
+            "answer": "When do you have dinner?",
+            "accepted_answers": [
+              "When do you have dinner?",
+              "What time do you have dinner?"
+            ]
+          },
+          {
+            "id": "q5",
+            "clue": "come home from work (Trả lời: I normally walk home.)",
+            "answer": "How do you come home from work?"
+          },
+          {
+            "id": "q6",
+            "clue": "phone your best friend (Trả lời: Two or three times a week.)",
+            "answer": "How often do you phone your best friend?"
+          },
+          {
+            "id": "q7",
+            "clue": "clean your room (Trả lời: On Saturday morning usually.)",
+            "answer": "When do you clean your room?",
+            "accepted_answers": [
+              "When do you clean your room?",
+              "How often do you clean your room?"
+            ]
+          },
+          {
+            "id": "q8",
+            "clue": "have a shower (Trả lời: Usually at about 11 pm.)",
+            "answer": "What time do you have a shower?"
+          }
+        ]
+      }
+    ]
+  },
+  48: {
+    "unit": {
+      "id": "u48d",
+      "title": "Unit 48: Talking - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u48d-ex1-saytell",
+        "type": "fill_in_the_blank",
+        "title": "48.1. Fill the gaps with the correct form of say or tell.",
+        "instructions_vi": "Chia đúng dạng của 'say' hoặc 'tell' để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Can you ______ me where the Plaza Hotel is, please?",
+            "answer": "tell",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "She ______ me her name.",
+            "answer": "told"
+          },
+          {
+            "id": "q3",
+            "sentence": "I ______ goodbye to her.",
+            "answer": "said"
+          },
+          {
+            "id": "q4",
+            "sentence": "'Please ______ me a story,' the little boy ______.",
+            "answer": [
+              "tell",
+              "said"
+            ]
+          },
+          {
+            "id": "q5",
+            "sentence": "'Come here!' the police officer ______.",
+            "answer": "said"
+          },
+          {
+            "id": "q6",
+            "sentence": "The teacher ______ her students that they were very good.",
+            "answer": "told"
+          }
+        ]
+      },
+      {
+        "id": "u48d-ex2-whatsay",
+        "type": "word_from_definition",
+        "title": "48.2. What do you say?",
+        "instructions_vi": "Viết câu phù hợp với mỗi tình huống.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "You want to know if an English friend can help you talk to a Russian person who does not know English.",
+            "answer": "Can you speak Russian?",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "You want to know the word for 'tree' in German.",
+            "answer": "How do you say 'tree' in German?"
+          },
+          {
+            "id": "q3",
+            "clue": "You want to know the time.",
+            "answer": "Excuse me, can you tell me the time?"
+          },
+          {
+            "id": "q4",
+            "clue": "Your course is finished. You want to say goodbye to your teacher.",
+            "answer": "I just want to say goodbye.",
+            "accepted_answers": [
+              "I just want to say goodbye.",
+              "I just want to say goodbye to you."
+            ]
+          },
+          {
+            "id": "q5",
+            "clue": "You want to know when the exam is.",
+            "answer": "Can you tell me when the exam is?"
+          },
+          {
+            "id": "q6",
+            "clue": "The telephone rings. You are busy cooking food. A friend is watching you. (to your friend)",
+            "answer": "Can you answer the phone, please?",
+            "accepted_answers": [
+              "Can you answer the phone, please?",
+              "Can you tell them I'm busy?",
+              "Can you tell them I'm cooking?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u48d-ex3-matching",
+        "type": "matching",
+        "title": "48.3. Match the verbs on the left with the words on the right.",
+        "instructions_vi": "Nối động từ ở cột trái với cụm từ phù hợp ở cột phải.",
+        "pairs": [
+          {
+            "left": "say",
+            "right": "Happy New Year"
+          },
+          {
+            "left": "answer",
+            "right": "the door"
+          },
+          {
+            "left": "ask for",
+            "right": "the bill"
+          },
+          {
+            "left": "reply to",
+            "right": "an email"
+          },
+          {
+            "left": "tell",
+            "right": "someone a joke"
+          },
+          {
+            "left": "talk to",
+            "right": "a friend"
+          },
+          {
+            "left": "ask",
+            "right": "someone to help you"
+          },
+          {
+            "left": "speak",
+            "right": "Japanese"
+          }
+        ]
+      },
+      {
+        "id": "u48d-ex4-phrases",
+        "type": "fill_in_the_blank",
+        "title": "48.4. Complete the phrases.",
+        "instructions_vi": "Hoàn thành các câu chúc/cụm từ giao tiếp.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "(on December 24th or 25th) ______!",
+            "answer": "Happy Christmas",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "(you want to pay in a restaurant) Can we have ______, please?",
+            "answer": "the bill"
+          },
+          {
+            "id": "q3",
+            "sentence": "(on the first day of the year) ______!",
+            "answer": "Happy New Year"
+          },
+          {
+            "id": "q4",
+            "sentence": "(small child to parent) ______ a story before I go to sleep. Please!",
+            "answer": "Tell me"
+          }
+        ]
+      }
+    ]
+  },
+  49: {
+    "unit": {
+      "id": "u49d",
+      "title": "Unit 49: Moving - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Lưu ý: bạn cũng có thể dùng 'go by' với tất cả các phương tiện (không kèm 'the'/'a'), ví dụ: go by bicycle, go home by underground/taxi."
+    },
+    "exercises": [
+      {
+        "id": "u49d-ex1-verbs",
+        "type": "fill_in_the_blank",
+        "title": "49.1. Complete the sentences using verbs. Write them in the correct form.",
+        "instructions_vi": "Chia đúng dạng của động từ chỉ chuyển động để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Jack likes ______ round the park every morning but Hannah prefers ______ round it with her dog.",
+            "answer": [
+              "running",
+              "walking"
+            ],
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Everyone ______ at the party last night.",
+            "answer": "danced"
+          },
+          {
+            "id": "q3",
+            "sentence": "Every day Claire ______ ten lengths of the pool before breakfast.",
+            "answer": "swims"
+          },
+          {
+            "id": "q4",
+            "sentence": "James can ______ very fast. He has won a lot of races.",
+            "answer": "run"
+          },
+          {
+            "id": "q5",
+            "sentence": "Andrew loves ______ mountains.",
+            "answer": "climbing"
+          },
+          {
+            "id": "q6",
+            "sentence": "The old lady ______ on her way home and broke her arm.",
+            "answer": "fell"
+          },
+          {
+            "id": "q7",
+            "sentence": "Stella ______ into the swimming pool and quickly ______ to the other side.",
+            "answer": [
+              "jumped",
+              "swam"
+            ]
+          },
+          {
+            "id": "q8",
+            "sentence": "It is better for you to ______ to work than to go by car.",
+            "answer": "walk"
+          }
+        ]
+      },
+      {
+        "id": "u49d-ex2-transport",
+        "type": "fill_in_the_blank",
+        "title": "49.2. Ride, drive, go by or take? Write the correct word(s) in the sentence.",
+        "instructions_vi": "Chia đúng dạng của 'ride / drive / go by / take' để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Can you ______ a motorbike?",
+            "answer": "ride",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "He works for a railway company. He ______ a train.",
+            "answer": "drives"
+          },
+          {
+            "id": "q3",
+            "sentence": "She sometimes ______ the underground to work.",
+            "answer": "takes"
+          },
+          {
+            "id": "q4",
+            "sentence": "He goes away from home a lot. He ______ a lorry.",
+            "answer": "drives"
+          },
+          {
+            "id": "q5",
+            "sentence": "I prefer ______ a bus to ______ a car.",
+            "answer": [
+              "taking",
+              "driving"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "Would you like to ______ an elephant?",
+            "answer": "ride"
+          },
+          {
+            "id": "q7",
+            "sentence": "You never forget how to ______ a bicycle.",
+            "answer": "ride"
+          },
+          {
+            "id": "q8",
+            "sentence": "I usually ______ a taxi when it rains.",
+            "answer": "take"
+          }
+        ]
+      },
+      {
+        "id": "u49d-ex3-pasttense",
+        "type": "word_from_definition",
+        "title": "49.3. Put these sentences into the past tense with the word yesterday.",
+        "instructions_vi": "Viết lại câu ở thì quá khứ, thêm từ 'yesterday'.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Lilian runs a mile every day.",
+            "answer": "She ran a mile yesterday.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Maria often drives her grandmother to the city.",
+            "answer": "Maria drove her grandmother to the city yesterday."
+          },
+          {
+            "id": "q3",
+            "clue": "Charlie flies to Madrid every week.",
+            "answer": "Charlie flew to Madrid yesterday."
+          },
+          {
+            "id": "q4",
+            "clue": "I sometimes take a taxi home from the station.",
+            "answer": "I took a taxi home from the station yesterday."
+          },
+          {
+            "id": "q5",
+            "clue": "Bella often falls when she rides her bike.",
+            "answer": "Bella fell when she rode her bike yesterday."
+          },
+          {
+            "id": "q6",
+            "clue": "Adrian often misses the 7.30 bus to school.",
+            "answer": "Adrian missed the 7.30 bus to school yesterday."
+          },
+          {
+            "id": "q7",
+            "clue": "The taxi driver usually helps the old lady to carry her luggage to the train.",
+            "answer": "The taxi driver helped the old lady to carry her luggage to the train yesterday."
+          },
+          {
+            "id": "q8",
+            "clue": "Madeline usually dances very well.",
+            "answer": "Madeline danced very well yesterday."
+          }
+        ]
+      }
+    ]
+  },
+  50: {
+    "unit": {
+      "id": "u50d",
+      "title": "Unit 50: Conjunctions and connecting words - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 50.2 là bài viết câu sáng tạo — mỗi liên từ có thể ghép được với hơn 1 vế câu đúng ngữ pháp; hệ thống chỉ kiểm tra bạn đã dùng đúng liên từ được yêu cầu. Bài 50.3 câu 2 chấp nhận cả 'as well' và 'also'."
+    },
+    "exercises": [
+      {
+        "id": "u50d-ex1-choice",
+        "type": "multiple_choice",
+        "title": "50.1. Choose one of the words to complete each sentence.",
+        "instructions_vi": "Chọn từ đúng để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Blake liked school ______ he had many friends there.",
+            "options": [
+              "because",
+              "but",
+              "if"
+            ],
+            "answer": "because",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "Blake left school ______ he joined the navy.",
+            "options": [
+              "so",
+              "or",
+              "and"
+            ],
+            "answer": "and"
+          },
+          {
+            "id": "q3",
+            "question": "He hadn't travelled much ______ he joined the navy.",
+            "options": [
+              "but",
+              "before",
+              "after"
+            ],
+            "answer": "before"
+          },
+          {
+            "id": "q4",
+            "question": "Blake was seasick ______ he left the navy.",
+            "options": [
+              "when",
+              "if",
+              "so"
+            ],
+            "answer": "so"
+          },
+          {
+            "id": "q5",
+            "question": "He took a job in a bank ______ it was near his home.",
+            "options": [
+              "because",
+              "after",
+              "or"
+            ],
+            "answer": "because"
+          },
+          {
+            "id": "q6",
+            "question": "He will stay at the bank ______ he likes it there.",
+            "options": [
+              "when",
+              "if",
+              "before"
+            ],
+            "answer": "if"
+          },
+          {
+            "id": "q7",
+            "question": "If he doesn't like his new job, he'll go to university ______ he'll move to London.",
+            "options": [
+              "before",
+              "if",
+              "or"
+            ],
+            "answer": "or"
+          },
+          {
+            "id": "q8",
+            "question": "He wants to get married ______ he's 30.",
+            "options": [
+              "if",
+              "when",
+              "so"
+            ],
+            "answer": "when"
+          }
+        ]
+      },
+      {
+        "id": "u50d-ex2-sentences",
+        "type": "sentence_construction",
+        "title": "50.2. Write sentences using each of the conjunctions once.",
+        "instructions_vi": "Viết một câu hoàn chỉnh có nghĩa, bắt đầu với 'Annabelle agreed to marry Aarav' hoặc 'Annabelle will marry Aarav', sử dụng đúng liên từ được yêu cầu.",
+        "context": {
+          "description": "Chủ đề chung: Annabelle agreed to marry Aarav / Annabelle will marry Aarav. Hãy hoàn thành câu với liên từ được cho."
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "after",
+            "answer": "Annabelle agreed to marry Aarav after they decided to start a business together.",
+            "required_keywords": [
+              "after"
+            ],
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "and",
+            "answer": "Annabelle agreed to marry Aarav and they had two sons.",
+            "required_keywords": [
+              "and"
+            ]
+          },
+          {
+            "id": "q3",
+            "situation": "because",
+            "answer": "Annabelle agreed to marry Aarav because she loved him.",
+            "required_keywords": [
+              "because"
+            ]
+          },
+          {
+            "id": "q4",
+            "situation": "before",
+            "answer": "Annabelle agreed to marry Aarav before he moved to London.",
+            "required_keywords": [
+              "before"
+            ]
+          },
+          {
+            "id": "q5",
+            "situation": "but",
+            "answer": "Annabelle will marry Aarav but she doesn't love him.",
+            "required_keywords": [
+              "but"
+            ]
+          },
+          {
+            "id": "q6",
+            "situation": "if",
+            "answer": "Annabelle agreed to marry Aarav if he moved to London.",
+            "required_keywords": [
+              "if"
+            ]
+          },
+          {
+            "id": "q7",
+            "situation": "or",
+            "answer": "Annabelle will marry Aarav or she won't marry anyone.",
+            "required_keywords": [
+              "or"
+            ]
+          },
+          {
+            "id": "q8",
+            "situation": "so",
+            "answer": "Annabelle agreed to marry Aarav so he moved to London.",
+            "required_keywords": [
+              "so"
+            ]
+          },
+          {
+            "id": "q9",
+            "situation": "when",
+            "answer": "Annabelle will marry Aarav when he moves to London.",
+            "required_keywords": [
+              "when"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u50d-ex3-gaps",
+        "type": "fill_in_the_blank",
+        "title": "50.3. Fill in the gaps with words.",
+        "instructions_vi": "Điền từ thích hợp vào đoạn văn sau: 'I love swimming, my brother loves swimming too and my sister likes it very much (2)___. I can swim better (3)___ they can! Almost all my family loves swimming. My grandmother swims (4)___ a fish but she doesn't swim very often – (5)___ every year or so, now.'",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "(1) ...my brother loves swimming ______...",
+            "answer": "too",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "(2) ...my sister likes it very much ______.",
+            "answer": "as well",
+            "accepted_answers": [
+              "as well",
+              "also"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "(3) I can swim better ______ they can!",
+            "answer": "than"
+          },
+          {
+            "id": "q4",
+            "sentence": "(4) My grandmother swims ______ a fish.",
+            "answer": "like"
+          },
+          {
+            "id": "q5",
+            "sentence": "(5) She doesn't swim very often – ______ every year or so, now.",
+            "answer": "only"
+          }
+        ]
+      }
+    ]
   }
 };

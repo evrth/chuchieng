@@ -9856,27 +9856,840 @@ const VOCAB_UNITS = [
   {
     "id": 46,
     "title": "Phrasal verbs",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "phrasal verb",
+        "ipa": "/ˈfreɪzəl vɝːb/",
+        "meaning": "cụm động từ",
+        "example": "\"Get up\" is a phrasal verb.",
+        "exampleVi": "\"Get up\" là một cụm động từ."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "get up",
+        "ipa": "/ɡet ʌp/",
+        "meaning": "thức dậy; đứng dậy",
+        "example": "I get up at seven.",
+        "exampleVi": "Tôi thức dậy lúc bảy giờ."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "get on",
+        "ipa": "/ɡet ɑːn/",
+        "meaning": "lên (xe buýt, tàu...)",
+        "example": "We get on the bus here.",
+        "exampleVi": "Chúng tôi lên xe buýt ở đây."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "get off",
+        "ipa": "/ɡet ɔːf/",
+        "meaning": "xuống (xe buýt, tàu...)",
+        "example": "I get off the bus at the next stop.",
+        "exampleVi": "Tôi xuống xe buýt ở điểm dừng tiếp theo."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "turn on",
+        "ipa": "/tɝːn ɑːn/",
+        "meaning": "bật",
+        "example": "Please turn on the light.",
+        "exampleVi": "Hãy bật đèn."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "turn off",
+        "ipa": "/tɝːn ɔːf/",
+        "meaning": "tắt",
+        "example": "Please turn off the TV.",
+        "exampleVi": "Hãy tắt TV."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "turn up",
+        "ipa": "/tɝːn ʌp/",
+        "meaning": "vặn to, tăng âm lượng",
+        "example": "Turn up the music, please.",
+        "exampleVi": "Làm ơn vặn nhạc to lên."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "turn down",
+        "ipa": "/tɝːn daʊn/",
+        "meaning": "vặn nhỏ, giảm âm lượng",
+        "example": "Please turn down the TV.",
+        "exampleVi": "Hãy vặn nhỏ TV."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "go on",
+        "ipa": "/ɡoʊ ɑːn/",
+        "meaning": "tiếp tục",
+        "example": "Please go on.",
+        "exampleVi": "Hãy tiếp tục."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "go off",
+        "ipa": "/ɡoʊ ɔːf/",
+        "meaning": "reo, kêu (chuông/báo thức); nổ",
+        "example": "My alarm went off at six.",
+        "exampleVi": "Chuông báo thức của tôi reo lúc sáu giờ."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "put sth on",
+        "ipa": "/pʊt ... ɑːn/",
+        "meaning": "mặc/đeo thứ gì vào",
+        "example": "Put on your coat.",
+        "exampleVi": "Mặc áo khoác vào."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "come on",
+        "ipa": "/kʌm ɑːn/",
+        "meaning": "nhanh lên; thôi nào",
+        "example": "Come on! We're late.",
+        "exampleVi": "Nhanh lên! Chúng ta muộn rồi."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "turn down (refuse)",
+        "ipa": "/tɝːn daʊn/",
+        "meaning": "từ chối",
+        "example": "She turned down the job.",
+        "exampleVi": "Cô ấy đã từ chối công việc."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "take off (plane)",
+        "ipa": "/teɪk ɔːf/",
+        "meaning": "cất cánh",
+        "example": "The plane took off at nine.",
+        "exampleVi": "Máy bay cất cánh lúc chín giờ."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "take off (clothes)",
+        "ipa": "/teɪk ɔːf/",
+        "meaning": "cởi, tháo (quần áo, giày...)",
+        "example": "Take off your shoes.",
+        "exampleVi": "Cởi giày ra."
+      }
+    ]
   },
   {
     "id": 47,
     "title": "Everyday things",
-    "words": []
+    "words": [
+      {
+        "type": "Phrasal verb",
+        "word": "wake up",
+        "ipa": "/weɪk ʌp/",
+        "meaning": "thức giấc, tỉnh giấc",
+        "example": "I wake up at 7 o'clock.",
+        "exampleVi": "Tôi thức giấc lúc 7 giờ."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "get up",
+        "ipa": "/ɡet ʌp/",
+        "meaning": "thức dậy, ra khỏi giường",
+        "example": "I get up at 7:15.",
+        "exampleVi": "Tôi dậy lúc 7 giờ 15."
+      },
+      {
+        "type": "Phrase",
+        "word": "go to the bathroom",
+        "ipa": "/ɡoʊ tə ðə ˈbæθruːm/",
+        "meaning": "đi vào phòng tắm/nhà vệ sinh",
+        "example": "I go to the bathroom in the morning.",
+        "exampleVi": "Tôi đi vào phòng tắm vào buổi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "have a shower",
+        "ipa": "/hæv ə ˈʃaʊər/",
+        "meaning": "tắm vòi sen",
+        "example": "I have a shower every morning.",
+        "exampleVi": "Tôi tắm vòi sen mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "have breakfast",
+        "ipa": "/hæv ˈbrekfəst/",
+        "meaning": "ăn sáng",
+        "example": "I have breakfast at 8.",
+        "exampleVi": "Tôi ăn sáng lúc 8 giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "listen to the radio",
+        "ipa": "/ˈlɪsən tə ðə ˈreɪdioʊ/",
+        "meaning": "nghe đài",
+        "example": "I listen to the radio in the morning.",
+        "exampleVi": "Tôi nghe đài vào buổi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "go to work",
+        "ipa": "/ɡoʊ tə wɝːk/",
+        "meaning": "đi làm",
+        "example": "I go to work by bus.",
+        "exampleVi": "Tôi đi làm bằng xe buýt."
+      },
+      {
+        "type": "Phrase",
+        "word": "come home",
+        "ipa": "/kʌm hoʊm/",
+        "meaning": "về nhà",
+        "example": "I come home at six.",
+        "exampleVi": "Tôi về nhà lúc sáu giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "make dinner",
+        "ipa": "/meɪk ˈdɪnər/",
+        "meaning": "nấu bữa tối",
+        "example": "My mother makes dinner every evening.",
+        "exampleVi": "Mẹ tôi nấu bữa tối mỗi tối."
+      },
+      {
+        "type": "Phrase",
+        "word": "phone (call) a friend",
+        "ipa": "/foʊn ə frend/",
+        "meaning": "gọi điện cho một người bạn",
+        "example": "I phone a friend in the evening.",
+        "exampleVi": "Tôi gọi điện cho một người bạn vào buổi tối."
+      },
+      {
+        "type": "Phrase",
+        "word": "watch TV",
+        "ipa": "/wɑːtʃ ˌtiːˈviː/",
+        "meaning": "xem TV",
+        "example": "We watch TV after dinner.",
+        "exampleVi": "Chúng tôi xem TV sau bữa tối."
+      },
+      {
+        "type": "Phrase",
+        "word": "go to bed",
+        "ipa": "/ɡoʊ tə bed/",
+        "meaning": "đi ngủ, lên giường",
+        "example": "I go to bed at 11.",
+        "exampleVi": "Tôi đi ngủ lúc 11 giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "wash clothes",
+        "ipa": "/wɑːʃ kloʊðz/",
+        "meaning": "giặt quần áo",
+        "example": "I wash my clothes on Sunday.",
+        "exampleVi": "Tôi giặt quần áo vào Chủ nhật."
+      },
+      {
+        "type": "Phrase",
+        "word": "clean the house",
+        "ipa": "/kliːn ðə haʊs/",
+        "meaning": "dọn/vệ sinh nhà",
+        "example": "We clean the house every Saturday.",
+        "exampleVi": "Chúng tôi dọn nhà mỗi thứ Bảy."
+      },
+      {
+        "type": "Phrase",
+        "word": "go for a walk",
+        "ipa": "/ɡoʊ fər ə wɔːk/",
+        "meaning": "đi dạo",
+        "example": "I go for a walk in the evening.",
+        "exampleVi": "Tôi đi dạo vào buổi tối."
+      },
+      {
+        "type": "Phrase",
+        "word": "write letters / emails",
+        "ipa": "/raɪt ˈletərz/",
+        "meaning": "viết thư/email",
+        "example": "I write emails every day.",
+        "exampleVi": "Tôi viết email mỗi ngày."
+      },
+      {
+        "type": "Question",
+        "word": "How often do you...?",
+        "ipa": "/haʊ ˈɔːfən də juː/",
+        "meaning": "Bạn thường... bao lâu một lần?",
+        "example": "How often do you go for a walk?",
+        "exampleVi": "Bạn đi dạo bao lâu một lần?"
+      },
+      {
+        "type": "Phrase",
+        "word": "three times a week",
+        "ipa": "/θriː taɪmz ə wiːk/",
+        "meaning": "ba lần một tuần",
+        "example": "I go swimming three times a week.",
+        "exampleVi": "Tôi đi bơi ba lần một tuần."
+      },
+      {
+        "type": "Question",
+        "word": "What time do you...?",
+        "ipa": "/wʌt taɪm də juː/",
+        "meaning": "Bạn... lúc mấy giờ?",
+        "example": "What time do you go to bed?",
+        "exampleVi": "Bạn đi ngủ lúc mấy giờ?"
+      },
+      {
+        "type": "Phrase",
+        "word": "at 7 o'clock normally",
+        "ipa": "/ət ˈsevən əˈklɑːk ˈnɔːrməli/",
+        "meaning": "thường vào lúc 7 giờ",
+        "example": "I get up at 7 o'clock normally.",
+        "exampleVi": "Tôi thường dậy lúc 7 giờ."
+      },
+      {
+        "type": "Question",
+        "word": "How do you...?",
+        "ipa": "/haʊ də juː/",
+        "meaning": "Bạn... bằng cách nào/bằng phương tiện gì?",
+        "example": "How do you go to work?",
+        "exampleVi": "Bạn đi làm bằng phương tiện gì?"
+      },
+      {
+        "type": "Phrase",
+        "word": "usually by bus",
+        "ipa": "/ˈjuːʒuəli baɪ bʌs/",
+        "meaning": "thường bằng xe buýt",
+        "example": "I go to work usually by bus.",
+        "exampleVi": "Tôi thường đi làm bằng xe buýt."
+      }
+    ]
   },
   {
     "id": 48,
     "title": "Talking",
-    "words": []
+    "words": [
+      {
+        "type": "Verb",
+        "word": "say",
+        "ipa": "/seɪ/",
+        "meaning": "nói, nói ra",
+        "example": "Please say it again.",
+        "exampleVi": "Hãy nói lại điều đó."
+      },
+      {
+        "type": "Verb",
+        "word": "said that",
+        "ipa": "/sed ðæt/",
+        "meaning": "nói rằng",
+        "example": "He said that he was tired.",
+        "exampleVi": "Anh ấy nói rằng anh ấy mệt."
+      },
+      {
+        "type": "Phrase",
+        "word": "say hello / goodbye",
+        "ipa": "/seɪ həˈloʊ/",
+        "meaning": "nói xin chào / tạm biệt",
+        "example": "Say hello to your mother.",
+        "exampleVi": "Hãy gửi lời chào mẹ bạn nhé."
+      },
+      {
+        "type": "Phrase",
+        "word": "say please / thank you",
+        "ipa": "/seɪ pliːz/",
+        "meaning": "nói \"làm ơn\" / \"cảm ơn\"",
+        "example": "Always say thank you.",
+        "exampleVi": "Luôn nói cảm ơn."
+      },
+      {
+        "type": "Phrase",
+        "word": "say Happy Birthday",
+        "ipa": "/seɪ ˌhæpi ˈbɝːθdeɪ/",
+        "meaning": "chúc mừng sinh nhật",
+        "example": "Say Happy Birthday to Anna.",
+        "exampleVi": "Hãy chúc Anna sinh nhật vui vẻ."
+      },
+      {
+        "type": "Phrase",
+        "word": "say Merry Christmas",
+        "ipa": "/seɪ ˌmeri ˈkrɪsməs/",
+        "meaning": "chúc Giáng sinh vui vẻ",
+        "example": "We say Merry Christmas to our friends.",
+        "exampleVi": "Chúng tôi chúc bạn bè Giáng sinh vui vẻ."
+      },
+      {
+        "type": "Phrase",
+        "word": "say Happy New Year",
+        "ipa": "/seɪ ˌhæpi nuː ˈjɪr/",
+        "meaning": "chúc mừng năm mới",
+        "example": "They said Happy New Year.",
+        "exampleVi": "Họ đã chúc mừng năm mới."
+      },
+      {
+        "type": "Phrase",
+        "word": "say Congratulations",
+        "ipa": "/seɪ kənˌɡrætʃəˈleɪʃənz/",
+        "meaning": "nói \"chúc mừng\"",
+        "example": "We said Congratulations to him.",
+        "exampleVi": "Chúng tôi nói lời chúc mừng với anh ấy."
+      },
+      {
+        "type": "Verb",
+        "word": "tell",
+        "ipa": "/tel/",
+        "meaning": "nói, kể, bảo cho ai biết",
+        "example": "Please tell me your name.",
+        "exampleVi": "Hãy cho tôi biết tên bạn."
+      },
+      {
+        "type": "Phrase",
+        "word": "tell me when",
+        "ipa": "/tel mi wen/",
+        "meaning": "nói cho tôi biết khi nào",
+        "example": "Tell me when you are ready.",
+        "exampleVi": "Hãy nói cho tôi biết khi nào bạn sẵn sàng."
+      },
+      {
+        "type": "Phrase",
+        "word": "told me how",
+        "ipa": "/toʊld mi haʊ/",
+        "meaning": "đã chỉ/nói cho tôi cách",
+        "example": "She told me how to get there.",
+        "exampleVi": "Cô ấy chỉ cho tôi cách đến đó."
+      },
+      {
+        "type": "Phrase",
+        "word": "tell someone the time",
+        "ipa": "/tel ˈsʌmwʌn ðə taɪm/",
+        "meaning": "nói cho ai biết giờ",
+        "example": "Can you tell me the time?",
+        "exampleVi": "Bạn có thể cho tôi biết mấy giờ không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "tell someone a story",
+        "ipa": "/tel ˈsʌmwʌn ə ˈstɔːri/",
+        "meaning": "kể cho ai một câu chuyện",
+        "example": "Dad told us a story.",
+        "exampleVi": "Bố kể cho chúng tôi một câu chuyện."
+      },
+      {
+        "type": "Phrase",
+        "word": "tell someone a joke",
+        "ipa": "/tel ˈsʌmwʌn ə dʒoʊk/",
+        "meaning": "kể cho ai một câu chuyện cười",
+        "example": "He told me a joke.",
+        "exampleVi": "Anh ấy kể cho tôi một câu chuyện cười."
+      },
+      {
+        "type": "Phrase",
+        "word": "tell someone your name",
+        "ipa": "/tel ˈsʌmwʌn jʊr neɪm/",
+        "meaning": "nói tên của bạn cho ai",
+        "example": "Please tell me your name.",
+        "exampleVi": "Hãy cho tôi biết tên bạn."
+      },
+      {
+        "type": "Phrase",
+        "word": "tell someone your address",
+        "ipa": "/tel ˈsʌmwʌn jʊr ˈædres/",
+        "meaning": "nói địa chỉ của bạn cho ai",
+        "example": "Can you tell me your address?",
+        "exampleVi": "Bạn có thể cho tôi biết địa chỉ của bạn không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "tell someone your phone number",
+        "ipa": "/tel ˈsʌmwʌn jʊr foʊn ˈnʌmbər/",
+        "meaning": "nói số điện thoại của bạn cho ai",
+        "example": "Please tell me your phone number.",
+        "exampleVi": "Hãy cho tôi biết số điện thoại của bạn."
+      },
+      {
+        "type": "Verb",
+        "word": "ask",
+        "ipa": "/æsk/",
+        "meaning": "hỏi, yêu cầu",
+        "example": "Can I ask a question?",
+        "exampleVi": "Tôi có thể hỏi một câu không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "ask me",
+        "ipa": "/æsk miː/",
+        "meaning": "hỏi tôi",
+        "example": "Ask me anything.",
+        "exampleVi": "Hãy hỏi tôi bất cứ điều gì."
+      },
+      {
+        "type": "Phrase",
+        "word": "ask you a question",
+        "ipa": "/æsk juː ə ˈkwestʃən/",
+        "meaning": "hỏi bạn một câu hỏi",
+        "example": "Can I ask you a question?",
+        "exampleVi": "Tôi có thể hỏi bạn một câu không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "ask someone the way",
+        "ipa": "/æsk ˈsʌmwʌn ðə weɪ/",
+        "meaning": "hỏi ai đường đi",
+        "example": "I asked him the way.",
+        "exampleVi": "Tôi hỏi anh ấy đường đi."
+      },
+      {
+        "type": "Phrase",
+        "word": "ask someone the time",
+        "ipa": "/æsk ˈsʌmwʌn ðə taɪm/",
+        "meaning": "hỏi ai giờ",
+        "example": "I asked her the time.",
+        "exampleVi": "Tôi hỏi cô ấy mấy giờ."
+      },
+      {
+        "type": "Structure",
+        "word": "ask sb to do sth",
+        "ipa": "/æsk ˈsʌmbədi tə duː ˈsʌmθɪŋ/",
+        "meaning": "yêu cầu/nhờ ai làm gì",
+        "example": "I asked him to help me.",
+        "exampleVi": "Tôi nhờ anh ấy giúp tôi."
+      },
+      {
+        "type": "Structure",
+        "word": "ask someone for sth",
+        "ipa": "/æsk ˈsʌmwʌn fər ˈsʌmθɪŋ/",
+        "meaning": "xin/yêu cầu ai thứ gì",
+        "example": "I asked him for some water.",
+        "exampleVi": "Tôi xin anh ấy một ít nước."
+      },
+      {
+        "type": "Verb",
+        "word": "speak",
+        "ipa": "/spiːk/",
+        "meaning": "nói; nói chuyện; nói một ngôn ngữ",
+        "example": "Do you speak English?",
+        "exampleVi": "Bạn có nói tiếng Anh không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "talk to",
+        "ipa": "/tɔːk tuː/",
+        "meaning": "nói chuyện với",
+        "example": "I talk to my friend every day.",
+        "exampleVi": "Tôi nói chuyện với bạn tôi mỗi ngày."
+      },
+      {
+        "type": "Verb",
+        "word": "answer",
+        "ipa": "/ˈænsər/",
+        "meaning": "trả lời",
+        "example": "Please answer my question.",
+        "exampleVi": "Hãy trả lời câu hỏi của tôi."
+      },
+      {
+        "type": "Verb",
+        "word": "reply to",
+        "ipa": "/rɪˈplaɪ tuː/",
+        "meaning": "trả lời, hồi đáp",
+        "example": "Please reply to my email.",
+        "exampleVi": "Hãy trả lời email của tôi."
+      }
+    ]
   },
   {
     "id": 49,
     "title": "Moving",
-    "words": []
+    "words": [
+      {
+        "type": "Verb",
+        "word": "walk",
+        "ipa": "/wɔːk/",
+        "meaning": "đi bộ",
+        "example": "I walk to school every day.",
+        "exampleVi": "Tôi đi bộ đến trường mỗi ngày."
+      },
+      {
+        "type": "Verb",
+        "word": "run",
+        "ipa": "/rʌn/",
+        "meaning": "chạy",
+        "example": "I run in the park every morning.",
+        "exampleVi": "Tôi chạy trong công viên mỗi sáng."
+      },
+      {
+        "type": "Verb",
+        "word": "jump",
+        "ipa": "/dʒʌmp/",
+        "meaning": "nhảy",
+        "example": "The children jump on the bed.",
+        "exampleVi": "Những đứa trẻ nhảy trên giường."
+      },
+      {
+        "type": "Verb",
+        "word": "dance",
+        "ipa": "/dæns/",
+        "meaning": "nhảy, khiêu vũ",
+        "example": "We dance at the party.",
+        "exampleVi": "Chúng tôi nhảy tại bữa tiệc."
+      },
+      {
+        "type": "Verb",
+        "word": "swim",
+        "ipa": "/swɪm/",
+        "meaning": "bơi",
+        "example": "I swim every Sunday.",
+        "exampleVi": "Tôi bơi mỗi Chủ nhật."
+      },
+      {
+        "type": "Verb",
+        "word": "climb",
+        "ipa": "/klaɪm/",
+        "meaning": "trèo, leo",
+        "example": "They climb the mountain.",
+        "exampleVi": "Họ leo núi."
+      },
+      {
+        "type": "Verb",
+        "word": "fall",
+        "ipa": "/fɔːl/",
+        "meaning": "ngã, rơi",
+        "example": "Be careful! Don't fall.",
+        "exampleVi": "Cẩn thận! Đừng ngã."
+      },
+      {
+        "type": "Noun",
+        "word": "transport",
+        "ipa": "/ˈtrænspɔːrt/",
+        "meaning": "phương tiện/giao thông vận tải",
+        "example": "Public transport is cheap.",
+        "exampleVi": "Phương tiện giao thông công cộng rẻ."
+      },
+      {
+        "type": "Phrase",
+        "word": "go by",
+        "ipa": "/ɡoʊ baɪ/",
+        "meaning": "đi bằng (phương tiện)",
+        "example": "I go by bus.",
+        "exampleVi": "Tôi đi bằng xe buýt."
+      },
+      {
+        "type": "Verb",
+        "word": "take",
+        "ipa": "/teɪk/",
+        "meaning": "đi bằng, sử dụng (phương tiện)",
+        "example": "I take the train to work.",
+        "exampleVi": "Tôi đi tàu đến chỗ làm."
+      },
+      {
+        "type": "Verb",
+        "word": "ride",
+        "ipa": "/raɪd/",
+        "meaning": "đi/cưỡi (xe đạp, xe máy, ngựa...)",
+        "example": "I ride my bike to school.",
+        "exampleVi": "Tôi đi xe đạp đến trường."
+      },
+      {
+        "type": "Verb",
+        "word": "drive",
+        "ipa": "/draɪv/",
+        "meaning": "lái xe",
+        "example": "My father drives to work.",
+        "exampleVi": "Bố tôi lái xe đi làm."
+      },
+      {
+        "type": "Verb",
+        "word": "fly",
+        "ipa": "/flaɪ/",
+        "meaning": "bay; đi bằng máy bay",
+        "example": "We fly to London tomorrow.",
+        "exampleVi": "Ngày mai chúng tôi bay đến London."
+      },
+      {
+        "type": "Phrase",
+        "word": "arrive at",
+        "ipa": "/əˈraɪv æt/",
+        "meaning": "đến (một địa điểm cụ thể)",
+        "example": "We arrive at the station at six.",
+        "exampleVi": "Chúng tôi đến nhà ga lúc sáu giờ."
+      },
+      {
+        "type": "Phrase",
+        "word": "arrive in",
+        "ipa": "/əˈraɪv ɪn/",
+        "meaning": "đến (thành phố, quốc gia)",
+        "example": "We arrive in London at noon.",
+        "exampleVi": "Chúng tôi đến London vào buổi trưa."
+      },
+      {
+        "type": "Phrase",
+        "word": "please pass the salt",
+        "ipa": "/pliːz pæs ðə sɔːlt/",
+        "meaning": "làm ơn đưa lọ muối",
+        "example": "Please pass the salt.",
+        "exampleVi": "Làm ơn đưa tôi lọ muối."
+      },
+      {
+        "type": "Phrase",
+        "word": "can I help you carry your luggage?",
+        "ipa": "/kæn aɪ help juː ˈkæri jʊr ˈlʌɡɪdʒ/",
+        "meaning": "tôi có thể giúp bạn mang hành lý không?",
+        "example": "Can I help you carry your luggage?",
+        "exampleVi": "Tôi có thể giúp bạn mang hành lý không?"
+      },
+      {
+        "type": "Phrase",
+        "word": "I've just missed the train",
+        "ipa": "/aɪv dʒʌst mɪst ðə treɪn/",
+        "meaning": "tôi vừa lỡ chuyến tàu",
+        "example": "I've just missed the train.",
+        "exampleVi": "Tôi vừa lỡ chuyến tàu."
+      },
+      {
+        "type": "Clause",
+        "word": "if we don't leave now",
+        "ipa": "/ɪf wi doʊnt liːv naʊ/",
+        "meaning": "nếu chúng ta không rời đi ngay bây giờ",
+        "example": "If we don't leave now, we'll be late.",
+        "exampleVi": "Nếu chúng ta không đi ngay bây giờ, chúng ta sẽ muộn."
+      }
+    ]
   },
   {
     "id": 50,
     "title": "Conjunctions and connecting words",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "conjunction",
+        "ipa": "/kənˈdʒʌŋkʃən/",
+        "meaning": "liên từ",
+        "example": "\"And\" is a conjunction.",
+        "exampleVi": "\"And\" là một liên từ."
+      },
+      {
+        "type": "Conjunction",
+        "word": "and",
+        "ipa": "/ænd/",
+        "meaning": "và",
+        "example": "I like tea and coffee.",
+        "exampleVi": "Tôi thích trà và cà phê."
+      },
+      {
+        "type": "Conjunction",
+        "word": "but",
+        "ipa": "/bət/",
+        "meaning": "nhưng",
+        "example": "I like it, but it is expensive.",
+        "exampleVi": "Tôi thích nó, nhưng nó đắt."
+      },
+      {
+        "type": "Conjunction",
+        "word": "or",
+        "ipa": "/ɔːr/",
+        "meaning": "hoặc, hay",
+        "example": "Do you want tea or coffee?",
+        "exampleVi": "Bạn muốn trà hay cà phê?"
+      },
+      {
+        "type": "Conjunction",
+        "word": "because",
+        "ipa": "/bɪˈkʌz/",
+        "meaning": "bởi vì",
+        "example": "I stayed home because I was tired.",
+        "exampleVi": "Tôi ở nhà vì tôi mệt."
+      },
+      {
+        "type": "Conjunction",
+        "word": "so",
+        "ipa": "/soʊ/",
+        "meaning": "vì vậy, nên",
+        "example": "I was tired, so I went to bed.",
+        "exampleVi": "Tôi mệt, nên tôi đi ngủ."
+      },
+      {
+        "type": "Conjunction",
+        "word": "when",
+        "ipa": "/wen/",
+        "meaning": "khi",
+        "example": "Call me when you get home.",
+        "exampleVi": "Hãy gọi cho tôi khi bạn về đến nhà."
+      },
+      {
+        "type": "Conjunction",
+        "word": "before",
+        "ipa": "/bɪˈfɔːr/",
+        "meaning": "trước khi",
+        "example": "Wash your hands before you eat.",
+        "exampleVi": "Rửa tay trước khi ăn."
+      },
+      {
+        "type": "Conjunction",
+        "word": "after",
+        "ipa": "/ˈæftər/",
+        "meaning": "sau khi",
+        "example": "We went home after the film.",
+        "exampleVi": "Chúng tôi về nhà sau bộ phim."
+      },
+      {
+        "type": "Conjunction",
+        "word": "if",
+        "ipa": "/ɪf/",
+        "meaning": "nếu",
+        "example": "If it rains, I will stay home.",
+        "exampleVi": "Nếu trời mưa, tôi sẽ ở nhà."
+      },
+      {
+        "type": "Noun",
+        "word": "connecting word",
+        "ipa": "/kəˈnektɪŋ wɝːd/",
+        "meaning": "từ nối, từ liên kết",
+        "example": "\"However\" is a connecting word.",
+        "exampleVi": "\"However\" là một từ nối."
+      },
+      {
+        "type": "Adverb",
+        "word": "only",
+        "ipa": "/ˈoʊnli/",
+        "meaning": "chỉ, chỉ có",
+        "example": "I only have one brother.",
+        "exampleVi": "Tôi chỉ có một người anh/em trai."
+      },
+      {
+        "type": "Preposition",
+        "word": "like",
+        "ipa": "/laɪk/",
+        "meaning": "giống như",
+        "example": "He runs like his father.",
+        "exampleVi": "Anh ấy chạy giống bố mình."
+      },
+      {
+        "type": "Conjunction / Preposition",
+        "word": "than",
+        "ipa": "/ðæn/",
+        "meaning": "hơn, so với",
+        "example": "My car is bigger than yours.",
+        "exampleVi": "Xe của tôi lớn hơn xe của bạn."
+      },
+      {
+        "type": "Adverb",
+        "word": "also",
+        "ipa": "/ˈɔːlsoʊ/",
+        "meaning": "cũng",
+        "example": "I also like music.",
+        "exampleVi": "Tôi cũng thích âm nhạc."
+      },
+      {
+        "type": "Adverb",
+        "word": "too",
+        "ipa": "/tuː/",
+        "meaning": "cũng; quá",
+        "example": "I like pizza too.",
+        "exampleVi": "Tôi cũng thích pizza."
+      },
+      {
+        "type": "Adverb",
+        "word": "as well",
+        "ipa": "/æz wel/",
+        "meaning": "cũng",
+        "example": "She speaks English as well.",
+        "exampleVi": "Cô ấy cũng nói tiếng Anh."
+      }
+    ]
   },
   {
     "id": 51,

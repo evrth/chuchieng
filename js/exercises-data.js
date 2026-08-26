@@ -12526,5 +12526,1372 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  46: {
+    "unit": {
+      "id": "unit-46-phrasal-verbs",
+      "title": "Unit 46: Phrasal verbs",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u46-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm động từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "get up",
+            "right": "thức dậy; đứng dậy"
+          },
+          {
+            "left": "get on",
+            "right": "lên (xe buýt, tàu...)"
+          },
+          {
+            "left": "get off",
+            "right": "xuống (xe buýt, tàu...)"
+          },
+          {
+            "left": "turn on",
+            "right": "bật"
+          },
+          {
+            "left": "turn off",
+            "right": "tắt"
+          },
+          {
+            "left": "turn up",
+            "right": "vặn to, tăng âm lượng"
+          },
+          {
+            "left": "turn down",
+            "right": "vặn nhỏ, giảm âm lượng"
+          },
+          {
+            "left": "go on",
+            "right": "tiếp tục"
+          },
+          {
+            "left": "go off",
+            "right": "reo, kêu (chuông/báo thức)"
+          },
+          {
+            "left": "put sth on",
+            "right": "mặc/đeo thứ gì vào"
+          }
+        ]
+      },
+      {
+        "id": "u46-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "up",
+          "off",
+          "on",
+          "down"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Please turn ______ the volume, I can't hear it.",
+            "hint_vi": "tăng âm lượng",
+            "answer": "up"
+          },
+          {
+            "id": "q2",
+            "sentence": "The plane took ______ at nine o'clock.",
+            "hint_vi": "cất cánh",
+            "answer": "off"
+          },
+          {
+            "id": "q3",
+            "sentence": "Please turn ______ the lights before you leave.",
+            "hint_vi": "tắt",
+            "answer": "off"
+          },
+          {
+            "id": "q4",
+            "sentence": "Get ______ the bus at the next stop.",
+            "hint_vi": "xuống xe",
+            "answer": "off"
+          },
+          {
+            "id": "q5",
+            "sentence": "I get ______ at seven every morning.",
+            "hint_vi": "thức dậy",
+            "answer": "up"
+          },
+          {
+            "id": "q6",
+            "sentence": "Please turn ______ your music, it's too loud.",
+            "hint_vi": "vặn nhỏ",
+            "answer": "down"
+          },
+          {
+            "id": "q7",
+            "sentence": "Turn ______ the TV, please. I want to watch the news.",
+            "hint_vi": "bật",
+            "answer": "on"
+          },
+          {
+            "id": "q8",
+            "sentence": "My alarm went ______ at six this morning.",
+            "hint_vi": "reo",
+            "answer": "off"
+          }
+        ]
+      },
+      {
+        "id": "u46-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which phrasal verb means to enter a bus or train?",
+            "options": [
+              "get on",
+              "get off",
+              "get up",
+              "turn on"
+            ],
+            "answer": "get on"
+          },
+          {
+            "id": "q2",
+            "question": "Which phrasal verb means to leave a bus or train?",
+            "options": [
+              "get off",
+              "get on",
+              "get up",
+              "turn off"
+            ],
+            "answer": "get off"
+          },
+          {
+            "id": "q3",
+            "question": "'Turn down a job' means...",
+            "options": [
+              "refuse the job",
+              "accept the job",
+              "start the job",
+              "lose the job"
+            ],
+            "answer": "refuse the job"
+          },
+          {
+            "id": "q4",
+            "question": "Which phrasal verb describes an alarm making a sound?",
+            "options": [
+              "go off",
+              "go on",
+              "turn on",
+              "get up"
+            ],
+            "answer": "go off"
+          },
+          {
+            "id": "q5",
+            "question": "Which phrasal verb means to continue doing something?",
+            "options": [
+              "go on",
+              "go off",
+              "turn on",
+              "take off"
+            ],
+            "answer": "go on"
+          },
+          {
+            "id": "q6",
+            "question": "'Put on your coat' means...",
+            "options": [
+              "wear your coat",
+              "remove your coat",
+              "buy a coat",
+              "wash a coat"
+            ],
+            "answer": "wear your coat"
+          }
+        ]
+      },
+      {
+        "id": "u46-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Get on\" a bus means to enter it.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Turn off\" the light means to switch it on.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Take off\" can describe a plane leaving the ground.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Turn down\" can mean to refuse an offer.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Go on\" means to stop doing something.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Put on\" clothes means to wear them.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u46-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "PLSRHAA",
+            "answer": "PHRASAL"
+          },
+          {
+            "id": "q2",
+            "scrambled": "MLVEOU",
+            "answer": "VOLUME"
+          },
+          {
+            "id": "q3",
+            "scrambled": "ALMAR",
+            "answer": "ALARM"
+          },
+          {
+            "id": "q4",
+            "scrambled": "ACHCO",
+            "answer": "COACH"
+          },
+          {
+            "id": "q5",
+            "scrambled": "UNFIRMO",
+            "answer": "UNIFORM"
+          },
+          {
+            "id": "q6",
+            "scrambled": "TRTEHEA",
+            "answer": "THEATRE"
+          }
+        ]
+      }
+    ]
+  },
+  47: {
+    "unit": {
+      "id": "unit-47-everyday-things",
+      "title": "Unit 47: Everyday things",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u47-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "wake up",
+            "right": "thức giấc, tỉnh giấc"
+          },
+          {
+            "left": "have a shower",
+            "right": "tắm vòi sen"
+          },
+          {
+            "left": "listen to the radio",
+            "right": "nghe đài"
+          },
+          {
+            "left": "go to work",
+            "right": "đi làm"
+          },
+          {
+            "left": "come home",
+            "right": "về nhà"
+          },
+          {
+            "left": "wash clothes",
+            "right": "giặt quần áo"
+          },
+          {
+            "left": "clean the house",
+            "right": "dọn/vệ sinh nhà"
+          },
+          {
+            "left": "go for a walk",
+            "right": "đi dạo"
+          },
+          {
+            "left": "go to bed",
+            "right": "đi ngủ, lên giường"
+          },
+          {
+            "left": "write letters / emails",
+            "right": "viết thư/email"
+          }
+        ]
+      },
+      {
+        "id": "u47-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "shower",
+          "breakfast",
+          "radio",
+          "work",
+          "bed",
+          "clothes",
+          "house",
+          "walk"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I have a ______ every morning before school.",
+            "hint_vi": "tắm vòi sen",
+            "answer": "shower"
+          },
+          {
+            "id": "q2",
+            "sentence": "We have ______ at 7 o'clock.",
+            "hint_vi": "bữa sáng",
+            "answer": "breakfast"
+          },
+          {
+            "id": "q3",
+            "sentence": "I listen to the ______ while I get dressed.",
+            "hint_vi": "đài",
+            "answer": "radio"
+          },
+          {
+            "id": "q4",
+            "sentence": "My father goes to ______ by car.",
+            "hint_vi": "đi làm",
+            "answer": "work"
+          },
+          {
+            "id": "q5",
+            "sentence": "I usually go to ______ at 10 pm.",
+            "hint_vi": "đi ngủ",
+            "answer": "bed"
+          },
+          {
+            "id": "q6",
+            "sentence": "I wash my ______ every Sunday.",
+            "hint_vi": "quần áo",
+            "answer": "clothes"
+          },
+          {
+            "id": "q7",
+            "sentence": "We clean the ______ every Saturday.",
+            "hint_vi": "nhà",
+            "answer": "house"
+          },
+          {
+            "id": "q8",
+            "sentence": "I go for a ______ in the park every evening.",
+            "hint_vi": "đi dạo",
+            "answer": "walk"
+          }
+        ]
+      },
+      {
+        "id": "u47-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which question asks about frequency?",
+            "options": [
+              "How often do you...?",
+              "What time do you...?",
+              "How do you...?",
+              "Where do you...?"
+            ],
+            "answer": "How often do you...?"
+          },
+          {
+            "id": "q2",
+            "question": "Which question asks about method/means?",
+            "options": [
+              "How do you...?",
+              "How often do you...?",
+              "What time do you...?",
+              "Why do you...?"
+            ],
+            "answer": "How do you...?"
+          },
+          {
+            "id": "q3",
+            "question": "'I go swimming three times a week' answers which question?",
+            "options": [
+              "How often...?",
+              "What time...?",
+              "How...?",
+              "Where...?"
+            ],
+            "answer": "How often...?"
+          },
+          {
+            "id": "q4",
+            "question": "Which phrase means to wake up and leave the bed?",
+            "options": [
+              "get up",
+              "go to bed",
+              "have a shower",
+              "wake up"
+            ],
+            "answer": "get up"
+          },
+          {
+            "id": "q5",
+            "question": "'Wake up' and 'get up' are...",
+            "options": [
+              "different actions (wake up = open your eyes; get up = leave the bed)",
+              "exactly the same action",
+              "opposite actions",
+              "not related"
+            ],
+            "answer": "different actions (wake up = open your eyes; get up = leave the bed)"
+          },
+          {
+            "id": "q6",
+            "question": "Which is a typical answer to 'What time do you have dinner?'",
+            "options": [
+              "At about 7 o'clock.",
+              "By bus.",
+              "Every Saturday.",
+              "Because I'm hungry."
+            ],
+            "answer": "At about 7 o'clock."
+          }
+        ]
+      },
+      {
+        "id": "u47-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Wake up\" and \"get up\" mean exactly the same thing.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "\"How often...?\" asks about frequency.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"What time...?\" asks about the means of transport.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Go for a walk\" means to walk for pleasure or exercise.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Clean the house\" and \"wash clothes\" are different household tasks.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Come home\" means to leave your house.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u47-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "OWSRHE",
+            "answer": "SHOWER"
+          },
+          {
+            "id": "q2",
+            "scrambled": "TFEASRKAB",
+            "answer": "BREAKFAST"
+          },
+          {
+            "id": "q3",
+            "scrambled": "COELTSH",
+            "answer": "CLOTHES"
+          },
+          {
+            "id": "q4",
+            "scrambled": "OIADR",
+            "answer": "RADIO"
+          },
+          {
+            "id": "q5",
+            "scrambled": "LAKW",
+            "answer": "WALK"
+          },
+          {
+            "id": "q6",
+            "scrambled": "YONLMALR",
+            "answer": "NORMALLY"
+          }
+        ]
+      }
+    ]
+  },
+  48: {
+    "unit": {
+      "id": "unit-48-talking",
+      "title": "Unit 48: Talking",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u48-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ/cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "say hello",
+            "right": "nói xin chào"
+          },
+          {
+            "left": "tell someone a story",
+            "right": "kể cho ai một câu chuyện"
+          },
+          {
+            "left": "tell someone a joke",
+            "right": "kể cho ai một câu chuyện cười"
+          },
+          {
+            "left": "ask someone the way",
+            "right": "hỏi ai đường đi"
+          },
+          {
+            "left": "ask sb to do sth",
+            "right": "yêu cầu/nhờ ai làm gì"
+          },
+          {
+            "left": "talk to",
+            "right": "nói chuyện với"
+          },
+          {
+            "left": "speak",
+            "right": "nói một ngôn ngữ"
+          },
+          {
+            "left": "answer",
+            "right": "trả lời"
+          },
+          {
+            "left": "reply to",
+            "right": "trả lời, hồi đáp"
+          },
+          {
+            "left": "ask someone for sth",
+            "right": "xin/yêu cầu ai thứ gì"
+          }
+        ]
+      },
+      {
+        "id": "u48-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "say",
+          "tell",
+          "ask",
+          "speak",
+          "talk",
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Please ______ hello to your parents for me.",
+            "hint_vi": "nói",
+            "answer": "say"
+          },
+          {
+            "id": "q2",
+            "sentence": "Can you ______ me your address?",
+            "hint_vi": "nói cho ai biết",
+            "answer": "tell"
+          },
+          {
+            "id": "q3",
+            "sentence": "Can I ______ you a question?",
+            "hint_vi": "hỏi",
+            "answer": "ask"
+          },
+          {
+            "id": "q4",
+            "sentence": "Do you ______ French?",
+            "hint_vi": "nói (ngôn ngữ)",
+            "answer": "speak"
+          },
+          {
+            "id": "q5",
+            "sentence": "I like to ______ to my friends every day.",
+            "hint_vi": "nói chuyện",
+            "answer": "talk"
+          },
+          {
+            "id": "q6",
+            "sentence": "Please ______ my question.",
+            "hint_vi": "trả lời",
+            "answer": "answer"
+          }
+        ]
+      },
+      {
+        "id": "u48-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which is correct?",
+            "options": [
+              "tell someone something",
+              "tell to someone something",
+              "say someone something",
+              "say to someone"
+            ],
+            "answer": "tell someone something"
+          },
+          {
+            "id": "q2",
+            "question": "Which is correct?",
+            "options": [
+              "say something to someone",
+              "say someone something",
+              "tell something to someone only",
+              "tell to someone"
+            ],
+            "answer": "say something to someone"
+          },
+          {
+            "id": "q3",
+            "question": "Which verb is used with a language, e.g. 'Do you ___ English?'",
+            "options": [
+              "speak",
+              "say",
+              "tell",
+              "ask"
+            ],
+            "answer": "speak"
+          },
+          {
+            "id": "q4",
+            "question": "Which is correct for a reply to an email?",
+            "options": [
+              "reply to an email",
+              "answer to an email",
+              "tell an email",
+              "say an email"
+            ],
+            "answer": "reply to an email"
+          },
+          {
+            "id": "q5",
+            "question": "Which is correct for answering the door?",
+            "options": [
+              "answer the door",
+              "reply to the door",
+              "tell the door",
+              "say the door"
+            ],
+            "answer": "answer the door"
+          },
+          {
+            "id": "q6",
+            "question": "'Ask someone for something' means...",
+            "options": [
+              "request something from them",
+              "tell them something",
+              "answer their question",
+              "talk to them"
+            ],
+            "answer": "request something from them"
+          }
+        ]
+      },
+      {
+        "id": "u48-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Tell\" is usually followed directly by a person (tell someone).",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Say\" is usually followed directly by a person without 'to' (say someone).",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Speak\" can be used to talk about languages, e.g. 'speak English'.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Reply to the door\" is correct English.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Ask someone the time\" is a correct structure.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Answer\" and \"reply to\" can have a similar meaning.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u48-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "OSTRY",
+            "answer": "STORY"
+          },
+          {
+            "id": "q2",
+            "scrambled": "OEJK",
+            "answer": "JOKE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "OUQETNSI",
+            "answer": "QUESTION"
+          },
+          {
+            "id": "q4",
+            "scrambled": "ESNRWA",
+            "answer": "ANSWER"
+          },
+          {
+            "id": "q5",
+            "scrambled": "DESSADR",
+            "answer": "ADDRESS"
+          },
+          {
+            "id": "q6",
+            "scrambled": "RTINLANUATOGOSC",
+            "answer": "CONGRATULATIONS"
+          }
+        ]
+      }
+    ]
+  },
+  49: {
+    "unit": {
+      "id": "unit-49-moving",
+      "title": "Unit 49: Moving",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u49-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "walk",
+            "right": "đi bộ"
+          },
+          {
+            "left": "run",
+            "right": "chạy"
+          },
+          {
+            "left": "jump",
+            "right": "nhảy"
+          },
+          {
+            "left": "dance",
+            "right": "nhảy, khiêu vũ"
+          },
+          {
+            "left": "swim",
+            "right": "bơi"
+          },
+          {
+            "left": "climb",
+            "right": "trèo, leo"
+          },
+          {
+            "left": "fall",
+            "right": "ngã, rơi"
+          },
+          {
+            "left": "ride",
+            "right": "đi/cưỡi (xe đạp, xe máy, ngựa...)"
+          },
+          {
+            "left": "drive",
+            "right": "lái xe"
+          },
+          {
+            "left": "fly",
+            "right": "bay; đi bằng máy bay"
+          }
+        ]
+      },
+      {
+        "id": "u49-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "walk",
+          "run",
+          "swim",
+          "climb",
+          "fall",
+          "ride",
+          "drive",
+          "fly"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I ______ to school every day; it's not far.",
+            "hint_vi": "đi bộ",
+            "answer": "walk"
+          },
+          {
+            "id": "q2",
+            "sentence": "He can ______ very fast; he's a great athlete.",
+            "hint_vi": "chạy",
+            "answer": "run"
+          },
+          {
+            "id": "q3",
+            "sentence": "We ______ in the sea every summer.",
+            "hint_vi": "bơi",
+            "answer": "swim"
+          },
+          {
+            "id": "q4",
+            "sentence": "They ______ the mountain last weekend.",
+            "hint_vi": "leo",
+            "answer": "climb"
+          },
+          {
+            "id": "q5",
+            "sentence": "Be careful, don't ______ on the ice!",
+            "hint_vi": "ngã",
+            "answer": "fall"
+          },
+          {
+            "id": "q6",
+            "sentence": "Can you ______ a bicycle?",
+            "hint_vi": "đi (xe đạp)",
+            "answer": "ride"
+          },
+          {
+            "id": "q7",
+            "sentence": "My mother doesn't ______ a car.",
+            "hint_vi": "lái",
+            "answer": "drive"
+          },
+          {
+            "id": "q8",
+            "sentence": "We ______ to Paris every summer.",
+            "hint_vi": "bay",
+            "answer": "fly"
+          }
+        ]
+      },
+      {
+        "id": "u49-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which verb do you use for a bicycle or a horse?",
+            "options": [
+              "ride",
+              "drive",
+              "fly",
+              "walk"
+            ],
+            "answer": "ride"
+          },
+          {
+            "id": "q2",
+            "question": "Which verb do you use for a car?",
+            "options": [
+              "drive",
+              "ride",
+              "fly",
+              "climb"
+            ],
+            "answer": "drive"
+          },
+          {
+            "id": "q3",
+            "question": "Which verb do you use for a plane?",
+            "options": [
+              "fly",
+              "drive",
+              "ride",
+              "walk"
+            ],
+            "answer": "fly"
+          },
+          {
+            "id": "q4",
+            "question": "'Arrive at' is usually followed by...",
+            "options": [
+              "a specific place, e.g. the station",
+              "a city or country",
+              "a person",
+              "a time only"
+            ],
+            "answer": "a specific place, e.g. the station"
+          },
+          {
+            "id": "q5",
+            "question": "'Arrive in' is usually followed by...",
+            "options": [
+              "a city or country",
+              "a small specific place",
+              "a vehicle",
+              "a person"
+            ],
+            "answer": "a city or country"
+          },
+          {
+            "id": "q6",
+            "question": "Which sentence is correct?",
+            "options": [
+              "I go to work by bicycle.",
+              "I go to work by a bicycle.",
+              "I go to work by the bicycle.",
+              "I go to work with bicycle."
+            ],
+            "answer": "I go to work by bicycle."
+          }
+        ]
+      },
+      {
+        "id": "u49-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "You \"ride\" a bicycle.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "You \"drive\" a bicycle.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Arrive in London\" is correct because London is a city.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "The past tense of \"fall\" is \"falled\".",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "The past tense of \"swim\" is \"swam\".",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "The past tense of \"fly\" is \"flied\".",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u49-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "ILMCB",
+            "answer": "CLIMB"
+          },
+          {
+            "id": "q2",
+            "scrambled": "ISWM",
+            "answer": "SWIM"
+          },
+          {
+            "id": "q3",
+            "scrambled": "ACNED",
+            "answer": "DANCE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "NROTAPRTS",
+            "answer": "TRANSPORT"
+          },
+          {
+            "id": "q5",
+            "scrambled": "GGGAULE",
+            "answer": "LUGGAGE"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ERAVIR",
+            "answer": "ARRIVE"
+          }
+        ]
+      }
+    ]
+  },
+  50: {
+    "unit": {
+      "id": "unit-50-conjunctions",
+      "title": "Unit 50: Conjunctions and connecting words",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u50-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "and",
+            "right": "và"
+          },
+          {
+            "left": "but",
+            "right": "nhưng"
+          },
+          {
+            "left": "or",
+            "right": "hoặc, hay"
+          },
+          {
+            "left": "because",
+            "right": "bởi vì"
+          },
+          {
+            "left": "so",
+            "right": "vì vậy, nên"
+          },
+          {
+            "left": "when",
+            "right": "khi"
+          },
+          {
+            "left": "before",
+            "right": "trước khi"
+          },
+          {
+            "left": "after",
+            "right": "sau khi"
+          },
+          {
+            "left": "if",
+            "right": "nếu"
+          },
+          {
+            "left": "than",
+            "right": "hơn, so với"
+          }
+        ]
+      },
+      {
+        "id": "u50-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "and",
+          "but",
+          "because",
+          "so",
+          "when",
+          "before",
+          "if",
+          "than"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I like tea ______ coffee.",
+            "hint_vi": "và",
+            "answer": "and"
+          },
+          {
+            "id": "q2",
+            "sentence": "I like it, ______ it's expensive.",
+            "hint_vi": "nhưng",
+            "answer": "but"
+          },
+          {
+            "id": "q3",
+            "sentence": "I stayed home ______ I was tired.",
+            "hint_vi": "bởi vì",
+            "answer": "because"
+          },
+          {
+            "id": "q4",
+            "sentence": "I was tired, ______ I went to bed.",
+            "hint_vi": "vì vậy",
+            "answer": "so"
+          },
+          {
+            "id": "q5",
+            "sentence": "Call me ______ you get home.",
+            "hint_vi": "khi",
+            "answer": "when"
+          },
+          {
+            "id": "q6",
+            "sentence": "Wash your hands ______ you eat.",
+            "hint_vi": "trước khi",
+            "answer": "before"
+          },
+          {
+            "id": "q7",
+            "sentence": "______ it rains, I will stay home.",
+            "hint_vi": "nếu",
+            "answer": "If"
+          },
+          {
+            "id": "q8",
+            "sentence": "My car is bigger ______ yours.",
+            "hint_vi": "hơn",
+            "answer": "than"
+          }
+        ]
+      },
+      {
+        "id": "u50-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which conjunction gives a reason?",
+            "options": [
+              "because",
+              "and",
+              "or",
+              "but"
+            ],
+            "answer": "because"
+          },
+          {
+            "id": "q2",
+            "question": "Which conjunction shows a result?",
+            "options": [
+              "so",
+              "because",
+              "if",
+              "before"
+            ],
+            "answer": "so"
+          },
+          {
+            "id": "q3",
+            "question": "Which conjunction shows a condition?",
+            "options": [
+              "if",
+              "and",
+              "but",
+              "after"
+            ],
+            "answer": "if"
+          },
+          {
+            "id": "q4",
+            "question": "Which word means 'also'?",
+            "options": [
+              "as well",
+              "than",
+              "like",
+              "if"
+            ],
+            "answer": "as well"
+          },
+          {
+            "id": "q5",
+            "question": "Which word is used to compare two things, e.g. 'bigger ___ mine'?",
+            "options": [
+              "than",
+              "like",
+              "also",
+              "too"
+            ],
+            "answer": "than"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means 'similar to', e.g. 'He runs ___ his father'?",
+            "options": [
+              "like",
+              "than",
+              "so",
+              "if"
+            ],
+            "answer": "like"
+          }
+        ]
+      },
+      {
+        "id": "u50-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Because\" is used to give a reason.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Before\" and \"after\" have opposite meanings related to time.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Or\" is used to give two alternatives.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Also\", \"too\" and \"as well\" can all mean a similar thing.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Than\" is used to make a comparison.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Only\" means 'a lot of' or 'many'.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u50-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "BCAESUE",
+            "answer": "BECAUSE"
+          },
+          {
+            "id": "q2",
+            "scrambled": "OREBEF",
+            "answer": "BEFORE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "NJCOCNOUNTI",
+            "answer": "CONJUNCTION"
+          },
+          {
+            "id": "q4",
+            "scrambled": "EWEOHVR",
+            "answer": "HOWEVER"
+          },
+          {
+            "id": "q5",
+            "scrambled": "LSAO",
+            "answer": "ALSO"
+          },
+          {
+            "id": "q6",
+            "scrambled": "LNYO",
+            "answer": "ONLY"
+          }
+        ]
+      }
+    ]
   }
 };
