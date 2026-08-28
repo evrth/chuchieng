@@ -11900,26 +11900,815 @@ const VOCAB_UNITS = [
   {
     "id": 56,
     "title": "Common adjectives: Good and bad things",
-    "words": []
+    "words": [
+      {
+        "type": "Adjective",
+        "word": "good",
+        "ipa": "/ɡʊd/",
+        "meaning": "tốt, hay",
+        "example": "This book is good.",
+        "exampleVi": "Quyển sách này hay."
+      },
+      {
+        "type": "Adjective",
+        "word": "excellent",
+        "ipa": "/ˈeksələnt/",
+        "meaning": "xuất sắc, tuyệt vời",
+        "example": "Your English is excellent.",
+        "exampleVi": "Tiếng Anh của bạn rất xuất sắc."
+      },
+      {
+        "type": "Adjective",
+        "word": "wonderful",
+        "ipa": "/ˈwʌndərfəl/",
+        "meaning": "tuyệt vời",
+        "example": "We had a wonderful time.",
+        "exampleVi": "Chúng tôi đã có một khoảng thời gian tuyệt vời."
+      },
+      {
+        "type": "Adjective",
+        "word": "nice",
+        "ipa": "/naɪs/",
+        "meaning": "tốt, dễ chịu, đẹp",
+        "example": "She is a nice person.",
+        "exampleVi": "Cô ấy là một người tốt."
+      },
+      {
+        "type": "Adjective",
+        "word": "lovely",
+        "ipa": "/ˈlʌvli/",
+        "meaning": "đáng yêu, tuyệt vời, dễ chịu",
+        "example": "We had a lovely day.",
+        "exampleVi": "Chúng tôi đã có một ngày tuyệt vời."
+      },
+      {
+        "type": "Adjective",
+        "word": "great",
+        "ipa": "/ɡreɪt/",
+        "meaning": "tuyệt, rất tốt",
+        "example": "The film was great.",
+        "exampleVi": "Bộ phim rất hay."
+      },
+      {
+        "type": "Phrase",
+        "word": "every good",
+        "ipa": "/ˈevri ɡʊd/",
+        "meaning": "mọi điều tốt đẹp (cụm không hoàn chỉnh)",
+        "example": "I wish you every good thing.",
+        "exampleVi": "Tôi chúc bạn mọi điều tốt đẹp."
+      },
+      {
+        "type": "Phrase",
+        "word": "very bad",
+        "ipa": "/ˈveri bæd/",
+        "meaning": "rất tệ",
+        "example": "The weather is very bad today.",
+        "exampleVi": "Thời tiết hôm nay rất tệ."
+      },
+      {
+        "type": "Adjective",
+        "word": "dreadful",
+        "ipa": "/ˈdredfəl/",
+        "meaning": "kinh khủng, rất tệ",
+        "example": "The food was dreadful.",
+        "exampleVi": "Đồ ăn rất tệ."
+      },
+      {
+        "type": "Adjective",
+        "word": "horrible",
+        "ipa": "/ˈhɔːrəbəl/",
+        "meaning": "kinh khủng, tồi tệ",
+        "example": "I had a horrible day.",
+        "exampleVi": "Tôi đã có một ngày kinh khủng."
+      },
+      {
+        "type": "Adjective",
+        "word": "terrible",
+        "ipa": "/ˈterəbəl/",
+        "meaning": "khủng khiếp, rất tệ",
+        "example": "The weather was terrible.",
+        "exampleVi": "Thời tiết rất tệ."
+      },
+      {
+        "type": "Adjective",
+        "word": "perfect",
+        "ipa": "/ˈpɜːrfɪkt/",
+        "meaning": "hoàn hảo",
+        "example": "The weather is perfect today.",
+        "exampleVi": "Thời tiết hôm nay hoàn hảo."
+      },
+      {
+        "type": "Phrase",
+        "word": "not bad",
+        "ipa": "/nɑːt bæd/",
+        "meaning": "không tệ, khá tốt",
+        "example": "The film was not bad.",
+        "exampleVi": "Bộ phim cũng khá hay."
+      },
+      {
+        "type": "Exclamation",
+        "word": "How awful!",
+        "ipa": "/haʊ ˈɔːfəl/",
+        "meaning": "Thật kinh khủng!",
+        "example": "How awful! I feel sorry for her.",
+        "exampleVi": "Thật kinh khủng! Tôi thấy thương cô ấy."
+      },
+      {
+        "type": "Exclamation",
+        "word": "How horrible!",
+        "ipa": "/haʊ ˈhɔːrəbəl/",
+        "meaning": "Thật khủng khiếp!",
+        "example": "How horrible!",
+        "exampleVi": "Thật khủng khiếp!"
+      },
+      {
+        "type": "Exclamation",
+        "word": "How nice!",
+        "ipa": "/haʊ naɪs/",
+        "meaning": "Thật tuyệt! / Dễ thương quá!",
+        "example": "How nice! I love your new dress.",
+        "exampleVi": "Tuyệt quá! Tôi thích chiếc váy mới của bạn."
+      },
+      {
+        "type": "Exclamation",
+        "word": "How wonderful!",
+        "ipa": "/haʊ ˈwʌndərfəl/",
+        "meaning": "Tuyệt vời quá!",
+        "example": "How wonderful! You passed your exam!",
+        "exampleVi": "Tuyệt vời quá! Bạn đã đỗ kỳ thi!"
+      },
+      {
+        "type": "Exclamation",
+        "word": "How lovely!",
+        "ipa": "/haʊ ˈlʌvli/",
+        "meaning": "Tuyệt quá! / Đáng yêu quá!",
+        "example": "How lovely! What a beautiful baby!",
+        "exampleVi": "Đáng yêu quá! Một em bé thật đẹp!"
+      }
+    ]
   },
   {
     "id": 57,
     "title": "Words and prepositions",
-    "words": []
+    "words": [
+      {
+        "type": "Verb + prep.",
+        "word": "listen to",
+        "ipa": "/ˈlɪsən tuː/",
+        "meaning": "nghe",
+        "example": "I listen to music every day.",
+        "exampleVi": "Tôi nghe nhạc mỗi ngày."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "wait for",
+        "ipa": "/weɪt fɔːr/",
+        "meaning": "chờ đợi",
+        "example": "Please wait for me.",
+        "exampleVi": "Làm ơn đợi tôi."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "ask for",
+        "ipa": "/æsk fɔːr/",
+        "meaning": "yêu cầu, xin",
+        "example": "I asked for some water.",
+        "exampleVi": "Tôi đã xin một ít nước."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "pay for",
+        "ipa": "/peɪ fɔːr/",
+        "meaning": "trả tiền cho",
+        "example": "I paid for the food.",
+        "exampleVi": "Tôi đã trả tiền cho đồ ăn."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "come to",
+        "ipa": "/kʌm tuː/",
+        "meaning": "đến",
+        "example": "Come to my house tomorrow.",
+        "exampleVi": "Ngày mai hãy đến nhà tôi."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "belong to",
+        "ipa": "/bɪˈlɔːŋ tuː/",
+        "meaning": "thuộc về",
+        "example": "This bag belongs to me.",
+        "exampleVi": "Cái túi này thuộc về tôi."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "think about",
+        "ipa": "/θɪŋk əˈbaʊt/",
+        "meaning": "nghĩ về",
+        "example": "I think about my family every day.",
+        "exampleVi": "Tôi nghĩ về gia đình mỗi ngày."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "thank ... for",
+        "ipa": "/θæŋk ... fɔːr/",
+        "meaning": "cảm ơn ai vì điều gì",
+        "example": "I thanked her for the gift.",
+        "exampleVi": "Tôi cảm ơn cô ấy vì món quà."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "apologise for",
+        "ipa": "/əˈpɑːlədʒaɪz fɔːr/",
+        "meaning": "xin lỗi vì",
+        "example": "I apologised for my mistake.",
+        "exampleVi": "Tôi xin lỗi vì lỗi của mình."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "look at",
+        "ipa": "/lʊk æt/",
+        "meaning": "nhìn vào",
+        "example": "Look at this picture.",
+        "exampleVi": "Hãy nhìn bức tranh này."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "look for",
+        "ipa": "/lʊk fɔːr/",
+        "meaning": "tìm kiếm",
+        "example": "I'm looking for my keys.",
+        "exampleVi": "Tôi đang tìm chìa khóa."
+      },
+      {
+        "type": "Phrasal verb",
+        "word": "look after",
+        "ipa": "/lʊk ˈæftər/",
+        "meaning": "chăm sóc",
+        "example": "She looks after her baby.",
+        "exampleVi": "Cô ấy chăm sóc em bé."
+      },
+      {
+        "type": "Verb + prep.",
+        "word": "look forward to",
+        "ipa": "/lʊk ˈfɔːrwərd tuː/",
+        "meaning": "mong chờ",
+        "example": "I look forward to the holiday.",
+        "exampleVi": "Tôi mong chờ kỳ nghỉ."
+      },
+      {
+        "type": "Adjective + prep.",
+        "word": "good at",
+        "ipa": "/ɡʊd æt/",
+        "meaning": "giỏi về",
+        "example": "She is good at English.",
+        "exampleVi": "Cô ấy giỏi tiếng Anh."
+      },
+      {
+        "type": "Adjective + prep.",
+        "word": "bad at",
+        "ipa": "/bæd æt/",
+        "meaning": "kém về",
+        "example": "I'm bad at maths.",
+        "exampleVi": "Tôi kém môn toán."
+      },
+      {
+        "type": "Adjective + prep.",
+        "word": "interested in",
+        "ipa": "/ˈɪntrəstɪd ɪn/",
+        "meaning": "quan tâm, hứng thú với",
+        "example": "I'm interested in music.",
+        "exampleVi": "Tôi thích thú với âm nhạc."
+      },
+      {
+        "type": "Adjective + prep.",
+        "word": "afraid of",
+        "ipa": "/əˈfreɪd əv/",
+        "meaning": "sợ",
+        "example": "He is afraid of dogs.",
+        "exampleVi": "Anh ấy sợ chó."
+      },
+      {
+        "type": "Adjective + prep.",
+        "word": "proud of",
+        "ipa": "/praʊd əv/",
+        "meaning": "tự hào về",
+        "example": "I'm proud of my son.",
+        "exampleVi": "Tôi tự hào về con trai tôi."
+      },
+      {
+        "type": "Adjective / phrase",
+        "word": "used to",
+        "ipa": "/ˈjuːst tuː/",
+        "meaning": "đã quen với; từng",
+        "example": "I am used to cold weather.",
+        "exampleVi": "Tôi đã quen với thời tiết lạnh."
+      },
+      {
+        "type": "Phrase",
+        "word": "get used to",
+        "ipa": "/ɡet ˈjuːst tuː/",
+        "meaning": "dần quen với",
+        "example": "I am getting used to my new school.",
+        "exampleVi": "Tôi đang dần quen với trường mới."
+      },
+      {
+        "type": "Adjective + prep.",
+        "word": "happy about",
+        "ipa": "/ˈhæpi əˈbaʊt/",
+        "meaning": "vui, hài lòng về",
+        "example": "She is happy about her new job.",
+        "exampleVi": "Cô ấy vui về công việc mới."
+      }
+    ]
   },
   {
     "id": 58,
     "title": "Prefixes",
-    "words": []
+    "words": [
+      {
+        "type": "Prefix",
+        "word": "ex- + noun",
+        "ipa": "/ˈeks/",
+        "meaning": "cựu-, người từng là...",
+        "example": "He is my ex-boss.",
+        "exampleVi": "Anh ấy là sếp cũ của tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "ex-wife",
+        "ipa": "/ˌeks ˈwaɪf/",
+        "meaning": "vợ cũ",
+        "example": "His ex-wife lives in London.",
+        "exampleVi": "Vợ cũ của anh ấy sống ở London."
+      },
+      {
+        "type": "Noun",
+        "word": "ex-boyfriend",
+        "ipa": "/ˌeks ˈbɔɪfrend/",
+        "meaning": "bạn trai cũ",
+        "example": "I met my ex-boyfriend yesterday.",
+        "exampleVi": "Tôi gặp bạn trai cũ hôm qua."
+      },
+      {
+        "type": "Prefix",
+        "word": "half- + noun/adjective",
+        "ipa": "/ˈhæf/",
+        "meaning": "nửa-, một nửa",
+        "example": "I waited for half an hour.",
+        "exampleVi": "Tôi đã đợi nửa giờ."
+      },
+      {
+        "type": "Adjective",
+        "word": "half-price",
+        "ipa": "/ˌhæf ˈpraɪs/",
+        "meaning": "nửa giá",
+        "example": "These shoes are half-price today.",
+        "exampleVi": "Những đôi giày này hôm nay được bán với nửa giá."
+      },
+      {
+        "type": "Noun",
+        "word": "half-hour",
+        "ipa": "/ˈhæf aʊr/",
+        "meaning": "nửa giờ",
+        "example": "The lesson is a half-hour long.",
+        "exampleVi": "Bài học kéo dài nửa giờ."
+      },
+      {
+        "type": "Prefix",
+        "word": "in-/im- + adjective",
+        "ipa": "/ɪn-, ɪm-/",
+        "meaning": "không-, trái với...",
+        "example": "This word is informal.",
+        "exampleVi": "Từ này không trang trọng."
+      },
+      {
+        "type": "Adjective",
+        "word": "informal",
+        "ipa": "/ɪnˈfɔːrməl/",
+        "meaning": "không trang trọng, thân mật",
+        "example": "This is an informal letter.",
+        "exampleVi": "Đây là một lá thư không trang trọng."
+      },
+      {
+        "type": "Adjective",
+        "word": "impossible",
+        "ipa": "/ɪmˈpɑːsəbəl/",
+        "meaning": "không thể",
+        "example": "It is impossible to do it today.",
+        "exampleVi": "Không thể làm việc đó hôm nay."
+      },
+      {
+        "type": "Prefix",
+        "word": "non- + adjective/noun",
+        "ipa": "/ˌnɑːn/",
+        "meaning": "không-, không thuộc loại...",
+        "example": "This is a non-smoking room.",
+        "exampleVi": "Đây là phòng không hút thuốc."
+      },
+      {
+        "type": "Adjective",
+        "word": "non-smoking",
+        "ipa": "/ˌnɑːn ˈsmoʊkɪŋ/",
+        "meaning": "không hút thuốc",
+        "example": "This is a non-smoking area.",
+        "exampleVi": "Đây là khu vực không hút thuốc."
+      },
+      {
+        "type": "Prefix",
+        "word": "pre- + noun/adjective/verb",
+        "ipa": "/ˌpriː/",
+        "meaning": "trước-, tiền-",
+        "example": "The children go to pre-school.",
+        "exampleVi": "Những đứa trẻ đi học mầm non."
+      },
+      {
+        "type": "Noun",
+        "word": "pre-school",
+        "ipa": "/ˈpriːskuːl/",
+        "meaning": "trường mầm non, giáo dục trước tiểu học",
+        "example": "My daughter goes to pre-school.",
+        "exampleVi": "Con gái tôi đi học mầm non."
+      },
+      {
+        "type": "Verb",
+        "word": "pre-heat",
+        "ipa": "/ˌpriːˈhiːt/",
+        "meaning": "làm nóng trước",
+        "example": "Pre-heat the oven to 180°C.",
+        "exampleVi": "Làm nóng lò trước đến 180°C."
+      },
+      {
+        "type": "Prefix",
+        "word": "re- + verb",
+        "ipa": "/ˌriː/",
+        "meaning": "lại, một lần nữa",
+        "example": "Please rewrite the sentence.",
+        "exampleVi": "Hãy viết lại câu này."
+      },
+      {
+        "type": "Verb",
+        "word": "redo",
+        "ipa": "/ˌriːˈduː/",
+        "meaning": "làm lại",
+        "example": "I have to redo my homework.",
+        "exampleVi": "Tôi phải làm lại bài tập về nhà."
+      },
+      {
+        "type": "Verb",
+        "word": "rewrite",
+        "ipa": "/ˌriːˈraɪt/",
+        "meaning": "viết lại",
+        "example": "Please rewrite this sentence.",
+        "exampleVi": "Hãy viết lại câu này."
+      },
+      {
+        "type": "Prefix",
+        "word": "un- + adjective/noun",
+        "ipa": "/ʌn-/",
+        "meaning": "không-, trái nghĩa với...",
+        "example": "She is unhappy today.",
+        "exampleVi": "Hôm nay cô ấy không vui."
+      },
+      {
+        "type": "Adjective",
+        "word": "unhappy",
+        "ipa": "/ʌnˈhæpi/",
+        "meaning": "không vui, buồn",
+        "example": "He looks unhappy.",
+        "exampleVi": "Anh ấy trông có vẻ không vui."
+      },
+      {
+        "type": "Adjective",
+        "word": "unsafe",
+        "ipa": "/ʌnˈseɪf/",
+        "meaning": "không an toàn",
+        "example": "This road is unsafe at night.",
+        "exampleVi": "Con đường này không an toàn vào ban đêm."
+      }
+    ]
   },
   {
     "id": 59,
     "title": "Suffixes",
-    "words": []
+    "words": [
+      {
+        "type": "Suffix",
+        "word": "-er / -or (n)",
+        "ipa": "/ər/, /ɔːr/",
+        "meaning": "hậu tố tạo danh từ chỉ người/vật thực hiện hành động",
+        "example": "A worker works in a company.",
+        "exampleVi": "Một công nhân làm việc trong một công ty."
+      },
+      {
+        "type": "Noun",
+        "word": "worker",
+        "ipa": "/ˈwɜːrkər/",
+        "meaning": "người lao động, công nhân",
+        "example": "My father is a worker.",
+        "exampleVi": "Bố tôi là một người lao động."
+      },
+      {
+        "type": "Noun",
+        "word": "swimmer",
+        "ipa": "/ˈswɪmər/",
+        "meaning": "người bơi",
+        "example": "He is a good swimmer.",
+        "exampleVi": "Anh ấy là một người bơi giỏi."
+      },
+      {
+        "type": "Noun",
+        "word": "instructor",
+        "ipa": "/ɪnˈstrʌktər/",
+        "meaning": "người hướng dẫn, giảng viên",
+        "example": "The instructor teaches us to swim.",
+        "exampleVi": "Người hướng dẫn dạy chúng tôi bơi."
+      },
+      {
+        "type": "Noun",
+        "word": "cooker",
+        "ipa": "/ˈkʊkər/",
+        "meaning": "bếp nấu; người nấu ăn (tùy ngữ cảnh)",
+        "example": "The cooker is in the kitchen.",
+        "exampleVi": "Bếp nấu ở trong nhà bếp."
+      },
+      {
+        "type": "Noun",
+        "word": "calculator",
+        "ipa": "/ˈkælkjəleɪtər/",
+        "meaning": "máy tính",
+        "example": "I use a calculator at school.",
+        "exampleVi": "Tôi dùng máy tính ở trường."
+      },
+      {
+        "type": "Suffix",
+        "word": "-ful (adj)",
+        "ipa": "/fəl/",
+        "meaning": "đầy, có nhiều...; tạo tính từ",
+        "example": "This book is useful.",
+        "exampleVi": "Quyển sách này hữu ích."
+      },
+      {
+        "type": "Adjective",
+        "word": "useful",
+        "ipa": "/ˈjuːsfəl/",
+        "meaning": "hữu ích",
+        "example": "This app is very useful.",
+        "exampleVi": "Ứng dụng này rất hữu ích."
+      },
+      {
+        "type": "Adjective",
+        "word": "beautiful",
+        "ipa": "/ˈbjuːtəfəl/",
+        "meaning": "đẹp",
+        "example": "She has a beautiful dress.",
+        "exampleVi": "Cô ấy có một chiếc váy đẹp."
+      },
+      {
+        "type": "Suffix",
+        "word": "-less (adj)",
+        "ipa": "/ləs/",
+        "meaning": "không có, thiếu...",
+        "example": "This phone is useless.",
+        "exampleVi": "Chiếc điện thoại này vô dụng."
+      },
+      {
+        "type": "Adjective",
+        "word": "useless",
+        "ipa": "/ˈjuːsləs/",
+        "meaning": "vô dụng, không hữu ích",
+        "example": "This old computer is useless.",
+        "exampleVi": "Chiếc máy tính cũ này vô dụng."
+      },
+      {
+        "type": "Adjective",
+        "word": "endless",
+        "ipa": "/ˈendləs/",
+        "meaning": "vô tận, không có điểm kết thúc",
+        "example": "The road looks endless.",
+        "exampleVi": "Con đường trông như vô tận."
+      },
+      {
+        "type": "Suffix",
+        "word": "-ly (adv)",
+        "ipa": "/li/",
+        "meaning": "hậu tố thường tạo trạng từ, chỉ cách thức",
+        "example": "She speaks quickly.",
+        "exampleVi": "Cô ấy nói nhanh."
+      },
+      {
+        "type": "Adverb",
+        "word": "quickly",
+        "ipa": "/ˈkwɪkli/",
+        "meaning": "một cách nhanh chóng",
+        "example": "He runs quickly.",
+        "exampleVi": "Anh ấy chạy nhanh."
+      },
+      {
+        "type": "Adverb",
+        "word": "happily",
+        "ipa": "/ˈhæpɪli/",
+        "meaning": "một cách vui vẻ, hạnh phúc",
+        "example": "They live happily together.",
+        "exampleVi": "Họ sống hạnh phúc cùng nhau."
+      },
+      {
+        "type": "Noun",
+        "word": "happiness",
+        "ipa": "/ˈhæpinəs/",
+        "meaning": "hạnh phúc, niềm hạnh phúc",
+        "example": "Money does not always bring happiness.",
+        "exampleVi": "Tiền không phải lúc nào cũng mang lại hạnh phúc."
+      },
+      {
+        "type": "Noun",
+        "word": "sadness",
+        "ipa": "/ˈsædnəs/",
+        "meaning": "nỗi buồn",
+        "example": "I could see her sadness.",
+        "exampleVi": "Tôi có thể thấy nỗi buồn của cô ấy."
+      },
+      {
+        "type": "Suffix",
+        "word": "-y (adj)",
+        "ipa": "/i/",
+        "meaning": "có đặc điểm/chứa nhiều...",
+        "example": "The beach is sandy.",
+        "exampleVi": "Bãi biển có nhiều cát."
+      },
+      {
+        "type": "Adjective",
+        "word": "sandy",
+        "ipa": "/ˈsændi/",
+        "meaning": "đầy cát, có cát",
+        "example": "We walked on a sandy beach.",
+        "exampleVi": "Chúng tôi đi bộ trên một bãi biển đầy cát."
+      },
+      {
+        "type": "Adjective",
+        "word": "sunny",
+        "ipa": "/ˈsʌni/",
+        "meaning": "có nắng, nhiều nắng",
+        "example": "It is sunny today.",
+        "exampleVi": "Hôm nay trời có nắng."
+      }
+    ]
   },
   {
     "id": 60,
     "title": "Words you may confuse",
-    "words": []
+    "words": [
+      {
+        "type": "Adverb",
+        "word": "quite",
+        "ipa": "/kwaɪt/",
+        "meaning": "khá, tương đối; hoàn toàn (tùy ngữ cảnh)",
+        "example": "The film is quite good.",
+        "exampleVi": "Bộ phim khá hay."
+      },
+      {
+        "type": "Adjective",
+        "word": "quiet",
+        "ipa": "/ˈkwaɪət/",
+        "meaning": "yên tĩnh, im lặng",
+        "example": "The room is very quiet.",
+        "exampleVi": "Căn phòng rất yên tĩnh."
+      },
+      {
+        "type": "Verb",
+        "word": "lose",
+        "ipa": "/luːz/",
+        "meaning": "làm mất, thua",
+        "example": "I don't want to lose my phone.",
+        "exampleVi": "Tôi không muốn làm mất điện thoại."
+      },
+      {
+        "type": "Adjective",
+        "word": "loose",
+        "ipa": "/luːs/",
+        "meaning": "rộng, lỏng; không chặt",
+        "example": "These trousers are too loose.",
+        "exampleVi": "Chiếc quần này quá rộng."
+      },
+      {
+        "type": "Verb",
+        "word": "fell",
+        "ipa": "/fel/",
+        "meaning": "đã ngã; đã đốn (quá khứ của fall)",
+        "example": "I fell off my bike.",
+        "exampleVi": "Tôi đã ngã khỏi xe đạp."
+      },
+      {
+        "type": "Verb",
+        "word": "felt",
+        "ipa": "/felt/",
+        "meaning": "đã cảm thấy; đã sờ thấy (quá khứ của feel)",
+        "example": "I felt tired yesterday.",
+        "exampleVi": "Hôm qua tôi cảm thấy mệt."
+      },
+      {
+        "type": "Verb",
+        "word": "cook",
+        "ipa": "/kʊk/",
+        "meaning": "nấu ăn",
+        "example": "I cook dinner every day.",
+        "exampleVi": "Tôi nấu bữa tối mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "cooker",
+        "ipa": "/ˈkʊkər/",
+        "meaning": "bếp nấu",
+        "example": "The food is on the cooker.",
+        "exampleVi": "Đồ ăn ở trên bếp."
+      },
+      {
+        "type": "Verb",
+        "word": "lend",
+        "ipa": "/lend/",
+        "meaning": "cho ai mượn",
+        "example": "Can you lend me your pen?",
+        "exampleVi": "Bạn có thể cho tôi mượn bút không?"
+      },
+      {
+        "type": "Verb",
+        "word": "borrow",
+        "ipa": "/ˈbɑːroʊ/",
+        "meaning": "mượn từ ai",
+        "example": "Can I borrow your pen?",
+        "exampleVi": "Tôi có thể mượn bút của bạn không?"
+      },
+      {
+        "type": "Verb",
+        "word": "check",
+        "ipa": "/tʃek/",
+        "meaning": "kiểm tra",
+        "example": "Please check your answer.",
+        "exampleVi": "Hãy kiểm tra câu trả lời của bạn."
+      },
+      {
+        "type": "Noun / Verb",
+        "word": "control",
+        "ipa": "/kənˈtroʊl/",
+        "meaning": "sự kiểm soát; kiểm soát",
+        "example": "Who is in control of the car?",
+        "exampleVi": "Ai đang điều khiển chiếc xe?"
+      },
+      {
+        "type": "Phrase",
+        "word": "mixed up",
+        "ipa": "/mɪkst ʌp/",
+        "meaning": "bị nhầm lẫn, lộn xộn",
+        "example": "I got the two names mixed up.",
+        "exampleVi": "Tôi đã nhầm hai cái tên."
+      },
+      {
+        "type": "Phrase",
+        "word": "waiting for",
+        "ipa": "/ˈweɪtɪŋ fɔːr/",
+        "meaning": "đang chờ",
+        "example": "I'm waiting for the bus.",
+        "exampleVi": "Tôi đang chờ xe buýt."
+      },
+      {
+        "type": "Verb",
+        "word": "hope",
+        "ipa": "/hoʊp/",
+        "meaning": "hy vọng",
+        "example": "I hope you are well.",
+        "exampleVi": "Tôi hy vọng bạn khỏe."
+      },
+      {
+        "type": "Verb",
+        "word": "expect",
+        "ipa": "/ɪkˈspekt/",
+        "meaning": "mong đợi, dự kiến",
+        "example": "I expect him to come soon.",
+        "exampleVi": "Tôi mong anh ấy sẽ đến sớm."
+      },
+      {
+        "type": "Noun",
+        "word": "afternoon",
+        "ipa": "/ˌæftərˈnuːn/",
+        "meaning": "buổi chiều",
+        "example": "I study in the afternoon.",
+        "exampleVi": "Tôi học vào buổi chiều."
+      },
+      {
+        "type": "Noun",
+        "word": "evening",
+        "ipa": "/ˈiːvnɪŋ/",
+        "meaning": "buổi tối (thường từ khoảng 18h đến trước khi đi ngủ)",
+        "example": "We watch TV in the evening.",
+        "exampleVi": "Chúng tôi xem TV vào buổi tối."
+      },
+      {
+        "type": "Noun",
+        "word": "night",
+        "ipa": "/naɪt/",
+        "meaning": "ban đêm, tối; đêm",
+        "example": "I usually sleep at night.",
+        "exampleVi": "Tôi thường ngủ vào ban đêm."
+      }
+    ]
   }
 ];

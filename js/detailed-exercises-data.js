@@ -11116,5 +11116,835 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  56: {
+    "unit": {
+      "id": "u56d",
+      "title": "Unit 56: Common adjectives: Good and bad things - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 56.1 hầu hết các câu có nhiều hơn 1 đáp án đúng (ví dụ câu 2 chấp nhận: very bad / terrible / awful / dreadful). Hệ thống chấp nhận bất kỳ đáp án nào trong danh sách accepted_answers."
+    },
+    "exercises": [
+      {
+        "id": "u56d-ex1-sentences",
+        "type": "fill_in_the_blank",
+        "title": "56.1. Complete the sentences.",
+        "instructions_vi": "Điền tính từ phù hợp vào chỗ trống. Nhiều câu có hơn 1 đáp án đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My hair's ______. I must go to the hairdresser's.",
+            "answer": "awful",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "The weather's ______. I don't want to go out.",
+            "answer": "terrible",
+            "accepted_answers": [
+              "very bad",
+              "terrible",
+              "awful",
+              "dreadful"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "The traffic is ______ in the city centre. Take the train.",
+            "answer": "terrible",
+            "accepted_answers": [
+              "terrible",
+              "awful",
+              "dreadful"
+            ]
+          },
+          {
+            "id": "q4",
+            "sentence": "That's a(n) ______ idea! Let's do it!",
+            "answer": "excellent",
+            "accepted_answers": [
+              "excellent",
+              "great",
+              "wonderful"
+            ]
+          },
+          {
+            "id": "q5",
+            "sentence": "How ______! Three exams on the same day!",
+            "answer": "awful",
+            "accepted_answers": [
+              "awful",
+              "horrible"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "What a ______ house! The sea is only 100 metres away!",
+            "answer": "wonderful",
+            "accepted_answers": [
+              "wonderful",
+              "lovely"
+            ]
+          },
+          {
+            "id": "q7",
+            "sentence": "My timetable's not ______. I'm free on Wednesdays and Fridays.",
+            "answer": "bad"
+          },
+          {
+            "id": "q8",
+            "sentence": "We have a ______ view of the mountains from our hotel room.",
+            "answer": "wonderful",
+            "accepted_answers": [
+              "wonderful",
+              "lovely"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u56d-ex2-matching",
+        "type": "matching",
+        "title": "56.2. Match the words on the left with an expression from the right.",
+        "instructions_vi": "Nối tình huống ở cột trái với nhận xét phù hợp ở cột phải.",
+        "pairs": [
+          {
+            "left": "Blue sky, sun 25°",
+            "right": "Lovely weather"
+          },
+          {
+            "left": "Five stars (*****)",
+            "right": "An excellent hotel"
+          },
+          {
+            "left": "I don't want to walk. Let's take a taxi.",
+            "right": "A very good idea"
+          },
+          {
+            "left": "90 out of 100 in an exam",
+            "right": "Wonderful news"
+          },
+          {
+            "left": "(in summer) Grey sky, wind, rain, 4°",
+            "right": "Awful weather"
+          }
+        ]
+      },
+      {
+        "id": "u56d-ex3-classify",
+        "type": "classification",
+        "title": "56.3. Put these words into the good or bad column.",
+        "instructions_vi": "Phân loại mỗi từ sau vào đúng cột 'Good' (tích cực) hoặc 'Bad' (tiêu cực).",
+        "items": [
+          "Dreadful",
+          "Brilliant",
+          "Marvellous",
+          "Nasty",
+          "Fine"
+        ],
+        "categories": {
+          "Good": [
+            "Brilliant",
+            "Marvellous",
+            "Fine"
+          ],
+          "Bad": [
+            "Dreadful",
+            "Nasty"
+          ]
+        }
+      }
+    ]
+  },
+  57: {
+    "unit": {
+      "id": "u57d",
+      "title": "Unit 57: Words and prepositions - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u57d-ex1-matching",
+        "type": "matching",
+        "title": "57.1. Match the words on the left with the words on the right.",
+        "instructions_vi": "Nối vế câu bên trái với vế câu phù hợp bên phải.",
+        "pairs": [
+          {
+            "left": "John is waiting",
+            "right": "for a train to London"
+          },
+          {
+            "left": "This bicycle belongs",
+            "right": "to the hotel"
+          },
+          {
+            "left": "The children thanked their aunt",
+            "right": "for the money"
+          },
+          {
+            "left": "Molly is listening",
+            "right": "to music on her phone"
+          },
+          {
+            "left": "He apologised",
+            "right": "for his mistake"
+          },
+          {
+            "left": "Let me pay",
+            "right": "for our tickets"
+          },
+          {
+            "left": "Javier is thinking",
+            "right": "about the holidays"
+          },
+          {
+            "left": "Over 100 people came",
+            "right": "to the football match"
+          }
+        ]
+      },
+      {
+        "id": "u57d-ex2-look",
+        "type": "fill_in_the_blank",
+        "title": "57.2. Complete these sentences using the appropriate preposition(s) and a word or phrase.",
+        "instructions_vi": "Điền giới từ và từ/cụm từ phù hợp để hoàn thành câu (dùng động từ 'look').",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Isabel's granddaughter can't read yet but she likes looking ______ books.",
+            "answer": "at",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "A nurse looks ______.",
+            "answer": "after people"
+          },
+          {
+            "id": "q3",
+            "sentence": "I can't find my glasses? Could you help me look ______?",
+            "answer": "for them"
+          },
+          {
+            "id": "q4",
+            "sentence": "It's my birthday soon. I'm really looking ______.",
+            "answer": "forward to my party"
+          },
+          {
+            "id": "q5",
+            "sentence": "Why are you looking ______ in that way? Is my face dirty?",
+            "answer": "at me"
+          },
+          {
+            "id": "q6",
+            "sentence": "I don't like my job very much. I'm looking ______.",
+            "answer": "for a new one"
+          },
+          {
+            "id": "q7",
+            "sentence": "Alex is going to France in July. He is looking ______.",
+            "answer": "forward to it"
+          },
+          {
+            "id": "q8",
+            "sentence": "I often look ______ when their parents go out.",
+            "answer": "after the children"
+          }
+        ]
+      },
+      {
+        "id": "u57d-ex3-prepositions",
+        "type": "fill_in_the_blank",
+        "title": "57.3. Write prepositions.",
+        "instructions_vi": "Điền giới từ thích hợp vào đoạn văn về Josephine.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Josephine has got used ______ her new school and is doing well there.",
+            "answer": "to",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "She is very good ______ English and maths.",
+            "answer": "at"
+          },
+          {
+            "id": "q3",
+            "sentence": "She always listens ______ her teachers.",
+            "answer": "to"
+          },
+          {
+            "id": "q4",
+            "sentence": "She is very interested ______ sport.",
+            "answer": "in"
+          },
+          {
+            "id": "q5",
+            "sentence": "She belongs ______ a tennis club and a swimming club.",
+            "answer": "to"
+          },
+          {
+            "id": "q6",
+            "sentence": "Her parents were very proud ______ her when she won a medal for swimming last month.",
+            "answer": "of"
+          },
+          {
+            "id": "q7",
+            "sentence": "Josephine was very happy ______ her medal too, of course.",
+            "answer": "about"
+          },
+          {
+            "id": "q8",
+            "sentence": "She showed it to me when she came ______ my house last Saturday.",
+            "answer": "to"
+          }
+        ]
+      },
+      {
+        "id": "u57d-ex4-usedto",
+        "type": "word_from_definition",
+        "title": "57.4. Hiroshi is a visitor from Japan. Make sentences about what he found strange (✗) and what he didn't find strange (✓).",
+        "instructions_vi": "Viết câu dùng 'was/wasn't used to' dựa vào ký hiệu ✗ (thấy lạ) hoặc ✓ (không thấy lạ).",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "speaking English every day (✗)",
+            "answer": "He wasn't used to speaking English every day.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "driving on the left (✓)",
+            "answer": "Hiroshi was used to driving on the left."
+          },
+          {
+            "id": "q3",
+            "clue": "eating British food (✗)",
+            "answer": "Hiroshi wasn't used to eating British food."
+          },
+          {
+            "id": "q4",
+            "clue": "traffic jams (✓)",
+            "answer": "He was used to traffic jams."
+          },
+          {
+            "id": "q5",
+            "clue": "expensive shops (✓)",
+            "answer": "He was used to expensive shops."
+          },
+          {
+            "id": "q6",
+            "clue": "British money (✗)",
+            "answer": "He wasn't used to British money."
+          }
+        ]
+      }
+    ]
+  },
+  58: {
+    "unit": {
+      "id": "u58d",
+      "title": "Unit 58: Prefixes - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 58.1 câu 2 chấp nhận 2 đáp án đúng (rewrite hoặc redo)."
+    },
+    "exercises": [
+      {
+        "id": "u58d-ex1-choose",
+        "type": "fill_in_the_blank",
+        "title": "58.1. Choose one of the words to fit in these sentences.",
+        "instructions_vi": "Chọn từ phù hợp trong danh sách để hoàn thành câu: ex-wife / ex-boyfriend / half-price / half-hour / informal / impossible / non-smoking / pre-school / pre-heat / redo / rewrite / unhappy / unsafe.",
+        "word_bank": [
+          "ex-wife",
+          "ex-boyfriend",
+          "half-price",
+          "half-hour",
+          "informal",
+          "impossible",
+          "non-smoking",
+          "pre-school",
+          "pre-heat",
+          "redo",
+          "rewrite",
+          "unhappy",
+          "unsafe"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "This part of the restaurant is ______.",
+            "answer": "non-smoking",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "I can't read this. Please ______ your homework.",
+            "answer": "rewrite",
+            "accepted_answers": [
+              "rewrite",
+              "redo"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "In ______ English we often say 'Hi', not 'Good morning'.",
+            "answer": "informal"
+          },
+          {
+            "id": "q4",
+            "sentence": "I liked school but my sister was very ______ there.",
+            "answer": "unhappy"
+          },
+          {
+            "id": "q5",
+            "sentence": "I bought two T-shirts because they were ______ in the sale.",
+            "answer": "half-price"
+          },
+          {
+            "id": "q6",
+            "sentence": "Don't walk on that wall - the notice says it is ______.",
+            "answer": "unsafe"
+          }
+        ]
+      },
+      {
+        "id": "u58d-ex2-negatives",
+        "type": "word_from_definition",
+        "title": "58.2. Find the negative forms of these words.",
+        "instructions_vi": "Tìm dạng phủ định của các từ sau bằng cách thêm tiền tố phù hợp.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "possible",
+            "answer": "impossible",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "comfortable",
+            "answer": "uncomfortable"
+          },
+          {
+            "id": "q3",
+            "clue": "polite",
+            "answer": "impolite"
+          },
+          {
+            "id": "q4",
+            "clue": "pleasant",
+            "answer": "unpleasant"
+          },
+          {
+            "id": "q5",
+            "clue": "attractive",
+            "answer": "unattractive"
+          }
+        ]
+      }
+    ]
+  },
+  59: {
+    "unit": {
+      "id": "u59d",
+      "title": "Unit 59: Suffixes - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 59.2: nhiều tính từ có thể đi với hơn 1 danh từ — hệ thống chấp nhận khi bạn chọn đúng ít nhất 1 danh từ hợp lý và không chọn đáp án sai."
+    },
+    "exercises": [
+      {
+        "id": "u59d-ex1-pictures",
+        "type": "labeling",
+        "title": "59.1. Which of the example words do these pictures illustrate?",
+        "instructions_vi": "Nhìn hình và chọn từ phù hợp trong danh sách: worker / swimmer / instructor / cooker / calculator / useful / beautiful / useless / endless / quickly / happily / happiness / sadness / sandy / sunny.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u59-sunny.jpg",
+            "answer": "sunny",
+            "accepted_answers": [
+              "sunny",
+              "a sunny day"
+            ],
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Đây là ai/gì? (a golf ______)",
+            "image": "images/exercises/u59-instructor.jpg",
+            "answer": "instructor"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Đây là ai?",
+            "image": "images/exercises/u59-swimmer.jpg",
+            "answer": "swimmer"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Anh ấy đang làm gì? (smiling ______)",
+            "image": "images/exercises/u59-happily.jpg",
+            "answer": "happily"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Đây là gì?",
+            "image": "images/exercises/u59-calculator.jpg",
+            "answer": "calculator"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Đây là một thứ (a ______ thing)",
+            "image": "images/exercises/u59-useful.jpg",
+            "answer": "useful"
+          }
+        ]
+      },
+      {
+        "id": "u59d-ex2-adjnoun",
+        "type": "multi_select",
+        "title": "59.2. Find the adjectives and match them with the nouns they go with. Some adjectives can go with more than one noun.",
+        "instructions_vi": "Với mỗi tính từ, chọn (các) danh từ phù hợp có thể đi cùng — có thể chọn nhiều hơn 1 danh từ.",
+        "word_bank": [
+          "worker",
+          "cooker",
+          "weather",
+          "car",
+          "idea",
+          "book",
+          "fun",
+          "beach",
+          "swimmer",
+          "guitar",
+          "smile",
+          "picture"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "prompt": "1. electric",
+            "correct_answers": [
+              "cooker",
+              "guitar"
+            ],
+            "min_required": 1,
+            "example": true
+          },
+          {
+            "id": "q2",
+            "prompt": "2. fast",
+            "correct_answers": [
+              "worker",
+              "car",
+              "swimmer"
+            ],
+            "min_required": 1
+          },
+          {
+            "id": "q3",
+            "prompt": "3. beautiful",
+            "correct_answers": [
+              "beach",
+              "weather",
+              "car",
+              "book",
+              "smile",
+              "picture"
+            ],
+            "min_required": 1
+          },
+          {
+            "id": "q4",
+            "prompt": "4. sandy",
+            "correct_answers": [
+              "beach"
+            ],
+            "min_required": 1
+          },
+          {
+            "id": "q5",
+            "prompt": "5. sunny",
+            "correct_answers": [
+              "weather",
+              "smile"
+            ],
+            "min_required": 1
+          },
+          {
+            "id": "q6",
+            "prompt": "6. hard",
+            "correct_answers": [
+              "worker"
+            ],
+            "min_required": 1
+          },
+          {
+            "id": "q7",
+            "prompt": "7. useful",
+            "correct_answers": [
+              "idea",
+              "book"
+            ],
+            "min_required": 1
+          },
+          {
+            "id": "q8",
+            "prompt": "8. endless",
+            "correct_answers": [
+              "fun"
+            ],
+            "min_required": 1
+          },
+          {
+            "id": "q9",
+            "prompt": "9. useless",
+            "correct_answers": [
+              "idea",
+              "book"
+            ],
+            "min_required": 1
+          }
+        ]
+      },
+      {
+        "id": "u59d-ex3-suffix",
+        "type": "fill_in_the_blank",
+        "title": "59.3. Complete the sentences using the word in brackets and a suffix.",
+        "instructions_vi": "Thêm hậu tố phù hợp vào từ trong ngoặc để hoàn thành câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Can I use your bottle ______, please? (open)",
+            "answer": "opener",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "I'm tired because I slept very ______ last night. (bad)",
+            "answer": "badly"
+          },
+          {
+            "id": "q3",
+            "sentence": "The waiter was very ______ and explained everything on the menu. (help)",
+            "answer": "helpful"
+          },
+          {
+            "id": "q4",
+            "sentence": "Thank you very much for all your ______. (kind)",
+            "answer": "kindness"
+          },
+          {
+            "id": "q5",
+            "sentence": "It's important not to make ______ mistakes in your writing. (care)",
+            "answer": "careless"
+          },
+          {
+            "id": "q6",
+            "sentence": "It was wet and ______ most of last week. (wind)",
+            "answer": "windy"
+          },
+          {
+            "id": "q7",
+            "sentence": "I did the homework very ______. (easy)",
+            "answer": "easily"
+          },
+          {
+            "id": "q8",
+            "sentence": "Do you know a good ______ who could do some work on our house? (build)",
+            "answer": "builder"
+          }
+        ]
+      }
+    ]
+  },
+  60: {
+    "unit": {
+      "id": "u60d",
+      "title": "Unit 60: Words you may confuse - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u60d-ex1-gaps",
+        "type": "fill_in_the_blank",
+        "title": "60.1. Fill the gaps with words. The first letter is given.",
+        "instructions_vi": "Điền từ vào chỗ trống dựa theo gợi ý chữ cái đầu (chọn từ: quite / quiet / lose / loose / fell / felt / cook / cooker).",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Please be ______. The baby is sleeping.",
+            "letter_hint": "qui___",
+            "answer": "quiet",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "If you ______ your passport you must call the embassy.",
+            "letter_hint": "l___",
+            "answer": "lose"
+          },
+          {
+            "id": "q3",
+            "sentence": "I ______ tired this morning, but I am OK now.",
+            "letter_hint": "f___",
+            "answer": "felt"
+          },
+          {
+            "id": "q4",
+            "sentence": "We are going to buy a ______ for our new kitchen.",
+            "letter_hint": "c___",
+            "answer": "cooker"
+          },
+          {
+            "id": "q5",
+            "sentence": "She ______ and broke her leg. She had to go to hospital.",
+            "letter_hint": "f___",
+            "answer": "fell"
+          },
+          {
+            "id": "q6",
+            "sentence": "It's ______ cold today.",
+            "letter_hint": "q___",
+            "answer": "quite"
+          },
+          {
+            "id": "q7",
+            "sentence": "Do you have this skirt in a smaller size? This one is too ______.",
+            "letter_hint": "l___",
+            "answer": "loose"
+          },
+          {
+            "id": "q8",
+            "sentence": "My sister is a good ______. I love eating at her house.",
+            "letter_hint": "c___",
+            "answer": "cook"
+          }
+        ]
+      },
+      {
+        "id": "u60d-ex2-sounds",
+        "type": "multiple_choice",
+        "title": "60.2. What does each word below sound like? Circle the correct word.",
+        "instructions_vi": "Chọn từ có âm đọc gần giống nhất với từ được cho.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "lose",
+            "options": [
+              "juice",
+              "shoes"
+            ],
+            "answer": "shoes",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "question": "loose",
+            "options": [
+              "juice",
+              "shoes"
+            ],
+            "answer": "juice"
+          },
+          {
+            "id": "q3",
+            "question": "quite",
+            "options": [
+              "right",
+              "higher"
+            ],
+            "answer": "right"
+          },
+          {
+            "id": "q4",
+            "question": "quiet",
+            "options": [
+              "right",
+              "higher"
+            ],
+            "answer": "higher"
+          }
+        ]
+      },
+      {
+        "id": "u60d-ex3-questions",
+        "type": "word_from_definition",
+        "title": "60.3. Answer these questions.",
+        "instructions_vi": "Trả lời các câu hỏi sau.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Why do we use a mouse with a computer?",
+            "answer": "To control it.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "What does the passport officer do to your passport?",
+            "answer": "He/She checks it.",
+            "accepted_answers": [
+              "He/She checks it.",
+              "He checks it.",
+              "She checks it.",
+              "They check it."
+            ]
+          },
+          {
+            "id": "q3",
+            "clue": "If you want to use someone's camera for two hours, what do you say?",
+            "answer": "Can I borrow your camera?",
+            "accepted_answers": [
+              "Can I borrow your camera?",
+              "Can I borrow your camera for two hours?"
+            ]
+          },
+          {
+            "id": "q4",
+            "clue": "What do you say to someone at 3 pm?",
+            "answer": "Good afternoon."
+          },
+          {
+            "id": "q5",
+            "clue": "What do people do at a bus stop?",
+            "answer": "They wait for the bus."
+          },
+          {
+            "id": "q6",
+            "clue": "What do you say to a friend if you need £1?",
+            "answer": "Can you lend me £1?",
+            "accepted_answers": [
+              "Can you lend me £1?",
+              "Can you lend me a pound?"
+            ]
+          },
+          {
+            "id": "q7",
+            "clue": "What do you say if someone makes too much noise?",
+            "answer": "Please be quiet."
+          }
+        ]
+      }
+    ]
   }
 };

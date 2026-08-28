@@ -15264,5 +15264,1348 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  56: {
+    "unit": {
+      "id": "unit-56-good-bad",
+      "title": "Unit 56: Common adjectives: Good and bad things",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u56-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "excellent",
+            "right": "xuất sắc, tuyệt vời"
+          },
+          {
+            "left": "wonderful",
+            "right": "tuyệt vời"
+          },
+          {
+            "left": "lovely",
+            "right": "đáng yêu, tuyệt vời, dễ chịu"
+          },
+          {
+            "left": "dreadful",
+            "right": "kinh khủng, rất tệ"
+          },
+          {
+            "left": "horrible",
+            "right": "kinh khủng, tồi tệ"
+          },
+          {
+            "left": "terrible",
+            "right": "khủng khiếp, rất tệ"
+          },
+          {
+            "left": "perfect",
+            "right": "hoàn hảo"
+          },
+          {
+            "left": "not bad",
+            "right": "không tệ, khá tốt"
+          },
+          {
+            "left": "How awful!",
+            "right": "Thật kinh khủng!"
+          },
+          {
+            "left": "How wonderful!",
+            "right": "Tuyệt vời quá!"
+          }
+        ]
+      },
+      {
+        "id": "u56-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "excellent",
+          "terrible",
+          "lovely",
+          "perfect",
+          "dreadful",
+          "wonderful",
+          "horrible",
+          "great"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Your English is ______; you speak very well.",
+            "hint_vi": "xuất sắc",
+            "answer": "excellent"
+          },
+          {
+            "id": "q2",
+            "sentence": "The weather was ______; it rained all week.",
+            "hint_vi": "tồi tệ",
+            "answer": "terrible"
+          },
+          {
+            "id": "q3",
+            "sentence": "We had a ______ holiday by the sea.",
+            "hint_vi": "tuyệt vời, dễ chịu",
+            "answer": "lovely"
+          },
+          {
+            "id": "q4",
+            "sentence": "The weather today is ______ for a picnic.",
+            "hint_vi": "hoàn hảo",
+            "answer": "perfect"
+          },
+          {
+            "id": "q5",
+            "sentence": "The food at that restaurant was ______; I felt sick after.",
+            "hint_vi": "kinh khủng",
+            "answer": "dreadful"
+          },
+          {
+            "id": "q6",
+            "sentence": "That's ______ news! Congratulations!",
+            "hint_vi": "tuyệt vời",
+            "answer": "wonderful"
+          },
+          {
+            "id": "q7",
+            "sentence": "I had a ______ day; everything went wrong.",
+            "hint_vi": "kinh khủng, tồi tệ",
+            "answer": "horrible"
+          },
+          {
+            "id": "q8",
+            "sentence": "The film was ______; I really enjoyed it.",
+            "hint_vi": "tuyệt, rất tốt",
+            "answer": "great"
+          }
+        ]
+      },
+      {
+        "id": "u56-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means something is very good?",
+            "options": [
+              "excellent",
+              "dreadful",
+              "terrible",
+              "awful"
+            ],
+            "answer": "excellent"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means something is very bad?",
+            "options": [
+              "terrible",
+              "lovely",
+              "wonderful",
+              "perfect"
+            ],
+            "answer": "terrible"
+          },
+          {
+            "id": "q3",
+            "question": "'Not bad' generally means...",
+            "options": [
+              "quite good, ok",
+              "very bad",
+              "perfect",
+              "terrible"
+            ],
+            "answer": "quite good, ok"
+          },
+          {
+            "id": "q4",
+            "question": "Which exclamation would you use for a beautiful view?",
+            "options": [
+              "How lovely!",
+              "How awful!",
+              "How horrible!",
+              "How dreadful!"
+            ],
+            "answer": "How lovely!"
+          },
+          {
+            "id": "q5",
+            "question": "Which exclamation would you use for bad news?",
+            "options": [
+              "How awful!",
+              "How wonderful!",
+              "How nice!",
+              "How lovely!"
+            ],
+            "answer": "How awful!"
+          },
+          {
+            "id": "q6",
+            "question": "Which word is closest in meaning to 'wonderful'?",
+            "options": [
+              "lovely",
+              "terrible",
+              "dreadful",
+              "horrible"
+            ],
+            "answer": "lovely"
+          }
+        ]
+      },
+      {
+        "id": "u56-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Excellent\" and \"wonderful\" both describe something very good.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Dreadful\" describes something very good.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Not bad\" usually means 'terrible'.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Terrible\", \"awful\" and \"horrible\" can all describe something very bad.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Perfect\" means something has no faults; it's ideal.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Lovely\" is usually used to describe something unpleasant.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u56-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "CXEETLLEN",
+            "answer": "EXCELLENT"
+          },
+          {
+            "id": "q2",
+            "scrambled": "LDFNROUEW",
+            "answer": "WONDERFUL"
+          },
+          {
+            "id": "q3",
+            "scrambled": "REITBERL",
+            "answer": "TERRIBLE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "RUDLAEDF",
+            "answer": "DREADFUL"
+          },
+          {
+            "id": "q5",
+            "scrambled": "CFETERP",
+            "answer": "PERFECT"
+          },
+          {
+            "id": "q6",
+            "scrambled": "IOHBLRRE",
+            "answer": "HORRIBLE"
+          }
+        ]
+      }
+    ]
+  },
+  57: {
+    "unit": {
+      "id": "unit-57-words-prepositions",
+      "title": "Unit 57: Words and prepositions",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u57-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi cụm từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "listen to",
+            "right": "nghe"
+          },
+          {
+            "left": "wait for",
+            "right": "chờ đợi"
+          },
+          {
+            "left": "belong to",
+            "right": "thuộc về"
+          },
+          {
+            "left": "think about",
+            "right": "nghĩ về"
+          },
+          {
+            "left": "apologise for",
+            "right": "xin lỗi vì"
+          },
+          {
+            "left": "look after",
+            "right": "chăm sóc"
+          },
+          {
+            "left": "look forward to",
+            "right": "mong chờ"
+          },
+          {
+            "left": "good at",
+            "right": "giỏi về"
+          },
+          {
+            "left": "afraid of",
+            "right": "sợ"
+          },
+          {
+            "left": "proud of",
+            "right": "tự hào về"
+          }
+        ]
+      },
+      {
+        "id": "u57-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền giới từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "to",
+          "for",
+          "at",
+          "about",
+          "of",
+          "in"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "This bag belongs ______ me.",
+            "hint_vi": "thuộc về",
+            "answer": "to"
+          },
+          {
+            "id": "q2",
+            "sentence": "I'm waiting ______ the bus.",
+            "hint_vi": "chờ đợi",
+            "answer": "for"
+          },
+          {
+            "id": "q3",
+            "sentence": "Look ______ this picture; it's beautiful.",
+            "hint_vi": "nhìn vào",
+            "answer": "at"
+          },
+          {
+            "id": "q4",
+            "sentence": "I often think ______ my family.",
+            "hint_vi": "nghĩ về",
+            "answer": "about"
+          },
+          {
+            "id": "q5",
+            "sentence": "He is afraid ______ spiders.",
+            "hint_vi": "sợ",
+            "answer": "of"
+          },
+          {
+            "id": "q6",
+            "sentence": "I am interested ______ music.",
+            "hint_vi": "quan tâm đến",
+            "answer": "in"
+          }
+        ]
+      },
+      {
+        "id": "u57-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which is correct?",
+            "options": [
+              "good at English",
+              "good in English",
+              "good on English",
+              "good for English"
+            ],
+            "answer": "good at English"
+          },
+          {
+            "id": "q2",
+            "question": "Which is correct?",
+            "options": [
+              "interested in music",
+              "interested at music",
+              "interested for music",
+              "interested of music"
+            ],
+            "answer": "interested in music"
+          },
+          {
+            "id": "q3",
+            "question": "Which is correct?",
+            "options": [
+              "proud of my son",
+              "proud for my son",
+              "proud at my son",
+              "proud with my son"
+            ],
+            "answer": "proud of my son"
+          },
+          {
+            "id": "q4",
+            "question": "Which is correct?",
+            "options": [
+              "look forward to the holiday",
+              "look forward for the holiday",
+              "look forward at the holiday",
+              "look forward on the holiday"
+            ],
+            "answer": "look forward to the holiday"
+          },
+          {
+            "id": "q5",
+            "question": "Which is correct?",
+            "options": [
+              "apologise for a mistake",
+              "apologise of a mistake",
+              "apologise about a mistake",
+              "apologise to a mistake"
+            ],
+            "answer": "apologise for a mistake"
+          },
+          {
+            "id": "q6",
+            "question": "Which is correct?",
+            "options": [
+              "thank someone for a gift",
+              "thank someone of a gift",
+              "thank someone about a gift",
+              "thank someone with a gift"
+            ],
+            "answer": "thank someone for a gift"
+          }
+        ]
+      },
+      {
+        "id": "u57-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Listen to music\" is correct English.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Look after\" means to look at something quickly.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Look forward to\" expresses excitement about something in the future.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Afraid of\" describes fear.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Used to\" can describe a habit in the past.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Good at\" describes a weakness.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u57-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "LGNEBO",
+            "answer": "BELONG"
+          },
+          {
+            "id": "q2",
+            "scrambled": "PSAOEOLIG",
+            "answer": "APOLOGISE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "TIRENTEDES",
+            "answer": "INTERESTED"
+          },
+          {
+            "id": "q4",
+            "scrambled": "AADFRI",
+            "answer": "AFRAID"
+          },
+          {
+            "id": "q5",
+            "scrambled": "PORDU",
+            "answer": "PROUD"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ORRWDAF",
+            "answer": "FORWARD"
+          }
+        ]
+      }
+    ]
+  },
+  58: {
+    "unit": {
+      "id": "unit-58-prefixes",
+      "title": "Unit 58: Prefixes",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u58-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "ex-wife",
+            "right": "vợ cũ"
+          },
+          {
+            "left": "half-price",
+            "right": "nửa giá"
+          },
+          {
+            "left": "informal",
+            "right": "không trang trọng, thân mật"
+          },
+          {
+            "left": "impossible",
+            "right": "không thể"
+          },
+          {
+            "left": "non-smoking",
+            "right": "không hút thuốc"
+          },
+          {
+            "left": "pre-school",
+            "right": "trường mầm non"
+          },
+          {
+            "left": "pre-heat",
+            "right": "làm nóng trước"
+          },
+          {
+            "left": "redo",
+            "right": "làm lại"
+          },
+          {
+            "left": "rewrite",
+            "right": "viết lại"
+          },
+          {
+            "left": "unhappy",
+            "right": "không vui, buồn"
+          }
+        ]
+      },
+      {
+        "id": "u58-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "informal",
+          "impossible",
+          "non-smoking",
+          "unhappy",
+          "unsafe",
+          "redo"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "This is an ______ letter to a close friend.",
+            "hint_vi": "không trang trọng",
+            "answer": "informal"
+          },
+          {
+            "id": "q2",
+            "sentence": "It's ______ to finish this today.",
+            "hint_vi": "không thể",
+            "answer": "impossible"
+          },
+          {
+            "id": "q3",
+            "sentence": "This is a ______ area; you can't smoke here.",
+            "hint_vi": "không hút thuốc",
+            "answer": "non-smoking"
+          },
+          {
+            "id": "q4",
+            "sentence": "He looks ______ today; is something wrong?",
+            "hint_vi": "không vui",
+            "answer": "unhappy"
+          },
+          {
+            "id": "q5",
+            "sentence": "This bridge is old and ______.",
+            "hint_vi": "không an toàn",
+            "answer": "unsafe"
+          },
+          {
+            "id": "q6",
+            "sentence": "I made a mistake, so I have to ______ it.",
+            "hint_vi": "làm lại",
+            "answer": "redo"
+          }
+        ]
+      },
+      {
+        "id": "u58-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which prefix means 'former'?",
+            "options": [
+              "ex-",
+              "re-",
+              "un-",
+              "pre-"
+            ],
+            "answer": "ex-"
+          },
+          {
+            "id": "q2",
+            "question": "Which prefix means 'again'?",
+            "options": [
+              "re-",
+              "ex-",
+              "non-",
+              "half-"
+            ],
+            "answer": "re-"
+          },
+          {
+            "id": "q3",
+            "question": "Which prefix means 'not'?",
+            "options": [
+              "un-",
+              "re-",
+              "ex-",
+              "half-"
+            ],
+            "answer": "un-"
+          },
+          {
+            "id": "q4",
+            "question": "Which prefix means 'before'?",
+            "options": [
+              "pre-",
+              "post-",
+              "re-",
+              "non-"
+            ],
+            "answer": "pre-"
+          },
+          {
+            "id": "q5",
+            "question": "What is the opposite of 'possible' using a prefix?",
+            "options": [
+              "impossible",
+              "unpossible",
+              "nonpossible",
+              "expossible"
+            ],
+            "answer": "impossible"
+          },
+          {
+            "id": "q6",
+            "question": "What is the opposite of 'happy' using a prefix?",
+            "options": [
+              "unhappy",
+              "imhappy",
+              "nonhappy",
+              "exhappy"
+            ],
+            "answer": "unhappy"
+          }
+        ]
+      },
+      {
+        "id": "u58-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Ex-\" is used before a noun to mean 'former', e.g. 'ex-wife'.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Re-\" usually means 'to do something again'.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Non-smoking\" means a place where smoking is allowed.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Pre-school\" is education before primary school.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Un-\" and \"in-/im-\" can both create negative adjectives.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Half-price\" means the full original price.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u58-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "ISIOPMELSB",
+            "answer": "IMPOSSIBLE"
+          },
+          {
+            "id": "q2",
+            "scrambled": "MRNAOIFL",
+            "answer": "INFORMAL"
+          },
+          {
+            "id": "q3",
+            "scrambled": "USAEFN",
+            "answer": "UNSAFE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "EIRTWRE",
+            "answer": "REWRITE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "OPSLOECHR",
+            "answer": "PRESCHOOL"
+          },
+          {
+            "id": "q6",
+            "scrambled": "PAPYNUH",
+            "answer": "UNHAPPY"
+          }
+        ]
+      }
+    ]
+  },
+  59: {
+    "unit": {
+      "id": "unit-59-suffixes",
+      "title": "Unit 59: Suffixes",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u59-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "worker",
+            "right": "người lao động, công nhân"
+          },
+          {
+            "left": "instructor",
+            "right": "người hướng dẫn, giảng viên"
+          },
+          {
+            "left": "useful",
+            "right": "hữu ích"
+          },
+          {
+            "left": "useless",
+            "right": "vô dụng, không hữu ích"
+          },
+          {
+            "left": "endless",
+            "right": "vô tận, không có điểm kết thúc"
+          },
+          {
+            "left": "quickly",
+            "right": "một cách nhanh chóng"
+          },
+          {
+            "left": "happiness",
+            "right": "hạnh phúc, niềm hạnh phúc"
+          },
+          {
+            "left": "sadness",
+            "right": "nỗi buồn"
+          },
+          {
+            "left": "sandy",
+            "right": "đầy cát, có cát"
+          },
+          {
+            "left": "sunny",
+            "right": "có nắng, nhiều nắng"
+          }
+        ]
+      },
+      {
+        "id": "u59-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "useful",
+          "useless",
+          "happily",
+          "happiness",
+          "sandy",
+          "sunny",
+          "quickly",
+          "endless"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "This dictionary is very ______ for students.",
+            "hint_vi": "hữu ích",
+            "answer": "useful"
+          },
+          {
+            "id": "q2",
+            "sentence": "This old phone is ______ now.",
+            "hint_vi": "vô dụng",
+            "answer": "useless"
+          },
+          {
+            "id": "q3",
+            "sentence": "They lived ______ together for many years.",
+            "hint_vi": "vui vẻ, hạnh phúc",
+            "answer": "happily"
+          },
+          {
+            "id": "q4",
+            "sentence": "Money doesn't always bring ______.",
+            "hint_vi": "hạnh phúc",
+            "answer": "happiness"
+          },
+          {
+            "id": "q5",
+            "sentence": "We walked along the ______ beach.",
+            "hint_vi": "đầy cát",
+            "answer": "sandy"
+          },
+          {
+            "id": "q6",
+            "sentence": "It's a ______ day today; let's go outside.",
+            "hint_vi": "có nắng",
+            "answer": "sunny"
+          },
+          {
+            "id": "q7",
+            "sentence": "He ran ______ to catch the bus.",
+            "hint_vi": "nhanh chóng",
+            "answer": "quickly"
+          },
+          {
+            "id": "q8",
+            "sentence": "The road seemed ______; it went on forever.",
+            "hint_vi": "vô tận",
+            "answer": "endless"
+          }
+        ]
+      },
+      {
+        "id": "u59-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which suffix creates a noun meaning 'a person who does something'?",
+            "options": [
+              "-er/-or",
+              "-ful",
+              "-less",
+              "-ly"
+            ],
+            "answer": "-er/-or"
+          },
+          {
+            "id": "q2",
+            "question": "Which suffix means 'full of' or creates an adjective?",
+            "options": [
+              "-ful",
+              "-less",
+              "-er",
+              "-ness"
+            ],
+            "answer": "-ful"
+          },
+          {
+            "id": "q3",
+            "question": "Which suffix means 'without'?",
+            "options": [
+              "-less",
+              "-ful",
+              "-er",
+              "-ly"
+            ],
+            "answer": "-less"
+          },
+          {
+            "id": "q4",
+            "question": "Which suffix usually creates an adverb?",
+            "options": [
+              "-ly",
+              "-ful",
+              "-less",
+              "-er"
+            ],
+            "answer": "-ly"
+          },
+          {
+            "id": "q5",
+            "question": "Which suffix creates a noun from an adjective, e.g. happy -> happiness?",
+            "options": [
+              "-ness",
+              "-ful",
+              "-less",
+              "-ly"
+            ],
+            "answer": "-ness"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means 'covered in sand'?",
+            "options": [
+              "sandy",
+              "sunny",
+              "windy",
+              "rainy"
+            ],
+            "answer": "sandy"
+          }
+        ]
+      },
+      {
+        "id": "u59-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Useful\" and \"useless\" are opposites.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"-er\" or \"-or\" can create a noun meaning 'a person who does an action'.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Happiness\" is an adjective.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"Quickly\" is an adverb.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"Endless\" means something has a clear end.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Sunny\" describes weather with a lot of sun.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u59-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "FSLUEU",
+            "answer": "USEFUL"
+          },
+          {
+            "id": "q2",
+            "scrambled": "ESSELUS",
+            "answer": "USELESS"
+          },
+          {
+            "id": "q3",
+            "scrambled": "SANPSIEPH",
+            "answer": "HAPPINESS"
+          },
+          {
+            "id": "q4",
+            "scrambled": "NEASSDS",
+            "answer": "SADNESS"
+          },
+          {
+            "id": "q5",
+            "scrambled": "USNITTOCRR",
+            "answer": "INSTRUCTOR"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ULOCACRLAT",
+            "answer": "CALCULATOR"
+          }
+        ]
+      }
+    ]
+  },
+  60: {
+    "unit": {
+      "id": "unit-60-confuse",
+      "title": "Unit 60: Words you may confuse",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u60-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "quite",
+            "right": "khá, tương đối"
+          },
+          {
+            "left": "quiet",
+            "right": "yên tĩnh, im lặng"
+          },
+          {
+            "left": "lose",
+            "right": "làm mất, thua"
+          },
+          {
+            "left": "loose",
+            "right": "rộng, lỏng; không chặt"
+          },
+          {
+            "left": "fell",
+            "right": "đã ngã (quá khứ của fall)"
+          },
+          {
+            "left": "felt",
+            "right": "đã cảm thấy (quá khứ của feel)"
+          },
+          {
+            "left": "lend",
+            "right": "cho ai mượn"
+          },
+          {
+            "left": "borrow",
+            "right": "mượn từ ai"
+          },
+          {
+            "left": "cook",
+            "right": "nấu ăn"
+          },
+          {
+            "left": "cooker",
+            "right": "bếp nấu"
+          }
+        ]
+      },
+      {
+        "id": "u60-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "quite",
+          "quiet",
+          "lose",
+          "loose",
+          "lend",
+          "borrow"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Please be ______; the baby is sleeping.",
+            "hint_vi": "yên tĩnh",
+            "answer": "quiet"
+          },
+          {
+            "id": "q2",
+            "sentence": "It's ______ cold outside today.",
+            "hint_vi": "khá",
+            "answer": "quite"
+          },
+          {
+            "id": "q3",
+            "sentence": "Don't ______ your keys again!",
+            "hint_vi": "làm mất",
+            "answer": "lose"
+          },
+          {
+            "id": "q4",
+            "sentence": "These jeans are too ______ for me.",
+            "hint_vi": "rộng",
+            "answer": "loose"
+          },
+          {
+            "id": "q5",
+            "sentence": "Can you ______ me some money, please?",
+            "hint_vi": "cho mượn",
+            "answer": "lend"
+          },
+          {
+            "id": "q6",
+            "sentence": "Can I ______ your umbrella?",
+            "hint_vi": "mượn",
+            "answer": "borrow"
+          }
+        ]
+      },
+      {
+        "id": "u60-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means 'to give something to someone temporarily'?",
+            "options": [
+              "lend",
+              "borrow",
+              "lose",
+              "control"
+            ],
+            "answer": "lend"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means 'to take something from someone temporarily'?",
+            "options": [
+              "borrow",
+              "lend",
+              "lose",
+              "check"
+            ],
+            "answer": "borrow"
+          },
+          {
+            "id": "q3",
+            "question": "Which word is the past tense of 'feel'?",
+            "options": [
+              "felt",
+              "fell",
+              "feeled",
+              "feel"
+            ],
+            "answer": "felt"
+          },
+          {
+            "id": "q4",
+            "question": "Which word is the past tense of 'fall'?",
+            "options": [
+              "fell",
+              "felt",
+              "falled",
+              "fall"
+            ],
+            "answer": "fell"
+          },
+          {
+            "id": "q5",
+            "question": "Which word describes clothes that don't fit tightly?",
+            "options": [
+              "loose",
+              "lose",
+              "quiet",
+              "quite"
+            ],
+            "answer": "loose"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means 'to not win, or to misplace something'?",
+            "options": [
+              "lose",
+              "loose",
+              "lend",
+              "borrow"
+            ],
+            "answer": "lose"
+          }
+        ]
+      },
+      {
+        "id": "u60-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Lend\" and \"borrow\" describe the same direction of giving/taking.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "\"Quiet\" describes a lack of noise.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Quite\" can mean 'fairly' or 'somewhat', e.g. 'quite good'.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Loose\" and \"lose\" have the same meaning.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Fell\" is the past tense of \"feel\".",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Cooker\" is a kitchen appliance used for cooking.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u60-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "TIUQE",
+            "answer": "QUIET"
+          },
+          {
+            "id": "q2",
+            "scrambled": "SELOO",
+            "answer": "LOOSE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "ROOBWR",
+            "answer": "BORROW"
+          },
+          {
+            "id": "q4",
+            "scrambled": "RONLTCO",
+            "answer": "CONTROL"
+          },
+          {
+            "id": "q5",
+            "scrambled": "EXCTEP",
+            "answer": "EXPECT"
+          },
+          {
+            "id": "q6",
+            "scrambled": "NVIGNEE",
+            "answer": "EVENING"
+          }
+        ]
+      }
+    ]
   }
 };
