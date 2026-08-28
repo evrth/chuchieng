@@ -10154,5 +10154,967 @@ const DETAILED_EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  51: {
+    "unit": {
+      "id": "u51d",
+      "title": "Unit 51: Days, months, seasons - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 51.5 câu 2 có 2 đáp án đúng (Tuesday hoặc Wednesday) tùy theo quy ước ngày bắt đầu tuần là Chủ nhật hay thứ Hai."
+    },
+    "exercises": [
+      {
+        "id": "u51d-ex1-answer",
+        "type": "fill_in_the_blank",
+        "title": "51.1. Answer these questions.",
+        "instructions_vi": "Điền đơn vị thời gian tương ứng vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "24 hours = ______",
+            "answer": "one day",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "100 years = ______",
+            "answer": "a century"
+          },
+          {
+            "id": "q3",
+            "sentence": "2 weeks = ______",
+            "answer": "a fortnight"
+          },
+          {
+            "id": "q4",
+            "sentence": "60 minutes = ______",
+            "answer": "an hour"
+          },
+          {
+            "id": "q5",
+            "sentence": "7 days = ______",
+            "answer": "a week"
+          }
+        ]
+      },
+      {
+        "id": "u51d-ex2-song",
+        "type": "fill_in_the_blank",
+        "title": "51.2. Complete this British children's song about the number of days in each month.",
+        "instructions_vi": "Điền từ còn thiếu vào bài đồng dao tiếng Anh về số ngày trong mỗi tháng.",
+        "context": {
+          "description": "Thirty days has September, A____, J____ and N____ — All the rest have ____, Except for F____, Which has twenty-eight days And ____ in each leap year."
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Thirty days has September, ______, ______ and ______.",
+            "answer": [
+              "April",
+              "June",
+              "November"
+            ]
+          },
+          {
+            "id": "q2",
+            "sentence": "All the rest have ______.",
+            "answer": "thirty-one"
+          },
+          {
+            "id": "q3",
+            "sentence": "Except for ______",
+            "answer": "February"
+          },
+          {
+            "id": "q4",
+            "sentence": "Which has twenty-eight days and ______ in each leap year.",
+            "answer": "twenty-nine"
+          }
+        ]
+      },
+      {
+        "id": "u51d-ex3-abbreviations",
+        "type": "word_from_definition",
+        "title": "51.3. These abbreviations are often used for the days of the week and the months. Write the names out in full.",
+        "instructions_vi": "Viết đầy đủ tên ngày/tháng từ chữ viết tắt.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Mon",
+            "answer": "Monday",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Aug",
+            "answer": "August"
+          },
+          {
+            "id": "q3",
+            "clue": "Oct",
+            "answer": "October"
+          },
+          {
+            "id": "q4",
+            "clue": "Sat",
+            "answer": "Saturday"
+          },
+          {
+            "id": "q5",
+            "clue": "Wed",
+            "answer": "Wednesday"
+          },
+          {
+            "id": "q6",
+            "clue": "Jan",
+            "answer": "January"
+          },
+          {
+            "id": "q7",
+            "clue": "Apr",
+            "answer": "April"
+          },
+          {
+            "id": "q8",
+            "clue": "Fri",
+            "answer": "Friday"
+          },
+          {
+            "id": "q9",
+            "clue": "Feb",
+            "answer": "February"
+          },
+          {
+            "id": "q10",
+            "clue": "Sept",
+            "answer": "September"
+          },
+          {
+            "id": "q11",
+            "clue": "Tues",
+            "answer": "Tuesday"
+          },
+          {
+            "id": "q12",
+            "clue": "Nov",
+            "answer": "November"
+          }
+        ]
+      },
+      {
+        "id": "u51d-ex4-mistakes",
+        "type": "error_correction",
+        "title": "51.4. Correct the six mistakes in this paragraph.",
+        "instructions_vi": "Đoạn văn sau có 6 lỗi sai (viết hoa ngày/tháng và giới từ đi kèm). Sửa lại từng lỗi cho đúng.",
+        "context": {
+          "description": "I'm going to a party on saturday for Valentina's birthday. Her birthday is on thursday but she wanted to have the party in the weekend. She's having a barbecue. I think june is a good month to have a birthday because of the weather. I love going to barbecues on the summer. My birthday is in Winter and it's too cold to eat outside!"
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "original": "a party on saturday",
+            "answer": "a party on Saturday",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "original": "Her birthday is on thursday",
+            "answer": "Her birthday is on Thursday"
+          },
+          {
+            "id": "q3",
+            "original": "have the party in the weekend",
+            "answer": "have the party at the weekend"
+          },
+          {
+            "id": "q4",
+            "original": "I think june is a good month",
+            "answer": "I think June is a good month"
+          },
+          {
+            "id": "q5",
+            "original": "going to barbecues on the summer",
+            "answer": "going to barbecues in the summer"
+          },
+          {
+            "id": "q6",
+            "original": "My birthday is in Winter",
+            "answer": "My birthday is in winter"
+          }
+        ]
+      },
+      {
+        "id": "u51d-ex5-quiz",
+        "type": "word_from_definition",
+        "title": "51.5. How quickly can you answer these quiz questions?",
+        "instructions_vi": "Trả lời nhanh các câu hỏi đố vui sau.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "How many minutes are there in a quarter of an hour?",
+            "answer": "15"
+          },
+          {
+            "id": "q2",
+            "clue": "What is the third day of the week?",
+            "answer": "Tuesday",
+            "accepted_answers": [
+              "Tuesday",
+              "Wednesday"
+            ]
+          },
+          {
+            "id": "q3",
+            "clue": "How many seconds are there in five minutes?",
+            "answer": "300"
+          },
+          {
+            "id": "q4",
+            "clue": "What is the seventh month?",
+            "answer": "July"
+          },
+          {
+            "id": "q5",
+            "clue": "How many months are there in ten years?",
+            "answer": "120"
+          }
+        ]
+      }
+    ]
+  },
+  52: {
+    "unit": {
+      "id": "u52d",
+      "title": "Unit 52: Time words - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 52.4 câu 2 chấp nhận 2 cách diễn đạt khác nhau cho cùng một ý."
+    },
+    "exercises": [
+      {
+        "id": "u52d-ex1-prepositions",
+        "type": "fill_in_the_blank",
+        "title": "52.1. Fill the gaps with a preposition.",
+        "instructions_vi": "Điền giới từ thích hợp vào các chỗ trống trong đoạn văn sau.",
+        "context": {
+          "description": "In the past, Rosa worked in many different countries."
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Rosa worked in Hong Kong ______ three years, ______ 2008 ______ 2011. ______ the moment she is working in Tokyo. She will stay there ______ two more years.",
+            "answer": [
+              "for",
+              "from",
+              "to",
+              "At",
+              "for"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u52d-ex2-centuries",
+        "type": "fill_in_the_blank",
+        "title": "52.2. Match the centuries to their time (past, present or future).",
+        "instructions_vi": "Xác định thế kỷ tương ứng thuộc quá khứ, hiện tại hay tương lai.",
+        "word_bank": [
+          "the past",
+          "the present",
+          "the future"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "The 19th century is in ______.",
+            "answer": "the past",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "The 22nd century is in ______.",
+            "answer": "the future"
+          },
+          {
+            "id": "q3",
+            "sentence": "The 18th century is in ______.",
+            "answer": "the past"
+          },
+          {
+            "id": "q4",
+            "sentence": "The 21st century is in ______.",
+            "answer": "the present"
+          },
+          {
+            "id": "q5",
+            "sentence": "The 20th century is in ______.",
+            "answer": "the past"
+          }
+        ]
+      },
+      {
+        "id": "u52d-ex3-questions",
+        "type": "word_from_definition",
+        "title": "52.3. Read the sentences and answer the questions.",
+        "instructions_vi": "Đọc câu và chọn/viết câu trả lời hợp lý nhất.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "Matthew will get his exam results very soon. Do you think Matthew will get them next year, next month or tomorrow?",
+            "answer": "Probably tomorrow.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Alice and Adam met for the first time recently. Do you think they first met last year, six months ago or a week ago?",
+            "answer": "Probably a week ago."
+          },
+          {
+            "id": "q3",
+            "clue": "I'll help you in a moment. Do you think I'll help you next week, in two hours or in a few minutes?",
+            "answer": "In a few minutes."
+          },
+          {
+            "id": "q4",
+            "clue": "It's 6 o'clock now. Two hours ago it started to snow. What time was it then?",
+            "answer": "4 o'clock.",
+            "accepted_answers": [
+              "4 o'clock.",
+              "4 o'clock",
+              "It was 4 o'clock."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u52d-ex4-frequency",
+        "type": "sentence_construction",
+        "title": "52.4. Look at the table and write sentences using expressions like once a week, three times a month, etc.",
+        "instructions_vi": "Dựa vào bảng dưới đây, viết câu mô tả tần suất hoạt động của mỗi người bằng các cụm từ như 'once a week', 'three times a month'...",
+        "context": {
+          "table": {
+            "headers": [
+              "Ai",
+              "Chơi tennis",
+              "Tập piano",
+              "Họp ở Đức"
+            ],
+            "rows": [
+              [
+                "John",
+                "Mondays and Thursdays",
+                "Saturdays",
+                "the first Friday every month"
+              ],
+              [
+                "Julia and Alexa",
+                "Tuesdays, Fridays and Saturdays",
+                "every morning and every evening",
+                "once in Jan, Mar, May, Jul, Aug, Dec every year"
+              ]
+            ]
+          }
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "situation": "John",
+            "answer": "John plays tennis twice a week. He practises the piano once a week and he has a business meeting in Germany once a month.",
+            "required_keywords": [
+              "twice a week",
+              "once a week",
+              "once a month"
+            ],
+            "example": true
+          },
+          {
+            "id": "q2",
+            "situation": "Julia and Alexa",
+            "answer": "Julia and Alexa play tennis three times a week. They practise the piano twice a day. They go to Germany for a business meeting six times a year.",
+            "accepted_answers": [
+              "Julia and Alexa play tennis three times a week. They practise the piano twice a day. They go to Germany for a business meeting six times a year.",
+              "Julia and Alexa play tennis three times a week. They practise the piano twice a day. They have a business meeting in Germany six times a year."
+            ],
+            "required_keywords": [
+              "three times a week",
+              "twice a day",
+              "six times a year"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  53: {
+    "unit": {
+      "id": "u53d",
+      "title": "Unit 53: Places - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u53d-ex1-hereback",
+        "type": "fill_in_the_blank",
+        "title": "53.1. Fill the gaps with here, there, back or everywhere.",
+        "instructions_vi": "Điền 'here', 'there', 'back' hoặc 'everywhere' vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Thanks for lending me your dictionary. I'll bring it ______ soon.",
+            "answer": "back",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Come ______ Emma! Don't go near the road!",
+            "answer": "here"
+          },
+          {
+            "id": "q3",
+            "sentence": "This letter is for a teacher at the university. Can you take it ______.",
+            "answer": "there"
+          },
+          {
+            "id": "q4",
+            "sentence": "I opened the washing machine too soon. Now there's water ______!",
+            "answer": "everywhere"
+          },
+          {
+            "id": "q5",
+            "sentence": "I want to leave this letter in Nora's office. Are you going ______?",
+            "answer": "there"
+          },
+          {
+            "id": "q6",
+            "sentence": "I'm going to Italy tomorrow, but I'm coming ______ on Friday.",
+            "answer": "back"
+          }
+        ]
+      },
+      {
+        "id": "u53d-ex2-prepositions",
+        "type": "fill_in_the_blank",
+        "title": "53.2. Fill the gaps with the correct preposition.",
+        "instructions_vi": "Điền giới từ thích hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My brother works ______ Paris.",
+            "answer": "in",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Why do you always sit ______ the back of the class?",
+            "answer": "at"
+          },
+          {
+            "id": "q3",
+            "sentence": "Let's go and sit ______ the sofa.",
+            "answer": "on"
+          },
+          {
+            "id": "q4",
+            "sentence": "What time do you arrive? I'll meet you ______ the bus station.",
+            "answer": "at"
+          },
+          {
+            "id": "q5",
+            "sentence": "There was a picture of an old man ______ the wall.",
+            "answer": "on"
+          },
+          {
+            "id": "q6",
+            "sentence": "Do you usually study ______ your bedroom or ______ the living room?",
+            "answer": [
+              "in",
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u53d-ex3-positions",
+        "type": "labeling",
+        "title": "53.3. Mark the positions on the bus and on the tree.",
+        "instructions_vi": "Nhìn 2 hình minh họa bên dưới (xe buýt và cây) — mỗi hình có 3 vị trí được đánh số. Điền cụm từ chỉ vị trí phù hợp cho mỗi số.",
+        "context": {
+          "gallery": [
+            {
+              "image": "images/exercises/u53-bus-positions.jpg",
+              "caption": "Xe buýt — các vị trí 1, 2, 3"
+            },
+            {
+              "image": "images/exercises/u53-tree-positions.jpg",
+              "caption": "Cây — các vị trí 1, 2, 3"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "clue_vi": "Vị trí số 1 trên xe buýt là gì?",
+            "answer": "the back of the bus",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue_vi": "Vị trí số 2 trên xe buýt là gì?",
+            "answer": "the side of the bus"
+          },
+          {
+            "id": "q3",
+            "clue_vi": "Vị trí số 3 trên xe buýt là gì?",
+            "answer": "the front of the bus"
+          },
+          {
+            "id": "q4",
+            "clue_vi": "Vị trí số 1 trên cây là gì?",
+            "answer": "the top of the tree"
+          },
+          {
+            "id": "q5",
+            "clue_vi": "Vị trí số 2 trên cây là gì?",
+            "answer": "the middle of the tree"
+          },
+          {
+            "id": "q6",
+            "clue_vi": "Vị trí số 3 trên cây là gì?",
+            "answer": "the bottom of the tree"
+          }
+        ]
+      },
+      {
+        "id": "u53d-ex4-outawayabroad",
+        "type": "fill_in_the_blank",
+        "title": "53.4. Fill the gaps with out, away or abroad.",
+        "instructions_vi": "Điền 'out', 'away' hoặc 'abroad' vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I'd like to work ______ and learn about a new country.",
+            "answer": "abroad",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Is Lily here? No, she's ______ but she'll be back in about five minutes.",
+            "answer": "out"
+          },
+          {
+            "id": "q3",
+            "sentence": "I'm going ______ tomorrow. I'm going to stay with my sister for a few days.",
+            "answer": "away"
+          },
+          {
+            "id": "q4",
+            "sentence": "When we go ______ we like to go ______ and see new countries.",
+            "answer": [
+              "away",
+              "abroad"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  54: {
+    "unit": {
+      "id": "u54d",
+      "title": "Unit 54: Manner - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u54d-ex1-adverbs",
+        "type": "fill_in_the_blank",
+        "title": "54.1. Complete the sentences.",
+        "instructions_vi": "Điền đúng dạng trạng từ tương ứng với tính từ đã cho.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "This train is slow. It goes very ______.",
+            "answer": "slowly",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "He is a bad singer. He sings very ______.",
+            "answer": "badly"
+          },
+          {
+            "id": "q3",
+            "sentence": "She is always loud. She speaks very ______.",
+            "answer": "loudly"
+          },
+          {
+            "id": "q4",
+            "sentence": "He's a fast swimmer. He swims very ______.",
+            "answer": "fast"
+          },
+          {
+            "id": "q5",
+            "sentence": "This girl is quiet. She always speaks ______.",
+            "answer": "quietly"
+          },
+          {
+            "id": "q6",
+            "sentence": "He's a good English-speaker. He speaks English ______.",
+            "answer": "well"
+          }
+        ]
+      },
+      {
+        "id": "u54d-ex2-complete",
+        "type": "fill_in_the_blank",
+        "title": "54.2. Complete the sentences.",
+        "instructions_vi": "Điền từ thích hợp vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Please don't play your music so ______ - I'm trying to study.",
+            "answer": "loudly",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Let's take the ______ train, not the fast one.",
+            "answer": "slow"
+          },
+          {
+            "id": "q3",
+            "sentence": "Katie is very ______ at French but bad at German.",
+            "answer": "good"
+          },
+          {
+            "id": "q4",
+            "sentence": "Why is Fiona behaving ______ an unfriendly way?",
+            "answer": "in"
+          },
+          {
+            "id": "q5",
+            "sentence": "I hope this is the ______ answer.",
+            "answer": "right"
+          },
+          {
+            "id": "q6",
+            "sentence": "It is better to do something well than to do it ______.",
+            "answer": "badly"
+          },
+          {
+            "id": "q7",
+            "sentence": "The children are playing very ______ - they know that grandma is asleep.",
+            "answer": "quietly"
+          },
+          {
+            "id": "q8",
+            "sentence": "Did I do this exercise ______ right way?",
+            "answer": "the"
+          }
+        ]
+      },
+      {
+        "id": "u54d-ex3-definitions",
+        "type": "true_false",
+        "title": "54.3. Are the definitions right or wrong?",
+        "instructions_vi": "Xác định định nghĩa sau đúng hay sai.",
+        "context": {
+          "table": {
+            "headers": [
+              "Từ",
+              "Định nghĩa"
+            ],
+            "rows": [
+              [
+                "Suddenly",
+                "very slowly"
+              ],
+              [
+                "Sadly",
+                "in an unhappy way"
+              ],
+              [
+                "Strangely",
+                "not in a normal way"
+              ],
+              [
+                "Quickly",
+                "very slowly"
+              ],
+              [
+                "Easily",
+                "with no difficulty"
+              ]
+            ]
+          }
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Suddenly\" means very slowly.",
+            "answer": false,
+            "note": "'Suddenly' means quickly and unexpectedly, not slowly."
+          },
+          {
+            "id": "q2",
+            "statement": "\"Sadly\" means in an unhappy way.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Strangely\" means not in a normal way.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Quickly\" means very slowly.",
+            "answer": false,
+            "note": "'Quickly' means fast — the opposite of slowly."
+          },
+          {
+            "id": "q5",
+            "statement": "\"Easily\" means with no difficulty.",
+            "answer": true
+          }
+        ]
+      }
+    ]
+  },
+  55: {
+    "unit": {
+      "id": "u55d",
+      "title": "Unit 55: Common uncountable nouns - Bài tập chi tiết (Workbook)",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      },
+      "grading_note": "Bài 55.3 nhiều câu chấp nhận cả 'is' và 'was' vì câu không có mốc thời gian rõ ràng."
+    },
+    "exercises": [
+      {
+        "id": "u55d-ex1-uncountable",
+        "type": "fill_in_the_blank",
+        "title": "55.1. Fill the gaps with an uncountable noun.",
+        "instructions_vi": "Điền danh từ không đếm được phù hợp vào chỗ trống (chọn từ danh sách gợi ý).",
+        "word_bank": [
+          "sugar",
+          "money",
+          "luggage",
+          "furniture",
+          "traffic",
+          "advice",
+          "information",
+          "news",
+          "weather",
+          "accommodation",
+          "air",
+          "work",
+          "travel",
+          "rice",
+          "spaghetti",
+          "butter",
+          "bread",
+          "milk",
+          "water",
+          "tea",
+          "coffee"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I'd like to buy a car but I haven't got enough ______.",
+            "answer": "money",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Cows give us ______ and ______.",
+            "answer": [
+              "milk",
+              "butter"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "If you don't know what to do, ask your parents for some ______.",
+            "answer": "advice"
+          },
+          {
+            "id": "q4",
+            "sentence": "The ______ at the seaside is very good for you.",
+            "answer": "air"
+          },
+          {
+            "id": "q5",
+            "sentence": "Rob left school last month and is now looking for ______.",
+            "answer": "work"
+          },
+          {
+            "id": "q6",
+            "sentence": "There is always a lot of ______ in central London.",
+            "answer": "traffic"
+          }
+        ]
+      },
+      {
+        "id": "u55d-ex2-matching",
+        "type": "matching",
+        "title": "55.2. Match the words on the left with the words on the right.",
+        "instructions_vi": "Nối tính từ ở cột trái với danh từ không đếm được phù hợp ở cột phải.",
+        "pairs": [
+          {
+            "left": "heavy",
+            "right": "luggage"
+          },
+          {
+            "left": "useful",
+            "right": "information"
+          },
+          {
+            "left": "bad",
+            "right": "news"
+          },
+          {
+            "left": "modern",
+            "right": "furniture"
+          },
+          {
+            "left": "brown",
+            "right": "bread"
+          },
+          {
+            "left": "cold",
+            "right": "water"
+          },
+          {
+            "left": "space",
+            "right": "travel"
+          }
+        ]
+      },
+      {
+        "id": "u55d-ex3-bverb",
+        "type": "fill_in_the_blank",
+        "title": "55.3. Fill the gaps with the correct form of the verb be.",
+        "instructions_vi": "Điền đúng dạng của động từ 'be' (is/was) vào chỗ trống.",
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Accommodation in the city centre ______ expensive.",
+            "answer": "is",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "sentence": "Spaghetti with Italian tomato sauce ______ very good.",
+            "answer": "is",
+            "accepted_answers": [
+              "is",
+              "was"
+            ]
+          },
+          {
+            "id": "q3",
+            "sentence": "The weather in Scotland ______ best in the autumn.",
+            "answer": "is",
+            "accepted_answers": [
+              "is",
+              "was"
+            ]
+          },
+          {
+            "id": "q4",
+            "sentence": "The news ______ better today than it ______ yesterday.",
+            "answer": [
+              "is",
+              "was"
+            ]
+          },
+          {
+            "id": "q5",
+            "sentence": "Travel ______ the most important thing in Sam's life.",
+            "answer": "is",
+            "accepted_answers": [
+              "is",
+              "was"
+            ]
+          },
+          {
+            "id": "q6",
+            "sentence": "Their furniture ______ very old and very beautiful.",
+            "answer": "is",
+            "accepted_answers": [
+              "is",
+              "was"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u55d-ex4-mistakes",
+        "type": "word_from_definition",
+        "title": "55.4. Correct the mistakes in these sentences.",
+        "instructions_vi": "Sửa lỗi sai (đếm được/không đếm được) trong mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "clue": "The news are not very good today.",
+            "answer": "The news is not very good today.",
+            "example": true
+          },
+          {
+            "id": "q2",
+            "clue": "Where can I get some informations about your country?",
+            "answer": "Where can I get some information about your country?"
+          },
+          {
+            "id": "q3",
+            "clue": "Let me give you an advice.",
+            "answer": "Let me give you some advice."
+          },
+          {
+            "id": "q4",
+            "clue": "Cook these spaghetti for ten minutes.",
+            "answer": "Cook this spaghetti for ten minutes."
+          },
+          {
+            "id": "q5",
+            "clue": "Can I have a bread, please?",
+            "answer": "Can I have some bread, please?"
+          },
+          {
+            "id": "q6",
+            "clue": "We need to buy some new furnitures.",
+            "answer": "We need to buy some new furniture."
+          },
+          {
+            "id": "q7",
+            "clue": "The east of the country usually has a better weather than the west.",
+            "answer": "The east of the country usually has better weather than the west."
+          },
+          {
+            "id": "q8",
+            "clue": "I must find a new accommodation soon.",
+            "answer": "I must find some new accommodation soon."
+          }
+        ]
+      }
+    ]
   }
 };

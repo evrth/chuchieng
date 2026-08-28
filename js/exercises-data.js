@@ -13893,5 +13893,1376 @@ const EXERCISES_DATA = {
         ]
       }
     ]
+  },
+  51: {
+    "unit": {
+      "id": "unit-51-days-months-seasons",
+      "title": "Unit 51: Days, months, seasons",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u51-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "fortnight",
+            "right": "hai tuần"
+          },
+          {
+            "left": "century",
+            "right": "thế kỷ"
+          },
+          {
+            "left": "leap year",
+            "right": "năm nhuận"
+          },
+          {
+            "left": "the day before yesterday",
+            "right": "ngày hôm kia"
+          },
+          {
+            "left": "the day after tomorrow",
+            "right": "ngày kia"
+          },
+          {
+            "left": "at the weekend",
+            "right": "vào cuối tuần"
+          },
+          {
+            "left": "spring",
+            "right": "mùa xuân"
+          },
+          {
+            "left": "autumn",
+            "right": "mùa thu"
+          },
+          {
+            "left": "season",
+            "right": "mùa"
+          },
+          {
+            "left": "decade",
+            "right": "thập kỷ"
+          }
+        ]
+      },
+      {
+        "id": "u51-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "January",
+          "March",
+          "June",
+          "September",
+          "November",
+          "spring",
+          "summer",
+          "winter"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My birthday is in ______, the first month of the year.",
+            "hint_vi": "tháng Một",
+            "answer": "January"
+          },
+          {
+            "id": "q2",
+            "sentence": "______ is the third month; spring usually starts then.",
+            "hint_vi": "tháng Ba",
+            "answer": "March"
+          },
+          {
+            "id": "q3",
+            "sentence": "Summer starts in ______ in the UK.",
+            "hint_vi": "tháng Sáu",
+            "answer": "June"
+          },
+          {
+            "id": "q4",
+            "sentence": "School usually starts in ______.",
+            "hint_vi": "tháng Chín",
+            "answer": "September"
+          },
+          {
+            "id": "q5",
+            "sentence": "It's cold and dark in ______.",
+            "hint_vi": "tháng Mười Một",
+            "answer": "November"
+          },
+          {
+            "id": "q6",
+            "sentence": "Flowers grow in ______.",
+            "hint_vi": "mùa xuân",
+            "answer": "spring"
+          },
+          {
+            "id": "q7",
+            "sentence": "We go swimming in ______.",
+            "hint_vi": "mùa hè",
+            "answer": "summer"
+          },
+          {
+            "id": "q8",
+            "sentence": "It's very cold in ______.",
+            "hint_vi": "mùa đông",
+            "answer": "winter"
+          }
+        ]
+      },
+      {
+        "id": "u51-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "How many days are there in a fortnight?",
+            "options": [
+              "14",
+              "7",
+              "30",
+              "28"
+            ],
+            "answer": "14"
+          },
+          {
+            "id": "q2",
+            "question": "How many years are there in a century?",
+            "options": [
+              "100",
+              "10",
+              "1000",
+              "50"
+            ],
+            "answer": "100"
+          },
+          {
+            "id": "q3",
+            "question": "Which day comes right after Monday?",
+            "options": [
+              "Tuesday",
+              "Sunday",
+              "Wednesday",
+              "Saturday"
+            ],
+            "answer": "Tuesday"
+          },
+          {
+            "id": "q4",
+            "question": "Which month has 28 days (29 in a leap year)?",
+            "options": [
+              "February",
+              "January",
+              "March",
+              "April"
+            ],
+            "answer": "February"
+          },
+          {
+            "id": "q5",
+            "question": "'The day after tomorrow' is how many days from today?",
+            "options": [
+              "2 days",
+              "1 day",
+              "3 days",
+              "7 days"
+            ],
+            "answer": "2 days"
+          },
+          {
+            "id": "q6",
+            "question": "Which season comes after summer?",
+            "options": [
+              "autumn",
+              "winter",
+              "spring",
+              "none"
+            ],
+            "answer": "autumn"
+          }
+        ]
+      },
+      {
+        "id": "u51-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "There are 60 minutes in an hour.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "A \"fortnight\" is one week.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "December is the last month of the year.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Yesterday\" refers to a day in the future.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "A leap year happens every four years.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "Winter usually comes before spring.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u51-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "HTGNRFTIO",
+            "answer": "FORTNIGHT"
+          },
+          {
+            "id": "q2",
+            "scrambled": "ENCURTY",
+            "answer": "CENTURY"
+          },
+          {
+            "id": "q3",
+            "scrambled": "EOASNS",
+            "answer": "SEASON"
+          },
+          {
+            "id": "q4",
+            "scrambled": "TNMUAU",
+            "answer": "AUTUMN"
+          },
+          {
+            "id": "q5",
+            "scrambled": "BUEYFARR",
+            "answer": "FEBRUARY"
+          },
+          {
+            "id": "q6",
+            "scrambled": "TBREEMPES",
+            "answer": "SEPTEMBER"
+          }
+        ]
+      }
+    ]
+  },
+  52: {
+    "unit": {
+      "id": "unit-52-time-words",
+      "title": "Unit 52: Time words",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u52-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "ago",
+            "right": "cách đây"
+          },
+          {
+            "left": "the past",
+            "right": "quá khứ"
+          },
+          {
+            "left": "the future",
+            "right": "tương lai"
+          },
+          {
+            "left": "occasionally",
+            "right": "thỉnh thoảng, đôi khi"
+          },
+          {
+            "left": "rarely",
+            "right": "hiếm khi"
+          },
+          {
+            "left": "never",
+            "right": "không bao giờ"
+          },
+          {
+            "left": "in a moment",
+            "right": "trong chốc lát, ngay sau đây"
+          },
+          {
+            "left": "at the moment",
+            "right": "hiện tại, lúc này"
+          },
+          {
+            "left": "recently",
+            "right": "gần đây"
+          },
+          {
+            "left": "soon",
+            "right": "sớm, chẳng bao lâu nữa"
+          }
+        ]
+      },
+      {
+        "id": "u52-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "ago",
+          "now",
+          "last",
+          "next",
+          "always",
+          "never",
+          "soon",
+          "recently"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "I saw him two days ______.",
+            "hint_vi": "cách đây",
+            "answer": "ago"
+          },
+          {
+            "id": "q2",
+            "sentence": "I am busy ______; can we talk later?",
+            "hint_vi": "bây giờ",
+            "answer": "now"
+          },
+          {
+            "id": "q3",
+            "sentence": "I saw her ______ week.",
+            "hint_vi": "trước, vừa qua",
+            "answer": "last"
+          },
+          {
+            "id": "q4",
+            "sentence": "We are going on holiday ______ month.",
+            "hint_vi": "tới, kế tiếp",
+            "answer": "next"
+          },
+          {
+            "id": "q5",
+            "sentence": "I ______ have breakfast; it's a daily habit.",
+            "hint_vi": "luôn luôn",
+            "answer": "always"
+          },
+          {
+            "id": "q6",
+            "sentence": "I ______ smoke; it's not something I do.",
+            "hint_vi": "không bao giờ",
+            "answer": "never"
+          },
+          {
+            "id": "q7",
+            "sentence": "See you ______!",
+            "hint_vi": "sớm",
+            "answer": "soon"
+          },
+          {
+            "id": "q8",
+            "sentence": "I have ______ started a new job.",
+            "hint_vi": "gần đây",
+            "answer": "recently"
+          }
+        ]
+      },
+      {
+        "id": "u52-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means 'more often than sometimes but less than always'?",
+            "options": [
+              "usually",
+              "never",
+              "rarely",
+              "occasionally"
+            ],
+            "answer": "usually"
+          },
+          {
+            "id": "q2",
+            "question": "Which phrase means 'right now, at this time'?",
+            "options": [
+              "at the moment",
+              "in a moment",
+              "last moment",
+              "once a moment"
+            ],
+            "answer": "at the moment"
+          },
+          {
+            "id": "q3",
+            "question": "Which phrase means 'very soon, in a short time'?",
+            "options": [
+              "in a moment",
+              "at the moment",
+              "a moment ago",
+              "once a moment"
+            ],
+            "answer": "in a moment"
+          },
+          {
+            "id": "q4",
+            "question": "'I saw him three days ago' — 'ago' is used with...",
+            "options": [
+              "past time expressions",
+              "future plans",
+              "present habits",
+              "frequency"
+            ],
+            "answer": "past time expressions"
+          },
+          {
+            "id": "q5",
+            "question": "Which adverb means 'almost never'?",
+            "options": [
+              "rarely",
+              "usually",
+              "often",
+              "always"
+            ],
+            "answer": "rarely"
+          },
+          {
+            "id": "q6",
+            "question": "Which phrase describes frequency, e.g. 'I do yoga ___'?",
+            "options": [
+              "three times a week",
+              "two hours ago",
+              "at the moment",
+              "in the past"
+            ],
+            "answer": "three times a week"
+          }
+        ]
+      },
+      {
+        "id": "u52-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Never\" means 100% of the time.",
+            "answer": false
+          },
+          {
+            "id": "q2",
+            "statement": "\"Always\" means 100% of the time.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Ago\" is typically used with the past simple, e.g. 'two years ago'.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"The future\" refers to time that has already happened.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"Occasionally\" and \"sometimes\" have a similar meaning.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Recently\" refers to something that happened a long time ago.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u52-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "YERARL",
+            "answer": "RARELY"
+          },
+          {
+            "id": "q2",
+            "scrambled": "CEETYRNL",
+            "answer": "RECENTLY"
+          },
+          {
+            "id": "q3",
+            "scrambled": "MMNTEO",
+            "answer": "MOMENT"
+          },
+          {
+            "id": "q4",
+            "scrambled": "FEUUTR",
+            "answer": "FUTURE"
+          },
+          {
+            "id": "q5",
+            "scrambled": "LASYULU",
+            "answer": "USUALLY"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ILCSOYOANCLA",
+            "answer": "OCCASIONALLY"
+          }
+        ]
+      }
+    ]
+  },
+  53: {
+    "unit": {
+      "id": "unit-53-places",
+      "title": "Unit 53: Places",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u53-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "everywhere",
+            "right": "mọi nơi, khắp nơi"
+          },
+          {
+            "left": "the middle of",
+            "right": "ở giữa"
+          },
+          {
+            "left": "the bottom of",
+            "right": "phía dưới cùng"
+          },
+          {
+            "left": "the end of",
+            "right": "cuối, phần cuối"
+          },
+          {
+            "left": "beginning",
+            "right": "phần đầu, sự bắt đầu"
+          },
+          {
+            "left": "abroad",
+            "right": "ở nước ngoài, ra nước ngoài"
+          },
+          {
+            "left": "at home",
+            "right": "ở nhà"
+          },
+          {
+            "left": "on the left",
+            "right": "ở bên trái"
+          },
+          {
+            "left": "on the right",
+            "right": "ở bên phải"
+          },
+          {
+            "left": "away",
+            "right": "xa, đi khỏi"
+          }
+        ]
+      },
+      {
+        "id": "u53-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "here",
+          "there",
+          "back",
+          "everywhere",
+          "abroad",
+          "away",
+          "out",
+          "home"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Come ______! Don't go near the road!",
+            "hint_vi": "ở đây",
+            "answer": "here"
+          },
+          {
+            "id": "q2",
+            "sentence": "Can you take this letter ______, to the office?",
+            "hint_vi": "ở đó",
+            "answer": "there"
+          },
+          {
+            "id": "q3",
+            "sentence": "I'll bring it ______ soon.",
+            "hint_vi": "trở lại",
+            "answer": "back"
+          },
+          {
+            "id": "q4",
+            "sentence": "Now there's water ______!",
+            "hint_vi": "khắp nơi",
+            "answer": "everywhere"
+          },
+          {
+            "id": "q5",
+            "sentence": "She wants to study ______ next year.",
+            "hint_vi": "ở nước ngoài",
+            "answer": "abroad"
+          },
+          {
+            "id": "q6",
+            "sentence": "My parents are ______ this week.",
+            "hint_vi": "đi vắng",
+            "answer": "away"
+          },
+          {
+            "id": "q7",
+            "sentence": "She's ______ at the moment; she'll be back soon.",
+            "hint_vi": "ra ngoài",
+            "answer": "out"
+          },
+          {
+            "id": "q8",
+            "sentence": "I am at ______ today.",
+            "hint_vi": "nhà",
+            "answer": "home"
+          }
+        ]
+      },
+      {
+        "id": "u53-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which word means the highest part of something?",
+            "options": [
+              "top",
+              "bottom",
+              "middle",
+              "side"
+            ],
+            "answer": "top"
+          },
+          {
+            "id": "q2",
+            "question": "Which word means the lowest part of something?",
+            "options": [
+              "bottom",
+              "top",
+              "beginning",
+              "front"
+            ],
+            "answer": "bottom"
+          },
+          {
+            "id": "q3",
+            "question": "Which preposition usually goes with 'the wall' for a picture, e.g. 'a picture ___ the wall'?",
+            "options": [
+              "on",
+              "at",
+              "in",
+              "to"
+            ],
+            "answer": "on"
+          },
+          {
+            "id": "q4",
+            "question": "Which preposition usually goes with a small, specific place like a station, e.g. 'I'll meet you ___ the station'?",
+            "options": [
+              "at",
+              "on",
+              "in",
+              "to"
+            ],
+            "answer": "at"
+          },
+          {
+            "id": "q5",
+            "question": "Which word means 'not here, at a distance'?",
+            "options": [
+              "away",
+              "here",
+              "back",
+              "out"
+            ],
+            "answer": "away"
+          },
+          {
+            "id": "q6",
+            "question": "Which word means 'in a foreign country'?",
+            "options": [
+              "abroad",
+              "home",
+              "here",
+              "back"
+            ],
+            "answer": "abroad"
+          }
+        ]
+      },
+      {
+        "id": "u53-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Everywhere\" means 'in every place'.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"The top of\" and \"the bottom of\" describe opposite positions.",
+            "answer": true
+          },
+          {
+            "id": "q3",
+            "statement": "\"Abroad\" means 'in your own country'.",
+            "answer": false
+          },
+          {
+            "id": "q4",
+            "statement": "\"At home\" describes being inside your house.",
+            "answer": true
+          },
+          {
+            "id": "q5",
+            "statement": "\"The middle of\" describes the edge of something.",
+            "answer": false
+          },
+          {
+            "id": "q6",
+            "statement": "\"Back\" can describe returning to a place.",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u53-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "EWREYEEVHR",
+            "answer": "EVERYWHERE"
+          },
+          {
+            "id": "q2",
+            "scrambled": "ODARBA",
+            "answer": "ABROAD"
+          },
+          {
+            "id": "q3",
+            "scrambled": "LIMDED",
+            "answer": "MIDDLE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "OTMTOB",
+            "answer": "BOTTOM"
+          },
+          {
+            "id": "q5",
+            "scrambled": "NGBENINGI",
+            "answer": "BEGINNING"
+          },
+          {
+            "id": "q6",
+            "scrambled": "ATNOIST",
+            "answer": "STATION"
+          }
+        ]
+      }
+    ]
+  },
+  54: {
+    "unit": {
+      "id": "unit-54-manner",
+      "title": "Unit 54: Manner",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u54-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "slowly",
+            "right": "một cách chậm rãi"
+          },
+          {
+            "left": "loudly",
+            "right": "một cách to, lớn tiếng"
+          },
+          {
+            "left": "quietly",
+            "right": "một cách yên lặng, nhỏ nhẹ"
+          },
+          {
+            "left": "well",
+            "right": "tốt, giỏi, một cách tốt"
+          },
+          {
+            "left": "badly",
+            "right": "một cách tệ, kém"
+          },
+          {
+            "left": "in a friendly way",
+            "right": "theo cách thân thiện"
+          },
+          {
+            "left": "the wrong way",
+            "right": "cách sai, sai cách"
+          },
+          {
+            "left": "the right way",
+            "right": "cách đúng, đúng cách"
+          },
+          {
+            "left": "manner",
+            "right": "cách thức, cách làm"
+          },
+          {
+            "left": "fast",
+            "right": "nhanh; một cách nhanh chóng"
+          }
+        ]
+      },
+      {
+        "id": "u54-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "slowly",
+          "loudly",
+          "quietly",
+          "well",
+          "badly",
+          "fast"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "Please speak ______; I can't understand fast speech.",
+            "hint_vi": "chậm rãi",
+            "answer": "slowly"
+          },
+          {
+            "id": "q2",
+            "sentence": "He was talking so ______ that everyone could hear him.",
+            "hint_vi": "to, lớn tiếng",
+            "answer": "loudly"
+          },
+          {
+            "id": "q3",
+            "sentence": "The baby is asleep, so please close the door ______.",
+            "hint_vi": "nhẹ nhàng",
+            "answer": "quietly"
+          },
+          {
+            "id": "q4",
+            "sentence": "She sings very ______; she has a beautiful voice.",
+            "hint_vi": "tốt, giỏi",
+            "answer": "well"
+          },
+          {
+            "id": "q5",
+            "sentence": "He played ______ today; he lost every game.",
+            "hint_vi": "kém, tệ",
+            "answer": "badly"
+          },
+          {
+            "id": "q6",
+            "sentence": "He can run very ______.",
+            "hint_vi": "nhanh",
+            "answer": "fast"
+          }
+        ]
+      },
+      {
+        "id": "u54-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the adverb form of 'good'?",
+            "options": [
+              "well",
+              "goodly",
+              "gooder",
+              "good"
+            ],
+            "answer": "well"
+          },
+          {
+            "id": "q2",
+            "question": "What is the adverb form of 'bad'?",
+            "options": [
+              "badly",
+              "bad",
+              "worse",
+              "baddly"
+            ],
+            "answer": "badly"
+          },
+          {
+            "id": "q3",
+            "question": "Which word can be both an adjective and an adverb without changing its form?",
+            "options": [
+              "fast",
+              "slow",
+              "quiet",
+              "loud"
+            ],
+            "answer": "fast"
+          },
+          {
+            "id": "q4",
+            "question": "Which phrase describes doing something in a kind, pleasant manner?",
+            "options": [
+              "in a friendly way",
+              "in an unfriendly way",
+              "the wrong way",
+              "badly"
+            ],
+            "answer": "in a friendly way"
+          },
+          {
+            "id": "q5",
+            "question": "'She speaks English well' — 'well' describes...",
+            "options": [
+              "how she speaks",
+              "when she speaks",
+              "where she speaks",
+              "why she speaks"
+            ],
+            "answer": "how she speaks"
+          },
+          {
+            "id": "q6",
+            "question": "Which is the correct adverb form of 'quiet'?",
+            "options": [
+              "quietly",
+              "quiet",
+              "quieter",
+              "quietness"
+            ],
+            "answer": "quietly"
+          }
+        ]
+      },
+      {
+        "id": "u54-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "\"Slowly\" is the adverb form of \"slow\".",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Good\" is the adverb form used with verbs, e.g. 'She sings good'.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Fast\" has the same form as adjective and adverb.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Loudly\" describes a quiet sound.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"In a friendly way\" and \"in an unfriendly way\" are opposites.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Badly\" is the adverb form of \"bad\".",
+            "answer": true
+          }
+        ]
+      },
+      {
+        "id": "u54-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "OYLWLS",
+            "answer": "SLOWLY"
+          },
+          {
+            "id": "q2",
+            "scrambled": "YTELUQI",
+            "answer": "QUIETLY"
+          },
+          {
+            "id": "q3",
+            "scrambled": "ULDLOY",
+            "answer": "LOUDLY"
+          },
+          {
+            "id": "q4",
+            "scrambled": "LABYD",
+            "answer": "BADLY"
+          },
+          {
+            "id": "q5",
+            "scrambled": "EILRFNYD",
+            "answer": "FRIENDLY"
+          },
+          {
+            "id": "q6",
+            "scrambled": "MAENNR",
+            "answer": "MANNER"
+          }
+        ]
+      }
+    ]
+  },
+  55: {
+    "unit": {
+      "id": "unit-55-uncountable-nouns",
+      "title": "Unit 55: Common uncountable nouns",
+      "level": "A1-A2",
+      "language_pair": {
+        "target": "en",
+        "native": "vi"
+      }
+    },
+    "exercises": [
+      {
+        "id": "u55-ex1-matching",
+        "type": "matching",
+        "title": "Nối từ với nghĩa",
+        "instructions_vi": "Nối mỗi từ ở cột trái với nghĩa đúng ở cột phải.",
+        "pairs": [
+          {
+            "left": "advice",
+            "right": "lời khuyên"
+          },
+          {
+            "left": "information",
+            "right": "thông tin"
+          },
+          {
+            "left": "furniture",
+            "right": "đồ nội thất"
+          },
+          {
+            "left": "luggage",
+            "right": "hành lý"
+          },
+          {
+            "left": "accommodation",
+            "right": "chỗ ở, nơi lưu trú"
+          },
+          {
+            "left": "traffic",
+            "right": "giao thông"
+          },
+          {
+            "left": "weather",
+            "right": "thời tiết"
+          },
+          {
+            "left": "news",
+            "right": "tin tức"
+          },
+          {
+            "left": "travel",
+            "right": "việc đi lại, du lịch"
+          },
+          {
+            "left": "countable",
+            "right": "đếm được"
+          }
+        ]
+      },
+      {
+        "id": "u55-ex2-fill-blank",
+        "type": "fill_in_the_blank",
+        "title": "Điền từ vào chỗ trống",
+        "instructions_vi": "Dùng các từ trong Word Bank để hoàn thành câu.",
+        "word_bank": [
+          "advice",
+          "information",
+          "furniture",
+          "luggage",
+          "traffic",
+          "weather",
+          "news",
+          "money"
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "sentence": "My teacher gave me some ______.",
+            "hint_vi": "lời khuyên",
+            "answer": "advice"
+          },
+          {
+            "id": "q2",
+            "sentence": "I need some ______ about the city.",
+            "hint_vi": "thông tin",
+            "answer": "information"
+          },
+          {
+            "id": "q3",
+            "sentence": "There is a lot of ______ in this room.",
+            "hint_vi": "đồ nội thất",
+            "answer": "furniture"
+          },
+          {
+            "id": "q4",
+            "sentence": "My ______ is very heavy.",
+            "hint_vi": "hành lý",
+            "answer": "luggage"
+          },
+          {
+            "id": "q5",
+            "sentence": "There is a lot of ______ today.",
+            "hint_vi": "giao thông",
+            "answer": "traffic"
+          },
+          {
+            "id": "q6",
+            "sentence": "The ______ is nice today.",
+            "hint_vi": "thời tiết",
+            "answer": "weather"
+          },
+          {
+            "id": "q7",
+            "sentence": "I have some good ______.",
+            "hint_vi": "tin tức",
+            "answer": "news"
+          },
+          {
+            "id": "q8",
+            "sentence": "I don't have much ______.",
+            "hint_vi": "tiền",
+            "answer": "money"
+          }
+        ]
+      },
+      {
+        "id": "u55-ex3-multiple-choice",
+        "type": "multiple_choice",
+        "title": "Trắc nghiệm",
+        "instructions_vi": "Chọn đáp án đúng nhất cho mỗi câu.",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which noun is uncountable?",
+            "options": [
+              "furniture",
+              "apple",
+              "shoe",
+              "plate"
+            ],
+            "answer": "furniture"
+          },
+          {
+            "id": "q2",
+            "question": "Which noun is countable?",
+            "options": [
+              "apple",
+              "advice",
+              "information",
+              "luggage"
+            ],
+            "answer": "apple"
+          },
+          {
+            "id": "q3",
+            "question": "Which is correct?",
+            "options": [
+              "a piece of advice",
+              "an advice",
+              "advices",
+              "some advices"
+            ],
+            "answer": "a piece of advice"
+          },
+          {
+            "id": "q4",
+            "question": "Which is correct?",
+            "options": [
+              "some information",
+              "an information",
+              "informations",
+              "many informations"
+            ],
+            "answer": "some information"
+          },
+          {
+            "id": "q5",
+            "question": "Which is correct?",
+            "options": [
+              "The news is good.",
+              "The news are good.",
+              "The news were good.",
+              "The news be good."
+            ],
+            "answer": "The news is good."
+          },
+          {
+            "id": "q6",
+            "question": "Which is correct?",
+            "options": [
+              "This furniture is old.",
+              "These furnitures are old.",
+              "This furnitures is old.",
+              "These furniture are old."
+            ],
+            "answer": "This furniture is old."
+          }
+        ]
+      },
+      {
+        "id": "u55-ex4-true-false",
+        "type": "true_false",
+        "title": "Đúng hay Sai",
+        "instructions_vi": "Xác định câu sau đúng hay sai.",
+        "questions": [
+          {
+            "id": "q1",
+            "statement": "Uncountable nouns usually don't have a plural form.",
+            "answer": true
+          },
+          {
+            "id": "q2",
+            "statement": "\"Advice\" is a countable noun, e.g. 'an advice'.",
+            "answer": false
+          },
+          {
+            "id": "q3",
+            "statement": "\"Rice\" is an uncountable noun.",
+            "answer": true
+          },
+          {
+            "id": "q4",
+            "statement": "\"Apple\" is an uncountable noun.",
+            "answer": false
+          },
+          {
+            "id": "q5",
+            "statement": "\"The news\" takes a singular verb: 'The news is...'.",
+            "answer": true
+          },
+          {
+            "id": "q6",
+            "statement": "\"Furniture\" can be used with 'a', e.g. 'a furniture'.",
+            "answer": false
+          }
+        ]
+      },
+      {
+        "id": "u55-ex5-unscramble",
+        "type": "unscramble",
+        "title": "Sắp xếp lại chữ cái",
+        "instructions_vi": "Sắp xếp lại các chữ cái để tạo thành từ đúng.",
+        "questions": [
+          {
+            "id": "q1",
+            "scrambled": "NIURFTRUE",
+            "answer": "FURNITURE"
+          },
+          {
+            "id": "q2",
+            "scrambled": "UGEAGLG",
+            "answer": "LUGGAGE"
+          },
+          {
+            "id": "q3",
+            "scrambled": "EDAIVC",
+            "answer": "ADVICE"
+          },
+          {
+            "id": "q4",
+            "scrambled": "WEAHTER",
+            "answer": "WEATHER"
+          },
+          {
+            "id": "q5",
+            "scrambled": "TNAOOAOMICDMC",
+            "answer": "ACCOMMODATION"
+          },
+          {
+            "id": "q6",
+            "scrambled": "PTHGIAETS",
+            "answer": "SPAGHETTI"
+          }
+        ]
+      }
+    ]
   }
 };

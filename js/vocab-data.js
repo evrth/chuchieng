@@ -10694,27 +10694,1208 @@ const VOCAB_UNITS = [
   {
     "id": 51,
     "title": "Days, months, seasons",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "time",
+        "ipa": "/taɪm/",
+        "meaning": "thời gian; thời điểm",
+        "example": "I don't have much time.",
+        "exampleVi": "Tôi không có nhiều thời gian."
+      },
+      {
+        "type": "Noun",
+        "word": "day",
+        "ipa": "/deɪ/",
+        "meaning": "ngày",
+        "example": "Today is a beautiful day.",
+        "exampleVi": "Hôm nay là một ngày đẹp trời."
+      },
+      {
+        "type": "Noun",
+        "word": "year",
+        "ipa": "/jɪr/",
+        "meaning": "năm",
+        "example": "I was born in 2000. That was more than twenty years ago.",
+        "exampleVi": "Tôi sinh năm 2000. Đó là hơn 20 năm trước."
+      },
+      {
+        "type": "Noun",
+        "word": "leap year",
+        "ipa": "/ˈliːp jɪr/",
+        "meaning": "năm nhuận",
+        "example": "2024 was a leap year.",
+        "exampleVi": "Năm 2024 là năm nhuận."
+      },
+      {
+        "type": "Noun",
+        "word": "month",
+        "ipa": "/mʌnθ/",
+        "meaning": "tháng",
+        "example": "There are twelve months in a year.",
+        "exampleVi": "Có mười hai tháng trong một năm."
+      },
+      {
+        "type": "Noun",
+        "word": "week",
+        "ipa": "/wiːk/",
+        "meaning": "tuần",
+        "example": "I go swimming twice a week.",
+        "exampleVi": "Tôi đi bơi hai lần một tuần."
+      },
+      {
+        "type": "Noun",
+        "word": "fortnight",
+        "ipa": "/ˈfɔːrtnaɪt/",
+        "meaning": "hai tuần",
+        "example": "We are going on holiday for a fortnight.",
+        "exampleVi": "Chúng tôi sẽ đi nghỉ trong hai tuần."
+      },
+      {
+        "type": "Noun",
+        "word": "hour",
+        "ipa": "/aʊər/",
+        "meaning": "giờ",
+        "example": "The lesson is one hour long.",
+        "exampleVi": "Buổi học kéo dài một giờ."
+      },
+      {
+        "type": "Noun",
+        "word": "minute",
+        "ipa": "/ˈmɪnɪt/",
+        "meaning": "phút",
+        "example": "Wait for five minutes, please.",
+        "exampleVi": "Vui lòng đợi năm phút."
+      },
+      {
+        "type": "Noun",
+        "word": "second",
+        "ipa": "/ˈsekənd/",
+        "meaning": "giây",
+        "example": "Wait a second, please.",
+        "exampleVi": "Vui lòng đợi một giây."
+      },
+      {
+        "type": "Noun",
+        "word": "century",
+        "ipa": "/ˈsentʃəri/",
+        "meaning": "thế kỷ",
+        "example": "This building is more than a century old.",
+        "exampleVi": "Tòa nhà này đã hơn một thế kỷ tuổi."
+      },
+      {
+        "type": "Noun",
+        "word": "Sunday",
+        "ipa": "/ˈsʌndeɪ/",
+        "meaning": "Chủ nhật",
+        "example": "I don't work on Sunday.",
+        "exampleVi": "Tôi không làm việc vào Chủ nhật."
+      },
+      {
+        "type": "Noun",
+        "word": "Monday",
+        "ipa": "/ˈmʌndeɪ/",
+        "meaning": "thứ Hai",
+        "example": "I go to work on Monday.",
+        "exampleVi": "Tôi đi làm vào thứ Hai."
+      },
+      {
+        "type": "Noun",
+        "word": "Tuesday",
+        "ipa": "/ˈtuːzdeɪ/",
+        "meaning": "thứ Ba",
+        "example": "We have English on Tuesday.",
+        "exampleVi": "Chúng tôi có môn tiếng Anh vào thứ Ba."
+      },
+      {
+        "type": "Noun",
+        "word": "Wednesday",
+        "ipa": "/ˈwenzdeɪ/",
+        "meaning": "thứ Tư",
+        "example": "I play tennis on Wednesday.",
+        "exampleVi": "Tôi chơi quần vợt vào thứ Tư."
+      },
+      {
+        "type": "Noun",
+        "word": "Thursday",
+        "ipa": "/ˈθɝːzdeɪ/",
+        "meaning": "thứ Năm",
+        "example": "She visits me on Thursday.",
+        "exampleVi": "Cô ấy thăm tôi vào thứ Năm."
+      },
+      {
+        "type": "Noun",
+        "word": "Friday",
+        "ipa": "/ˈfraɪdeɪ/",
+        "meaning": "thứ Sáu",
+        "example": "We finish work on Friday.",
+        "exampleVi": "Chúng tôi kết thúc công việc vào thứ Sáu."
+      },
+      {
+        "type": "Noun",
+        "word": "Saturday",
+        "ipa": "/ˈsætərdeɪ/",
+        "meaning": "thứ Bảy",
+        "example": "I clean the house on Saturday.",
+        "exampleVi": "Tôi dọn nhà vào thứ Bảy."
+      },
+      {
+        "type": "Phrase",
+        "word": "the day before yesterday",
+        "ipa": "/ðə deɪ bɪˈfɔːr ˈjestərdeɪ/",
+        "meaning": "ngày hôm kia",
+        "example": "I saw him the day before yesterday.",
+        "exampleVi": "Tôi gặp anh ấy hôm kia."
+      },
+      {
+        "type": "Adverb",
+        "word": "yesterday",
+        "ipa": "/ˈjestərdeɪ/",
+        "meaning": "hôm qua",
+        "example": "I stayed home yesterday.",
+        "exampleVi": "Hôm qua tôi ở nhà."
+      },
+      {
+        "type": "Adverb",
+        "word": "today",
+        "ipa": "/təˈdeɪ/",
+        "meaning": "hôm nay",
+        "example": "I am busy today.",
+        "exampleVi": "Hôm nay tôi bận."
+      },
+      {
+        "type": "Adverb",
+        "word": "tomorrow",
+        "ipa": "/təˈmɑːroʊ/",
+        "meaning": "ngày mai",
+        "example": "I will call you tomorrow.",
+        "exampleVi": "Tôi sẽ gọi cho bạn ngày mai."
+      },
+      {
+        "type": "Phrase",
+        "word": "the day after tomorrow",
+        "ipa": "/ðə deɪ ˈæftər təˈmɑːroʊ/",
+        "meaning": "ngày kia",
+        "example": "We will leave the day after tomorrow.",
+        "exampleVi": "Chúng tôi sẽ rời đi vào ngày kia."
+      },
+      {
+        "type": "Noun",
+        "word": "morning",
+        "ipa": "/ˈmɔːrnɪŋ/",
+        "meaning": "buổi sáng",
+        "example": "I drink coffee in the morning.",
+        "exampleVi": "Tôi uống cà phê vào buổi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "afternoon",
+        "ipa": "/ˌæftərˈnuːn/",
+        "meaning": "buổi chiều",
+        "example": "I work in the afternoon.",
+        "exampleVi": "Tôi làm việc vào buổi chiều."
+      },
+      {
+        "type": "Noun",
+        "word": "evening",
+        "ipa": "/ˈiːvnɪŋ/",
+        "meaning": "buổi tối",
+        "example": "We watch TV in the evening.",
+        "exampleVi": "Chúng tôi xem TV vào buổi tối."
+      },
+      {
+        "type": "Phrase",
+        "word": "at the weekend",
+        "ipa": "/ət ðə ˌwiːkˈend/",
+        "meaning": "vào cuối tuần",
+        "example": "I play football at the weekend.",
+        "exampleVi": "Tôi chơi bóng đá vào cuối tuần."
+      },
+      {
+        "type": "Noun",
+        "word": "season",
+        "ipa": "/ˈsiːzən/",
+        "meaning": "mùa",
+        "example": "Spring is my favorite season.",
+        "exampleVi": "Mùa xuân là mùa yêu thích của tôi."
+      },
+      {
+        "type": "Noun",
+        "word": "January",
+        "ipa": "/ˈdʒænjueri/",
+        "meaning": "tháng Một",
+        "example": "My birthday is in January.",
+        "exampleVi": "Sinh nhật tôi vào tháng Một."
+      },
+      {
+        "type": "Noun",
+        "word": "February",
+        "ipa": "/ˈfebrueri/",
+        "meaning": "tháng Hai",
+        "example": "February is a short month.",
+        "exampleVi": "Tháng Hai là một tháng ngắn."
+      },
+      {
+        "type": "Noun",
+        "word": "March",
+        "ipa": "/mɑːrtʃ/",
+        "meaning": "tháng Ba",
+        "example": "Spring starts in March.",
+        "exampleVi": "Mùa xuân bắt đầu vào tháng Ba."
+      },
+      {
+        "type": "Noun",
+        "word": "April",
+        "ipa": "/ˈeɪprəl/",
+        "meaning": "tháng Tư",
+        "example": "It often rains in April.",
+        "exampleVi": "Trời thường mưa vào tháng Tư."
+      },
+      {
+        "type": "Noun",
+        "word": "May",
+        "ipa": "/meɪ/",
+        "meaning": "tháng Năm",
+        "example": "My exams are in May.",
+        "exampleVi": "Các kỳ thi của tôi vào tháng Năm."
+      },
+      {
+        "type": "Noun",
+        "word": "June",
+        "ipa": "/dʒuːn/",
+        "meaning": "tháng Sáu",
+        "example": "Summer starts in June.",
+        "exampleVi": "Mùa hè bắt đầu vào tháng Sáu."
+      },
+      {
+        "type": "Noun",
+        "word": "July",
+        "ipa": "/dʒuˈlaɪ/",
+        "meaning": "tháng Bảy",
+        "example": "It is very hot in July.",
+        "exampleVi": "Tháng Bảy rất nóng."
+      },
+      {
+        "type": "Noun",
+        "word": "August",
+        "ipa": "/ˈɔːɡəst/",
+        "meaning": "tháng Tám",
+        "example": "We go on holiday in August.",
+        "exampleVi": "Chúng tôi đi nghỉ vào tháng Tám."
+      },
+      {
+        "type": "Noun",
+        "word": "September",
+        "ipa": "/sepˈtembər/",
+        "meaning": "tháng Chín",
+        "example": "School starts in September.",
+        "exampleVi": "Trường học bắt đầu vào tháng Chín."
+      },
+      {
+        "type": "Noun",
+        "word": "October",
+        "ipa": "/ɑːkˈtoʊbər/",
+        "meaning": "tháng Mười",
+        "example": "Halloween is in October.",
+        "exampleVi": "Halloween diễn ra vào tháng Mười."
+      },
+      {
+        "type": "Noun",
+        "word": "November",
+        "ipa": "/noʊˈvembər/",
+        "meaning": "tháng Mười Một",
+        "example": "It is cold in November.",
+        "exampleVi": "Trời lạnh vào tháng Mười Một."
+      },
+      {
+        "type": "Noun",
+        "word": "December",
+        "ipa": "/dɪˈsembər/",
+        "meaning": "tháng Mười Hai",
+        "example": "Christmas is in December.",
+        "exampleVi": "Giáng sinh vào tháng Mười Hai."
+      },
+      {
+        "type": "Noun",
+        "word": "spring",
+        "ipa": "/sprɪŋ/",
+        "meaning": "mùa xuân",
+        "example": "Flowers grow in spring.",
+        "exampleVi": "Hoa mọc vào mùa xuân."
+      },
+      {
+        "type": "Noun",
+        "word": "summer",
+        "ipa": "/ˈsʌmər/",
+        "meaning": "mùa hè",
+        "example": "We go swimming in summer.",
+        "exampleVi": "Chúng tôi đi bơi vào mùa hè."
+      },
+      {
+        "type": "Noun",
+        "word": "autumn",
+        "ipa": "/ˈɔːtəm/",
+        "meaning": "mùa thu",
+        "example": "The leaves fall in autumn.",
+        "exampleVi": "Lá rụng vào mùa thu."
+      },
+      {
+        "type": "Noun",
+        "word": "winter",
+        "ipa": "/ˈwɪntər/",
+        "meaning": "mùa đông",
+        "example": "It is cold in winter.",
+        "exampleVi": "Trời lạnh vào mùa đông."
+      }
+    ]
   },
   {
     "id": 52,
     "title": "Time words",
-    "words": []
+    "words": [
+      {
+        "type": "Adverb",
+        "word": "now",
+        "ipa": "/naʊ/",
+        "meaning": "bây giờ, hiện tại",
+        "example": "I am busy now.",
+        "exampleVi": "Bây giờ tôi đang bận."
+      },
+      {
+        "type": "Adverb",
+        "word": "then",
+        "ipa": "/ðen/",
+        "meaning": "lúc đó; sau đó",
+        "example": "I lived in London then.",
+        "exampleVi": "Lúc đó tôi sống ở London."
+      },
+      {
+        "type": "Adverb",
+        "word": "o'clock",
+        "ipa": "/əˈklɑːk/",
+        "meaning": "đúng giờ",
+        "example": "The class starts at nine o'clock.",
+        "exampleVi": "Lớp học bắt đầu lúc 9 giờ."
+      },
+      {
+        "type": "Adverb / Preposition",
+        "word": "ago",
+        "ipa": "/əˈɡoʊ/",
+        "meaning": "cách đây",
+        "example": "I saw him two days ago.",
+        "exampleVi": "Tôi gặp anh ấy cách đây hai ngày."
+      },
+      {
+        "type": "Preposition",
+        "word": "at",
+        "ipa": "/æt/",
+        "meaning": "vào, lúc",
+        "example": "I get up at seven.",
+        "exampleVi": "Tôi thức dậy lúc 7 giờ."
+      },
+      {
+        "type": "Determiner",
+        "word": "last",
+        "ipa": "/læst/",
+        "meaning": "trước, vừa qua",
+        "example": "I saw her last week.",
+        "exampleVi": "Tôi gặp cô ấy tuần trước."
+      },
+      {
+        "type": "Determiner",
+        "word": "next",
+        "ipa": "/nekst/",
+        "meaning": "tới, kế tiếp",
+        "example": "We are going on holiday next month.",
+        "exampleVi": "Chúng tôi sẽ đi nghỉ vào tháng tới."
+      },
+      {
+        "type": "Noun",
+        "word": "the past",
+        "ipa": "/ðə pæst/",
+        "meaning": "quá khứ",
+        "example": "We cannot change the past.",
+        "exampleVi": "Chúng ta không thể thay đổi quá khứ."
+      },
+      {
+        "type": "Noun",
+        "word": "the present",
+        "ipa": "/ðə ˈprezənt/",
+        "meaning": "hiện tại",
+        "example": "We should enjoy the present.",
+        "exampleVi": "Chúng ta nên tận hưởng hiện tại."
+      },
+      {
+        "type": "Noun",
+        "word": "the future",
+        "ipa": "/ðə ˈfjuːtʃər/",
+        "meaning": "tương lai",
+        "example": "I am thinking about the future.",
+        "exampleVi": "Tôi đang nghĩ về tương lai."
+      },
+      {
+        "type": "Phrase",
+        "word": "in the past",
+        "ipa": "/ɪn ðə pæst/",
+        "meaning": "trong quá khứ, trước đây",
+        "example": "People travelled less in the past.",
+        "exampleVi": "Trước đây mọi người đi lại ít hơn."
+      },
+      {
+        "type": "Adverb",
+        "word": "always",
+        "ipa": "/ˈɔːlweɪz/",
+        "meaning": "luôn luôn",
+        "example": "I always have breakfast.",
+        "exampleVi": "Tôi luôn ăn sáng."
+      },
+      {
+        "type": "Adverb",
+        "word": "usually",
+        "ipa": "/ˈjuːʒuəli/",
+        "meaning": "thường xuyên, thường",
+        "example": "I usually walk to work.",
+        "exampleVi": "Tôi thường đi bộ đến chỗ làm."
+      },
+      {
+        "type": "Adverb",
+        "word": "often",
+        "ipa": "/ˈɔːfən/",
+        "meaning": "thường xuyên",
+        "example": "We often watch TV together.",
+        "exampleVi": "Chúng tôi thường xem TV cùng nhau."
+      },
+      {
+        "type": "Adverb",
+        "word": "sometimes",
+        "ipa": "/ˈsʌmtaɪmz/",
+        "meaning": "thỉnh thoảng",
+        "example": "I sometimes drink coffee.",
+        "exampleVi": "Tôi thỉnh thoảng uống cà phê."
+      },
+      {
+        "type": "Adverb",
+        "word": "occasionally",
+        "ipa": "/əˈkeɪʒənəli/",
+        "meaning": "thỉnh thoảng, đôi khi",
+        "example": "We occasionally eat out.",
+        "exampleVi": "Thỉnh thoảng chúng tôi ăn ngoài."
+      },
+      {
+        "type": "Phrase",
+        "word": "not often",
+        "ipa": "/nɑːt ˈɔːfən/",
+        "meaning": "không thường xuyên",
+        "example": "I don't go there very often.",
+        "exampleVi": "Tôi không thường xuyên đến đó."
+      },
+      {
+        "type": "Adverb",
+        "word": "rarely",
+        "ipa": "/ˈrerli/",
+        "meaning": "hiếm khi",
+        "example": "I rarely eat fast food.",
+        "exampleVi": "Tôi hiếm khi ăn đồ ăn nhanh."
+      },
+      {
+        "type": "Adverb",
+        "word": "never",
+        "ipa": "/ˈnevər/",
+        "meaning": "không bao giờ",
+        "example": "I never smoke.",
+        "exampleVi": "Tôi không bao giờ hút thuốc."
+      },
+      {
+        "type": "Phrase",
+        "word": "once a week",
+        "ipa": "/wʌns ə wiːk/",
+        "meaning": "một lần một tuần",
+        "example": "I play tennis once a week.",
+        "exampleVi": "Tôi chơi quần vợt một lần một tuần."
+      },
+      {
+        "type": "Phrase",
+        "word": "twice a day",
+        "ipa": "/twaɪs ə deɪ/",
+        "meaning": "hai lần một ngày",
+        "example": "I brush my teeth twice a day.",
+        "exampleVi": "Tôi đánh răng hai lần một ngày."
+      },
+      {
+        "type": "Phrase",
+        "word": "three times a year",
+        "ipa": "/θriː taɪmz ə jɪr/",
+        "meaning": "ba lần một năm",
+        "example": "We visit them three times a year.",
+        "exampleVi": "Chúng tôi thăm họ ba lần một năm."
+      },
+      {
+        "type": "Phrase",
+        "word": "four times a month",
+        "ipa": "/fɔːr taɪmz ə mʌnθ/",
+        "meaning": "bốn lần một tháng",
+        "example": "I go swimming four times a month.",
+        "exampleVi": "Tôi đi bơi bốn lần một tháng."
+      },
+      {
+        "type": "Phrase",
+        "word": "in a moment",
+        "ipa": "/ɪn ə ˈmoʊmənt/",
+        "meaning": "trong chốc lát, ngay sau đây",
+        "example": "I'll be ready in a moment.",
+        "exampleVi": "Tôi sẽ sẵn sàng ngay sau đây."
+      },
+      {
+        "type": "Phrase",
+        "word": "at the moment",
+        "ipa": "/æt ðə ˈmoʊmənt/",
+        "meaning": "hiện tại, lúc này",
+        "example": "I'm busy at the moment.",
+        "exampleVi": "Hiện tại tôi đang bận."
+      },
+      {
+        "type": "Adverb",
+        "word": "soon",
+        "ipa": "/suːn/",
+        "meaning": "sớm, chẳng bao lâu nữa",
+        "example": "See you soon!",
+        "exampleVi": "Hẹn gặp bạn sớm!"
+      },
+      {
+        "type": "Adverb",
+        "word": "recently",
+        "ipa": "/ˈriːsəntli/",
+        "meaning": "gần đây",
+        "example": "I have recently started a new job.",
+        "exampleVi": "Gần đây tôi bắt đầu một công việc mới."
+      }
+    ]
   },
   {
     "id": 53,
     "title": "Places",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "place",
+        "ipa": "/pleɪs/",
+        "meaning": "nơi, địa điểm",
+        "example": "This is a nice place.",
+        "exampleVi": "Đây là một nơi đẹp."
+      },
+      {
+        "type": "Adverb",
+        "word": "here",
+        "ipa": "/hɪr/",
+        "meaning": "ở đây",
+        "example": "Come here, please.",
+        "exampleVi": "Làm ơn đến đây."
+      },
+      {
+        "type": "Adverb",
+        "word": "there",
+        "ipa": "/ðer/",
+        "meaning": "ở đó, ở kia",
+        "example": "Put the bag there.",
+        "exampleVi": "Đặt cái túi ở đó."
+      },
+      {
+        "type": "Adverb",
+        "word": "back",
+        "ipa": "/bæk/",
+        "meaning": "trở lại; phía sau",
+        "example": "I am back home now.",
+        "exampleVi": "Bây giờ tôi đã trở về nhà."
+      },
+      {
+        "type": "Adverb",
+        "word": "everywhere",
+        "ipa": "/ˈevriwer/",
+        "meaning": "mọi nơi, khắp nơi",
+        "example": "I looked everywhere for my keys.",
+        "exampleVi": "Tôi đã tìm chìa khóa khắp nơi."
+      },
+      {
+        "type": "Phrase",
+        "word": "in the kitchen",
+        "ipa": "/ɪn ðə ˈkɪtʃən/",
+        "meaning": "trong nhà bếp",
+        "example": "Mum is in the kitchen.",
+        "exampleVi": "Mẹ đang ở trong bếp."
+      },
+      {
+        "type": "Phrase",
+        "word": "in the village",
+        "ipa": "/ɪn ðə ˈvɪlɪdʒ/",
+        "meaning": "trong làng",
+        "example": "My grandparents live in the village.",
+        "exampleVi": "Ông bà tôi sống trong làng."
+      },
+      {
+        "type": "Phrase",
+        "word": "in Seoul",
+        "ipa": "/ɪn soʊl/",
+        "meaning": "ở Seoul",
+        "example": "My friend lives in Seoul.",
+        "exampleVi": "Bạn tôi sống ở Seoul."
+      },
+      {
+        "type": "Phrase",
+        "word": "in South Korea",
+        "ipa": "/ɪn ˌsaʊθ kəˈriːə/",
+        "meaning": "ở Hàn Quốc",
+        "example": "She lives in South Korea.",
+        "exampleVi": "Cô ấy sống ở Hàn Quốc."
+      },
+      {
+        "type": "Phrase",
+        "word": "in Asia",
+        "ipa": "/ɪn ˈeɪʒə/",
+        "meaning": "ở châu Á",
+        "example": "Japan is in Asia.",
+        "exampleVi": "Nhật Bản ở châu Á."
+      },
+      {
+        "type": "Phrase",
+        "word": "at the station",
+        "ipa": "/æt ðə ˈsteɪʃən/",
+        "meaning": "ở nhà ga",
+        "example": "I'll meet you at the station.",
+        "exampleVi": "Tôi sẽ gặp bạn ở nhà ga."
+      },
+      {
+        "type": "Phrase",
+        "word": "at the front of the class",
+        "ipa": "/æt ðə frʌnt əv ðə klæs/",
+        "meaning": "ở phía trước lớp",
+        "example": "The teacher is at the front of the class.",
+        "exampleVi": "Giáo viên ở phía trước lớp."
+      },
+      {
+        "type": "Phrase",
+        "word": "on the wall",
+        "ipa": "/ɑːn ðə wɔːl/",
+        "meaning": "trên tường",
+        "example": "There is a picture on the wall.",
+        "exampleVi": "Có một bức tranh trên tường."
+      },
+      {
+        "type": "Phrase",
+        "word": "on the chair",
+        "ipa": "/ɑːn ðə tʃer/",
+        "meaning": "trên ghế",
+        "example": "My bag is on the chair.",
+        "exampleVi": "Túi của tôi ở trên ghế."
+      },
+      {
+        "type": "Phrase",
+        "word": "on it",
+        "ipa": "/ɑːn ɪt/",
+        "meaning": "trên đó",
+        "example": "There is a name on it.",
+        "exampleVi": "Có một cái tên trên đó."
+      },
+      {
+        "type": "Noun",
+        "word": "top",
+        "ipa": "/tɑːp/",
+        "meaning": "phía trên, đỉnh",
+        "example": "The book is at the top of the box.",
+        "exampleVi": "Quyển sách ở phía trên cùng của hộp."
+      },
+      {
+        "type": "Phrase",
+        "word": "the middle of",
+        "ipa": "/ðə ˈmɪdl əv/",
+        "meaning": "ở giữa",
+        "example": "She is in the middle of the room.",
+        "exampleVi": "Cô ấy ở giữa căn phòng."
+      },
+      {
+        "type": "Phrase",
+        "word": "the bottom of",
+        "ipa": "/ðə ˈbɑːtəm əv/",
+        "meaning": "phía dưới cùng",
+        "example": "My name is at the bottom of the page.",
+        "exampleVi": "Tên tôi ở cuối trang."
+      },
+      {
+        "type": "Phrase",
+        "word": "front of",
+        "ipa": "/frʌnt əv/",
+        "meaning": "phía trước",
+        "example": "The car is in front of the house.",
+        "exampleVi": "Chiếc xe ở phía trước ngôi nhà."
+      },
+      {
+        "type": "Phrase",
+        "word": "side of",
+        "ipa": "/saɪd əv/",
+        "meaning": "bên cạnh, phía bên",
+        "example": "There is a door at the side of the house.",
+        "exampleVi": "Có một cánh cửa ở bên hông ngôi nhà."
+      },
+      {
+        "type": "Phrase",
+        "word": "back of",
+        "ipa": "/bæk əv/",
+        "meaning": "phía sau",
+        "example": "He is at the back of the room.",
+        "exampleVi": "Anh ấy ở phía sau căn phòng."
+      },
+      {
+        "type": "Noun",
+        "word": "beginning",
+        "ipa": "/bɪˈɡɪnɪŋ/",
+        "meaning": "phần đầu, sự bắt đầu",
+        "example": "We are at the beginning of the road.",
+        "exampleVi": "Chúng tôi đang ở đầu con đường."
+      },
+      {
+        "type": "Phrase",
+        "word": "the end of",
+        "ipa": "/ði end əv/",
+        "meaning": "cuối, phần cuối",
+        "example": "The shop is at the end of the street.",
+        "exampleVi": "Cửa hàng ở cuối phố."
+      },
+      {
+        "type": "Phrase",
+        "word": "on the left",
+        "ipa": "/ɑːn ðə left/",
+        "meaning": "ở bên trái",
+        "example": "The bank is on the left.",
+        "exampleVi": "Ngân hàng ở bên trái."
+      },
+      {
+        "type": "Phrase",
+        "word": "on the right",
+        "ipa": "/ɑːn ðə raɪt/",
+        "meaning": "ở bên phải",
+        "example": "The school is on the right.",
+        "exampleVi": "Trường học ở bên phải."
+      },
+      {
+        "type": "Phrase",
+        "word": "at home",
+        "ipa": "/ət hoʊm/",
+        "meaning": "ở nhà",
+        "example": "I am at home today.",
+        "exampleVi": "Hôm nay tôi ở nhà."
+      },
+      {
+        "type": "Adverb",
+        "word": "out",
+        "ipa": "/aʊt/",
+        "meaning": "ra ngoài, ở bên ngoài",
+        "example": "The children are out.",
+        "exampleVi": "Bọn trẻ đang ở bên ngoài."
+      },
+      {
+        "type": "Adverb",
+        "word": "away",
+        "ipa": "/əˈweɪ/",
+        "meaning": "xa, đi khỏi",
+        "example": "My parents are away this week.",
+        "exampleVi": "Bố mẹ tôi đi vắng tuần này."
+      },
+      {
+        "type": "Adverb",
+        "word": "abroad",
+        "ipa": "/əˈbrɔːd/",
+        "meaning": "ở nước ngoài, ra nước ngoài",
+        "example": "She wants to study abroad.",
+        "exampleVi": "Cô ấy muốn du học."
+      }
+    ]
   },
   {
     "id": 54,
     "title": "Manner",
-    "words": []
+    "words": [
+      {
+        "type": "Noun",
+        "word": "manner",
+        "ipa": "/ˈmænər/",
+        "meaning": "cách thức, cách làm; thái độ/cách cư xử",
+        "example": "He spoke in a polite manner.",
+        "exampleVi": "Anh ấy nói chuyện một cách lịch sự."
+      },
+      {
+        "type": "Adjective / Adverb",
+        "word": "fast",
+        "ipa": "/fæst/",
+        "meaning": "nhanh; một cách nhanh chóng",
+        "example": "The car is very fast.",
+        "exampleVi": "Chiếc xe rất nhanh."
+      },
+      {
+        "type": "Adjective",
+        "word": "slow",
+        "ipa": "/sloʊ/",
+        "meaning": "chậm",
+        "example": "The bus is slow today.",
+        "exampleVi": "Hôm nay xe buýt chạy chậm."
+      },
+      {
+        "type": "Adverb",
+        "word": "slowly",
+        "ipa": "/ˈsloʊli/",
+        "meaning": "một cách chậm rãi",
+        "example": "Please speak slowly.",
+        "exampleVi": "Làm ơn nói chậm."
+      },
+      {
+        "type": "Adjective",
+        "word": "loud",
+        "ipa": "/laʊd/",
+        "meaning": "to, lớn (âm thanh)",
+        "example": "The music is too loud.",
+        "exampleVi": "Nhạc quá to."
+      },
+      {
+        "type": "Adjective",
+        "word": "quiet",
+        "ipa": "/ˈkwaɪət/",
+        "meaning": "yên lặng, im lặng",
+        "example": "This room is very quiet.",
+        "exampleVi": "Căn phòng này rất yên tĩnh."
+      },
+      {
+        "type": "Adverb",
+        "word": "loudly",
+        "ipa": "/ˈlaʊdli/",
+        "meaning": "một cách to, lớn tiếng",
+        "example": "They are talking loudly.",
+        "exampleVi": "Họ đang nói chuyện lớn tiếng."
+      },
+      {
+        "type": "Adverb",
+        "word": "quietly",
+        "ipa": "/ˈkwaɪətli/",
+        "meaning": "một cách yên lặng, nhỏ nhẹ",
+        "example": "Please close the door quietly.",
+        "exampleVi": "Làm ơn đóng cửa nhẹ nhàng."
+      },
+      {
+        "type": "Adjective",
+        "word": "good",
+        "ipa": "/ɡʊd/",
+        "meaning": "tốt, giỏi",
+        "example": "She is a good student.",
+        "exampleVi": "Cô ấy là một học sinh giỏi."
+      },
+      {
+        "type": "Adverb",
+        "word": "well",
+        "ipa": "/wel/",
+        "meaning": "tốt, giỏi, một cách tốt",
+        "example": "She speaks English well.",
+        "exampleVi": "Cô ấy nói tiếng Anh tốt."
+      },
+      {
+        "type": "Adjective",
+        "word": "bad",
+        "ipa": "/bæd/",
+        "meaning": "xấu, tệ",
+        "example": "It was a bad day.",
+        "exampleVi": "Đó là một ngày tồi tệ."
+      },
+      {
+        "type": "Adverb",
+        "word": "badly",
+        "ipa": "/ˈbædli/",
+        "meaning": "một cách tệ, kém",
+        "example": "He played badly today.",
+        "exampleVi": "Hôm nay anh ấy chơi rất tệ."
+      },
+      {
+        "type": "Adjective / Adverb",
+        "word": "right",
+        "ipa": "/raɪt/",
+        "meaning": "đúng; đúng cách",
+        "example": "You did it right.",
+        "exampleVi": "Bạn đã làm đúng."
+      },
+      {
+        "type": "Adjective / Adverb",
+        "word": "wrong",
+        "ipa": "/rɔːŋ/",
+        "meaning": "sai; sai cách",
+        "example": "You are doing it wrong.",
+        "exampleVi": "Bạn đang làm sai cách."
+      },
+      {
+        "type": "Phrase",
+        "word": "in a friendly way",
+        "ipa": "/ɪn ə ˈfrendli weɪ/",
+        "meaning": "theo cách thân thiện",
+        "example": "She spoke to me in a friendly way.",
+        "exampleVi": "Cô ấy nói chuyện với tôi một cách thân thiện."
+      },
+      {
+        "type": "Phrase",
+        "word": "in an unfriendly way",
+        "ipa": "/ɪn ən ʌnˈfrendli weɪ/",
+        "meaning": "theo cách không thân thiện",
+        "example": "He answered me in an unfriendly way.",
+        "exampleVi": "Anh ấy trả lời tôi một cách không thân thiện."
+      },
+      {
+        "type": "Phrase",
+        "word": "the wrong way",
+        "ipa": "/ðə rɔːŋ weɪ/",
+        "meaning": "cách sai, sai cách",
+        "example": "You are doing it the wrong way.",
+        "exampleVi": "Bạn đang làm việc đó sai cách."
+      },
+      {
+        "type": "Phrase",
+        "word": "the right way",
+        "ipa": "/ðə raɪt weɪ/",
+        "meaning": "cách đúng, đúng cách",
+        "example": "Show me the right way.",
+        "exampleVi": "Hãy chỉ cho tôi cách đúng."
+      }
+    ]
   },
   {
     "id": 55,
     "title": "Common uncountable nouns",
-    "words": []
+    "words": [
+      {
+        "type": "Adjective",
+        "word": "countable",
+        "ipa": "/ˈkaʊntəbl/",
+        "meaning": "đếm được",
+        "example": "An apple is a countable noun.",
+        "exampleVi": "\"Apple\" là một danh từ đếm được."
+      },
+      {
+        "type": "Noun",
+        "word": "apple",
+        "ipa": "/ˈæpəl/",
+        "meaning": "quả táo",
+        "example": "I have three apples.",
+        "exampleVi": "Tôi có ba quả táo."
+      },
+      {
+        "type": "Noun",
+        "word": "shoe",
+        "ipa": "/ʃuː/",
+        "meaning": "giày",
+        "example": "I bought two shoes.",
+        "exampleVi": "Tôi đã mua hai chiếc giày."
+      },
+      {
+        "type": "Noun",
+        "word": "plate",
+        "ipa": "/pleɪt/",
+        "meaning": "cái đĩa",
+        "example": "There are four plates on the table.",
+        "exampleVi": "Có bốn cái đĩa trên bàn."
+      },
+      {
+        "type": "Adjective",
+        "word": "uncountable",
+        "ipa": "/ʌnˈkaʊntəbl/",
+        "meaning": "không đếm được",
+        "example": "Rice is an uncountable noun.",
+        "exampleVi": "\"Rice\" là một danh từ không đếm được."
+      },
+      {
+        "type": "Noun",
+        "word": "sugar",
+        "ipa": "/ˈʃʊɡər/",
+        "meaning": "đường",
+        "example": "I don't want much sugar.",
+        "exampleVi": "Tôi không muốn nhiều đường."
+      },
+      {
+        "type": "Noun",
+        "word": "money",
+        "ipa": "/ˈmʌni/",
+        "meaning": "tiền",
+        "example": "I don't have much money.",
+        "exampleVi": "Tôi không có nhiều tiền."
+      },
+      {
+        "type": "Noun",
+        "word": "luggage",
+        "ipa": "/ˈlʌɡɪdʒ/",
+        "meaning": "hành lý",
+        "example": "My luggage is very heavy.",
+        "exampleVi": "Hành lý của tôi rất nặng."
+      },
+      {
+        "type": "Noun",
+        "word": "furniture",
+        "ipa": "/ˈfɜːrnɪtʃər/",
+        "meaning": "đồ nội thất",
+        "example": "There is a lot of furniture here.",
+        "exampleVi": "Có rất nhiều đồ nội thất ở đây."
+      },
+      {
+        "type": "Noun",
+        "word": "traffic",
+        "ipa": "/ˈtræfɪk/",
+        "meaning": "giao thông",
+        "example": "There is a lot of traffic today.",
+        "exampleVi": "Hôm nay giao thông rất đông."
+      },
+      {
+        "type": "Noun",
+        "word": "advice",
+        "ipa": "/ədˈvaɪs/",
+        "meaning": "lời khuyên",
+        "example": "My teacher gave me some advice.",
+        "exampleVi": "Giáo viên đã cho tôi một số lời khuyên."
+      },
+      {
+        "type": "Noun",
+        "word": "information",
+        "ipa": "/ˌɪnfərˈmeɪʃən/",
+        "meaning": "thông tin",
+        "example": "I need some information.",
+        "exampleVi": "Tôi cần một số thông tin."
+      },
+      {
+        "type": "Noun",
+        "word": "news",
+        "ipa": "/nuːz/",
+        "meaning": "tin tức",
+        "example": "I have some good news.",
+        "exampleVi": "Tôi có một tin tốt."
+      },
+      {
+        "type": "Noun",
+        "word": "weather",
+        "ipa": "/ˈweðər/",
+        "meaning": "thời tiết",
+        "example": "The weather is nice today.",
+        "exampleVi": "Thời tiết hôm nay đẹp."
+      },
+      {
+        "type": "Noun",
+        "word": "accommodation",
+        "ipa": "/əˌkɑːməˈdeɪʃən/",
+        "meaning": "chỗ ở, nơi lưu trú",
+        "example": "We need cheap accommodation.",
+        "exampleVi": "Chúng tôi cần chỗ ở giá rẻ."
+      },
+      {
+        "type": "Noun",
+        "word": "air",
+        "ipa": "/er/",
+        "meaning": "không khí",
+        "example": "The air is clean here.",
+        "exampleVi": "Không khí ở đây trong lành."
+      },
+      {
+        "type": "Noun",
+        "word": "work",
+        "ipa": "/wɜːrk/",
+        "meaning": "công việc",
+        "example": "I have a lot of work today.",
+        "exampleVi": "Hôm nay tôi có nhiều việc."
+      },
+      {
+        "type": "Noun",
+        "word": "travel",
+        "ipa": "/ˈtrævəl/",
+        "meaning": "việc đi lại, du lịch",
+        "example": "I love travel.",
+        "exampleVi": "Tôi thích du lịch."
+      },
+      {
+        "type": "Noun",
+        "word": "rice",
+        "ipa": "/raɪs/",
+        "meaning": "gạo, cơm",
+        "example": "We eat rice every day.",
+        "exampleVi": "Chúng tôi ăn cơm mỗi ngày."
+      },
+      {
+        "type": "Noun",
+        "word": "spaghetti",
+        "ipa": "/spəˈɡeti/",
+        "meaning": "mì Ý",
+        "example": "I like spaghetti.",
+        "exampleVi": "Tôi thích mì Ý."
+      },
+      {
+        "type": "Noun",
+        "word": "butter",
+        "ipa": "/ˈbʌtər/",
+        "meaning": "bơ",
+        "example": "Put some butter on the bread.",
+        "exampleVi": "Phết một ít bơ lên bánh mì."
+      },
+      {
+        "type": "Noun",
+        "word": "bread",
+        "ipa": "/bred/",
+        "meaning": "bánh mì",
+        "example": "I bought some bread.",
+        "exampleVi": "Tôi đã mua một ít bánh mì."
+      },
+      {
+        "type": "Noun",
+        "word": "milk",
+        "ipa": "/mɪlk/",
+        "meaning": "sữa",
+        "example": "She drinks milk every morning.",
+        "exampleVi": "Cô ấy uống sữa mỗi sáng."
+      },
+      {
+        "type": "Noun",
+        "word": "water",
+        "ipa": "/ˈwɔːtər/",
+        "meaning": "nước",
+        "example": "Can I have some water?",
+        "exampleVi": "Tôi có thể xin một ít nước không?"
+      },
+      {
+        "type": "Noun",
+        "word": "tea",
+        "ipa": "/tiː/",
+        "meaning": "trà",
+        "example": "Would you like some tea?",
+        "exampleVi": "Bạn có muốn một ít trà không?"
+      },
+      {
+        "type": "Noun",
+        "word": "coffee",
+        "ipa": "/ˈkɔːfi/",
+        "meaning": "cà phê",
+        "example": "I drink coffee every morning.",
+        "exampleVi": "Tôi uống cà phê mỗi sáng."
+      },
+      {
+        "type": "Phrase",
+        "word": "two loaves of bread",
+        "ipa": "/tuː loʊvz əv bred/",
+        "meaning": "hai ổ bánh mì",
+        "example": "We need two loaves of bread.",
+        "exampleVi": "Chúng tôi cần hai ổ bánh mì."
+      },
+      {
+        "type": "Phrase",
+        "word": "three litres of milk",
+        "ipa": "/θriː ˈliːtərz əv mɪlk/",
+        "meaning": "ba lít sữa",
+        "example": "I bought three litres of milk.",
+        "exampleVi": "Tôi đã mua ba lít sữa."
+      },
+      {
+        "type": "Phrase",
+        "word": "a kilo of rice",
+        "ipa": "/ə ˈkiːloʊ əv raɪs/",
+        "meaning": "một ki-lô-gam gạo",
+        "example": "We need a kilo of rice.",
+        "exampleVi": "Chúng tôi cần một ki-lô-gam gạo."
+      }
+    ]
   },
   {
     "id": 56,
