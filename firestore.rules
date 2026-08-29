@@ -1,0 +1,22 @@
+rules_version = '2';
+
+// ============================================================
+// LUẬT BẢO MẬT FIRESTORE — ChuchiEng Cloud Sync
+// ============================================================
+// Ý nghĩa: mỗi người dùng CHỈ được đọc/ghi đúng 1 tài liệu (document)
+// mang tên bằng chính uid tài khoản của họ. Không ai đọc/ghi được
+// dữ liệu của người khác, kể cả khi biết địa chỉ collection.
+//
+// Cách áp dụng:
+//   1. Vào Firebase Console > Firestore Database > tab "Rules"
+//   2. Xoá hết nội dung mặc định, dán toàn bộ nội dung file này vào
+//   3. Bấm "Publish"
+// ============================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /chuchieng_users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
